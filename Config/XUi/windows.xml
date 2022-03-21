@@ -1,0 +1,9 @@
+<Scomar82_MunitionZerlegen>
+	
+	<!-- 图标添加到技能菜单-->
+	<set xpath="/windows/window[@name='windowCraftingList']/panel[@name='content']/rect[@name='categorySelector']/grid[@name='categories']/@cols">20</set>
+	<set xpath="/windows/window[@name='windowCraftingList']/panel[@name='content']/rect[@name='categorySelector']/grid[@name='categories']/@cell_width">30</set>
+	<append xpath="/windows">
+		
+	</append>
+</Scomar82_MunitionZerlegen>

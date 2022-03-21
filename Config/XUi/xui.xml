@@ -1,0 +1,65 @@
+<configs>
+<!-- 合成台必要 -->
+<append xpath="/xui/ruleset[@name='default']">
+		
+		<window_group name="workstation_workbench1" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
+		
+		<window_group name="workstation_源能 融合师" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>	
+
+		
+		<window_group name="workstation_源能 共震合成师" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>	
+		
+		<window_group name="workstation_源能 制造师" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>	
+		
+		<window_group name="workstation_源能 合成师" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>	
+		
+		<window_group name="workstation_源能 磨粉师" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
+		
+		
+</append>
+<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+		<window name="MOTULogo" anchor="RightTop" />
+	</append>
+</configs>
