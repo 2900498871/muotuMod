@@ -38431,22 +38431,7 @@ needed?
 	</effect_group>
 </item>
 
-<item name="[ADFF2F]☆[00FFFF]随从">
-	<property name="CustomIcon" value="gunBotT3JunkDrone"/>	
-	<property name="Extends" value="vehicleMinibikePlaceable"/>
-	<property name="Tags" value="vehicle,canHaveCosmetic"/>
-	<property name="DescriptionKey" value="vehiclePlaceableBicycleDesc"/>
-	<property name="Meshfile" value="Entities/Electrical/battery_bankPrefab"/>
-	<property name="EconomicValue" value="2500"/>
-	<property class="Action1">
-		<property name="Vehicle" value="[ADFF2F]☆[FF1493]随从：娇恩"/>
-	</property>
-	<effect_group name="vehicleBicyclePlaceable" tiered="false">
-		<passive_effect name="ModSlots" operation="base_set" value="2"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1500"/>
-	</effect_group>
-</item>
+
 
 <item name="辅助无人机2">
 	<property name="CustomIcon" value="gunBotT3JunkDrone" />

@@ -89,7 +89,7 @@
 		<entity name="[FFD306]SSS级 变异猪" prob="0.1" />
 		<entity name="[FFD306]SSS级 大变异猪" prob="0.1" />
 		
-		<entity name="[FF0033]GOD级 变异熊" prob="0.08" />
+
 		<entity name="[FF0033]GOD级 变异狮" prob="0.08" />
 		<entity name="[FF0033]GOD级僵尸 半身僵尸" prob="0.08" />
 		<entity name="[FF0033]GOD级僵尸 尖叫僵尸" prob="0.08" />
@@ -166,7 +166,7 @@
 		<entity name="[FFD306]SSS级 变异猪" prob="0.1" />
 		<entity name="[FFD306]SSS级 大变异猪" prob="0.1" />
 		
-		<entity name="[FF0033]GOD级 变异熊" prob="0.1" />
+
 		<entity name="[FF0033]GOD级 变异狮" prob="0.1" />
 		<entity name="[FF0033]GOD级僵尸 半身僵尸" prob="0.1" />
 		<entity name="[FF0033]GOD级僵尸 尖叫僵尸" prob="0.1" />
@@ -200,8 +200,7 @@
 		
 		<entity name="[FFD306]SSS级僵尸 尖叫僵尸" prob="0.1" />
 		<entity name="[FFD306]SSS级僵尸 快速僵尸" prob="0.1" />
-		
-		<entity name="[FF0033]GOD级 变异熊" prob="0.08" />
+
 		<entity name="[FF0033]GOD级 变异狮" prob="0.08" />
 		
 		<entity name="[FF0033]GOD级僵尸 半身僵尸" prob="0.08" />

@@ -1869,7 +1869,7 @@
 	</effect_group>
 </entity_class>
 
-<entity_class name="animal SSS" extends="animal00">
+<entity_class name="animal SSS" extends="animalBear">
 	<property name="Tags" value="entity,animal,hostile"/>
 	
 	<property name="Buffs" value="SSS领域"/>
@@ -2092,68 +2092,6 @@
 
 </entity_class>
 
-<entity_class name="[FF0033]GOD级 变异熊" extends="animal SSS">
-	<property name="Tags" value="entity,animal,SSS级,hostile,bear,perkAT03"/>
-	<property name="Prefab" value="/Entities/Animals/Bear/animalBearStandardRagdoll"/>
-	<property name="MapIcon" value="ui_game_symbol_tracking_bear"/>
-	<property name="TrackerIcon" value="ui_game_symbol_tracking_bear"/>
-	<property name="AvatarController" value="AvatarAnimalController"/>
-	<property name="ModelType" value="Standard"/>
-	<property name="HasRagdoll" value="true"/>
-	<property name="HasDeathAnim" value="true"/>
-	<property name="RootMotion" value="true"/>
-	<property name="RagdollOnDeathChance" value=".5"/>
-	<property name="PhysicsBody" value="bear"/>
-	<property name="Mass" value="600"/>
-
-	<property name="AITask-1" value="BreakBlock"/>
-	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=2;duration=5"/>
-	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityZombie,0,EntityPlayer"/>
-	<property name="AITask-4" value="ApproachSpot"/>
-	<property name="AITask-5" value="Look"/>
-	<property name="AITask-6" value="Wander"/>
-	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
-	<property name="HandItem" value="SSS级动物武器熊"/>
-
-	<property name="SoundHurt" value="Animals/Bear/bearpain"/>
-	<property name="SoundDeath" value="Animals/Bear/beardeath"/>
-	<property name="SoundRandom" value="Animals/Bear/bearroam"/>
-	<property name="SoundSense" value="Animals/Bear/bearsense"/>
-	<property name="SoundAlert" value="Animals/Bear/bearalert"/>
-	<property name="SoundAttack" value="Animals/Bear/bearattack"/>
-	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
-	<property name="SoundGiveUp" value="Animals/Bear/beargiveup"/>
-
-	<!-- Gameplay  -->
-	<property name="PainResistPerHit" value="1"/>
-	<property name="ExperienceGain" value="1500"/><!-- XP strong -->
-	<property name="DeadBodyHitPoints" value="600"/>
-
-	
-	<property name="LootDropProb" value="1"/> 
-	<property name="LootDropEntityClass" value="BeibaoGOD"/>
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/soldier_Zombie_radiated.mat"/>
-
-
-	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
-	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
-	<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
-	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
-	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
-	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
-
-	<property name="NavObject" value="animaltracking_bear,clear_sleeper" />
-	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="10000000"/>
-		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
-		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="hellbearDeco"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_add" value="30"/>
-	</effect_group>
-</entity_class>
 <entity_class name="[FF0033]GOD级 变异狮" extends="[FFD306]SSS级 变异狼">
 	<property name="Tags" value="entity,animal,SSS级,hostile,mountainlion,perkAT03"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
@@ -3890,32 +3828,7 @@
 			<requirement name="HasBuff" buff="buffBrawlerNoTeeth"/></triggered_effect>
 	</effect_group>
 </entity_class>
-<entity_class name="[ADFF2F]☆[FF1493]随从：娇恩" extends="随从">
-	<property name="SizeScale" value="0.97"/>
-	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Entities/Electrical/battery_bankPrefab"/>
-		<!--<property name="Mesh" value="#Entities/Zombies?Prefabs/ZMarlene.prefab"/>-->
-	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
-	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
-	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
-	<property name="SoundHurt" value="Enemies/Base_Zombie_Female2/zombiefemale2pain"/>
-	<property name="SoundDeath" value="Enemies/Base_Zombie_Female2/zombiefemale2death"/>
-	<property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense"/>
-	<property name="AvatarController" value="AvatarZombie01Controller"/>
-	<property name="ModelType" value="Standard"/>
-	<property name="WalkType" value="5"/>
-	<property name="RootMotion" value="true"/>
-	<property name="HasDeathAnim" value="true"/>
-	<property name="TintMaterial2" value="41,25,25"/>
-	<property name="DanceType" value="2" />
-	<property name="LootListAlive" value="vehicle4x4Truck"/>
-	<!-- Gameplay zombieMarlene -->
-	<property name="MoveSpeedAggro" value="0.3, 1.35"/> <!-- slim, regular -->
 
-	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="125"/>
-	</effect_group>
-</entity_class>
 
 <entity_class name="雷☆领域无人机">	<property name="HideInSpawnMenu" value="true"/>
 	<property name="Tags" value="drone,deployed,noMedBuffs"/>
