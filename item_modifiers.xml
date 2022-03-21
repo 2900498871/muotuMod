@@ -1,0 +1,2512 @@
+<configs>
+<append xpath="/item_modifiers">
+
+<item_modifier name="1%几率必杀-50W血" installable_tags="weapon" type="attachment" long_desc_key="1%几率必杀-50W血">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="117Desc"/>
+
+		<item_property_overrides name="*">
+			<property name="LightValue" value="0.45"/>
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="lightSource"/>
+			<property name="AlwaysActive" value="true"/>
+		</item_property_overrides>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="1"/>
+				<requirement name="HasBuff" target="other" buff="SENLEI"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="SENLEI"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+
+<item_modifier name="[FF0033]炮台☆[53FF53]雷电领域☆" installable_tags="炮台" modifier_tags="droneMorale" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="160,32,240" />
+		<property name="Extends" value="modGeneralMaster"/>
+        
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="神之雷-无人机"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="神之雷-无人机"/>
+		</effect_group>
+	    <!-- <property name="Group" value="Mods,Tool/Weapon Mods,Robotics"/> -->
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]雷电领域☆" installable_tags="被动" modifier_tags="光环1" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="160,32,240" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="电 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="电 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]雷电领域☆☆" installable_tags="被动" modifier_tags="光环1" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="160,32,240" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="电 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="电 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]雷电领域☆☆☆" installable_tags="被动" modifier_tags="光环1" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="160,32,240" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="电 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="电 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]雷电领域☆☆☆☆" installable_tags="被动" modifier_tags="光环1" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="160,32,240" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="电 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="电 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]雷电领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环1" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="160,32,240" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="电 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="电 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]火神领域☆" installable_tags="被动" modifier_tags="光环2" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="火 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="火 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]火神领域☆☆" installable_tags="被动" modifier_tags="光环2" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="火 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="火 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]火神领域☆☆☆" installable_tags="被动" modifier_tags="光环2" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="火 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="火 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]火神领域☆☆☆☆" installable_tags="被动" modifier_tags="光环2" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="火 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="火 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]火神领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环2" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="火 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="火 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]减血领域☆" installable_tags="被动" modifier_tags="光环3" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环buff 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环buff 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]减血领域☆☆" installable_tags="被动" modifier_tags="光环3" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环buff 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环buff 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]减血领域☆☆☆" installable_tags="被动" modifier_tags="光环3" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环buff 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环buff 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]减血领域☆☆☆☆" installable_tags="被动" modifier_tags="光环3" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环buff 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环buff 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]减血领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环3" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环buff 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环buff 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]减速领域☆" installable_tags="被动" modifier_tags="光环4" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,100" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环减速 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环减速 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]减速领域☆☆" installable_tags="被动" modifier_tags="光环4" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,100" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环减速 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环减速 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]减速领域☆☆☆" installable_tags="被动" modifier_tags="光环4" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,100" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环减速 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环减速 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]减速领域☆☆☆☆" installable_tags="被动" modifier_tags="光环4" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,100" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环减速 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环减速 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]减速领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环4" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,100" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环减速 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环减速 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]消弱领域☆" installable_tags="被动" modifier_tags="光环5" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环消弱 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环消弱 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]消弱领域☆☆" installable_tags="被动" modifier_tags="光环5" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环消弱 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环消弱 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]消弱领域☆☆☆" installable_tags="被动" modifier_tags="光环5" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环消弱 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环消弱 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]消弱领域☆☆☆☆" installable_tags="被动" modifier_tags="光环5" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环消弱 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环消弱 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]消弱领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环5" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="0,255,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环消弱 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环消弱 5"/>
+		</effect_group>
+	</item_modifier>
+
+
+<item_modifier name="[FF0033]光环☆[53FF53]增伤领域☆" installable_tags="被动" modifier_tags="光环6" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,215,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环增伤 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环增伤 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]增伤领域☆☆" installable_tags="被动" modifier_tags="光环6" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,215,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环增伤 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环增伤 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]增伤领域☆☆☆" installable_tags="被动" modifier_tags="光环6" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,215,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环增伤 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环增伤 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]增伤领域☆☆☆☆" installable_tags="被动" modifier_tags="光环6" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,215,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环增伤 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环增伤 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]增伤领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环6" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,215,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环增伤 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环增伤 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]血量领域☆" installable_tags="被动" modifier_tags="光环7" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,50,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环血量 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环血量 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]血量领域☆☆" installable_tags="被动" modifier_tags="光环7" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,50,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环血量 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环血量 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]血量领域☆☆☆" installable_tags="被动" modifier_tags="光环7" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,50,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环血量 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环血量 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]血量领域☆☆☆☆" installable_tags="被动" modifier_tags="光环7" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,50,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环血量 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环血量 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]血量领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环7" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,50,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环血量 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环血量 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]射程领域☆" installable_tags="被动" modifier_tags="光环8" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射程 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射程 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]射程领域☆☆" installable_tags="被动" modifier_tags="光环8" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射程 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射程 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]射程领域☆☆☆" installable_tags="被动" modifier_tags="光环8" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射程 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射程 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]射程领域☆☆☆☆" installable_tags="被动" modifier_tags="光环8" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射程 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射程 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]射程领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环8" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,0,255" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射程 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射程 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]攻速领域☆" installable_tags="被动" modifier_tags="光环9" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环攻速 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环攻速 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]攻速领域☆☆" installable_tags="被动" modifier_tags="光环9" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环攻速 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环攻速 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]攻速领域☆☆☆" installable_tags="被动" modifier_tags="光环9" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环攻速 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环攻速 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]攻速领域☆☆☆☆" installable_tags="被动" modifier_tags="光环9" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环攻速 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环攻速 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]攻速领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环9" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,255,0" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环攻速 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环攻速 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]射速领域☆" installable_tags="被动" modifier_tags="光环10" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,100,180" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射速 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射速 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]射速领域☆☆" installable_tags="被动" modifier_tags="光环10" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,100,180" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射速 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射速 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]射速领域☆☆☆" installable_tags="被动" modifier_tags="光环10" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,100,180" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射速 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射速 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]射速领域☆☆☆☆" installable_tags="被动" modifier_tags="光环10" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,100,180" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射速 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射速 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]射速领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环10" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="255,100,180" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环射速 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环射速 5"/>
+		</effect_group>
+	</item_modifier>
+
+<item_modifier name="[FF0033]光环☆[53FF53]收获领域☆" installable_tags="被动" modifier_tags="光环11" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="50,205,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环收获 1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环收获 1"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]收获领域☆☆" installable_tags="被动" modifier_tags="光环11" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="50,205,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环收获 2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环收获 2"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]收获领域☆☆☆" installable_tags="被动" modifier_tags="光环11" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="50,205,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环收获 3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环收获 3"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]收获领域☆☆☆☆" installable_tags="被动" modifier_tags="光环11" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="50,205,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环收获 4"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环收获 4"/>
+		</effect_group>
+	</item_modifier>
+<item_modifier name="[FF0033]光环☆[53FF53]收获领域☆☆☆☆☆" installable_tags="被动" modifier_tags="光环11" type="attachment">
+		<property name="CustomIcon" value="decoPumpkinJackOLantern" /><property name="CustomIconTint" value="50,205,50" />
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="领域"/><property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="光环收获 5"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="光环收获 5"/>
+		</effect_group>
+	</item_modifier>
+
+
+<item_modifier name="[53FF53]充能冲击部件 ☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
+		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+		 <property name="DescriptionKey" value="充能冲击部件1"/><property name="DisplayType" value="CJ"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
+
+
+
+		<effect_group tiered="false">			
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="CN0,CN1,CN2,CN3"
+			weights=".60,.1,.02,.01"/>
+			<display_value name="dCJ1" value="1"/>
+			<display_value name="dCJ2" value=".6"/>
+			<display_value name="dCJ3" value=".1"/>
+			<display_value name="dCJ4" value=".02"/>
+			<display_value name="dCJ5" value=".01"/>
+			<display_value name="dCJ6" value=".0"/>
+			<display_value name="dCJ7" value=".0"/>
+
+		</effect_group>
+</item_modifier>
+<item_modifier name="[2894FF]充能冲击部件 ☆☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
+		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+		 <property name="DescriptionKey" value="充能冲击部件1"/><property name="DisplayType" value="CJ"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
+
+
+
+		<effect_group tiered="false">			
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="CN0,CN1,CN2,CN3"
+			weights=".60,.15,.04,.02"/>
+			<display_value name="dCJ1" value="1"/>
+			<display_value name="dCJ2" value=".6"/>
+			<display_value name="dCJ3" value=".15"/>
+			<display_value name="dCJ4" value=".04"/>
+			<display_value name="dCJ5" value=".02"/>
+			<display_value name="dCJ6" value=".0"/>
+			<display_value name="dCJ7" value=".0"/>
+
+		</effect_group>
+</item_modifier>
+<item_modifier name="[CA8EFF]充能冲击部件 ☆☆☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
+		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+		 <property name="DescriptionKey" value="充能冲击部件2"/><property name="DisplayType" value="CJ"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
+
+
+
+		<effect_group tiered="false">			
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="CN0,CN1,CN2,CN3,CN4"
+			weights=".60,.20,.15,.04,.01"/>
+			<display_value name="dCJ1" value="1"/>
+			<display_value name="dCJ2" value=".6"/>
+			<display_value name="dCJ3" value=".2"/>
+			<display_value name="dCJ4" value=".15"/>
+			<display_value name="dCJ5" value=".04"/>
+			<display_value name="dCJ6" value=".01"/>
+			<display_value name="dCJ7" value=".0"/>
+
+		</effect_group>
+</item_modifier>
+<item_modifier name="[FFD306]充能冲击部件 ☆☆☆☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
+		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+		 <property name="DescriptionKey" value="充能冲击部件2"/><property name="DisplayType" value="CJ"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
+
+
+
+		<effect_group tiered="false">			
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="CN0,CN1,CN2,CN3,CN4"
+			weights=".60,.25,.10,.08,.05"/>
+			<display_value name="dCJ1" value="1"/>
+			<display_value name="dCJ2" value=".60"/>
+			<display_value name="dCJ3" value=".25"/>
+			<display_value name="dCJ4" value=".10"/>
+			<display_value name="dCJ5" value=".08"/>
+			<display_value name="dCJ6" value=".05"/>
+			<display_value name="dCJ7" value=".0"/>
+
+		</effect_group>
+</item_modifier>
+<item_modifier name="[FF0033]充能冲击部件 ☆☆☆☆☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
+		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
+		<property name="DescriptionKey" value="充能冲击部件3"/><property name="DisplayType" value="CJ"/>
+
+
+		<effect_group tiered="false">			
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="CN0,CN1,CN2,CN3,CN4,CN5"
+			weights=".60,.35,.15,.1,.08,.05"/>
+			<display_value name="dCJ1" value="1"/>
+			<display_value name="dCJ2" value=".60"/>
+			<display_value name="dCJ3" value=".35"/>
+			<display_value name="dCJ4" value=".15"/>
+			<display_value name="dCJ5" value=".1"/>
+			<display_value name="dCJ6" value=".08"/>
+			<display_value name="dCJ7" value=".05"/>
+
+	
+		</effect_group>>
+</item_modifier>
+
+<item_modifier name="[FF0033]减速部件" installable_tags="武器" modifier_tags="减速" type="attachment">		
+		<property name="CustomIcon" value="modGunMeleeNiCdBattery" />
+		 
+		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
+		<property name="Group" value="MOTU"/>
+
+
+		<effect_group tiered="false">			
+			<requirement name="HoldingItemHasTags" tags="武器" />
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="D,DING,DING1,DING2,DING3,DING4"
+			weights=".8,.5,.3,.2,.1,.05"/>
+	
+		</effect_group>
+</item_modifier>
+
+    <item_modifier name="火焰配件 5%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件1"/>
+		<property name="DisplayType" value="火"/>
+		
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="HUO1"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="HUO1"/>
+			<display_value name="火1" value="1"/>
+		    <display_value name="火2" value=".20"/>
+		    <display_value name="火3" value="-1000"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="火焰配件 10%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件2"/>
+		<property name="DisplayType" value="火"/>
+		
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="HUO2"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="HUO2"/>
+			<display_value name="火1" value="1"/>
+		    <display_value name="火2" value=".20"/>
+		    <display_value name="火3" value="-2000"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="火焰配件 15%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件3"/>
+		<property name="DisplayType" value="火"/>
+		
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="HUO3"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="HUO3"/>
+			<display_value name="火1" value="1"/>
+		    <display_value name="火2" value=".20"/>
+		    <display_value name="火3" value="-3000"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="火焰配件 20%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件4"/>
+		<property name="DisplayType" value="火"/>
+		
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="HUO4"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="HUO4"/>
+			<display_value name="火1" value="1"/>
+		    <display_value name="火2" value=".20"/>
+		    <display_value name="火3" value="-4000"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="火焰配件 25%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件5"/>
+		<property name="DisplayType" value="火"/>
+		
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="HUO5"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="HUO5"/>
+			<display_value name="火1" value="1"/>
+		    <display_value name="火2" value=".20"/>
+		    <display_value name="火3" value="-5000"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+	<item_modifier name="电击配件 5%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
+		<property name="DisplayType" value="电"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="dian1"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="dian1"/>
+			<display_value name="电1" value="1"/>
+		    <display_value name="电2" value=".20"/>
+		    <display_value name="电3" value="-800"/>
+			<display_value name="电4" value=".1"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="电击配件 10%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
+		<property name="DisplayType" value="电"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="dian2"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="dian2"/>
+			<display_value name="电1" value="1"/>
+		    <display_value name="电2" value=".20"/>
+		    <display_value name="电3" value="-1600"/>
+			<display_value name="电4" value=".1"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="电击配件 15%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
+		<property name="DisplayType" value="电"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="dian3"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="dian3"/>
+			<display_value name="电1" value="1"/>
+		    <display_value name="电2" value=".20"/>
+		    <display_value name="电3" value="-2500"/>
+			<display_value name="电4" value=".1"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="电击配件 20%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
+		<property name="DisplayType" value="电"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="dian4"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="dian4"/>
+			<display_value name="电1" value="1"/>
+		    <display_value name="电2" value=".20"/>
+		    <display_value name="电3" value="-3200"/>
+			<display_value name="电4" value=".1"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="电击配件 25%" installable_tags="武器" modifier_tags="充能" type="attachment">
+		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
+		<property name="DisplayType" value="电"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<requirement name="HasBuff" target="other" buff="dian5"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="dian5"/>
+			<display_value name="电1" value="1"/>
+		    <display_value name="电2" value=".20"/>
+		    <display_value name="电3" value="-4000"/>
+			<display_value name="电4" value=".1"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+
+	<item_modifier name="伤害提升 40%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升2"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".4"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value=".4"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="伤害提升 80%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升4"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".8"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value=".8"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="伤害提升 120%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升6"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.2"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value="1.2"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="伤害提升 160%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升8"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.6"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value="1.6"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="伤害提升 200%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升10"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="2"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value="2"/>
+		</effect_group>
+	</item_modifier>
+
+	
+	<item_modifier name="血量上升 5%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
+		<property name="CustomIcon" value="modArmorInsulatedLiner" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升1"/>
+		<property name="DisplayType" value="血量"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="HealthMax" operation="perc_add" value=".05"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="血" value=".05"/>
+		</effect_group>
+
+	</item_modifier>
+	<item_modifier name="血量上升 10%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
+		<property name="CustomIcon" value="modArmorInsulatedLiner" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升2"/>
+		<property name="DisplayType" value="血量"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="HealthMax" operation="perc_add" value=".1"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="血" value=".1"/>
+		</effect_group>
+
+	</item_modifier>
+	<item_modifier name="血量上升 15%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
+		<property name="CustomIcon" value="modArmorInsulatedLiner" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升3"/>
+		<property name="DisplayType" value="血量"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="HealthMax" operation="perc_add" value=".15"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="血" value=".15"/>
+		</effect_group>
+
+	</item_modifier>
+	<item_modifier name="血量上升 20%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
+		<property name="CustomIcon" value="modArmorInsulatedLiner" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升4"/>
+		<property name="DisplayType" value="血量"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="HealthMax" operation="perc_add" value=".2"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="血" value=".2"/>
+		</effect_group>
+
+	</item_modifier>
+	<item_modifier name="血量上升 25%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
+		<property name="CustomIcon" value="modArmorInsulatedLiner" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升5"/>
+		<property name="DisplayType" value="血量"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="HealthMax" operation="perc_add" value=".25"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="血" value=".25"/>
+		</effect_group>
+
+	</item_modifier>
+	
+	
+    <item_modifier name="耐力上升 5%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
+		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升1"/>
+		<property name="DisplayType" value="耐力"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaMax" operation="perc_add" value=".05"/>
+			<display_value name="器" value="1"/>
+			<display_value name="耐" value=".05"/>
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="耐力上升 10%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
+		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升2"/>
+		<property name="DisplayType" value="耐力"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaMax" operation="perc_add" value=".1"/>
+			<display_value name="器" value="1"/>
+			<display_value name="耐" value=".1"/>
+
+		</effect_group>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="耐力上升 15%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
+		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升3"/>
+		<property name="DisplayType" value="耐力"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaMax" operation="perc_add" value=".15"/>
+			<display_value name="器" value="1"/>
+			<display_value name="耐" value=".15"/>
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="耐力上升 20%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
+		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升4"/>
+		<property name="DisplayType" value="耐力"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaMax" operation="perc_add" value=".20"/>
+			<display_value name="器" value="1"/>
+			<display_value name="耐" value=".2"/>
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="耐力上升 25%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
+		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升5"/>
+		<property name="DisplayType" value="耐力"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaMax" operation="perc_add" value=".25"/>
+			<display_value name="器" value="1"/>
+			<display_value name="耐" value=".25"/>
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	
+	<item_modifier name="加速 10%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
+		<property name="CustomIcon" value="drinkCanMegaCrush" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速1"/>
+		<property name="DisplayType" value="加"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="RunSpeed" operation="perc_add" value=".1"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".1" />
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".1" />
+			<passive_effect name="JumpStrength" operation="perc_add" value=".05" />
+			<display_value name="器" value="1"/>
+			<display_value name="步" value=".1"/>
+			<display_value name="跑" value=".1"/>
+			<display_value name="潜" value=".1"/>
+			<display_value name="跳" value=".05"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="加速 20%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
+		<property name="CustomIcon" value="drinkCanMegaCrush" />
+		
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速2"/>
+		<property name="DisplayType" value="加"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="RunSpeed" operation="perc_add" value=".2"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".2" />
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".2" />
+			<passive_effect name="JumpStrength" operation="perc_add" value=".1" />
+			<display_value name="器" value="1"/>
+			<display_value name="步" value=".2"/>
+			<display_value name="跑" value=".2"/>
+			<display_value name="潜" value=".2"/>
+			<display_value name="跳" value=".1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="加速 30%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
+		<property name="CustomIcon" value="drinkCanMegaCrush" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速3"/>
+		<property name="DisplayType" value="加"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="RunSpeed" operation="perc_add" value=".3"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".3" />
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".3" />
+			<passive_effect name="JumpStrength" operation="perc_add" value=".15" />
+			<display_value name="器" value="1"/>
+			<display_value name="步" value=".3"/>
+			<display_value name="跑" value=".3"/>
+			<display_value name="潜" value=".3"/>
+			<display_value name="跳" value=".15"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="加速 40%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
+		<property name="CustomIcon" value="drinkCanMegaCrush" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速4"/>
+		<property name="DisplayType" value="加"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="RunSpeed" operation="perc_add" value=".4"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".4" />
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".4" />
+			<passive_effect name="JumpStrength" operation="perc_add" value=".2" />
+			
+			<display_value name="器" value="1"/>
+			<display_value name="步" value=".4"/>
+			<display_value name="跑" value=".4"/>
+			<display_value name="潜" value=".4"/>
+			<display_value name="跳" value=".2"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="加速 50%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
+		<property name="CustomIcon" value="drinkCanMegaCrush" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速5"/>
+		<property name="DisplayType" value="加"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="RunSpeed" operation="perc_add" value=".5"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".5" />
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".5" />
+			<passive_effect name="JumpStrength" operation="perc_add" value=".25" />
+			<display_value name="器" value="1"/>
+			<display_value name="步" value=".5"/>
+			<display_value name="跑" value=".5"/>
+			<display_value name="潜" value=".5"/>
+			<display_value name="跳" value=".25"/>
+			 
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="伤害基数 100" installable_tags="weapon,tool" type="attachment">
+		<property name="CustomIcon" value="drugSkullCrushers" />
+		 
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="123Desc"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="100"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+		</effect_group>
+	</item_modifier>
+	
+</append>
+
+
+<append xpath="/item_modifiers">	
+
+	<item_modifier name="[4D0000]攻击吸血" installable_tags="近战武器" type="attachment">
+		<property name="CustomIcon" value="modRoboticDroneMedicMod" /><property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="吸血"/>
+		
+		
+
+        <effect_group tiered="false">
+		    <property name="ItemHasTags" tags="melee"/>
+		    <property name="EntityTagCompare" target="other" tags="zombie,animal"/>
+		    <property name="IsAlive" target="other"/>
+		    <triggered_effect trigger="onSelfAttackedOther" action="ModifyStats" stat="Health" operation="add" value="3"/>
+			<display_value name="器" value="1"/><display_value name="吸血" value="3"/>
+        </effect_group>
+		<effect_group tiered="false">
+		    <property name="ItemHasTags" tags="gun"/>
+		    <property name="EntityTagCompare" target="other" tags="zombie,animal"/>
+		    <property name="IsAlive" target="other"/>
+		    <triggered_effect trigger="onSelfAttackedOther" action="ModifyStats" stat="Health" operation="add" value="2"/>
+			<display_value name="吸血1" value="2"/>
+        </effect_group>
+	</item_modifier>
+	<item_modifier name="[4D0000]杀怪吸血" installable_tags="近战武器" type="attachment">
+		<property name="CustomIcon" value="modRoboticDroneMedicMod" /><property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="吸血1"/>
+
+		<effect_group tiered="false">
+			
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyStats"  stat="health" operation="add" value="10"/>
+			<display_value name="器" value="1"/><display_value name="吸血" value="10"/>
+			
+		</effect_group>
+	</item_modifier>
+
+
+    <item_modifier name="激光炮台[FF0033]火纹" installable_tags="激光" modifier_tags="激光电" type="attachment">
+		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件1"/>
+		<property name="DisplayType" value="火纹"/>
+		
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="10"/>
+				<requirement name="HasBuff" target="other" buff="激光炎"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="激光炎"/>
+			<display_value name="器" value="1"/>
+			<display_value name="BUFF效果" value="1"/>
+		    <display_value name="几率" value=".1"/>
+		    <display_value name="BUFF伤害" value="-300"/>
+			<display_value name="击中怪物减速" value="-.1"/>
+
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="激光炮台[FF0033]电纹" installable_tags="激光" modifier_tags="激光火" type="attachment">
+		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
+		<property name="DisplayType" value="电纹"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="10"/>
+				<requirement name="HasBuff" target="other" buff="激光电"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="激光电"/>
+			<display_value name="器" value="1"/>
+			<display_value name="BUFF效果" value="1"/>
+		    <display_value name="几率" value=".1"/>
+		    <display_value name="BUFF伤害" value="-200"/>
+			<display_value name="减速" value=".1"/>
+			
+	
+			<display_value name="击中怪物减速" value="-.1"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+	<item_modifier name="激光炮台[FF0033]激光穿透" installable_tags="激光" modifier_tags="激光穿透" type="attachment">		
+		<property name="CustomIcon" value="modRadiationReady" />
+		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
+		<property name="DescriptionKey" value="激光"/><property name="DisplayType" value="激光"/>
+
+
+		<effect_group tiered="false">			
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="激光2,激光3,激光4,激光5,激光6"
+			weights=".5,.3,.1,.08,.05"/>
+			<display_value name="器" value="1"/>
+			<display_value name="激光" value="1"/>
+			<display_value name="激光2" value=".5"/>
+			<display_value name="激光3" value=".3"/>
+			<display_value name="激光4" value=".1"/>
+			<display_value name="激光5" value=".08"/>
+			<display_value name="激光6" value=".05"/>
+			
+
+	
+		</effect_group>>
+</item_modifier>
+
+
+
+
+
+</append>	
+<append xpath="/item_modifiers">
+
+
+	<item_modifier name="炮台☆[53FF53]伤纹 LV1" installable_tags="炮台" modifier_tags="伤纹" type="attachment">
+		<property name="CustomIcon" value="modRoboticDroneArmorPlatingMod" />
+		<property name="CustomIconTint" value="53FF53" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="伤纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="5,10"/>
+
+			
+			<display_value name="器" value="1"/><display_value name="伤" value="10"/>
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="炮台☆[2894FF]伤纹 LV2" installable_tags="炮台" modifier_tags="伤纹" type="attachment">
+		<property name="CustomIcon" value="modRoboticDroneArmorPlatingMod" />
+		<property name="CustomIconTint" value="2894FF" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="伤纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="10,20"/>
+
+			<display_value name="器" value="1"/><display_value name="伤" value="20"/>
+
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="炮台☆[CA8EFF]伤纹 LV3" installable_tags="炮台" modifier_tags="伤纹" type="attachment">
+		<property name="CustomIcon" value="modRoboticDroneArmorPlatingMod" />
+		<property name="CustomIconTint" value="CA8EFF" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="伤纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="20,30"/>
+
+			<display_value name="器" value="1"/><display_value name="伤" value="30"/>
+
+			
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="炮台☆[FFD306]伤纹 LV4" installable_tags="炮台" modifier_tags="伤纹" type="attachment">
+		<property name="CustomIcon" value="modRoboticDroneArmorPlatingMod" />
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="伤纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="30,40"/>
+
+			<display_value name="器" value="1"/><display_value name="伤" value="40"/>
+
+
+		</effect_group>
+	</item_modifier>	
+	<item_modifier name="炮台☆[FF0033]伤纹 LV5" installable_tags="炮台" modifier_tags="伤纹" type="attachment">
+		<property name="CustomIcon" value="modRoboticDroneArmorPlatingMod" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="伤纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="40,50"/>
+
+			<display_value name="器" value="1"/><display_value name="伤" value="50"/>
+
+			
+
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="炮台☆[53FF53]弹夹增强" installable_tags="炮台" type="attachment">
+		<property name="CustomIcon" value="modGunMagazineExtender" />
+		<property name="CustomIconTint" value="53FF53" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="弹夹增强"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="base_add" value="10,100"/>
+
+			
+			<display_value name="器" value="1"/><display_value name="弹夹" value="100"/>
+
+		</effect_group>
+	</item_modifier>
+
+
+	<item_modifier name="近战☆[53FF53]器纹 LV1" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter"/>
+		<property name="CustomIconTint" value="53FF53" />
+		<property name="Group" value="MOTU"/>	
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹"/>
+		
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="10,30"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.05" />
+            <display_value name="器" value="1"/><display_value name="速" value="30"/>
+			<display_value name="耐" value=".05"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[2894FF]器纹 LV2" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter"/>
+		<property name="CustomIconTint" value="2894FF"/>
+		<property name="Group" value="MOTU"/>		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="15,40"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.1" />
+            <display_value name="器" value="1"/><display_value name="速" value="40"/>
+			<display_value name="耐" value=".1"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[CA8EFF]器纹 LV3" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter" />
+		<property name="CustomIconTint" value="CA8EFF" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="20,55"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.15" />
+            <display_value name="器" value="1"/><display_value name="速" value="55"/>
+			<display_value name="耐" value=".15"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FFD306]器纹 LV4" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter" />
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="30,70"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.20" />
+            <display_value name="器" value="1"/><display_value name="速" value="70"/>
+			<display_value name="耐" value=".20"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]器纹 LV5" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="50,100"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.25" />
+            <display_value name="器" value="1"/><display_value name="速" value="100"/>
+			<display_value name="耐" value=".25"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]器纹 特殊1" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter" />
+		<property name="CustomIconTint" value="930093" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="50,120"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value=".1" />
+            <display_value name="器" value="1"/><display_value name="速" value="120"/>
+			<display_value name="耐" value=".2"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]器纹 特殊2" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter" />
+		<property name="CustomIconTint" value="930093" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="50,120"/>
+			<passive_effect name="MaxRange" operation="base_add" value="-2"/>
+            <display_value name="器" value="1"/><display_value name="速" value="120"/>
+			<display_value name="距" value="-2"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]器纹 特殊3" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter" />
+		<property name="CustomIconTint" value="930093" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="50,120"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="-.1" />
+            <display_value name="器" value="1"/><display_value name="速" value="120"/>
+			<display_value name="伤" value="-.1"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[4D0000]器纹 魔化" installable_tags="近战武器" modifier_tags="器" type="attachment">
+		<property name="CustomIcon" value="modMeleeWoodSplitter" />
+		<property name="CustomIconTint" value="4D0000" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="器纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="80,130"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.1" />			
+			<passive_effect name="MaxRange" operation="base_add" value="-2"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="-.1" />
+            <display_value name="器" value="1"/><display_value name="速" value="200"/>
+			<display_value name="耐" value="2"/>
+			<display_value name="距" value=".1"/>
+			<display_value name="伤" value=".5"/>
+		</effect_group>
+
+
+	</item_modifier>
+
+	<item_modifier name="近战☆[53FF53]尖纹 LV1" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="53FF53" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹"/>
+
+
+
+		<effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="1,4"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1"/>
+			<display_value name="器" value="1"/><display_value name="距" value="4"/>
+			<display_value name="速" value=".1"/>
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="近战☆[2894FF]尖纹 LV2" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="2894FF" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹"/>
+
+
+
+		<effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="3,6"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1"/>
+			<display_value name="器" value="1"/><display_value name="距" value="6"/>
+			<display_value name="速" value=".1"/>
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="近战☆[CA8EFF]尖纹 LV3" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="CA8EFF" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹"/>
+
+
+
+		<effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="5,9"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1"/>
+			<display_value name="器" value="1"/><display_value name="距" value="9"/>
+			<display_value name="速" value=".1"/>
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="近战☆[FFD306]尖纹 LV4" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹"/>
+
+
+
+		<effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="8,12"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1"/>
+			<display_value name="器" value="1"/><display_value name="距" value="12"/>
+			<display_value name="速" value=".1"/>
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]尖纹 LV5" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹"/>
+
+
+
+		<effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="10,15"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1"/>
+			<display_value name="器" value="1"/><display_value name="距" value="15"/>
+			<display_value name="速" value=".1"/>
+
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="近战☆[FF0033]尖纹 特殊1" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="10,18"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value=".2" />
+            <display_value name="器" value="1"/><display_value name="距" value="18"/>
+			<display_value name="耐" value=".2"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]尖纹 特殊2" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="10,18"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.2"/>
+            <display_value name="器" value="1"/><display_value name="距" value="18"/>
+			<display_value name="速" value="-.2"/>
+
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]尖纹 特殊3" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="10,18"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="-.2" />
+            <display_value name="器" value="1"/><display_value name="距" value="30"/>
+			<display_value name="伤" value="-.2"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[4D0000]尖纹 魔化" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="10,20"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.1"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value=".1" />						
+			<passive_effect name="EntityDamage" operation="perc_add" value="-.1" />
+            <display_value name="器" value="1"/><display_value name="距" value="20"/>
+			<display_value name="速" value="-.1"/>
+			<display_value name="耐" value=".1"/>
+			<display_value name="伤" value="-.1"/>
+		</effect_group>
+
+
+	</item_modifier>
+
+	<item_modifier name="近战☆[4D0000]尖纹 神化" installable_tags="近战武器" modifier_tags="尖" type="attachment">
+		<property name="CustomIcon" value="modMeleeFiremansAxeMod" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="尖纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="base_add" value="20,50"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.1" />						
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1" />
+            <display_value name="器" value="1"/><display_value name="距" value="50"/>
+			<display_value name="速" value=".1"/>
+			<display_value name="耐" value="-.1"/>
+			<display_value name="伤" value=".1"/>
+		</effect_group>
+
+
+	</item_modifier>
+
+	
+    <item_modifier name="近战☆[53FF53]柄纹 LV1" installable_tags="近战武器" modifier_tags="柄" type="attachment">
+		<property name="CustomIcon" value="modMeleeErgonomicGrip" />
+		<property name="CustomIconTint" value="53FF53" />
+		<property name="Group" value="MOTU"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DisplayType" value="柄纹"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.06"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1" />
+			<display_value name="器" value="1"/><display_value name="耐" value="-.06"/>
+			<display_value name="伤" value=".1"/>
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+    <item_modifier name="近战☆[2894FF]柄纹 LV2" installable_tags="近战武器" modifier_tags="柄" type="attachment">
+		<property name="CustomIcon" value="modMeleeErgonomicGrip" />
+		<property name="CustomIconTint" value="2894FF" />
+		<property name="Group" value="MOTU"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DisplayType" value="柄纹"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.12"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".15" />
+			<display_value name="器" value="1"/><display_value name="耐" value="-.12"/>
+			<display_value name="伤" value=".15"/>
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+    <item_modifier name="近战☆[CA8EFF]柄纹 LV3" installable_tags="近战武器" modifier_tags="柄" type="attachment">
+		<property name="CustomIcon" value="modMeleeErgonomicGrip" />
+		<property name="CustomIconTint" value="CA8EFF" />
+		<property name="Group" value="MOTU"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DisplayType" value="柄纹"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.18"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".2" />
+			<display_value name="器" value="1"/><display_value name="耐" value="-.18"/>
+			<display_value name="伤" value=".2"/>
+
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+    <item_modifier name="近战☆[FFD306]柄纹 LV4" installable_tags="近战武器" modifier_tags="柄" type="attachment">
+		<property name="CustomIcon" value="modMeleeErgonomicGrip" />
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Group" value="MOTU"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DisplayType" value="柄纹"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.24"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".25" />
+			<display_value name="器" value="1"/><display_value name="耐" value="-.24"/>
+			<display_value name="伤" value=".25"/>
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+    <item_modifier name="近战☆[FF0033]柄纹 LV5" installable_tags="近战武器" modifier_tags="柄" type="attachment">
+		<property name="CustomIcon" value="modMeleeErgonomicGrip" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DisplayType" value="柄纹"/>
+		
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.3"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".3" />
+			<display_value name="器" value="1"/><display_value name="耐" value="-.3"/>
+			<display_value name="伤" value=".3"/>
+
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	
+	<item_modifier name="近战☆[53FF53]刃纹 LV1" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="53FF53" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="刃纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="5,15"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".1"/>
+			
+			<display_value name="器" value="1"/><display_value name="伤" value="15"/>
+			<display_value name="距" value=".1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="近战☆[2894FF]刃纹 LV2" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="2894FF" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="刃纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="10,20"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".15"/>
+			<display_value name="器" value="1"/><display_value name="伤" value="20"/>
+			<display_value name="距" value=".15"/>
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="近战☆[CA8EFF]刃纹 LV3" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="CA8EFF" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="刃纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="15,25"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".20"/>
+			<display_value name="器" value="1"/><display_value name="伤" value="25"/>
+			<display_value name="距" value=".2"/>
+			
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="近战☆[FFD306]刃纹 LV4" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="刃纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="20,30"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".25"/>
+			<display_value name="器" value="1"/><display_value name="伤" value="30"/>
+			<display_value name="距" value=".25"/>
+
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]刃纹 LV5" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="刃纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="30,50"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".30"/>
+			<display_value name="器" value="1"/><display_value name="伤" value="50"/>
+			<display_value name="距" value=".3"/>
+			
+
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="近战☆[FF0033]刃纹 特殊1" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="刃纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="40,55"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value=".2" />
+            <display_value name="器" value="1"/><display_value name="伤" value="55"/>
+			<display_value name="耐" value=".2"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]刃纹 特殊2" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="刃纹1"/>
+		
+
+
+        <effect_group tiered="false">	
+			<passive_effect name="EntityDamage" operation="base_add" value="40,55"/>
+			<passive_effect name="MaxRange" operation="base_add" value="-.2"/>
+            <display_value name="器" value="1"/><display_value name="距" value="-.2"/>
+			<display_value name="伤" value="55"/>
+
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[FF0033]刃纹 特殊3" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="刃纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="40,55"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.2"/>
+            <display_value name="器" value="1"/><display_value name="速" value="-.2"/>
+			<display_value name="伤" value="55"/>
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="近战☆[4D0000]刃纹 魔化" installable_tags="近战武器" modifier_tags="刃" type="attachment">
+		<property name="CustomIcon" value="modMeleeTemperedBlade" />
+		<property name="CustomIconTint" value="FF0033" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="器"/>
+		<property name="DisplayType" value="刃纹1"/>
+		
+
+
+        <effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="50,80"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.1"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value=".1" />						
+			<passive_effect name="MaxRange" operation="perc_add" value="-.1" />
+            <display_value name="器" value="1"/><display_value name="距" value="-.1"/>
+			<display_value name="速" value="-.1"/>
+			<display_value name="耐" value=".1"/>
+			<display_value name="伤" value="80"/>
+		</effect_group>
+
+
+	</item_modifier>
+
+	
+	<item_modifier name="近战☆[4D0000]魂纹" installable_tags="近战武器" modifier_tags="魂" type="attachment">
+		<property name="CustomIcon" value="modRoboticDroneMoraleBoosterMod" />
+		<property name="CustomIconTint" value="4D0000" />
+		<property name="Group" value="MOTU"/>
+		 
+		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="123Desc"/>
+		<property name="DisplayType" value="魂纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="base_add" value="30,100"/>
+			<passive_effect name="MaxRange" operation="base_add" value="2,10"/>
+			<passive_effect name="AttacksPerMinute" operation="base_add" value="20,60"/>
+
+            <display_value name="器" value="1"/><display_value name="距" value="10"/>
+			<display_value name="速" value="60"/>
+			<display_value name="伤" value="100"/>
+		</effect_group>
+	</item_modifier>
+
+
+
+
+
+		<item_modifier name="狙击枪☆[FFD306]神枪纹" installable_tags="狙击枪" type="attachment">
+
+		<property name="CustomIcon" value="modGunShotgunTubeExtenderMagazine"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="神枪纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_subtract" value="5" tags="lowerbody,upperbody"/>
+			<display_value name="器" value="1"/><display_value name="爆头" value="5"/>
+			<display_value name="身体" value="-5"/>
+
+		</effect_group>
+
+	</item_modifier>
+		<item_modifier name="枪☆[FFD306]神枪纹" installable_tags="weapon" type="attachment">
+
+		<property name="CustomIcon" value="modGunShotgunTubeExtenderMagazine"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="枪纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
+
+			<display_value name="器" value="1"/><display_value name="爆头" value="1"/>
+
+
+		</effect_group>
+
+	</item_modifier>
+
+
+	<item_modifier name="武器☆[FFD306]穿甲纹-20%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="穿甲纹"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				<requirement name="HasBuff" target="other" buff="穿甲1"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="穿甲1"/>
+			<display_value name="器" value="1"/>
+			<display_value name="BUFF效果" value="1"/>
+		    <display_value name="几率" value=".5"/>
+
+			<display_value name="穿甲" value=".2"/>
+			
+		</effect_group>
+
+		<effect_group tiered="false" name="SpecialEffects">
+			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
+			<passive_effect name="LightMultiplier" operation="base_add" value="0.28"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" local_offset="0,0.3,0" parent_transform="Gunjoint"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="武器☆[FFD306]穿甲纹-40%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="穿甲纹"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				<requirement name="HasBuff" target="other" buff="穿甲2"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="穿甲2"/>
+			<display_value name="器" value="1"/>
+			<display_value name="BUFF效果" value="1"/>
+		    <display_value name="几率" value=".5"/>
+
+			<display_value name="穿甲" value=".4"/>
+			
+		</effect_group>
+
+
+	</item_modifier>
+	<item_modifier name="武器☆[FFD306]穿甲纹-60%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="穿甲纹"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				<requirement name="HasBuff" target="other" buff="穿甲3"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="穿甲3"/>
+			<display_value name="器" value="1"/>
+			<display_value name="BUFF效果" value="1"/>
+		    <display_value name="几率" value=".5"/>
+
+			<display_value name="穿甲" value=".6"/>
+			
+		</effect_group>
+
+	</item_modifier>
+	<item_modifier name="武器☆[FFD306]穿甲纹-80%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="穿甲纹"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				<requirement name="HasBuff" target="other" buff="穿甲4"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="穿甲4"/>
+			<display_value name="器" value="1"/>
+			<display_value name="BUFF效果" value="1"/>
+		    <display_value name="几率" value=".5"/>
+
+			<display_value name="穿甲" value=".8"/>
+			
+		</effect_group>
+
+	</item_modifier>
+	<item_modifier name="武器☆[FFD306]穿甲纹-100%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="穿甲纹"/>
+
+		<effect_group name="Fire Proc" tiered="false">
+			<requirements compare_type="or">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				<requirement name="HasBuff" target="other" buff="穿甲5"/>
+			</requirements>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="穿甲5"/>
+			<display_value name="器" value="1"/>
+			<display_value name="BUFF效果" value="1"/>
+		    <display_value name="几率" value=".5"/>
+
+			<display_value name="穿甲" value="1"/>
+			
+		</effect_group>
+	</item_modifier>	
+	
+		<item_modifier name="武器☆[FFD306]神枪纹 LV1" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+
+		<property name="CustomIcon" value="modGunBarrelExtender"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="武器纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
+            <passive_effect name="DamageModifier" operation="perc_subtract" value=".2" tags="lowerbody,upperbody"/>
+			<display_value name="器" value="1"/><display_value name="爆头" value="1"/><display_value name="身体" value="-.2"/>
+			
+
+
+		</effect_group>
+
+	</item_modifier>
+	
+		<item_modifier name="武器☆[FFD306]神枪纹 LV2" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+
+		<property name="CustomIcon" value="modGunBarrelExtender"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="武器纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_subtract" value=".4" tags="lowerbody,upperbody"/>
+
+			<display_value name="器" value="1"/><display_value name="爆头" value="2"/><display_value name="身体" value="-.4"/>
+
+
+		</effect_group>
+
+	</item_modifier>
+		<item_modifier name="武器☆[FFD306]神枪纹 LV3" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+
+		<property name="CustomIcon" value="modGunBarrelExtender"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="武器纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_subtract" value=".6" tags="lowerbody,upperbody"/>
+
+			<display_value name="器" value="1"/><display_value name="爆头" value="3"/><display_value name="身体" value="-.6"/>
+
+
+		</effect_group>
+
+	</item_modifier>
+		<item_modifier name="武器☆[FFD306]神枪纹 LV4" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+
+		<property name="CustomIcon" value="modGunBarrelExtender"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="武器纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_subtract" value=".8" tags="lowerbody,upperbody"/>
+
+			<display_value name="器" value="1"/><display_value name="爆头" value="5"/><display_value name="身体" value="-.8"/>
+
+
+		</effect_group>
+
+	</item_modifier>
+	
+		<item_modifier name="武器☆[FFD306]神枪纹 LV5" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+
+		<property name="CustomIcon" value="modGunBarrelExtender"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="武器纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="7" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_subtract" value=".9" tags="lowerbody,upperbody"/>
+
+			<display_value name="器" value="1"/><display_value name="爆头" value="7"/><display_value name="身体" value="-.9"/>
+
+
+		</effect_group>
+
+	</item_modifier>
+	
+
+
+<!--无用-->	
+		<item_modifier name="武器☆[FFD306]爆血纹 LV5" installable_tags="weapon" modifier_tags="爆头" type="attachment">
+
+		<property name="CustomIcon" value="modGunLaserSight"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="武器纹"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_subtract" value=".9" tags="lowerbody,upperbody"/>
+
+			<display_value name="器" value="1"/><display_value name="爆头" value="10"/><display_value name="身体" value="-.9"/>
+
+
+		</effect_group>
+		<effect_group tiered="false">
+		    <property name="ItemHasTags" tags="gun"/>
+		    <property name="EntityTagCompare" target="other" tags="zombie,animal"/>
+		    <property name="IsAlive" target="other"/>
+		    <triggered_effect trigger="onSelfAttackedOther" action="ModifyStats" stat="Health" operation="add" value="-50"/>
+			<display_value name="吸血1" value="2"/>
+        </effect_group>
+
+	</item_modifier>
+	
+<!--无用-->	
+	<item_modifier name="武器☆[FFD306]轮回纹 LV5" installable_tags="weapon" modifier_tags="爆头" type="attachment">
+
+		<property name="CustomIcon" value="modGunLaserSight"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Stacknumber" value="1"/> 
+		<property name="Group" value="MOTU"/>
+		<property name="DisplayType" value="武器纹"/>	
+	<effect_group tiered="false">
+	
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="CS" operation="add" value="1"/>  <!--攻击一次增加点轮回-->	 
+    </effect_group>
+	</item_modifier>
+</append>	
+
+
+
+
+</configs>
