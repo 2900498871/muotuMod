@@ -42,7 +42,7 @@
 			<passive_effect name="HyperthermalResist" operation="base_add" value="-3"/>
 		</effect_group>
 	</buff>	
-<buff name="xinsou1" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName" icon_color="26,0,0">
+<buff name="xinsou1" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName"  icon_color="26,0,0">
 		<damage_type value="electrical"/>
 		<stack_type value="replace"/>
 		<duration value="2"/>
@@ -3100,7 +3100,7 @@
 <!--  被动 -->
 <append xpath="/buffs">
 <buff name="BEIC 1" name_key="[FFD306]被动☆[FF0033]实体伤害[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+20%实体伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+20%实体伤害\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3110,7 +3110,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+20%实体伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIC 2" name_key="[FFD306]被动☆[FF0033]方块伤害[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+20%方块伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+20%方块伤害\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3120,7 +3120,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+20%方块伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIC 3" name_key="[FFD306]被动☆[FF0033]血量上限[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+3%血量上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+3%血量上限\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3130,7 +3130,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+3%血量上限\n" tooltip_ke
 			</effect_group>                      
 </buff>
 <buff name="BEIC 4" name_key="[FFD306]被动☆[FF0033]耐力上限[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+05%耐力上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+05%耐力上限\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3140,7 +3140,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+05%耐力上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIC 5" name_key="[FFD306]被动☆[FF0033]最大射程[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+0.5最大射程\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+0.5最大射程\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3150,7 +3150,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+0.5最大射程\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIC 6" name_key="[FFD306]被动☆[FF0033]血量恢复[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+5%血量恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+5%血量恢复\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3161,7 +3161,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+5%血量恢复\n" tooltip_ke
 			</effect_group>                      
 </buff>
 <buff name="BEIC 7" name_key="[FFD306]被动☆[FF0033]耐力恢复[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+5%耐力恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+5%耐力恢复\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3171,7 +3171,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+5%耐力恢复\n" tooltip_ke
 			</effect_group>                      
 </buff>
 <buff name="BEIC 8" name_key="[FFD306]被动☆[FF0033]步行速度[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+4%步行速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+4%步行速度\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3181,7 +3181,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+4%步行速度\n" tooltip_ke
 			</effect_group>                      
 </buff>
 <buff name="BEIC 9" name_key="[FFD306]被动☆[FF0033]跑步速度[53FF53] C级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+5%跑步速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+5%跑步速度\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3193,7 +3193,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+5%跑步速度\n" tooltip_ke
 
 
 <buff name="BEIB 1" name_key="[FFD306]被动☆[FF0033]实体伤害[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+40%实体伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+40%实体伤害\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3203,7 +3203,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+40%实体伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIB 2" name_key="[FFD306]被动☆[FF0033]方块伤害[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+40%方块伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+40%方块伤害\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3213,7 +3213,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+40%方块伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIB 3" name_key="[FFD306]被动☆[FF0033]血量上限[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+8%血量上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+8%血量上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3223,7 +3223,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+8%血量上限\n" tooltip_ke
 			</effect_group>                      
 </buff>
 <buff name="BEIB 4" name_key="[FFD306]被动☆[FF0033]耐力上限[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+1%耐力上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+1%耐力上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3233,7 +3233,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+1%耐力上限\n" tooltip_ke
 			</effect_group>                      
 </buff>
 <buff name="BEIB 5" name_key="[FFD306]被动☆[FF0033]最大射程[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+0.8最大射程\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+0.8最大射程\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3243,7 +3243,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+0.8最大射程\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIB 6" name_key="[FFD306]被动☆[FF0033]血量恢复[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+10%血量恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+10%血量恢复\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3254,7 +3254,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+10%血量恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIB 7" name_key="[FFD306]被动☆[FF0033]耐力恢复[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+10%耐力恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+10%耐力恢复\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3264,7 +3264,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+10%耐力恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIB 8" name_key="[FFD306]被动☆[FF0033]步行速度[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+8%步行速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+8%步行速度\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3274,7 +3274,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+8%步行速度\n" tooltip_ke
 			</effect_group>                      
 </buff>
 <buff name="BEIB 9" name_key="[FFD306]被动☆[FF0033]跑步速度[CA8EFF] B级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+10%跑步速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+10%跑步速度\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3285,7 +3285,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+10%跑步速度\n" tooltip_k
 </buff>
 
 <buff name="BEIA 1" name_key="[FFD306]被动☆[FF0033]实体伤害[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+60%实体伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+60%实体伤害\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3295,7 +3295,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+60%实体伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIA 2" name_key="[FFD306]被动☆[FF0033]方块伤害[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+30%方块伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+30%方块伤害\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3305,7 +3305,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+30%方块伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIA 3" name_key="[FFD306]被动☆[FF0033]血量上限[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+12%血量上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+12%血量上限\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3315,7 +3315,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+12%血量上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIA 4" name_key="[FFD306]被动☆[FF0033]耐力上限[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+15%耐力上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+15%耐力上限\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3325,7 +3325,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+15%耐力上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIA 5" name_key="[FFD306]被动☆[FF0033]最大射程[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+1.1最大射程\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+1.1最大射程\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3335,7 +3335,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+1.1最大射程\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIA 6" name_key="[FFD306]被动☆[FF0033]血量恢复[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+15%血量恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+15%血量恢复\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3346,7 +3346,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+15%血量恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIA 7" name_key="[FFD306]被动☆[FF0033]耐力恢复[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+15%耐力恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+15%耐力恢复\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3356,7 +3356,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+15%耐力恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIA 8" name_key="[FFD306]被动☆[FF0033]步行速度[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+12%步行速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+12%步行速度\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3366,7 +3366,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+12%步行速度\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIA 9" name_key="[FFD306]被动☆[FF0033]跑步速度[CA8EFF] A级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+15%跑步速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+15%跑步速度\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3377,7 +3377,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+15%跑步速度\n" tooltip_k
 </buff>
 
 <buff name="BEIS 1" name_key="[FFD306]被动☆[FF0033]实体伤害[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+80%实体伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+80%实体伤害\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3387,7 +3387,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+80%实体伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIS 2" name_key="[FFD306]被动☆[FF0033]方块伤害[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+40%方块伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+40%方块伤害\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3397,7 +3397,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+40%方块伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIS 3" name_key="[FFD306]被动☆[FF0033]血量上限[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+16%血量上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+16%血量上限\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3407,7 +3407,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+16%血量上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIS 4" name_key="[FFD306]被动☆[FF0033]耐力上限[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+20%耐力上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+20%耐力上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3417,7 +3417,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+20%耐力上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIS 5" name_key="[FFD306]被动☆[FF0033]最大射程[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+1.4最大射程\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+1.4最大射程\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3427,7 +3427,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+1.4最大射程\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIS 6" name_key="[FFD306]被动☆[FF0033]血量恢复[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+20%血量恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+20%血量恢复\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3438,7 +3438,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+20%血量恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIS 7" name_key="[FFD306]被动☆[FF0033]耐力恢复[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+20%耐力恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+20%耐力恢复\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3448,7 +3448,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+20%耐力恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIS 8" name_key="[FFD306]被动☆[FF0033]步行速度[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+16%步行速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+16%步行速度\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3458,7 +3458,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+16%步行速度\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIS 9" name_key="[FFD306]被动☆[FF0033]跑步速度[FFD306] S级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+20%跑步速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+20%跑步速度\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3469,7 +3469,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+20%跑步速度\n" tooltip_k
 </buff>
 
 <buff name="BEISS 1" name_key="[FFD306]被动☆[FF0033]实体伤害[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+100%实体伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+100%实体伤害\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3479,7 +3479,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+100%实体伤害\n" tooltip_
 			</effect_group>                      
 </buff>
 <buff name="BEISS 2" name_key="[FFD306]被动☆[FF0033]方块伤害[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+50%方块伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+50%方块伤害\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3489,7 +3489,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+50%方块伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISS 3" name_key="[FFD306]被动☆[FF0033]血量上限[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+20%血量上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+20%血量上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3499,7 +3499,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+20%血量上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISS 4" name_key="[FFD306]被动☆[FF0033]耐力上限[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+25%耐力上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+25%耐力上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3509,7 +3509,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+25%耐力上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISS 5" name_key="[FFD306]被动☆[FF0033]最大射程[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+1.7最大射程\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+1.7最大射程\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3519,7 +3519,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+1.7最大射程\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISS 6" name_key="[FFD306]被动☆[FF0033]血量恢复[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+25%血量恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+25%血量恢复\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3530,7 +3530,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+25%血量恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISS 7" name_key="[FFD306]被动☆[FF0033]耐力恢复[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+25%耐力恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+25%耐力恢复\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3540,7 +3540,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+25%耐力恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISS 8" name_key="[FFD306]被动☆[FF0033]步行速度[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+20%步行速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+20%步行速度\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3550,7 +3550,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+20%步行速度\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISS 9" name_key="[FFD306]被动☆[FF0033]跑步速度[EEB422] SS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+25%跑步速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+25%跑步速度\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3561,7 +3561,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+25%跑步速度\n" tooltip_k
 </buff>
 
 <buff name="BEISSS 1" name_key="[FFD306]被动☆[FF0033]实体伤害[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+150%实体伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+150%实体伤害\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3571,7 +3571,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+150%实体伤害\n" tooltip_
 			</effect_group>                      
 </buff>
 <buff name="BEISSS 2" name_key="[FFD306]被动☆[FF0033]方块伤害[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+70%方块伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+70%方块伤害\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3581,7 +3581,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+70%方块伤害\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISSS 3" name_key="[FFD306]被动☆[FF0033]血量上限[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+30%血量上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+30%血量上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3591,7 +3591,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+30%血量上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISSS 4" name_key="[FFD306]被动☆[FF0033]耐力上限[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+50%耐力上限\n" tooltip_key="被动"   >
+description_key="[FFD306]附加效果:\n\n [00EE00]+50%耐力上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3601,7 +3601,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+50%耐力上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISSS 5" name_key="[FFD306]被动☆[FF0033]最大射程[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+2最大射程\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+2最大射程\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3611,7 +3611,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+2最大射程\n" tooltip_key
 			</effect_group>                      
 </buff>
 <buff name="BEISSS 6" name_key="[FFD306]被动☆[FF0033]血量恢复[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+35%血量恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+35%血量恢复\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3622,7 +3622,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+35%血量恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISSS 7" name_key="[FFD306]被动☆[FF0033]耐力恢复[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+35%耐力恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+35%耐力恢复\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3632,7 +3632,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+35%耐力恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISSS 8" name_key="[FFD306]被动☆[FF0033]步行速度[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+25%步行速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+25%步行速度\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3642,7 +3642,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+25%步行速度\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEISSS 9" name_key="[FFD306]被动☆[FF0033]跑步速度[EEB422] SSS级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+30%跑步速度\n" tooltip_key="被动"   >
+description_key="[FFD306]附加效果:\n\n [00EE00]+30%跑步速度\n" tooltip_key="被动"    icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3653,7 +3653,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+30%跑步速度\n" tooltip_k
 </buff>
 
 <buff name="BEIZ 1" name_key="[FFD306]被动☆[FF0033]实体伤害[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n" tooltip_key="被动"     icon="ui_game_symbol_bull">
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3663,7 +3663,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n" tooltip_
 			</effect_group>                      
 </buff>
 <buff name="BEIZ 2" name_key="[FFD306]被动☆[FF0033]方块伤害[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+100%方块伤害\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+100%方块伤害\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3673,7 +3673,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+100%方块伤害\n" tooltip_
 			</effect_group>                      
 </buff>
 <buff name="BEIZ 3" name_key="[FFD306]被动☆[FF0033]血量上限[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量上限\n" tooltip_key="被动"   >
+description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量上限\n" tooltip_key="被动"   icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3683,7 +3683,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量上限\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIZ 4" name_key="[FFD306]被动☆[FF0033]耐力上限[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+100%耐力上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+100%耐力上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3693,7 +3693,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+100%耐力上限\n" tooltip_
 			</effect_group>                      
 </buff>
 <buff name="BEIZ 5" name_key="[FFD306]被动☆[FF0033]最大射程[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+2.5最大射程\n" tooltip_key="被动"   >
+description_key="[FFD306]附加效果:\n\n [00EE00]+2.5最大射程\n" tooltip_key="被动"   icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3703,7 +3703,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+2.5最大射程\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIZ 6" name_key="[FFD306]被动☆[FF0033]血量恢复[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量恢复\n" tooltip_key="被动"   >
+description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量恢复\n" tooltip_key="被动"  icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3714,7 +3714,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIZ 7" name_key="[FFD306]被动☆[FF0033]耐力恢复[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+50%耐力恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+50%耐力恢复\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3724,7 +3724,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+50%耐力恢复\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIZ 8" name_key="[FFD306]被动☆[FF0033]步行速度[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+30%步行速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+30%步行速度\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3734,7 +3734,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+30%步行速度\n" tooltip_k
 			</effect_group>                      
 </buff>
 <buff name="BEIZ 9" name_key="[FFD306]被动☆[FF0033]跑步速度[FF0033] Z级" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+35%跑步速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+35%跑步速度\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3745,7 +3745,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+35%跑步速度\n" tooltip_k
 </buff>
 
 <buff name="BEIZZ 1" name_key="[FFD306]被动☆[FF0033]战斗之魂" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+150%实体伤害\n [00EE00]+100%]\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+150%实体伤害\n [00EE00]+100%]\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3756,7 +3756,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+150%实体伤害\n [00EE00]+
 			</effect_group>                      
 </buff>
 <buff name="BEIZZ 2" name_key="[FFD306]被动☆[FF0033]血之魂" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+100%血量上限\n [00EE00]+100%耐力上限\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+100%血量上限\n [00EE00]+100%耐力上限\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3767,7 +3767,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+100%血量上限\n [00EE00]+
 			</effect_group>                      
 </buff>
 <buff name="BEIZZ 3" name_key="[FFD306]被动☆[FF0033]近战之魂" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+2最大射程\n [00EE00]+30%近战攻速" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+2最大射程\n [00EE00]+30%近战攻速" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3781,7 +3781,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+2最大射程\n [00EE00]+30%
 			</effect_group>
 </buff>
 <buff name="BEIZZ 4" name_key="[FFD306]被动☆[FF0033]生命之魂" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量恢复\n [00EE00]+50%耐力恢复\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量恢复\n [00EE00]+50%耐力恢复\n" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3793,7 +3793,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+50%血量恢复\n [00EE00]+5
 </buff>
 
 <buff name="BEIT 1" name_key="[FFD306]被动☆[FF0033]狂化 " remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+200%实体伤害\n  [FF0033]-30%耐力和血量\n  [00EE00]+10%耐力恢复和血量恢复\n [00EE00]+1 最大射程" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+200%实体伤害\n  [FF0033]-30%耐力和血量\n  [00EE00]+10%耐力恢复和血量恢复\n [00EE00]+1 最大射程" tooltip_key="被动"    icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3812,7 +3812,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+200%实体伤害\n  [FF0033]
 			</effect_group>                      
 </buff>
 <buff name="BEIT 2" name_key="[FFD306]被动☆[FF0033]血能" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+50%实体伤害\n  [00EE00]+50%耐力和血量\n  [FF0033]-10%耐力恢复和血量恢复" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+50%实体伤害\n  [00EE00]+50%耐力和血量\n  [FF0033]-10%耐力恢复和血量恢复" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -3830,7 +3830,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+50%实体伤害\n  [00EE00]+
 			</effect_group>                      
 </buff>
 <buff name="BEIT 3" name_key="[FFD306]被动☆[FF0033]死战" remove_on_death="false"
-description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]+10%耐力恢复\n [00EE00]-30%步行速度\n [00EE00]-35%跑步速度\n" tooltip_key="被动"    >
+description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]+10%耐力恢复\n [00EE00]-30%步行速度\n [00EE00]-35%跑步速度\n" tooltip_key="被动"   icon="ui_game_symbol_bull"  >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -7200,7 +7200,7 @@ hidden="false" remove_on_death="false" icon="ui_game_symbol_deep_cuts" icon_colo
 <!--  职业 -->
 <append xpath="/buffs">
 <buff name="ZY 1" name_key="[FF0033]职业☆[FF0033]武器大师" remove_on_death="false"
-description_key="" tooltip_key="职业" icon="千变石"   >
+description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
               
@@ -7299,7 +7299,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 
 
 <buff name="ZY 2" name_key="[FF0033]职业☆[FF0033]枪手" remove_on_death="false"
-description_key="" tooltip_key="职业" icon="千变石"   >
+description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
  
@@ -7393,7 +7393,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 </buff>
 
 <buff name="ZY 3" name_key="[FF0033]职业☆[FF0033]工程师" remove_on_death="false"
-description_key="" tooltip_key="职业" icon="千变石"   >
+description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -7406,7 +7406,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 			</effect_group>			
 </buff>
 
-<buff name="随机工程师☆灵能" hidden="true">
+<buff name="随机工程师☆灵能" hidden="true" >
 		<stack_type value="ignore"/><display_value value=""/><display_value_key value="[00FFFF]工程师"/>
 		<duration value="31"/>
 		<effect_group>	
@@ -7437,14 +7437,14 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 			 <triggered_effect trigger="onSelfBuffStart" action="AddBuff" fireOneBuff="true" target="self"   buff="[FF0033]工程师☆灵能LV3,[FF0033]工程师☆灵能LV4,[FF0033]工程师☆灵能LV5" weights="2,2,2"/>  
 		</effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV0" name_key="[FF0033]工程师☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon="千变石">
+<buff name="[FF0033]工程师☆灵能LV0" name_key="[FF0033]工程师☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon="ui_game_symbol_bull" icon_color="26,0,0">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".01"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV1" name_key="[FF0033]工程师☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+5% 增加实体伤害 \n+20% 收获量！"   icon="千变石">
+<buff name="[FF0033]工程师☆灵能LV1" name_key="[FF0033]工程师☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+5% 增加实体伤害 \n+20% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7452,7 +7452,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".2"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV2" name_key="[FF0033]工程师☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+10% 增加实体伤害 \n+40% 收获量！"   icon="千变石">
+<buff name="[FF0033]工程师☆灵能LV2" name_key="[FF0033]工程师☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+10% 增加实体伤害 \n+40% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7460,7 +7460,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".4"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV3" name_key="[FF0033]工程师☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+15% 增加实体伤害 \n+60% 收获量！"   icon="千变石">
+<buff name="[FF0033]工程师☆灵能LV3" name_key="[FF0033]工程师☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+15% 增加实体伤害 \n+60% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7468,7 +7468,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".6"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV4" name_key="[FF0033]工程师☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+20% 增加实体伤害 \n+50% 收获量！"   icon="千变石">
+<buff name="[FF0033]工程师☆灵能LV4" name_key="[FF0033]工程师☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+20% 增加实体伤害 \n+50% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7476,7 +7476,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".8"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV5" name_key="[FF0033]工程师☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+30% 增加实体伤害 \n+100% 收获量！"   icon="千变石">
+<buff name="[FF0033]工程师☆灵能LV5" name_key="[FF0033]工程师☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+30% 增加实体伤害 \n+100% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7486,7 +7486,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 </buff>
 
 <buff name="ZY 4" name_key="[FF0033]职业☆[FF0033]猎人" remove_on_death="false"
-description_key="" tooltip_key="职业" icon="千变石"   >
+description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 <effect_group>
@@ -7579,7 +7579,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 </buff>
 
 <buff name="ZY 5" name_key="[FF0033]职业☆[FF0033]军人" remove_on_death="false"
-description_key="" tooltip_key="职业" icon="千变石"   >
+description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 <effect_group>
@@ -7672,7 +7672,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 </buff>
 
 <buff name="ZY 6" name_key="[FF0033]职业☆[FF0033]刺客大师" remove_on_death="false"
-description_key="" tooltip_key="职业" icon="千变石"   >
+description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 		    <stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 <effect_group>
@@ -8047,7 +8047,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 		</effect_group>		
 </buff>	
 
-<buff name="[00FFFF]金星源能" name_key="[00FFFF]金星源能" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100%方块伤害"   icon="天气">
+<buff name="[00FFFF]金星源能" name_key="[00FFFF]金星源能" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100%方块伤害"  icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		
 		<effect_group>
@@ -8055,28 +8055,28 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 			<passive_effect name="BlockDamage" operation="perc_add" value="1"/>
         </effect_group>		
 </buff>	
-<buff name="[00FFFF]木星源能" name_key="[00FFFF]木星源能" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+25%血量上限"   icon="天气">
+<buff name="[00FFFF]木星源能" name_key="[00FFFF]木星源能" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+25%血量上限"   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>
         <!-- 体力上限 -->
 				<passive_effect name="HealthMax" operation="perc_add" value=".25" />		
 		</effect_group>		
 </buff>	
-<buff name="[00FFFF]水星源能" name_key="[00FFFF]水星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+25%耐力上限"   icon="天气">
+<buff name="[00FFFF]水星源能" name_key="[00FFFF]水星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+25%耐力上限"   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>	
 		<!-- 耐力上限 -->
 			<passive_effect name="StaminaMax" operation="perc_add" value=".25"/>
         </effect_group>		
 </buff>				
-<buff name="[00FFFF]火星源能" name_key="[00FFFF]火星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+10%跑步速度\n+100%实体伤害"   icon="天气">
+<buff name="[00FFFF]火星源能" name_key="[00FFFF]火星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+10%跑步速度\n+100%实体伤害"   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>	
 		<passive_effect name="EntityDamage" operation="perc_add"  value="1"/>
 		<passive_effect name="RunSpeed" operation="perc_add"  value="0.1"/>
         </effect_group>		
  </buff>	
-<buff name="[00FFFF]土星源能" name_key="[00FFFF]土星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+15%跑步速度\n+20%体力回复."   icon="天气">
+<buff name="[00FFFF]土星源能" name_key="[00FFFF]土星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+15%跑步速度\n+20%体力回复."   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>
         <!-- 跑步速度 -->
@@ -8085,33 +8085,33 @@ description_key="" tooltip_key="职业" icon="千变石"   >
         </effect_group>		
 </buff>	
 
-<buff name="随机星源能2" name_key="随机星源能2" description_key="随机星源能2！"   icon="天气">
+<buff name="随机星源能2" name_key="随机星源能2" description_key="随机星源能2！"   icon="ui_game_symbol_bull">
 		<stack_type value="replace"/>
 		<duration value="1"/>
 		<effect_group>		
 			 <triggered_effect trigger="onSelfBuffStart" action="AddBuff" fireOneBuff="true" target="self"   buff="[00FFFF]无星源能,[00FFFF]天王星源能,[00FFFF]海王星源能,[00FFFF]地球星源能,[00FFFF]太阳星源能" weights="5,5,5,5,5"/> 
 		</effect_group>		
 </buff>	
-<buff name="[00FFFF]天王星源能" name_key="[00FFFF]天王星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+150%实体伤害"   icon="天气">
+<buff name="[00FFFF]天王星源能" name_key="[00FFFF]天王星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+150%实体伤害"   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>	
 		<passive_effect name="EntityDamage" operation="perc_add"  value="1.5"/>
         </effect_group>		
 </buff>	
-<buff name="[00FFFF]海王星源能" name_key="[00FFFF]海王星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100%收获"   icon="天气">
+<buff name="[00FFFF]海王星源能" name_key="[00FFFF]海王星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100%收获"   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>		
 			<passive_effect name="HarvestCount" operation="perc_add" value="1"/>
 		</effect_group>		
 </buff>	
-<buff name="[00FFFF]地球星源能" name_key="[00FFFF]地球星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+2最大射程"   icon="天气">
+<buff name="[00FFFF]地球星源能" name_key="[00FFFF]地球星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+2最大射程"   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>		
 			<!-- 最大射程 -->
 			<passive_effect name="MaxRange" operation="base_add" value="2"/>
 		</effect_group>			
 </buff>	
-<buff name="[00FFFF]太阳星源能" name_key="[00FFFF]太阳星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+50%实体伤害\n+20%收获\n+10%血量恢复"   icon="天气">
+<buff name="[00FFFF]太阳星源能" name_key="[00FFFF]太阳星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+50%实体伤害\n+20%收获\n+10%血量恢复"   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>		
 		     <!-- 血量恢复 -->
@@ -8122,7 +8122,7 @@ description_key="" tooltip_key="职业" icon="千变石"   >
 		</effect_group>			
 </buff>	
 
-<buff name="[00FFFF]无星源能" name_key="[00FFFF]无星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n无"   icon="天气">
+<buff name="[00FFFF]无星源能" name_key="[00FFFF]无星源能"  remove_on_death="false" description_key="[FFD306]附加效果:\n无"   icon="ui_game_symbol_bull">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]星源能量"/><duration value="600"/>
 		<effect_group>		
 			 <passive_effect name="HarvestCount" operation="perc_add"  value=".01"/>	

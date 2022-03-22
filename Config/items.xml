@@ -3,6 +3,7 @@
 
 <item name="星源水晶">
 	<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+	<property name="CustomIconTint" value="0000E3" />
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="HoldType" value="45"/>	
@@ -16,6 +17,7 @@
 </item>
 <item name="星源碎片">
 	<property name="CustomIcon" value="modGunMeleeBlessedMetal" />
+	<property name="CustomIconTint" value="0000E3" />
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="HoldType" value="45"/>	
@@ -602,6 +604,7 @@
 
 <item name="解除[FF0033]诅咒-减血咒 药水">
     <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIconTint" value="CE0000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
 	<property name="HoldType" value="64"/>
@@ -630,6 +633,7 @@
 </item>
 <item name="解除[FF0033]诅咒-减耐咒 药水">
     <property name="CustomIcon" value="drinkJarPureMineralWater" />
+     <property name="CustomIconTint" value="0066CC" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
 	<property name="HoldType" value="64"/>
@@ -659,6 +663,7 @@
 </item>
 <item name="解除[FF0033]诅咒-恢复减弱咒 药水">
     <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIconTint" value="00BB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
 	<property name="HoldType" value="64"/>
@@ -688,6 +693,7 @@
 </item>
 <item name="解除[FF0033]诅咒-伤害减弱咒 药水">
     <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIconTint" value="5B5B5B" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
 	<property name="HoldType" value="64"/>
@@ -718,6 +724,7 @@
 </item>
 <item name="解除[FF0033]诅咒-减速咒 药水">
     <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIconTint" value="AE8F00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
 	<property name="HoldType" value="64"/>
@@ -747,6 +754,7 @@
 
 <item name="解除[FF0033]所有诅咒 药水">
     <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIconTint" value="0000C6" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
 	<property name="HoldType" value="64"/>
@@ -787,6 +795,7 @@
 </item>
 <item name="解除[FF0033]所有毒 药水">
     <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除毒"/>
 	<property name="HoldType" value="64"/>
@@ -880,54 +889,63 @@
  <!-- 星源 -->
 <item name="金星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="EAC100" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
 </item>
 <item name="水星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="00AEAE" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
 </item>
 <item name="木星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="949449" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
 </item>
 <item name="火星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="F75000" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
 </item>
 <item name="土星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="D9B300" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
 </item>
 <item name="天王星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="5151A2" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
 </item>
 <item name="海王星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="408080" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
 </item>
 <item name="地球星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="2828FF" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
 </item>
 <item name="太阳星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="各种星源"/>
@@ -935,18 +953,21 @@
 
 <item name="五行☆星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="3A006F" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="DescriptionKey" value="各种高级星源"/>
 </item>
 <item name="双王☆星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="6C3365" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="DescriptionKey" value="各种高级星源"/>
 </item>
 <item name="生命☆星源">
 	<property name="CustomIcon" value="resourceSnowBall" />
+	<property name="CustomIconTint" value="D200D2	" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="DescriptionKey" value="各种高级星源"/>
@@ -954,7 +975,7 @@
 
 <item name="千变碎片">
 	<property name="CustomIcon" value="resourceRawDiamond" />
-	<property name="CustomIconTint" value="FF44FF" />
+	<property name="CustomIconTint" value="ffaad5" />
 	<property name="Extends" value="星源水晶"/>
 	 
 	<property name="EconomicValue" value="1000"/>
@@ -963,7 +984,7 @@
 </item>
 <item name="千变石">
 	<property name="CustomIcon" value="resourceRawDiamond" />
-	<property name="CustomIconTint" value="FF44FF" />
+	<property name="CustomIconTint" value="F00078" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="Stacknumber" value="1"/>
 	 
@@ -973,7 +994,7 @@
 </item>
 <item name="[00FFFF]神·[FF0000]进化石☆近战">
 	<property name="CustomIcon" value="resourceRawDiamond" />
-	<property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIconTint" value="CE0000" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="Stacknumber" value="1"/>
 	 
@@ -983,7 +1004,7 @@
 </item>
 <item name="[00FFFF]神·[FF0000]进化石☆远程">
 	<property name="CustomIcon" value="resourceRawDiamond" />
-	<property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIconTint" value="CE0000" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="Stacknumber" value="1"/>
 	 
@@ -2156,7 +2177,9 @@
 	</effect_group>
 </item>
 <item name="散弹子弹-SSS">
-	<property name="CustomIcon" value="ammoShotgunShell"/><property name="DescriptionKey" value="114Desc"/>
+	<property name="CustomIcon" value="ammoShotgunShell"/>
+	<property name="CustomIconTint" value="460046" />
+	<property name="DescriptionKey" value="114Desc"/>
 	<property name="Tags" value="ammo,shotgun"/>
 	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
@@ -2397,7 +2420,8 @@
 	</effect_group>
 </item>
 <item name="44子弹技能书 SSS">
-	<property name="CustomIcon" value="bundleDartTrap" /><property name="CustomIconTint" value="FF44FF" />
+	<property name="CustomIcon" value="bundleDartTrap" />
+	<property name="CustomIconTint" value="FF44FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="116Desc"/>
 	 <property name="Group" value="MOTU2"/>
 	<property name="Unlocks" value="ammo44Ma"/>
@@ -2449,7 +2473,7 @@
 	<property name="Extends" value="ammo9mmBulletHP"/>
 	<property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
-	<property name="CustomIconTint" value="FF44FF" />
+	<property name="CustomIconTint" value="460046" />
 	<property name="UnlockedBy" value="SSS 9mm"/>
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="120" tags="perkGunslinger,9mmGun"/>
@@ -2459,7 +2483,9 @@
 	</effect_group>
 </item>
 <item name="44子弹-SSS">
-	<property name="Extends" value="ammo44MagnumBulletHP"/><property name="DescriptionKey" value="114Desc"/>
+	<property name="Extends" value="ammo44MagnumBulletHP"/>
+	<property name="CustomIconTint" value="460046" />
+	<property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
 	<property name="EconomicValue" value="10"/>
 	<property name="UnlockedBy" value="SSS 44"/>
@@ -2476,7 +2502,7 @@
 </item>
 <item name="762子弹-SSS">
 	<property name="CustomIcon" value="ammo762mmBulletHP"/>
-	<property name="CustomIconTint" value="FF44FF" />
+	<property name="CustomIconTint" value="460046" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="DescriptionKey" value="114Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
@@ -4153,6 +4179,7 @@
 
 <item name="星源能量">
 	<property name="CustomIcon" value="foodCropBlueberries" />
+	<property name="CustomIconTint" value="4B0091" />
 	<property name="Tags" value="gasoline"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -4169,6 +4196,7 @@
 </item>	
 <item name="[FFD306]神·[FF0000]星源☆共震收纳枪">
 	<property name="CustomIcon" value="hubcapNoMine" />
+	<property name="CustomIconTint" value="4B0091" />
 	<property name="Tags" value="melee,heavy,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
 	<property name="DisplayType" value="武器栏收纳枪"/>
 	<property name="HoldType" value="1"/>
@@ -20537,8 +20565,8 @@ needed?
 
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆炮塔">
-	<property name="CustomIcon" value="gunBotT2JunkTurret" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	<property name="CustomIcon" value="gunBotT2JunkTurret" />
+	<property name="DescriptionKey" value="113Desc"/>
 	<property name="Tags" value="turretRanged,炮台,weapon,武器,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
 	<property name="HoldType" value="67"/>
@@ -36280,6 +36308,7 @@ needed?
 </item>	
 <item name="新手子弹">
 	<property name="CustomIcon" value="resourceBulletTip" />
+	<property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="gasoline"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -36295,6 +36324,7 @@ needed?
 </item>	
 <item name="[FFD306]新手·[FF0000]枪">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" />
+	<property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="melee,heavy,武器,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
 
 	<property name="DisplayType" value="武器栏收纳枪"/>
@@ -37011,8 +37041,8 @@ needed?
 </item>
 <!--炮塔 -->
 <item name="[FFD306]星源☆[FFBFFF]炮塔">
-	<property name="CustomIcon" value="gunBotT2JunkTurret" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	<property name="CustomIcon" value="gunBotT2JunkTurret" />
+	<property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
 	<property name="HoldType" value="67"/>
@@ -37188,7 +37218,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆[FFBFFF]散弹炮塔">
-	<property name="CustomIcon" value="gunBotT2JunkTurret10" /><property name="DescriptionKey" value="122Desc"/>	 
+	<property name="CustomIcon" value="gunBotT2JunkTurret" /><property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
 	<property name="HoldType" value="67"/>
@@ -37276,7 +37306,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆[FFBFFF]大容量炮塔">
-	<property name="CustomIcon" value="gunBotT2JunkTurret10" /><property name="DescriptionKey" value="122Desc"/>	 
+	<property name="CustomIcon" value="gunBotT2JunkTurret" /><property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
 	<property name="HoldType" value="67"/>
@@ -37364,7 +37394,8 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆[FFBFFF]激光炮塔">
-	<property name="CustomIcon" value="gunBotT2JunkTurret" /><property name="DescriptionKey" value="122Desc"/>
+	<property name="CustomIcon" value="gunBotT2JunkTurret" />
+	<property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,激光,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
 	<property name="HoldType" value="67"/>
