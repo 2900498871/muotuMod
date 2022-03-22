@@ -108,11 +108,8 @@
 </lootgroup>
 
 <lootgroup name="MO1" count="1">
-
 	<item name="伤害提升 40%" count="1" prob="1" />
-
 	<item name="伤害提升 80%" count="1" prob=".3" />
-
 </lootgroup>
 <lootgroup name="MO2" count="1">
 	<item name="火焰配件 5%" count="1" prob="1" />
@@ -156,23 +153,15 @@
 	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆☆" count="1" prob="0.15"/>
@@ -182,23 +171,15 @@
 	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆☆" count="1" prob="0.15"/>
@@ -208,23 +189,15 @@
 	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆☆" count="1" prob="0.15"/>
@@ -234,23 +207,15 @@
 	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆☆" count="1" prob="0.15"/>
@@ -260,23 +225,15 @@
 	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆☆" count="1" prob="0.15"/>
-
-	
 	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.8"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.5"/>
 	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆☆" count="1" prob="0.15"/>
@@ -1122,7 +1079,6 @@
 	<item group="光环lv3" count="1" />
 	<item group="光环lv4" count="1"/>
 	<item group="光环lv5" count="1" />
-	
 </lootcontainer>
 
 
@@ -1236,39 +1192,13 @@
 	<item name="神级强化结晶" count="1,2" prob=".03" />
 	<item name="超神强化结晶" count="1,3" prob=".01" />
 	<item name="千变碎片" count="1" prob=".005" />
-	<item name="属性变换结晶" count="1" prob=".1" />
+	<item name="属性变换结晶" count="1" prob=".01" />
 	<item name="1技能点" count="1" prob="0.05"/>
 	<item name="5技能点" count="1" prob="0.01"/>
-	<item name="10技能点" count="1" prob="0.005"/>
 	<item name="[2894FF]铱矿" count="1" prob="0.01"/>
 	<item name="[CA8EFF]镭矿" count="1" prob="0.01"/>
 	<item name="[40E0D0]钛矿" count="1" prob="0.01"/>
 	<item name="[FFD306]钨矿" count="1" prob="0.01"/>
-	<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
-	<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="加速技能书 LV1" count="1" prob="0.3"/>
-	
-
-
-
-	<item name="挑战 地狱狮子" count="1"  prob=".2" />
-	<item name="挑战 地狱熊" count="1"  prob=".2" />
-	<item name="挑战 地狱狼" count="1"  prob=".2" />
-
-	
-	<item name="击杀C级僵尸" count="1"  prob=".08" />
-	<item name="击杀B级僵尸" count="1"  prob=".08" />
-	<item name="击杀A级僵尸" count="1"  prob=".08" />
-	<item name="击杀S级僵尸" count="1"  prob=".08" />
-	<item name="击杀SS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级动物" count="1"  prob=".08" />
-	
-	<item name="[00FFFF]神☆[FF0000]之枪" count="1" prob="0.01"/>
 </lootcontainer>
 
 <!-- 血夜C-->
@@ -1317,817 +1247,2134 @@
 
 </append>
 
-	
-<append xpath="lootcontainers/lootcontainer[@name='junk']">
-	<item name="末石" count="1,8"/>
-	<item name="途石" count="1,8"/>
-	<item name="高级强化结晶" count="1,3" />
-	<item name="超级强化结晶" count="1,3" prob=".1" />
-	<item name="神级强化结晶" count="1,2" prob=".1" />
-	<item name="超神强化结晶" count="1,3" prob=".01" />
-	<item name="千变碎片" count="1" prob=".005" />
-	<item name="属性变换结晶" count="1" prob=".1" />
-	<item name="1技能点" count="1" prob="0.05"/>
-	<item name="5技能点" count="1" prob="0.01"/>
-	<item name="[2894FF]铱矿" count="1,10" prob="0.1"/>
-	<item name="[CA8EFF]镭矿" count="1,10" prob="0.1"/>
-	<item name="[40E0D0]钛矿" count="1,10" prob="0.1"/>
-	<item name="[FFD306]钨矿" count="1,10" prob="0.1"/>
-	
-	<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
-	<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
-	<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
-	<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
-    <item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
-	
-	<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
-	<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
-	<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
-	<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
-    <item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
-	
-	<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
-	<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
-	<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
-	<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
-    <item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
-	
-	<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
-	<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
-	<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
-	<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
-    <item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
-	
-	<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
-	<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
-	<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
-	<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
-    <item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
-	<item name="[00FFFF]神☆[FF0000]之枪" count="1" prob="0.005"/>
-	<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".1"/>
-	<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".1"/>
-	<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".1"/>
-	<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".1"/>
-
-	<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".1"/>
-	<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".1"/>
-	<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".1"/>
-	<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".1"/>
-	
-
-
-</append>
-<set xpath="/lootcontainers/lootcontainer[@name='junk']/@count">2,3</set>
-<append xpath="lootcontainers/lootcontainer[@name='bookcase']">
-
-	<item name="1技能点" count="1" prob="0.05"/>
-	<item name="5技能点" count="1" prob="0.01"/>
-	<item name="10技能点" count="1" prob="0.005"/>
-
-	<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
-	<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="加速技能书 LV1" count="1" prob="0.3"/>
-	
-
-
-
-	<item name="挑战 地狱狮子" count="1"  prob=".2" />
-	<item name="挑战 地狱熊" count="1"  prob=".2" />
-	<item name="挑战 地狱狼" count="1"  prob=".2" />
-
-	
-	<item name="击杀C级僵尸" count="1"  prob=".08" />
-	<item name="击杀B级僵尸" count="1"  prob=".08" />
-	<item name="击杀A级僵尸" count="1"  prob=".08" />
-	<item name="击杀S级僵尸" count="1"  prob=".08" />
-	<item name="击杀SS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级动物" count="1"  prob=".08" />
-
-</append>
-<append xpath="lootcontainers/lootcontainer[@name='bookPile']">
-
-	<item name="1技能点" count="1" prob="0.05"/>
-	<item name="5技能点" count="1" prob="0.01"/>
-	<item name="10技能点" count="1" prob="0.005"/>
-
-	<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
-	<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="加速技能书 LV1" count="1" prob="0.3"/>
-	
-
-
-	<item name="挑战 地狱狮子" count="1"  prob=".2" />
-	<item name="挑战 地狱熊" count="1"  prob=".2" />
-	<item name="挑战 地狱狼" count="1"  prob=".2" />
-
-	
-	<item name="击杀C级僵尸" count="1"  prob=".08" />
-	<item name="击杀B级僵尸" count="1"  prob=".08" />
-	<item name="击杀A级僵尸" count="1"  prob=".08" />
-	<item name="击杀S级僵尸" count="1"  prob=".08" />
-	<item name="击杀SS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级动物" count="1"  prob=".08" />
-
-</append>
-<append xpath="lootcontainers/lootcontainer[@name='crackabookCrate']">
-
-	<item name="1技能点" count="1" prob="0.05"/>
-	<item name="5技能点" count="1" prob="0.01"/>
-	<item name="10技能点" count="1" prob="0.005"/>
-
-	<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
-	<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="加速技能书 LV1" count="1" prob="0.3"/>
-	
-
-
-
-	<item name="挑战 地狱狮子" count="1"  prob=".2" />
-	<item name="挑战 地狱熊" count="1"  prob=".2" />
-	<item name="挑战 地狱狼" count="1"  prob=".2" />
-
-	
-	<item name="击杀C级僵尸" count="1"  prob=".08" />
-	<item name="击杀B级僵尸" count="1"  prob=".08" />
-	<item name="击杀A级僵尸" count="1"  prob=".08" />
-	<item name="击杀S级僵尸" count="1"  prob=".08" />
-	<item name="击杀SS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级动物" count="1"  prob=".08" />
 
-</append>
-<append xpath="lootcontainers/lootcontainer[@name='crackabookShelves']">
 
-	<item name="1技能点" count="1" prob="0.05"/>
-	<item name="5技能点" count="1" prob="0.01"/>
-	<item name="10技能点" count="1" prob="0.005"/>
-
-	<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
-	<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
-	<item name="加速技能书 LV1" count="1" prob="0.3"/>
-	
-
-
-
-	<item name="挑战 地狱狮子" count="1"  prob=".2" />
-	<item name="挑战 地狱熊" count="1"  prob=".2" />
-	<item name="挑战 地狱狼" count="1"  prob=".2" />
-
-	
-	<item name="击杀C级僵尸" count="1"  prob=".08" />
-	<item name="击杀B级僵尸" count="1"  prob=".08" />
-	<item name="击杀A级僵尸" count="1"  prob=".08" />
-	<item name="击杀S级僵尸" count="1"  prob=".08" />
-	<item name="击杀SS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级动物" count="1"  prob=".08" />
-
-</append>
-<append xpath="lootcontainers/lootcontainer[@name='mailbox']">
-
-	<item name="1技能点" count="1" prob="0.05"/>
-	<item name="5技能点" count="1" prob="0.01"/>
-	<item name="10技能点" count="1" prob="0.005"/>
-
-	<item name="炮塔弹药技能书 LV1" count="1" prob="0.2"/>
-	<item name="炮塔散弹技能书 LV1" count="1" prob="0.2"/>
-	<item name="762子弹技能书 LV1" count="1" prob="0.2"/>
-	<item name="44子弹技能书 LV1" count="1" prob="0.2"/>
-	<item name="9mm子弹技能书 LV1" count="1" prob="0.2"/>
-	<item name="散弹子弹技能书 LV1" count="1" prob="0.2"/>
-	<item name="加速技能书 LV1" count="1" prob="0.2"/>
-	
-
-
-
-	<item name="挑战 地狱狮子" count="1"  prob=".2" />
-	<item name="挑战 地狱熊" count="1"  prob=".2" />
-	<item name="挑战 地狱狼" count="1"  prob=".2" />
-
-	
-	<item name="击杀C级僵尸" count="1"  prob=".08" />
-	<item name="击杀B级僵尸" count="1"  prob=".08" />
-	<item name="击杀A级僵尸" count="1"  prob=".08" />
-	<item name="击杀S级僵尸" count="1"  prob=".08" />
-	<item name="击杀SS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-	<item name="击杀SSS级动物" count="1"  prob=".08" />
-
-</append>
-
-
-
-<append xpath="lootcontainers/lootcontainer[@name='shoes']">
-
-	
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-	
-	
-	<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.02"/>
-	
-	<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
-
-	<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
-	
+	<!--*******************************************技能书挑战掉落***************************************-->
+	<append xpath="lootcontainers/lootcontainer[@name='bookcase']">
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+		<item name="10技能点" count="1" prob="0.005"/>
+		<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
+		<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="加速技能书 LV1" count="1" prob="0.3"/>
+		<item name="挑战 地狱狮子" count="1"  prob=".2" />
+		<item name="挑战 地狱熊" count="1"  prob=".2" />
+		<item name="挑战 地狱狼" count="1"  prob=".2" />
+		<item name="击杀C级僵尸" count="1"  prob=".08" />
+		<item name="击杀B级僵尸" count="1"  prob=".08" />
+		<item name="击杀A级僵尸" count="1"  prob=".08" />
+		<item name="击杀S级僵尸" count="1"  prob=".08" />
+		<item name="击杀SS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级动物" count="1"  prob=".08" />
+	</append>
+	<append xpath="lootcontainers/lootcontainer[@name='bookPile']">
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+		<item name="10技能点" count="1" prob="0.005"/>
+		<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
+		<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="加速技能书 LV1" count="1" prob="0.3"/>
+		<item name="挑战 地狱狮子" count="1"  prob=".2" />
+		<item name="挑战 地狱熊" count="1"  prob=".2" />
+		<item name="挑战 地狱狼" count="1"  prob=".2" />
+		<item name="击杀C级僵尸" count="1"  prob=".08" />
+		<item name="击杀B级僵尸" count="1"  prob=".08" />
+		<item name="击杀A级僵尸" count="1"  prob=".08" />
+		<item name="击杀S级僵尸" count="1"  prob=".08" />
+		<item name="击杀SS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级动物" count="1"  prob=".08" />
+	</append>
+	<append xpath="lootcontainers/lootcontainer[@name='crackabookCrate']">
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+		<item name="10技能点" count="1" prob="0.005"/>
+		<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
+		<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="加速技能书 LV1" count="1" prob="0.3"/>
+		<item name="挑战 地狱狮子" count="1"  prob=".2" />
+		<item name="挑战 地狱熊" count="1"  prob=".2" />
+		<item name="挑战 地狱狼" count="1"  prob=".2" />
+		<item name="击杀C级僵尸" count="1"  prob=".08" />
+		<item name="击杀B级僵尸" count="1"  prob=".08" />
+		<item name="击杀A级僵尸" count="1"  prob=".08" />
+		<item name="击杀S级僵尸" count="1"  prob=".08" />
+		<item name="击杀SS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级动物" count="1"  prob=".08" />
+	</append>
+	<append xpath="lootcontainers/lootcontainer[@name='crackabookShelves']">
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+		<item name="10技能点" count="1" prob="0.005"/>
+		<item name="炮塔弹药技能书 LV1" count="1" prob="0.3"/>
+		<item name="炮塔散弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="762子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="44子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
+		<item name="加速技能书 LV1" count="1" prob="0.3"/>
+		<item name="挑战 地狱狮子" count="1"  prob=".2" />
+		<item name="挑战 地狱熊" count="1"  prob=".2" />
+		<item name="挑战 地狱狼" count="1"  prob=".2" />
+		<item name="击杀C级僵尸" count="1"  prob=".08" />
+		<item name="击杀B级僵尸" count="1"  prob=".08" />
+		<item name="击杀A级僵尸" count="1"  prob=".08" />
+		<item name="击杀S级僵尸" count="1"  prob=".08" />
+		<item name="击杀SS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级动物" count="1"  prob=".08" />
+	</append>
+	<!--邮箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='mailbox']">
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+		<item name="10技能点" count="1" prob="0.005"/>
+		<item name="炮塔弹药技能书 LV1" count="1" prob="0.2"/>
+		<item name="炮塔散弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="762子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="44子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="9mm子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="散弹子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="加速技能书 LV1" count="1" prob="0.2"/>
+		<item name="挑战 地狱狮子" count="1"  prob=".2" />
+		<item name="挑战 地狱熊" count="1"  prob=".2" />
+		<item name="挑战 地狱狼" count="1"  prob=".2" />
+		<item name="击杀C级僵尸" count="1"  prob=".08" />
+		<item name="击杀B级僵尸" count="1"  prob=".08" />
+		<item name="击杀A级僵尸" count="1"  prob=".08" />
+		<item name="击杀S级僵尸" count="1"  prob=".08" />
+		<item name="击杀SS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级动物" count="1"  prob=".08" />
+	</append>
+
+	<!--床头柜-->
+	<append xpath="lootcontainers/lootcontainer[@name='nightstand']">
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+		<item name="10技能点" count="1" prob="0.005"/>
+		<item name="炮塔弹药技能书 LV1" count="1" prob="0.2"/>
+		<item name="炮塔散弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="762子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="44子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="9mm子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="散弹子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="加速技能书 LV1" count="1" prob="0.2"/>
+		<item name="挑战 地狱狮子" count="1"  prob=".2" />
+		<item name="挑战 地狱熊" count="1"  prob=".2" />
+		<item name="挑战 地狱狼" count="1"  prob=".2" />
+		<item name="击杀C级僵尸" count="1"  prob=".08" />
+		<item name="击杀B级僵尸" count="1"  prob=".08" />
+		<item name="击杀A级僵尸" count="1"  prob=".08" />
+		<item name="击杀S级僵尸" count="1"  prob=".08" />
+		<item name="击杀SS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级动物" count="1"  prob=".08" />
+	</append>
+
+	<!--金属办公桌-->
+	<append xpath="lootcontainers/lootcontainer[@name='smallSafes']">
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+		<item name="10技能点" count="1" prob="0.005"/>
+		<item name="炮塔弹药技能书 LV1" count="1" prob="0.2"/>
+		<item name="炮塔散弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="762子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="44子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="9mm子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="散弹子弹技能书 LV1" count="1" prob="0.2"/>
+		<item name="加速技能书 LV1" count="1" prob="0.2"/>
+		<item name="挑战 地狱狮子" count="1"  prob=".2" />
+		<item name="挑战 地狱熊" count="1"  prob=".2" />
+		<item name="挑战 地狱狼" count="1"  prob=".2" />
+		<item name="击杀C级僵尸" count="1"  prob=".08" />
+		<item name="击杀B级僵尸" count="1"  prob=".08" />
+		<item name="击杀A级僵尸" count="1"  prob=".08" />
+		<item name="击杀S级僵尸" count="1"  prob=".08" />
+		<item name="击杀SS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
+		<item name="击杀SSS级动物" count="1"  prob=".08" />
+	</append>
+
+	<!--*******************************************光环掉落***************************************-->
+
+	<!--墙面保险箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='oven']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--小枪袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagSmall']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--大枪袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagLarge']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--木箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT1']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--皮箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT2']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--铁箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT3']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--枪柜-->
+	<append xpath="lootcontainers/lootcontainer[@name='gunSafe']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--中保险箱-->
+	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT4']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--大保险箱-->
+	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT5']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--棺材-->
+	<append xpath="lootcontainers/lootcontainer[@name='caskets']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--金属办公桌-->
+	<append xpath="lootcontainers/lootcontainer[@name='smallSafes']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--床头柜-->
+	<append xpath="lootcontainers/lootcontainer[@name='nightstand']">
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.01" />
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.01"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.01"/>
+	</append>
+
+	<!--*******************************************配件掉落***************************************-->
+
+	<!--墙面保险箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='oven']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
 		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
-	<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
-	
-	<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	
-	<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
-	
-	<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
 
-
-
-</append>
-<append xpath="lootcontainers/lootcontainer[@name='shoesShelves']">
-
-	
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-	
-	
-	<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.02"/>
-
-	<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
-
-	<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
-	
+	<!--小枪袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagSmall']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
 		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
-	<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
-	
-	<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	
-	<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
-	
-	<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
 
-</append>
-<append xpath="lootcontainers/lootcontainer[@name='jeans']">
-
-	
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-	
-	
-	<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.02"/>
-
-	<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
-
-	<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
-	
+	<!--大枪袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagLarge']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
 		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
-	<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
-	
-	<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	
-	<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
-	
-	<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
 
-</append>
-<append xpath="lootcontainers/lootcontainer[@name='shirtsShelves']">
-
-	
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-	
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
-
-
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-	
-	
-	<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.02"/>
-
-	<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
-
-	<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
-	
+	<!--木箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT1']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
 		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
-	<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
-	
-	<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	
-	<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
-	
-	<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
 
-</append>
-<append xpath="lootcontainers/lootcontainer[@name='pantsShelves']">
+	<!--皮箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT2']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
 
-	
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
+	<!--铁箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT3']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
 
-	
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.02"/>
+	<!--枪柜-->
+	<append xpath="lootcontainers/lootcontainer[@name='gunSafe']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
+	<!--中箱子掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT4']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
 
-	
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
+	<!--大箱子掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT5']">
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
+	</append>
 
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.02"/>
+	<!--*******************************************星源武器掉落***************************************-->
 
-	
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.02"/>
+	<!--墙面保险箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='oven']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
+
+	<!--小枪袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagSmall']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
+
+	<!--大枪袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagLarge']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
+
+	<!--木箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT1']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
+
+	<!--皮箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT2']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
+
+	<!--铁箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT3']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
+
+	<!--枪柜掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='gunSafe']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
 
 
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
+	<!--中保险箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT4']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
 
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
+	<!--大保险箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT5']">
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".05"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+	</append>
 
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
 
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
 
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.02"/>
 
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.02"/>
 
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.02"/>
+	<!--*******************************************星源防具掉落***************************************-->
 
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
+	<!--墙面保险箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='oven']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.02"/>
+	<!--小枪袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagSmall']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.02"/>
+	<!--大枪袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagLarge']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
 
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
+	<!--木箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT1']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
+	<!--皮箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT2']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
+	<!--铁箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT3']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.02"/>
+	<!--枪柜掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='gunSafe']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
 
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.02"/>
+	<!--中保险箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT4']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
+	<!--大保险箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT5']">
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆靴子 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆腿甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆靴子 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆腿甲 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆靴子 ☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" prob="0.1"/>
+	</append>
 
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.02"/>
 
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.05"/>
-	<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.02"/>
-	
-	
-	<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.02" />
-	<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1"  prob="0.02"/>
-	<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.02"/>
 
-	<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".05"/>
-	<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".05"/>
 
-	<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".02"/>
-	<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".02"/>
-	
-	<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
-	<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
-	
-	<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
-	
-	<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".03"/>
-	
-	<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".05"/>
-	<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".03"/>
 
-</append>
-	
-	
+
+	<!--*******************************************星源矿物掉落***************************************-->
+
+	<append xpath="lootcontainers/lootcontainer[@name='junk']">
+		<item name="末石" count="1,8"/>
+		<item name="途石" count="1,8"/>
+		<item name="高级强化结晶" count="1,3" />
+		<item name="超级强化结晶" count="1,3" prob=".1" />
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,3" prob=".01" />
+		<item name="千变碎片" count="1" prob=".005" />
+		<item name="属性变换结晶" count="1" prob=".1" />
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+		<item name="[2894FF]铱矿" count="1,10" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="1,10" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="1,10" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="1,10" prob="0.1"/>
+	</append>
+	<set xpath="/lootcontainers/lootcontainer[@name='junk']/@count">2,3</set>
+
+	<!--鸟窝掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='birdNest']">
+		<item name="末石" count="1,8"/>
+		<item name="途石" count="1,8"/>
+		<item name="高级强化结晶" count="1,3" />
+		<item name="超级强化结晶" count="1,3" prob=".1" />
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,3" prob=".01" />
+		<item name="千变碎片" count="1" prob=".005" />
+		<item name="属性变换结晶" count="1" prob=".1" />
+		<item name="[2894FF]铱矿" count="1,10" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="1,10" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="1,10" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="1,10" prob="0.1"/>
+	</append>
+
+	<!--垃圾袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='playerBackpack']">
+		<item name="末石" count="1,8"/>
+		<item name="途石" count="1,8"/>
+		<item name="高级强化结晶" count="1,3" />
+		<item name="超级强化结晶" count="1,3" prob=".1" />
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,3" prob=".01" />
+		<item name="千变碎片" count="1" prob=".005" />
+		<item name="属性变换结晶" count="1" prob=".1" />
+		<item name="[2894FF]铱矿" count="1,10" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="1,10" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="1,10" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="1,10" prob="0.1"/>
+	</append>
+
+	<!--垃圾箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='garbage']">
+		<item name="末石" count="1,8"/>
+		<item name="途石" count="1,8"/>
+		<item name="高级强化结晶" count="1,3" />
+		<item name="超级强化结晶" count="1,3" prob=".1" />
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,3" prob=".01" />
+		<item name="千变碎片" count="1" prob=".005" />
+		<item name="属性变换结晶" count="1" prob=".1" />
+		<item name="[2894FF]铱矿" count="1,10" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="1,10" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="1,10" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="1,10" prob="0.1"/>
+	</append>
+
+	<!--垃圾车掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='furnaceDrawer']">
+		<item name="末石" count="1,8"/>
+		<item name="途石" count="1,8"/>
+		<item name="高级强化结晶" count="1,3" />
+		<item name="超级强化结晶" count="1,3" prob=".1" />
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,3" prob=".01" />
+		<item name="千变碎片" count="1" prob=".005" />
+		<item name="属性变换结晶" count="1" prob=".1" />
+		<item name="[2894FF]铱矿" count="1,10" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="1,10" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="1,10" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="1,10" prob="0.1"/>
+	</append>
+
+	<!--车辆桶掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='cars']">
+		<item name="末石" count="1,8"/>
+		<item name="途石" count="1,8"/>
+		<item name="高级强化结晶" count="1,3" />
+		<item name="超级强化结晶" count="1,3" prob=".1" />
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,3" prob=".01" />
+		<item name="千变碎片" count="1" prob=".005" />
+		<item name="属性变换结晶" count="1" prob=".1" />
+		<item name="[2894FF]铱矿" count="1,10" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="1,10" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="1,10" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="1,10" prob="0.1"/>
+	</append>
+
+
+
+
+
+	<!--*******************************************星源衣服掉落***************************************-->
+
+	<!--衣架-->
+
+	<append xpath="lootcontainers/lootcontainer[@name='closet']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+
+	<append xpath="lootcontainers/lootcontainer[@name='pants']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+
+	<append xpath="lootcontainers/lootcontainer[@name='shirts']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+
+	<append xpath="lootcontainers/lootcontainer[@name='shoes']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+	<append xpath="lootcontainers/lootcontainer[@name='shoesShelves']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+
+	</append>
+	<append xpath="lootcontainers/lootcontainer[@name='jeans']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+	<append xpath="lootcontainers/lootcontainer[@name='shirtsShelves']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+	<append xpath="lootcontainers/lootcontainer[@name='pantsShelves']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+
+	<!--洗衣机掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='laundry']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+
+	<!--行李箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='luggage']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+
+	<!--衣箱掉落-->
+
+
+	<!--衣箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='lockers']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+
+	<!--背包掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='cntBackpack']">
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆" count="1" prob="0.1"/>
+		<item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆" count="1" prob="0.05"/>
+	</append>
+
+	<!--*******************************************药水掉落***************************************-->
+
+	<!--
+	<item name="药水-加速 10%" count="1" />
+	<item name="药水-加速 20%" count="1" />
+	<item name="药水-加速 30%" count="1" />
+	<item name="药水-加速 40%" count="1" />
+	<item name="药水-加速 50%" count="1" />
+	<item name="药水-血上限 10" count="1" />
+	<item name="药水-血上限 20" count="1" />
+	<item name="药水-血上限 30" count="1" />
+	<item name="药水-血上限 40" count="1" />
+	<item name="药水-血上限 50" count="1" />
+	<item name="药水-耐上限 10" count="1" />
+	<item name="药水-耐上限 20" count="1" />
+	<item name="药水-耐上限 30" count="1" />
+	<item name="药水-耐上限 40" count="1" />
+	<item name="药水-耐上限 50" count="1" />
+	<item name="药水-实体伤害上升 100%" count="1" />
+	<item name="药水-实体伤害上升 150%" count="1" />
+	<item name="药水-实体伤害上升 200%" count="1" />
+	<item name="药水-实体伤害上升 250%" count="1" />
+	<item name="药水-实体伤害上升 300%" count="1" />
+	<item name="药水-最大射程 +10" count="1" />
+	<item name="药水-隐身 100%" count="1" />
+	<item name="药水-生命恢复 300秒" count="1" />
+
+
+	-->
+
+
+	<!--饮料冰箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='beerCooler']">
+		<item name="药水-加速 10%" count="1" prob="0.1" />
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+	</append>
+
+	<!--咖啡机-->
+	<append xpath="lootcontainers/lootcontainer[@name='coffeeMaker']">
+		<item name="药水-加速 10%" count="1" prob="0.1" />
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+	</append>
+
+	<!--橱柜掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='playerDrawer']">
+		<item name="药水-加速 10%" count="1" prob="0.1" />
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+	</append>
+
+	<!--橱柜掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='sinks']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+	</append>
+
+	<!--大食物袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='foodPileLarge']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.1"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+	<!--中食物袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='foodPileMed']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.1"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--小食物袋掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='foodPileSmall']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.1"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--微波炉掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='microwave']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.1"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--冰箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='cntDropBag']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--购物车掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='shoppingCart']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--货架-->
+	<append xpath="lootcontainers/lootcontainer[@name='shamwayShelves']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+
+	<!--马桶掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='morticianDrawer']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--饮水机-->
+	<append xpath="lootcontainers/lootcontainer[@name='waterCooler']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--药箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='medicineCabinet']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.05"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
+	</append>
+
+	<!--小药箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='medicalPileSmall']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.05"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
+	</append>
+
+	<!--中药箱掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='medicalPileMedium']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.05"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
+	</append>
+
+	<!--药盒掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='medicalPillCase']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.05"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
+	</append>
+
+	<!--药盒掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='medicalPillCase']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.05"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
+
+	</append>
+
+	<!--医疗服务车掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='mopowerTruck']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.05"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
+	</append>
+
+	<!--救护车掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='ambulance']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.05"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
+	</append>
 
 </configs>

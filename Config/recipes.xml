@@ -986,159 +986,159 @@
 	<ingredient name="星源水晶" count="1000"/>
 </recipe>
 
-<recipe name="星源水晶" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="星源水晶" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="resourceBrokenGlass" count="10"/>
 </recipe>
 
-<recipe name="金星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="金星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="水星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="水星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="木星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="木星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="火星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="火星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="土星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="土星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="天王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="天王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="海王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="海王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="地球星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="地球星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="太阳星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="50">
+<recipe name="太阳星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
 
-<recipe name="金星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="金星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="金星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="水星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="水星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="水星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="木星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="木星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="木星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="火星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="火星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="火星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="土星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="土星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="土星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="天王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="天王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="天王星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="海王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="海王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="海王星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="地球星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="地球星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="地球星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
-<recipe name="太阳星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="30">
+<recipe name="太阳星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="太阳星尘" count="50"/>
 	<ingredient name="星源水晶" count="10"/>
 </recipe>
 
 
-<recipe name="金星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="金星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="金星尘" count="100"/>
 </recipe>
-<recipe name="水星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="水星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="水星尘" count="100"/>
 </recipe>
-<recipe name="木星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="木星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="木星尘" count="100"/>
 </recipe>
-<recipe name="火星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="火星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="火星尘" count="100"/>
 </recipe>
-<recipe name="土星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="土星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="土星尘" count="100"/>
 </recipe>
-<recipe name="天王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="天王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="天王星尘" count="100"/>
 </recipe>
-<recipe name="海王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="海王星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="海王星尘" count="100"/>
 </recipe>
-<recipe name="地球星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="地球星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="地球星尘" count="100"/>
 </recipe>
-<recipe name="太阳星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="10">
+<recipe name="太阳星源" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
 	<ingredient name="太阳星尘" count="100"/>
 </recipe>
 
 
-<recipe name="金星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="金星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="金星源" count="1"/>
 </recipe>
-<recipe name="水星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="水星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="水星源" count="1"/>
 </recipe>
-<recipe name="木星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="木星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="木星源" count="1"/>
 </recipe>
-<recipe name="火星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="火星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="火星源" count="1"/>
 </recipe>
-<recipe name="土星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="土星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="土星源" count="1"/>
 </recipe>
-<recipe name="天王星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="天王星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="天王星源" count="1"/>
 </recipe>
-<recipe name="海王星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="海王星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="海王星源" count="1"/>
 </recipe>
-<recipe name="地球星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="地球星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="地球星源" count="1"/>
 </recipe>
-<recipe name="太阳星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="10">
+<recipe name="太阳星尘" count="10" craft_area="源能 磨粉师" tags="源能 磨粉师" craft_time="5">
 	<ingredient name="太阳星源" count="1"/>
 </recipe>
 
 
-<recipe name="五行☆星尘" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="10">
+<recipe name="五行☆星尘" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="5">
 	<ingredient name="金星尘" count="200"/>
 	<ingredient name="水星尘" count="200"/>
 	<ingredient name="木星尘" count="200"/>
 	<ingredient name="火星尘" count="200"/>
 	<ingredient name="土星尘" count="200"/>
 </recipe>
-<recipe name="双王☆星尘" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="10">
+<recipe name="双王☆星尘" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="5">
 	<ingredient name="天王星尘" count="200"/>
 	<ingredient name="海王星尘" count="200"/>
 </recipe>
-<recipe name="生命☆星尘" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="10">
+<recipe name="生命☆星尘" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="5">
 	<ingredient name="地球星尘" count="200"/>
 	<ingredient name="太阳星尘" count="200"/>
 </recipe>
 
-<recipe name="五行☆星源" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="50">
+<recipe name="五行☆星源" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="5">
 	<ingredient name="五行☆星尘" count="1"/>
 	<ingredient name="星源水晶" count="1"/>
 </recipe>
-<recipe name="双王☆星源" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="50">
+<recipe name="双王☆星源" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="5">
 	<ingredient name="双王☆星尘" count="1"/>
 	<ingredient name="星源水晶" count="1"/>
 </recipe>
-<recipe name="生命☆星源" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="50">
+<recipe name="生命☆星源" count="1" craft_area="源能 融合师" tags="源能 融合师" craft_time="5">
 	<ingredient name="生命☆星尘" count="1"/>
 	<ingredient name="星源水晶" count="1"/>
 </recipe>
@@ -1294,7 +1294,8 @@
 
 </recipe>
 
-<recipe name="5技能点" count="1" craft_time=".1">
+	<!--金币买技能点屏蔽-->
+<!--<recipe name="5技能点" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="10000"/>
 </recipe>
 <recipe name="10技能点" count="1" craft_time=".1">
@@ -1302,16 +1303,23 @@
 </recipe>
 <recipe name="传送核心" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="500000"/>
-</recipe>
+</recipe>-->
 
-<recipe name="怪物增强难度" count="1" craft_time=".1">
-	<ingredient name="casinoCoin" count="500000"/>
-</recipe>
+	<recipe name="末石" count="100" craft_time=".1">
+		<ingredient name="casinoCoin" count="1000"/>
+	</recipe>
+	<recipe name="途石" count="100" craft_time=".1">
+		<ingredient name="casinoCoin" count="1000"/>
+	</recipe>
+
+	<recipe name="怪物增强难度" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="500000"/>
+	</recipe>
 
 
 
-
-
+<!--解除诅咒的药水屏蔽，必须搜刮获得-->
+<!--
 <recipe name="解除[FF0033]诅咒-减血咒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="2000"/>
 
@@ -1339,7 +1347,7 @@
 <recipe name="解除[FF0033]所有毒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="5000"/>
 
-</recipe>
+</recipe>-->
 <recipe name="药水-领域抵抗药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="10000"/>
 
