@@ -2421,6 +2421,7 @@
 
 <item name="炮塔弹药-SSS">
 	<property name="CustomIcon" value="ammoJunkTurretRegular"/>
+	<property name="CustomIconTint" value="FF44FF" />
 	<property name="Tags" value="ammo"/>
 	<property name="DisplayType" value="ammoJunkTurretRegular"/>
 	<property name="HoldType" value="45"/>
@@ -2445,8 +2446,10 @@
 	</effect_group>
 </item>
 <item name="9mm子弹-SSS">
-	<property name="Extends" value="ammo9mmBulletHP"/><property name="DescriptionKey" value="114Desc"/>
-	<property name="CustomIcon" value="ammo9mmBulletBallSSS"/>
+	<property name="Extends" value="ammo9mmBulletHP"/>
+	<property name="DescriptionKey" value="114Desc"/>
+	<property name="CustomIcon" value="ammo9mmBulletBall"/>
+	<property name="CustomIconTint" value="FF44FF" />
 	<property name="UnlockedBy" value="SSS 9mm"/>
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="120" tags="perkGunslinger,9mmGun"/>
@@ -2457,7 +2460,7 @@
 </item>
 <item name="44子弹-SSS">
 	<property name="Extends" value="ammo44MagnumBulletHP"/><property name="DescriptionKey" value="114Desc"/>
-	<property name="CustomIcon" value="ammo44MagnumBulletBallSSS"/>
+	<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
 	<property name="EconomicValue" value="10"/>
 	<property name="UnlockedBy" value="SSS 44"/>
 	<effect_group name="ammo44MagnumBulletBall" tiered="false">
@@ -2473,7 +2476,9 @@
 </item>
 <item name="762子弹-SSS">
 	<property name="CustomIcon" value="ammo762mmBulletHP"/>
-	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
+	<property name="CustomIconTint" value="FF44FF" />
+	<property name="Extends" value="ammo9mmBulletBall"/>
+	<property name="DescriptionKey" value="114Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
 	<property name="UnlockedBy" value="SSS 762"/>
@@ -2542,42 +2547,42 @@
 
 <!--技能点 -->
 <item name="ExpBOOKS">
-	<property name="CustomIcon" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="resourcePaper" />
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
 		<property name="QuestGiven" value="ExpBOOKS"/>
 	</property>
 </item>
 <item name="1技能点">
-	<property name="CustomIcon" value="challengeQuestMaster" /><property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIcon" value="resourcePaper" /><property name="CustomIconTint" value="53FF53" />
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
 		<property name="QuestGiven" value="1dian"/>
 	</property>
 </item>
 <item name="5技能点">
-	<property name="CustomIcon" value="challengeQuestMaster" /><property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIcon" value="resourcePaper" /><property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
 		<property name="QuestGiven" value="5dian"/>
 	</property>
 </item>
 <item name="10技能点">
-	<property name="CustomIcon" value="challengeQuestMaster" /><property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIcon" value="resourcePaper" /><property name="CustomIconTint" value="CA8EFF" />
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
 		<property name="QuestGiven" value="10dian"/>
 	</property>
 </item>
 <item name="100技能点">
-	<property name="CustomIcon" value="challengeQuestMaster" /><property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="resourcePaper" /><property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
 		<property name="QuestGiven" value="100dian"/>
 	</property>
 </item>
 <item name="1000技能点">
-	<property name="CustomIcon" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="resourcePaper" />
 	<property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
@@ -2585,7 +2590,7 @@
 	</property>
 </item>
 <item name="10000技能点">
-	<property name="CustomIcon" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="resourcePaper" />
 	<property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
@@ -3141,7 +3146,7 @@
 <append xpath="/items"><!--工具-->
 
 <item name="[CCEEFF]星源☆斧">
-	<property name="CustomIcon" value="meleeToolRepairT0StoneAxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolRepairT0StoneAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="53FF53" />
 	<property name="Extends" value="meleeToolRepairT0StoneAxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="axe,melee,light,tool,longShaft,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
@@ -3180,7 +3185,7 @@
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆斧">
-	<property name="CustomIcon" value="meleeToolRepairT0StoneAxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolRepairT0StoneAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="meleeToolRepairT0StoneAxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="axe,melee,light,tool,longShaft,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
@@ -3219,7 +3224,7 @@
 	</effect_group>
 </item>
 <item name="[63B8FF]星源☆斧">
-	<property name="CustomIcon" value="meleeToolRepairT0StoneAxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolRepairT0StoneAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="CA8EFF" />
 	<property name="Extends" value="meleeToolRepairT0StoneAxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="axe,melee,light,tool,longShaft,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
@@ -3258,7 +3263,7 @@
 	</effect_group>
 </item>
 <item name="[FF0080]星源☆斧">
-    <property name="CustomIcon" value="meleeToolRepairT0StoneAxe1" /><property name="DescriptionKey" value="119Desc"/>
+    <property name="CustomIcon" value="meleeToolRepairT0StoneAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="meleeToolRepairT0StoneAxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="axe,melee,light,tool,longShaft,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
@@ -3297,7 +3302,7 @@
 	</effect_group>
 </item>
 <item name="[FFD306]神·[FF0000]星源☆斧">
-    <property name="CustomIcon" value="meleeToolRepairT0StoneAxe1" /><property name="DescriptionKey" value="119Desc"/>
+    <property name="CustomIcon" value="meleeToolRepairT0StoneAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="FF0000" />
 	<property name="Extends" value="meleeToolRepairT0StoneAxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="axe,melee,light,tool,longShaft,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
@@ -3337,7 +3342,7 @@
 </item>
 
 <item name="[CCEEFF]星源☆锹">
-	<property name="CustomIcon" value="meleeToolShovelT1IronShovel1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolShovelT1IronShovel" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="53FF53" />
     <property name="Extends" value="meleeToolShovelT1IronShovel"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
@@ -3383,7 +3388,7 @@
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆锹">
-	<property name="CustomIcon" value="meleeToolShovelT1IronShovel1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolShovelT1IronShovel" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="meleeToolShovelT1IronShovel"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
@@ -3429,7 +3434,7 @@
 	</effect_group>
 </item>
 <item name="[63B8FF]星源☆锹">
-	<property name="CustomIcon" value="meleeToolShovelT1IronShovel1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolShovelT1IronShovel" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="CA8EFF" />
 	<property name="Extends" value="meleeToolShovelT1IronShovel"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
@@ -3475,7 +3480,7 @@
 	</effect_group>
 </item>
 <item name="[FF0080]星源☆锹">
-    <property name="CustomIcon" value="meleeToolShovelT1IronShovel1" /><property name="DescriptionKey" value="119Desc"/>
+    <property name="CustomIcon" value="meleeToolShovelT1IronShovel" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="meleeToolShovelT1IronShovel"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
@@ -3521,7 +3526,7 @@
 	</effect_group>
 </item>
 <item name="[FFD306]神·[FF0000]星源☆锹">
-    <property name="CustomIcon" value="meleeToolShovelT1IronShovel1" /><property name="DescriptionKey" value="119Desc"/>
+    <property name="CustomIcon" value="meleeToolShovelT1IronShovel" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="FF0000" />
 	<property name="Extends" value="meleeToolShovelT1IronShovel"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
@@ -3568,7 +3573,7 @@
 </item>
 
 <item name="[CCEEFF]星源☆鹤嘴锄">
-	<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="53FF53" />
     <property name="Extends" value="meleeToolPickT1IronPickaxe"/>
 	<property name="DisplayType" value="近战武器栏"/>
@@ -3631,7 +3636,7 @@
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆鹤嘴锄">
-	<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="meleeToolPickT1IronPickaxe"/>
 	<property name="DisplayType" value="近战武器栏"/>
@@ -3694,7 +3699,7 @@
 	</effect_group>
 </item>
 <item name="[63B8FF]星源☆鹤嘴锄">
-	<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="CA8EFF" />
 	<property name="Extends" value="meleeToolPickT1IronPickaxe"/>
 	<property name="DisplayType" value="近战武器栏"/>
@@ -3757,7 +3762,7 @@
 	</effect_group>
 </item>
 <item name="[FF0080]星源☆鹤嘴锄">
-    <property name="CustomIcon" value="meleeToolPickT2SteelPickaxe1" /><property name="DescriptionKey" value="119Desc"/>
+    <property name="CustomIcon" value="meleeToolPickT2SteelPickaxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="meleeToolPickT1IronPickaxe"/>
 	<property name="DisplayType" value="近战武器栏"/>
@@ -3821,7 +3826,7 @@
 	</effect_group>
 </item>
 <item name="[FFD306]神·[FF0000]星源☆鹤嘴锄">
-    <property name="CustomIcon" value="meleeToolPickT2SteelPickaxe1" /><property name="DescriptionKey" value="119Desc"/>
+    <property name="CustomIcon" value="meleeToolPickT2SteelPickaxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="FF0000" />
 	<property name="Extends" value="meleeToolPickT1IronPickaxe"/>
 	<property name="DisplayType" value="近战武器栏"/>
@@ -3886,7 +3891,7 @@
 </item>
 
 <item name="[CCEEFF]星源☆战斧">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="53FF53" />
     <property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
@@ -3938,7 +3943,7 @@
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆战斧">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
@@ -3990,7 +3995,7 @@
 	</effect_group>
 </item>
 <item name="[63B8FF]星源☆战斧">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="CA8EFF" />
 	<property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
@@ -4042,7 +4047,7 @@
 	</effect_group>
 </item>
 <item name="[FF0080]星源☆战斧">
-    <property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
+    <property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
@@ -4094,7 +4099,7 @@
 	</effect_group>
 </item>
 <item name="[FFD306]神·[FF0000]星源☆战斧">
-    <property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
+    <property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
 	<property name="CustomIconTint" value="FF0000" />
 	<property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
