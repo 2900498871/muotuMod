@@ -244,28 +244,18 @@
 	<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.3"/>
 	<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.3"/>
 	<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.3"/>
-
-	
 	<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.3"/>
 	<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.3"/>
 	<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.3"/>
-
-	
 	<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.3"/>
 	<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.3"/>
 	<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.3"/>
-
-	
 	<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.3"/>
 	<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.3"/>
 	<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.3"/>
-
-	
 	<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.3"/>
 	<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.3"/>
 	<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.3"/>
-
-
 </lootgroup>
 
 <lootgroup name="YS1" count="3,5">

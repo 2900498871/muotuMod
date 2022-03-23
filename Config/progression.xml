@@ -224,7 +224,7 @@
 
 	
 	<effect_group>
-	<requirement name="ItemHasTags" tags="ranged"/>
+	<requirement name="ItemHasTags" />
 		<passive_effect name="RoundsPerMinute" operation="perc_add" level="1,5" value=".05,.25"/>
 
 
@@ -239,7 +239,7 @@
 
 	
 	<effect_group>
-	<requirement name="ItemHasTags" tags="ranged"/>
+	<requirement name="ItemHasTags" />
 
 					<passive_effect name="MaxRange" operation="perc_add" level="1" value=".10"/>
 					<passive_effect name="MaxRange" operation="perc_add" level="2" value=".16"/>

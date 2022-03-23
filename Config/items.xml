@@ -3,7 +3,7 @@
 
 <item name="星源水晶">
 	<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
-	<property name="CustomIconTint" value="0000E3" />
+	<property name="CustomIconTint" value="00FFFF" />
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="HoldType" value="45"/>	
@@ -17,7 +17,7 @@
 </item>
 <item name="星源碎片">
 	<property name="CustomIcon" value="modGunMeleeBlessedMetal" />
-	<property name="CustomIconTint" value="0000E3" />
+	<property name="CustomIconTint" value="00FFFF" />
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="HoldType" value="45"/>	
@@ -170,12 +170,14 @@
 
 <item name="末石">
 	<property name="CustomIcon" value="cntQuestTestLoot" />
+	<property name="CustomIconTint" value="F9F900" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="10"/>
 	<property name="DescriptionKey" value="末石1"/>
 </item>
 <item name="途石">
 	<property name="CustomIcon" value="cntWastelandRandomLootHelper" />
+	<property name="CustomIconTint" value="79FF79" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="10"/>
 	<property name="DescriptionKey" value="末石1"/>
@@ -191,6 +193,7 @@
 
 <item name="怪物增强难度">
 	<property name="CustomIcon" value="questMaster" />
+	<property name="CustomIconTint" value="80FFFF" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="DescriptionKey" value="怪物增强难度1"/>
@@ -198,6 +201,7 @@
 
 <item name="普通☆怪物增强难度LV1">
     <property name="CustomIcon" value="questMaster" />
+    <property name="CustomIconTint" value="F9F900" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -229,6 +233,7 @@
 </item>
 <item name="困难☆怪物增强难度LV2">
     <property name="CustomIcon" value="questMaster" />
+     <property name="CustomIconTint" value="F9F900" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -260,6 +265,7 @@
 </item>
 <item name="困难☆怪物增强难度LV3">
     <property name="CustomIcon" value="questMaster" />
+     <property name="CustomIconTint" value="F9F900" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -291,6 +297,7 @@
 </item>
 <item name="疯狂☆怪物增强难度LV4">
     <property name="CustomIcon" value="questMaster" />
+     <property name="CustomIconTint" value="F9F900" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -322,6 +329,7 @@
 </item>
 <item name="疯狂☆怪物增强难度LV5">
     <property name="CustomIcon" value="questMaster" />
+     <property name="CustomIconTint" value="FF9224" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -353,6 +361,7 @@
 </item>
 <item name="疯狂☆怪物增强难度LV6">
     <property name="CustomIcon" value="questMaster" />
+      <property name="CustomIconTint" value="FF9224" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -384,6 +393,7 @@
 </item>
 <item name="地狱☆怪物增强难度LV7">
     <property name="CustomIcon" value="questMaster" />
+      <property name="CustomIconTint" value="FF9224" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -415,6 +425,7 @@
 </item>
 <item name="地狱☆怪物增强难度LV8">
     <property name="CustomIcon" value="questMaster" />
+      <property name="CustomIconTint" value="FF9224" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -446,6 +457,7 @@
 </item>
 <item name="深渊☆怪物增强难度LV9">
     <property name="CustomIcon" value="questMaster" />
+      <property name="CustomIconTint" value="FF9224" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -477,6 +489,7 @@
 </item>
 <item name="深渊☆怪物增强难度LV10">
     <property name="CustomIcon" value="questMaster" />
+      <property name="CustomIconTint" value="FF9224" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -508,6 +521,7 @@
 </item>
 <item name="不是人玩☆怪物增强难度LV11">
     <property name="CustomIcon" value="questMaster" />
+      <property name="CustomIconTint" value="B15BFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -539,6 +553,7 @@
 </item>
 <item name="不是人玩☆怪物增强难度LV12">
     <property name="CustomIcon" value="questMaster" />
+    <property name="CustomIconTint" value="B15BFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -570,6 +585,7 @@
 </item>
 <item name="不是人玩☆怪物增强难度LV13">
     <property name="CustomIcon" value="questMaster" />
+    <property name="CustomIconTint" value="B15BFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -4315,7 +4331,7 @@
 <append xpath="/items"><!--星源武器-->
 <!-- 星源☆猎刀 -->
 <item name="[FFD306]星源☆猎刀">
-	<property name="CustomIconTint" value="FFD306" /><property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
+	<property name="CustomIconTint" value="4DFFFF" /><property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
     
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon，attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -4421,7 +4437,7 @@
 </item>
 <item name="[FFD306]星源☆猎刀+1">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="RepairTools" value="超级强化结晶"/>
 	<property name="Extends" value="[FFD306]星源☆猎刀"/>
@@ -4516,7 +4532,7 @@
 </item>
 <item name="[FFD306]星源☆猎刀+2">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -4621,7 +4637,7 @@
 </item>
 <item name="[FFD306]星源☆猎刀+3">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -4726,7 +4742,7 @@
 </item>
 <item name="[FFD306]星源☆猎刀+4">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -4831,7 +4847,7 @@
 </item>
 <item name="[FFD306]星源☆猎刀+5">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -4936,7 +4952,7 @@
 </item>
 <item name="[FFD306]神·[FF0000]星源☆猎刀">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0080" />
+    <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -5043,7 +5059,7 @@
 <!-- 星源☆砍刀 -->
 <item name="[FFD306]星源☆砍刀">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4DFFFF" />
 
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -5143,7 +5159,7 @@
 </item>
 <item name="[FFD306]星源☆砍刀+1">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="28FF28" />
 
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -5243,7 +5259,7 @@
 </item>
 <item name="[FFD306]星源☆砍刀+2">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EAC100" />
 
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -5343,7 +5359,7 @@
 </item>
 <item name="[FFD306]星源☆砍刀+3">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="FF8040" />
 
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -5443,7 +5459,7 @@
 </item>
 <item name="[FFD306]星源☆砍刀+4">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="3D7878" />
 
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -5543,7 +5559,7 @@
 </item>
 <item name="[FFD306]星源☆砍刀+5">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4A4AFF" />
 
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -5643,7 +5659,7 @@
 </item>
 <item name="[FFD306]神·[FF0000]星源☆砍刀">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="921AFF" />
 
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -5744,7 +5760,7 @@
 <!-- 星源☆钢虎指 -->
 <item name="[FFD306]星源☆钢虎指">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -5814,7 +5830,7 @@
 </item>
 <item name="[FFD306]星源☆钢虎指+1">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="28FF28" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -5883,7 +5899,7 @@
 </item>
 <item name="[FFD306]星源☆钢虎指+2">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EAC100" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -5952,7 +5968,7 @@
 </item>
 <item name="[FFD306]星源☆钢虎指+3">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="FF8040" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -6021,7 +6037,7 @@
 </item>
 <item name="[FFD306]星源☆钢虎指+4">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="3D7878" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -6090,7 +6106,7 @@
 </item>
 <item name="[FFD306]星源☆钢虎指+5">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -6159,7 +6175,7 @@
 </item>
 <item name="[FFD306]神·[FF0000]星源☆钢虎指">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="921AFF" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -6231,6 +6247,7 @@
 <!-- 星源☆电棒 -->
 <item name="[FFD306]星源☆电棒">
 	<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+	<property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="HoldType" value="58"/>
@@ -6434,6 +6451,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆电棒+1">
 	<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+	<property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="HoldType" value="58"/>
@@ -6637,6 +6655,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆电棒+2">
 	<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+	<property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="HoldType" value="58"/>
@@ -6840,6 +6859,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆电棒+3">
 	<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+	<property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="HoldType" value="58"/>
@@ -7043,6 +7063,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆电棒+4">
 	<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+	<property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="HoldType" value="58"/>
@@ -7246,6 +7267,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆电棒+5">
 	<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+	<property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="HoldType" value="58"/>
@@ -7449,6 +7471,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆电棒">
 	<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+	<property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="HoldType" value="58"/>
@@ -7655,7 +7678,7 @@ needed?
 <!-- 星源☆重棒 -->
 <item name="[FFD306]星源☆重棒">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -7746,7 +7769,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重棒+1">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -7837,7 +7860,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重棒+2">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -7928,7 +7951,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重棒+3">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -8019,7 +8042,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重棒+4">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -8110,7 +8133,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重棒+5">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -8201,7 +8224,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆重棒">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -8297,7 +8320,7 @@ needed?
 <item name="[FFD306]星源☆钢矛">
 	<property name="DescriptionKey" value="122Desc"/>
 	<property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/>
 	<property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
@@ -8352,7 +8375,7 @@ needed?
 <item name="[FFD306]星源☆钢矛+1">
 	<property name="DescriptionKey" value="122Desc"/>
 	<property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="28FF28" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/>
 	<property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
@@ -8407,7 +8430,7 @@ needed?
 <item name="[FFD306]星源☆钢矛+2">
 	<property name="DescriptionKey" value="122Desc"/>
 	<property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EAC100" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/>
 	<property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
@@ -8462,7 +8485,7 @@ needed?
 <item name="[FFD306]星源☆钢矛+3">
 	<property name="DescriptionKey" value="122Desc"/>
 	<property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="FF8040" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/>
 	<property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
@@ -8517,7 +8540,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆钢矛+4">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="3D7878" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab"/>
 	<property name="Material" value="MmeleeWpnSpearParts"/><property name="Weight" value="6"/>
@@ -8569,7 +8592,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆钢矛+5">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab"/>
 	<property name="Material" value="MmeleeWpnSpearParts"/><property name="Weight" value="6"/>
@@ -8621,7 +8644,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆钢矛">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="921AFF" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab"/>
 	<property name="Material" value="MmeleeWpnSpearParts"/><property name="Weight" value="6"/>
@@ -8677,7 +8700,7 @@ needed?
 <!-- 星源☆重锤 -->
 <item name="[FFD306]星源☆重锤">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -8763,7 +8786,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重锤+1">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -8849,7 +8872,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重锤+2">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -8935,7 +8958,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重锤+3">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -9021,7 +9044,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重锤+4">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -9107,7 +9130,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆重锤+5">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -9193,7 +9216,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆重锤">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -9281,8 +9304,8 @@ needed?
 
 <!-- 星源☆战斗斧 -->
 <item name="[FFD306]星源☆战斗斧">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIconTint" value="4DFFFF" />
     <property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
 	<property name="EconomicValue" value="700"/>
@@ -9333,8 +9356,8 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆战斗斧+1">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIconTint" value="28FF28" />
     <property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
 	<property name="EconomicValue" value="700"/>
@@ -9385,8 +9408,8 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆战斗斧+2">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIconTint" value="EAC100" />
     <property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
 	<property name="EconomicValue" value="700"/>
@@ -9437,8 +9460,8 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆战斗斧+3">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIconTint" value="FF8040" />
     <property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
 	<property name="EconomicValue" value="700"/>
@@ -9489,8 +9512,8 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆战斗斧+4">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIconTint" value="3D7878" />
     <property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
 	<property name="EconomicValue" value="700"/>
@@ -9541,8 +9564,8 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆战斗斧+5">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIconTint" value="4A4AFF" />
     <property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
 	<property name="EconomicValue" value="700"/>
@@ -9593,8 +9616,8 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]神·[FF0000]星源☆战斗斧">
-	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe1" /><property name="DescriptionKey" value="119Desc"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" /><property name="DescriptionKey" value="119Desc"/>
+	<property name="CustomIconTint" value="921AFF" />
     <property name="Extends" value="meleeToolAxeT1IronFireaxe"/><property name="DisplayType" value="近战武器栏"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
 	<property name="EconomicValue" value="700"/>
@@ -9650,7 +9673,7 @@ needed?
 <!-- 星源☆手枪 -->
 <item name="[FFD306]星源☆手枪">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="1"/>
@@ -9738,7 +9761,7 @@ needed?
 </item>	
 <item name="[FFD306]星源☆手枪+1">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="1"/>
@@ -9826,7 +9849,7 @@ needed?
 </item>	
 <item name="[FFD306]星源☆手枪+2">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="1"/>
@@ -9914,7 +9937,7 @@ needed?
 </item>	
 <item name="[FFD306]星源☆手枪+3">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="1"/>
@@ -10002,7 +10025,7 @@ needed?
 </item>	
 <item name="[FFD306]星源☆手枪+4">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="1"/>
@@ -10090,7 +10113,7 @@ needed?
 </item>	
 <item name="[FFD306]星源☆手枪+5">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="1"/>
@@ -10178,7 +10201,7 @@ needed?
 </item>	
 <item name="[FFD306]神·[FF0000]星源☆手枪">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="1"/>
@@ -10273,7 +10296,7 @@ needed?
 <!-- 星源☆SMG5 -->
 <item name="[FFD306]星源☆SMG5">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -10366,7 +10389,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆SMG5+1">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -10459,7 +10482,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆SMG5+2">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -10552,7 +10575,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆SMG5+3">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -10645,7 +10668,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆SMG5+4">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -10738,7 +10761,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆SMG5+5">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -10831,7 +10854,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆SMG5">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -10927,7 +10950,7 @@ needed?
 <!-- 星源☆左轮手枪 -->
 <item name="[FFD306]星源☆左轮手枪">
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="44"/>
@@ -11020,7 +11043,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆左轮手枪+1">
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="44"/>
@@ -11113,7 +11136,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆左轮手枪+2">
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="44"/>
@@ -11206,7 +11229,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆左轮手枪+3">
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="44"/>
@@ -11299,7 +11322,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆左轮手枪+4">
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="44"/>
@@ -11392,7 +11415,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆左轮手枪+5">
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="44"/>
@@ -11485,7 +11508,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆左轮手枪">
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="44"/>
@@ -11579,7 +11602,7 @@ needed?
 <!-- 星源☆沙漠之鹰 -->
 <item name="[FFD306]星源☆沙漠之鹰">
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
@@ -11667,7 +11690,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆沙漠之鹰+1">
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
@@ -11755,7 +11778,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆沙漠之鹰+2">
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
@@ -11843,7 +11866,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆沙漠之鹰+3">
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
@@ -11931,7 +11954,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆沙漠之鹰+4">
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
@@ -12019,7 +12042,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆沙漠之鹰+5">
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
@@ -12107,7 +12130,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆沙漠之鹰">
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
@@ -12199,7 +12222,7 @@ needed?
 <!-- 星源☆双筒喷枪 -->
 <item name="[FFD306]星源☆双筒喷枪">
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -12282,7 +12305,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆双筒喷枪+1">
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -12365,7 +12388,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆双筒喷枪+2">
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -12448,7 +12471,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆双筒喷枪+3">
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -12531,7 +12554,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆双筒喷枪+4">
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -12614,7 +12637,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆双筒喷枪+5">
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -12697,7 +12720,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆双筒喷枪">
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -12781,7 +12804,7 @@ needed?
 <!-- 星源☆喷枪泵霰弹枪 -->
 <item name="[FFD306]星源☆喷枪泵霰弹枪">
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
@@ -12865,7 +12888,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆喷枪泵霰弹枪+1">
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
@@ -12950,7 +12973,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆喷枪泵霰弹枪+2">
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
@@ -13035,7 +13058,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆喷枪泵霰弹枪+3">
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
@@ -13120,7 +13143,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆喷枪泵霰弹枪+4">
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
@@ -13205,7 +13228,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆喷枪泵霰弹枪+5">
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
@@ -13290,7 +13313,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆喷枪泵霰弹枪">
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
@@ -13376,7 +13399,7 @@ needed?
 <!-- 星源☆自动喷枪 -->
 <item name="[FFD306]星源☆自动喷枪">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -13459,7 +13482,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆自动喷枪+1">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -13542,7 +13565,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆自动喷枪+2">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -13625,7 +13648,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆自动喷枪+3">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -13708,7 +13731,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆自动喷枪+4">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -13791,7 +13814,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆自动喷枪+5">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -13874,7 +13897,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆自动喷枪">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -13961,7 +13984,7 @@ needed?
 <!-- 星源☆狙击枪 -->
 <item name="[FFD306]星源☆狙击枪">
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="77"/>
@@ -14056,7 +14079,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆狙击枪+1">
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="77"/>
@@ -14151,7 +14174,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆狙击枪+2">
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="77"/>
@@ -14246,7 +14269,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆狙击枪+3">
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="77"/>
@@ -14341,7 +14364,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆狙击枪+4">
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="77"/>
@@ -14436,7 +14459,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆狙击枪+5">
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="77"/>
@@ -14531,7 +14554,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆狙击枪">
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="77"/>
@@ -14630,7 +14653,7 @@ needed?
 <!-- 星源☆AK47 -->
 <item name="[FFD306]星源☆AK47">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -14720,7 +14743,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆AK47+1">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -14810,7 +14833,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆AK47+2">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -14900,7 +14923,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆AK47+3">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -14990,7 +15013,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆AK47+4">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -15080,7 +15103,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆AK47+5">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -15170,7 +15193,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆AK47">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -15263,7 +15286,7 @@ needed?
 <!-- 星源☆战术突击步枪 -->
 <item name="[FFD306]星源☆战术突击步枪">
 	<property name="CustomIcon" value="gunMGT2TacticalAR" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="71"/>
@@ -15351,7 +15374,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆战术突击步枪+1">
 	<property name="CustomIcon" value="gunMGT2TacticalAR" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="71"/>
@@ -15439,7 +15462,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆战术突击步枪+2">
 	<property name="CustomIcon" value="gunMGT2TacticalAR" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="71"/>
@@ -15527,7 +15550,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆战术突击步枪+3">
 	<property name="CustomIcon" value="gunMGT2TacticalAR" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="71"/>
@@ -15615,7 +15638,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆战术突击步枪+4">
 	<property name="CustomIcon" value="gunMGT2TacticalAR" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="71"/>
@@ -15703,7 +15726,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆战术突击步枪+5">
 	<property name="CustomIcon" value="gunMGT2TacticalAR" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="71"/>
@@ -15791,7 +15814,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆战术突击步枪">
 	<property name="CustomIcon" value="gunMGT2TacticalAR" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="71"/>
@@ -15882,7 +15905,7 @@ needed?
 <!-- 星源☆M60机枪 -->
 <item name="[FFD306]星源☆M60机枪">
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="60"/>
@@ -15976,7 +15999,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆M60机枪+1">
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="60"/>
@@ -16070,7 +16093,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆M60机枪+2">
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="60"/>
@@ -16164,7 +16187,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆M60机枪+3">
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	   <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="60"/>
@@ -16258,7 +16281,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆M60机枪+4">
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="60"/>
@@ -16352,7 +16375,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆M60机枪+5">
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="60"/>
@@ -16446,7 +16469,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆M60机枪">
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="60"/>
@@ -16546,7 +16569,7 @@ needed?
 <!-- 星源☆火箭发射器 -->
 <item name="[FFD306]星源☆火箭发射器">
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
 	<property name="DisplayType" value="rangedLauncher"/>
 	<property name="HoldType" value="10"/>
@@ -16634,7 +16657,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆火箭发射器+1">
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
 	<property name="DisplayType" value="rangedLauncher"/>
 	<property name="HoldType" value="10"/>
@@ -16722,7 +16745,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆火箭发射器+2">
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
 	<property name="DisplayType" value="rangedLauncher"/>
 	<property name="HoldType" value="10"/>
@@ -16810,7 +16833,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆火箭发射器+3">
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
 	<property name="DisplayType" value="rangedLauncher"/>
 	<property name="HoldType" value="10"/>
@@ -16898,7 +16921,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆火箭发射器+4">
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
 	<property name="DisplayType" value="rangedLauncher"/>
 	<property name="HoldType" value="10"/>
@@ -16986,7 +17009,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆火箭发射器+5">
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
 	<property name="DisplayType" value="rangedLauncher"/>
 	<property name="HoldType" value="10"/>
@@ -17074,7 +17097,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆火箭发射器">
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
 	<property name="DisplayType" value="rangedLauncher"/>
 	<property name="HoldType" value="10"/>
@@ -17165,7 +17188,7 @@ needed?
 <!-- 复合弓 -->
 <item name="[FFD306]星源☆复合弓">
 	<property name="CustomIcon" value="gunBowT3CompoundBow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="HoldType" value="53"/>
@@ -17261,7 +17284,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弓+1">
 	<property name="CustomIcon" value="gunBowT3CompoundBow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="HoldType" value="53"/>
@@ -17356,7 +17379,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弓+2">
 	<property name="CustomIcon" value="gunBowT3CompoundBow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="HoldType" value="53"/>
@@ -17451,7 +17474,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弓+3">
 	<property name="CustomIcon" value="gunBowT3CompoundBow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="HoldType" value="53"/>
@@ -17546,7 +17569,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弓+4">
 	<property name="CustomIcon" value="gunBowT3CompoundBow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="HoldType" value="53"/>
@@ -17641,7 +17664,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弓+5">
 	<property name="CustomIcon" value="gunBowT3CompoundBow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="HoldType" value="53"/>
@@ -17736,7 +17759,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆复合弓">
 	<property name="CustomIcon" value="gunBowT3CompoundBow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="HoldType" value="53"/>
@@ -17833,7 +17856,7 @@ needed?
 <!-- 复合弩 -->
 <item name="[FFD306]星源☆复合弩">
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4DFFFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
@@ -17926,7 +17949,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弩+1">
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="28FF28" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
@@ -18018,7 +18041,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弩+2">
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
@@ -18110,7 +18133,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弩+3">
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="FF8040" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
@@ -18202,7 +18225,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弩+4">
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="3D7878" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
@@ -18294,7 +18317,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆复合弩+5">
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	  <property name="CustomIconTint" value="4A4AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
@@ -18386,7 +18409,7 @@ needed?
 </item>
 <item name="[FFD306]神·[FF0000]星源☆复合弩">
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
@@ -18481,7 +18504,7 @@ needed?
 
 <item name="[FFD306]神·千变[FF0000]星源☆猎刀">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="113Desc"/>
-    <property name="CustomIconTint" value="FF0080" />
+    <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -18584,7 +18607,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆砍刀">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="113Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EA0000" />
 
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
@@ -18682,7 +18705,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆钢虎指">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="113Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EA0000" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -18750,6 +18773,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆电棒">
 	<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+	<property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="HoldType" value="58"/>
@@ -18953,7 +18977,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆重棒">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="113Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -19044,7 +19068,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆钢矛">
 	<property name="DescriptionKey" value="113Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EA0000" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/><property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab"/>
 	<property name="Material" value="MmeleeWpnSpearParts"/><property name="Weight" value="6"/>
@@ -19095,7 +19119,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆重锤">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="113Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -19181,7 +19205,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆手枪">
 	<property name="CustomIcon" value="gunHandgunT1Pistol" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="1"/>
@@ -19269,7 +19293,7 @@ needed?
 </item>	
 <item name="[FFD306]神·千变[FF0000]星源☆SMG5">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -19362,7 +19386,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆左轮手枪">
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="44"/>
@@ -19455,7 +19479,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆沙漠之鹰">
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
@@ -19544,7 +19568,7 @@ needed?
 
 <item name="[FFD306]神·千变[FF0000]星源☆双筒喷枪">
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -19627,7 +19651,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆喷枪泵霰弹枪">
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
@@ -19712,7 +19736,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆自动喷枪">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -19796,7 +19820,7 @@ needed?
 
 <item name="[FFD306]神·千变[FF0000]星源☆狙击枪">
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="77"/>
@@ -19891,7 +19915,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆AK47">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -19981,7 +20005,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆战术突击步枪">
 	<property name="CustomIcon" value="gunMGT2TacticalAR" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="71"/>
@@ -20069,7 +20093,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆M60机枪">
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="60"/>
@@ -20163,7 +20187,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆火箭发射器">
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
 	<property name="DisplayType" value="rangedLauncher"/>
 	<property name="HoldType" value="10"/>
@@ -20251,7 +20275,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆复合弓">
 	<property name="CustomIcon" value="gunBowT3CompoundBow" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="HoldType" value="53"/>
@@ -20347,7 +20371,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆复合弩">
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
 	<property name="DisplayType" value="弩"/>
 	<property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
@@ -20440,7 +20464,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆锤塔">
 	<property name="CustomIcon" value="gunBotT1JunkSledge" /><property name="DescriptionKey" value="113Desc"/>
-	 
+	 <property name="CustomIconTint" value="EA0000" />
 	<property name="Tags" value="turretMelee,melee,weapon,炮台,武器,blunt,longShaft,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeTurret"/>
 	<property name="Group" value="MOTU1"/>
@@ -20566,6 +20590,7 @@ needed?
 </item>
 <item name="[FFD306]神·千变[FF0000]星源☆炮塔">
 	<property name="CustomIcon" value="gunBotT2JunkTurret" />
+	<property name="CustomIconTint" value="EA0000" />
 	<property name="DescriptionKey" value="113Desc"/>
 	<property name="Tags" value="turretRanged,炮台,weapon,武器,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
@@ -30733,6 +30758,7 @@ needed?
 <!--  神速套装 -->
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothHat" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -30778,6 +30804,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothHat" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -30823,6 +30850,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothHat" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -30868,6 +30896,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothHat" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -30913,6 +30942,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="8600FF" />
 	<property name="CustomIcon" value="armorClothHat" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -30959,6 +30989,7 @@ needed?
 
 <item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -31003,6 +31034,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -31045,6 +31077,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -31088,6 +31121,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -31131,6 +31165,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="8600FF" />
 	<property name="CustomIcon" value="armorClothJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -31176,6 +31211,7 @@ needed?
 
 <item name="[FFD306]神速·[2894FF]星源☆手套 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -31220,6 +31256,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -31264,6 +31301,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -31309,6 +31347,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -31353,6 +31392,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆手套 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="8600FF" />
 	<property name="CustomIcon" value="armorClothGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -31398,6 +31438,7 @@ needed?
 
 <item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -31442,6 +31483,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -31486,6 +31528,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -31530,6 +31573,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -31574,6 +31618,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="8600FF" />
 	<property name="CustomIcon" value="armorClothPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -31619,6 +31664,7 @@ needed?
 
 <item name="[FFD306]神速·[2894FF]星源☆靴子 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -31663,6 +31709,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -31707,6 +31754,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -31751,6 +31799,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="armorClothBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -31795,6 +31844,7 @@ needed?
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="8600FF" />
 	<property name="CustomIcon" value="armorClothBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -31841,6 +31891,7 @@ needed?
 <!--  狂战套装 -->
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -31886,6 +31937,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -31931,6 +31983,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -31976,6 +32029,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -32021,6 +32075,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorIronHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -32067,6 +32122,7 @@ needed?
 
 <item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -32111,6 +32167,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -32155,6 +32212,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -32199,6 +32257,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -32243,6 +32302,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorIronChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -32288,6 +32348,7 @@ needed?
 
 <item name="[FFD306]狂战·[FF0033]星源☆手套 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -32332,6 +32393,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -32376,6 +32438,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -32421,6 +32484,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -32465,6 +32529,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorIronGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -32510,6 +32575,7 @@ needed?
 
 <item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -32554,6 +32620,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -32598,6 +32665,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -32642,6 +32710,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -32686,6 +32755,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorIronLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -32731,6 +32801,7 @@ needed?
 
 <item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -32775,6 +32846,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -32819,6 +32891,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -32863,6 +32936,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="CustomIcon" value="armorIronBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -32907,6 +32981,7 @@ needed?
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorIronBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -32953,6 +33028,7 @@ needed?
 <!--  神盾·套装 -->
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -32998,6 +33074,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -33043,6 +33120,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -33088,6 +33166,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -33133,6 +33212,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorSteelHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -33179,6 +33259,7 @@ needed?
 
 <item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -33223,6 +33304,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -33267,6 +33349,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -33311,6 +33394,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -33355,6 +33439,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorSteelChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -33400,6 +33485,7 @@ needed?
 
 <item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -33444,6 +33530,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -33488,6 +33575,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -33533,6 +33621,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -33577,6 +33666,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorSteelGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -33622,6 +33712,7 @@ needed?
 
 <item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -33666,6 +33757,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -33710,6 +33802,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -33754,6 +33847,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -33798,6 +33892,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorSteelLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -33843,6 +33938,7 @@ needed?
 
 <item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -33887,6 +33983,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -33931,6 +34028,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -33975,6 +34073,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="AD5A5A" />
 	<property name="CustomIcon" value="armorSteelBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -34019,6 +34118,7 @@ needed?
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorSteelBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -34065,6 +34165,7 @@ needed?
 <!--  隐刺·套装 -->
 <item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitHood" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -34110,6 +34211,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitHood" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -34155,6 +34257,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitHood" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -34200,6 +34303,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitHood" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -34245,6 +34349,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="apparelGhillieSuitHood" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -34291,6 +34396,7 @@ needed?
 
 <item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -34335,6 +34441,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -34379,6 +34486,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -34423,6 +34531,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -34467,6 +34576,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="apparelGhillieSuitJacket" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -34512,6 +34622,7 @@ needed?
 
 <item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelPlantFiberGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -34556,6 +34667,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelPlantFiberGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -34600,6 +34712,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelPlantFiberGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -34645,6 +34758,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelPlantFiberGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -34689,6 +34803,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="apparelPlantFiberGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -34734,6 +34849,7 @@ needed?
 
 <item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -34778,6 +34894,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -34822,6 +34939,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -34866,6 +34984,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelGhillieSuitPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -34910,6 +35029,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="apparelGhillieSuitPants" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -34955,6 +35075,7 @@ needed?
 
 <item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelPlantFiberShoes" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -34999,6 +35120,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelPlantFiberShoes" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -35043,6 +35165,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelPlantFiberShoes" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -35087,6 +35210,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="7B7B7B" />
 	<property name="CustomIcon" value="apparelPlantFiberShoes" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -35131,6 +35255,7 @@ needed?
 </item>
 <item name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="apparelPlantFiberShoes" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -35177,6 +35302,7 @@ needed?
 <!--  御器·套装 -->
 <item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -35222,6 +35348,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -35267,6 +35394,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -35312,6 +35440,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -35357,6 +35486,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorMilitaryHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
@@ -35403,6 +35533,7 @@ needed?
 
 <item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryVest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -35447,6 +35578,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryVest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -35491,6 +35623,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryVest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -35535,6 +35668,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryVest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -35579,6 +35713,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorMilitaryVest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -35624,6 +35759,7 @@ needed?
 
 <item name="[FFD306]御器·[00FFFF]星源☆手套 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -35668,6 +35804,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -35712,6 +35849,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -35757,6 +35895,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -35801,6 +35940,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorMilitaryGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -35846,6 +35986,7 @@ needed?
 
 <item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -35890,6 +36031,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -35934,6 +36076,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -35978,6 +36121,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -36022,6 +36166,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorMilitaryLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -36067,6 +36212,7 @@ needed?
 
 <item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -36111,6 +36257,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -36155,6 +36302,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -36199,6 +36347,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="armorMilitaryBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -36243,6 +36392,7 @@ needed?
 </item>
 <item name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆☆☆☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="6F00D2" />
 	<property name="CustomIcon" value="armorMilitaryBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
