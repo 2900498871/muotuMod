@@ -2275,6 +2275,143 @@
 
 </append>
 
+	<!--Mod物品添加到商人任务中 trader_quests-->
+	<!--/************************************一级任务************************************************/-->
+	<!--一级任务清理奖励添加-->
+	<append xpath="/quests/quest[@id='tier1_clear']">
+		<reward type="Item" id="星源水晶" value="100"/>
+		<reward type="Item" id="末石" value="100"/>
+		<reward type="Item" id="途石" value="100"/>
+		<reward type="LootItem" id="motu_tier1_clear" ischosen="true" value="1"/>
+	</append>
+
+	<!--一级任务获取添加-->
+	<append xpath="/quests/quest[@id='tier1_fetch']">
+		<reward type="Item" id="星源水晶" value="100"/>
+		<reward type="Item" id="末石" value="100"/>
+		<reward type="Item" id="途石" value="100"/>
+		<reward type="LootItem" id="motu_tier1_fetch" ischosen="true" value="1"/>
+	</append>
+
+	<!--一级任务挖宝添加-->
+	<append xpath="/quests/quest[@id='tier1_buried_supplies']">
+		<!--奖励-->
+		<reward type="Item" id="星源水晶" value="100"/>
+		<reward type="Item" id="末石" value="100"/>
+		<reward type="Item" id="途石" value="100"/>
+		<reward type="LootItem" id="motu_tier1_buried_supplies" ischosen="true" value="1"/>
+	</append>
+
+	<!--/************************************二级任务************************************************/-->
+
+	<!--二级任务清理奖励添加-->
+	<append xpath="/quests/quest[@id='tier2_clear']">
+		<reward type="Item" id="星源水晶" value="200"/>
+		<reward type="Item" id="末石" value="200"/>
+		<reward type="Item" id="途石" value="200"/>
+		<reward type="LootItem" id="motu_tier2_clear" ischosen="true" value="1"/>
+	</append>
+
+	<!--二级任务获取添加-->
+	<append xpath="/quests/quest[@id='tier2_fetch']">
+		<reward type="Item" id="星源水晶" value="200"/>
+		<reward type="Item" id="末石" value="200"/>
+		<reward type="Item" id="途石" value="200"/>
+		<reward type="LootItem" id="motu_tier2_fetch" ischosen="true" value="1"/>
+	</append>
+
+	<!--二级任务获取清理添加-->
+	<append xpath="/quests/quest[@id='tier2_fetch_clear']">
+		<reward type="Item" id="星源水晶" value="200"/>
+		<reward type="Item" id="末石" value="200"/>
+		<reward type="Item" id="途石" value="200"/>
+		<reward type="LootItem" id="motu_tier2_fetch_clear" ischosen="true" value="1"/>
+	</append>
+
+	<!--二级任务挖宝添加-->
+	<append xpath="/quests/quest[@id='tier2_buried_supplies']">
+		<!--奖励-->
+		<reward type="Item" id="星源水晶" value="200"/>
+		<reward type="Item" id="末石" value="200"/>
+		<reward type="Item" id="途石" value="200"/>
+		<reward type="LootItem" id="motu_tier2_buried_supplies" ischosen="true" value="1"/>
+	</append>
+
+
+	<!--/************************************三级任务************************************************/-->
+
+	<!--三级任务清理奖励添加-->
+	<append xpath="/quests/quest[@id='tier3_clear']">
+		<reward type="Item" id="星源水晶" value="400"/>
+		<reward type="Item" id="末石" value="400"/>
+		<reward type="Item" id="途石" value="400"/>
+		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="1"/>
+	</append>
+
+	<!--三级任务获取添加-->
+	<append xpath="/quests/quest[@id='tier3_fetch']">
+		<reward type="Item" id="星源水晶" value="400"/>
+		<reward type="Item" id="末石" value="400"/>
+		<reward type="Item" id="途石" value="400"/>
+		<reward type="LootItem" id="motu_tier3_fetch" ischosen="true" value="1"/>
+	</append>
+
+	<!--三级任务获取清理添加-->
+	<append xpath="/quests/quest[@id='tier3_fetch_clear']">
+		<reward type="Item" id="星源水晶" value="400"/>
+		<reward type="Item" id="末石" value="400"/>
+		<reward type="Item" id="途石" value="400"/>
+		<reward type="LootItem" id="motu_tier3_fetch_clear" ischosen="true" value="1"/>
+	</append>
+
+	<!--三级任务挖宝添加-->
+	<append xpath="/quests/quest[@id='tier3_buried_supplies']">
+		<!--奖励-->
+		<reward type="Item" id="星源水晶" value="400"/>
+		<reward type="Item" id="末石" value="400"/>
+		<reward type="Item" id="途石" value="400"/>
+		<reward type="LootItem" id="motu_tier3_buried_supplies" ischosen="true" value="1"/>
+	</append>
+
+	<!--/************************************四级任务************************************************/-->
+
+	<!--四级任务清理奖励添加-->
+	<append xpath="/quests/quest[@id='tier4_clear']">
+		<reward type="Item" id="星源水晶" value="600"/>
+		<reward type="Item" id="末石" value="600"/>
+		<reward type="Item" id="途石" value="600"/>
+		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="1"/>
+	</append>
+
+	<!--四级任务获取清理添加-->
+	<append xpath="/quests/quest[@id='tier4_fetch_clear']">
+		<reward type="Item" id="星源水晶" value="600"/>
+		<reward type="Item" id="末石" value="600"/>
+		<reward type="Item" id="途石" value="600"/>
+		<reward type="LootItem" id="motu_tier4_fetch_clear" ischosen="true" value="1"/>
+	</append>
+
+
+	<!--/************************************五级任务************************************************/-->
+
+	<!--五级任务清理奖励添加-->
+	<append xpath="/quests/quest[@id='tier5_clear']">
+		<reward type="Item" id="星源水晶" value="1000"/>
+		<reward type="Item" id="末石" value="1000"/>
+		<reward type="Item" id="途石" value="1000"/>
+		<reward type="LootItem" id="motu_tier5_clear" ischosen="true" value="1"/>
+	</append>
+
+	<!--五级任务获取清理添加-->
+	<append xpath="/quests/quest[@id='tier5_fetch_clear']">
+		<reward type="Item" id="星源水晶" value="1000"/>
+		<reward type="Item" id="末石" value="1000"/>
+		<reward type="Item" id="途石" value="1000"/>
+		<reward type="LootItem" id="motu_tier5_fetch_clear" ischosen="true" value="1"/>
+	</append>
+
+
+
 	
 	
 </configs>

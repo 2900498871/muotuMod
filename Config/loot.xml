@@ -12,6 +12,661 @@
 	<item name="超级强化结晶" count="0,1" prob=".1"/>
 </lootgroup>
 
+	<!--/*************************************************商人任务掉落*************************************/-->
+
+	<!--/*************************************************一级任务掉落*************************************/-->
+	<!--一级清理掉落,星源枪，配件之类-->
+	<lootgroup name="motu_tier1_clear">
+		<!--武器-->
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+		<!--配件-->
+		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".05"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".05"/>
+		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV1" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".05"/>
+		<item name="近战☆[FF0033]器纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]器纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]器纹 特殊3" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊3" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊3" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]器纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
+
+	</lootgroup>
+
+	<!--一级获取掉落，星源护甲，光环-->
+	<lootgroup name="motu_tier1_fetch" >
+		<!--星源护甲-->
+		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
+		<item name="[53FF53]星源☆手套 ☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.05"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.05"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.05"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.05"/>
+
+		<!--光环-->
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减血领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1" prob="0.1"/>
+
+	</lootgroup>
+
+	<!--一级挖宝掉落，矿石，药物，粉尘之类-->
+	<lootgroup name="tier1_buried_supplies">
+		<!--矿石-->
+		<item name="[2894FF]铱矿" count="1,200" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="1,200" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="1,200" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="1,200" prob="0.1"/>
+
+		<!--药物-->
+		<item name="药水-加速 10%" count="1" prob="0.05"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.05"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.05"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.05"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
+
+		<!--粉尘-->
+		<item name="金星源" count="1,200" prob="0.1"/>
+		<item name="水星源" count="1,200" prob="0.1"/>
+		<item name="木星源" count="1,200" prob="0.1"/>
+		<item name="火星源" count="1,200" prob="0.1"/>
+		<item name="土星源" count="1,200" prob="0.1"/>
+		<item name="天王星源" count="1,200" prob="0.1"/>
+		<item name="海王星源" count="1,200" prob="0.1"/>
+		<item name="地球星源" count="1,200" prob="0.1"/>
+		<item name="太阳星源" count="1,200" prob="0.1"/>
+
+	</lootgroup>
+
+
+	<!--/*************************************************二级任务掉落*************************************/-->
+	<!--二级清理掉落,星源枪，配件之类-->
+	<lootgroup name="motu_tier2_clear">
+		<!--武器-->
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+		<!--配件-->
+		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".1"/>
+		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".05"/>
+		<item name="近战☆[FF0033]器纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]器纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]器纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
+
+	</lootgroup>
+
+	<!--二级获取掉落，星源护甲，光环-->
+	<lootgroup name="motu_tier2_fetch" >
+		<!--星源护甲-->
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.03"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.03"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.03"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.01"/>
+
+
+		<!--光环-->
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减血领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆☆" count="1" prob="0.1"/>
+
+	</lootgroup>
+
+	<!--二级获取清理掉落，星源护甲，光环-->
+	<lootgroup name="motu_tier2_fetch_clear" >
+		<!--星源护甲-->
+		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
+		<item name="[2894FF]星源☆手套 ☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.03"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.03"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.03"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.01"/>
+
+		<!--光环-->
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减血领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆☆" count="1" prob="0.1"/>
+
+	</lootgroup>
+
+	<!--二级挖宝掉落，矿石，药物，粉尘之类-->
+	<lootgroup name="motu_tier2_buried_supplies">
+		<!--矿石-->
+		<item name="[2894FF]铱矿" count="100,300" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="100,300" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="100,300" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="100,300" prob="0.1"/>
+
+		<!--药物-->
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.1"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.1"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.1"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.1"/>
+		<item name="药水-隐身 100%" count="1" prob="0.1"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.1"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.1"/>
+
+		<!--粉尘-->
+		<item name="金星源" count="1,300" prob="0.1"/>
+		<item name="水星源" count="1,300" prob="0.1"/>
+		<item name="木星源" count="1,300" prob="0.1"/>
+		<item name="火星源" count="1,300" prob="0.1"/>
+		<item name="土星源" count="1,300" prob="0.1"/>
+		<item name="天王星源" count="1,300" prob="0.1"/>
+		<item name="海王星源" count="1,300" prob="0.1"/>
+		<item name="地球星源" count="1,300" prob="0.1"/>
+		<item name="太阳星源" count="1,300" prob="0.1"/>
+	</lootgroup>
+
+
+	<!--/*************************************************三级任务掉落*************************************/-->
+
+	<!--三级清理掉落,星源枪，配件之类-->
+	<lootgroup name="motu_tier3_clear">
+		<!--武器-->
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+		<!--配件-->
+		<item name="近战☆[CA8EFF]器纹 LV3" count="1" prob=".1"/>
+		<item name="近战☆[CA8EFF]尖纹 LV3" count="1" prob=".1"/>
+		<item name="近战☆[CA8EFF]柄纹 LV3" count="1" prob=".1"/>
+		<item name="近战☆[CA8EFF]刃纹 LV3" count="1" prob=".1"/>
+		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV3" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]穿甲纹-60%" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".05"/>
+		<item name="近战☆[FF0033]器纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]器纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]器纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
+
+	</lootgroup>
+
+	<!--三级获取掉落，星源护甲，光环-->
+	<lootgroup name="motu_tier3_fetch" >
+		<!--星源护甲-->
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.01"/>
+
+
+		<!--光环-->
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减血领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆☆☆" count="1" prob="0.1"/>
+
+	</lootgroup>
+
+	<!--三级获取清理掉落，星源护甲，光环-->
+	<lootgroup name="motu_tier3_fetch_clear" >
+		<!--星源护甲-->
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.01"/>
+
+		<!--光环-->
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减血领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆☆☆" count="1" prob="0.1"/>
+
+	</lootgroup>
+
+	<!--三级挖宝掉落，矿石，药物，粉尘之类-->
+	<lootgroup name="motu_tier3_buried_supplies">
+		<!--矿石-->
+		<item name="[2894FF]铱矿" count="100,500" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="100,500" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="100,500" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="100,500" prob="0.1"/>
+
+		<!--药物-->
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.1"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.1"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.1"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.1"/>
+		<item name="药水-隐身 100%" count="1" prob="0.1"/>
+		<item name="药水-生命恢复 300秒" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减血咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减耐咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]诅咒-减速咒 药水" count="1" prob="0.1"/>
+		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.2"/>
+		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.2"/>
+		<item name="药水-领域抵抗药水" count="1" prob="0.2"/>
+
+		<!--粉尘-->
+		<item name="金星源" count="1,500" prob="0.1"/>
+		<item name="水星源" count="1,500" prob="0.1"/>
+		<item name="木星源" count="1,500" prob="0.1"/>
+		<item name="火星源" count="1,500" prob="0.1"/>
+		<item name="土星源" count="1,500" prob="0.1"/>
+		<item name="天王星源" count="1,500" prob="0.1"/>
+		<item name="海王星源" count="1,500" prob="0.1"/>
+		<item name="地球星源" count="1,500" prob="0.1"/>
+		<item name="太阳星源" count="1,500" prob="0.1"/>
+	</lootgroup>
+
+
+
+	<!--/*************************************************四级任务掉落*************************************/-->
+	<!--四级清理掉落,星源枪，配件之类-->
+	<lootgroup name="motu_tier4_clear">
+		<!--武器-->
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+		<!--配件-->
+		<item name="近战☆[CA8EFF]器纹 LV3" count="1" prob=".05"/>
+		<item name="近战☆[CA8EFF]尖纹 LV3" count="1" prob=".05"/>
+		<item name="近战☆[CA8EFF]柄纹 LV3" count="1" prob=".05"/>
+		<item name="近战☆[CA8EFF]刃纹 LV3" count="1" prob=".05"/>
+
+		<item name="近战☆[FFD306]器纹 LV4" count="1" prob=".1"/>
+		<item name="近战☆[FFD306]尖纹 LV4" count="1" prob=".1"/>
+		<item name="近战☆[FFD306]柄纹 LV4" count="1" prob=".1"/>
+		<item name="近战☆[FFD306]刃纹 LV4" count="1" prob=".1"/>
+
+		<item name="近战☆[FF0033]器纹 LV5" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 LV5" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]柄纹 LV5" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 LV5" count="1" prob=".01"/>
+
+		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV3" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]神枪纹 LV4" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]穿甲纹-60%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]穿甲纹-80%" count="1" prob=".1"/>
+		<item name="近战☆[FF0033]器纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]器纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]器纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
+
+	</lootgroup>
+
+	<!--四级获取清理掉落，星源护甲，光环-->
+	<lootgroup name="tier4_fetch_clear" >
+		<!--星源护甲-->
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.1"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.01"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.01"/>
+
+		<!--光环-->
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减血领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆☆☆☆" count="1" prob="0.1"/>
+
+	</lootgroup>
+
+
+	<!--/*************************************************五级任务掉落*************************************/-->
+	<!--五级清理掉落,星源枪，配件之类-->
+	<lootgroup name="motu_tier5_clear">
+		<!--武器-->
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+		<!--配件-->
+		<item name="近战☆[CA8EFF]器纹 LV3" count="1" prob=".05"/>
+		<item name="近战☆[CA8EFF]尖纹 LV3" count="1" prob=".05"/>
+		<item name="近战☆[CA8EFF]柄纹 LV3" count="1" prob=".05"/>
+		<item name="近战☆[CA8EFF]刃纹 LV3" count="1" prob=".05"/>
+
+		<item name="近战☆[FFD306]器纹 LV4" count="1" prob=".1"/>
+		<item name="近战☆[FFD306]尖纹 LV4" count="1" prob=".1"/>
+		<item name="近战☆[FFD306]柄纹 LV4" count="1" prob=".1"/>
+		<item name="近战☆[FFD306]刃纹 LV4" count="1" prob=".1"/>
+
+		<item name="近战☆[FF0033]器纹 LV5" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 LV5" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]柄纹 LV5" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 LV5" count="1" prob=".01"/>
+
+		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
+		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
+		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]神枪纹 LV3" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]神枪纹 LV4" count="1" prob=".1"/>
+		<item name="武器☆[FFD306]穿甲纹-60%" count="1" prob=".05"/>
+		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".01"/>
+		<item name="武器☆[FFD306]穿甲纹-80%" count="1" prob=".1"/>
+		<item name="近战☆[FF0033]器纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊1" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]器纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]尖纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[FF0033]刃纹 特殊2" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]器纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
+		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
+
+	</lootgroup>
+
+	<!--五级获取清理掉落，星源护甲，光环-->
+	<lootgroup name="motu_tier5_fetch_clear" >
+		<!--星源护甲-->
+		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.01"/>
+		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.01"/>
+		<item name="[CA8EFF]星源☆手套 ☆☆☆" count="1" prob="0.01"/>
+		<item name="[FFD306]星源☆头盔 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆胸甲 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FFD306]星源☆手套 ☆☆☆☆" count="1" prob="0.05"/>
+		<item name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1" prob="0.1"/>
+
+		<!--光环-->
+
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减血领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆☆☆☆" count="1" prob="0.1"/>
+
+		<item name="[FF0033]光环☆[53FF53]雷电领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]火神领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减血领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]减速领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]消弱领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]增伤领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]血量领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射程领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]攻速领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]射速领域☆☆☆☆☆" count="1" prob="0.1"/>
+		<item name="[FF0033]光环☆[53FF53]收获领域☆☆☆☆☆" count="1" prob="0.1"/>
+
+	</lootgroup>
+
+
+
+
+	<!--/*************************************************任务掉落添加完成*************************************/-->
+
+
+
+
+
+
+
 <lootgroup name="QIANG" count="1,2">
 	<item name="高级强化结晶" count="1,3" />
 	<item name="超级强化结晶" count="1,3" prob=".5" />
