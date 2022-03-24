@@ -8216,7 +8216,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 		<stack_type value="replace"/>
 		<duration value="300"/>
 		<effect_group>
-			<passive_effect name="BuffResistance" operation="base_set" value="500" tags="SS领域,SS领域1,SSS领域,SSS领域1,GOD领域,GOD领域1,血夜领域,血夜领域1"/>
+			<passive_effect name="BuffResistance" operation="base_set" value="500" tags="SS领域,SS领域1,SSS领域,SSS领域1,GOD领域,GOD领域1,血夜领域,血夜领域1,未知怪物领域☆,未知怪物领域☆☆,未知怪物领域☆☆☆"/>
 			
 		</effect_group>
 	</buff>
@@ -10366,7 +10366,150 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <requirement name="NotHasBuff" buff="血夜阶段buff"/>
 </triggered_effect>
 </effect_group>
+
 </append>
+
+	<!--*********************************************************sinkFin怪物的添加****************************************************************-->
+
+	<!--SinkFun 怪物的Buff-->
+	<append xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group">
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="VehicleSpiritChecker">
+			<requirement name="NotHasBuff" buff="VehicleSpiritChecker"/>
+		</triggered_effect>
+	</append>
+
+	<append xpath="/buffs">
+		<buff name="未知怪物领域☆" name_key="外星——天外来客领域☆" description_key="外星——天外来客领域☆" tooltip_key="buffSnowSwarmTooltip" >
+
+			<stack_type value="replace"/>
+			<update_rate value="3"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="未知怪物领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+		<buff name="未知怪物领域☆☆" name_key="外星——天外来客领域☆☆" description_key="外星——天外来客领域☆☆" tooltip_key="buffSnowSwarmTooltip" >
+
+			<stack_type value="replace"/>
+			<update_rate value="3"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="40" buff="未知怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="40" buff="buffIsOnFire" target_tags="player"/>
+			</effect_group>
+		</buff>
+		<buff name="未知怪物领域☆☆☆" name_key="外星——天外来客领域☆☆☆" description_key="外星——天外来客领域☆☆☆" tooltip_key="buffSnowSwarmTooltip" >
+
+			<stack_type value="replace"/>
+			<update_rate value="3"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="60" buff="未知怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="40" buff="buffIsOnFire" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="40" buff="buffShocked" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<!--掉血-->
+		<buff name="未知怪物领域" description_key="外星——天外来客领域" tooltip_key="外星——天外来客领域" icon="ui_game_symbol_cold" icon_color="255,0,0" icon_blink="true">
+			<stack_type value="replace"/>
+			<duration value="10"/>
+			<effect_group>
+				<!--        <passive_effect name="StaminaLossMaxMult" operation="perc_add" value="10"/> -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="1"/>
+			</effect_group>
+		</buff>
+
+
+
+		<buff name="VehicleSpiritChecker" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="500"/>
+			<update_rate value=".1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="100" buff="vehicleSpiritHellBeastBikeCheck">
+					<requirement name="EntityTagCompare" target="other" tags="vehiclespirithellbeast"/>
+					<requirement name="NotHasBuff" target="other" buff="vehicleSpiritHellBeastBikeCheck"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+
+		<!-- Motorcycles -->
+
+		<buff name="vehicleSpiritHellBeastBikeCheck" hidden="true">
+			<stack_type value="ignore"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true"  transform_path="headlight"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset=".15,.1,-.2" local_rotation="0,0,0" parent_transform="headlight"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_torch_wall" local_offset="-.15,.1,-.2" local_rotation="0,0,0" parent_transform="headlight"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  transform_path="headlight"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,.1,.5" local_rotation="45,0,0" parent_transform="Origin/handlebar_joint"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Entities/LootContainers?weapon_bags_smallPrefab.prefab" local_offset="0,.85,-0.8" local_rotation="0,0,0" parent_transform="Origin"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab" local_offset=".24,.58,0.9" local_rotation="90,0,0" parent_transform="Origin"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab" local_offset="-.24,.58,0.9" local_rotation="90,0,0" parent_transform="Origin"/>
+			</effect_group>
+		</buff>
+
+	</append>
+
+
+	<append xpath="/buffs">
+		<buff name="SpiritJuggernautDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.2,.13,0" local_rotation="180,0,0" parent_transform="LeftShoulder"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#Other/Items?Tools/augerPrefab.prefab" local_offset="-.1,0,0" local_rotation="0,-90,0" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfRangedBurstShot" action="AddBuff" target="self" buff="SpiritJuggernautMuzzle"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />
+			</effect_group>
+		</buff>
+		<buff name="SpiritJuggernautMuzzle" hidden="true">
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" target="self" particle="p_rocketLauncherFire" local_offset="-.2,.13,0" local_rotation="180,0,0" parent_transform="LeftShoulder"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" target="self"  particle="p_nozzlesmoke_m136" local_offset="-.2,.13,0" local_rotation="180,0,0" parent_transform="LeftShoulder"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" target="self"  particle="p_nozzlesmoke_m136" />
+				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" target="self"  particle="p_rocketLauncherFire" />
+			</effect_group>
+		</buff>
+
+		<buff name="buffSpiritJuggernaut" hidden="false">
+			<update_rate value="12"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="positionAOE" range="60" buff="buffSpiritJuggernautSpeedDelay"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="bansheebuff0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffSpiritJuggernautSpeedDelay"/>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="bansheebuff0" play_in_head="true">
+					<requirement name="EntityTagCompare" tags="player"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="bansheebuff1" play_in_head="true">
+					<requirement name="EntityTagCompare" tags="player"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffSpiritJuggernautSpeedDelay" hidden="false">
+			<duration value=".4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffSpiritJuggernautSpeed"/>
+			</effect_group>
+		</buff>
+		<buff name="buffSpiritJuggernautSpeed" icon="ui_game_symbol_agility" icon_color="132,0,155">
+			<display_value_key value="Demon Fright"/> <display_value value="xxx"/>
+			<stack_type value="ignore"/>
+			<duration value="2.5"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShakeCamera" shake_speed="40" shake_amplitude="60" shake_time=".4"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ShakeCamera" shake_speed="0" shake_amplitude="0" shake_time="-1"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="EntityTagCompare" tags="player"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" value="1.1"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value="1.5"/>
+				<passive_effect name="JumpStrength" operation="perc_add" value="2.2"/>
+				<passive_effect name="StaminaLoss" operation="perc_add" value="-.5" tags="jumping"/>
+			</effect_group>
+		</buff>
+	</append>
+
+
+
 
 
 </configs>

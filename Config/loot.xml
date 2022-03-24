@@ -690,6 +690,19 @@
 	<item name="[FFD306]钨矿" count="1,10" />
 </lootgroup>
 
+	<lootgroup name="xinrand" count="3,6">
+		<item name="金星尘" count="1" />
+		<item name="水星尘" count="1" />
+		<item name="木星尘" count="1" />
+		<item name="火星尘" count="1" />
+		<item name="土星尘" count="1" />
+		<item name="天王星尘" count="1" />
+		<item name="海王星尘" count="1" />
+		<item name="地球星尘" count="1" />
+		<item name="太阳星尘" count="1" />
+		<item name="千变碎片" count="1,5" prob=".5"/>
+	</lootgroup>
+
 <lootgroup name="xin" count="3,5">
 	<item name="金星尘" count="1,2" />
 	<item name="水星尘" count="1,2" />
@@ -703,48 +716,48 @@
 </lootgroup>
 
 <lootgroup name="xinS" count="1,2">
-	<item name="金星源" count="1,10" />
-	<item name="水星源" count="1,10" />
-	<item name="木星源" count="1,10" />
-	<item name="火星源" count="1,10" />
-	<item name="土星源" count="1,10" />
-	<item name="天王星源" count="1,10" />
-	<item name="海王星源" count="1,10" />
-	<item name="地球星源" count="1,10" />
-	<item name="太阳星源" count="1,10" />
+	<item name="金星源" count="1,20" />
+	<item name="水星源" count="1,20" />
+	<item name="木星源" count="1,20" />
+	<item name="火星源" count="1,20" />
+	<item name="土星源" count="1,20" />
+	<item name="天王星源" count="1,20" />
+	<item name="海王星源" count="1,20" />
+	<item name="地球星源" count="1,20" />
+	<item name="太阳星源" count="1,20" />
 </lootgroup>
 <lootgroup name="xinSS" count="1">
-	<item name="金星源" count="5,30" />
-	<item name="水星源" count="5,30" />
-	<item name="木星源" count="5,30" />
-	<item name="火星源" count="5,30" />
-	<item name="土星源" count="5,30" />
-	<item name="天王星源" count="5,30" />
-	<item name="海王星源" count="5,30" />
-	<item name="地球星源" count="5,30" />
-	<item name="太阳星源" count="5,30" />
+	<item name="金星源" count="5,50" />
+	<item name="水星源" count="5,50" />
+	<item name="木星源" count="5,50" />
+	<item name="火星源" count="5,50" />
+	<item name="土星源" count="5,50" />
+	<item name="天王星源" count="5,50" />
+	<item name="海王星源" count="5,50" />
+	<item name="地球星源" count="5,50" />
+	<item name="太阳星源" count="5,50" />
 </lootgroup>
 <lootgroup name="xinSSS" count="1,2">
-	<item name="金星源" count="10,50" />
-	<item name="水星源" count="10,50" />
-	<item name="木星源" count="10,50" />
-	<item name="火星源" count="10,50" />
-	<item name="土星源" count="10,50" />
-	<item name="天王星源" count="10,50" />
-	<item name="海王星源" count="10,50" />
-	<item name="地球星源" count="10,50" />
-	<item name="太阳星源" count="10,50" />
+	<item name="金星源" count="10,100" />
+	<item name="水星源" count="10,100" />
+	<item name="木星源" count="10,100" />
+	<item name="火星源" count="10,100" />
+	<item name="土星源" count="10,100" />
+	<item name="天王星源" count="10,100" />
+	<item name="海王星源" count="10,100" />
+	<item name="地球星源" count="10,100" />
+	<item name="太阳星源" count="10,100" />
 </lootgroup>
 <lootgroup name="xinGOD" count="1,2">
-	<item name="金星源" count="20,80" />
-	<item name="水星源" count="20,80" />
-	<item name="木星源" count="20,80" />
-	<item name="火星源" count="20,80" />
-	<item name="土星源" count="20,80" />
-	<item name="天王星源" count="20,80" />
-	<item name="海王星源" count="20,80" />
-	<item name="地球星源" count="20,80" />
-	<item name="太阳星源" count="20,80" />
+	<item name="金星源" count="20,200" />
+	<item name="水星源" count="20,200" />
+	<item name="木星源" count="20,200" />
+	<item name="火星源" count="20,200" />
+	<item name="土星源" count="20,200" />
+	<item name="天王星源" count="20,200" />
+	<item name="海王星源" count="20,200" />
+	<item name="地球星源" count="20,200" />
+	<item name="太阳星源" count="20,200" />
 </lootgroup>
 
 
@@ -1888,7 +1901,34 @@
 	<item group="WEN1" count="1"/>
 </lootcontainer>
 
+	<!--sinkFin掉包控制 主要掉矿石，星尘-->
+	<lootcontainer id="1026" name="1026" count="1" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1">
+		<item group="KUANGMO3" count="1" prob="0.1"/>
+		<item group="xinS" count="1" prob="0.1"/>
+		<item group="xinrand" count="1" prob="0.01"/>
+		<item group="光环lv3" count="1" prob="0.1"/>
+		<!--神速甲-->
+		<item group="ZH1" count="1" prob="0.1"/>
 
+	</lootcontainer>
+	<lootcontainer id="1027" name="1027" count="1" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1">
+		<item group="KUANGMO3" count="1" prob="0.05"/>
+		<item group="xinSS" count="1" prob="0.1"/>
+		<item group="xinrand" count="1" prob="0.05"/>
+		<item group="光环lv3" count="1" prob="0.1"/>
+		<item group="光环lv4" count="1" prob="0.1"/>
+		<!--神速甲-->
+		<item group="ZH1" count="1" prob="0.1"/>
+	</lootcontainer>
+	<lootcontainer id="1028" name="1028" count="1" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1">
+		<item group="KUANGMO3" count="1" prob="0.01"/>
+		<item group="xinGOD" count="1" prob="0.1"/>
+		<item group="xinrand" count="1" prob="0.1"/>
+		<item group="光环lv4" count="1" prob="0.1"/>
+		<item group="光环lv5" count="1" prob="0.1"/>
+		<!--神速甲-->
+		<item group="ZH1" count="1" prob="0.1"/>
+	</lootcontainer>
 
 </append>
 
