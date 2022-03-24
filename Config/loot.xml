@@ -461,6 +461,7 @@
 	<!--/*************************************************四级任务掉落*************************************/-->
 	<!--四级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier4_clear">
+
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -484,6 +485,30 @@
 		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+
+		<item name="[FFD306]神·千变[FF0000]星源☆猎刀" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆砍刀" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆钢虎指" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆电棒" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆重棒" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆钢矛" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆重锤" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆手枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆SMG5" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆沙漠之鹰" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆双筒喷枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆喷枪泵霰弹枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆自动喷枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆狙击枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆AK47" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆战术突击步枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆M60机枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆火箭发射器" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆复合弓" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆复合弩" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆锤塔" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆炮塔" count="1" prob=".001"/>
+
 		<!--配件-->
 		<item name="近战☆[CA8EFF]器纹 LV3" count="1" prob=".05"/>
 		<item name="近战☆[CA8EFF]尖纹 LV3" count="1" prob=".05"/>
@@ -524,6 +549,53 @@
 
 	<!--四级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="tier4_fetch_clear" >
+
+		<!--武器-->
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆猎刀" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆砍刀" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆钢虎指" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆电棒" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆重棒" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆钢矛" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆重锤" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆手枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆SMG5" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆沙漠之鹰" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆双筒喷枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆喷枪泵霰弹枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆自动喷枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆狙击枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆AK47" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆战术突击步枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆M60机枪" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆火箭发射器" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆复合弓" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆复合弩" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆锤塔" count="1" prob=".001"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆炮塔" count="1" prob=".001"/>
+
 		<!--星源护甲-->
 		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
 		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
@@ -577,6 +649,31 @@
 		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆猎刀" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆砍刀" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆钢虎指" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆电棒" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆重棒" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆钢矛" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆重锤" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆手枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆SMG5" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆沙漠之鹰" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆双筒喷枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆喷枪泵霰弹枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆自动喷枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆狙击枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆AK47" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆战术突击步枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆M60机枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆火箭发射器" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆复合弓" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆复合弩" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆锤塔" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆炮塔" count="1" prob=".002"/>
+
+
+
 		<!--配件-->
 		<item name="近战☆[CA8EFF]器纹 LV3" count="1" prob=".05"/>
 		<item name="近战☆[CA8EFF]尖纹 LV3" count="1" prob=".05"/>
@@ -617,6 +714,53 @@
 
 	<!--五级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier5_fetch_clear" >
+
+		<!--武器-->
+		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢虎指" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆电棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重棒" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆钢矛" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆重锤" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆SMG5" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆左轮手枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆沙漠之鹰" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆双筒喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆喷枪泵霰弹枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆自动喷枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆狙击枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆AK47" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆战术突击步枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆M60机枪" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弓" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆复合弩" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]锤塔" count="1" prob=".1"/>
+		<item name="[FFD306]星源☆[FFBFFF]炮塔" count="1" prob=".1"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆猎刀" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆砍刀" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆钢虎指" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆电棒" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆重棒" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆钢矛" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆重锤" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆手枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆SMG5" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆沙漠之鹰" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆双筒喷枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆喷枪泵霰弹枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆自动喷枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆狙击枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆AK47" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆战术突击步枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆M60机枪" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆火箭发射器" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆复合弓" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆复合弩" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆锤塔" count="1" prob=".002"/>
+		<item name="[FFD306]神·千变[FF0000]星源☆炮塔" count="1" prob=".002"/>
+
 		<!--星源护甲-->
 		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.01"/>
 		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.01"/>

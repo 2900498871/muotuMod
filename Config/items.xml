@@ -1662,7 +1662,7 @@
 <item name="9mm子弹-火">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="121Desc"/>
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
-	<property name="CustomIconTint" value="ef4136" />
+	<property name="CustomIconTint" value="D94600" />
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="32" tags="perkGunslinger,9mmGun"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="7" tags="perkGunslinger"/>
@@ -1674,7 +1674,7 @@
 <item name="9mm子弹-电">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="120Desc"/>
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
-	<property name="CustomIconTint" value="8552a1" />
+	<property name="CustomIconTint" value="2828FF" />
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="32" tags="perkGunslinger,9mmGun"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="7" tags="perkGunslinger"/>
@@ -1687,7 +1687,7 @@
 <item name="9mm子弹-LV1">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
-	<property name="CustomIconTint" value="7bbfea" />
+	<property name="CustomIconTint" value="00FFFF" />
 	<property name="UnlockedBy" value="ammo9mm"/>
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="35" tags="perkGunslinger,9mmGun"/>
@@ -1699,7 +1699,7 @@
 <item name="9mm子弹-LV2">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
-	<property name="CustomIconTint" value="00ae9d" />
+	<property name="CustomIconTint" value="00EC00" />
 	<property name="UnlockedBy" value="ammo9mm"/>
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="40" tags="perkGunslinger,9mmGun"/>
@@ -1711,7 +1711,7 @@
 <item name="9mm子弹-LV3">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
-	<property name="CustomIconTint" value="ffe600" />
+	<property name="CustomIconTint" value="FF00FF" />
 	<property name="UnlockedBy" value="ammo9mm"/>
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="45" tags="perkGunslinger,9mmGun"/>
@@ -1723,7 +1723,7 @@
 <item name="9mm子弹-LV4">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
-	<property name="CustomIconTint" value="fdb933" />
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="UnlockedBy" value="ammo9mm"/>
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="50" tags="perkGunslinger,9mmGun"/>
@@ -1735,7 +1735,7 @@
 <item name="9mm子弹-LV5">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
-	<property name="CustomIconTint" value="f15a22" />
+	<property name="CustomIconTint" value="9F4D95" />
 	<property name="UnlockedBy" value="ammo9mm"/>
 	<effect_group name="ammo9mmBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="55" tags="perkGunslinger,9mmGun"/>
@@ -1746,7 +1746,7 @@
 </item>
 
 <item name="9mm子弹技能书 LV1">
-	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="00FFFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo9mm"/>
@@ -1756,7 +1756,7 @@
 	</effect_group>
 </item>
 <item name="9mm子弹技能书 LV2">
-	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="00EC00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo9mm"/>
@@ -1767,7 +1767,7 @@
 	</effect_group>
 </item>
 <item name="9mm子弹技能书 LV3">
-	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="FF00FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo9mm"/>
@@ -1778,7 +1778,7 @@
 	</effect_group>
 </item>
 <item name="9mm子弹技能书 LV4">
-	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="4F9D9D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo9mm"/>
@@ -1789,7 +1789,7 @@
 	</effect_group>
 </item>
 <item name="9mm子弹技能书 LV5">
-	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="FF0033" />
+	<property name="CustomIcon" value="bookWasteTreasuresHoney" /><property name="CustomIconTint" value="9F4D95" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo9mm"/>
@@ -1801,7 +1801,9 @@
 </item>
 
 <item name="44子弹-火">
-	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="121Desc"/>
+	<property name="Extends" value="ammo9mmBulletBall"/>
+	<property name="CustomIconTint" value="D94600" />
+	<property name="DescriptionKey" value="121Desc"/>
 	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
 	<property name="EconomicValue" value="10"/>
 	<effect_group name="ammo44MagnumBulletBall" tiered="false">
@@ -1819,6 +1821,7 @@
 <item name="44子弹-电">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="120Desc"/>
 	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+	<property name="CustomIconTint" value="2828FF" />
 	<property name="EconomicValue" value="10"/>
 	<effect_group name="ammo44MagnumBulletBall" tiered="false">
 		<!-- To split up the revolver and DVulture I'm providing base_set that the specific perk passives can latch on to -->
@@ -1836,6 +1839,7 @@
 <item name="44子弹-LV1">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+	<property name="CustomIconTint" value="00FFFF" />
 	<property name="UnlockedBy" value="ammo44Ma"/>
 	<property name="EconomicValue" value="10"/>
 	<effect_group name="ammo44MagnumBulletBall" tiered="false">
@@ -1852,6 +1856,7 @@
 <item name="44子弹-LV2">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+	<property name="CustomIconTint" value="00EC00" />
 	<property name="UnlockedBy" value="ammo44Ma"/>
 	<property name="EconomicValue" value="10"/>
 	<effect_group name="ammo44MagnumBulletBall" tiered="false">
@@ -1868,6 +1873,7 @@
 <item name="44子弹-LV3">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+	<property name="CustomIconTint" value="FF00FF" />
 	<property name="UnlockedBy" value="ammo44Ma"/>
 	<property name="EconomicValue" value="10"/>
 	<effect_group name="ammo44MagnumBulletBall" tiered="false">
@@ -1883,6 +1889,7 @@
 </item>
 <item name="44子弹-LV4">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
 	<property name="UnlockedBy" value="ammo44Ma"/>
 	<property name="EconomicValue" value="10"/>
@@ -1899,6 +1906,7 @@
 </item>
 <item name="44子弹-LV5">
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
+	<property name="CustomIconTint" value="9F4D95" />
 	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
 	<property name="UnlockedBy" value="ammo44Ma"/>
 	<property name="EconomicValue" value="10"/>
@@ -1915,7 +1923,7 @@
 </item>
 
 <item name="44子弹技能书 LV1">
-	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="00FFFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo44Ma"/>
@@ -1925,7 +1933,7 @@
 	</effect_group>
 </item>
 <item name="44子弹技能书 LV2">
-	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="00EC00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo44Ma"/>
@@ -1936,7 +1944,7 @@
 	</effect_group>
 </item>
 <item name="44子弹技能书 LV3">
-	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="FF00FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo44Ma"/>
@@ -1947,7 +1955,7 @@
 	</effect_group>
 </item>
 <item name="44子弹技能书 LV4">
-	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="4F9D9D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo44Ma"/>
@@ -1958,7 +1966,7 @@
 	</effect_group>
 </item>
 <item name="44子弹技能书 LV5">
-	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="FF0033" />
+	<property name="CustomIcon" value="bundleRevolver" /><property name="CustomIconTint" value="9F4D95" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo44Ma"/>
@@ -1971,7 +1979,7 @@
 
 
 <item name="散弹子弹技能书 LV1">
-	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="00FFFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammoSANDAN"/>
@@ -1981,7 +1989,7 @@
 	</effect_group>
 </item>
 <item name="散弹子弹技能书 LV2">
-	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="00EC00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammoSANDAN"/>
@@ -1992,7 +2000,7 @@
 	</effect_group>
 </item>
 <item name="散弹子弹技能书 LV3">
-	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="FF00FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammoSANDAN"/>
@@ -2003,7 +2011,7 @@
 	</effect_group>
 </item>
 <item name="散弹子弹技能书 LV4">
-	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="4F9D9D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammoSANDAN"/>
@@ -2014,7 +2022,7 @@
 	</effect_group>
 </item>
 <item name="散弹子弹技能书 LV5">
-	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="FF0033" />
+	<property name="CustomIcon" value="bundleShotgun" /><property name="CustomIconTint" value="9F4D95" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammoSANDAN"/>
@@ -2039,6 +2047,7 @@
 
 <item name="散弹子弹-LV1">
 	<property name="CustomIcon" value="ammoShotgunShell"/><property name="DescriptionKey" value="114Desc"/>
+	<property name="CustomIconTint" value="00FFFF" />
 	<property name="Tags" value="ammo,shotgun"/>
 	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
@@ -2071,6 +2080,7 @@
 <item name="散弹子弹-LV2">
 	<property name="CustomIcon" value="ammoShotgunShell"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="Tags" value="ammo,shotgun"/>
+	<property name="CustomIconTint" value="00EC00" />
 	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -2102,6 +2112,7 @@
 <item name="散弹子弹-LV3">
 	<property name="CustomIcon" value="ammoShotgunShell"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="Tags" value="ammo,shotgun"/>
+	<property name="CustomIconTint" value="FF00FF" />
 	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -2132,6 +2143,7 @@
 </item>
 <item name="散弹子弹-LV4">
 	<property name="CustomIcon" value="ammoShotgunShell"/><property name="DescriptionKey" value="114Desc"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="Tags" value="ammo,shotgun"/>
 	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
@@ -2163,6 +2175,7 @@
 </item>
 <item name="散弹子弹-LV5">
 	<property name="CustomIcon" value="ammoShotgunShell"/><property name="DescriptionKey" value="114Desc"/>
+	<property name="CustomIconTint" value="9F4D95" />
 	<property name="Tags" value="ammo,shotgun"/>
 	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
@@ -2228,6 +2241,7 @@
 
 <item name="762子弹-火">
 	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="CustomIconTint" value="D94600" />
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="121Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
@@ -2241,6 +2255,7 @@
 </item>
 <item name="762子弹-电">
 	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="CustomIconTint" value="2828FF" />
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="120Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
@@ -2255,6 +2270,7 @@
 
 <item name="762子弹-LV1">
 	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="CustomIconTint" value="00FFFF" />
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
@@ -2268,6 +2284,7 @@
 </item>
 <item name="762子弹-LV2">
 	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="CustomIconTint" value="00EC00" />
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
@@ -2281,6 +2298,7 @@
 </item>
 <item name="762子弹-LV3">
 	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="CustomIconTint" value="FF00FF" />
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
@@ -2294,6 +2312,7 @@
 </item>
 <item name="762子弹-LV4">
 	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="CustomIconTint" value="4F9D9D" />
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
@@ -2307,6 +2326,7 @@
 </item>
 <item name="762子弹-LV5">
 	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="CustomIconTint" value="9F4D95" />
 	<property name="Extends" value="ammo9mmBulletBall"/><property name="DescriptionKey" value="114Desc"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
@@ -2320,7 +2340,7 @@
 </item>
 
 <item name="762子弹技能书 LV1">
-	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="00FFFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo762mm"/>
@@ -2330,7 +2350,7 @@
 	</effect_group>
 </item>
 <item name="762子弹技能书 LV2">
-	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="00EC00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo762mm"/>
@@ -2341,7 +2361,7 @@
 	</effect_group>
 </item>
 <item name="762子弹技能书 LV3">
-	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="FF00FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo762mm"/>
@@ -2352,7 +2372,7 @@
 	</effect_group>
 </item>
 <item name="762子弹技能书 LV4">
-	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="4F9D9D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo762mm"/>
@@ -2363,7 +2383,7 @@
 	</effect_group>
 </item>
 <item name="762子弹技能书 LV5">
-	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="FF0033" />
+	<property name="CustomIcon" value="bundleAmmo" /><property name="CustomIconTint" value="9F4D95" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="115Desc"/>
 	 
 	<property name="Unlocks" value="ammo762mm"/>
@@ -2377,7 +2397,7 @@
 <item name="[63B8FF]9mm子弹-必杀">
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="CustomIcon" value="ammo9mmBulletAP"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIconTint" value="FF0000" />
 	<property name="Material" value="Msteel"/>
 	<property name="EconomicValue" value="8"/>
 	<property name="DescriptionKey" value="117Desc"/>
@@ -2392,7 +2412,7 @@
 <item name="[63B8FF]44子弹-必杀">
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIconTint" value="FF0000" />
 	<property name="Material" value="Msteel"/>
 	<property name="EconomicValue" value="9"/>
 	<property name="DescriptionKey" value="117Desc"/>
@@ -2411,7 +2431,7 @@
 <item name="[63B8FF]762子弹-必杀">
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="CustomIcon" value="ammo762mmBulletAP"/>
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIconTint" value="FF0000" />
 	<property name="Material" value="Msteel"/>
 	<property name="EconomicValue" value="10"/>
 	<property name="DescriptionKey" value="117Desc"/>
@@ -20686,7 +20706,7 @@ needed?
 
 <item name="[00FFFF]神·刃☆[FF0000]黑刺">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -20791,7 +20811,7 @@ needed?
 </item>
 <item name="[00FFFF]神·刃☆[FF0000]黑刺+1">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="53FF53" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -20896,7 +20916,7 @@ needed?
 </item>
 <item name="[00FFFF]神·刃☆[FF0000]黑刺+2">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="2894FF" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -21001,7 +21021,7 @@ needed?
 </item>
 <item name="[00FFFF]神·刃☆[FF0000]黑刺+3">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="CA8EFF" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -21106,7 +21126,7 @@ needed?
 </item>
 <item name="[00FFFF]神·刃☆[FF0000]黑刺+4">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0080" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -21211,7 +21231,7 @@ needed?
 </item>
 <item name="[00FFFF]神·刃☆[FF0000]黑刺MAX">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0000" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -21317,7 +21337,7 @@ needed?
 
 <item name="[00FFFF]神·爪☆[FF0000]血牙">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -21388,7 +21408,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]血牙+1">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="53FF53" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -21459,7 +21479,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]血牙+2">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="2894FF" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -21530,7 +21550,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]血牙+3">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="CA8EFF" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -21601,7 +21621,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]血牙+4">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -21672,7 +21692,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]血牙MAX">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0000" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -21744,7 +21764,7 @@ needed?
 
 <item name="[00FFFF]神·爪☆[FF0000]火拳">
 	<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
@@ -21815,7 +21835,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]火拳+1">
 	<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="53FF53" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
@@ -21886,7 +21906,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]火拳+2">
 	<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="2894FF" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
@@ -21957,7 +21977,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]火拳+3">
 	<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="CA8EFF" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
@@ -22028,7 +22048,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]火拳+4">
 	<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
@@ -22099,7 +22119,7 @@ needed?
 </item>
 <item name="[00FFFF]神·爪☆[FF0000]火拳MAX">
 	<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0000" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
@@ -22171,7 +22191,7 @@ needed?
 
 <item name="[00FFFF]神·矛☆[FF0000]红刺">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="HoldType" value="59"/>
@@ -22244,7 +22264,7 @@ needed?
 </item>
 <item name="[00FFFF]神·矛☆[FF0000]红刺+1">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="HoldType" value="59"/>
@@ -22315,7 +22335,7 @@ needed?
 </item>
 <item name="[00FFFF]神·矛☆[FF0000]红刺+2">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="HoldType" value="59"/>
@@ -22386,7 +22406,7 @@ needed?
 </item>
 <item name="[00FFFF]神·矛☆[FF0000]红刺+3">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="HoldType" value="59"/>
@@ -22457,7 +22477,7 @@ needed?
 </item>
 <item name="[00FFFF]神·矛☆[FF0000]红刺+4">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="HoldType" value="59"/>
@@ -22528,7 +22548,7 @@ needed?
 </item>
 <item name="[00FFFF]神·矛☆[FF0000]红刺MAX">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="HoldType" value="59"/>
@@ -22600,7 +22620,7 @@ needed?
 
 <item name="[00FFFF]神·剑☆[FF0000]黑魂">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 
 	<property name="RepairTools" value="超神强化结晶"/>
 	<property name="Extends" value="[FFD306]星源☆砍刀"/><property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
@@ -22691,7 +22711,7 @@ needed?
 </item>
 <item name="[00FFFF]神·剑☆[FF0000]黑魂+1">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="53FF53" />
+    <property name="CustomIconTint" value="411445" />
 
 	<property name="RepairTools" value="超神强化结晶"/>
 	<property name="Extends" value="[FFD306]星源☆砍刀"/><property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
@@ -22782,7 +22802,7 @@ needed?
 </item>
 <item name="[00FFFF]神·剑☆[FF0000]黑魂+2">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="2894FF" />
+    <property name="CustomIconTint" value="411445" />
 
 	<property name="RepairTools" value="超神强化结晶"/>
 	<property name="Extends" value="[FFD306]星源☆砍刀"/><property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
@@ -22873,7 +22893,7 @@ needed?
 </item>
 <item name="[00FFFF]神·剑☆[FF0000]黑魂+3">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="CA8EFF" />
+    <property name="CustomIconTint" value="411445" />
 
 	<property name="RepairTools" value="超神强化结晶"/>
 	<property name="Extends" value="[FFD306]星源☆砍刀"/><property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
@@ -22965,7 +22985,7 @@ needed?
 </item>
 <item name="[00FFFF]神·剑☆[FF0000]黑魂+4">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 
 	
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -23059,7 +23079,7 @@ needed?
 </item>
 <item name="[00FFFF]神·剑☆[FF0000]黑魂MAX">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0000" />
+    <property name="CustomIconTint" value="411445" />
 
 	<property name="RepairTools" value="超神强化结晶"/>
 	<property name="Extends" value="[FFD306]星源☆砍刀"/><property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
@@ -23153,7 +23173,7 @@ needed?
 
 <item name="[00FFFF]神·锤☆[FF0000]破裂">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -23247,7 +23267,7 @@ needed?
 </item>
 <item name="[00FFFF]神·锤☆[FF0000]破裂+1">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -23341,7 +23361,7 @@ needed?
 </item>
 <item name="[00FFFF]神·锤☆[FF0000]破裂+2">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -23435,7 +23455,7 @@ needed?
 </item>
 <item name="[00FFFF]神·锤☆[FF0000]破裂+3">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -23529,7 +23549,7 @@ needed?
 </item>
 <item name="[00FFFF]神·锤☆[FF0000]破裂+4">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -23623,7 +23643,7 @@ needed?
 </item>
 <item name="[00FFFF]神·锤☆[FF0000]破裂MAX">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -23718,7 +23738,7 @@ needed?
 
 <item name="[00FFFF]神·重锤☆[FF0000]陨星">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -23807,7 +23827,7 @@ needed?
 </item>
 <item name="[00FFFF]神·重锤☆[FF0000]陨星+1">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -23896,7 +23916,7 @@ needed?
 </item>
 <item name="[00FFFF]神·重锤☆[FF0000]陨星+2">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -23985,7 +24005,7 @@ needed?
 </item>
 <item name="[00FFFF]神·重锤☆[FF0000]陨星+3">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -24074,7 +24094,7 @@ needed?
 </item>
 <item name="[00FFFF]神·重锤☆[FF0000]陨星+4">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -24163,7 +24183,7 @@ needed?
 </item>
 <item name="[00FFFF]神·重锤☆[FF0000]陨星MAX">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -24256,6 +24276,7 @@ needed?
 
 <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋">
 	<property name="CustomIcon" value="gunHandgunT3SMG5" />
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -24366,7 +24387,7 @@ needed?
 	</effect_group>	
 </item>
 <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+1">
-	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIcon" value="gunHandgunT3SMG5" /> <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -24477,7 +24498,7 @@ needed?
 	</effect_group>	
 </item>
 <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+2">
-	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -24589,7 +24610,7 @@ needed?
 	</effect_group>	
 </item>
 <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+3">
-	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -24701,7 +24722,7 @@ needed?
 	</effect_group>	
 </item>
 <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+4">
-	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -24813,7 +24834,7 @@ needed?
 	</effect_group>	
 </item>
 <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋MAX">
-	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="FF0000" />
+	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -24931,6 +24952,7 @@ needed?
 <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔"><!--340 -->
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
+	<property name="CustomIconTint" value="411445" />
 	<property name="HoldType" value="75"/>
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -25021,7 +25043,7 @@ needed?
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
-	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -25110,7 +25132,7 @@ needed?
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
-	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -25199,7 +25221,7 @@ needed?
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
-	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -25288,7 +25310,7 @@ needed?
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
-	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -25377,7 +25399,7 @@ needed?
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
-	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="FF0000" />
+	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -25468,7 +25490,7 @@ needed?
 
 <item name="[00FFFF]神·步枪☆[FF0000]星际战神"><!--335 --><!--+5 -->
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -25557,7 +25579,7 @@ needed?
 </item>
 <item name="[00FFFF]神·步枪☆[FF0000]星际战神+1"><!--335 --><!--+5 -->
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -25646,7 +25668,7 @@ needed?
 </item>
 <item name="[00FFFF]神·步枪☆[FF0000]星际战神+2">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -25735,7 +25757,7 @@ needed?
 </item>
 <item name="[00FFFF]神·步枪☆[FF0000]星际战神+3">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -25824,7 +25846,7 @@ needed?
 </item>
 <item name="[00FFFF]神·步枪☆[FF0000]星际战神+4">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -25913,7 +25935,7 @@ needed?
 </item>
 <item name="[00FFFF]神·步枪☆[FF0000]星际战神MAX">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -26003,7 +26025,7 @@ needed?
 
 <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰"><!--335 --><!---9 -->
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="6"/>
@@ -26099,7 +26121,7 @@ needed?
 </item>
 <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰+1"><!--365 -->
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="6"/>
@@ -26195,7 +26217,7 @@ needed?
 </item>
 <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰+2"><!--400 -->
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="6"/>
@@ -26291,7 +26313,7 @@ needed?
 </item>
 <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰+3"><!--430 -->
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="6"/>
@@ -26387,7 +26409,7 @@ needed?
 </item>
 <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰+4"><!--460 -->
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="6"/>
@@ -26483,7 +26505,7 @@ needed?
 </item>
 <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰MAX"><!--500 -->
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="6"/>
@@ -26583,7 +26605,7 @@ needed?
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="11"/>
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" />
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="5"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -26682,7 +26704,7 @@ needed?
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="11"/>
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" />
-	<property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="5"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -26778,7 +26800,7 @@ needed?
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="11"/>
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" />
-	<property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="5"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -26874,7 +26896,7 @@ needed?
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="11"/>
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" />
-	<property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="5"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -26970,7 +26992,7 @@ needed?
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="11"/>
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" />
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="5"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -27066,7 +27088,7 @@ needed?
 	<property name="DisplayType" value="狙击"/>
 	<property name="HoldType" value="11"/>
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" />
-	<property name="CustomIconTint" value="FF0000" />
+	<property name="CustomIconTint" value="411445" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="5"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -27165,7 +27187,7 @@ needed?
 	<property name="HoldType" value="77"/>
 	
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" />
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIconTint" value="411445" />
 	
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
@@ -27267,7 +27289,7 @@ needed?
 	<property name="HoldType" value="77"/>
 	
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" />
-	<property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIconTint" value="411445" />
 	
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
@@ -27369,7 +27391,7 @@ needed?
 	<property name="HoldType" value="77"/>
 	
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" />
-	<property name="CustomIconTint" value="2894FF" />
+	<property name="CustomIconTint" value="411445" />
 	
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
@@ -27471,7 +27493,7 @@ needed?
 	<property name="HoldType" value="77"/>
 	
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" />
-	<property name="CustomIconTint" value="CA8EFF" />
+	<property name="CustomIconTint" value="411445" />
 	
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
@@ -27573,7 +27595,7 @@ needed?
 	<property name="HoldType" value="77"/>
 	
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" />
-	<property name="CustomIconTint" value="FFD306" />
+	<property name="CustomIconTint" value="411445" />
 	
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
@@ -27675,7 +27697,7 @@ needed?
 	<property name="HoldType" value="77"/>
 	
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" />
-	<property name="CustomIconTint" value="FF0000" />
+	<property name="CustomIconTint" value="411445" />
 	
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
@@ -27776,7 +27798,7 @@ needed?
 
 <item name="[00FFFF]神·霰弹☆[FF0000]众生平等">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -27859,7 +27881,7 @@ needed?
 </item>
 <item name="[00FFFF]神·霰弹☆[FF0000]众生平等+1">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -27942,7 +27964,7 @@ needed?
 </item>
 <item name="[00FFFF]神·霰弹☆[FF0000]众生平等+2">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -28025,7 +28047,7 @@ needed?
 </item>
 <item name="[00FFFF]神·霰弹☆[FF0000]众生平等+3">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -28108,7 +28130,7 @@ needed?
 </item>
 <item name="[00FFFF]神·霰弹☆[FF0000]众生平等+4">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -28191,7 +28213,7 @@ needed?
 </item>
 <item name="[00FFFF]神·霰弹☆[FF0000]众生平等MAX">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="411445" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -28393,7 +28415,7 @@ needed?
 
 <item name="[00FFFF]千变神晶·刃☆[FF0000]黑刺">
 	<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0000" />
+    <property name="CustomIconTint" value="130c0e" />
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏刀"/>
 	<property name="HoldType" value="36"/>
@@ -28498,7 +28520,7 @@ needed?
 </item>
 <item name="[00FFFF]千变神晶·爪☆[FF0000]血牙">
 	<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0000" />
+    <property name="CustomIconTint" value="130c0e" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
@@ -28569,7 +28591,7 @@ needed?
 </item>
 <item name="[00FFFF]千变神晶·爪☆[FF0000]火拳">
 	<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0000" />
+    <property name="CustomIconTint" value="130c0e" />
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/><property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
 	<property name="Material" value="MmeleeWpnKnucklesParts"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
@@ -28640,7 +28662,7 @@ needed?
 </item>
 <item name="[00FFFF]千变神晶·矛☆[FF0000]红刺">
 	<property name="DescriptionKey" value="122Desc"/><property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="130c0e" />
 	<property name="Extends" value="meleeWpnSpearT1IronSpear"/><property name="DisplayType" value="近战武器栏矛"/>
 	<property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
 	<property name="HoldType" value="59"/>
@@ -28711,7 +28733,7 @@ needed?
 </item>
 <item name="[00FFFF]千变神晶·剑☆[FF0000]黑魂">
 	<property name="CustomIcon" value="meleeWpnBladeT3Machete" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FF0000" />
+    <property name="CustomIconTint" value="130c0e" />
 
 	<property name="RepairTools" value="超神强化结晶"/>
 	<property name="Extends" value="[FFD306]星源☆砍刀"/><property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
@@ -28804,7 +28826,7 @@ needed?
 
 <item name="[00FFFF]千变神晶·锤☆[FF0000]破裂">
 	<property name="CustomIcon" value="meleeWpnClubT3SteelClub" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="130c0e" />
 	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏"/>
 	<property name="Group" value="MOTU1"/>
@@ -28899,7 +28921,7 @@ needed?
 
 <item name="[00FFFF]千变神晶·重锤☆[FF0000]陨星">
 	<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" /><property name="DescriptionKey" value="122Desc"/>
-    <property name="CustomIconTint" value="FFD306" />
+    <property name="CustomIconTint" value="130c0e" />
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,武器,近战武器,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="近战武器栏锤"/>
 	<property name="HoldType" value="33"/>
@@ -28988,7 +29010,7 @@ needed?
 </item>
 
 <item name="[00FFFF]千变神晶·冲锋☆[FF0000]无畏先锋">
-	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="FF0000" />
+	<property name="CustomIcon" value="gunHandgunT3SMG5" /><property name="CustomIconTint" value="130c0e" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="6"/>
@@ -29105,7 +29127,7 @@ needed?
 	<property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="75"/>
-	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="FF0000" />
+	<property name="CustomIcon" value="gunHandgunT3DesertVulture" />	<property name="CustomIconTint" value="130c0e" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="超神强化结晶"/>
@@ -29193,7 +29215,7 @@ needed?
 
 <item name="[00FFFF]千变神晶·步枪☆[FF0000]星际战神">
 	<property name="CustomIcon" value="gunMGT1AK47" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="130c0e" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="HoldType" value="48"/>
@@ -29282,7 +29304,7 @@ needed?
 </item>
 <item name="[00FFFF]千变神晶·机枪☆[FF0000]雷霆怒焰"><!--500 -->
 	<property name="CustomIcon" value="gunMGT3M60" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="130c0e" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="手枪"/>
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="6"/>
@@ -29378,7 +29400,7 @@ needed?
 </item>
 <item name="[00FFFF]千变神晶·狙击☆[FF0000]猎魂追命"><!--500 -->
 	<property name="CustomIcon" value="gunRifleT3SniperRifle" />
-	<property name="CustomIconTint" value="FF0000" />
+	<property name="CustomIconTint" value="130c0e" />
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="Extends" value="gunRifleT3SniperRifle"/>
@@ -29465,7 +29487,7 @@ needed?
 	<property name="HoldType" value="77"/>
 	
 	<property name="CustomIcon" value="gunHandgunT2Magnum44" />
-	<property name="CustomIconTint" value="FF0000" />
+	<property name="CustomIconTint" value="130c0e" />
 	
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
     <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
@@ -29550,7 +29572,7 @@ needed?
 </item>
 <item name="[00FFFF]千变神晶·霰弹☆[FF0000]众生平等">
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun" /><property name="DescriptionKey" value="122Desc"/>
-	 
+	 <property name="CustomIconTint" value="130c0e" />
 	<property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="76"/>
@@ -29645,6 +29667,7 @@ needed?
 
 <item name="[2894FF]星源☆魂眼">
     <property name="CustomIcon" value="apparelNightvisionGoggles" />
+    <property name="CustomIconTint" value="ef5b9c" />
 	<property name="DescriptionKey" value="魂眼"/>
 	<property name="Tags" value="被动"/>
 	<property name="DisplayType" value="DLI"/>
