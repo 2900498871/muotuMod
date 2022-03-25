@@ -5,7 +5,57 @@
 </append>
 
 <append xpath="/blocks">
-<block name="美少女商人">
+
+
+
+<!--采矿机空-->
+	<block name="采矿机">
+		<property name="DisplayType" value="采矿机（空）" />
+		<!--<property name="UnlockedBy" value="perkMiner69r"/>-->
+		<property name="Class" value="UpgradeRated"/>
+		<property name="CustomIcon" value="cntGasPumpEmpty" />
+		<property name="DescriptionKey" value="HDPJEDesc"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="MaxDamage" value="800"/>
+		<property name="MultiBlockDim" value="1,3,3"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="Entities/Industrial/gasPumpEmptyPrefab"/>
+		<property name="Collide" value="movement,rockets,sight,melee" />
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="50"/>
+		</property>
+		<property name="UpgradeRated.ToBlock" value="采矿机(充满)"/>
+		<property name="UpgradeRated.Rate" value="5400"/>
+		<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+		<drop event="Destroy" name="cntGasPumpEmpty" count="1" tool_category="Disassemble" />
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	</block>
+
+	<!--采矿机-充满-->
+	<block name="采矿机(充满)">
+		<property name="DisplayType" value="采矿机（可收获）" />
+		<property name="CustomIcon" value="cntGasPumpFull" />
+		<property name="CreativeMode"     value="None"/>
+		<property name="Class" value="Loot" />
+		<property name="Material" value="Mmetal"/>
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="Entities/Industrial/gasPumpFullPrefab"/>
+		<property name="Collide" value="movement,rockets,sight,melee" />
+		<property name="DisplayType" value="blockMulti" />
+		<property name="MultiBlockDim" value="1,3,3"/>
+		<property name="Collide" value="movement,rockets,sight,melee" />
+		<property name="LootList" value="CKJ" />
+		<drop event="Destroy" count="0"/>
+		<property name="DowngradeBlock" value="采矿机"/>
+	</block>
+
+
+
+
+
+	<block name="美少女商人">
 	<property name="CustomIcon" value="美少女" />
 	<property name="Model" value="Entities/Crafting/traitor_joels_2x5_Prefab"/>
 	<property name="Group" value="Science"/>

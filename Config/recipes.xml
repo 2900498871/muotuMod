@@ -1,6 +1,20 @@
 <configs>
 <append xpath="/recipes">
 
+	<!--挖矿机制作配方-->
+	<recipe name="采矿机" count="1"  craft_time="120" craft_area="workbench" >
+		<ingredient name="星源水晶" count="2000"/>
+		<ingredient name="金星尘" count="100"/>
+		<ingredient name="木星尘" count="100"/>
+		<ingredient name="水星尘" count="100"/>
+		<ingredient name="火星尘" count="100"/>
+		<ingredient name="土星尘" count="100"/>
+		<ingredient name="[2894FF]铱锭" count="10"/>
+		<ingredient name="[CA8EFF]镭锭" count="10"/>
+		<ingredient name="[40E0D0]钛锭" count="10"/>
+		<ingredient name="[FFD306]钨锭" count="10"/>
+		<ingredient name="星源☆金属" count="200"/>
+	</recipe>
 
 <recipe name="普通☆怪物增强难度LV1" count="1" craft_time=".1" >
 	<ingredient name="怪物增强难度" count="1"/>

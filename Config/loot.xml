@@ -2087,6 +2087,66 @@
 		<item group="ZH1" count="1" prob="0.1"/>
 	</lootcontainer>
 
+
+	<!--采矿机出货-->
+	<lootcontainer id="1030" name="CKJ" count="8" size="5,5" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template">
+		<!--铁矿-->
+		<item name="resourceScrapIron" count="100,1500" prob="0.4"/>
+		<!--铅矿-->
+		<item name="resourceScrapLead" count="100,1500" prob="0.4"/>
+		<!--煤炭-->
+		<item name="resourceCoal" count="100,1500" prob="0.4"/>
+		<!--硝酸盐-->
+		<item name="resourcePotassiumNitratePowder" count="100,1500" prob="0.4"/>
+		<!--黄铜-->
+		<item name="resourceScrapBrass" count="100,1500" prob="0.4"/>
+		<!--油页岩矿-->
+		<item name="resourceOilShale" count="100,1500" prob="0.4"/>
+		<!--木头-->
+		<item name="resourceWood" count="100,1500" prob="0.3"/>
+		<!--粘土-->
+		<item name="resourceClayLump" count="100,1500" prob="0.3"/>
+		<!--钻石原石-->
+		<item name="resourceRawDiamond" count="1,10" prob="0.01"/>
+		<!--金块-->
+		<item name="resourceGoldNugget" count="1,10" prob="0.01"/>
+		<!--银块-->
+		<item name="resourceSilverNugget" count="1,10" prob="0.01"/>
+		<!--金星尘-->
+		<item name="金星尘" count="1,5" prob="0.005"/>
+		<!--木星尘-->
+		<item name="木星尘" count="1,5" prob="0.005"/>
+		<!--水星尘-->
+		<item name="水星尘" count="1,5" prob="0.005"/>
+		<!--火星尘-->
+		<item name="火星尘" count="1,5" prob="0.005"/>
+		<!--土星尘-->
+		<item name="土星尘" count="1,5" prob="0.005"/>
+		<!--天王星尘-->
+		<item name="天王星尘" count="1,5" prob="0.005"/>
+		<!--海王星尘-->
+		<item name="海王星尘" count="1,5" prob="0.005"/>
+		<!--地球星尘-->
+		<item name="地球星尘" count="1,5" prob="0.005"/>
+		<!--太阳星尘-->
+		<item name="太阳星尘" count="1,5" prob="0.005"/>
+		<!--一般材料-->
+		<item name="星源水晶" count="0,200"  prob=".05"/>
+		<item name="末石" count="1,500" prob=".05"/>
+		<item name="途石" count="1,500" prob=".05"/>
+		<item name="casinoCoin" count="1,500"  prob=".05"/>
+		<item name="[53FF53]星核" count="1,20"  prob=".05"/>
+		<item name="高级强化结晶" count="0,5" prob=".05" />
+		<item name="超级强化结晶" count="0,5" prob=".05"/>
+		<!--Mod矿-->
+		<item name="[2894FF]铱矿" count="5,20" prob="0.05"/>
+		<item name="[CA8EFF]镭矿" count="5,20" prob="0.05"/>
+		<item name="[40E0D0]钛矿" count="5,20" prob="0.05"/>
+		<item name="[FFD306]钨矿" count="5,20" prob="0.05"/>
+
+	</lootcontainer>
+
+
 </append>
 
 
