@@ -834,6 +834,7 @@
 	<item name="[FFD306]钨矿" count="1,10" />
 </lootgroup>
 
+	<!--sinkFin怪物掉落-->
 	<lootgroup name="xinrand" count="3,6">
 		<item name="金星尘" count="1" />
 		<item name="水星尘" count="1" />
@@ -2046,6 +2047,7 @@
 </lootcontainer>
 
 	<!--sinkFin掉包控制 主要掉矿石，星尘-->
+	<!--BeibaoWx☆-->
 	<lootcontainer id="1026" name="1026" count="1" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1">
 		<item group="KUANGMO3" count="1" prob="0.1"/>
 		<item group="xinS" count="1" prob="0.1"/>
@@ -2053,8 +2055,8 @@
 		<item group="光环lv3" count="1" prob="0.1"/>
 		<!--神速甲-->
 		<item group="ZH1" count="1" prob="0.1"/>
-
 	</lootcontainer>
+	<!--BeibaoWx☆☆-->
 	<lootcontainer id="1027" name="1027" count="1" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1">
 		<item group="KUANGMO3" count="1" prob="0.05"/>
 		<item group="xinSS" count="1" prob="0.1"/>
@@ -2062,14 +2064,25 @@
 		<item group="光环lv3" count="1" prob="0.1"/>
 		<item group="光环lv4" count="1" prob="0.1"/>
 		<!--神速甲-->
-		<item group="ZH1" count="1" prob="0.1"/>
+		<item group="ZH1" count="1" prob="0.3"/>
 	</lootcontainer>
+	<!--BeibaoWx☆☆☆-->
 	<lootcontainer id="1028" name="1028" count="1" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1">
 		<item group="KUANGMO3" count="1" prob="0.01"/>
 		<item group="xinGOD" count="1" prob="0.1"/>
 		<item group="xinrand" count="1" prob="0.1"/>
 		<item group="光环lv4" count="1" prob="0.1"/>
 		<item group="光环lv5" count="1" prob="0.1"/>
+		<!--神速甲-->
+		<item group="ZH1" count="1" prob="0.3"/>
+	</lootcontainer>
+
+	<!--sinkFin普通怪物掉包-->
+	<lootcontainer id="1029" name="1029" count="1" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1">
+		<item group="MOTU" count="1" prob="0.6"/>
+		<item group="xinS" count="1" prob="0.1"/>
+		<item group="xinrand" count="1" prob="0.001"/>
+		<item group="光环lv3" count="1" prob="0.1"/>
 		<!--神速甲-->
 		<item group="ZH1" count="1" prob="0.1"/>
 	</lootcontainer>

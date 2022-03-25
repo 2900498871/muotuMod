@@ -7244,14 +7244,14 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			 <triggered_effect trigger="onSelfBuffStart" action="AddBuff" fireOneBuff="true" target="self"   buff="[FF0033]武器大师☆灵能LV3,[FF0033]武器大师☆灵能LV4,[FF0033]武器大师☆灵能LV5" weights="2,2,2"/>  
 		</effect_group>		
 </buff>
-<buff name="[FF0033]武器大师☆灵能LV0" name_key="[FF0033]武器大师☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon="千变石">
+<buff name="[FF0033]武器大师☆灵能LV0" name_key="[FF0033]武器大师☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]武器大师"/><duration value="600"/>
 		
 		<effect_group>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".01"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]武器大师☆灵能LV1" name_key="[FF0033]武器大师☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+1 攻击距离  \n+4%攻速"   icon="千变石">
+<buff name="[FF0033]武器大师☆灵能LV1" name_key="[FF0033]武器大师☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+1 攻击距离  \n+4%攻速"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]武器大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7260,7 +7260,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			<passive_effect name="AttacksPerMinute" operation="base_add" value=".4"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]武器大师☆灵能LV2" name_key="[FF0033]武器大师☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+2 攻击距离  \n+8%攻速"   icon="千变石">
+<buff name="[FF0033]武器大师☆灵能LV2" name_key="[FF0033]武器大师☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+2 攻击距离  \n+8%攻速"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]武器大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7269,7 +7269,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			<passive_effect name="AttacksPerMinute" operation="base_add" value=".8"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]武器大师☆灵能LV3" name_key="[FF0033]武器大师☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+3 攻击距离  \n+12%攻速"   icon="千变石">
+<buff name="[FF0033]武器大师☆灵能LV3" name_key="[FF0033]武器大师☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+3 攻击距离  \n+12%攻速"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]武器大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7278,7 +7278,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			<passive_effect name="AttacksPerMinute" operation="base_add" value=".12"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]武器大师☆灵能LV4" name_key="[FF0033]武器大师☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+4 攻击距离  \n+16%攻速"   icon="千变石">
+<buff name="[FF0033]武器大师☆灵能LV4" name_key="[FF0033]武器大师☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+4 攻击距离  \n+16%攻速"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]武器大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7287,7 +7287,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			<passive_effect name="AttacksPerMinute" operation="base_add" value=".16"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]武器大师☆灵能LV5" name_key="[FF0033]武器大师☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+5 攻击距离  \n+20%攻速"   icon="千变石">
+<buff name="[FF0033]武器大师☆灵能LV5" name_key="[FF0033]武器大师☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+5 攻击距离  \n+20%攻速"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]武器大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7344,14 +7344,14 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			 <triggered_effect trigger="onSelfBuffStart" action="AddBuff" fireOneBuff="true" target="self"   buff="[FF0033]枪手☆灵能LV3,[FF0033]枪手☆灵能LV4,[FF0033]枪手☆灵能LV5" weights="2,2,2"/>  
 		</effect_group>		
 </buff>
-<buff name="[FF0033]枪手☆灵能LV0" name_key="[FF0033]枪手☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon="千变石">
+<buff name="[FF0033]枪手☆灵能LV0" name_key="[FF0033]枪手☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]枪手"/><duration value="600"/>
 		
 		<effect_group>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".01"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]枪手☆灵能LV1" name_key="[FF0033]枪手☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+25% 增加实体伤害 \n+5% 装弹速度"   icon="千变石">
+<buff name="[FF0033]枪手☆灵能LV1" name_key="[FF0033]枪手☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+25% 增加实体伤害 \n+5% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]枪手"/><duration value="600"/>
 		
 		<effect_group>
@@ -7359,7 +7359,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".05"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]枪手☆灵能LV2" name_key="[FF0033]枪手☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+50% 增加实体伤害 \n+10% 装弹速度"   icon="千变石">
+<buff name="[FF0033]枪手☆灵能LV2" name_key="[FF0033]枪手☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+50% 增加实体伤害 \n+10% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]枪手"/><duration value="600"/>
 		
 		<effect_group>
@@ -7367,7 +7367,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".1"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]枪手☆灵能LV3" name_key="[FF0033]枪手☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+75% 增加实体伤害 \n+15% 装弹速度"   icon="千变石">
+<buff name="[FF0033]枪手☆灵能LV3" name_key="[FF0033]枪手☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+75% 增加实体伤害 \n+15% 装弹速度"  icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]枪手"/><duration value="600"/>
 		
 		<effect_group>
@@ -7375,7 +7375,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]枪手☆灵能LV4" name_key="[FF0033]枪手☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100% 增加实体伤害 \n+20% 装弹速度"   icon="千变石">
+<buff name="[FF0033]枪手☆灵能LV4" name_key="[FF0033]枪手☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100% 增加实体伤害 \n+20% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]枪手"/><duration value="600"/>
 		
 		<effect_group>
@@ -7383,7 +7383,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".2"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]枪手☆灵能LV5" name_key="[FF0033]枪手☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+125% 增加实体伤害 \n+25% 装弹速度"   icon="千变石">
+<buff name="[FF0033]枪手☆灵能LV5" name_key="[FF0033]枪手☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+125% 增加实体伤害 \n+25% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]枪手"/><duration value="600"/>
 		
 		<effect_group>
@@ -7444,7 +7444,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 		<passive_effect name="EntityDamage" operation="perc_add" value=".01"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV1" name_key="[FF0033]工程师☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+5% 增加实体伤害 \n+20% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
+<buff name="[FF0033]工程师☆灵能LV1" name_key="[FF0033]工程师☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+5% 增加实体伤害 \n+20% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7452,7 +7452,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".2"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV2" name_key="[FF0033]工程师☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+10% 增加实体伤害 \n+40% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
+<buff name="[FF0033]工程师☆灵能LV2" name_key="[FF0033]工程师☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+10% 增加实体伤害 \n+40% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7460,7 +7460,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".4"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV3" name_key="[FF0033]工程师☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+15% 增加实体伤害 \n+60% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
+<buff name="[FF0033]工程师☆灵能LV3" name_key="[FF0033]工程师☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+15% 增加实体伤害 \n+60% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7468,7 +7468,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".6"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV4" name_key="[FF0033]工程师☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+20% 增加实体伤害 \n+50% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
+<buff name="[FF0033]工程师☆灵能LV4" name_key="[FF0033]工程师☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+20% 增加实体伤害 \n+50% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7476,7 +7476,7 @@ description_key="" tooltip_key="职业"   icon="ui_game_symbol_bull" >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".8"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]工程师☆灵能LV5" name_key="[FF0033]工程师☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+30% 增加实体伤害 \n+100% 收获量！"   icon="ui_game_symbol_bull" icon_color="26,0,0">
+<buff name="[FF0033]工程师☆灵能LV5" name_key="[FF0033]工程师☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+30% 增加实体伤害 \n+100% 收获量！"  icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]工程师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7530,14 +7530,14 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			 <triggered_effect trigger="onSelfBuffStart" action="AddBuff" fireOneBuff="true" target="self"   buff="[FF0033]猎人☆灵能LV3,[FF0033]猎人☆灵能LV4,[FF0033]猎人☆灵能LV5" weights="2,2,2"/>  
 		</effect_group>		
 </buff>
-<buff name="[FF0033]猎人☆灵能LV0" name_key="[FF0033]猎人☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon="千变石">
+<buff name="[FF0033]猎人☆灵能LV0" name_key="[FF0033]猎人☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]猎人"/><duration value="600"/>
 		
 		<effect_group>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".01"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]猎人☆灵能LV1" name_key="[FF0033]猎人☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+20% 增加实体伤害 \n+10% 收获量！"   icon="千变石">
+<buff name="[FF0033]猎人☆灵能LV1" name_key="[FF0033]猎人☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+20% 增加实体伤害 \n+10% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]猎人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7545,7 +7545,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".1"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]猎人☆灵能LV2" name_key="[FF0033]猎人☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+40% 增加实体伤害 \n+20% 收获量！"   icon="千变石">
+<buff name="[FF0033]猎人☆灵能LV2" name_key="[FF0033]猎人☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+40% 增加实体伤害 \n+20% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]猎人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7553,7 +7553,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".2"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]猎人☆灵能LV3" name_key="[FF0033]猎人☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+60% 增加实体伤害 \n+30% 收获量！"   icon="千变石">
+<buff name="[FF0033]猎人☆灵能LV3" name_key="[FF0033]猎人☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+60% 增加实体伤害 \n+30% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]猎人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7561,7 +7561,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".3"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]猎人☆灵能LV4" name_key="[FF0033]猎人☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+80% 增加实体伤害 \n+40% 收获量！"   icon="千变石">
+<buff name="[FF0033]猎人☆灵能LV4" name_key="[FF0033]猎人☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+80% 增加实体伤害 \n+40% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]猎人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7569,7 +7569,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="HarvestCount" operation="perc_add" value=".4"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]猎人☆灵能LV5" name_key="[FF0033]猎人☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100% 增加实体伤害 \n+50% 收获量！"   icon="千变石">
+<buff name="[FF0033]猎人☆灵能LV5" name_key="[FF0033]猎人☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100% 增加实体伤害 \n+50% 收获量！"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]猎人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7623,14 +7623,14 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			 <triggered_effect trigger="onSelfBuffStart" action="AddBuff" fireOneBuff="true" target="self"   buff="[FF0033]军人☆灵能LV3,[FF0033]军人☆灵能LV4,[FF0033]军人☆灵能LV5" weights="2,2,2"/>  
 		</effect_group>		
 </buff>
-<buff name="[FF0033]军人☆灵能LV0" name_key="[FF0033]军人☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon="千变石">
+<buff name="[FF0033]军人☆灵能LV0" name_key="[FF0033]军人☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]军人"/><duration value="600"/>
 		
 		<effect_group>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".01"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]军人☆灵能LV1" name_key="[FF0033]军人☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+15% 增加实体伤害 \n+7% 装弹速度"   icon="千变石">
+<buff name="[FF0033]军人☆灵能LV1" name_key="[FF0033]军人☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+15% 增加实体伤害 \n+7% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]军人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7638,7 +7638,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".7"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]军人☆灵能LV2" name_key="[FF0033]军人☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+30% 增加实体伤害 \n+14% 装弹速度"   icon="千变石">
+<buff name="[FF0033]军人☆灵能LV2" name_key="[FF0033]军人☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+30% 增加实体伤害 \n+14% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]军人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7646,7 +7646,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".14"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]军人☆灵能LV3" name_key="[FF0033]军人☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+45% 增加实体伤害 \n+21% 装弹速度"   icon="千变石">
+<buff name="[FF0033]军人☆灵能LV3" name_key="[FF0033]军人☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+45% 增加实体伤害 \n+21% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]军人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7654,7 +7654,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".21"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]军人☆灵能LV4" name_key="[FF0033]军人☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+60% 增加实体伤害 \n+28% 装弹速度"   icon="千变石">
+<buff name="[FF0033]军人☆灵能LV4" name_key="[FF0033]军人☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+60% 增加实体伤害 \n+28% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]军人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7662,7 +7662,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".28"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]军人☆灵能LV5" name_key="[FF0033]军人☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+75% 增加实体伤害 \n+35% 装弹速度"   icon="千变石">
+<buff name="[FF0033]军人☆灵能LV5" name_key="[FF0033]军人☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+75% 增加实体伤害 \n+35% 装弹速度"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]军人"/><duration value="600"/>
 		
 		<effect_group>
@@ -7716,14 +7716,14 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			 <triggered_effect trigger="onSelfBuffStart" action="AddBuff" fireOneBuff="true" target="self"   buff="[FF0033]刺客大师☆灵能LV3,[FF0033]刺客大师☆灵能LV4,[FF0033]刺客大师☆灵能LV5" weights="2,2,2"/>  
 		</effect_group>		
 </buff>
-<buff name="[FF0033]刺客大师☆灵能LV0" name_key="[FF0033]刺客大师☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon="千变石">
+<buff name="[FF0033]刺客大师☆灵能LV0" name_key="[FF0033]刺客大师☆灵能LV0" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]无"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]刺客大师"/><duration value="600"/>
 		
 		<effect_group>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".01"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]刺客大师☆灵能LV1" name_key="[FF0033]刺客大师☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+20% 增加实体伤害 \n+3% 潜行"   icon="千变石">
+<buff name="[FF0033]刺客大师☆灵能LV1" name_key="[FF0033]刺客大师☆灵能LV1" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+20% 增加实体伤害 \n+3% 潜行"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]刺客大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7734,7 +7734,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 				<passive_effect name="LightMultiplier" operation="perc_add" level="1" value="-.03"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]刺客大师☆灵能LV2" name_key="[FF0033]刺客大师☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+40% 增加实体伤害 \n+6% 潜行"   icon="千变石">
+<buff name="[FF0033]刺客大师☆灵能LV2" name_key="[FF0033]刺客大师☆灵能LV2" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+40% 增加实体伤害 \n+6% 潜行"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]刺客大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7745,7 +7745,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 				<passive_effect name="LightMultiplier" operation="perc_add" level="1" value="-.06"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]刺客大师☆灵能LV3" name_key="[FF0033]刺客大师☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+60% 增加实体伤害 \n+9% 潜行"   icon="千变石">
+<buff name="[FF0033]刺客大师☆灵能LV3" name_key="[FF0033]刺客大师☆灵能LV3" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+60% 增加实体伤害 \n+9% 潜行"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]刺客大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7756,7 +7756,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 				<passive_effect name="LightMultiplier" operation="perc_add" level="1" value="-.09"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]刺客大师☆灵能LV4" name_key="[FF0033]刺客大师☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+80% 增加实体伤害 \n+12% 潜行"   icon="千变石">
+<buff name="[FF0033]刺客大师☆灵能LV4" name_key="[FF0033]刺客大师☆灵能LV4" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+80% 增加实体伤害 \n+12% 潜行"   icon_color="0,255,255" icon="ui_game_symbol_boxer">
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]刺客大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -7767,7 +7767,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 				<passive_effect name="LightMultiplier" operation="perc_add" level="1" value="-.12"/>
         </effect_group>		
 </buff>
-<buff name="[FF0033]刺客大师☆灵能LV5" name_key="[FF0033]刺客大师☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100% 增加实体伤害 \n+15% 潜行"   icon="千变石">
+<buff name="[FF0033]刺客大师☆灵能LV5" name_key="[FF0033]刺客大师☆灵能LV5" remove_on_death="false" description_key="[FFD306]附加效果:\n\n [00EE00]+100% 增加实体伤害 \n+15% 潜行"  icon_color="0,255,255" icon="ui_game_symbol_boxer" >
 		<stack_type value="ignore"/><display_value_key value="[00FFFF]刺客大师"/><duration value="600"/>
 		
 		<effect_group>
@@ -8212,7 +8212,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 		  </effect_group>
 		</buff>
 
-<buff name="领域抵抗" name_key="[00FFFF]免疫-[FF0033]领域" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="光环" icon_color="255,0,0">
+<buff name="领域抵抗" name_key="[00FFFF]免疫-[FF0033]领域" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="ui_game_symbol_add" icon_color="255,0,0">
 		<stack_type value="replace"/>
 		<duration value="300"/>
 		<effect_group>
@@ -10407,6 +10407,33 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			</effect_group>
 		</buff>
 
+
+		<buff name="未知怪物领域-电击" name_key="变异——变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="3"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffShocked" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-燃烧" name_key="变异——变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="3"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffIsOnFire" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-电击燃烧" name_key="变异——变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="3"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffShocked" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffIsOnFire" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+
 		<!--掉血-->
 		<buff name="未知怪物领域" description_key="外星——天外来客领域" tooltip_key="外星——天外来客领域" icon="ui_game_symbol_cold" icon_color="255,0,0" icon_blink="true">
 			<stack_type value="replace"/>
@@ -10416,6 +10443,21 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 				<passive_effect name="HealthChangeOT" operation="base_subtract" value="1"/>
 			</effect_group>
 		</buff>
+
+		<!--掉血-->
+		<buff name="变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="变异——变异怪物领域" icon="ui_game_symbol_cold" icon_color="255,0,0" icon_blink="true">
+			<stack_type value="replace"/>
+			<duration value="10"/>
+			<effect_group>
+				<!--        <passive_effect name="StaminaLossMaxMult" operation="perc_add" value="10"/> -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="0.5"/>
+			</effect_group>
+		</buff>
+
+
+
+
+
 
 
 
