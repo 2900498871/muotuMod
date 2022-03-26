@@ -1359,8 +1359,16 @@
 	<ingredient name="casinoCoin" count="8000"/>
 </recipe>
 
-	<recipe name="药贴-领域抵抗" count="1" craft_time=".1">
+	<recipe name="药贴-领域抵抗☆" count="1" craft_time=".1">
 		<ingredient name="casinoCoin" count="500"/>
+	</recipe>
+
+	<recipe name="药贴-领域抵抗☆☆" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="1500"/>
+	</recipe>
+
+	<recipe name="药贴-领域抵抗☆☆☆" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="3000"/>
 	</recipe>
 
 

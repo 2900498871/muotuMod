@@ -38811,8 +38811,8 @@ needed?
 	</effect_group>
 </item>
 
-<item name="药贴-领域抵抗">
-	<property name="CustomIcon" value="medicalFirstAidBandage" /><property name="CustomIconTint" value="FF0033" />
+<item name="药贴-领域抵抗☆">
+	<property name="CustomIcon" value="medicalFirstAidBandage" /><property name="CustomIconTint" value="00BB00" />
 	<property name="Extends" value="medicalFirstAidKit"/>
 	<property name="DisplayType" value="waterMegaCrush"/><property name="DescriptionKey" value="抵抗药水2"/>
 	<property name="EconomicValue" value="20"/>
@@ -38823,6 +38823,36 @@ needed?
 			<display_value name="dStaminaMax" value="20"/>
 			<display_value name="dDuration" value="20"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="领域抵抗低级"/>
+	</effect_group>
+</item>
+
+<item name="药贴-领域抵抗☆☆">
+	<property name="CustomIcon" value="medicalFirstAidBandage" /><property name="CustomIconTint" value="0066CC" />
+	<property name="Extends" value="medicalFirstAidKit"/>
+	<property name="DisplayType" value="waterMegaCrush"/><property name="DescriptionKey" value="抵抗药水3"/>
+	<property name="EconomicValue" value="20"/>
+	<property class="Action0">
+	</property>
+	<effect_group tiered="false" name="Drink Tier Found">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dStaminaMax" value="20"/>
+			<display_value name="dDuration" value="20"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="领域抵抗中级"/>
+	</effect_group>
+</item>
+
+<item name="药贴-领域抵抗☆☆☆">
+	<property name="CustomIcon" value="medicalFirstAidBandage" /><property name="CustomIconTint" value="FF0033" />
+	<property name="Extends" value="medicalFirstAidKit"/>
+	<property name="DisplayType" value="waterMegaCrush"/><property name="DescriptionKey" value="抵抗药水4"/>
+	<property name="EconomicValue" value="20"/>
+	<property class="Action0">
+	</property>
+	<effect_group tiered="false" name="Drink Tier Found">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dStaminaMax" value="20"/>
+			<display_value name="dDuration" value="20"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="领域抵抗高级"/>
 	</effect_group>
 </item>
 

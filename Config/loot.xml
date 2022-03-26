@@ -135,7 +135,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 
 		<!--粉尘-->
 		<item name="金星源" count="1,200" prob="0.1"/>
@@ -293,7 +295,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.1"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.1"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.1"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 
 		<!--粉尘-->
 		<item name="金星源" count="1,300" prob="0.1"/>
@@ -445,7 +449,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.2"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.2"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.2"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.2"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.2"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 
 		<!--粉尘-->
 		<item name="金星源" count="1,500" prob="0.1"/>
@@ -4141,7 +4147,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.2"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.2"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 	</append>
 
 	<!--小药箱掉落-->
@@ -4165,7 +4173,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 	</append>
 
 	<!--中药箱掉落-->
@@ -4189,7 +4199,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 	</append>
 
 	<!--药盒掉落-->
@@ -4213,7 +4225,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 	</append>
 
 	<!--药盒掉落-->
@@ -4237,7 +4251,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 
 	</append>
 
@@ -4262,7 +4278,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 	</append>
 
 	<!--救护车掉落-->
@@ -4286,7 +4304,9 @@
 		<item name="解除[FF0033]所有诅咒 药水" count="1" prob="0.05"/>
 		<item name="解除[FF0033]所有毒 药水" count="1" prob="0.05"/>
 		<item name="药水-领域抵抗药水" count="1" prob="0.05"/>
-		<item name="药贴-领域抵抗" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆" count="1" prob="0.1"/>
+		<item name="药贴-领域抵抗☆☆☆" count="1" prob="0.1"/>
 	</append>
 
 </configs>
