@@ -1,6 +1,159 @@
 <configs>
 
 <append xpath="/entitygroups">
+
+	<!--sinkFin变异怪物-->
+	<entitygroup name="变异僵尸">
+		<entity name="[00CACA]变异-重炮手" prob="0.1"/>
+		<entity name="[00CACA]变异-火焰战士" prob="0.1"/>
+		<entity name="[00CACA]变异-透明女鬼" prob="0.1"/>
+		<entity name="[00CACA]变异-螳螂变异者" prob="0.1"/>
+		<entity name="[00CACA]变异-飞行法师" prob="0.1"/>
+		<entity name="[00CACA]变异-南瓜人" prob="0.1"/>
+		<entity name="[00CACA]变异-精神科医生" prob="0.1"/>
+		<entity name="[00CACA]变异-警告者" prob="0.1"/>
+		<entity name="[00CACA]变异-掘墓者" prob="0.1"/>
+		<entity name="[00CACA]☆变异-自爆者☆" prob="0.1"/>
+		<entity name="[00CACA]变异-寄生体" prob="0.1"/>
+		<entity name="[00CACA]变异-巫女" prob="0.1"/>
+		<entity name="[00CACA]变异-飞天者" prob="0.1"/>
+		<entity name="[00CACA]变异-狂飙少年" prob="0.1"/>
+		<entity name="[00CACA]☆变异-亡灵骑士☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异-绿光猪☆" prob="0.1"/>
+		<entity name="[00CACA]☆叛变-机器人无人机☆" prob="0.1"/>
+		<entity name="[00CACA]变异-变异水蛇" prob="0.1"/>
+		<entity name="[00CACA]变异-酗酒者" prob="0.1"/>
+		<entity name="[00CACA]☆变异熊☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异矿工☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异旅行者☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异老母鸡☆" prob="0.1"/>
+		<entity name="[00CACA]变异-辐射僵尸" prob="0.1"/>
+		<entity name="[00CACA]变异-溃烂女人" prob="0.1"/>
+		<entity name="[00CACA]☆变异溺死者☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异火男☆" prob="0.1"/>
+		<entity name="[00CACA]☆☆变异火男☆☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异糖果女孩☆" prob="0.1"/>
+		<entity name="[00CACA]变异-迷彩人" prob="0.1"/>
+		<entity name="[00CACA]☆变异火魔☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异射箭者☆" prob="0.1"/>
+		<entity name="[00CACA]变异-冰冻者" prob="0.1"/>
+		<entity name="[00CACA]变异-重枪手" prob="0.1"/>
+		<entity name="[00CACA]变异-钢铁侠" prob="0.1"/>
+		<entity name="[00CACA]变异-木乃伊" prob="0.1"/>
+		<entity name="[00CACA]变异-漆黑者" prob="0.1"/>
+		<entity name="[00CACA]变异-机器人" prob="0.1"/>
+		<entity name="[00CACA]☆变异军人☆" prob="0.1"/>
+		<entity name="[00CACA]变异-呕吐者" prob="0.1"/>
+		<entity name="[00CACA]☆变异女鬼☆" prob="0.1"/>
+		<entity name="[00CACA]变异-影子怪物" prob="0.1"/>
+		<entity name="[00CACA]变异-闪电人" prob="0.1"/>
+		<entity name="[00CACA]☆变异漆黑闪电人☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异水鬼☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异巨蟒☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异火鸟☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异火鸡☆" prob="0.1"/>
+		<entity name="[00CACA]☆叛变直升机☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异秃鹫☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异火蛇☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异飞虫☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异狮子☆" prob="0.1"/>
+	</entitygroup>
+
+	<entitygroup name="外星-僵尸Lv1">
+		<entity name="[4A4AFF]外星-重炮手☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-火焰战士☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-透明女鬼☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-螳螂变异者☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-飞行法师☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-南瓜人☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-精神科医生☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-警告者☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-掘墓者☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-寄生体☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-巫女☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-飞天者☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-狂飙少年☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-变异水蛇☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-酗酒者☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-辐射僵尸☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-溃烂女人☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-迷彩人☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-冰冻者☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-重枪手☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-钢铁侠☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-木乃伊☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-漆黑者☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-机器人☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-呕吐者☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-影子怪物☆" prob="0.1"/>
+		<entity name="[4A4AFF]外星-闪电人☆" prob="0.1"/>
+	</entitygroup>
+
+	<entitygroup name="外星-僵尸Lv2">
+		<entity name="[EAC100]外星-重炮手☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-火焰战士☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-透明女鬼☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-螳螂变异者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-飞行法师☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-南瓜人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-精神科医生☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-警告者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-掘墓者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-寄生体☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-巫女☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-飞天者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-狂飙少年☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-变异水蛇☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-酗酒者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-辐射僵尸☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-溃烂女人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-迷彩人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-冰冻者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-重枪手☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-钢铁侠☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-木乃伊☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-漆黑者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-机器人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-呕吐者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-影子怪物☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-闪电人☆☆" prob="0.1"/>
+	</entitygroup>
+
+	<entitygroup name="外星-僵尸Lv3">
+		<entity name="[B766AD]外星-重炮手☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-火焰战士☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-透明女鬼☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-螳螂变异者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-飞行法师☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-南瓜人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-精神科医生☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-警告者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-掘墓者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-寄生体☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-巫女☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-飞天者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-狂飙少年☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-变异水蛇☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-酗酒者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-辐射僵尸☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-溃烂女人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-迷彩人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-冰冻者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-重枪手☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-钢铁侠☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-木乃伊☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-漆黑者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-机器人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-呕吐者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-影子怪物☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-闪电人☆☆☆" prob="0.1"/>
+
+	</entitygroup>
+
+
+
+
+
 <entitygroup name="ZombiesAll">
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -20,20 +173,72 @@
 		<entity name="zombieNurse" prob="0.3"/>
 		<entity name="zombieSteveCrawler"/>
 		<entity name="zombieFatHawaiian" prob="0.3"/>
-
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
-		
 		<entity name="[FFD306]矿魔 [2894FF]一形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]二形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]三形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]四形" prob="0.05" />
-
 		<entity name="地狱狮子" prob="0.01" />
 		<entity name="地狱熊" prob="0.01" />
 		<entity name="地狱狼" prob="0.01" />
 		<entity name="[FFD306]南瓜灯怪" prob="0.01" />
 		<entity name="宝藏兔" prob="0.005" />
+
+		<entity name="[00CACA]变异-重炮手" prob="0.1"/>
+		<entity name="[00CACA]变异-火焰战士" prob="0.1"/>
+		<entity name="[00CACA]变异-透明女鬼" prob="0.1"/>
+		<entity name="[00CACA]变异-螳螂变异者" prob="0.1"/>
+		<entity name="[00CACA]变异-飞行法师" prob="0.1"/>
+		<entity name="[00CACA]变异-南瓜人" prob="0.1"/>
+		<entity name="[00CACA]变异-精神科医生" prob="0.1"/>
+		<entity name="[00CACA]变异-警告者" prob="0.1"/>
+		<entity name="[00CACA]变异-掘墓者" prob="0.1"/>
+		<entity name="[00CACA]☆变异-自爆者☆" prob="0.1"/>
+		<entity name="[00CACA]变异-寄生体" prob="0.1"/>
+		<entity name="[00CACA]变异-巫女" prob="0.1"/>
+		<entity name="[00CACA]变异-飞天者" prob="0.1"/>
+		<entity name="[00CACA]变异-狂飙少年" prob="0.1"/>
+		<entity name="[00CACA]☆变异-亡灵骑士☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异-绿光猪☆" prob="0.1"/>
+		<entity name="[00CACA]☆叛变-机器人无人机☆" prob="0.1"/>
+		<entity name="[00CACA]变异-变异水蛇" prob="0.1"/>
+		<entity name="[00CACA]变异-酗酒者" prob="0.1"/>
+		<entity name="[00CACA]☆变异熊☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异矿工☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异旅行者☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异老母鸡☆" prob="0.1"/>
+		<entity name="[00CACA]变异-辐射僵尸" prob="0.1"/>
+		<entity name="[00CACA]变异-溃烂女人" prob="0.1"/>
+		<entity name="[00CACA]☆变异溺死者☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异火男☆" prob="0.1"/>
+		<entity name="[00CACA]☆☆变异火男☆☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异糖果女孩☆" prob="0.1"/>
+		<entity name="[00CACA]变异-迷彩人" prob="0.1"/>
+		<entity name="[00CACA]☆变异火魔☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异射箭者☆" prob="0.1"/>
+		<entity name="[00CACA]变异-冰冻者" prob="0.1"/>
+		<entity name="[00CACA]变异-重枪手" prob="0.1"/>
+		<entity name="[00CACA]变异-钢铁侠" prob="0.1"/>
+		<entity name="[00CACA]变异-木乃伊" prob="0.1"/>
+		<entity name="[00CACA]变异-漆黑者" prob="0.1"/>
+		<entity name="[00CACA]变异-机器人" prob="0.1"/>
+		<entity name="[00CACA]☆变异军人☆" prob="0.1"/>
+		<entity name="[00CACA]变异-呕吐者" prob="0.1"/>
+		<entity name="[00CACA]☆变异女鬼☆" prob="0.1"/>
+		<entity name="[00CACA]变异-影子怪物" prob="0.1"/>
+		<entity name="[00CACA]变异-闪电人" prob="0.1"/>
+		<entity name="[00CACA]☆变异漆黑闪电人☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异水鬼☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异巨蟒☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异火鸟☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异火鸡☆" prob="0.1"/>
+		<entity name="[00CACA]☆叛变直升机☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异秃鹫☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异火蛇☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异飞虫☆" prob="0.1"/>
+		<entity name="[00CACA]☆变异狮子☆" prob="0.1"/>
+
 	</entitygroup>
 
 <entitygroup name="森林僵尸">
@@ -49,8 +254,6 @@
 		<entity name="[2894FF]B级僵尸 火焰僵尸" prob="0.1" />
 		<entity name="[2894FF]B级僵尸 尖叫僵尸" prob="0.1" />
 		<entity name="[2894FF]B级僵尸 半身僵尸" prob="0.1" />
-
-		
 
 	</entitygroup>		 
 <entitygroup name="沙漠僵尸">
@@ -79,26 +282,78 @@
 		<entity name="[FFD306]SS级僵尸 火焰僵尸" prob="0.1" />
 		<entity name="[FFD306]SS级僵尸 尖叫僵尸" prob="0.1" />
 		<entity name="[FFD306]SS级僵尸 半身僵尸" prob="0.1" />
-		
 		<entity name="[FFD306]SSS级僵尸 尖叫僵尸" prob="0.1" />
 		<entity name="[FFD306]SSS级僵尸 快速僵尸" prob="0.1" />
-
-
 		<entity name="[FFD306]SSS级 变异狼" prob="0.1" />
 		<entity name="[FFD306]SSS级 变异猪" prob="0.1" />
 		<entity name="[FFD306]SSS级 大变异猪" prob="0.1" />
-		
-
 		<entity name="[FF0033]GOD级 变异狮" prob="0.08" />
 		<entity name="[FF0033]GOD级僵尸 半身僵尸" prob="0.08" />
 		<entity name="[FF0033]GOD级僵尸 尖叫僵尸" prob="0.08" />
-		
 		<entity name="[FF0033]GOD主神级僵尸级僵尸 尖叫僵尸" prob="0.08" />
 		<entity name="[FF0033]GOD主神级僵尸级僵尸 舞女" prob="0.08" />
 		<entity name="[FFD306]矿魔 [2894FF]一形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]二形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]三形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]四形" prob="0.05" />
+
+		<entity name="[EAC100]外星-重炮手☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-火焰战士☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-透明女鬼☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-螳螂变异者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-飞行法师☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-南瓜人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-精神科医生☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-警告者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-掘墓者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-寄生体☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-巫女☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-飞天者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-狂飙少年☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-变异水蛇☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-酗酒者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-辐射僵尸☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-溃烂女人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-迷彩人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-冰冻者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-重枪手☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-钢铁侠☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-木乃伊☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-漆黑者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-机器人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-呕吐者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-影子怪物☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-闪电人☆☆" prob="0.1"/>
+
+		<entity name="[B766AD]外星-重炮手☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-火焰战士☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-透明女鬼☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-螳螂变异者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-飞行法师☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-南瓜人☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-精神科医生☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-警告者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-掘墓者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-寄生体☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-巫女☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-飞天者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-狂飙少年☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-变异水蛇☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-酗酒者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-辐射僵尸☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-溃烂女人☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-迷彩人☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-冰冻者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-重枪手☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-钢铁侠☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-木乃伊☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-漆黑者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-机器人☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-呕吐者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-影子怪物☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-闪电人☆☆☆" prob="0.03"/>
+
+
 	</entitygroup>
 <entitygroup name="雪地僵尸">
 		<entity name="[53FF53]C级僵尸 狂徒僵尸" prob="0.5" />
@@ -135,6 +390,64 @@
 		<entity name="[FF0033]GOD级僵尸 尖叫僵尸" prob="0.01" />
 		<entity name="[FF0033]GOD主神级僵尸级僵尸 尖叫僵尸" prob="0.01" />
 		<entity name="[FF0033]GOD主神级僵尸级僵尸 舞女" prob="0.01" />
+
+		<entity name="[EAC100]外星-重炮手☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-火焰战士☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-透明女鬼☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-螳螂变异者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-飞行法师☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-南瓜人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-精神科医生☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-警告者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-掘墓者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-寄生体☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-巫女☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-飞天者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-狂飙少年☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-变异水蛇☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-酗酒者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-辐射僵尸☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-溃烂女人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-迷彩人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-冰冻者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-重枪手☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-钢铁侠☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-木乃伊☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-漆黑者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-机器人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-呕吐者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-影子怪物☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-闪电人☆☆" prob="0.1"/>
+
+		<entity name="[B766AD]外星-重炮手☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-火焰战士☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-透明女鬼☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-螳螂变异者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-飞行法师☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-南瓜人☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-精神科医生☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-警告者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-掘墓者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-寄生体☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-巫女☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-飞天者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-狂飙少年☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-变异水蛇☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-酗酒者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-辐射僵尸☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-溃烂女人☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-迷彩人☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-冰冻者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-重枪手☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-钢铁侠☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-木乃伊☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-漆黑者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-机器人☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-呕吐者☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-影子怪物☆☆☆" prob="0.03"/>
+		<entity name="[B766AD]外星-闪电人☆☆☆" prob="0.03"/>
+
+
 	</entitygroup>
 <entitygroup name="火烧地僵尸">
 
@@ -169,6 +482,62 @@
 		<entity name="[FFD306]矿魔 [2894FF]二形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]三形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]四形" prob="0.05" />
+
+		<entity name="[EAC100]外星-重炮手☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-火焰战士☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-透明女鬼☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-螳螂变异者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-飞行法师☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-南瓜人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-精神科医生☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-警告者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-掘墓者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-寄生体☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-巫女☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-飞天者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-狂飙少年☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-变异水蛇☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-酗酒者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-辐射僵尸☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-溃烂女人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-迷彩人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-冰冻者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-重枪手☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-钢铁侠☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-木乃伊☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-漆黑者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-机器人☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-呕吐者☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-影子怪物☆☆" prob="0.1"/>
+		<entity name="[EAC100]外星-闪电人☆☆" prob="0.1"/>
+
+		<entity name="[B766AD]外星-重炮手☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-火焰战士☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-透明女鬼☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-螳螂变异者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-飞行法师☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-南瓜人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-精神科医生☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-警告者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-掘墓者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-寄生体☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-巫女☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-飞天者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-狂飙少年☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-变异水蛇☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-酗酒者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-辐射僵尸☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-溃烂女人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-迷彩人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-冰冻者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-重枪手☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-钢铁侠☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-木乃伊☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-漆黑者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-机器人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-呕吐者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-影子怪物☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-闪电人☆☆☆" prob="0.1"/>
 	</entitygroup>
 <entitygroup name="废墟僵尸">
 		
@@ -204,6 +573,34 @@
 		<entity name="[FFD306]矿魔 [2894FF]二形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]三形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]四形" prob="0.05" />
+
+		<entity name="[B766AD]外星-重炮手☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-火焰战士☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-透明女鬼☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-螳螂变异者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-飞行法师☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-南瓜人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-精神科医生☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-警告者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-掘墓者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-寄生体☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-巫女☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-飞天者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-狂飙少年☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-变异水蛇☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-酗酒者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-辐射僵尸☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-溃烂女人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-迷彩人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-冰冻者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-重枪手☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-钢铁侠☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-木乃伊☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-漆黑者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-机器人☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-呕吐者☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-影子怪物☆☆☆" prob="0.1"/>
+		<entity name="[B766AD]外星-闪电人☆☆☆" prob="0.1"/>
 	</entitygroup>
 </append>
 

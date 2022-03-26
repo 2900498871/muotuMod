@@ -6982,34 +6982,34 @@
 			</effect_group>
 		</entity_class>
 
-		<entity_class name="[B766AD]外星-酗酒者☆☆☆" extends="Zombie_Template">
-			<property name="Archetype" value="TipsySquatch" />
-			<property name="Buffs" value="未知怪物领域-虚弱☆☆☆"/>
-			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
-			<property name="ExperienceGain" value="2500"/>
-			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandTipsySquatch"/>
-			<property name="MoveSpeed" value="0.5"/>
-			<property name="WalkType" value="2"/>
-			<property name="MoveSpeedAggro" value="1, 1.5"/>
-			<property name="CanClimbVertical" value="true"/>
-			<property name="JumpMaxDistance" value="14, 18"/>
-			<property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam"/>
-			<property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert"/>
-			<property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack"/>
-			<property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain"/>
-			<property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath"/>
-			<property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense"/>
-			<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
-			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="1000000"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieTipsySquatchDeco"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
-				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
-				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
-			</effect_group>
-		</entity_class>
+        <entity_class name="[B766AD]外星-酗酒者☆☆☆" extends="Zombie_Template">
+            <property name="Archetype" value="TipsySquatch" />
+            <property name="Buffs" value="未知怪物领域-虚弱☆☆☆"/>
+            <property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
+            <property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
+            <property name="ExperienceGain" value="2500"/>
+            <property name="LootDropProb" value="1"/>
+            <property name="HandItem" value="meleeHandTipsySquatch"/>
+            <property name="MoveSpeed" value="0.5"/>
+            <property name="WalkType" value="2"/>
+            <property name="MoveSpeedAggro" value="1, 1.5"/>
+            <property name="CanClimbVertical" value="true"/>
+            <property name="JumpMaxDistance" value="14, 18"/>
+            <property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam"/>
+            <property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert"/>
+            <property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack"/>
+            <property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain"/>
+            <property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath"/>
+            <property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense"/>
+            <property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="1000000"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieTipsySquatchDeco"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+                <triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
+                <triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+            </effect_group>
+        </entity_class>
 
 
 		<entity_class name="[00CACA]☆变异熊☆" extends="animalTemplateHostile">
@@ -9220,7 +9220,7 @@
 			</effect_group>
 		</entity_class>
 
-		<entity_class name="[00CACA]☆变异漆水鬼☆" extends="zombieTemplateMale">
+		<entity_class name="[00CACA]☆变异水鬼☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-眩晕"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="entity,zombie,walker"/>
