@@ -3,6 +3,7 @@
 
 <item_modifier name="1%几率必杀-50W血" installable_tags="weapon" type="attachment" long_desc_key="1%几率必杀-50W血">
 		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+	    <property name="CustomIconTint" value="2F0000" />
 		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="117Desc"/>
 
 		<item_property_overrides name="*">
@@ -606,6 +607,7 @@
 
 <item_modifier name="[53FF53]充能冲击部件 ☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
 		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+	<property name="CustomIconTint" value="53FF53" />
 		 <property name="DescriptionKey" value="充能冲击部件1"/><property name="DisplayType" value="CJ"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/><property name="DisplayType" value="光环"/>
 
@@ -627,6 +629,7 @@
 </item_modifier>
 <item_modifier name="[2894FF]充能冲击部件 ☆☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
 		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+	<property name="CustomIconTint" value="2894FF" />
 		 <property name="DescriptionKey" value="充能冲击部件1"/><property name="DisplayType" value="CJ"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
 
@@ -648,6 +651,7 @@
 </item_modifier>
 <item_modifier name="[CA8EFF]充能冲击部件 ☆☆☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
 		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+	<property name="CustomIconTint" value="CA8EFF" />
 		 <property name="DescriptionKey" value="充能冲击部件2"/><property name="DisplayType" value="CJ"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
 
@@ -669,6 +673,7 @@
 </item_modifier>
 <item_modifier name="[FFD306]充能冲击部件 ☆☆☆☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
 		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+	<property name="CustomIconTint" value="FFD306" />
 		 <property name="DescriptionKey" value="充能冲击部件2"/><property name="DisplayType" value="CJ"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
 
@@ -690,6 +695,7 @@
 </item_modifier>
 <item_modifier name="[FF0033]充能冲击部件 ☆☆☆☆☆" installable_tags="武器" modifier_tags="充能" type="attachment">		
 		<property name="CustomIcon" value="modGunMeleeLiquidNitrogen" />
+		<property name="CustomIconTint" value="FF0033" />
 		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
 		<property name="DescriptionKey" value="充能冲击部件3"/><property name="DisplayType" value="CJ"/>
 
@@ -728,6 +734,7 @@
 
     <item_modifier name="火焰配件 5%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="CustomIconTint" value="FF5809" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件1"/>
 		<property name="DisplayType" value="火"/>
 		
@@ -753,6 +760,7 @@
 	</item_modifier>
 	<item_modifier name="火焰配件 10%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="CustomIconTint" value="FF5809" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件2"/>
 		<property name="DisplayType" value="火"/>
 		
@@ -778,6 +786,7 @@
 	</item_modifier>
 	<item_modifier name="火焰配件 15%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="CustomIconTint" value="FF5809" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件3"/>
 		<property name="DisplayType" value="火"/>
 		
@@ -803,6 +812,7 @@
 	</item_modifier>
 	<item_modifier name="火焰配件 20%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="CustomIconTint" value="FF5809" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件4"/>
 		<property name="DisplayType" value="火"/>
 		
@@ -828,6 +838,7 @@
 	</item_modifier>
 	<item_modifier name="火焰配件 25%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="CustomIconTint" value="FF5809" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件5"/>
 		<property name="DisplayType" value="火"/>
 		
@@ -854,6 +865,7 @@
 
 	<item_modifier name="电击配件 5%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
 		<property name="DisplayType" value="电"/>
 
@@ -879,6 +891,7 @@
 	</item_modifier>
 	<item_modifier name="电击配件 10%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
 		<property name="DisplayType" value="电"/>
 
@@ -904,6 +917,7 @@
 	</item_modifier>
 	<item_modifier name="电击配件 15%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
 		<property name="DisplayType" value="电"/>
 
@@ -929,6 +943,7 @@
 	</item_modifier>
 	<item_modifier name="电击配件 20%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
 		<property name="DisplayType" value="电"/>
 
@@ -954,6 +969,7 @@
 	</item_modifier>
 	<item_modifier name="电击配件 25%" installable_tags="武器" modifier_tags="充能" type="attachment">
 		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
 		<property name="DisplayType" value="电"/>
 
@@ -981,7 +997,7 @@
 
 	<item_modifier name="伤害提升 40%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
 		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升2"/>
 		<property name="DisplayType" value="伤害"/>
 
@@ -996,7 +1012,7 @@
 
 	<item_modifier name="伤害提升 80%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
 		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升4"/>
 		<property name="DisplayType" value="伤害"/>
 
@@ -1011,7 +1027,7 @@
 
 	<item_modifier name="伤害提升 120%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
 		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升6"/>
 		<property name="DisplayType" value="伤害"/>
 
@@ -1026,7 +1042,7 @@
 
 	<item_modifier name="伤害提升 160%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
 		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升8"/>
 		<property name="DisplayType" value="伤害"/>
 
@@ -1041,7 +1057,7 @@
 
 	<item_modifier name="伤害提升 200%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
 		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升10"/>
 		<property name="DisplayType" value="伤害"/>
 
@@ -1057,7 +1073,7 @@
 	
 	<item_modifier name="血量上升 5%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
 		<property name="CustomIcon" value="modArmorInsulatedLiner" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升1"/>
 		<property name="DisplayType" value="血量"/>
 
@@ -1072,7 +1088,7 @@
 	</item_modifier>
 	<item_modifier name="血量上升 10%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
 		<property name="CustomIcon" value="modArmorInsulatedLiner" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升2"/>
 		<property name="DisplayType" value="血量"/>
 
@@ -1087,7 +1103,7 @@
 	</item_modifier>
 	<item_modifier name="血量上升 15%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
 		<property name="CustomIcon" value="modArmorInsulatedLiner" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升3"/>
 		<property name="DisplayType" value="血量"/>
 
@@ -1102,7 +1118,7 @@
 	</item_modifier>
 	<item_modifier name="血量上升 20%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
 		<property name="CustomIcon" value="modArmorInsulatedLiner" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升4"/>
 		<property name="DisplayType" value="血量"/>
 
@@ -1117,7 +1133,7 @@
 	</item_modifier>
 	<item_modifier name="血量上升 25%" installable_tags="clothing,armor" modifier_tags="血" type="attachment">
 		<property name="CustomIcon" value="modArmorInsulatedLiner" />
-		 
+		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="血量上升5"/>
 		<property name="DisplayType" value="血量"/>
 
@@ -1134,6 +1150,7 @@
 	
     <item_modifier name="耐力上升 5%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
 		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升1"/>
 		<property name="DisplayType" value="耐力"/>
 		
@@ -1148,6 +1165,7 @@
 	</item_modifier>
 	<item_modifier name="耐力上升 10%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
 		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升2"/>
 		<property name="DisplayType" value="耐力"/>
 		
@@ -1163,6 +1181,7 @@
 	</item_modifier>
 	<item_modifier name="耐力上升 15%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
 		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升3"/>
 		<property name="DisplayType" value="耐力"/>
 		
@@ -1177,6 +1196,7 @@
 	</item_modifier>
 	<item_modifier name="耐力上升 20%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
 		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升4"/>
 		<property name="DisplayType" value="耐力"/>
 		
@@ -1191,6 +1211,7 @@
 	</item_modifier>
 	<item_modifier name="耐力上升 25%" installable_tags="clothing,armor" modifier_tags="耐" type="attachment">
 		<property name="CustomIcon" value="modArmorImpactBracing" />
+		<property name="CustomIconTint" value="2894FF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="耐力上升5"/>
 		<property name="DisplayType" value="耐力"/>
 		
@@ -1207,7 +1228,7 @@
 	
 	<item_modifier name="加速 10%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
 		<property name="CustomIcon" value="drinkCanMegaCrush" />
-		 
+		<property name="CustomIconTint" value="00EC00" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速1"/>
 		<property name="DisplayType" value="加"/>
 
@@ -1225,7 +1246,7 @@
 	</item_modifier>
 	<item_modifier name="加速 20%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
 		<property name="CustomIcon" value="drinkCanMegaCrush" />
-		
+		<property name="CustomIconTint" value="00EC00" />
 		 
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速2"/>
 		<property name="DisplayType" value="加"/>
@@ -1244,7 +1265,7 @@
 	</item_modifier>
 	<item_modifier name="加速 30%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
 		<property name="CustomIcon" value="drinkCanMegaCrush" />
-		 
+		<property name="CustomIconTint" value="00EC00" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速3"/>
 		<property name="DisplayType" value="加"/>
 
@@ -1262,7 +1283,7 @@
 	</item_modifier>
 	<item_modifier name="加速 40%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
 		<property name="CustomIcon" value="drinkCanMegaCrush" />
-		 
+		<property name="CustomIconTint" value="00EC00" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速4"/>
 		<property name="DisplayType" value="加"/>
 
@@ -1281,7 +1302,7 @@
 	</item_modifier>
 	<item_modifier name="加速 50%" installable_tags="armorFeet" modifier_tags="速" type="attachment">
 		<property name="CustomIcon" value="drinkCanMegaCrush" />
-		 
+		<property name="CustomIconTint" value="00EC00" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="加速5"/>
 		<property name="DisplayType" value="加"/>
 
@@ -1301,7 +1322,7 @@
 	
 	<item_modifier name="伤害基数 100" installable_tags="weapon,tool" type="attachment">
 		<property name="CustomIcon" value="drugSkullCrushers" />
-		 
+		<property name="CustomIconTint" value="4F4F4F" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="123Desc"/>
 
 		<effect_group tiered="false">
@@ -1318,7 +1339,7 @@
 
 	<item_modifier name="[4D0000]攻击吸血" installable_tags="近战武器" type="attachment">
 		<property name="CustomIcon" value="modRoboticDroneMedicMod" /><property name="Group" value="MOTU"/>
-		 
+		<property name="CustomIconTint" value="EA0000" />
 		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="123Desc"/>
 		<property name="DisplayType" value="吸血"/>
 		
@@ -1341,7 +1362,7 @@
 	</item_modifier>
 	<item_modifier name="[4D0000]杀怪吸血" installable_tags="近战武器" type="attachment">
 		<property name="CustomIcon" value="modRoboticDroneMedicMod" /><property name="Group" value="MOTU"/>
-		 
+		<property name="CustomIconTint" value="EA0000" />
 		<property name="Stacknumber" value="1"/><property name="DescriptionKey" value="123Desc"/>
 		<property name="DisplayType" value="吸血1"/>
 
@@ -1356,6 +1377,7 @@
 
     <item_modifier name="激光炮台[FF0033]火纹" installable_tags="激光" modifier_tags="激光电" type="attachment">
 		<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+		<property name="CustomIconTint" value="FF8000" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="火焰配件1"/>
 		<property name="DisplayType" value="火纹"/>
 		
@@ -1384,6 +1406,7 @@
 	</item_modifier>
 	<item_modifier name="激光炮台[FF0033]电纹" installable_tags="激光" modifier_tags="激光火" type="attachment">
 		<property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+		<property name="CustomIconTint" value="B15BFF" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="电击配件1"/>
 		<property name="DisplayType" value="电纹"/>
 
@@ -1413,6 +1436,7 @@
 	</item_modifier>	
 	<item_modifier name="激光炮台[FF0033]激光穿透" installable_tags="激光" modifier_tags="激光穿透" type="attachment">		
 		<property name="CustomIcon" value="modRadiationReady" />
+		<property name="CustomIconTint" value="B15BFF" />
 		<property name="Stacknumber" value="1"/> <property name="Group" value="MOTU"/>
 		<property name="DescriptionKey" value="激光"/><property name="DisplayType" value="激光"/>
 

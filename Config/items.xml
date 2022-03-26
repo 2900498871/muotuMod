@@ -2708,6 +2708,7 @@
 
 <item name="金星 源能吸收 LV1">
 	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="EAC100" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="JINX"/>
@@ -2718,6 +2719,7 @@
 </item>
 <item name="金星 源能吸收 LV2">
 	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="EAC100" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="JINX"/>
@@ -2729,6 +2731,7 @@
 </item>
 <item name="金星 源能吸收 LV3">
 	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="EAC100" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="JINX"/>
@@ -2740,6 +2743,7 @@
 </item>
 <item name="金星 源能吸收 LV4">
 	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="EAC100" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="JINX"/>
@@ -2751,6 +2755,7 @@
 </item>
 <item name="金星 源能吸收 LV5">
 	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="EAC100" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="JINX"/>
@@ -2762,7 +2767,8 @@
 </item>
 
 <item name="木星 源能吸收 LV1">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="A5A552" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="MUX"/>
@@ -2772,7 +2778,8 @@
 	</effect_group>
 </item>
 <item name="木星 源能吸收 LV2">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="A5A552" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="MUX"/>
@@ -2783,7 +2790,8 @@
 	</effect_group>
 </item>
 <item name="木星 源能吸收 LV3">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="A5A552" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="MUX"/>
@@ -2794,7 +2802,8 @@
 	</effect_group>
 </item>
 <item name="木星 源能吸收 LV4">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="A5A552" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="MUX"/>
@@ -2805,7 +2814,8 @@
 	</effect_group>
 </item>
 <item name="木星 源能吸收 LV5">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="A5A552" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="MUX"/>
@@ -2817,7 +2827,8 @@
 </item>
 
 <item name="水星 源能吸收 LV1">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="SUIX"/>
@@ -2827,7 +2838,8 @@
 	</effect_group>
 </item>
 <item name="水星 源能吸收 LV2">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="SUIX"/>
@@ -2838,7 +2850,8 @@
 	</effect_group>
 </item>
 <item name="水星 源能吸收 LV3">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="SUIX"/>
@@ -2849,7 +2862,8 @@
 	</effect_group>
 </item>
 <item name="水星 源能吸收 LV4">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="SUIX"/>
@@ -2860,7 +2874,8 @@
 	</effect_group>
 </item>
 <item name="水星 源能吸收 LV5">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="2894FF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="SUIX"/>
@@ -2872,7 +2887,8 @@
 </item>
 
 <item name="火星 源能吸收 LV1">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF5809" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HUOX"/>
@@ -2882,7 +2898,8 @@
 	</effect_group>
 </item>
 <item name="火星 源能吸收 LV2">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF5809" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HUOX"/>
@@ -2893,7 +2910,8 @@
 	</effect_group>
 </item>
 <item name="火星 源能吸收 LV3">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF5809" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HUOX"/>
@@ -2904,7 +2922,8 @@
 	</effect_group>
 </item>
 <item name="火星 源能吸收 LV4">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF5809" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HUOX"/>
@@ -2915,7 +2934,8 @@
 	</effect_group>
 </item>
 <item name="火星 源能吸收 LV5">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF5809" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HUOX"/>
@@ -2927,7 +2947,8 @@
 </item>
 
 <item name="土星 源能吸收 LV1">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="984B4B" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TUX"/>
@@ -2937,7 +2958,8 @@
 	</effect_group>
 </item>
 <item name="土星 源能吸收 LV2">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="984B4B" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TUX"/>
@@ -2948,7 +2970,8 @@
 	</effect_group>
 </item>
 <item name="土星 源能吸收 LV3">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="984B4B" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TUX"/>
@@ -2959,7 +2982,8 @@
 	</effect_group>
 </item>
 <item name="土星 源能吸收 LV4">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="984B4B" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TUX"/>
@@ -2970,7 +2994,8 @@
 	</effect_group>
 </item>
 <item name="土星 源能吸收 LV5">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="984B4B" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TUX"/>
@@ -2982,7 +3007,8 @@
 </item>
 
 <item name="天王星 源能吸收 LV1">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="000093" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TIANX"/>
@@ -2992,7 +3018,8 @@
 	</effect_group>
 </item>
 <item name="天王星 源能吸收 LV2">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="000093" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TIANX"/>
@@ -3003,7 +3030,8 @@
 	</effect_group>
 </item>
 <item name="天王星 源能吸收 LV3">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="000093" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TIANX"/>
@@ -3014,7 +3042,8 @@
 	</effect_group>
 </item>
 <item name="天王星 源能吸收 LV4">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="000093" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TIANX"/>
@@ -3025,7 +3054,8 @@
 	</effect_group>
 </item>
 <item name="天王星 源能吸收 LV5">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="000093" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TIANX"/>
@@ -3037,7 +3067,8 @@
 </item>
 
 <item name="海王星 源能吸收 LV1">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="B15BFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HAIX"/>
@@ -3047,7 +3078,8 @@
 	</effect_group>
 </item>
 <item name="海王星 源能吸收 LV2">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="B15BFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HAIX"/>
@@ -3058,7 +3090,8 @@
 	</effect_group>
 </item>
 <item name="海王星 源能吸收 LV3">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="B15BFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HAIX"/>
@@ -3069,7 +3102,8 @@
 	</effect_group>
 </item>
 <item name="海王星 源能吸收 LV4">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="B15BFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HAIX"/>
@@ -3080,7 +3114,8 @@
 	</effect_group>
 </item>
 <item name="海王星 源能吸收 LV5">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="B15BFF" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="HAIX"/>
@@ -3092,7 +3127,8 @@
 </item>
 
 <item name="地球 源能吸收 LV1">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="00DB00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="DIX"/>
@@ -3102,7 +3138,8 @@
 	</effect_group>
 </item>
 <item name="地球 源能吸收 LV2">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="00DB00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="DIX"/>
@@ -3113,7 +3150,8 @@
 	</effect_group>
 </item>
 <item name="地球 源能吸收 LV3">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="00DB00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="DIX"/>
@@ -3124,7 +3162,8 @@
 	</effect_group>
 </item>
 <item name="地球 源能吸收 LV4">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="00DB00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="DIX"/>
@@ -3135,7 +3174,8 @@
 	</effect_group>
 </item>
 <item name="地球 源能吸收 LV5">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="00DB00" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="DIX"/>
@@ -3147,7 +3187,8 @@
 </item>
 
 <item name="太阳 源能吸收 LV1">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF2D2D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TAIX"/>
@@ -3157,7 +3198,8 @@
 	</effect_group>
 </item>
 <item name="太阳 源能吸收 LV2">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF2D2D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TAIX"/>
@@ -3168,7 +3210,8 @@
 	</effect_group>
 </item>
 <item name="太阳 源能吸收 LV3">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF2D2D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TAIX"/>
@@ -3179,7 +3222,8 @@
 	</effect_group>
 </item>
 <item name="太阳 源能吸收 LV4">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF2D2D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TAIX"/>
@@ -3190,7 +3234,8 @@
 	</effect_group>
 </item>
 <item name="太阳 源能吸收 LV5">
-	<property name="CustomIcon" value="bookAutoWeaponsDamage" />
+	<property name="CustomIcon" value="foodEgg" />
+	<property name="CustomIconTint" value="FF2D2D" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/><property name="Group" value="MOTU2"/>
 	 
 	<property name="Unlocks" value="TAIX"/>
@@ -38966,6 +39011,7 @@ needed?
 
 <item name="[53FF53]C级被动-实体攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39001,6 +39047,7 @@ needed?
 </item>
 <item name="[53FF53]C级被动-方块攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39036,6 +39083,7 @@ needed?
 </item>
 <item name="[53FF53]C级被动-血量上限">
     <property name="CustomIcon" value="drugPainkillers" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39071,6 +39119,7 @@ needed?
 </item>
 <item name="[53FF53]C级被动-耐力上限">
     <property name="CustomIcon" value="drinkCanMegaCrush" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39106,6 +39155,7 @@ needed?
 </item>
 <item name="[53FF53]C级被动-最大射程提升">
     <property name="CustomIcon" value="modGunBarrelExtender" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39141,6 +39191,7 @@ needed?
 </item>
 <item name="[53FF53]C级被动-血恢复">
     <property name="CustomIcon" value="modRoboticDroneMedicMod" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39176,6 +39227,7 @@ needed?
 </item>
 <item name="[53FF53]C级被动-耐力恢复">
     <property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39211,6 +39263,7 @@ needed?
 </item>
 <item name="[53FF53]C级被动-步行速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39246,6 +39299,7 @@ needed?
 </item>
 <item name="[53FF53]C级被动-跑步速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+     <property name="CustomIconTint" value="00DB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39282,6 +39336,7 @@ needed?
 
 <item name="[2894FF]B级被动-实体攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39317,6 +39372,7 @@ needed?
 </item>
 <item name="[2894FF]B级被动-方块攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+    <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39352,6 +39408,7 @@ needed?
 </item>
 <item name="[2894FF]B级被动-血量上限">
     <property name="CustomIcon" value="drugPainkillers" />
+    <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39387,6 +39444,7 @@ needed?
 </item>
 <item name="[2894FF]B级被动-耐力上限">
     <property name="CustomIcon" value="drinkCanMegaCrush" />
+    <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39422,6 +39480,7 @@ needed?
 </item>
 <item name="[2894FF]B级被动-最大射程提升">
     <property name="CustomIcon" value="modGunBarrelExtender" />
+    <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39457,6 +39516,7 @@ needed?
 </item>
 <item name="[2894FF]B级被动-血恢复">
     <property name="CustomIcon" value="modRoboticDroneMedicMod" />
+    <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39492,6 +39552,7 @@ needed?
 </item>
 <item name="[2894FF]B级被动-耐力恢复">
     <property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+    <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39527,6 +39588,7 @@ needed?
 </item>
 <item name="[2894FF]B级被动-步行速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+    <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39562,6 +39624,7 @@ needed?
 </item>
 <item name="[2894FF]B级被动-跑步速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+    <property name="CustomIconTint" value="00E3E3" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39598,6 +39661,7 @@ needed?
 
 <item name="[CA8EFF]A级被动-实体攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+    <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39634,6 +39698,7 @@ needed?
 </item>
 <item name="[CA8EFF]A级被动-方块攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39670,6 +39735,7 @@ needed?
 </item>
 <item name="[CA8EFF]A级被动-血量上限">
     <property name="CustomIcon" value="drugPainkillers" />
+     <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39706,6 +39772,7 @@ needed?
 </item>
 <item name="[CA8EFF]A级被动-耐力上限">
     <property name="CustomIcon" value="drinkCanMegaCrush" />
+     <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39742,6 +39809,7 @@ needed?
 </item>
 <item name="[CA8EFF]A级被动-最大射程提升">
     <property name="CustomIcon" value="modGunBarrelExtender" />
+     <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39778,6 +39846,7 @@ needed?
 </item>
 <item name="[CA8EFF]A级被动-血恢复">
     <property name="CustomIcon" value="modRoboticDroneMedicMod" />
+     <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39814,6 +39883,7 @@ needed?
 </item>
 <item name="[CA8EFF]A级被动-耐力恢复">
     <property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+     <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39850,6 +39920,7 @@ needed?
 </item>
 <item name="[CA8EFF]A级被动-步行速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+     <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39886,6 +39957,7 @@ needed?
 </item>
 <item name="[CA8EFF]A级被动-跑步速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+     <property name="CustomIconTint" value="921AFF" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39923,6 +39995,7 @@ needed?
 
 <item name="[FFD306]S级被动-实体攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39958,6 +40031,7 @@ needed?
 </item>
 <item name="[FFD306]S级被动-方块攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -39994,6 +40068,7 @@ needed?
 </item>
 <item name="[FFD306]S级被动-血量上限">
     <property name="CustomIcon" value="drugPainkillers" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40030,6 +40105,7 @@ needed?
 </item>
 <item name="[FFD306]S级被动-耐力上限">
     <property name="CustomIcon" value="drinkCanMegaCrush" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40066,6 +40142,7 @@ needed?
 </item>
 <item name="[FFD306]S级被动-最大射程提升">
     <property name="CustomIcon" value="modGunBarrelExtender" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40102,6 +40179,7 @@ needed?
 </item>
 <item name="[FFD306]S级被动-血恢复">
     <property name="CustomIcon" value="modRoboticDroneMedicMod" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40138,6 +40216,7 @@ needed?
 </item>
 <item name="[FFD306]S级被动-耐力恢复">
     <property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40174,6 +40253,7 @@ needed?
 </item>
 <item name="[FFD306]S级被动-步行速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40210,6 +40290,7 @@ needed?
 </item>
 <item name="[FFD306]S级被动-跑步速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40247,6 +40328,7 @@ needed?
 
 <item name="[FFD306]SS级被动-实体攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40282,6 +40364,7 @@ needed?
 </item>
 <item name="[FFD306]SS级被动-方块攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40317,6 +40400,7 @@ needed?
 </item>
 <item name="[FFD306]SS级被动-血量上限">
     <property name="CustomIcon" value="drugPainkillers" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40352,6 +40436,7 @@ needed?
 </item>
 <item name="[FFD306]SS级被动-耐力上限">
     <property name="CustomIcon" value="drinkCanMegaCrush" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40387,6 +40472,7 @@ needed?
 </item>
 <item name="[FFD306]SS级被动-最大射程提升">
     <property name="CustomIcon" value="modGunBarrelExtender" />
+     <property name="CustomIconTint" value="EAC100" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40422,6 +40508,7 @@ needed?
 </item>
 <item name="[FFD306]SS级被动-血恢复">
     <property name="CustomIcon" value="modRoboticDroneMedicMod" />
+     <property name="CustomIconTint" value="4F9D9D" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40457,6 +40544,7 @@ needed?
 </item>
 <item name="[FFD306]SS级被动-耐力恢复">
     <property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+    <property name="CustomIconTint" value="4F9D9D" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40492,6 +40580,7 @@ needed?
 </item>
 <item name="[FFD306]SS级被动-步行速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+    <property name="CustomIconTint" value="4F9D9D" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40527,6 +40616,7 @@ needed?
 </item>
 <item name="[FFD306]SS级被动-跑步速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+    <property name="CustomIconTint" value="4F9D9D" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40563,6 +40653,7 @@ needed?
 
 <item name="[FFD306]SSS级被动-实体攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40597,6 +40688,7 @@ needed?
 </item>
 <item name="[FFD306]SSS级被动-方块攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40632,6 +40724,7 @@ needed?
 </item>
 <item name="[FFD306]SSS级被动-血量上限">
     <property name="CustomIcon" value="drugPainkillers" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40667,6 +40760,7 @@ needed?
 </item>
 <item name="[FFD306]SSS级被动-耐力上限">
     <property name="CustomIcon" value="drinkCanMegaCrush" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40702,6 +40796,7 @@ needed?
 </item>
 <item name="[FFD306]SSS级被动-最大射程提升">
     <property name="CustomIcon" value="modGunBarrelExtender" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40737,6 +40832,7 @@ needed?
 </item>
 <item name="[FFD306]SSS级被动-血恢复">
     <property name="CustomIcon" value="modRoboticDroneMedicMod" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40772,6 +40868,7 @@ needed?
 </item>
 <item name="[FFD306]SSS级被动-耐力恢复">
     <property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40807,6 +40904,7 @@ needed?
 </item>
 <item name="[FFD306]SSS级被动-步行速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40842,6 +40940,7 @@ needed?
 </item>
 <item name="[FFD306]SSS级被动-跑步速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+    <property name="CustomIconTint" value="F75000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40878,6 +40977,7 @@ needed?
 
 <item name="[FF0033]Z级被动-实体攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+     <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40913,6 +41013,7 @@ needed?
 </item>
 <item name="[FF0033]Z级被动-方块攻击提升">
     <property name="CustomIcon" value="drugFortBites" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40948,6 +41049,7 @@ needed?
 </item>
 <item name="[FF0033]Z级被动-血量上限">
     <property name="CustomIcon" value="drugPainkillers" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -40983,6 +41085,7 @@ needed?
 </item>
 <item name="[FF0033]Z级被动-耐力上限">
     <property name="CustomIcon" value="drinkCanMegaCrush" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -41018,6 +41121,7 @@ needed?
 </item>
 <item name="[FF0033]Z级被动-最大射程提升">
     <property name="CustomIcon" value="modGunBarrelExtender" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -41053,6 +41157,7 @@ needed?
 </item>
 <item name="[FF0033]Z级被动-血恢复">
     <property name="CustomIcon" value="modRoboticDroneMedicMod" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -41088,6 +41193,7 @@ needed?
 </item>
 <item name="[FF0033]Z级被动-耐力恢复">
     <property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -41123,6 +41229,7 @@ needed?
 </item>
 <item name="[FF0033]Z级被动-步行速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -41158,6 +41265,7 @@ needed?
 </item>
 <item name="[FF0033]Z级被动-跑步速度">
     <property name="CustomIcon" value="modArmorImpactBracing" />
+    <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalBEI"/>
 	<property name="HoldType" value="64"/>
@@ -43450,7 +43558,7 @@ needed?
 	<property name="DescriptionKey" value="强化石"/>
 </item>
 <item name="炮台[53FF53]弹夹增强">
-	<property name="CustomIcon" value="0001" /><property name="CustomIconTint" value="53FF53" />
+	<property name="CustomIcon" value="modGunDrumMagazineExtender" /><property name="CustomIconTint" value="53FF53" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="350"/>
 	<property name="DescriptionKey" value="强化石"/>
