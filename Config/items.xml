@@ -619,7 +619,7 @@
 
 
 <item name="解除[FF0033]诅咒-减血咒 药水">
-    <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIcon" value="drinkJarBoiledWater" />
     <property name="CustomIconTint" value="CE0000" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
@@ -648,7 +648,7 @@
 	</effect_group>
 </item>
 <item name="解除[FF0033]诅咒-减耐咒 药水">
-    <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIcon" value="drinkJarBoiledWater" />
      <property name="CustomIconTint" value="0066CC" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
@@ -678,7 +678,7 @@
 	</effect_group>
 </item>
 <item name="解除[FF0033]诅咒-恢复减弱咒 药水">
-    <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIcon" value="drinkJarBoiledWater" />
     <property name="CustomIconTint" value="00BB00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
@@ -708,7 +708,7 @@
 	</effect_group>
 </item>
 <item name="解除[FF0033]诅咒-伤害减弱咒 药水">
-    <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIcon" value="drinkJarBoiledWater" />
     <property name="CustomIconTint" value="5B5B5B" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
@@ -739,7 +739,7 @@
 	</effect_group>
 </item>
 <item name="解除[FF0033]诅咒-减速咒 药水">
-    <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIcon" value="drinkJarBoiledWater" />
     <property name="CustomIconTint" value="AE8F00" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
@@ -769,7 +769,7 @@
 </item>
 
 <item name="解除[FF0033]所有诅咒 药水">
-    <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIcon" value="drinkJarBoiledWater" />
     <property name="CustomIconTint" value="0000C6" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除诅咒"/>
@@ -810,7 +810,7 @@
 	</effect_group>
 </item>
 <item name="解除[FF0033]所有毒 药水">
-    <property name="CustomIcon" value="drinkJarPureMineralWater" />
+    <property name="CustomIcon" value="drinkJarBoiledWater" />
     <property name="CustomIconTint" value="272727" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="解除毒"/>
