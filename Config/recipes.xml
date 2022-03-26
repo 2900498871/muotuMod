@@ -3,16 +3,9 @@
 
 	<!--挖矿机制作配方-->
 	<recipe name="采矿机" count="1"  craft_time="120" craft_area="workbench" >
-		<ingredient name="星源水晶" count="2000"/>
-		<ingredient name="金星尘" count="100"/>
-		<ingredient name="木星尘" count="100"/>
-		<ingredient name="水星尘" count="100"/>
-		<ingredient name="火星尘" count="100"/>
-		<ingredient name="土星尘" count="100"/>
-		<ingredient name="[2894FF]铱锭" count="10"/>
-		<ingredient name="[CA8EFF]镭锭" count="10"/>
-		<ingredient name="[40E0D0]钛锭" count="10"/>
-		<ingredient name="[FFD306]钨锭" count="10"/>
+		<ingredient name="星源水晶" count="1000"/>
+		<ingredient name="五行☆星尘" count="5"/>
+		<ingredient name="[FFD306]神☆[2894FF]合金锭" count="10"/>
 		<ingredient name="星源☆金属" count="200"/>
 	</recipe>
 
@@ -1363,9 +1356,12 @@
 
 </recipe>-->
 <recipe name="药水-领域抵抗药水" count="1" craft_time=".1">
-	<ingredient name="casinoCoin" count="10000"/>
-
+	<ingredient name="casinoCoin" count="8000"/>
 </recipe>
+
+	<recipe name="药贴-领域抵抗" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="500"/>
+	</recipe>
 
 
 <recipe name="5技能点" count="1" craft_time=".1">

@@ -38749,7 +38749,6 @@ needed?
 	<property name="EconomicValue" value="240"/>
 	<property class="Action0">
 	</property>
-
 	<effect_group tiered="false" name="Drink Tier Found">
 		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="60"/>
@@ -38761,12 +38760,28 @@ needed?
 				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="363"/></triggered_effect>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="领域抵抗"/>
 	</effect_group>
-
 	<effect_group tiered="false">
 		<requirement name="HasBuff" buff="buffIsOnFire"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
 	</effect_group>
 </item>
+
+<item name="药贴-领域抵抗">
+	<property name="CustomIcon" value="medicalFirstAidBandage" /><property name="CustomIconTint" value="FF0033" />
+	<property name="Extends" value="medicalFirstAidKit"/>
+	<property name="DisplayType" value="waterMegaCrush"/><property name="DescriptionKey" value="抵抗药水2"/>
+	<property name="EconomicValue" value="20"/>
+	<property class="Action0">
+	</property>
+	<effect_group tiered="false" name="Drink Tier Found">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dStaminaMax" value="20"/>
+			<display_value name="dDuration" value="20"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="领域抵抗低级"/>
+	</effect_group>
+</item>
+
+
 <item name="神☆结晶">
 	<property name="CustomIcon" value="glassBulletproofMaster" />
 	<property name="CustomIconTint" value="f47920" />

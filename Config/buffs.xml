@@ -8212,12 +8212,35 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 		  </effect_group>
 		</buff>
 
-<buff name="领域抵抗" name_key="[00FFFF]免疫-[FF0033]领域" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="ui_game_symbol_add" icon_color="255,0,0">
+	<buff name="领域抵抗" name_key="[00FFFF]免疫-[FF0033]领域" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="ui_game_symbol_add" icon_color="255,0,0">
 		<stack_type value="replace"/>
 		<duration value="300"/>
 		<effect_group>
-			<passive_effect name="BuffResistance" operation="base_set" value="500" tags="SS领域,SS领域1,SSS领域,SSS领域1,GOD领域,GOD领域1,血夜领域,血夜领域1,未知怪物领域☆,未知怪物领域☆☆,未知怪物领域☆☆☆"/>
+			<passive_effect name="BuffResistance" operation="base_set" value="500" tags="SS领域,SS领域1,SSS领域,SSS领域1,GOD领域,GOD领域1,血夜领域,血夜领域1,
+			未知怪物领域☆,未知怪物领域☆☆,未知怪物领域☆☆☆,变异怪物领域-电击,变异怪物领域-燃烧,变异怪物领域-虚弱,buffShocked,buffIsOnFire,
+			未知怪物领域-虚弱☆,未知怪物领域-虚弱☆☆,未知怪物领域-虚弱☆☆☆,变异怪物领域-辐射,未知怪物领域-辐射☆,未知怪物领域-辐射☆☆,未知怪物领域-辐射☆☆☆,
+			变异怪物领域-眩晕,未知怪物领域-眩晕☆,未知怪物领域-眩晕☆☆,未知怪物领域-眩晕☆☆☆,外星怪物领域,变异怪物领域,虚弱领域,辐射领域,眩晕领域,
+			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,未知怪物领域-色弱☆☆☆,
+			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
+			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆"/>
 			
+		</effect_group>
+	</buff>
+
+
+	<buff name="领域抵抗低级" name_key="[00FFFF]免疫-[FF0033]领域" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="ui_game_symbol_add" icon_color="255,0,0">
+		<stack_type value="replace"/>
+		<duration value="20"/>
+		<effect_group>
+			<passive_effect name="BuffResistance" operation="base_set" value="500" tags="SS领域,SS领域1,SSS领域,SSS领域1,GOD领域,GOD领域1,血夜领域,血夜领域1,
+			未知怪物领域☆,未知怪物领域☆☆,未知怪物领域☆☆☆,变异怪物领域-电击,变异怪物领域-燃烧,变异怪物领域-虚弱,buffShocked,buffIsOnFire,
+			未知怪物领域-虚弱☆,未知怪物领域-虚弱☆☆,未知怪物领域-虚弱☆☆☆,变异怪物领域-辐射,未知怪物领域-辐射☆,未知怪物领域-辐射☆☆,未知怪物领域-辐射☆☆☆,
+			变异怪物领域-眩晕,未知怪物领域-眩晕☆,未知怪物领域-眩晕☆☆,未知怪物领域-眩晕☆☆☆,外星怪物领域,变异怪物领域,虚弱领域,辐射领域,眩晕领域,
+			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,未知怪物领域-色弱☆☆☆,
+			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
+			坏眼领域,变异怪物领域-坏眼,未知怪物领域-坏眼☆,未知怪物领域-坏眼☆☆,未知怪物领域-坏眼☆☆☆,
+			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆"/>
+
 		</effect_group>
 	</buff>
 
@@ -10382,62 +10405,286 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		<buff name="未知怪物领域☆" name_key="外星——天外来客领域☆" description_key="外星——天外来客领域☆" tooltip_key="buffSnowSwarmTooltip" >
 
 			<stack_type value="replace"/>
-			<update_rate value="3"/>
+			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="未知怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="外星怪物领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 		<buff name="未知怪物领域☆☆" name_key="外星——天外来客领域☆☆" description_key="外星——天外来客领域☆☆" tooltip_key="buffSnowSwarmTooltip" >
 
 			<stack_type value="replace"/>
-			<update_rate value="3"/>
+			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="40" buff="未知怪物领域" target_tags="player"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="40" buff="buffIsOnFire" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="外星怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffIsOnFire" target_tags="player"/>
 			</effect_group>
 		</buff>
 		<buff name="未知怪物领域☆☆☆" name_key="外星——天外来客领域☆☆☆" description_key="外星——天外来客领域☆☆☆" tooltip_key="buffSnowSwarmTooltip" >
 
 			<stack_type value="replace"/>
-			<update_rate value="3"/>
+			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="60" buff="未知怪物领域" target_tags="player"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="40" buff="buffIsOnFire" target_tags="player"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="40" buff="buffShocked" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="外星怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="buffShocked" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-虚弱☆" name_key="怪物领域虚弱" description_key="怪物领域虚弱" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="虚弱领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-虚弱☆☆" name_key="怪物领域虚弱" description_key="怪物领域虚弱" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="虚弱领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-虚弱☆☆☆" name_key="怪物领域虚弱" description_key="怪物领域虚弱" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="虚弱领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-辐射☆" name_key="怪物领域辐射" description_key="怪物领域辐射" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="辐射领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-辐射☆☆" name_key="怪物领域辐射" description_key="怪物领域辐射" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="辐射领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-辐射☆☆☆" name_key="怪物领域辐射" description_key="怪物领域辐射" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="辐射领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-眩晕☆" name_key="怪物领域眩晕" description_key="怪物领域眩晕" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="眩晕领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-眩晕☆☆" name_key="怪物领域眩晕" description_key="怪物领域眩晕" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="眩晕领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-眩晕☆☆☆" name_key="怪物领域眩晕" description_key="怪物领域眩晕" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="眩晕领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-色弱☆" name_key="怪物领域色弱" description_key="怪物领域色弱" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="色弱领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-色弱☆☆" name_key="怪物领域色弱" description_key="怪物领域色弱" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="色弱领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+		<buff name="未知怪物领域-色弱☆☆☆" name_key="怪物领域色弱" description_key="怪物领域色弱" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="色弱领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-冻僵☆" name_key="怪物领域冻僵" description_key="怪物领域冻僵" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="冻僵领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-冻僵☆☆" name_key="怪物领域冻僵" description_key="怪物领域冻僵" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="冻僵领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-冻僵☆☆☆" name_key="怪物领域冻僵" description_key="怪物领域冻僵" tooltip_key="buffSnowSwarmTooltip" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="冻僵领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-坏眼☆" name_key="怪物领域坏眼" description_key="怪物领域坏眼" tooltip_key="未知怪物领域-坏眼☆" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="坏眼领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-坏眼☆☆" name_key="怪物领域坏眼" description_key="怪物领域坏眼" tooltip_key="未知怪物领域-坏眼☆☆" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="坏眼领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-坏眼☆☆☆" name_key="怪物领域坏眼" description_key="怪物领域坏眼" tooltip_key="未知怪物领域-坏眼☆☆☆" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="坏眼领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-瞎眼☆" name_key="怪物领域瞎眼" description_key="怪物领域瞎眼" tooltip_key="未知怪物领域-瞎眼☆" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="瞎眼领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-瞎眼☆☆" name_key="怪物领域瞎眼" description_key="怪物领域瞎眼" tooltip_key="未知怪物领域-瞎眼☆☆" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="瞎眼领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="未知怪物领域-瞎眼☆☆☆" name_key="怪物领域瞎眼" description_key="怪物领域瞎眼" tooltip_key="未知怪物领域-瞎眼☆☆☆" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="瞎眼领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 
 
-		<buff name="未知怪物领域-电击" name_key="变异——变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="buffSnowSwarmTooltip" >
+
+
+
+		<!--**********************************变异怪物领域********************************-->
+
+
+		<buff name="变异怪物领域-电击" name_key="变异——变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="变异怪物领域-电击" >
 			<stack_type value="replace"/>
-			<update_rate value="3"/>
+			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffShocked" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="变异怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="buffShocked" target_tags="player"/>
 			</effect_group>
 		</buff>
 
-		<buff name="未知怪物领域-燃烧" name_key="变异——变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="buffSnowSwarmTooltip" >
+		<buff name="变异怪物领域-燃烧" name_key="变异——变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="变异怪物领域-燃烧" >
 			<stack_type value="replace"/>
-			<update_rate value="3"/>
+			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffIsOnFire" target_tags="player"/>
-			</effect_group>
-		</buff>
-
-		<buff name="未知怪物领域-电击燃烧" name_key="变异——变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="buffSnowSwarmTooltip" >
-			<stack_type value="replace"/>
-			<update_rate value="3"/>
-			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffShocked" target_tags="player"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="20" buff="buffIsOnFire" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="变异怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="buffIsOnFire" target_tags="player"/>
 			</effect_group>
 		</buff>
 
 
-		<!--掉血-->
-		<buff name="未知怪物领域" description_key="外星——天外来客领域" tooltip_key="外星——天外来客领域" icon="ui_game_symbol_cold" icon_color="255,0,0" icon_blink="true">
+		<buff name="变异怪物领域-虚弱" name_key="怪物领域虚弱" description_key="怪物领域虚弱" tooltip_key="变异怪物领域-虚弱" >
 			<stack_type value="replace"/>
-			<duration value="10"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="虚弱领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="变异怪物领域-辐射" name_key="怪物领域辐射" description_key="怪物领域辐射" tooltip_key="变异怪物领域-辐射" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="辐射领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="变异怪物领域-眩晕" name_key="怪物领域眩晕" description_key="怪物领域眩晕" tooltip_key="变异怪物领域-眩晕" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="眩晕领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="变异怪物领域-色弱" name_key="怪物领域色弱" description_key="怪物领域色弱" tooltip_key="变异怪物领域-色弱" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="色弱领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="变异怪物领域-冻僵" name_key="怪物领域冻僵" description_key="怪物领域冻僵" tooltip_key="变异怪物领域-冻僵" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="冻僵领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="变异怪物领域-坏眼" name_key="怪物领域坏眼" description_key="怪物领域坏眼" tooltip_key="变异怪物领域-坏眼" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="坏眼领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+		<buff name="变异怪物领域-瞎眼" name_key="怪物领域瞎眼" description_key="怪物领域瞎眼" tooltip_key="变异怪物领域-瞎眼" >
+			<stack_type value="replace"/>
+			<update_rate value="4"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="瞎眼领域" target_tags="player"/>
+			</effect_group>
+		</buff>
+
+
+
+		<!--以下为AOUBuff-*****************************************************************************************->
+		<!-**********************************掉血-->
+		<buff name="外星怪物领域" description_key="外星——天外来客领域" tooltip_key="外星——天外来客领域" icon="ui_game_symbol_cold" icon_color="255,0,0" icon_blink="true">
+			<stack_type value="replace"/>
+			<duration value="3"/>
 			<effect_group>
 				<!--        <passive_effect name="StaminaLossMaxMult" operation="perc_add" value="10"/> -->
 				<passive_effect name="HealthChangeOT" operation="base_subtract" value="1"/>
@@ -10447,10 +10694,153 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		<!--掉血-->
 		<buff name="变异怪物领域" description_key="变异——变异怪物领域" tooltip_key="变异——变异怪物领域" icon="ui_game_symbol_cold" icon_color="255,0,0" icon_blink="true">
 			<stack_type value="replace"/>
-			<duration value="10"/>
+			<duration value="3"/>
 			<effect_group>
 				<!--        <passive_effect name="StaminaLossMaxMult" operation="perc_add" value="10"/> -->
-				<passive_effect name="HealthChangeOT" operation="base_subtract" value="0.5"/>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="1"/>
+			</effect_group>
+		</buff>
+
+		<!--减速Buff-->
+		<buff name="虚弱领域" name_key="虚弱-虚弱领域" tooltip_key="你的身体受到怪物影响，行动能力下滑" icon="ui_game_symbol_cold" icon_color="255,255,255" icon_blink="true">
+			<stack_type value="replace"/>
+			<duration value="2"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<requirement name="EntityTagCompare" tags="player"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="2" effect_name="Hot"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+				<passive_effect name="EntityDamage" operation="perc_subtract" value="0.75">
+					<requirement name="HoldingItemHasTags" tags="ranged"/>
+				</passive_effect>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value="0.5">
+					<requirement name="HoldingItemHasTags" tags="ranged"/>
+				</passive_effect>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.5">
+					<requirement name="HoldingItemHasTags" tags="ranged"/>
+				</passive_effect>
+				<passive_effect name="EntityDamage" operation="perc_add" value="4">
+					<requirement name="HoldingItemHasTags" tags="melee"/>
+				</passive_effect>
+				<passive_effect name="RunSpeed" operation="perc_add" value="1">
+					<requirement name="HoldingItemHasTags" tags="melee"/>
+				</passive_effect>
+				<passive_effect name="WalkSpeed" operation="perc_add" value="1">
+					<requirement name="HoldingItemHasTags" tags="melee"/>
+				</passive_effect>
+			</effect_group>
+		</buff>
+
+		<!--辐射Buff-->
+		<buff name="辐射领域" name_key="辐射-辐射领域" tooltip_key="你的身体受到辐射影响，请尽快离开辐射源！" icon="ui_game_symbol_radiation" icon_color="255,0,0" icon_blink="true">
+			<damage_type value="radiation"/>
+			<stack_type value="replace"/>
+			<duration value="4"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value=".5"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="2"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity=".15" fade=".5" effect_name="Hot">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="0" fade=".5" effect_name="Hot">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Radiation" intensity=".3" fade="2"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="2"/>
+			</effect_group>
+		</buff>
+
+		<buff name="眩晕领域" name_key="眩晕-眩晕领域" description_key="你的身体状况不佳，请及时服用抵抗药水！" tooltip_key="你的身体状况不佳，请及时服用抵抗药水！" icon="ui_game_symbol_stunned" icon_color="205,21,21">
+			<damage_type value="disease"/>
+			<stack_type value="replace"/><duration value="7"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="2" fade="2" effect_name="Distortion"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Distortion"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="2" fade="2" effect_name="Drunk"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Drunk"/>
+
+				<passive_effect name="RunSpeed" operation="perc_subtract" value="0.7,.2" duration="0,7"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.7,.2" duration="0,7"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.7,.2" duration="0,7"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value="0.7,.3" duration="0,7"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.10,0" duration="0,7">
+				</passive_effect>
+			</effect_group>
+		</buff>
+
+		<buff name="色弱领域" name_key="色弱-色弱领域" description_key="你的眼睛出问题了，请及时服用抵抗药水！" tooltip_key="你的眼睛出问题了，请及时服用抵抗药水！" icon="ui_game_symbol_stunned" icon_color="255,255,255">
+			<damage_type value="disease"/>
+			<stack_type value="replace"/><duration value="6"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="horde_spawn_warning" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffStart" action="FadeOutSound" sound="horde_spawn_warning" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="horde_spawn_warning" play_in_head="true"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="2" effect_name="Posterize"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="2" effect_name="VibrantDeSat"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Posterize"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="VibrantDeSat"/>
+			</effect_group>
+		</buff>
+
+		<buff name="冻僵领域" name_key="冻僵-冻僵领域" description_key="你被冻僵了，请及时服用抵抗药水！" tooltip_key="你被冻僵了，请及时服用抵抗药水！" icon="ui_game_symbol_stunned" icon_color="72,0,254" icon_blink="true">
+			<damage_type value="disease"/>
+			<stack_type value="replace"/><duration value="6"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="freezerbuff" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffStart" action="FadeOutSound" sound="freezerbuff" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="freezerbuff" play_in_head="true"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="NotHasBuff" buff="buffBlackStrapCoffee"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="2" effect_name="Cold"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffElementFreezing">
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Cold"/>
+				</triggered_effect>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value="1" duration="0,6"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value="1" duration="0,6"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value="1" duration="0,6"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value="1" duration="0,6"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-1" duration="0,6">
+				</passive_effect>
+			</effect_group>
+		</buff>
+
+		<buff name="坏眼领域" name_key="坏眼-坏眼领域" description_key="你的视觉模糊了，请及时服用抵抗药水！" tooltip_key="你的视觉模糊了，请及时服用抵抗药水！" icon="ui_game_symbol_stunned" icon_color="75,188,0">
+			<damage_type value="disease"/>
+			<stack_type value="replace"/><duration value="9"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="player#RunLoop" play_in_head="true"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="2" fade="2" effect_name="Infected"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Infected"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="2" fade="2" effect_name="Drunk"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Drunk"/>
+				<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="80"/>
+			</effect_group>
+		</buff>
+
+
+		<buff name="瞎眼领域" name_key="瞎眼-瞎眼领域" description_key="你的眼睛瞎了，请及时服用抵抗药水！" tooltip_key="你的眼睛瞎了，请及时服用抵抗药水！" icon="ui_game_symbol_stunned" icon_color="255,255,255">
+			<damage_type value="disease"/>
+			<stack_type value="replace"/><duration value="8"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="shadowbuff" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffStart" action="FadeOutSound" sound="shadowbuff" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="shadowbuff" play_in_head="true"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="2" effect_name="FadeToBlack"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="FadeToBlack"/>
 			</effect_group>
 		</buff>
 

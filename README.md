@@ -35,7 +35,30 @@ SSS:272727
 198-797 A级怪
 
 SinkFin 怪物名字颜色：
-变异：53FF53
+变异：00CACA
 lv1:4A4AFF
 lv2:EAC100
 lv3:B766AD
+
+sinkFin 去掉的怪：
+ZombieJuggernaut
+ZombieJuggernautGolden
+zombieCowhead
+zombieWrestler
+HellBear
+HellBoar
+SharkWFLB
+zombieTipsySquatch
+
+自定义领域：
+buffShocked
+buffIsOnFire
+变异怪物领域-电击
+变异怪物领域-燃烧
+变异怪物领域-虚弱
+变异怪物领域-辐射
+外星怪物领域
+变异怪物领域
+虚弱领域
+辐射领域
+眩晕领域
