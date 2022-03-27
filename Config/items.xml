@@ -41720,7 +41720,7 @@ needed?
     <property name="Sphere" value=".8"/>	
 	<property class="Action0">
 		<property name="DamageEntity" value="35"/>
-		<property name="DamageBlock" value="300"/>
+		<property name="DamageBlock" value="200"/>
 	</property>
 	<effect_group name="meleeHandZombieMotorhead" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -41743,7 +41743,7 @@ needed?
 		<property name="Range" value="3.6"/>
 		<property name="Sphere" value=".3"/>
 		<property name="DamageEntity" value="40"/>
-		<property name="DamageBlock" value="300"/>
+		<property name="DamageBlock" value="200"/>
 	</property>
 	<effect_group name="meleeHandPaindeer" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -42732,7 +42732,7 @@ needed?
 		<property name="Range" value="2"/>
 		<property name="Sphere" value=".3"/>
 		<property name="DamageEntity" value="60"/>
-		<property name="DamageBlock" value="1000"/>
+		<property name="DamageBlock" value="200"/>
 		<property name="Block_range" value="3"/>
 	</property>
 	<property class="Action1"> <!-- UseAction -->
@@ -42776,7 +42776,7 @@ needed?
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="DamageEntity" value="80"/>
-		<property name="DamageBlock" value="300"/>
+		<property name="DamageBlock" value="200"/>
 		<property name="Explosion.ParticleIndex" value="7"/> <!-- which Prefab/particle is used -->
 		<property name="Explosion.RadiusBlocks" value="5"/> <!-- damage radius for blocks -->
 		<property name="Explosion.RadiusEntities" value="4"/> <!-- damage radius for entities -->
@@ -43832,7 +43832,7 @@ needed?
 			<property class="Action0">
 				<property name="Range" value="1.75"/>
 				<property name="DamageEntity" value="100"/>
-				<property name="DamageBlock" value="5000"/>
+				<property name="DamageBlock" value="200"/>
 				<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
 				<property name="Sound_start" value="Auger_Fire_Start"/>
 				<property class="HitSounds">
@@ -43872,7 +43872,7 @@ needed?
 			<property class="Action1">
 				<property name="Class" value="Projectile"/>
 				<property name="DamageEntity" value="75"/>
-				<property name="DamageBlock" value="12000"/>
+				<property name="DamageBlock" value="200"/>
 				<property name="Explosion.ParticleIndex" value="2"/>
 				<!-- which Prefab/particle is used -->
 				<property name="Explosion.RadiusBlocks" value="9"/>
@@ -44340,7 +44340,7 @@ needed?
 			<property class="Action0">
 				<property name="Range" value="1.75"/>
 				<property name="DamageEntity" value="75"/>
-				<property name="DamageBlock" value="500"/>
+				<property name="DamageBlock" value="200"/>
 				<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
 				<property name="Sound_start" value="Auger_Fire_Start"/>
 				<property class="HitSounds">
@@ -44380,7 +44380,7 @@ needed?
 			<property class="Action1">
 				<property name="Class" value="Projectile"/>
 				<property name="DamageEntity" value="125"/>
-				<property name="DamageBlock" value="1000"/>
+				<property name="DamageBlock" value="200"/>
 				<!--property name="Explosion.ParticleIndex" value="4"/-->
 				<property name="Explosion.ParticleIndex" value="5"/>
 				<!-- which Prefab/particle is used -->
@@ -44479,7 +44479,7 @@ needed?
             <property name="Sphere" value=".8"/>
             <property class="Action0">
                 <property name="DamageEntity" value="35"/>
-                <property name="DamageBlock" value="300"/>
+                <property name="DamageBlock" value="200"/>
             </property>
             <effect_group name="meleeHandZombieMotorhead" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -44502,7 +44502,7 @@ needed?
                 <property name="Range" value="3.6"/>
                 <property name="Sphere" value=".3"/>
                 <property name="DamageEntity" value="30"/>
-                <property name="DamageBlock" value="300"/>
+                <property name="DamageBlock" value="200"/>
             </property>
             <effect_group name="meleeHandPaindeer" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -44704,7 +44704,7 @@ needed?
 			<property class="Action0">
 				<property name="Range" value="1.75"/>
 				<property name="DamageEntity" value="75"/>
-				<property name="DamageBlock" value="800"/>
+				<property name="DamageBlock" value="200"/>
 				<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
 				<property name="Sound_start" value="Auger_Fire_Start"/>
 				<property class="HitSounds">
@@ -45286,7 +45286,7 @@ needed?
 				<property name="Sphere" value="2"/>
 				<property name="Block_range" value="5"/>
 				<property name="DamageEntity" value="40"/>
-				<property name="DamageBlock" value="400"/>
+				<property name="DamageBlock" value="200"/>
 				<property name="Buff" value="buffInjuryBleeding,buffInfectionCatch"/>
 				<property name="Buff_chance" value="0.2,0.8"/>
 			</property>
@@ -46927,7 +46927,7 @@ needed?
 				<property name="Sphere" value="0.3"/>
 				<property name="Block_range" value="6"/>
 				<property name="DamageEntity" value="60"/>
-				<property name="DamageBlock" value="1500"/>
+				<property name="DamageBlock" value="200"/>
 				<property name="Buff" value="buffArmBroken,buffInjuryStunned01"/>
 				<property name="Sound_start" value="swoosh"/>
 			</property>

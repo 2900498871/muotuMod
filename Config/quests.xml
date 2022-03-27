@@ -2344,7 +2344,7 @@
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
-		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
 	</append>
 
 	<!--三级任务获取添加-->
@@ -2352,7 +2352,7 @@
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
-		<reward type="LootItem" id="motu_tier3_fetch" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier3_fetch" ischosen="true" value="2"/>
 	</append>
 
 	<!--三级任务获取清理添加-->
@@ -2360,7 +2360,7 @@
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
-		<reward type="LootItem" id="motu_tier3_fetch_clear" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier3_fetch_clear" ischosen="true" value="2"/>
 	</append>
 
 	<!--三级任务挖宝添加-->
@@ -2369,7 +2369,7 @@
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
-		<reward type="LootItem" id="motu_tier3_buried_supplies" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier3_buried_supplies" ischosen="true" value="2"/>
 	</append>
 
 	<!--/************************************四级任务************************************************/-->
@@ -2379,7 +2379,7 @@
 		<reward type="Item" id="星源水晶" value="600"/>
 		<reward type="Item" id="末石" value="600"/>
 		<reward type="Item" id="途石" value="600"/>
-		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="2"/>
 	</append>
 
 	<!--四级任务获取清理添加-->
@@ -2387,7 +2387,7 @@
 		<reward type="Item" id="星源水晶" value="600"/>
 		<reward type="Item" id="末石" value="600"/>
 		<reward type="Item" id="途石" value="600"/>
-		<reward type="LootItem" id="motu_tier4_fetch_clear" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier4_fetch_clear" ischosen="true" value="2"/>
 	</append>
 
 
@@ -2398,7 +2398,7 @@
 		<reward type="Item" id="星源水晶" value="1000"/>
 		<reward type="Item" id="末石" value="1000"/>
 		<reward type="Item" id="途石" value="1000"/>
-		<reward type="LootItem" id="motu_tier5_clear" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier5_clear" ischosen="true" value="2"/>
 	</append>
 
 	<!--五级任务获取清理添加-->
@@ -2406,7 +2406,7 @@
 		<reward type="Item" id="星源水晶" value="1000"/>
 		<reward type="Item" id="末石" value="1000"/>
 		<reward type="Item" id="途石" value="1000"/>
-		<reward type="LootItem" id="motu_tier5_fetch_clear" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier5_fetch_clear" ischosen="true" value="2"/>
 	</append>
 
 

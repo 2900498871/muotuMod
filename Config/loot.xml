@@ -556,7 +556,7 @@
 	</lootgroup>
 
 	<!--四级获取清理掉落，星源护甲，光环-->
-	<lootgroup name="tier4_fetch_clear" >
+	<lootgroup name="motu_tier4_fetch_clear" >
 
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
