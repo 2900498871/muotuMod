@@ -105,7 +105,6 @@
 		<reward type="Item" id="新手子弹" value="800-1000" />
 		<reward type="Item" id="[FFD306]新手·[FF0000]枪" value="3-6" />
 		<reward type="Item" id="[FFD306]新手·☆斧" value="3-6" />
-		<reward type="Item" id="无敌抽屉" value="1" />
 		<reward type="Item" id="传送核心" value="1" />												
 		<reward type="Item" id="连环任务击杀僵尸" value="1" />
 		<reward type="Item" id="可选职业" value="1" />

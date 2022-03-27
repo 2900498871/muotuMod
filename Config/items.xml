@@ -4276,7 +4276,7 @@
 	<property name="DescriptionKey" value="126Desc"/>
 </item>	
 <item name="[FFD306]神·[FF0000]星源☆共震收纳枪">
-	<property name="CustomIcon" value="hubcapNoMine" />
+	<property name="CustomIcon" value="meleeToolRepairT3Nailgun" />
 	<property name="CustomIconTint" value="4B0091" />
 	<property name="Tags" value="melee,heavy,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
 	<property name="DisplayType" value="武器栏收纳枪"/>

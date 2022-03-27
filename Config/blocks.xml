@@ -11,6 +11,7 @@
 <!--采矿机空-->
 	<block name="采矿机">
 		<property name="DisplayType" value="采矿机（空）" />
+		<property name="CustomIconTint" value="8600FF" />
 		<!--<property name="UnlockedBy" value="perkMiner69r"/>-->
 		<property name="Class" value="UpgradeRated"/>
 		<property name="CustomIcon" value="cntGasPumpEmpty" />
@@ -36,6 +37,7 @@
 	<!--采矿机-充满-->
 	<block name="采矿机(充满)">
 		<property name="DisplayType" value="采矿机（可收获）" />
+		<property name="CustomIconTint" value="8600FF" />
 		<property name="CustomIcon" value="cntGasPumpFull" />
 		<property name="CreativeMode"     value="None"/>
 		<property name="Class" value="Loot" />
@@ -52,36 +54,34 @@
 	</block>
 
 
-
-
-
 	<block name="美少女商人">
-	<property name="CustomIcon" value="美少女" />
-	<property name="Model" value="Entities/Crafting/traitor_joels_2x5_Prefab"/>
-	<property name="Group" value="Science"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti"/>
-	<property name="Material" value="Mbedrock"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
-	<property name="Path" value="solid"/>
-	<property name="ImposterExchange" value="imposterSheet" param1="123"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="传送核心" count="1" prob="1" stick_chance="0"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
-	<property name="TraderID" value="1"/>
-	<property name="Stacknumber" value="10"/>
-	<property name="EconomicValue" value="2000"/>
-	<property name="Buff" value="buffShocked"/>
-	<property name="DescriptionKey" value="女商人"/>
-	<drop event="Destroy" count="0"/>
-	<property name="FilterTags" value="floot,ffurniture"/>
-</block>
+		<property name="CustomIcon" value="cntATMSecure" />
+		<property name="Model" value="Entities/Commercial/ATMPrefab"/>
+		<property name="Group" value="Science"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="DisplayType" value="blockHardenedMulti"/>
+		<property name="Material" value="Mbedrock"/>
+		<property name="LightOpacity" value="0"/>
+		<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+		<property name="Class" value="VendingMachine"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Path" value="solid"/>
+		<property name="ImposterExchange" value="imposterSheet" param1="123"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="传送核心" count="1" prob="1" stick_chance="0"/>
+		<property name="MultiBlockDim" value="1,2,1"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+		<property name="TraderID" value="1"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="EconomicValue" value="2000"/>
+		<property name="Buff" value="buffShocked"/>
+		<property name="DescriptionKey" value="女商人"/>
+		<drop event="Destroy" count="0"/>
+		<property name="FilterTags" value="floot,ffurniture"/>
+	</block>
+
 
 <block name="workbench1">
 	<property name="Class" value="Workstation"/>
@@ -136,6 +136,7 @@
 
 <block name="源能 磨粉师">
 	<property name="CustomIcon" value="decoClassicDogHouse" />
+	<property name="CustomIconTint" value="8600FF" />
 	<property name="DisplayType" value="光环姬" />
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
@@ -148,6 +149,7 @@
 
 <block name="源能 制造师">
 	<property name="CustomIcon" value="cntStoreElectronicsBookShelfSpeaker" />
+	<property name="CustomIconTint" value="F00078" />
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 制造师"/>
@@ -159,6 +161,7 @@
 
 <block name="源能 融合师">
 	<property name="CustomIcon" value="batterybank" />
+	<property name="CustomIconTint" value="EA0000" />
 	<property name="Model" value="Entities/Electrical/battery_bankPrefab" />
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
@@ -171,6 +174,7 @@
 
 <block name="源能 共震合成师">
 	<property name="CustomIcon" value="decoReptileTerrarium" />
+	<property name="CustomIconTint" value="00DB00" />
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 共震合成师"/>
@@ -182,6 +186,7 @@
 
 <block name="源能 合成师">
 	<property name="CustomIcon" value="tableSaw" />
+	<property name="CustomIconTint" value="F75000" />
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 合成师"/>
@@ -190,43 +195,17 @@
 	<property name="Model" value="Entities/Crafting/table_sawPrefab"/>
 	<drop event="Fall" name="源能 合成师" count="1" prob="1" stick_chance="0"/>
 </block>
-<block name="无敌抽屉">
-	<property name="CreativeMode" value="Player"/>
-	<property name="Material" value="Mbedrock" />
-	<property name="CustomIcon" value="greenDrawer"/>
-	<property name="LootList" value="3"/>
-	<property name="Class" value="Loot"/>
-	<property name="LootList" value="playerDrawer"/>
-	<property name="DisplayType" value="blockHardenedMulti"/>
-	<property name="MaxDamage" value="1500"/>
-	<property name="LPHardnessScale" value="8"/>
-	<property name="Shape" value="New"/>
-	<property name="DisplayInfo" value="Name"/>
-	<property name="Model" value="mortician_drawer"/>
-	<property name="HandleFace" value="South"/>
-	<property name="Texture" value="385,446,446,307,307,307"/>
-	<property name="ImposterExchange" value="imposterSheet" param1="123"/>
-	<property class="RepairItems">
-		<property name="resourceForgedIron" value="6"/>
-	</property>
-	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-	<property name="EconomicValue" value="128"/>
-	<property name="Group" value="Building,advBuilding"/>
-	<property name="DescriptionKey" value="cntSecureStorageChestDesc"/>
-	<property name="FilterTags" value="MC_building,SC_loot"/>
-	<drop event="Fall" name="无敌抽屉" count="1" prob="1" stick_chance="0"/>
 
-</block>
 
 <block name="[FF0033]升级炮台随机箱">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="0080FF" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="1022"/>
 </block>	
 <block name="[FF0033]升级炮台随机箱 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="0080FF" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="[FF0033]升级炮台随机箱"/>
@@ -235,11 +214,13 @@
 
 <block name="初绐星源武器随机箱">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="53FF53" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="942"/>
 </block>	
 <block name="初绐星源武器随机箱 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="53FF53" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="初绐星源武器随机箱"/>
@@ -247,11 +228,13 @@
 
 <block name="特殊药品随机箱">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="B766AD" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="943"/>
 </block>	
 <block name="特殊药品随机箱 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="B766AD" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="特殊药品随机箱"/>
@@ -259,11 +242,13 @@
 	 
 <block name="被动随机箱 C">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="46A3FF" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="935"/>
 </block>	
 <block name="被动随机箱 C 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="46A3FF" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="被动随机箱 C"/>
@@ -271,11 +256,13 @@
 
 <block name="被动随机箱 B">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="00FFFF" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="936"/>
 </block>	
 <block name="被动随机箱 B 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="00FFFF" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="被动随机箱 B"/>
@@ -283,11 +270,13 @@
 
 <block name="被动随机箱 A">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="B15BFF" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="937"/>
 </block>	
 <block name="被动随机箱 A 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="B15BFF" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="被动随机箱 A"/>
@@ -295,11 +284,13 @@
 
 <block name="被动随机箱 S">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="938"/>
 </block>	
 <block name="被动随机箱 S 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="FFD306" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="被动随机箱 S"/>
@@ -307,11 +298,13 @@
 
 <block name="被动随机箱 SS">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="FF9224" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="939"/>
 </block>	
 <block name="被动随机箱 SS 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="FF9224" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="被动随机箱 SS"/>
@@ -319,11 +312,13 @@
 
 <block name="被动随机箱 SSS">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="FF0000" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="940"/>
 </block>	
 <block name="被动随机箱 SSS 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="FF0000" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="被动随机箱 SSS"/>
@@ -331,11 +326,13 @@
 
 <block name="被动随机箱 Z">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="272727" />
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="941"/>
 </block>	
 <block name="被动随机箱 Z 锁">
 	<property name="CustomIcon" value="cntGarageStorage" />
+	<property name="CustomIconTint" value="272727" />
 	<property name="Extends" value="cntShippingCrateShamway"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="DowngradeBlock" value="被动随机箱 Z"/>
