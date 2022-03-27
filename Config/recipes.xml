@@ -474,7 +474,7 @@
 
 
 <!--blocks-->
-<recipe name="美少女商人" count="1" craft_time=".1">
+<recipe name="商品贩卖机" count="1" craft_time=".1">
 	<ingredient name="星源水晶" count="50"/>
 	<ingredient name="传送核心" count="1"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>
@@ -1326,35 +1326,36 @@
 
 
 <!--解除诅咒的药水屏蔽，必须搜刮获得-->
-<!--
 <recipe name="解除[FF0033]诅咒-减血咒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="2000"/>
-
+	<ingredient name="星源水晶" count="300"/>
 </recipe>
 <recipe name="解除[FF0033]诅咒-减耐咒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="2000"/>
+	<ingredient name="星源水晶" count="300"/>
 
 </recipe>
 <recipe name="解除[FF0033]诅咒-恢复减弱咒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="2000"/>
+	<ingredient name="星源水晶" count="300"/>
 
 </recipe>
 <recipe name="解除[FF0033]诅咒-伤害减弱咒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="2000"/>
-
+	<ingredient name="星源水晶" count="300"/>
 </recipe>
 <recipe name="解除[FF0033]诅咒-减速咒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="2000"/>
-
+	<ingredient name="星源水晶" count="300"/>
 </recipe>
 <recipe name="解除[FF0033]所有诅咒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="5000"/>
-
+	<ingredient name="星源水晶" count="500"/>
 </recipe>
 <recipe name="解除[FF0033]所有毒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="5000"/>
-
-</recipe>-->
+	<ingredient name="星源水晶" count="500"/>
+</recipe>
 <recipe name="药水-领域抵抗药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="8000"/>
 </recipe>

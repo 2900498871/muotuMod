@@ -54,7 +54,7 @@
 	</block>
 
 
-	<block name="美少女商人">
+	<block name="商品贩卖机">
 		<property name="CustomIcon" value="cntATMSecure" />
 		<property name="Model" value="Entities/Commercial/ATMPrefab"/>
 		<property name="Group" value="Science"/>
