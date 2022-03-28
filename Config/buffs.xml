@@ -4972,7 +4972,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备C" hidden="true">
 			<effect_group>
 			
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset="0,0.1,0.35" local_rotation="90,0,180" parent_transform="Head"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset="0,0.1,0.36" local_rotation="90,0,180" parent_transform="Head"/>
 			</effect_group>
 		</buff>		
 <buff name="装备B" hidden="true">

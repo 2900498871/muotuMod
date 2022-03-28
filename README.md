@@ -81,3 +81,6 @@ Z:272727
 太阳：FF2D2D
 天王：000093
 海王：B15BFF
+
+
+feralHordeStageGS631
