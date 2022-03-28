@@ -24367,7 +24367,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.006,-0.016,0.1"/>
+		<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
 	</property>
 
 	<effect_group name="MP7C">
@@ -24478,7 +24478,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.006,-0.016,0.1"/>
+		<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
 	</property>
 
 	<effect_group name="MP7C">
@@ -24589,7 +24589,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.006,-0.016,0.1"/>
+		<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
 	</property>
 
 	<effect_group name="MP7C">
@@ -24701,7 +24701,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.006,-0.016,0.1"/>
+		<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
 	</property>
 
 	<effect_group name="MP7C">
@@ -24813,7 +24813,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.006,-0.016,0.1"/>
+		<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
 	</property>
 
 	<effect_group name="MP7C">
@@ -24925,7 +24925,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.006,-0.016,0.1"/>
+		<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
 	</property>
 
 	<effect_group name="MP7C">
@@ -25033,12 +25033,13 @@ needed?
 		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
-	<property class="Action1">
+<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.00545,-.01485,-0.15"/>	
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
 	</property>
+
 
 	<effect_group name="Laniidae">
 		<passive_effect name="MaxRange" operation="base_set" value="70" tags="perkGunslinger"/>
@@ -25126,8 +25127,9 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.00545,-.01485,-0.15"/>	
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
 	</property>
+
 
 	<effect_group name="Laniidae">
 		<passive_effect name="MaxRange" operation="base_set" value="70" tags="perkGunslinger"/>
@@ -25215,8 +25217,9 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.00545,-.01485,-0.15"/>	
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
 	</property>
+
 
 	<effect_group name="Laniidae">
 		<passive_effect name="MaxRange" operation="base_set" value="70" tags="perkGunslinger"/>
@@ -25304,7 +25307,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.00545,-.01485,-0.15"/>	
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
 	</property>
 
 	<effect_group name="Laniidae">
@@ -25393,8 +25396,9 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.00545,-.01485,-0.15"/>	
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
 	</property>
+
 
 	<effect_group name="Laniidae">
 		<passive_effect name="MaxRange" operation="base_set" value="70" tags="perkGunslinger"/>
@@ -25482,8 +25486,9 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.00545,-.01485,-0.15"/>	
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
 	</property>
+
 
 	<effect_group name="Laniidae">
 		<passive_effect name="MaxRange" operation="base_set" value="70" tags="perkGunslinger"/>
@@ -25575,7 +25580,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0091,0.0135,0.14"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
 	</property>
 	<effect_group name="gunMGT1AK47">
 		 
@@ -25664,7 +25669,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0091,0.0135,0.14"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
 	</property>
 	<effect_group name="gunMGT1AK47">
 		 
@@ -25753,7 +25758,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0091,0.0135,0.14"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
 	</property>
 	<effect_group name="gunMGT1AK47">
 		 
@@ -25842,7 +25847,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0091,0.0135,0.14"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
 	</property>
 	<effect_group name="gunMGT1AK47">
 		 
@@ -25931,7 +25936,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0091,0.0135,0.14"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
 	</property>
 	<effect_group name="gunMGT1AK47">
 		 
@@ -26020,7 +26025,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0091,0.0135,0.14"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
 	</property>
 	<effect_group name="gunMGT1AK47">
 		 
@@ -27885,11 +27890,13 @@ needed?
 		<property name="BarrelOffset" value="0,0,0"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
+
+
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -27972,7 +27979,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -28055,7 +28062,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -28138,7 +28145,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -28221,7 +28228,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -28304,7 +28311,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -29101,7 +29108,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.006,-0.016,0.1"/>
+		<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
 	</property>
 
 	<effect_group name="MP7C">
@@ -29210,8 +29217,9 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.00545,-.01485,-0.15"/>	
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
 	</property>
+
 
 	<effect_group name="Laniidae">
 		<passive_effect name="MaxRange" operation="base_set" value="70" tags="perkGunslinger"/>
@@ -29300,7 +29308,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0091,0.0135,0.14"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
 	</property>
 	<effect_group name="gunMGT1AK47">
 		 
@@ -29663,7 +29671,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">

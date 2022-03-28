@@ -2083,7 +2083,7 @@
 
 	<!--sinkFin掉包控制 主要掉矿石，星尘-->
 	<!--BeibaoWx☆-->
-	<lootcontainer id="1026" name="1026" count="1,4" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="1026" name="1026" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
 		<item name="星源水晶" count="1,100" prob=".8"/>
 		<item name="末石" count="1,40" prob=".5"/>
@@ -2120,7 +2120,7 @@
 		<item group="光环lv2" count="1" prob=".02"/>
 	</lootcontainer>
 	<!--BeibaoWx☆☆-->
-	<lootcontainer id="1027" name="1027" count="1,4" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="1027" name="1027" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
 		<item name="星源水晶" count="1,200" prob=".8"/>
 		<item name="末石" count="1,80" prob=".5"/>
@@ -2158,7 +2158,7 @@
 
 	</lootcontainer>
 	<!--BeibaoWx☆☆☆-->
-	<lootcontainer id="1028" name="1028" count="1,4" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="1028" name="1028" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
 		<item name="星源水晶" count="1,200" prob=".8"/>
 		<item name="末石" count="1,120" prob=".5"/>
@@ -2198,7 +2198,7 @@
 	</lootcontainer>
 
 	<!--sinkFin普通怪物掉包-->
-	<lootcontainer id="1029" name="1029" count="1,4" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="1029" name="1029" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
 		<item name="星源水晶" count="1,50" prob=".8"/>
 		<item name="末石" count="1,15" prob=".5"/>
@@ -2235,7 +2235,7 @@
 
 
 	<!--采矿机出货-->
-	<lootcontainer id="1030" name="CKJ" count="8" size="5,5" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template">
+	<lootcontainer id="1030" name="CKJ" count="6,10" size="5,5" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template">
 		<!--铁矿-->
 		<item name="resourceScrapIron" count="100,1500" prob="0.4"/>
 		<!--铅矿-->
