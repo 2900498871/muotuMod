@@ -24,7 +24,7 @@
 <recipe name="疯狂☆怪物增强难度LV5" count="1" craft_time=".1" >
 	<ingredient name="怪物增强难度" count="1"/>
 </recipe>
-<recipe name="疯狂☆怪物增强难度LV6" count="1" craft_time=".1" >
+<!--<recipe name="疯狂☆怪物增强难度LV6" count="1" craft_time=".1" >
 	<ingredient name="怪物增强难度" count="1"/>
 </recipe>
 <recipe name="地狱☆怪物增强难度LV7" count="1" craft_time=".1" >
@@ -47,7 +47,7 @@
 </recipe>
 <recipe name="不是人玩☆怪物增强难度LV13" count="1" craft_time=".1" >
 	<ingredient name="怪物增强难度" count="1"/>
-</recipe>
+</recipe>-->
 
 	
 <recipe name="超神强化结晶" count="5" craft_time=".1" >
@@ -5540,7 +5540,7 @@
 
 	<ingredient name="casinoCoin" count="60000"/>
 </recipe>
-<recipe name="疯狂☆怪物增强难度LV6" count="1" craft_time=".1" >
+<!--<recipe name="疯狂☆怪物增强难度LV6" count="1" craft_time=".1" >
 
 	<ingredient name="casinoCoin" count="80000"/>
 </recipe>
@@ -5571,7 +5571,7 @@
 <recipe name="不是人玩☆怪物增强难度LV13" count="1" craft_time=".1" >
 
 	<ingredient name="casinoCoin" count="500000"/>
-</recipe>
+</recipe>-->
 
 <recipe name="武器☆[FFD306]神枪纹 LV2" count="1" craft_time=".1">
 	<ingredient name="武器☆[FFD306]神枪纹 LV1" count="3"/>
