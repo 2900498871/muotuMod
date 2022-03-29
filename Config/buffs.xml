@@ -8222,7 +8222,8 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			变异怪物领域-眩晕,未知怪物领域-眩晕☆,未知怪物领域-眩晕☆☆,未知怪物领域-眩晕☆☆☆,外星怪物领域,变异怪物领域,虚弱领域,辐射领域,眩晕领域,
 			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,未知怪物领域-色弱☆☆☆,
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
-			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆"/>
+			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
+			buffNoise,buffDark,buffIce"/>
 			
 		</effect_group>
 	</buff>
@@ -8239,7 +8240,8 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,未知怪物领域-色弱☆☆☆,
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
 			坏眼领域,变异怪物领域-坏眼,未知怪物领域-坏眼☆,未知怪物领域-坏眼☆☆,未知怪物领域-坏眼☆☆☆,
-			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆"/>
+			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
+			buffNoise,buffDark,buffIce"/>
 
 		</effect_group>
 	</buff>
@@ -8255,8 +8257,8 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,未知怪物领域-色弱☆☆☆,
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
 			坏眼领域,变异怪物领域-坏眼,未知怪物领域-坏眼☆,未知怪物领域-坏眼☆☆,未知怪物领域-坏眼☆☆☆,
-			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆"/>
-
+			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
+			buffNoise,buffDark,buffIce"/>
         </effect_group>
     </buff>
 
@@ -8271,8 +8273,8 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,未知怪物领域-色弱☆☆☆,
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
 			坏眼领域,变异怪物领域-坏眼,未知怪物领域-坏眼☆,未知怪物领域-坏眼☆☆,未知怪物领域-坏眼☆☆☆,
-			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆"/>
-
+			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
+			buffNoise,buffDark,buffIce"/>
         </effect_group>
     </buff>
 
@@ -10639,8 +10641,8 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="变异怪物领域" target_tags="player"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="buffShocked" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="变异怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="buffShocked" target_tags="player"/>
 			</effect_group>
 		</buff>
 
@@ -10648,8 +10650,8 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="变异怪物领域" target_tags="player"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="buffIsOnFire" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="变异怪物领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="buffIsOnFire" target_tags="player"/>
 			</effect_group>
 		</buff>
 
@@ -10658,7 +10660,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="虚弱领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="虚弱领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 
@@ -10666,7 +10668,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="辐射领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="辐射领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 
@@ -10674,7 +10676,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="眩晕领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="眩晕领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 
@@ -10682,7 +10684,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="色弱领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="色弱领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 
@@ -10690,7 +10692,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="冻僵领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="冻僵领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 
@@ -10698,7 +10700,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="坏眼领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="坏眼领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 
@@ -10706,7 +10708,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<stack_type value="replace"/>
 			<update_rate value="4"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="瞎眼领域" target_tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="6" buff="瞎眼领域" target_tags="player"/>
 			</effect_group>
 		</buff>
 

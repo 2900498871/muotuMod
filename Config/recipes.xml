@@ -1325,7 +1325,7 @@
 
 
 
-<!--解除诅咒的药水屏蔽，必须搜刮获得-->
+<!--解除诅咒的药水-->
 <recipe name="解除[FF0033]诅咒-减血咒 药水" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="2000"/>
 	<ingredient name="星源水晶" count="300"/>
