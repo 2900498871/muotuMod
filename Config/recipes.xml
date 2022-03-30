@@ -3517,6 +3517,7 @@
 	<ingredient name="千变石" count="1"/>
 </recipe>
 <recipe name="[FFD306]神·千变[FF0000]星源☆AK47" count="1" craft_time=".1">
+    <ingredient name="千变石" count="1"/>
 </recipe>
 <recipe name="[FFD306]神·千变[FF0000]星源☆战术突击步枪" count="1" craft_time=".1">
 	<ingredient name="千变石" count="1"/>
