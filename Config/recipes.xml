@@ -4847,8 +4847,8 @@
 	<ingredient name="无人机升级核心" count="1"/>
 </recipe>
 <recipe name="gunBotT3JunkDroneSchematic" count="1" craft_time=".1">
-	<ingredient name="末石" count="200"/>
-	<ingredient name="途石" count="200"/>
+	<ingredient name="末石" count="2000"/>
+	<ingredient name="途石" count="2000"/>
 </recipe>
 
 
@@ -5540,9 +5540,8 @@
 
 </recipe>
 <recipe name="武器☆[FFD306]穿甲纹-20%" count="1" craft_time=".1">
-	<ingredient name="末石" count="100"/>
-	<ingredient name="途石" count="100"/>
-
+	<ingredient name="末石" count="3000"/>
+	<ingredient name="途石" count="3000"/>
 </recipe>
 
 <recipe name="普通☆怪物增强难度LV1" count="1" craft_time=".1" >
@@ -5616,8 +5615,8 @@
 </recipe>
 
 <recipe name="武器☆[FFD306]神枪纹 LV1" count="1" craft_time=".1">
-	<ingredient name="末石" count="500"/>
-	<ingredient name="途石" count="500"/>
+	<ingredient name="末石" count="3000"/>
+	<ingredient name="途石" count="3000"/>
 
 </recipe>
 
