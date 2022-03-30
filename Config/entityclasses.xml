@@ -4451,7 +4451,7 @@
 			<property name="CanClimbVertical" value="true"/>
 			<property name="JumpMaxDistance" value="7, 9"/>
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="200000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="SpiritJuggernautDeco"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffSpiritJuggernaut"/>
