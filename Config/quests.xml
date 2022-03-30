@@ -2213,7 +2213,7 @@
 			<objective type="AnimalKill" id="地狱狮子" value="1" phase="3"/>
 		
 			<reward type="Exp" value="5000"/>
-			<reward type="SkillPoints" value="8" />
+			<reward type="SkillPoints" value="10" />
 		
 </quest>
 <quest id="T DY3"> <!--地狱熊 -->
@@ -2239,7 +2239,7 @@
 			<objective type="AnimalKill" id="地狱熊" value="1" phase="3"/>
 		
 			<reward type="Exp" value="5000"/>
-			<reward type="SkillPoints" value="8" />
+			<reward type="SkillPoints" value="10" />
 		
 </quest>
 <quest id="T DY4"> <!--地狱狼 -->
@@ -2265,7 +2265,7 @@
 			<objective type="AnimalKill" id="地狱狼" value="1" phase="3"/>
 		
 			<reward type="Exp" value="5000"/>
-			<reward type="SkillPoints" value="8" />
+			<reward type="SkillPoints" value="10" />
 		
 </quest>
 

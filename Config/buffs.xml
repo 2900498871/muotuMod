@@ -8223,7 +8223,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,未知怪物领域-色弱☆☆☆,
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
 			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
-			buffNoise,buffDark,buffIce"/>
+			buffNoise,buffDark,buffIce,buffNoiseAOE"/>
 			
 		</effect_group>
 	</buff>
@@ -8241,7 +8241,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
 			坏眼领域,变异怪物领域-坏眼,未知怪物领域-坏眼☆,未知怪物领域-坏眼☆☆,未知怪物领域-坏眼☆☆☆,
 			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
-			buffNoise,buffDark,buffIce"/>
+			buffNoise,buffDark,buffIce,buffNoiseAOE"/>
 
 		</effect_group>
 	</buff>
@@ -8258,7 +8258,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
 			坏眼领域,变异怪物领域-坏眼,未知怪物领域-坏眼☆,未知怪物领域-坏眼☆☆,未知怪物领域-坏眼☆☆☆,
 			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
-			buffNoise,buffDark,buffIce"/>
+			buffNoise,buffDark,buffIce,buffNoiseAOE"/>
         </effect_group>
     </buff>
 
@@ -8274,7 +8274,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
 			坏眼领域,变异怪物领域-坏眼,未知怪物领域-坏眼☆,未知怪物领域-坏眼☆☆,未知怪物领域-坏眼☆☆☆,
 			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
-			buffNoise,buffDark,buffIce"/>
+			buffNoise,buffDark,buffIce,buffNoiseAOE"/>
         </effect_group>
     </buff>
 

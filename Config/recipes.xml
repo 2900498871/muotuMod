@@ -1312,6 +1312,14 @@
 	<ingredient name="casinoCoin" count="500000"/>
 </recipe>-->
 
+	<recipe name="100技能点" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="200000"/>
+	</recipe>
+
+	<recipe name="1000技能点" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="1500000"/>
+	</recipe>
+
 	<recipe name="末石" count="100" craft_time=".1">
 		<ingredient name="casinoCoin" count="1000"/>
 	</recipe>
@@ -1357,19 +1365,23 @@
 	<ingredient name="星源水晶" count="500"/>
 </recipe>
 <recipe name="药水-领域抵抗药水" count="1" craft_time=".1">
-	<ingredient name="casinoCoin" count="8000"/>
+	<ingredient name="casinoCoin" count="10000"/>
+	<ingredient name="星源水晶" count="500"/>
 </recipe>
 
 	<recipe name="药贴-领域抵抗☆" count="1" craft_time=".1">
-		<ingredient name="casinoCoin" count="500"/>
+		<ingredient name="casinoCoin" count="1000"/>
+		<ingredient name="星源水晶" count="100"/>
 	</recipe>
 
 	<recipe name="药贴-领域抵抗☆☆" count="1" craft_time=".1">
-		<ingredient name="casinoCoin" count="1500"/>
+		<ingredient name="casinoCoin" count="3000"/>
+		<ingredient name="星源水晶" count="200"/>
 	</recipe>
 
 	<recipe name="药贴-领域抵抗☆☆☆" count="1" craft_time=".1">
-		<ingredient name="casinoCoin" count="3000"/>
+		<ingredient name="casinoCoin" count="5000"/>
+		<ingredient name="星源水晶" count="300"/>
 	</recipe>
 
 
@@ -4999,6 +5011,18 @@
 <recipe name="挑战任务 地狱狼" count="1" craft_time=".1">
 	<ingredient name="挑战 地狱狼" count="1"/>
 </recipe>
+
+	<recipe name="挑战任务 地狱狮子" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="10000"/>
+	</recipe>
+
+	<recipe name="挑战任务 地狱熊" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="10000"/>
+	</recipe>
+
+	<recipe name="挑战任务 地狱狼" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="10000"/>
+	</recipe>
 
 
 

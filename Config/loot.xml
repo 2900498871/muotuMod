@@ -2,7 +2,7 @@
 <append xpath="/lootcontainers">	
 <!-- 原版怪物尸体掉落-->
 <lootgroup name="MOTU" count="all">
-	<item name="星源水晶" count="1,20" prob=".5"/>
+	<item name="星源水晶" count="10,30" prob=".5"/>
 	<item name="末石" count="1,15" prob=".5"/>
 	<item name="途石" count="1,15" prob=".5"/>
 	<item name="casinoCoin" count="1,100" />
@@ -1605,7 +1605,7 @@
 </lootgroup>
 
 <lootgroup name="MOTU C" count="all">
-	<item name="星源水晶" count="1,50" />
+	<item name="星源水晶" count="10,50" />
 	<item name="末石" count="3,20"/>
 	<item name="途石" count="3,10"/>
 	<item name="casinoCoin" count="1,80" />
@@ -1615,7 +1615,7 @@
 </lootgroup>
 
 <lootgroup name="MOTU B" count="all">
-	<item name="星源水晶" count="1,80" />
+	<item name="星源水晶" count="10,80" />
 	<item name="末石" count="3,30"/>
 	<item name="途石" count="3,30"/>
 	<item name="casinoCoin" count="1,100" />
@@ -1624,7 +1624,7 @@
 </lootgroup>
 
 <lootgroup name="MOTU A" count="all">
-	<item name="星源水晶" count="2,120" />
+	<item name="星源水晶" count="20,120" />
 	<item name="末石" count="3,40"/>
 	<item name="途石" count="3,40"/>
 	<item name="casinoCoin" count="1,120" />
@@ -1638,7 +1638,7 @@
 </lootgroup>
 
 <lootgroup name="MOTU S" count="all">
-	<item name="星源水晶" count="2,150" />
+	<item name="星源水晶" count="20,150" />
 	<item name="末石" count="3,50"/>
 	<item name="途石" count="3,50"/>
 	<item name="casinoCoin" count="1,140" />
@@ -1650,7 +1650,7 @@
 </lootgroup>
 
 <lootgroup name="MOTU SS" count="all">
-	<item name="星源水晶" count="2,200" />
+	<item name="星源水晶" count="20,200" />
 	<item name="末石" count="3,60"/>
 	<item name="途石" count="3,60"/>
 	<item name="casinoCoin" count="1,200" />
@@ -1665,7 +1665,7 @@
 </lootgroup>
 
 <lootgroup name="MOTU SSS" count="all">
-	<item name="星源水晶" count="2,200" />
+	<item name="星源水晶" count="20,200" />
 	<item name="末石" count="3,70"/>
 	<item name="途石" count="3,70"/>
 	<item name="casinoCoin" count="1,300" />
@@ -1681,7 +1681,7 @@
 </lootgroup>
 
 <lootgroup name="MOTU GOD" count="all">
-	<item name="星源水晶" count="5,200" />
+	<item name="星源水晶" count="50,200" />
 	<item name="末石" count="10,80"/>
 	<item name="途石" count="10,80"/>
 	<item name="casinoCoin" count="1,500" />
@@ -1696,7 +1696,7 @@
 </lootgroup>
 
 <lootgroup name="MOTU GODZ" count="all">
-	<item name="星源水晶" count="5,200" />
+	<item name="星源水晶" count="50,200" />
 	<item name="末石" count="10,100"/>
 	<item name="途石" count="10,100"/>
 	<item name="casinoCoin" count="1,500" />
@@ -1710,7 +1710,7 @@
 
 
 <lootgroup name="MOTU bao" count="all">
-	<item name="星源水晶" count="1,50" />
+	<item name="星源水晶" count="10,50" />
 	<item name="末石" count="20,50"/>
 	<item name="途石" count="20,50"/>
 	<item name="casinoCoin" count="1,1000" />
@@ -2085,11 +2085,11 @@
 	<!--BeibaoWx☆-->
 	<lootcontainer id="1026" name="1026" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
-		<item name="星源水晶" count="1,100" prob=".8"/>
+		<item name="星源水晶" count="1,100" prob=".5"/>
 		<item name="末石" count="1,40" prob=".5"/>
 		<item name="途石" count="1,40" prob=".5"/>
-		<item name="casinoCoin" count="1,200" />
-		<item name="[53FF53]星核" count="1" />
+		<item name="casinoCoin" count="1,200" prob=".5"/>
+		<item name="[53FF53]星核" count="1" prob=".1"/>
 		<item name="高级强化结晶" count="0,1" prob=".1" />
 		<item name="超级强化结晶" count="0,1" prob=".1"/>
 
@@ -2122,13 +2122,13 @@
 	<!--BeibaoWx☆☆-->
 	<lootcontainer id="1027" name="1027" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
-		<item name="星源水晶" count="1,200" prob=".8"/>
+		<item name="星源水晶" count="1,200" prob=".5"/>
 		<item name="末石" count="1,80" prob=".5"/>
 		<item name="途石" count="1,80" prob=".5"/>
-		<item name="casinoCoin" count="1,300" prob=".5"/>
-		<item name="[53FF53]星核" count="1" prob=".5"/>
-		<item name="高级强化结晶" count="0,1" prob=".2" />
-		<item name="超级强化结晶" count="0,1" prob=".2"/>
+		<item name="casinoCoin" count="1,300" prob=".1"/>
+		<item name="[53FF53]星核" count="1" prob=".1"/>
+		<item name="高级强化结晶" count="0,1" prob=".1" />
+		<item name="超级强化结晶" count="0,1" prob=".1"/>
 
 		<!--星尘包掉率-->
 		<item name="金星尘" count="20,30" prob=".1"/>
@@ -2160,13 +2160,13 @@
 	<!--BeibaoWx☆☆☆-->
 	<lootcontainer id="1028" name="1028" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
-		<item name="星源水晶" count="1,200" prob=".8"/>
+		<item name="星源水晶" count="1,200" prob=".5"/>
 		<item name="末石" count="1,120" prob=".5"/>
 		<item name="途石" count="1,120" prob=".5"/>
-		<item name="casinoCoin" count="1,400" prob=".5"/>
-		<item name="[53FF53]星核" count="1" prob=".5"/>
-		<item name="高级强化结晶" count="0,1" prob=".2" />
-		<item name="超级强化结晶" count="0,1" prob=".2"/>
+		<item name="casinoCoin" count="1,400" prob=".1"/>
+		<item name="[53FF53]星核" count="1" prob=".1"/>
+		<item name="高级强化结晶" count="0,1" prob=".1" />
+		<item name="超级强化结晶" count="0,1" prob=".1"/>
 
 		<!--星尘包掉率-->
 		<item name="金星尘" count="10,40" prob=".1"/>
@@ -2200,11 +2200,11 @@
 	<!--sinkFin普通怪物掉包-->
 	<lootcontainer id="1029" name="1029" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
-		<item name="星源水晶" count="1,50" prob=".8"/>
-		<item name="末石" count="1,15" prob=".5"/>
-		<item name="途石" count="1,15" prob=".5"/>
-		<item name="casinoCoin" count="1,100" />
-		<item name="[53FF53]星核" count="1,5" />
+		<item name="星源水晶" count="1,50" prob=".5"/>
+		<item name="末石" count="1,15" prob=".4"/>
+		<item name="途石" count="1,15" prob=".4"/>
+		<item name="casinoCoin" count="1,100" prob=".5"/>
+		<item name="[53FF53]星核" count="1,5" prob=".5"/>
 		<item name="高级强化结晶" count="0,1" prob=".1" />
 		<item name="超级强化结晶" count="0,1" prob=".1"/>
 
