@@ -13510,7 +13510,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -13593,7 +13593,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -13676,7 +13676,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -13759,7 +13759,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -13842,7 +13842,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -13925,7 +13925,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -14008,7 +14008,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
@@ -19847,7 +19847,7 @@ needed?
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0.001,.0241,0.05"/>
+		<property name="ScopeCameraOffset" value="0,0,0"/>
 	</property>
 
 	<effect_group name="gunShotgunT3AutoShotgun">
