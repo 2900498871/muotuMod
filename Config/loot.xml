@@ -2083,15 +2083,18 @@
 
 	<!--sinkFin掉包控制 主要掉矿石，星尘-->
 	<!--BeibaoWx☆-->
-	<lootcontainer id="1026" name="1026" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="1026" name="1026" count="6,10" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
-		<item name="星源水晶" count="1,100" prob=".5"/>
-		<item name="末石" count="1,40" prob=".5"/>
-		<item name="途石" count="1,40" prob=".5"/>
-		<item name="casinoCoin" count="1,200" prob=".5"/>
-		<item name="[53FF53]星核" count="1" prob=".1"/>
-		<item name="高级强化结晶" count="0,1" prob=".1" />
-		<item name="超级强化结晶" count="0,1" prob=".1"/>
+		<item name="星源水晶" count="1,100" />
+		<item name="末石" count="1,40" />
+		<item name="途石" count="1,40" />
+		<item name="casinoCoin" count="1,200"/>
+		<item name="高级强化结晶" count="1,3" />
+		<item name="超级强化结晶" count="1,3" prob=".1" />
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,3" prob=".1" />
+		<item name="千变碎片" count="1" prob=".1" />
+		<item name="属性变换结晶" count="1" prob=".1" />
 
 		<!--星尘包掉率-->
 		<item name="金星尘" count="1,20" prob=".1"/>
@@ -2103,32 +2106,35 @@
 		<item name="海王星尘" count="1,20" prob=".1"/>
 		<item name="地球星尘" count="1,20" prob=".1"/>
 		<item name="太阳星尘" count="1,20" prob=".1"/>
-		<item name="千变碎片" count="1,10" prob=".01"/>
+
 
 		<!--星源掉包率-->
-		<item name="金星源" count="10,20" prob=".07"/>
-		<item name="水星源" count="10,20" prob=".07"/>
-		<item name="木星源" count="10,20" prob=".07"/>
-		<item name="火星源" count="10,20" prob=".07"/>
-		<item name="土星源" count="10,20" prob=".07"/>
-		<item name="天王星源" count="10,20" prob=".07"/>
-		<item name="海王星源" count="10,20" prob=".07"/>
-		<item name="地球星源" count="10,20" prob=".07"/>
-		<item name="太阳星源" count="10,20" prob=".07"/>
+		<item name="金星源" count="10,30" prob=".1"/>
+		<item name="水星源" count="10,30" prob=".1"/>
+		<item name="木星源" count="10,30" prob=".1"/>
+		<item name="火星源" count="10,30" prob=".1"/>
+		<item name="土星源" count="10,30" prob=".1"/>
+		<item name="天王星源" count="10,30" prob=".1"/>
+		<item name="海王星源" count="10,30" prob=".1"/>
+		<item name="地球星源" count="10,30" prob=".1"/>
+		<item name="太阳星源" count="10,30" prob=".1"/>
 
 		<!--光环掉落率-->
-		<item group="光环lv2" count="1" prob=".02"/>
+		<item group="光环lv2" count="1" prob=".05"/>
 	</lootcontainer>
 	<!--BeibaoWx☆☆-->
-	<lootcontainer id="1027" name="1027" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="1027" name="1027" count="6,10" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
-		<item name="星源水晶" count="1,200" prob=".5"/>
-		<item name="末石" count="1,80" prob=".5"/>
-		<item name="途石" count="1,80" prob=".5"/>
-		<item name="casinoCoin" count="1,300" prob=".1"/>
-		<item name="[53FF53]星核" count="1" prob=".1"/>
-		<item name="高级强化结晶" count="0,1" prob=".1" />
-		<item name="超级强化结晶" count="0,1" prob=".1"/>
+		<item name="星源水晶" count="1,200" />
+		<item name="末石" count="1,100"/>
+		<item name="途石" count="1,100" />
+		<item name="casinoCoin" count="1,300"/>
+		<item name="高级强化结晶" count="1,4"  prob=".1"/>
+		<item name="超级强化结晶" count="1,4" prob=".1" />
+		<item name="神级强化结晶" count="1,4" prob=".2" />
+		<item name="超神强化结晶" count="1,3" prob=".2" />
+		<item name="千变碎片" count="1" prob=".1" />
+		<item name="属性变换结晶" count="1" prob=".1" />
 
 		<!--星尘包掉率-->
 		<item name="金星尘" count="20,30" prob=".1"/>
@@ -2143,30 +2149,33 @@
 		<item name="千变碎片" count="1,20" prob=".01"/>
 
 		<!--星源掉包率-->
-		<item name="金星源" count="10,30" prob=".07"/>
-		<item name="水星源" count="10,30" prob=".07"/>
-		<item name="木星源" count="10,30" prob=".07"/>
-		<item name="火星源" count="10,30" prob=".07"/>
-		<item name="土星源" count="10,30" prob=".07"/>
-		<item name="天王星源" count="10,30" prob=".07"/>
-		<item name="海王星源" count="10,30" prob=".07"/>
-		<item name="地球星源" count="10,30" prob=".07"/>
-		<item name="太阳星源" count="10,30" prob=".07"/>
+		<item name="金星源" count="10,40" prob=".1"/>
+		<item name="水星源" count="10,40" prob=".1"/>
+		<item name="木星源" count="10,40" prob=".1"/>
+		<item name="火星源" count="10,40" prob=".1"/>
+		<item name="土星源" count="10,40" prob=".1"/>
+		<item name="天王星源" count="10,40" prob=".1"/>
+		<item name="海王星源" count="10,40" prob=".1"/>
+		<item name="地球星源" count="10,40" prob=".1"/>
+		<item name="太阳星源" count="10,40" prob=".1"/>
 
 		<!--光环掉落率-->
-		<item group="光环lv3" count="1" prob=".005"/>
+		<item group="光环lv3" count="1" prob=".05"/>
 
 	</lootcontainer>
 	<!--BeibaoWx☆☆☆-->
-	<lootcontainer id="1028" name="1028" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="1028" name="1028" count="6,10" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
-		<item name="星源水晶" count="1,200" prob=".5"/>
-		<item name="末石" count="1,120" prob=".5"/>
-		<item name="途石" count="1,120" prob=".5"/>
-		<item name="casinoCoin" count="1,400" prob=".1"/>
-		<item name="[53FF53]星核" count="1" prob=".1"/>
-		<item name="高级强化结晶" count="0,1" prob=".1" />
-		<item name="超级强化结晶" count="0,1" prob=".1"/>
+		<item name="星源水晶" count="1,200"/>
+		<item name="末石" count="1,120" />
+		<item name="途石" count="1,120" />
+		<item name="casinoCoin" count="1,400"/>
+		<item name="高级强化结晶" count="1,4"  prob=".2"/>
+		<item name="超级强化结晶" count="1,4" prob=".2" />
+		<item name="神级强化结晶" count="1,4" prob=".2" />
+		<item name="超神强化结晶" count="1,4" prob=".4" />
+		<item name="千变碎片" count="1" prob=".1" />
+		<item name="属性变换结晶" count="1" prob=".1" />
 
 		<!--星尘包掉率-->
 		<item name="金星尘" count="10,40" prob=".1"/>
@@ -2178,35 +2187,37 @@
 		<item name="海王星尘" count="10,40" prob=".1"/>
 		<item name="地球星尘" count="10,40" prob=".1"/>
 		<item name="太阳星尘" count="10,40" prob=".1"/>
-		<item name="千变碎片" count="1,30" prob=".01"/>
 
 		<!--星源掉包率-->
-		<item name="金星源" count="30,50" prob=".07"/>
-		<item name="水星源" count="30,50" prob=".07"/>
-		<item name="木星源" count="30,50" prob=".07"/>
-		<item name="火星源" count="30,50" prob=".07"/>
-		<item name="土星源" count="30,50" prob=".07"/>
-		<item name="天王星源" count="30,50" prob=".07"/>
-		<item name="海王星源" count="30,50" prob=".07"/>
-		<item name="地球星源" count="30,50" prob=".07"/>
-		<item name="太阳星源" count="30,50" prob=".07"/>
+		<item name="金星源" count="30,50" prob=".1"/>
+		<item name="水星源" count="30,50" prob=".1"/>
+		<item name="木星源" count="30,50" prob=".1"/>
+		<item name="火星源" count="30,50" prob=".1"/>
+		<item name="土星源" count="30,50" prob=".1"/>
+		<item name="天王星源" count="30,50" prob=".1"/>
+		<item name="海王星源" count="30,50" prob=".1"/>
+		<item name="地球星源" count="30,50" prob=".1"/>
+		<item name="太阳星源" count="30,50" prob=".1"/>
 
 		<!--光环掉落率-->
-		<item group="光环lv4" count="1" prob=".005"/>
-		<item group="光环lv5" count="1" prob=".001"/>
+		<item group="光环lv4" count="1" prob=".05"/>
+		<item group="光环lv5" count="1" prob=".01"/>
 
 	</lootcontainer>
 
 	<!--sinkFin普通怪物掉包-->
-	<lootcontainer id="1029" name="1029" count="3,6" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="1029" name="1029" count="5,9" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
 		<!--普通怪物掉包-->
-		<item name="星源水晶" count="1,50" prob=".5"/>
-		<item name="末石" count="1,15" prob=".4"/>
-		<item name="途石" count="1,15" prob=".4"/>
-		<item name="casinoCoin" count="1,100" prob=".5"/>
-		<item name="[53FF53]星核" count="1,5" prob=".5"/>
-		<item name="高级强化结晶" count="0,1" prob=".1" />
-		<item name="超级强化结晶" count="0,1" prob=".1"/>
+		<item name="星源水晶" count="1,50"/>
+		<item name="末石" count="1,15" />
+		<item name="途石" count="1,15" />
+		<item name="casinoCoin" count="1,100"/>
+		<item name="高级强化结晶" count="1,2"  prob=".1"/>
+		<item name="超级强化结晶" count="1,2" prob=".1" />
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,2" prob=".1" />
+		<item name="千变碎片" count="1" prob=".05" />
+		<item name="属性变换结晶" count="1" prob=".05" />
 
 		<!--星尘包掉率-->
 		<item name="金星尘" count="1,20" prob=".1"/>
@@ -2221,15 +2232,15 @@
 		<item name="千变碎片" count="1,5" prob=".01"/>
 
 		<!--星源掉包率-->
-		<item name="金星源" count="4,10" prob=".05"/>
-		<item name="水星源" count="4,10" prob=".05"/>
-		<item name="木星源" count="4,10" prob=".05"/>
-		<item name="火星源" count="4,10" prob=".05"/>
-		<item name="土星源" count="4,10" prob=".05"/>
-		<item name="天王星源" count="4,10" prob=".05"/>
-		<item name="海王星源" count="4,10" prob=".05"/>
-		<item name="地球星源" count="4,10" prob=".05"/>
-		<item name="太阳星源" count="4,10" prob=".05"/>
+		<item name="金星源" count="4,20" prob=".1"/>
+		<item name="水星源" count="4,20" prob=".1"/>
+		<item name="木星源" count="4,20" prob=".1"/>
+		<item name="火星源" count="4,20" prob=".1"/>
+		<item name="土星源" count="4,20" prob=".1"/>
+		<item name="天王星源" count="4,20" prob=".1"/>
+		<item name="海王星源" count="4,20" prob=".1"/>
+		<item name="地球星源" count="4,20" prob=".1"/>
+		<item name="太阳星源" count="4,20" prob=".1"/>
 
 	</lootcontainer>
 
@@ -2253,53 +2264,57 @@
 		<!--粘土-->
 		<item name="resourceClayLump" count="100,1500" prob="0.3"/>
 		<!--钻石原石-->
-		<item name="resourceRawDiamond" count="1,10" prob="0.01"/>
+		<item name="resourceRawDiamond" count="1,10" prob="0.1"/>
 		<!--金块-->
-		<item name="resourceGoldNugget" count="1,10" prob="0.01"/>
+		<item name="resourceGoldNugget" count="1,10" prob="0.1"/>
 		<!--银块-->
-		<item name="resourceSilverNugget" count="1,10" prob="0.01"/>
+		<item name="resourceSilverNugget" count="1,10" prob="0.1"/>
 		<!--金星尘-->
-		<item name="金星尘" count="1,20" prob="0.05"/>
+		<item name="金星尘" count="1,20" prob="0.1"/>
 		<!--木星尘-->
-		<item name="木星尘" count="1,20" prob="0.05"/>
+		<item name="木星尘" count="1,20" prob="0.1"/>
 		<!--水星尘-->
-		<item name="水星尘" count="1,20" prob="0.05"/>
+		<item name="水星尘" count="1,20" prob="0.1"/>
 		<!--火星尘-->
-		<item name="火星尘" count="1,20" prob="0.05"/>
+		<item name="火星尘" count="1,20" prob="0.1"/>
 		<!--土星尘-->
-		<item name="土星尘" count="1,20" prob="0.05"/>
+		<item name="土星尘" count="1,20" prob="0.1"/>
 		<!--天王星尘-->
-		<item name="天王星尘" count="1,20" prob="0.05"/>
+		<item name="天王星尘" count="1,20" prob="0.1"/>
 		<!--海王星尘-->
-		<item name="海王星尘" count="1,20" prob="0.05"/>
+		<item name="海王星尘" count="1,20" prob="0.1"/>
 		<!--地球星尘-->
-		<item name="地球星尘" count="1,20" prob="0.05"/>
+		<item name="地球星尘" count="1,20" prob="0.1"/>
 		<!--太阳星尘-->
-		<item name="太阳星尘" count="1,20" prob="0.05"/>
+		<item name="太阳星尘" count="1,20" prob="0.1"/>
 
-		<item name="金星源" count="1,10" prob=".05"/>
-		<item name="水星源" count="1,10" prob=".05"/>
-		<item name="木星源" count="1,10" prob=".05"/>
-		<item name="火星源" count="1,10" prob=".05"/>
-		<item name="土星源" count="1,10" prob=".05"/>
-		<item name="天王星源" count="1,10" prob=".05"/>
-		<item name="海王星源" count="1,10" prob=".05"/>
-		<item name="地球星源" count="1,10" prob=".05"/>
-		<item name="太阳星源" count="1,10" prob=".05"/>
+		<item name="金星源" count="1,20" prob=".1"/>
+		<item name="水星源" count="1,20" prob=".1"/>
+		<item name="木星源" count="1,20" prob=".1"/>
+		<item name="火星源" count="1,20" prob=".1"/>
+		<item name="土星源" count="1,20" prob=".1"/>
+		<item name="天王星源" count="1,20" prob=".1"/>
+		<item name="海王星源" count="1,20" prob=".1"/>
+		<item name="地球星源" count="1,20" prob=".1"/>
+		<item name="太阳星源" count="1,20" prob=".1"/>
 
 		<!--一般材料-->
-		<item name="星源水晶" count="0,200"  prob=".05"/>
-		<item name="末石" count="1,500" prob=".05"/>
-		<item name="途石" count="1,500" prob=".05"/>
-		<item name="casinoCoin" count="1,500"  prob=".05"/>
-		<item name="[53FF53]星核" count="1,20"  prob=".05"/>
-		<item name="高级强化结晶" count="0,5" prob=".05" />
-		<item name="超级强化结晶" count="0,5" prob=".05"/>
+		<item name="星源水晶" count="0,200"  prob=".1"/>
+		<item name="末石" count="1,500" prob=".1"/>
+		<item name="途石" count="1,500" prob=".1"/>
+		<item name="casinoCoin" count="1,500"  prob=".1"/>
+		<item name="[53FF53]星核" count="1,20"  prob=".1"/>
+		<item name="高级强化结晶" count="0,5" prob=".1" />
+		<item name="超级强化结晶" count="0,5" prob=".1"/>
+		<item name="神级强化结晶" count="1,2" prob=".1" />
+		<item name="超神强化结晶" count="1,2" prob=".1" />
+		<item name="千变碎片" count="1" prob=".05" />
+		<item name="属性变换结晶" count="1" prob=".05" />
 		<!--Mod矿-->
-		<item name="[2894FF]铱矿" count="5,20" prob="0.05"/>
-		<item name="[CA8EFF]镭矿" count="5,20" prob="0.05"/>
-		<item name="[40E0D0]钛矿" count="5,20" prob="0.05"/>
-		<item name="[FFD306]钨矿" count="5,20" prob="0.05"/>
+		<item name="[2894FF]铱矿" count="5,20" prob="0.1"/>
+		<item name="[CA8EFF]镭矿" count="5,20" prob="0.1"/>
+		<item name="[40E0D0]钛矿" count="5,20" prob="0.1"/>
+		<item name="[FFD306]钨矿" count="5,20" prob="0.1"/>
 
 	</lootcontainer>
 
