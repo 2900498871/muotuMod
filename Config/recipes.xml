@@ -5615,8 +5615,8 @@
 </recipe>
 
 <recipe name="武器☆[FFD306]神枪纹 LV1" count="1" craft_time=".1">
-	<ingredient name="末石" count="2000"/>
-	<ingredient name="途石" count="2000"/>
+	<ingredient name="末石" count="800"/>
+	<ingredient name="途石" count="800"/>
 
 </recipe>
 
