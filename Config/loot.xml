@@ -114,7 +114,7 @@
 	</lootgroup>
 
 	<!--一级挖宝掉落，矿石，药物，粉尘之类-->
-	<lootgroup name="tier1_buried_supplies">
+	<lootgroup name="motu_tier1_buried_supplies">
 		<!--碎片-->
 		<item name="千变碎片" count="1" prob=".5" />
 		<!--矿石-->
