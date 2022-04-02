@@ -2528,6 +2528,67 @@
     <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="CS" operation="add" value="1"/>  <!--攻击一次增加点轮回-->	 
     </effect_group>
 	</item_modifier>
+
+
+	<!--领域抵抗配件-->
+	<item_modifier name="领域☆[FFD306]变异免疫" installable_tags="clothing,armor" modifier_tags="免疫" type="attachment">
+		<property name="CustomIcon" value="drugFortBites" />
+		<property name="CustomIconTint" value="00DB00" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="领域免疫1"/>
+		<property name="DisplayType" value="领域抵抗"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="领域抵抗☆"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="领域抵抗☆"/>
+		</effect_group>
+
+	</item_modifier>
+
+	<!--领域抵抗配件-->
+	<item_modifier name="领域☆[FFD306]外星免疫☆" installable_tags="clothing,armor" modifier_tags="免疫" type="attachment">
+		<property name="CustomIcon" value="drugFortBites" />
+		<property name="CustomIconTint" value="921AFF" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="领域免疫2"/>
+		<property name="DisplayType" value="领域抵抗"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="领域抵抗☆☆"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="领域抵抗☆☆"/>
+		</effect_group>
+
+	</item_modifier>
+
+	<!--领域抵抗配件-->
+	<item_modifier name="领域☆[FFD306]外星免疫☆☆" installable_tags="clothing,armor" modifier_tags="免疫" type="attachment">
+		<property name="CustomIcon" value="drugFortBites" />
+		<property name="CustomIconTint" value="4F9D9D" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="领域免疫3"/>
+		<property name="DisplayType" value="领域抵抗"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="领域抵抗☆☆☆"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="领域抵抗☆☆☆"/>
+		</effect_group>
+
+	</item_modifier>
+
+	<!--领域抵抗配件-->
+	<item_modifier name="领域☆[FFD306]免疫☆☆☆" installable_tags="clothing,armor" modifier_tags="免疫" type="attachment">
+		<property name="CustomIcon" value="drugFortBites" />
+		<property name="CustomIconTint" value="272727" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="领域免疫4"/>
+		<property name="DisplayType" value="领域抵抗"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="领域抵抗☆☆☆☆"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="领域抵抗☆☆☆☆"/>
+		</effect_group>
+
+	</item_modifier>
+
+
+
+
+
 </append>	
 
 
