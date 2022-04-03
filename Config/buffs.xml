@@ -10437,7 +10437,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 
 	<append xpath="/buffs">
 
-		<buff name="领域抵抗" name_key="[00FFFF]免疫-[FF0033]怪物领域" description_key="[00FFFF]免疫变异怪物外星怪物领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
+		<buff name="配件领域抵抗" name_key="[00FFFF]免疫-[FF0033]怪物领域" description_key="[00FFFF]免疫变异怪物外星怪物领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
 			<stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -10452,7 +10452,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		</buff>
 
 
-		<buff name="领域终结" name_key="[00FFFF]免疫-[FF0033]领域终结" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
+		<buff name="配件领域终结" name_key="[00FFFF]免疫-[FF0033]领域终结" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
 			<stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
