@@ -10437,7 +10437,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 
 	<append xpath="/buffs">
 
-		<buff name="领域抵抗☆" name_key="[00FFFF]免疫-[FF0033]怪物领域" description_key="[00FFFF]免疫变异怪物领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
+		<buff name="领域抵抗" name_key="[00FFFF]免疫-[FF0033]怪物领域" description_key="[00FFFF]免疫变异怪物外星怪物领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
 			<stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -10446,41 +10446,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			变异怪物领域-眩晕,未知怪物领域-眩晕☆,外星怪物领域,变异怪物领域,虚弱领域,辐射领域,眩晕领域,
 			色弱领域,变异怪物领域-色弱,冻僵领域,变异怪物领域-冻僵,
 			瞎眼领域,变异怪物领域-瞎眼,
+			坏眼领域,变异怪物领域-坏眼,
 			buffNoise,buffDark,buffIce,buffNoiseAOE"/>
 			</effect_group>
 		</buff>
 
-		<buff name="领域抵抗☆☆" name_key="[00FFFF]免疫-[FF0033]领域" description_key="[00FFFF]免疫一星以内外星怪物领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
-			<stack_type value="ignore"/>
-			<display_value_key value=" "/> <display_value value=" "/>
-			<effect_group>
-				<passive_effect name="BuffResistance" operation="base_set" value="500" tags="
-			未知怪物领域☆,变异怪物领域-电击,变异怪物领域-燃烧,变异怪物领域-虚弱,buffShocked,buffIsOnFire,
-			未知怪物领域-虚弱☆,变异怪物领域-辐射,未知怪物领域-辐射☆,
-			变异怪物领域-眩晕,未知怪物领域-眩晕☆,外星怪物领域,变异怪物领域,虚弱领域,辐射领域,眩晕领域,
-			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,
-			未知怪物领域-冻僵☆,冻僵领域,变异怪物领域-冻僵,
-			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,
-			buffNoise,buffDark,buffIce,buffNoiseAOE"/>
-			</effect_group>
-		</buff>
 
-		<buff name="领域抵抗☆☆☆" name_key="[00FFFF]免疫-[FF0033]领域" description_key="[00FFFF]免疫二星外星怪物领域,SS级领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
-			<stack_type value="ignore"/>
-			<display_value_key value=" "/> <display_value value=" "/>
-			<effect_group>
-				<passive_effect name="BuffResistance" operation="base_set" value="500" tags="SS领域,SS领域1,
-			未知怪物领域☆,未知怪物领域☆☆,变异怪物领域-电击,变异怪物领域-燃烧,变异怪物领域-虚弱,buffShocked,buffIsOnFire,
-			未知怪物领域-虚弱☆,未知怪物领域-虚弱☆☆,变异怪物领域-辐射,未知怪物领域-辐射☆,未知怪物领域-辐射☆☆,
-			变异怪物领域-眩晕,未知怪物领域-眩晕☆,未知怪物领域-眩晕☆☆,外星怪物领域,变异怪物领域,虚弱领域,辐射领域,眩晕领域,
-			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,
-			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,冻僵领域,变异怪物领域-冻僵,
-			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,
-			buffNoise,buffDark,buffIce,buffNoiseAOE"/>
-			</effect_group>
-		</buff>
-
-		<buff name="领域抵抗☆☆☆☆" name_key="[00FFFF]免疫-[FF0033]领域" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
+		<buff name="领域终结" name_key="[00FFFF]免疫-[FF0033]领域终结" description_key="[00FFFF]免疫所有领域效果" tooltip_key="免疫" icon="ui_game_symbol_adventure" icon_color="255,0,0">
 			<stack_type value="ignore"/>
 			<display_value_key value=" "/> <display_value value=" "/>
 			<effect_group>
@@ -10491,6 +10463,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			色弱领域,变异怪物领域-色弱,未知怪物领域-色弱☆,未知怪物领域-色弱☆☆,未知怪物领域-色弱☆☆☆,
 			未知怪物领域-冻僵☆,未知怪物领域-冻僵☆☆,未知怪物领域-冻僵☆☆☆,冻僵领域,变异怪物领域-冻僵,
 			瞎眼领域,变异怪物领域-瞎眼,未知怪物领域-瞎眼☆,未知怪物领域-瞎眼☆☆,未知怪物领域-瞎眼☆☆☆,
+			坏眼领域,变异怪物领域-坏眼,未知怪物领域-坏眼☆,未知怪物领域-坏眼☆☆,未知怪物领域-坏眼☆☆☆,
 			buffNoise,buffDark,buffIce,buffNoiseAOE"/>
 			</effect_group>
 		</buff>
