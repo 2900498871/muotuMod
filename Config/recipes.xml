@@ -9,19 +9,19 @@
 		<ingredient name="星源☆金属" count="200"/>
 	</recipe>
 
-<recipe name="普通☆怪物增强难度LV1" count="1" craft_time=".1" >
+<recipe name="普通☆怪物增强难度LV1" count="1" craft_time=".1"  craft_area="workbench" >
 	<ingredient name="怪物增强难度" count="1"/>
 </recipe>
-<recipe name="困难☆怪物增强难度LV2" count="1" craft_time=".1" >
+<recipe name="困难☆怪物增强难度LV2" count="1" craft_time=".1"  craft_area="workbench" >
 	<ingredient name="怪物增强难度" count="1"/>
 </recipe>
-<recipe name="困难☆怪物增强难度LV3" count="1" craft_time=".1" >
+<recipe name="困难☆怪物增强难度LV3" count="1" craft_time=".1"  craft_area="workbench" >
 	<ingredient name="怪物增强难度" count="1"/>
 </recipe>
-<recipe name="疯狂☆怪物增强难度LV4" count="1" craft_time=".1" >
+<recipe name="疯狂☆怪物增强难度LV4" count="1" craft_time=".1"   craft_area="workbench">
 	<ingredient name="怪物增强难度" count="1"/>
 </recipe>
-<recipe name="疯狂☆怪物增强难度LV5" count="1" craft_time=".1" >
+<recipe name="疯狂☆怪物增强难度LV5" count="1" craft_time=".1"  craft_area="workbench" >
 	<ingredient name="怪物增强难度" count="1"/>
 </recipe>
 <!--<recipe name="疯狂☆怪物增强难度LV6" count="1" craft_time=".1" >
@@ -5537,30 +5537,29 @@
 
 <recipe name="武器☆[FFD306]穿甲纹-20%" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="50000"/>
-
 </recipe>
 <recipe name="武器☆[FFD306]穿甲纹-20%" count="1" craft_time=".1">
 	<ingredient name="末石" count="800"/>
 	<ingredient name="途石" count="800"/>
 </recipe>
 
-<recipe name="普通☆怪物增强难度LV1" count="1" craft_time=".1" >
+<recipe name="普通☆怪物增强难度LV1" count="1" craft_time=".1"  craft_area="workbench">
 
 	<ingredient name="casinoCoin" count="10000"/>
 </recipe>
-<recipe name="困难☆怪物增强难度LV2" count="1" craft_time=".1" >
+<recipe name="困难☆怪物增强难度LV2" count="1" craft_time=".1"  craft_area="workbench">
 
 	<ingredient name="casinoCoin" count="30000"/>
 </recipe>
-<recipe name="困难☆怪物增强难度LV3" count="1" craft_time=".1" >
+<recipe name="困难☆怪物增强难度LV3" count="1" craft_time=".1"  craft_area="workbench">
 
 	<ingredient name="casinoCoin" count="40000"/>
 </recipe>
-<recipe name="疯狂☆怪物增强难度LV4" count="1" craft_time=".1" >
+<recipe name="疯狂☆怪物增强难度LV4" count="1" craft_time=".1"  craft_area="workbench">
 
 	<ingredient name="casinoCoin" count="50000"/>
 </recipe>
-<recipe name="疯狂☆怪物增强难度LV5" count="1" craft_time=".1" >
+<recipe name="疯狂☆怪物增强难度LV5" count="1" craft_time=".1"  craft_area="workbench">
 
 	<ingredient name="casinoCoin" count="60000"/>
 </recipe>

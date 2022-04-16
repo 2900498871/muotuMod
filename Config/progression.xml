@@ -1,6 +1,8 @@
-<config>	
-<set xpath="/progression/level/@skill_points_per_level">2</set>
-
+<config>
+	<!--升级给技能点-->
+	<set xpath="/progression/level/@skill_points_per_level">3</set>
+	<!--等级上限  默认设定为1000级上线 可自定义修改-->
+	<set xpath="/progression/level/@max_level">3000</set>
 <append xpath="/progression/attributes">
 <attribute name="MoTu"  name_key="[00EBFF]末途" desc_key="[00EBFF]实体伤害提升 " icon="ui_game_symbol_twitch_confused_controls"  min_level="0" max_level="20" base_skill_point_cost="10" cost_multiplier_per_level="1.1">
 

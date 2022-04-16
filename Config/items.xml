@@ -2610,6 +2610,7 @@
 <!--技能点 -->
 <item name="ExpBOOKS">
 	<property name="CustomIcon" value="resourcePaper" />
+	<property name="CustomIconTint" value="00BB00" />
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
 		<property name="QuestGiven" value="ExpBOOKS"/>
