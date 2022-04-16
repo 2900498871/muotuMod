@@ -36944,6 +36944,7 @@ needed?
 	<property name="DescriptionKey" value="0000Desc"/>
 </item>
 <item name="武器大师职业">
+<property name="CustomIconTint" value="F75000" />
 	<property name="CustomIcon" value="bundleMeleeMods" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/>
 	 
@@ -36955,6 +36956,7 @@ needed?
 	</effect_group>
 </item>
 <item name="枪手职业">
+<property name="CustomIconTint" value="F75000" />
 	<property name="CustomIcon" value="bundlePistol" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/>
 	 
@@ -36966,6 +36968,7 @@ needed?
 	</effect_group>
 </item>
 <item name="工程师职业">
+<property name="CustomIconTint" value="F75000" />
 	<property name="CustomIcon" value="bundleMiningHelmet" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/>
 	 
@@ -36977,6 +36980,7 @@ needed?
 	</effect_group>
 </item>
 <item name="猎人职业">
+<property name="CustomIconTint" value="F75000" />
 	<property name="CustomIcon" value="bundleRifle" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/>
 	 
@@ -36988,6 +36992,7 @@ needed?
 	</effect_group>
 </item>
 <item name="军人职业">
+<property name="CustomIconTint" value="F75000" />
 	<property name="CustomIcon" value="bundleMachineGun" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/>
 	 
@@ -36999,6 +37004,7 @@ needed?
 	</effect_group>
 </item>
 <item name="刺客大师职业">
+<property name="CustomIconTint" value="F75000" />
 	<property name="CustomIcon" value="bundleDartTrap" />
 	<property name="Extends" value="bookFiremansAlmanacHeat"/><property name="DescriptionKey" value="118Desc"/>
 	 
@@ -37014,6 +37020,7 @@ needed?
 
 <!--锤塔 -->
 <item name="[FFD306]星源☆[FFBFFF]锤塔">
+<property name="CustomIconTint" value="00DB00" />
 	<property name="CustomIcon" value="gunBotT1JunkSledge" /><property name="DescriptionKey" value="122Desc"/>
 	 
 	<property name="Tags" value="炮台,turretMelee,melee,weapon,blunt,longShaft,attIntellect,perkTurrets,canHaveCosmetic"/>
@@ -37140,6 +37147,7 @@ needed?
 
 </item>
 <item name="[FFD306]星源☆[FFBFFF]加强锤塔">
+<property name="CustomIconTint" value="EA0000" />
 	<property name="CustomIcon" value="gunBotT1JunkSledge" /><property name="DescriptionKey" value="122Desc"/>
 	 
 	<property name="Tags" value="炮台,turretMelee,melee,weapon,blunt,longShaft,attIntellect,perkTurrets,canHaveCosmetic"/>
@@ -37268,6 +37276,7 @@ needed?
 </item>
 <!--炮塔 -->
 <item name="[FFD306]星源☆[FFBFFF]炮塔">
+<property name="CustomIconTint" value="00EC00" />
 	<property name="CustomIcon" value="gunBotT2JunkTurret" />
 	<property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
@@ -37357,6 +37366,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆[FFBFFF]高伤炮塔">
+<property name="CustomIconTint" value="5A5AAD" />
 	<property name="CustomIcon" value="gunBotT2JunkTurret" /><property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
@@ -37445,6 +37455,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆[FFBFFF]散弹炮塔">
+<property name="CustomIconTint" value="0072E3" />
 	<property name="CustomIcon" value="gunBotT2JunkTurret" /><property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
@@ -37533,6 +37544,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[FFD306]星源☆[FFBFFF]大容量炮塔">
+<property name="CustomIconTint" value="B15BFF" />
 	<property name="CustomIcon" value="gunBotT2JunkTurret" /><property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
@@ -37622,6 +37634,7 @@ needed?
 </item>
 <item name="[FFD306]星源☆[FFBFFF]激光炮塔">
 	<property name="CustomIcon" value="gunBotT2JunkTurret" />
+	<property name="CustomIconTint" value="F75000" />
 	<property name="DescriptionKey" value="122Desc"/>
 	<property name="Tags" value="炮台,激光,turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedTurret"/>
@@ -38225,6 +38238,7 @@ needed?
 <!--无人机 -->
 <item name="[00FFFF]无人机☆领域☆雷">
 	<property name="CustomIcon" value="gunBotT3JunkDrone" />
+	<property name="CustomIconTint" value="9F35FF" />
 	<property name="Tags" value="drone,turret,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="droneTurret"/>
 	<property name="Group" value="Ammo/Weapons,Robotics"/>
@@ -38318,6 +38332,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[00FFFF]无人机☆领域☆炎">
+<property name="CustomIconTint" value="FF2D2D" />
 	<property name="CustomIcon" value="gunBotT3JunkDrone" />
 	<property name="Tags" value="drone,turret,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="droneTurret"/>
@@ -38412,6 +38427,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[00FFFF]无人机☆领域☆风">
+<property name="CustomIconTint" value="02DF82" />
 	<property name="CustomIcon" value="gunBotT3JunkDrone" />
 	<property name="Tags" value="drone,turret,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="droneTurret"/>
@@ -38506,6 +38522,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[00FFFF]无人机☆领域☆冰">
+<property name="CustomIconTint" value="0080FF" />
 	<property name="CustomIcon" value="gunBotT3JunkDrone" />
 	<property name="Tags" value="drone,turret,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="droneTurret"/>
@@ -38600,6 +38617,7 @@ needed?
 	</effect_group>
 </item>
 <item name="[00FFFF]无人机☆领域☆水">
+<property name="CustomIconTint" value="00E3E3" />
 	<property name="CustomIcon" value="gunBotT3JunkDrone" />
 	<property name="Tags" value="drone,turret,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="DisplayType" value="droneTurret"/>
@@ -39006,42 +39024,49 @@ needed?
 	<property name="DescriptionKey" value="星核"/>
 </item>
 <item name="[53FF53]C级星核">
+<property name="CustomIconTint" value="00DB00" />
 	<property name="CustomIcon" value="resourceGoldNugget" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="DescriptionKey" value="星核"/>
 </item>
 <item name="[2894FF]B级星核">
+<property name="CustomIconTint" value="0080FF" />
 	<property name="CustomIcon" value="resourceGoldNugget" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="DescriptionKey" value="星核"/>
 </item>
 <item name="[CA8EFF]A级星核">
+<property name="CustomIconTint" value="9F35FF" />
 	<property name="CustomIcon" value="resourceGoldNugget" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="DescriptionKey" value="星核"/>
 </item>
 <item name="[FFD306]S级星核">
+<property name="CustomIconTint" value="C6A300" />
 	<property name="CustomIcon" value="resourceRawDiamond" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="DescriptionKey" value="星核"/>
 </item>
 <item name="[FFD306]SS级星核">
+<property name="CustomIconTint" value="D26900" />
 	<property name="CustomIcon" value="resourceRawDiamond" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="DescriptionKey" value="星核"/>
 </item>
 <item name="[FFD306]SSS级星核">
+<property name="CustomIconTint" value="D94600" />
 	<property name="CustomIcon" value="resourceRawDiamond" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="DescriptionKey" value="星核"/>
 </item>
 <item name="[FF0033]Z级星核">
+<property name="CustomIconTint" value="272727" />
 	<property name="CustomIcon" value="resourceRawDiamond" />
 	<property name="Extends" value="星源水晶"/>
 	<property name="EconomicValue" value="100"/>
@@ -43206,42 +43231,49 @@ needed?
 
 
 <item name="击杀C级僵尸">
+<property name="CustomIconTint" value="28FF28" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="bookWasteTreasuresHoney" />
 			<property class="Action0">
 				<property name="QuestGiven" value="C1"/>
 			</property>
 		</item>		
 <item name="击杀B级僵尸">
+<property name="CustomIconTint" value="00E3E3" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="bookWasteTreasuresHoney" />
 			<property class="Action0">
 				<property name="QuestGiven" value="B1"/>
 			</property>
 		</item>			
 <item name="击杀A级僵尸">
+<property name="CustomIconTint" value="B15BFF" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="bookWasteTreasuresHoney" />
 			<property class="Action0">
 				<property name="QuestGiven" value="A1"/>
 			</property>
 		</item>		
 <item name="击杀S级僵尸">
+<property name="CustomIconTint" value="EAC100" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="bookWasteTreasuresHoney" />
 			<property class="Action0">
 				<property name="QuestGiven" value="S1"/>
 			</property>
 		</item>
 <item name="击杀SS级僵尸">
+<property name="CustomIconTint" value="FF9224" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="bookWasteTreasuresHoney" />
 			<property class="Action0">
 				<property name="QuestGiven" value="SS1"/>
 			</property>
 		</item>
 <item name="击杀SSS级僵尸">
+<property name="CustomIconTint" value="FF5809" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="bookWasteTreasuresHoney" />
 			<property class="Action0">
 				<property name="QuestGiven" value="SSS1"/>
 			</property>
 		</item>
 <item name="击杀SSS级动物">
+<property name="CustomIconTint" value="FF5809" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="bookWasteTreasuresHoney" />
 			<property class="Action0">
 				<property name="QuestGiven" value="SSSD1"/>
@@ -43253,6 +43285,7 @@ needed?
 
 <item name="挑战 地狱狮子">
 	<property name="CustomIcon" value="treasureQuestMaster" />
+	<property name="CustomIconTint" value="FF5151" />
 	<property name="DescriptionKey" value="地狱1"/>
 	<property name="Extends" value="vehicleMinibikePlaceable"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Junk Drone/junkDroneHeld_Prefab.prefab"/>
@@ -43262,6 +43295,7 @@ needed?
 </item>
 <item name="挑战 地狱熊">
     <property name="CustomIcon" value="treasureQuestMaster" />
+    <property name="CustomIconTint" value="D26900" />
 	<property name="DescriptionKey" value="地狱1"/>
 	<property name="Extends" value="vehicleMinibikePlaceable"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Junk Drone/junkDroneHeld_Prefab.prefab"/>
@@ -43271,6 +43305,7 @@ needed?
 </item>
 <item name="挑战 地狱狼">
 	<property name="CustomIcon" value="treasureQuestMaster" />
+	<property name="CustomIconTint" value="5B5B5B" />
 	<property name="DescriptionKey" value="地狱1"/>
 	<property name="Extends" value="vehicleMinibikePlaceable"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Junk Drone/junkDroneHeld_Prefab.prefab"/>
@@ -43285,18 +43320,21 @@ needed?
 
 
 <item name="挑战任务 地狱狮子">
+<property name="CustomIconTint" value="FF5151" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="treasureQuestMaster" /><property name="DescriptionKey" value="地狱1"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="T DY2"/>
 			</property>
 		</item>
 <item name="挑战任务 地狱熊">
+<property name="CustomIconTint" value="D26900" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="treasureQuestMaster" /><property name="DescriptionKey" value="地狱1"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="T DY3"/>
 			</property>
 		</item>
 <item name="挑战任务 地狱狼">
+<property name="CustomIconTint" value="5B5B5B" />
 			<property name="Extends" value="questMaster"/><property name="CustomIcon" value="treasureQuestMaster" /><property name="DescriptionKey" value="地狱1"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="T DY4"/>
@@ -43316,6 +43354,7 @@ needed?
 
 <item name="修炼药水+5/30s">
 <property name="Tags" value="medical"/>
+<property name="CustomIconTint" value="46A3FF" />
 <property name="HoldType" value="16"/>
 <property name="DisplayType" value=""/>
 <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/><!-- 自定义图标 -->
@@ -43340,6 +43379,7 @@ needed?
 
 <item name="星源破镜药水">
 <property name="Tags" value="medical"/>
+<property name="CustomIconTint" value="B15BFF" />
 <property name="HoldType" value="16"/>
 <property name="DisplayType" value=""/>
 <property name="CustomIcon" value="drinkJarGrandpasLearningElixir"/><!-- 自定义图标 -->
@@ -43364,6 +43404,7 @@ needed?
 
 <item name="重生药水">
 <property name="Tags" value="medical"/>
+<property name="CustomIconTint" value="FF359A" />
 <property name="HoldType" value="16"/>
 <property name="DisplayType" value=""/>
 <property name="CustomIcon" value="drinkJarGrandpasForgettingElixir"/><!-- 自定义图标 -->
