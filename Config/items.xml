@@ -30872,11 +30872,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+	<property name="Mesh" value="armor_cloth_hood"/>
+		<property name="Overlay0" value="armor_cloth_hood"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="Mask1" value="Head" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆">
@@ -30918,11 +30919,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="armor_cloth_hood"/>
+		<property name="Overlay0" value="armor_cloth_hood"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="Mask1" value="Head" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆">
@@ -30964,11 +30966,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="armor_cloth_hood"/>
+		<property name="Overlay0" value="armor_cloth_hood"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="Mask1" value="Head" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆☆">
@@ -31010,11 +31013,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="armor_cloth_hood"/>
+		<property name="Overlay0" value="armor_cloth_hood"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="Mask1" value="Head" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆☆☆">
@@ -31056,11 +31060,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="armor_cloth_hood"/>
+		<property name="Overlay0" value="armor_cloth_hood"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask0" value="Head" param1="inner"/>
+		<property name="Mask1" value="Head" param1="outer"/>
 	</property>
 </item>
 
@@ -31103,8 +31108,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_cloth_chest"/>
+		<property name="Overlay0" value="armor_cloth_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -31146,8 +31151,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_cloth_chest"/>
+		<property name="Overlay0" value="armor_cloth_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -31190,8 +31195,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_cloth_chest"/>
+		<property name="Overlay0" value="armor_cloth_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -31234,8 +31239,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_cloth_chest"/>
+		<property name="Overlay0" value="armor_cloth_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -31279,8 +31284,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_cloth_chest"/>
+		<property name="Overlay0" value="armor_cloth_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -31325,9 +31330,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_cloth_hands"/>
+		<property name="Overlay0" value="armor_cloth_hands"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -31370,9 +31375,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_cloth_hands"/>
+		<property name="Overlay0" value="armor_cloth_hands"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -31416,9 +31421,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_cloth_hands"/>
+		<property name="Overlay0" value="armor_cloth_hands"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -31461,9 +31466,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_cloth_hands"/>
+		<property name="Overlay0" value="armor_cloth_hands"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -31506,9 +31511,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_cloth_hands"/>
+		<property name="Overlay0" value="armor_cloth_hands"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -31552,8 +31557,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_cloth_legs"/>
+		<property name="Overlay0" value="armor_cloth_legs"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -31597,8 +31602,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_cloth_legs"/>
+		<property name="Overlay0" value="armor_cloth_legs"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -31642,8 +31647,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_cloth_legs"/>
+		<property name="Overlay0" value="armor_cloth_legs"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -31687,8 +31692,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_cloth_legs"/>
+		<property name="Overlay0" value="armor_cloth_legs"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -31732,8 +31737,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_cloth_legs"/>
+		<property name="Overlay0" value="armor_cloth_legs"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -31778,8 +31783,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="53FF53" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_cloth_feet"/>
+		<property name="Overlay0" value="armor_cloth_feet"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -31823,8 +31828,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_cloth_feet"/>
+		<property name="Overlay0" value="armor_cloth_feet"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -31868,8 +31873,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_cloth_feet"/>
+		<property name="Overlay0" value="armor_cloth_feet"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -31913,8 +31918,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_cloth_feet"/>
+		<property name="Overlay0" value="armor_cloth_feet"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -31958,8 +31963,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="2894FF" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_cloth_feet"/>
+		<property name="Overlay0" value="armor_cloth_feet"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -32005,11 +32010,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+	<property name="Mesh" value="armor_heavy_bandit_gasmask"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆">
@@ -32051,11 +32062,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_heavy_bandit_gasmask"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆">
@@ -32097,11 +32114,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_heavy_bandit_gasmask"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆☆">
@@ -32143,11 +32166,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_heavy_bandit_gasmask"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆☆☆">
@@ -32189,11 +32218,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_heavy_bandit_gasmask"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 
@@ -32236,8 +32271,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+			<property name="Mesh" value="male_armor_heavy_bandit_chest"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -32281,8 +32316,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+			<property name="Mesh" value="male_armor_heavy_bandit_chest"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -32326,8 +32361,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+			<property name="Mesh" value="male_armor_heavy_bandit_chest"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -32371,8 +32406,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+			<property name="Mesh" value="male_armor_heavy_bandit_chest"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -32416,8 +32451,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="male_armor_heavy_bandit_chest"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -32462,8 +32497,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_heavy_bandit_gloves"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -32507,8 +32542,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+	<property name="Mesh" value="armor_heavy_bandit_gloves"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -32553,8 +32588,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_heavy_bandit_gloves"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -32598,8 +32633,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_heavy_bandit_gloves"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -32643,8 +32678,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_heavy_bandit_gloves"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -32689,8 +32724,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_heavy_bandit_legarmor"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -32734,8 +32769,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+	<property name="Mesh" value="armor_heavy_bandit_legarmor"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -32779,8 +32814,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_heavy_bandit_legarmor"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -32824,8 +32859,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+	<property name="Mesh" value="armor_heavy_bandit_legarmor"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -32869,8 +32904,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_heavy_bandit_legarmor"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -32915,8 +32950,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="53FF53" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_heavy_bandit_feet"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -32960,8 +32995,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_heavy_bandit_feet"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -33005,8 +33040,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_heavy_bandit_feet"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -33050,8 +33085,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_heavy_bandit_feet"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -33095,8 +33130,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="FF0033" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Mesh" value="armor_heavy_bandit_feet"/>
+		<property name="Overlay0" value="bandit_armor"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
@@ -33142,11 +33177,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_iron_helmet"/>
+		<property name="Overlay0" value="armor_iron_helmet"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆">
@@ -33188,11 +33229,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_iron_helmet"/>
+		<property name="Overlay0" value="armor_iron_helmet"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆">
@@ -33234,11 +33281,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_iron_helmet"/>
+		<property name="Overlay0" value="armor_iron_helmet"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆☆">
@@ -33280,11 +33333,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_iron_helmet"/>
+		<property name="Overlay0" value="armor_iron_helmet"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 <item name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆☆☆">
@@ -33326,11 +33385,17 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="armor_iron_helmet"/>
+		<property name="Overlay0" value="armor_iron_helmet"/>
+		<property name="Layer" value="middle"/>
 		<property name="UISlot" value="Headgear"/>
-		<property name="ShowAltHair" value="true"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
 	</property>
 </item>
 
@@ -33373,8 +33438,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_iron_chest"/>
+		<property name="Overlay0" value="armor_iron_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -33418,8 +33483,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_iron_chest"/>
+		<property name="Overlay0" value="armor_iron_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -33463,8 +33528,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_iron_chest"/>
+		<property name="Overlay0" value="armor_iron_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -33508,8 +33573,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_iron_chest"/>
+		<property name="Overlay0" value="armor_iron_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -33553,8 +33618,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Mesh" value="armor_iron_chest"/>
+		<property name="Overlay0" value="armor_iron_chest"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
@@ -33599,8 +33664,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_iron_gloves"/>
+		<property name="Overlay0" value="armor_iron_gloves"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -33644,8 +33709,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_iron_gloves"/>
+		<property name="Overlay0" value="armor_iron_gloves"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -33690,8 +33755,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_iron_gloves"/>
+		<property name="Overlay0" value="armor_iron_gloves"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -33735,8 +33800,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_iron_gloves"/>
+		<property name="Overlay0" value="armor_iron_gloves"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -33780,8 +33845,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Mesh" value="armor_iron_gloves"/>
+		<property name="Overlay0" value="armor_iron_gloves"/>
 		<property name="Layer" value="0"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
@@ -33826,8 +33891,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_iron_pants"/>
+		<property name="Overlay0" value="armor_iron_pants"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -33871,8 +33936,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_iron_pants"/>
+		<property name="Overlay0" value="armor_iron_pants"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -33916,8 +33981,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+	<property name="Mesh" value="armor_iron_pants"/>
+		<property name="Overlay0" value="armor_iron_pants"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -33961,8 +34026,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_iron_pants"/>
+		<property name="Overlay0" value="armor_iron_pants"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -34006,8 +34071,8 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="armor_iron_pants"/>
+		<property name="Overlay0" value="armor_iron_pants"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -34052,9 +34117,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="53FF53" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_iron_boots"/>
+		<property name="Overlay0" value="armor_iron_boots"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -34097,9 +34162,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_iron_boots"/>
+		<property name="Overlay0" value="armor_iron_boots"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -34142,9 +34207,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_iron_boots"/>
+		<property name="Overlay0" value="armor_iron_boots"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -34187,9 +34252,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_iron_boots"/>
+		<property name="Overlay0" value="armor_iron_boots"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -34232,9 +34297,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="CA8EFF" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="armor_iron_boots"/>
+		<property name="Overlay0" value="armor_iron_boots"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -34279,10 +34344,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="ghillie_suit_hat"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
+		<property name="Mask0" value="Head" param1="outer"/>
 		<property name="ShowAltHair" value="true"/>
 	</property>
 </item>
@@ -34325,10 +34392,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="ghillie_suit_hat"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
+		<property name="Mask0" value="Head" param1="outer"/>
 		<property name="ShowAltHair" value="true"/>
 	</property>
 </item>
@@ -34371,10 +34440,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="ghillie_suit_hat"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
+		<property name="Mask0" value="Head" param1="outer"/>
 		<property name="ShowAltHair" value="true"/>
 	</property>
 </item>
@@ -34417,10 +34488,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="ghillie_suit_hat"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
+		<property name="Mask0" value="Head" param1="outer"/>
 		<property name="ShowAltHair" value="true"/>
 	</property>
 </item>
@@ -34463,10 +34536,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="gear_kevlar_helmet"/>
-		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Mesh" value="ghillie_suit_hat"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="2"/>
 		<property name="UISlot" value="Headgear"/>
+		<property name="Mask0" value="Head" param1="outer"/>
 		<property name="ShowAltHair" value="true"/>
 	</property>
 </item>
@@ -34510,9 +34585,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
-		<property name="Layer" value="2"/>
+	<property name="Mesh" value="ghillie_suit_shirt"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
+		<property name="Mask0" value="hands" param1="outer"/>
+		<property name="Mask1" value="chest" param1="middle"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
 </item>
@@ -34555,9 +34633,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="ghillie_suit_shirt"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
+		<property name="Mask0" value="hands" param1="outer"/>
+		<property name="Mask1" value="chest" param1="middle"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
 </item>
@@ -34600,9 +34681,12 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="ghillie_suit_shirt"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
+		<property name="Mask0" value="hands" param1="outer"/>
+		<property name="Mask1" value="chest" param1="middle"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
 </item>
@@ -34645,9 +34729,13 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="ghillie_suit_shirt"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
+		<property name="Mask0" value="hands" param1="outer"/>
+		<property name="Mask1" value="chest" param1="middle"/>
+
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
 </item>
@@ -34690,9 +34778,13 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_vest"/>
-		<property name="Overlay0" value="armor_kevlar_vest"/>
-		<property name="Layer" value="2"/>
+		<property name="Mesh" value="ghillie_suit_shirt"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
+
+		<property name="Mask0" value="hands" param1="outer"/>
+		<property name="Mask1" value="chest" param1="middle"/>
+		<property name="Layer" value="3"/>
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
 </item>
@@ -34736,9 +34828,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_gloves"/>
+		<property name="Overlay0" value="fiberCloth_gloves"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -34781,9 +34873,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_gloves"/>
+		<property name="Overlay0" value="fiberCloth_gloves"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -34827,9 +34919,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_gloves"/>
+		<property name="Overlay0" value="fiberCloth_gloves"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -34872,9 +34964,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_gloves"/>
+		<property name="Overlay0" value="fiberCloth_gloves"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -34917,9 +35009,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_gloves"/>
-		<property name="Overlay0" value="armor_kevlar_gloves"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_gloves"/>
+		<property name="Overlay0" value="fiberCloth_gloves"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Gloves"/>
 	</property>
 </item>
@@ -34963,8 +35055,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="ghillie_suit_pants"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -35008,8 +35101,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="ghillie_suit_pants"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -35053,8 +35147,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="ghillie_suit_pants"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -35098,8 +35193,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="ghillie_suit_pants"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -35143,8 +35239,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_legarmor"/>
-		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Mesh" value="ghillie_suit_pants"/>
+		<property name="Overlay0" value="ghillie_suit"/>
+		<property name="Overlay0Tint" value="105,110,83"/>
 		<property name="Layer" value="3"/>
 		<property name="UISlot" value="LegArmor"/>
 	</property>
@@ -35189,9 +35286,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="53FF53" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_shoes"/>
+		<property name="Overlay0" value="fiberCloth_shoes"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -35234,9 +35331,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_shoes"/>
+		<property name="Overlay0" value="fiberCloth_shoes"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -35279,9 +35376,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_shoes"/>
+		<property name="Overlay0" value="fiberCloth_shoes"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -35324,9 +35421,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_shoes"/>
+		<property name="Overlay0" value="fiberCloth_shoes"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
@@ -35369,9 +35466,9 @@ needed?
 	</effect_group>
 	<property class="UMA">
 		<property name="Overlay0Tint" value="272727" />
-		<property name="Mesh" value="armor_kevlar_boots"/>
-		<property name="Overlay0" value="armor_kevlar_boots"/>
-		<property name="Layer" value="0"/>
+		<property name="Mesh" value="plant_fiber_shoes"/>
+		<property name="Overlay0" value="fiberCloth_shoes"/>
+		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
