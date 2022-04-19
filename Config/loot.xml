@@ -16,8 +16,6 @@
 	<!--一级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier1_clear">
 
-		<!--碎片-->
-		<item name="千变碎片" count="1" prob=".5" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -76,8 +74,6 @@
 
 	<!--一级获取掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier1_fetch" >
-		<!--碎片-->
-		<item name="千变碎片" count="1" prob=".5" />
 		<!--星源护甲-->
 		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
 		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
@@ -112,8 +108,6 @@
 
 	<!--一级挖宝掉落，矿石，药物，粉尘之类-->
 	<lootgroup name="motu_tier1_buried_supplies">
-		<!--碎片-->
-		<item name="千变碎片" count="1" prob=".5" />
 		<!--矿石-->
 		<item name="[2894FF]铱矿" count="1,200" prob="0.1"/>
 		<item name="[CA8EFF]镭矿" count="1,200" prob="0.1"/>
@@ -161,8 +155,6 @@
 	<!--/*************************************************二级任务掉落*************************************/-->
 	<!--二级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier2_clear">
-		<!--碎片-->
-		<item name="千变碎片" count="1,3" prob=".5" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -213,8 +205,6 @@
 
 	<!--二级获取掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier2_fetch" >
-		<!--碎片-->
-		<item name="千变碎片" count="1,3" prob=".5" />
 		<!--星源护甲-->
 		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
 		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
@@ -247,8 +237,6 @@
 
 	<!--二级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier2_fetch_clear" >
-		<!--碎片-->
-		<item name="千变碎片" count="1,3" prob=".5" />
 		<!--星源护甲-->
 		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
 		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
@@ -280,8 +268,6 @@
 
 	<!--二级挖宝掉落，矿石，药物，粉尘之类-->
 	<lootgroup name="motu_tier2_buried_supplies">
-		<!--碎片-->
-		<item name="千变碎片" count="1,3" prob=".5" />
 		<!--矿石-->
 		<item name="[2894FF]铱矿" count="100,300" prob="0.1"/>
 		<item name="[CA8EFF]镭矿" count="100,300" prob="0.1"/>
@@ -329,8 +315,6 @@
 
 	<!--三级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier3_clear">
-		<!--碎片-->
-		<item name="千变碎片" count="1,6" prob=".5" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -381,8 +365,6 @@
 
 	<!--三级获取掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier3_fetch" >
-		<!--碎片-->
-		<item name="千变碎片" count="1,6" prob=".5" />
 		<!--星源护甲-->
 		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
 		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
@@ -412,8 +394,6 @@
 
 	<!--三级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier3_fetch_clear" >
-		<!--碎片-->
-		<item name="千变碎片" count="1,6" prob=".5" />
 		<!--星源护甲-->
 		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
 		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
@@ -442,8 +422,7 @@
 
 	<!--三级挖宝掉落，矿石，药物，粉尘之类-->
 	<lootgroup name="motu_tier3_buried_supplies">
-		<!--碎片-->
-		<item name="千变碎片" count="1,6" prob=".5" />
+
 		<!--矿石-->
 		<item name="[2894FF]铱矿" count="100,500" prob="0.1"/>
 		<item name="[CA8EFF]镭矿" count="100,500" prob="0.1"/>
@@ -492,8 +471,6 @@
 	<!--四级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier4_clear">
 
-		<!--碎片-->
-		<item name="千变碎片" count="1,10" prob=".5" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -581,8 +558,7 @@
 
 	<!--四级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier4_fetch_clear" >
-		<!--碎片-->
-		<item name="千变碎片" count="1,10" prob=".5" />
+
 
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
@@ -660,8 +636,7 @@
 	<!--/*************************************************五级任务掉落*************************************/-->
 	<!--五级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier5_clear">
-		<!--碎片-->
-		<item name="千变碎片" count="1,20" prob=".5" />
+
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -751,8 +726,6 @@
 	<!--五级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier5_fetch_clear" >
 
-		<!--碎片-->
-		<item name="千变碎片" count="1,20" prob=".5" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
