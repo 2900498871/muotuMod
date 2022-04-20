@@ -964,9 +964,10 @@
 </lootgroup>
 
 	<lootgroup name="MO8" count="1">
-		<item name="伤害提升 80%" count="1" prob=".3" />
+		<item name="伤害提升 80%" count="1" prob=".2" />
 		<item name="领域☆[FFD306]免疫" count="1" prob="0.5" />
 		<item name="领域☆[FFD306]终结" count="1" prob=".001" />
+		<item name="属性赋予结晶" count="1" prob=".001" />
 	</lootgroup>
 
 

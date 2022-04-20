@@ -2312,7 +2312,7 @@
 				<!-- 潜行+10% -->
 				<passive_effect name="LightMultiplier" operation="perc_add" value="-.1"/>
 			</effect_group>          
-			<effect_group>aa
+			<effect_group>
 				<!-- 潜行伤害+50% -->
 				<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
 				<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
@@ -2995,6 +2995,276 @@
 			<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>
 			</effect_group>                      
 		</buff>
+
+
+	<!--************************************终极铠甲Buff***************************************-->
+	<buff name="ZJ001" name_key="[FF0033]头盔☆[FFD306]铠甲[-]:[FF0033]神圣" description_key="[FFD306]附加效果:\n[FF0033]神盾：血量+30%，耐力+30%，血量恢复+15%，耐力恢复+25%，御器：攻击距离+2，狂战：实体伤害+50%，近战攻速+6%,隐刺：潜行速度+25%，潜行+10%，潜行伤害+50%，神速：跑步速度+6%；步行速度+5%" tooltip_key="套装" icon="ui_game_symbol_light_armor"  icon_color="255,0,0" >
+		<stack_type value="ignore"/>
+		<display_value_key value=" "/> <display_value value=" "/>
+		<effect_group>
+			<!--神盾的buff-->
+			<!-- 血上限 -->
+			<passive_effect name="HealthMax" operation="perc_add" value=".3"/>
+			<!-- 耐力上限 -->
+			<passive_effect name="StaminaMax" operation="perc_add" value=".3"/>
+			<!-- 血恢复 -->
+			<passive_effect name="HealthChangeOT" operation="perc_add" value=".15"/>
+			<!-- 耐力恢复 -->
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".25"/>
+
+			<!--御器的5buff-->
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+			<!-- 最大射程 -->
+			<passive_effect name="MaxRange" operation="base_add" value="2"/>
+			<!-- 耐力恢复 -->
+			<!--<passive_effect name="StaminaChangeOT" operation="perc_add" value=".1"/>-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>-->
+
+			<!--狂战的5buff-->
+			<!-- 实体伤害 -->
+			<passive_effect name="EntityDamage" operation="perc_add" value=".5"/>
+			<!-- 近战攻速 -->
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".06"/>
+
+			<!--影刺的5buff-->
+			<!-- 潜行速度 -->
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".25"/>
+			<!-- 潜行+10% -->
+			<passive_effect name="LightMultiplier" operation="perc_add" value="-.1"/>
+
+			<!--神速的5buff-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".15"/>-->
+			<!-- 步行速度 -->
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".05"/>
+			<!-- 跑步速度 -->
+			<passive_effect name="RunSpeed" operation="perc_add" value=".06"/>
+
+		</effect_group>
+
+		<effect_group>
+			<!-- 潜行伤害+50% -->
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<passive_effect name="DamageBonus" operation="base_add" value="1.5"/> <!--For UI-->
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.5"/>
+		</effect_group>
+	</buff>
+
+
+	<buff name="ZJ002" name_key="[FF0033]胸甲☆[FFD306]铠甲[-]:[FF0033]神圣" description_key="[FFD306]附加效果:\n[FF0033]神盾：血量+30%，耐力+30%，血量恢复+15%，耐力恢复+25%，御器：攻击距离+2，狂战：实体伤害+50%，近战攻速+6%,隐刺：潜行速度+25%，潜行+10%，潜行伤害+50%，神速：跑步速度+6%；步行速度+5%" tooltip_key="套装" icon="ui_game_symbol_light_armor"  icon_color="255,0,0" >
+		<stack_type value="ignore"/>
+		<display_value_key value=" "/> <display_value value=" "/>
+		<effect_group>
+			<!--神盾-->
+			<!-- 血上限 -->
+			<passive_effect name="HealthMax" operation="perc_add" value=".3"/>
+			<!-- 耐力上限 -->
+			<passive_effect name="StaminaMax" operation="perc_add" value=".3"/>
+			<!-- 血恢复 -->
+			<passive_effect name="HealthChangeOT" operation="perc_add" value=".15"/>
+			<!-- 耐力恢复 -->
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".25"/>
+
+			<!--神速-->
+			<!-- 实体伤害 -->
+			<passive_effect name="EntityDamage" operation="perc_add" value=".5"/>
+			<!-- 步行速度 -->
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".05"/>
+			<!-- 跑步速度 -->
+			<passive_effect name="RunSpeed" operation="perc_add" value=".06"/>
+
+			<!--御器-->
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+			<!-- 最大射程 -->
+			<passive_effect name="MaxRange" operation="base_add" value="2"/>
+			<!-- 耐力恢复 -->
+			<!--<passive_effect name="StaminaChangeOT" operation="perc_add" value=".10"/>-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>-->
+
+			<!--潜行-->
+			<!-- 潜行速度 -->
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".25"/>
+			<!-- 潜行+10% -->
+			<passive_effect name="LightMultiplier" operation="perc_add" value="-.1"/>
+
+			<!--狂战-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>-->
+			<!-- 近战攻速 -->
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".06"/>
+
+		</effect_group>
+		<effect_group>
+			<!-- 潜行伤害+50% -->
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<passive_effect name="DamageBonus" operation="base_add" value="1.5"/> <!--For UI-->
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.5"/>
+		</effect_group>
+	</buff>
+
+	<buff name="ZJ003" name_key="[FF0033]腿甲☆[FFD306]铠甲[-]:[FF0033]神圣" description_key="[FFD306]附加效果:\n[FF0033]神盾：血量+30%，耐力+30%，血量恢复+15%，耐力恢复+25%，御器：攻击距离+2，狂战：实体伤害+50%，近战攻速+6%,隐刺：潜行速度+25%，潜行+10%，潜行伤害+50%，神速：跑步速度+6%；步行速度+5%" tooltip_key="套装" icon="ui_game_symbol_light_armor"  icon_color="255,0,0" >
+		<stack_type value="ignore"/>
+		<display_value_key value=" "/> <display_value value=" "/>
+		<effect_group>
+			<!--神盾-->
+			<!-- 血上限 -->
+			<passive_effect name="HealthMax" operation="perc_add" value=".3"/>
+			<!-- 耐力上限 -->
+			<passive_effect name="StaminaMax" operation="perc_add" value=".3"/>
+			<!-- 血恢复 -->
+			<passive_effect name="HealthChangeOT" operation="perc_add" value=".15"/>
+			<!-- 耐力恢复 -->
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".25"/>
+
+			<!--御器-->
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+			<!-- 最大射程 -->
+			<passive_effect name="MaxRange" operation="base_add" value="2"/>
+			<!-- 耐力恢复 -->
+			<!--<passive_effect name="StaminaChangeOT" operation="perc_add" value=".1"/>-->
+			<!-- 实体伤害 -->
+			<passive_effect name="EntityDamage" operation="perc_add" value=".5"/>
+
+			<!--潜行-->
+			<!-- 潜行速度 -->
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".25"/>
+			<!-- 潜行+10% -->
+			<passive_effect name="LightMultiplier" operation="perc_add" value="-.1"/>
+
+			<!--狂战-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>-->
+			<!-- 近战攻速 -->
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".06"/>
+
+			<!--神速-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".15"/>-->
+			<!-- 步行速度 -->
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".05"/>
+			<!-- 跑步速度 -->
+			<passive_effect name="RunSpeed" operation="perc_add" value=".06"/>
+		</effect_group>
+		<effect_group>
+			<!-- 潜行伤害+50% -->
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<passive_effect name="DamageBonus" operation="base_add" value="1.5"/> <!--For UI-->
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.5"/>
+		</effect_group>
+	</buff>
+
+
+	<buff name="ZJ004" name_key="[FF0033]手套☆[FFD306]铠甲[-]:[FF0033]神圣" description_key="[FFD306]附加效果:\n[FF0033]神盾：血量+30%，耐力+30%，血量恢复+15%，耐力恢复+25%，御器：攻击距离+2，狂战：实体伤害+50%，近战攻速+6%,隐刺：潜行速度+25%，潜行+10%，潜行伤害+50%，神速：跑步速度+6%；步行速度+5%" tooltip_key="套装" icon="ui_game_symbol_light_armor"  icon_color="255,0,0" >
+		<stack_type value="ignore"/>
+		<display_value_key value=" "/> <display_value value=" "/>
+		<effect_group>
+			<!--神盾-->
+			<!-- 血上限 -->
+			<passive_effect name="HealthMax" operation="perc_add" value=".3"/>
+			<!-- 耐力上限 -->
+			<passive_effect name="StaminaMax" operation="perc_add" value=".3"/>
+			<!-- 血恢复 -->
+			<passive_effect name="HealthChangeOT" operation="perc_add" value=".15"/>
+			<!-- 耐力恢复 -->
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".25"/>
+
+			<!--御器-->
+			<!-- 最大射程 -->
+			<passive_effect name="MaxRange" operation="base_add" value="2"/>
+			<!-- 耐力恢复 -->
+		<!--	<passive_effect name="StaminaChangeOT" operation="perc_add" value=".1"/>-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>-->
+
+			<!--神速-->
+			<!-- 实体伤害 -->
+			<passive_effect name="EntityDamage" operation="perc_add" value=".5"/>
+			<!-- 步行速度 -->
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".05"/>
+			<!-- 跑步速度 -->
+			<passive_effect name="RunSpeed" operation="perc_add" value=".06"/>
+
+			<!--狂战-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>-->
+			<!-- 近战攻速 -->
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".06"/>
+
+			<!--潜行-->
+			<!-- 潜行速度 -->
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".25"/>
+			<!-- 潜行+10% -->
+			<passive_effect name="LightMultiplier" operation="perc_add" value="-.1"/>
+		</effect_group>
+		<effect_group>
+			<!-- 潜行伤害+50% -->
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<passive_effect name="DamageBonus" operation="base_add" value="1.5"/> <!--For UI-->
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.5"/>
+		</effect_group>
+	</buff>
+
+	<buff name="ZJ005" name_key="[FF0033]靴子☆[FFD306]铠甲[-]:[FF0033]神圣" description_key="[FFD306]附加效果:\n[FF0033]神盾：血量+30%，耐力+30%，血量恢复+15%，耐力恢复+25%，御器：攻击距离+2，狂战：实体伤害+50%，近战攻速+6%,隐刺：潜行速度+25%，潜行+10%，潜行伤害+50%，神速：跑步速度+6%；步行速度+5%" tooltip_key="套装" icon="ui_game_symbol_light_armor"  icon_color="255,0,0" >
+		<stack_type value="ignore"/>
+		<display_value_key value=" "/> <display_value value=" "/>
+		<effect_group>
+			<!--神盾-->
+			<!-- 血上限 -->
+			<passive_effect name="HealthMax" operation="perc_add" value=".3"/>
+			<!-- 耐力上限 -->
+			<passive_effect name="StaminaMax" operation="perc_add" value=".3"/>
+			<!-- 血恢复 -->
+			<passive_effect name="HealthChangeOT" operation="perc_add" value=".15"/>
+			<!-- 耐力恢复 -->
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".25"/>
+
+			<!--御器-->
+			<!-- 最大射程 -->
+			<passive_effect name="MaxRange" operation="base_add" value="2"/>
+			<!-- 耐力恢复 -->
+			<!--<passive_effect name="StaminaChangeOT" operation="perc_add" value=".1"/>-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>-->
+
+			<!--神速-->
+			<!-- 实体伤害 -->
+			<passive_effect name="EntityDamage" operation="perc_add" value=".5"/>
+			<!-- 步行速度 -->
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".05"/>
+			<!-- 跑步速度 -->
+			<passive_effect name="RunSpeed" operation="perc_add" value=".06"/>
+
+			<!--潜行-->
+			<!-- 潜行速度 -->
+			<passive_effect name="CrouchSpeed" operation="perc_add" value=".25"/>
+			<!-- 潜行+10% -->
+			<passive_effect name="LightMultiplier" operation="perc_add" value="-.1"/>
+
+			<!--狂战-->
+			<!-- 实体伤害 -->
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>-->
+			<!-- 近战攻速 -->
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".06"/>
+
+		</effect_group>
+		<effect_group>
+			<!-- 潜行伤害+50% -->
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<passive_effect name="DamageBonus" operation="base_add" value="1.5"/> <!--For UI-->
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.5"/>
+		</effect_group>
+	</buff>
+
+
+
+
 </append>
 <!--  诅咒 -->
 <append xpath="/buffs">

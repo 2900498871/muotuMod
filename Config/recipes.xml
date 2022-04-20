@@ -5623,5 +5623,179 @@
 	<ingredient name="casinoCoin" count="30000"/>
 </recipe>
 
+<!--***************************************************终极护甲*********************************-->
+	<recipe name="[D94600]神圣·[CA8EFF]☆终极头盔☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆☆☆" count="1"/>
+	</recipe>
+
+	<recipe name="[D94600]神圣·[CA8EFF]☆终极胸甲☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+	</recipe>
+
+	<recipe name="[D94600]神圣·[CA8EFF]☆终极手套☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]神速·[2894FF]星源☆手套 ☆☆☆☆☆" count="1"/>
+	</recipe>
+
+	<recipe name="[D94600]神圣·[CA8EFF]☆终极腿甲☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+	</recipe>
+
+	<recipe name="[D94600]神圣·[CA8EFF]☆终极靴子☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆☆☆☆" count="1"/>
+	</recipe>
+
+
+	<!--御器属性铠甲的合成-->
+	<recipe name="[FFD306]御器·[00FFFF]星源☆头盔 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]御器·[00FFFF]星源☆胸甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]御器·[00FFFF]星源☆手套 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]御器·[00FFFF]星源☆腿甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]御器·[00FFFF]星源☆靴子 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<!--神速5-->
+	<recipe name="[FFD306]神速·[2894FF]星源☆头盔 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]神速·[2894FF]星源☆胸甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]神速·[2894FF]星源☆手套 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]神速·[2894FF]星源☆腿甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]神速·[2894FF]星源☆靴子 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<!--隐刺-->
+
+	<recipe name="[FFD306]隐刺·[4F4F4F]星源☆头盔 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]隐刺·[4F4F4F]星源☆胸甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]隐刺·[4F4F4F]星源☆手套 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]隐刺·[4F4F4F]星源☆腿甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]隐刺·[4F4F4F]星源☆靴子 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<!--狂战-->
+	<recipe name="[FFD306]狂战·[FF0033]星源☆头盔 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]狂战·[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]狂战·[FF0033]星源☆手套 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]狂战·[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]狂战·[FF0033]星源☆靴子 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<!--神盾-->
+	<recipe name="[FFD306]神盾·[CA8EFF]星源☆头盔 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆头盔 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]神盾·[CA8EFF]星源☆胸甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆胸甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]神盾·[CA8EFF]星源☆手套 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆手套 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]神盾·[CA8EFF]星源☆腿甲 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆腿甲 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+	<recipe name="[FFD306]神盾·[CA8EFF]星源☆靴子 ☆☆☆☆☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="[FF0033]星源☆靴子 ☆☆☆☆☆" count="1"/>
+		<ingredient name="属性赋予结晶" count="1"/>
+	</recipe>
+
+
 </append>
 </configs>

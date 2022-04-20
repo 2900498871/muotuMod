@@ -153,6 +153,15 @@
 	<property name="EconomicValue" value="300"/>
 	<property name="DescriptionKey" value="属性变换"/>
 </item>
+
+<item name="属性赋予结晶">
+	<property name="CustomIcon" value="resourceRawDiamond" />
+	<property name="Extends" value="星源水晶"/>
+	<property name="CustomIconTint" value="006000" />
+	<property name="EconomicValue" value="300"/>
+	<property name="DescriptionKey" value="属性赋予"/>
+</item>
+
 <item name="传送核心">
 	<property name="CustomIcon" value="resourceAcid" />
 	<property name="Extends" value="星源水晶"/>
@@ -36609,6 +36618,216 @@ needed?
 		<property name="UISlot" value="Footwear"/>
 	</property>
 </item>
+
+
+
+<!--*************************************************终极套装********************************-->
+<item name="[D94600]神圣·[CA8EFF]☆终极头盔☆">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="BB3D00" />
+	<property name="CustomIcon" value="armorSteelHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Head"/>
+
+	<effect_group name="military armor">
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="18,25"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--元素伤害抵抗-->
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="8,12" tags="heat,electrical"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--BUFF抵抗--> <!--疲劳，手臂扭伤，腿部扭伤，出血，损伤出血刺铁丝网，撕裂，感染，受伤眩晕-->
+		<passive_effect name="BuffResistance" operation="base_add" value="0.5,0.7" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="lightArmorDeg"/>
+
+		<!--体魄变化-->
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.02" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.05" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.05"/>
+		<!--冷热抵抗-->
+		<passive_effect name="HypothermalResist" operation="base_add" value="10"/>
+
+		<passive_effect name="HyperthermalResist" operation="base_add" value="10"/>
+		<!--噪声倍增器-->
+
+		<!--附加BUFF-->
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="ZJ001"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="ZJ001"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Overlay0Tint" value="BB3D00" />
+		<property name="Mesh" value="armor_iron_helmet"/>
+		<property name="Overlay0" value="armor_iron_helmet"/>
+		<property name="Layer" value="middle"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
+	</property>
+</item>
+
+<item name="[D94600]神圣·[CA8EFF]☆终极胸甲☆">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="BB3D00" />
+	<property name="CustomIcon" value="armorSteelChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Chest"/>
+	<effect_group name="military armor">
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="18,25"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--元素伤害抵抗-->
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="8,12" tags="heat,electrical"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--BUFF抵抗--> <!--疲劳，手臂扭伤，腿部扭伤，出血，损伤出血刺铁丝网，撕裂，感染，受伤眩晕-->
+		<passive_effect name="BuffResistance" operation="base_add" value="0.5,0.7" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="lightArmorDeg"/>
+		<!--体魄变化-->
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.02" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.05" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.05"/>
+		<!--冷热抵抗-->
+		<passive_effect name="HypothermalResist" operation="base_add" value="10"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="10"/>
+		<!--噪声倍增器-->
+		<!--附加BUFF-->
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="ZJ002"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="ZJ002"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Overlay0Tint" value="BB3D00" />
+		<property name="Mesh" value="armor_iron_chest"/>
+		<property name="Overlay0" value="armor_iron_chest"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="ChestArmor"/>
+	</property>
+</item>
+
+<item name="[D94600]神圣·[CA8EFF]☆终极手套☆">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="BB3D00" />
+	<property name="CustomIcon" value="armorSteelGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Hands"/>
+	<effect_group name="military armor">
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="18,25"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--元素伤害抵抗-->
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="8,12" tags="heat,electrical"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--BUFF抵抗--> <!--疲劳，手臂扭伤，腿部扭伤，出血，损伤出血刺铁丝网，撕裂，感染，受伤眩晕-->
+		<passive_effect name="BuffResistance" operation="base_add" value="0.5,0.7" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="lightArmorDeg"/>
+		<!--体魄变化-->
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.02" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.05" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.05"/>
+		<!--冷热抵抗-->
+		<passive_effect name="HypothermalResist" operation="base_add" value="10"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="10"/>
+		<!--噪声倍增器-->
+		<!--附加BUFF-->
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="ZJ004"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="ZJ004"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Overlay0Tint" value="BB3D00" />
+		<property name="Mesh" value="armor_iron_gloves"/>
+		<property name="Overlay0" value="armor_iron_gloves"/>
+		<property name="Layer" value="0"/>
+		<property name="UISlot" value="Gloves"/>
+	</property>
+</item>
+
+<item name="[D94600]神圣·[CA8EFF]☆终极腿甲☆">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="BB3D00" />
+	<property name="CustomIcon" value="armorSteelLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Legs"/>
+	<effect_group name="military armor">
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="18,25"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--元素伤害抵抗-->
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="8,12" tags="heat,electrical"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--BUFF抵抗--> <!--疲劳，手臂扭伤，腿部扭伤，出血，损伤出血刺铁丝网，撕裂，感染，受伤眩晕-->
+		<passive_effect name="BuffResistance" operation="base_add" value="0.5,0.7" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="lightArmorDeg"/>
+		<!--体魄变化-->
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.02" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.05" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.05"/>
+		<!--冷热抵抗-->
+		<passive_effect name="HypothermalResist" operation="base_add" value="10"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="10"/>
+		<!--噪声倍增器-->
+		<!--附加BUFF-->
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="ZJ003"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="ZJ003"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Overlay0Tint" value="BB3D00" />
+		<property name="Mesh" value="armor_iron_pants"/>
+		<property name="Overlay0" value="armor_iron_pants"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="LegArmor"/>
+	</property>
+</item>
+
+<item name="[D94600]神圣·[CA8EFF]☆终极靴子☆">
+	<property name="Extends" value="armorMilitaryMaster"/>
+	<property name="CustomIconTint" value="BB3D00" />
+	<property name="CustomIcon" value="armorSteelBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Feet"/>
+	<effect_group name="military armor">
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="18,25"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--元素伤害抵抗-->
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="8,12" tags="heat,electrical"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="1,5" tier="1,6"/>
+		<!--BUFF抵抗--> <!--疲劳，手臂扭伤，腿部扭伤，出血，损伤出血刺铁丝网，撕裂，感染，受伤眩晕-->
+		<passive_effect name="BuffResistance" operation="base_add" value="0.5,0.7" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="lightArmorDeg"/>
+		<!--体魄变化-->
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.02" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.05" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.05"/>
+		<!--冷热抵抗-->
+		<passive_effect name="HypothermalResist" operation="base_add" value="10"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="10"/>
+		<!--噪声倍增器-->
+		<!--附加BUFF-->
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="ZJ005"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="ZJ005"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Overlay0Tint" value="BB3D00" />
+		<property name="Mesh" value="armor_iron_boots"/>
+		<property name="Overlay0" value="armor_iron_boots"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="Footwear"/>
+	</property>
+</item>
+
 
 
 </append>
