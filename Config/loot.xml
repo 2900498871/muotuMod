@@ -15,7 +15,7 @@
 	<!--/*************************************************一级任务掉落*************************************/-->
 	<!--一级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier1_clear">
-
+		<item name="属性赋予结晶" count="1" prob=".001" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -74,6 +74,7 @@
 
 	<!--一级获取掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier1_fetch" >
+		<item name="属性赋予结晶" count="1" prob=".001" />
 		<!--星源护甲-->
 		<item name="[53FF53]星源☆头盔 ☆" count="1" prob="0.1"/>
 		<item name="[53FF53]星源☆胸甲 ☆" count="1" prob="0.1"/>
@@ -108,6 +109,7 @@
 
 	<!--一级挖宝掉落，矿石，药物，粉尘之类-->
 	<lootgroup name="motu_tier1_buried_supplies">
+		<item name="属性赋予结晶" count="1" prob=".001" />
 		<!--矿石-->
 		<item name="[2894FF]铱矿" count="1,200" prob="0.1"/>
 		<item name="[CA8EFF]镭矿" count="1,200" prob="0.1"/>
@@ -155,6 +157,7 @@
 	<!--/*************************************************二级任务掉落*************************************/-->
 	<!--二级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier2_clear">
+		<item name="属性赋予结晶" count="1" prob=".002" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -205,6 +208,7 @@
 
 	<!--二级获取掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier2_fetch" >
+		<item name="属性赋予结晶" count="1" prob=".002" />
 		<!--星源护甲-->
 		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
 		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
@@ -237,6 +241,7 @@
 
 	<!--二级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier2_fetch_clear" >
+		<item name="属性赋予结晶" count="1" prob=".002" />
 		<!--星源护甲-->
 		<item name="[2894FF]星源☆头盔 ☆☆" count="1" prob="0.1"/>
 		<item name="[2894FF]星源☆胸甲 ☆☆" count="1" prob="0.1"/>
@@ -268,6 +273,7 @@
 
 	<!--二级挖宝掉落，矿石，药物，粉尘之类-->
 	<lootgroup name="motu_tier2_buried_supplies">
+		<item name="属性赋予结晶" count="1" prob=".002" />
 		<!--矿石-->
 		<item name="[2894FF]铱矿" count="100,300" prob="0.1"/>
 		<item name="[CA8EFF]镭矿" count="100,300" prob="0.1"/>
@@ -315,6 +321,7 @@
 
 	<!--三级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier3_clear">
+		<item name="属性赋予结晶" count="1" prob=".005" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -365,6 +372,7 @@
 
 	<!--三级获取掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier3_fetch" >
+		<item name="属性赋予结晶" count="1" prob=".005" />
 		<!--星源护甲-->
 		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
 		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
@@ -394,6 +402,7 @@
 
 	<!--三级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier3_fetch_clear" >
+		<item name="属性赋予结晶" count="1" prob=".005" />
 		<!--星源护甲-->
 		<item name="[CA8EFF]星源☆头盔 ☆☆☆" count="1" prob="0.1"/>
 		<item name="[CA8EFF]星源☆胸甲 ☆☆☆" count="1" prob="0.1"/>
@@ -422,6 +431,7 @@
 
 	<!--三级挖宝掉落，矿石，药物，粉尘之类-->
 	<lootgroup name="motu_tier3_buried_supplies">
+		<item name="属性赋予结晶" count="1" prob=".005" />
 
 		<!--矿石-->
 		<item name="[2894FF]铱矿" count="100,500" prob="0.1"/>
@@ -470,7 +480,7 @@
 	<!--/*************************************************四级任务掉落*************************************/-->
 	<!--四级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier4_clear">
-
+		<item name="属性赋予结晶" count="1" prob=".008" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -558,7 +568,7 @@
 
 	<!--四级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier4_fetch_clear" >
-
+		<item name="属性赋予结晶" count="1" prob=".008" />
 
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
@@ -636,7 +646,7 @@
 	<!--/*************************************************五级任务掉落*************************************/-->
 	<!--五级清理掉落,星源枪，配件之类-->
 	<lootgroup name="motu_tier5_clear">
-
+		<item name="属性赋予结晶" count="1" prob=".01" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -725,7 +735,7 @@
 
 	<!--五级获取清理掉落，星源护甲，光环-->
 	<lootgroup name="motu_tier5_fetch_clear" >
-
+		<item name="属性赋予结晶" count="1" prob=".01" />
 		<!--武器-->
 		<item name="[FFD306]星源☆猎刀" count="1" prob=".1"/>
 		<item name="[FFD306]星源☆砍刀" count="1" prob=".1"/>
@@ -2468,10 +2478,52 @@
 
 	<!--*******************************************战利品奖励掉落***************************************-->
 
+	<!--弹药堆-小-->
+	<append xpath="/lootcontainers/lootcontainer[@name='ammoPileSmall']">count="1,3"</append>
+	<append xpath="lootcontainers/lootcontainer[@name='ammoPileSmall']">
+		<item name="9mm子弹-火" count="1,30" prob="0.3"/>
+		<item name="9mm子弹-电" count="1,30" prob="0.3"/>
+		<item name="44子弹-火" count="1,30" prob="0.3"/>
+		<item name="44子弹-电" count="1,30" prob="0.3"/>
+		<item name="762子弹-火" count="1,30" prob="0.3"/>
+		<item name="762子弹-电" count="1,30" prob="0.3"/>
+	</append>
 
+	<!--弹药堆-中-->
+	<append xpath="/lootcontainers/lootcontainer[@name='ammoPileMed']">count="1,3"</append>
+	<append xpath="lootcontainers/lootcontainer[@name='ammoPileMed']">
+		<item name="9mm子弹-火" count="1,60" prob="0.3"/>
+		<item name="9mm子弹-电" count="1,60" prob="0.3"/>
+		<item name="44子弹-火" count="1,60" prob="0.3"/>
+		<item name="44子弹-电" count="1,60" prob="0.3"/>
+		<item name="762子弹-火" count="1,60" prob="0.3"/>
+		<item name="762子弹-电" count="1,60" prob="0.3"/>
+	</append>
+	<!--弹药堆-大-->
+	<append xpath="/lootcontainers/lootcontainer[@name='ammoPileLarge']">count="1,3"</append>
+	<append xpath="lootcontainers/lootcontainer[@name='ammoPileLarge']">
+		<item name="9mm子弹-火" count="1,100" prob="0.3"/>
+		<item name="9mm子弹-电" count="1,100" prob="0.3"/>
+		<item name="44子弹-火" count="1,100" prob="0.3"/>
+		<item name="44子弹-电" count="1,100" prob="0.3"/>
+		<item name="762子弹-火" count="1,100" prob="0.3"/>
+		<item name="762子弹-电" count="1,100" prob="0.3"/>
+	</append>
+
+
+	<!--军用弹药盒-->
+	<append xpath="/lootcontainers/lootcontainer[@name='munitions']">count="1,3"</append>
+	<append xpath="lootcontainers/lootcontainer[@name='munitions']">
+		<item name="9mm子弹-火" count="1,150" prob="0.3"/>
+		<item name="9mm子弹-电" count="1,150" prob="0.3"/>
+		<item name="44子弹-火" count="1,150" prob="0.3"/>
+		<item name="44子弹-电" count="1,150" prob="0.3"/>
+		<item name="762子弹-火" count="1,150" prob="0.3"/>
+		<item name="762子弹-电" count="1,150" prob="0.3"/>
+	</append>
 
 	<!--枪支弹药箱掉落-->
-	<set xpath="/lootcontainers/lootcontainer[@name='shotgunMessiahCrate']/@count">1,3</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='shotgunMessiahCrate']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='shotgunMessiahCrate']">
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
@@ -2565,7 +2617,7 @@
 	</append>
 
 	<!--墙面保险箱掉落-->
-	<set xpath="/lootcontainers/lootcontainer[@name='oven']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='oven']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='oven']">
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
@@ -2658,7 +2710,7 @@
 	</append>
 
 	<!--小枪袋掉落-->
-	<set xpath="/lootcontainers/lootcontainer[@name='weaponsBagSmall']/@count">1,4</set>
+	<append xpath="/lootcontainers/lootcontainer[@name='weaponsBagSmall']">count="1,2"</append>
 	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagSmall']">
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
@@ -2740,7 +2792,7 @@
 	</append>
 
 	<!--大枪袋掉落-->
-	<set xpath="/lootcontainers/lootcontainer[@name='weaponsBagLarge']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='weaponsBagLarge']">count="1,2"</set>
 	<append xpath="lootcontainers/lootcontainer[@name='weaponsBagLarge']">
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
@@ -2840,7 +2892,7 @@
 	</append>
 
 	<!--木箱掉落-->
-	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT1']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT1']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT1']">
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
@@ -2940,7 +2992,7 @@
 	</append>
 
 	<!--皮箱掉落-->
-	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT2']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT2']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT2']">
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
@@ -3040,7 +3092,7 @@
 	</append>
 
 	<!--铁箱掉落-->
-	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT3']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT3']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='reinforcedChestT3']">
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
@@ -3134,7 +3186,7 @@
 	</append>
 
 	<!--枪柜-->
-	<set xpath="/lootcontainers/lootcontainer[@name='gunSafe']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='gunSafe']">count="1,2"</set>
 	<append xpath="lootcontainers/lootcontainer[@name='gunSafe']">
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
@@ -3228,7 +3280,7 @@
 	</append>
 
 	<!--中保险箱掉落-->
-	<set xpath="/lootcontainers/lootcontainer[@name='hardenedChestT4']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='hardenedChestT4']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT4']">
 
 		<item name="[FFD306]星源☆猎刀" count="1" prob="0.4"/>
@@ -3308,7 +3360,7 @@
 
 
 	<!--大保险箱-->
-	<set xpath="/lootcontainers/lootcontainer[@name='hardenedChestT5']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='hardenedChestT5']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT5']">
 
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆☆☆" count="1"  prob="0.1"/>
@@ -3413,7 +3465,41 @@
 		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1"  prob="0.1"/>
 	</append>
 
+	<!--滚轮工具箱-->
+	<append xpath="lootcontainers/lootcontainer[@name='cardboardBox']">
+		<item name="[CCEEFF]星源☆斧" count="1"  prob="0.1"/>
+		<item name="[FFD306]神·[FF0000]星源☆斧" count="1"  prob="0.01"/>
+		<item name="[CCEEFF]星源☆锹" count="1"  prob="0.1"/>
+		<item name="[FFD306]神·[FF0000]星源☆锹" count="1"  prob="0.01"/>
+		<item name="[CCEEFF]星源☆鹤嘴锄" count="1"  prob="0.1"/>
+		<item name="[FFD306]神·[FF0000]星源☆鹤嘴锄" count="1"  prob="0.01"/>
+		<item name="[CCEEFF]星源☆战斧" count="1"  prob="0.1"/>
+		<item name="[FFD306]神·[FF0000]星源☆战斧" count="1"  prob="0.01"/>
+		<item name="[CCEEFF]星源☆战斧" count="1"  prob="0.1"/>
+		<item name="[FFD306]神·[FF0000]星源☆共震收纳枪" count="1"  prob="0.001"/>
+	</append>
 
+	<!--劳动工具箱-->
+	<set xpath="/lootcontainers/lootcontainer[@name='workingStiffsCrate']/@count">1,2</set>
+	<append xpath="lootcontainers/lootcontainer[@name='workingStiffsCrate']">
+		<item name="[CCEEFF]星源☆斧" count="1"  prob="0.3"/>
+		<item name="[FFD306]神·[FF0000]星源☆斧" count="1"  prob="0.01"/>
+		<item name="[CCEEFF]星源☆锹" count="1"  prob="0.3"/>
+		<item name="[FFD306]神·[FF0000]星源☆锹" count="1"  prob="0.01"/>
+		<item name="[CCEEFF]星源☆鹤嘴锄" count="1"  prob="0.3"/>
+		<item name="[FFD306]神·[FF0000]星源☆鹤嘴锄" count="1"  prob="0.01"/>
+		<item name="[CCEEFF]星源☆战斧" count="1"  prob="0.3"/>
+		<item name="[FFD306]神·[FF0000]星源☆战斧" count="1"  prob="0.01"/>
+		<item name="[CCEEFF]星源☆战斧" count="1"  prob="0.3"/>
+		<item name="[FFD306]神·[FF0000]星源☆共震收纳枪" count="1"  prob="0.001"/>
+	</append>
+
+	<!--设备架-->
+	<append xpath="lootcontainers/lootcontainer[@name='armorRack']">
+		<item name="采矿机" count="1"  prob="0.001"/>
+		<item name="末石" count="3,100" prob="0.3"/>
+		<item name="途石" count="3,100" prob="0.3"/>
+	</append>
 
 	<!--床头柜-->
 	<append xpath="lootcontainers/lootcontainer[@name='nightstand']">
@@ -3432,17 +3518,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 	<!--中箱子掉落-->
+	<set xpath="/lootcontainers/lootcontainer[@name='hardenedChestT4']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT4']">
 		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".1"/>
 		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".1"/>
@@ -3475,6 +3552,7 @@
 	</append>
 
 	<!--大箱子掉落-->
+	<set xpath="/lootcontainers/lootcontainer[@name='hardenedChestT5']/@count">1,2</set>
 	<append xpath="lootcontainers/lootcontainer[@name='hardenedChestT5']">
 		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".1"/>
 		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".1"/>
@@ -3514,44 +3592,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!--*******************************************星源矿物掉落***************************************-->
+
+	<!--纸箱掉落-->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerStorage']/@count">1,2</set>
+	<append xpath="lootcontainers/lootcontainer[@name='playerStorage']">
+		<item name="末石" count="1,20"/>
+		<item name="途石" count="1,20"/>
+		<item name="1技能点" count="1" prob="0.05"/>
+		<item name="5技能点" count="1" prob="0.01"/>
+	</append>
 
 	<append xpath="lootcontainers/lootcontainer[@name='junk']">
 		<item name="末石" count="1,20"/>
@@ -4345,6 +4395,8 @@
 	</append>
 
 
+
+
 	<!--咖啡机-->
 	<set xpath="/lootcontainers/lootcontainer[@name='coffeeMaker']/@count">1,3</set>
 	<append xpath="lootcontainers/lootcontainer[@name='coffeeMaker']">
@@ -4362,6 +4414,16 @@
 		<item name="药水-耐上限 10" count="1" prob="0.1"/>
 		<item name="药水-耐上限 20" count="1" prob="0.05"/>
 	</append>
+
+	<!--碗柜-->
+	<set xpath="/lootcontainers/lootcontainer[@name='cupboard']/@count">1,3</set>
+	<append xpath="lootcontainers/lootcontainer[@name='cupboard']">
+		<item name="药水-加速 10%" count="1" prob="0.1" />
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+	</append>
+
 
 	<!--橱柜掉落-->
 	<set xpath="/lootcontainers/lootcontainer[@name='sinks']/@count">1,3</set>
@@ -4409,6 +4471,18 @@
 		<item name="药水-隐身 100%" count="1" prob="0.05"/>
 	</append>
 
+	<!--山威箱子掉落-->
+	<append xpath="lootcontainers/lootcontainer[@name='shamwayCrate']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.1"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
 	<!--微波炉掉落-->
 	<set xpath="/lootcontainers/lootcontainer[@name='microwave']/@count">1,3</set>
 	<append xpath="lootcontainers/lootcontainer[@name='microwave']">
@@ -4437,6 +4511,22 @@
 		<item name="药水-隐身 100%" count="1" prob="0.05"/>
 	</append>
 
+	<!--便携冰柜掉落-->
+	<set xpath="/lootcontainers/lootcontainer[@name='shamwayDrinks']/@count">1,3</set>
+	<append xpath="lootcontainers/lootcontainer[@name='shamwayDrinks']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+
 	<!--购物车掉落-->
 	<set xpath="/lootcontainers/lootcontainer[@name='shoppingCart']/@count">1,3</set>
 	<append xpath="lootcontainers/lootcontainer[@name='shoppingCart']">
@@ -4449,6 +4539,29 @@
 		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
 		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
 		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--购物栏掉落-->
+	<set xpath="/lootcontainers/lootcontainer[@name='shoppingBasket']/@count">1,3</set>
+	<append xpath="lootcontainers/lootcontainer[@name='shoppingBasket']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
+		<item name="药水-血上限 10" count="1" prob="0.1"/>
+		<item name="药水-血上限 20" count="1" prob="0.05"/>
+		<item name="药水-耐上限 10" count="1" prob="0.1"/>
+		<item name="药水-耐上限 20" count="1" prob="0.05"/>
+		<item name="药水-实体伤害上升 100%" count="1" prob="0.1"/>
+		<item name="药水-实体伤害上升 150%" count="1" prob="0.05"/>
+		<item name="药水-最大射程 +10" count="1" prob="0.05"/>
+		<item name="药水-隐身 100%" count="1" prob="0.05"/>
+	</append>
+
+	<!--马桶掉落-->
+	<set xpath="/lootcontainers/lootcontainer[@name='toilet']/@count">1,2</set>
+	<append xpath="lootcontainers/lootcontainer[@name='toilet']">
+		<item name="药水-加速 10%" count="1" prob="0.1"/>
+		<item name="药水-加速 20%" count="1" prob="0.05"/>
 		<item name="药水-隐身 100%" count="1" prob="0.05"/>
 	</append>
 
