@@ -1,12 +1,53 @@
 <configs>
 <append xpath="/recipes">
 
+	<recipe name="[FFD306]神☆电围栏柱" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="electricfencepost" count="1"/>
+		<ingredient name="超神强化结晶" count="20"/>
+		<ingredient name="星源☆金属" count="5"/>
+	</recipe>
+
+	<recipe name="[FFD306]神☆刀片陷阱" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="bladeTrap" count="1"/>
+		<ingredient name="超神强化结晶" count="20"/>
+		<ingredient name="星源☆金属" count="5"/>
+	</recipe>
+
+	<recipe name="[FFD306]神☆发电机组" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="generatorbank" count="1"/>
+		<ingredient name="超神强化结晶" count="20"/>
+		<ingredient name="星源☆金属" count="5"/>
+	</recipe>
+
+	<recipe name="[FFD306]神☆SMG自动炮塔" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="autoTurret" count="1"/>
+		<ingredient name="超神强化结晶" count="20"/>
+		<ingredient name="星源☆金属" count="5"/>
+	</recipe>
+
+	<recipe name="[FFD306]神☆散弹枪自动炮塔" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="shotgunTurret" count="1"/>
+		<ingredient name="超神强化结晶" count="20"/>
+		<ingredient name="星源☆金属" count="5"/>
+	</recipe>
+
+	<recipe name="[FFD306]神☆飞镖陷阱" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="dartTrap" count="1"/>
+		<ingredient name="超神强化结晶" count="20"/>
+		<ingredient name="星源☆金属" count="5"/>
+	</recipe>
+
+	<recipe name="[FFD306]神☆坚硬的箱子" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="超神强化结晶" count="20"/>
+		<ingredient name="星源☆金属" count="5"/>
+	</recipe>
+
 	<!--挖矿机制作配方-->
 	<recipe name="采矿机" count="1"  craft_time="120" craft_area="workbench" >
-		<ingredient name="星源水晶" count="1000"/>
-		<ingredient name="五行☆星尘" count="5"/>
-		<ingredient name="[FFD306]神☆[2894FF]合金锭" count="10"/>
-		<ingredient name="星源☆金属" count="200"/>
+		<ingredient name="星源水晶" count="300"/>
+		<ingredient name="五行☆星尘" count="1"/>
+		<ingredient name="[FFD306]神☆[2894FF]合金锭" count="5"/>
+		<ingredient name="星源☆金属" count="20"/>
 	</recipe>
 
 <recipe name="普通☆怪物增强难度LV1" count="1" craft_time=".1"  craft_area="workbench" >
@@ -983,14 +1024,14 @@
 	<ingredient name="星源碎片" count="5"/>
 </recipe>
 <recipe name="星源能量" count="10" craft_time=".1">
-	<ingredient name="星源水晶" count="1"/>
+	<ingredient name="星源水晶" count="5"/>
 </recipe>
 
 <recipe name="修炼药水+5/30s" count="1" craft_time=".1">
-	<ingredient name="星源水晶" count="100"/>
+	<ingredient name="星源水晶" count="1000"/>
 </recipe>
 <recipe name="星源破镜药水" count="1" craft_time=".1">
-	<ingredient name="星源水晶" count="1000"/>
+	<ingredient name="星源水晶" count="5000"/>
 </recipe>
 
 <recipe name="星源水晶" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">

@@ -8,6 +8,306 @@
 
 
 
+	<block name="[FFD306]神☆电围栏柱">
+		<property name="CustomIcon" value="electricfencepost" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="Class" value="ElectricWire"/>
+		<property name="UnlockedBy" value="perkAdvancedEngineering,electricfencepostSchematic"/>
+		<property name="Material" value="Mmetal_weak"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="MaxDamage" value="5000"/>
+		<property name="DamageReceived" value="3"/>
+		<property name="Model" value="Entities/Electrical/electric_fencePrefab"/>
+		<property name="HandleFace" value="Bottom"/>
+		<property name="DisplayType" value="blockElectricalMulti"/>
+		<property name="MultiBlockDim" value="1,2,1"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="RequiredPower" value="5"/>
+		<property name="Buff" value="buffShocked2"/>
+		<property name="BuffChance" value="1"/>
+		<property name="Group" value="Tools/Traps,Science"/>
+		<property class="RepairItems">
+			<property name="星源☆金属" value="5"/>
+			<property name="resourceElectricParts" value="1"/>
+			<property name="超神强化结晶" value="2"/>
+		</property>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceElectricParts" count="0,1" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceScrapIron" count="5,40" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="EconomicValue" value="62"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_electrical,SC_traps"/>
+		<property name="SortOrder1" value="70a0"/>
+	</block>
+
+	<block name="[FFD306]神☆刀片陷阱">
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="CustomIcon" value="bladeTrap" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Class" value="BladeTrap"/>
+		<property name="UnlockedBy" value="perkAdvancedEngineering,bladeTrapSchematic"/>
+		<property name="Material" value="MmetalBladeTrap"/>
+		<property name="MaxDamage" value="5000"/>
+		<property name="Damage" value="100"/>
+		<property name="DamageReceived" value="3"/>
+		<property name="BreakingPercentage" value="0.5"/>
+		<property name="BrokenPercentage" value="0.25"/>
+		<property name="ImpactSound" value="bladetrap_impact"/>
+		<property name="StartSound" value="bladetrap_startup"/>
+		<property name="StopSound" value="bladetrap_stop"/>
+		<property name="RunningSound" value="bladetrap_fire_lp"/>
+		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
+		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
+		<property name="HandleFace" value="Bottom"/>
+		<property name="MultiBlockDim" value="3,1,3"/>
+		<property name="DisplayType" value="blockElectricalHardenedMulti"/>
+		<property name="ImposterExchange" value="imposterPlate" param1="111"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="RequiredPower" value="10"/>
+		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="ActivationDistance" value="6"/>
+		<property class="RepairItems">
+			<property name="星源☆金属" value="5"/>
+			<property name="超神强化结晶" value="2"/>
+		</property>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceScrapIron" count="20,100" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="TakeDelay" value="10"/>
+		<property name="EconomicValue" value="444"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_electrical,SC_traps"/>
+		<property name="SortOrder1" value="70a0"/>
+	</block>
+
+
+	<block name="[FFD306]神☆发电机组">
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="CustomIcon" value="generatorbank" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Class" value="Generator"/>
+		<property name="DisplayType" value="blockElectricalHardened"/>
+		<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="Entities/Electrical/generatorPrefab"/>
+		<property name="HandleFace" value="Bottom"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="DescriptionKey" value="powerSourceDesc"/>
+		<property name="MaxDamage" value="5000"/>
+		<property name="MaxFuel" value="1000"/>
+		<property name="OutputPerFuel" value="11250"/>
+		<property name="MaxPower" value="12250"/>
+		<property name="OutputPerStack" value="200"/>
+		<property name="SlotItem" value="smallEngine"/>
+		<property name="Group" value="Science"/>
+		<property class="RepairItems">
+			<property name="星源☆金属" value="5"/>
+			<property name="resourceMechanicalParts" value="8"/>
+			<property name="resourceElectricParts" value="8"/>
+			<property name="resourceElectricParts" value="3"/>
+			<property name="超神强化结晶" value="2"/>
+		</property>
+		<drop event="Harvest" name="resourceScrapIron" count="192" tag="allHarvest"/>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceForgedIron" count="3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceMechanicalParts" count="3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceElectricParts" count="3,4" tag="salvageHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="TakeDelay" value="15"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_electrical"/>
+		<property name="SortOrder1" value="70a0"/>
+	</block>
+
+	<block name="[FFD306]神☆SMG自动炮塔">
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="CustomIcon" value="autoTurret" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Class" value="Ranged"/>
+		<property name="DisplayType" value="blockElectricalHardened"/>
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretPrefab"/>
+		<property name="OnlySimpleRotations" value="true"/> <!-- the targeting math will NOT work if it's not upright -->
+		<property name="AmmoItem" value="ammo9mmBulletBall"/>
+		<property name="MaxDamage" value="5000"/>
+		<property name="TurnSpeed" value="22.5"/>
+		<property name="MaxDistance" value="30"/>
+		<property name="EntityDamage" value="100"/> <!-- 188 dps, 213 dps burst -->
+		<property name="BlockDamage" value="1"/>
+		<property name="RaySpread" value="2.6"/> <!-- Spread 2.6deg: 1m cone (55% hit) @ 22m -->
+		<property name="BurstRoundCount" value="15"/>
+		<property name="BurstFireRate" value="0.15"/>
+		<property name="CooldownTime" value="2"/>
+		<property name="OvershootTime" value="0.4"/>
+		<property name="FallAsleepTime" value="10"/>
+		<property name="WakeUpTime" value="0.5"/>
+		<property name="YawRange" value="90"/>
+		<property name="PitchRange" value="90"/>
+		<property name="ParticlesMuzzleFire" value="nozzleflashuzi"/>
+		<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+		<property name="DamageBonus.head" value="3"/>
+		<property name="DamageBonus.glass" value="1"/>
+		<property name="DamageBonus.wood" value="2"/>
+		<property name="DamageBonus.earth" value="0.2"/>
+		<property name="DamageBonus.stone" value="0.2"/>
+		<property name="DamageBonus.metal" value="0.2"/>
+		<property name="TargetingSound" value="turret_retarget_lp"/>
+		<property name="OverheatSound" value="turret_overheat_lp"/>
+		<property name="WakeUpSound" value="turret_windup"/>
+		<property name="FireSound" value="Pistol_Fire"/>
+		<property name="RequiredPower" value="15"/>
+		<property name="UnlockedBy" value="perkAdvancedEngineering,autoTurretSchematic"/>
+		<property name="IgnoreKeystoneOverlay" value="true"/>
+		<property class="RepairItems">
+			<property name="星源☆金属" value="5"/>
+			<property name="resourceMechanicalParts" value="2"/>
+			<property name="resourceElectricParts" value="2"/>
+			<property name="超神强化结晶" value="2"/>
+		</property>
+		<!--
+        <property class="UpgradeBlock">
+            <property name="ToBlock" value="autoTurretSteelCased"/>
+            <property name="Item" value="resourceForgedSteel"/>
+            <property name="ItemCount" value="10"/>
+            <property name="UpgradeHitCount" value="4"/>
+        </property>-->
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceMechanicalParts" count="1,4" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceScrapIron" count="10,40" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="EconomicValue" value="3000"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="109"/>
+		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="PickupJournalEntry" value="cameraTip"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_electrical,SC_traps"/>
+		<property name="SortOrder1" value="70a0"/>
+	</block>
+
+	<block name="[FFD306]神☆散弹枪自动炮塔">
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="CustomIcon" value="shotgunTurret" />
+		<property name="MaxDamage" value="5000"/>
+		<property name="Extends" value="autoTurret"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+		<property name="AmmoItem" value="ammoShotgunShell"/> <!-- does not use the damage value -->
+		<property name="MaxDistance" value="15"/>
+		<property name="EntityDamage" value="30"/> <!-- does not use range falloff for damage -->
+		<property name="BlockDamage" value="1"/>
+		<property name="RaySpread" value="5.2"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+		<property name="RayCount" value="8"/>
+		<property name="BurstRoundCount" value="4"/>
+		<property name="BurstFireRate" value="0.61"/>
+		<property name="CooldownTime" value="2"/>
+		<property name="OvershootTime" value="0.8"/>
+		<property name="ParticlesMuzzleFire" value="nozzleflash_shotgun"/>
+		<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+		<!--<property name="Buff" value="buffShotgunWound01"/>
+        <property name="BuffChance" value="0.8"/>-->
+		<property name="FireSound" value="pump_shotgun_fire"/>
+		<property name="EconomicValue" value="2500"/>
+		<property name="PickupJournalEntry" value="cameraTip"/>
+		<property name="UnlockedBy" value="perkAdvancedEngineering,shotgunTurretSchematic"/>
+	</block>
+
+
+	<block name="[FFD306]神☆飞镖陷阱">
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="CustomIcon" value="dartTrap" />
+		<property name="MaxDamage" value="5000"/>
+		<property name="EntityDamage" value="20"/>
+		<property name="BlockDamage" value="1"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="Class" value="Launcher"/>
+		<property name="DisplayType" value="blockElectricalHardened"/>
+		<property name="UnlockedBy" value="perkAdvancedEngineering,dartTrapSchematic"/>
+		<property name="Material" value="Mmetal_hard"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="models"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="Entities/Electrical/arrowTrapPrefab"/>
+		<property name="HandleFace" value="Bottom"/>
+		<property name="PlaySound" value="darttrap_fire"/>
+		<!-- <property name="StartSound" value="darttrap_start"/> -->
+		<property name="EndSound" value="darttrap_end"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="109"/>
+		<property name="BurstFireRate" value="0.5"/>
+		<property name="ShowTargeting" value="false"/>
+		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+		<property name="AmmoItem" value="ammoDartIron"/>
+		<property name="RequiredPower" value="10"/>
+		<property name="Group" value="Tools/Traps,Science"/>
+		<property class="RepairItems">
+			<property name="星源☆金属" value="5"/>
+			<property name="resourceMechanicalParts" value="3"/>
+			<property name="resourceElectricParts" value="2"/>
+			<property name="超神强化结晶" value="2"/>
+		</property>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceScrapIron" count="20,100" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="TakeDelay" value="10"/>
+		<property name="EconomicValue" value="220"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_electrical,SC_traps"/>
+		<property name="SortOrder1" value="70a0"/>
+	</block>
+
+	<block name="[FFD306]神☆坚硬的箱子">
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIconTint" value="FFD306" />
+		<property name="CustomIcon" value="cntHardenedChestSecure" />
+		<property name="MaxDamage" value="10000"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+		<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+		<property name="Tags" value="door"/>
+		<property name="Class" value="SecureLootSigned"/>
+		<property name="LootList" value="storageCrate"/>
+		<property name="Material" value="Mmetal_hard"/>
+		<property name="Texture" value="572"/>
+		<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+		<property name="FuelValue" value="300"/>
+		<property class="RepairItems">
+			<property name="星源☆金属" value="5"/>
+			<property name="超神强化结晶" value="2"/>
+		</property>
+		<property name="DowngradeBlock" value="cntStorageGenericSignedInsecure"/>
+		<drop event="Destroy" name="resourceWood" count="1,3"/>
+		<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="EconomicValue" value="6"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	</block>
+
+
 <!--采矿机空-->
 	<block name="采矿机">
 		<property name="DisplayType" value="采矿机（空）" />
