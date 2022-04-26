@@ -84,3 +84,339 @@ Z:272727
 
 
 feralHordeStageGS631
+
+
+众生平等  散弹
+ 千变高级 AK47
+ 沙鹰
+ 
+ p_torch_wall
+ p_electric_shock_small
+ 
+ 
+ //近战纹
+ 
+ 
+ 	<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".1"/>
+ 	<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".1"/>
+ 	<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".1"/>
+ 	<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".1"/>
+ 
+ 	
+ 	<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".1"/>
+ 	<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".1"/>
+ 	<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".1"/>
+ 	<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".1"/>
+ 
+ 	<item name="近战[CA8EFF]器纹 LV3" count="1" prob=".08"/>
+ 	<item name="近战[CA8EFF]尖纹 LV3" count="1" prob=".08"/>
+ 	<item name="近战☆[CA8EFF]柄纹 LV3" count="1" prob=".08"/>
+ 	<item name="近战[CA8EFF]刃纹 LV3" count="1" prob=".08"/>
+ 
+ 	<item name="近战☆[FFD306]器纹 LV4" count="1" prob=".05"/>
+ 	<item name="近战☆[FFD306]尖纹 LV4" count="1" prob=".05"/>
+ 	<item name="近战☆[FFD306]柄纹 LV4" count="1" prob=".05"/>
+ 	<item name="近战☆[FFD306]刃纹 LV4" count="1" prob=".05"/>
+ 
+ 	<item name="近战☆[FF0033]器纹 LV5" count="1" prob=".03"/>
+ 	<item name="近战☆[FF0033]尖纹 LV5" count="1" prob=".03"/>
+ 	<item name="近战☆[FF0033]柄纹 LV5" count="1" prob=".03"/>
+ 	<item name="近战☆[FF0033]刃纹 LV5" count="1" prob=".03"/>
+ 
+ 
+ 	<item name="[4D0000]攻击吸血" count="1" prob=".05"/>
+ 	<item name="[4D0000]杀怪吸血" count="1" prob=".05"/>
+ 	<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+ 	<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
+ 	<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".1"/>
+ 	<item name="武器☆[FFD306]神枪纹 LV3" count="1" prob=".08"/>
+ 	<item name="武器☆[FFD306]神枪纹 LV4" count="1" prob=".05"/>
+ 	<item name="武器☆[FFD306]神枪纹 LV5" count="1" prob=".03"/>
+ 
+ 	<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".1"/>
+ 	<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".08"/>
+ 	<item name="武器☆[FFD306]穿甲纹-60%" count="1" prob=".05"/>
+ 	<item name="武器☆[FFD306]穿甲纹-80%" count="1" prob=".02"/>
+ 	
+ 	<item name="近战☆[FF0033]器纹 特殊1" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]尖纹 特殊1" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]刃纹 特殊1" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]器纹 特殊2" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]尖纹 特殊2" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]刃纹 特殊2" count="1" prob=".01"/>
+    		<item name="近战☆[4D0000]器纹 魔化" count="1" prob=".01"/>
+    		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
+    		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
+ 	
+ 	
+ 	
+ 	<!--地狱纹掉落-->
+    	<lootgroup name="DYWEN" count="1,2">
+    		<item name="近战☆[53FF53]器纹 LV1" count="1" prob=".5"/>
+    		<item name="近战☆[53FF53]尖纹 LV1" count="1" prob=".5"/>
+    		<item name="近战☆[53FF53]柄纹 LV1" count="1" prob=".5"/>
+    		<item name="近战☆[53FF53]刃纹 LV1" count="1" prob=".5"/>
+    
+    		<item name="近战☆[2894FF]器纹 LV2" count="1" prob=".4"/>
+    		<item name="近战☆[2894FF]尖纹 LV2" count="1" prob=".4"/>
+    		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".4"/>
+    		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".4"/>
+    		<item name="近战[CA8EFF]器纹 LV3" count="1" prob=".2"/>
+    		<item name="近战[CA8EFF]尖纹 LV3" count="1" prob=".2"/>
+    		<item name="近战☆[CA8EFF]柄纹 LV3" count="1" prob=".2"/>
+    		<item name="近战[CA8EFF]刃纹 LV3" count="1" prob=".2"/>
+    
+    		<item name="近战☆[FFD306]器纹 LV4" count="1" prob=".1"/>
+    		<item name="近战☆[FFD306]尖纹 LV4" count="1" prob=".1"/>
+    		<item name="近战☆[FFD306]柄纹 LV4" count="1" prob=".1"/>
+    		<item name="近战☆[FFD306]刃纹 LV4" count="1" prob=".1"/>
+    
+    		<item name="近战☆[FF0033]器纹 LV5" count="1" prob=".05"/>
+    		<item name="近战☆[FF0033]尖纹 LV5" count="1" prob=".05"/>
+    		<item name="近战☆[FF0033]柄纹 LV5" count="1" prob=".05"/>
+    		<item name="近战☆[FF0033]刃纹 LV5" count="1" prob=".05"/>
+    
+    
+    		<item name="[4D0000]攻击吸血" count="1" prob=".05"/>
+    		<item name="[4D0000]杀怪吸血" count="1" prob=".05"/>
+    		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".1"/>
+    		<item name="枪☆[FFD306]神枪纹" count="1" prob=".1"/>
+    		<item name="武器☆[FFD306]神枪纹 LV2" count="1" prob=".4"/>
+    		<item name="武器☆[FFD306]神枪纹 LV3" count="1" prob=".2"/>
+    		<item name="武器☆[FFD306]神枪纹 LV4" count="1" prob=".1"/>
+    		<item name="武器☆[FFD306]神枪纹 LV5" count="1" prob=".05"/>
+    
+    		<item name="武器☆[FFD306]穿甲纹-20%" count="1" prob=".2"/>
+    		<item name="武器☆[FFD306]穿甲纹-40%" count="1" prob=".1"/>
+    		<item name="武器☆[FFD306]穿甲纹-60%" count="1" prob=".05"/>
+    		<item name="武器☆[FFD306]穿甲纹-80%" count="1" prob=".02"/>
+    
+    		<item name="近战☆[FF0033]器纹 特殊1" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]尖纹 特殊1" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]刃纹 特殊1" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]器纹 特殊2" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]尖纹 特殊2" count="1" prob=".01"/>
+    		<item name="近战☆[FF0033]刃纹 特殊2" count="1" prob=".01"/>
+    		<item name="近战☆[4D0000]器纹 魔化" count="1" prob=".01"/>
+    		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
+    		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
+    
+    	</lootgroup>
+ 
+ 
+     <!--流血包头-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_critical" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_critical" />
+ 		</effect_group>-->
+ 
+ 		<!--火把-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="torch02_firePrefab" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="torch02_firePrefab" />
+ 		</effect_group>-->
+ 
+ 		<!--电-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+ 		</effect_group>-->
+ 
+ 		<!--留学-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_impact_metal_on_organic" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_impact_metal_on_organic" />
+ 		</effect_group>-->
+ 
+ 		<!--燃烧buff-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+ 		</effect_group>-->
+ 
+ 		<!--火-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_torch_wall" />
+ 		</effect_group>-->
+ 
+ 		<!--辐射怪的buff-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="RadiatedParticlesOnMesh" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="RadiatedParticlesOnMesh" />
+ 		</effect_group>-->
+ 
+ 		<!--闪电-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_twitch_zombie_shock_left" />
+ 		</effect_group>-->
+ 
+ 		<!--绿光-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_radiation_left" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_twitch_zombie_radiation_left" />
+ 		</effect_group>-->
+ 
+ 		<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_radiation_left" parent_transform=".item"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_twitch_zombie_radiation_left" />
+ 		</effect_group>
+ 
+ 		<!--火光-->
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_twitch_zombie_fire_left" />
+ 		</effect_group>-->
+ 
+ 		<!--<effect_group>
+ 			<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" local_offset=".06,-.05,0" local_rotation="0,0,-90" parent_transform="Neck"/>
+ 			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_twitch_zombie_fire_left" />
+ 		</effect_group>-->
+ 
+ 
+ 	burntZombieSmoke.prefab
+ 		light_bullet_impact.prefab
+ 		MinibikeParticles.prefab
+ 		p_big_smoke.prefab
+ 		p_blockdestroy_boulder.prefab
+ 		p_blockdestroy_cloth.prefab
+ 		p_blockdestroy_earth.prefab
+ 		p_blockdestroy_glass.prefab
+ 		p_blockdestroy_metal.prefab
+ 		p_blockdestroy_organic.prefab
+ 		p_blockdestroy_plant.prefab
+ 		p_blockdestroy_snow.prefab
+ 		p_blockdestroy_stone.prefab
+ 		p_blockdestroy_water.prefab
+ 		p_blockdestroy_wood.prefab
+ 		p_blockdestroy_xt_leaves1.prefab
+ 		p_blockdestroy_xt_leaves2.prefab
+ 		p_blockdestroy_xt_leaves3.prefab
+ 		p_blockdestroy_xt_tallgrass.prefab
+ 		p_blood_death.prefab
+ 		p_blood_decapitation.prefab
+ 		p_blood_impact.prefab
+ 		p_breath.prefab
+ 		p_breath_thirdperson.prefab
+ 		p_burning_barrel.prefab
+ 		p_campfire.prefab
+ 		p_candleWall_flame.prefab
+ 		p_candle_flame.prefab
+ 		p_chemistryStation.prefab
+ 		p_critical.prefab
+ 		p_distanceTest.prefab
+ 		p_electric_fence_sparks.prefab
+ 		p_electric_shock.prefab
+ 		p_fat_cop_explosion.prefab
+ 		p_fire_small.prefab
+ 		p_forge.prefab
+ 		p_generator.prefab
+ 		p_hotembers.prefab
+ 		p_hotembersZombie.prefab
+ 		p_impact_bullet_on_cloth.prefab
+ 		p_impact_bullet_on_earth.prefab
+ 		p_impact_bullet_on_glass.prefab
+ 		p_impact_bullet_on_metal.prefab
+ 		p_impact_bullet_on_organic.prefab
+ 		p_impact_bullet_on_plant.prefab
+ 		p_impact_bullet_on_snow.prefab
+ 		p_impact_bullet_on_stone.prefab
+ 		p_impact_bullet_on_water.prefab
+ 		p_impact_bullet_on_wood.prefab
+ 		p_impact_bullet_on_xt_tallgrass.prefab
+ 		p_impact_metal_on_cloth.prefab
+ 		p_impact_metal_on_earth.prefab
+ 		p_impact_metal_on_glass.prefab
+ 		p_impact_metal_on_metal.prefab
+ 		p_impact_metal_on_metal_harvest.prefab
+ 		p_impact_metal_on_metal_repair.prefab
+ 		p_impact_metal_on_organic.prefab
+ 		p_impact_metal_on_plant.prefab
+ 		p_impact_metal_on_snow.prefab
+ 		p_impact_metal_on_stone.prefab
+ 		p_impact_metal_on_water.prefab
+ 		p_impact_metal_on_wood.prefab
+ 		p_impact_metal_on_xt_tallgrass.prefab
+ 		p_impact_organic_on_cloth.prefab
+ 		p_impact_organic_on_earth.prefab
+ 		p_impact_organic_on_glass.prefab
+ 		p_impact_organic_on_metal.prefab
+ 		p_impact_organic_on_organic.prefab
+ 		p_impact_organic_on_plant.prefab
+ 		p_impact_organic_on_snow.prefab
+ 		p_impact_organic_on_stone.prefab
+ 		p_impact_organic_on_water.prefab
+ 		p_impact_organic_on_wood.prefab
+ 		p_impact_organic_on_xt_tallgrass.prefab
+ 		p_impact_stone_on_cloth.prefab
+ 		p_impact_stone_on_earth.prefab
+ 		p_impact_stone_on_glass.prefab
+ 		p_impact_stone_on_metal.prefab
+ 		p_impact_stone_on_organic.prefab
+ 		p_impact_stone_on_plant.prefab
+ 		p_impact_stone_on_snow.prefab
+ 		p_impact_stone_on_stone.prefab
+ 		p_impact_stone_on_water.prefab
+ 		p_impact_stone_on_wood.prefab
+ 		p_impact_stone_on_xt_tallgrass.prefab
+ 		p_impact_wood_on_cloth.prefab
+ 		p_impact_wood_on_earth.prefab
+ 		p_impact_wood_on_glass.prefab
+ 		p_impact_wood_on_metal.prefab
+ 		p_impact_wood_on_organic.prefab
+ 		p_impact_wood_on_plant.prefab
+ 		p_impact_wood_on_snow.prefab
+ 		p_impact_wood_on_stone.prefab
+ 		p_impact_wood_on_water.prefab
+ 		p_impact_wood_on_wood.prefab
+ 		p_impact_wood_on_xt_tallgrass.prefab
+ 		p_nailgunfire.prefab
+ 		p_nozzleflash.prefab
+ 		p_nozzleflashuzi.prefab
+ 		p_nozzleflash_ak.prefab
+ 		p_nozzleflash_m136.prefab
+ 		p_nozzleflash_shotgun.prefab
+ 		p_nozzlesmoke.prefab
+ 		p_nozzlesmokeuzi.prefab
+ 		p_nozzlesmoke_chainsaw.prefab
+ 		p_nozzlesmoke_m136.prefab
+ 		p_onFire.prefab
+ 		p_paint_block.prefab
+ 		p_paint_splash.prefab
+ 		p_paint_splash2.prefab
+ 		p_rocketLauncherFire.prefab
+ 		p_sandstorm.prefab
+ 		p_signal_flarePrefab.prefab
+ 		p_smoke.prefab
+ 		p_smokestorm.prefab
+ 		p_snowstorm1.prefab
+ 		p_supply_crate_gib_Prefab.prefab
+ 		p_supply_crate_impact.prefab
+ 		p_tiresmoke.prefab
+ 		p_torch_wall.prefab
+ 		p_treefall.prefab
+ 		p_treeGib_birch.prefab
+ 		p_treeGib_birch_15m.prefab
+ 		p_treeGib_birch_6m.prefab
+ 		p_treeGib_birch_small.prefab
+ 		p_treeGib_burnt.prefab
+ 		p_treeGib_burnt_55m.prefab
+ 		p_treeGib_burnt_75m.prefab
+ 		p_treeGib_burnt_small.prefab
+ 		p_treeGib_dead_01.prefab
+ 		p_treeGib_dead_02.prefab
+ 		p_treeGib_maple_13m.prefab
+ 		p_treeGib_maple_15m.prefab
+ 		p_treeGib_maple_17m.prefab
+ 		p_treeGib_sapling.prefab
+ 		p_treeGib_small_dust.prefab
+ 		p_treeGib_winter01.prefab
+ 		p_treeGib_winter02.prefab
+ 		p_treeGib_winter03.prefab
+ 		p_treeGib_winter_small.prefab
+ 		p_vomitMouth.prefab
+ 		p_wire_tool_dust.prefab
+ 		p_wire_tool_sparks.prefab
+ 		RadiatedParticlesOnMesh.prefab
+ 		Smoke_Unlit.prefab
