@@ -1,6 +1,11 @@
 <configs>
 <append xpath="/recipes">
 
+	<recipe name="神☆营地领域" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="超神强化结晶" count="30"/>
+		<ingredient name="星源☆金属" count="10"/>
+	</recipe>
+
 	<recipe name="[FFD306]神☆电围栏柱" count="1" craft_time="10"  craft_area="workbench" >
 		<ingredient name="electricfencepost" count="1"/>
 		<ingredient name="超神强化结晶" count="20"/>

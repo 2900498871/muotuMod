@@ -36625,7 +36625,7 @@ needed?
 <item name="[D94600]神圣·[CA8EFF]☆终极头盔☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
 	<property name="CustomIconTint" value="BB3D00" />
-	<property name="CustomIcon" value="armorSteelHelmet" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="CustomIcon" value="armorSteelHelmet" /><property name="DescriptionKey" value="终极头盔Desc"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Head"/>
 
@@ -36675,7 +36675,7 @@ needed?
 <item name="[D94600]神圣·[CA8EFF]☆终极胸甲☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
 	<property name="CustomIconTint" value="BB3D00" />
-	<property name="CustomIcon" value="armorSteelChest" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="CustomIcon" value="armorSteelChest" /><property name="DescriptionKey" value="终极胸甲Desc"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,chest,armor,胸甲,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Chest"/>
 	<effect_group name="military armor">
@@ -36714,7 +36714,7 @@ needed?
 <item name="[D94600]神圣·[CA8EFF]☆终极手套☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
 	<property name="CustomIconTint" value="BB3D00" />
-	<property name="CustomIcon" value="armorSteelGloves" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="CustomIcon" value="armorSteelGloves" /><property name="DescriptionKey" value="终极手套Desc"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="upperbody,hands,armor,手套,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Hands"/>
 	<effect_group name="military armor">
@@ -36753,7 +36753,7 @@ needed?
 <item name="[D94600]神圣·[CA8EFF]☆终极腿甲☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
 	<property name="CustomIconTint" value="BB3D00" />
-	<property name="CustomIcon" value="armorSteelLegs" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="CustomIcon" value="armorSteelLegs" /><property name="DescriptionKey" value="终极腿甲Desc"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,legs,armor,腿甲,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Legs"/>
 	<effect_group name="military armor">
@@ -36792,7 +36792,7 @@ needed?
 <item name="[D94600]神圣·[CA8EFF]☆终极靴子☆">
 	<property name="Extends" value="armorMilitaryMaster"/>
 	<property name="CustomIconTint" value="BB3D00" />
-	<property name="CustomIcon" value="armorSteelBoots" /><property name="DescriptionKey" value="装备"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
+	<property name="CustomIcon" value="armorSteelBoots" /><property name="DescriptionKey" value="终极靴子Desc"/><property name="DisplayType" value="MOTU001"/><property name="RepairTools" value="高级强化结晶"/>
 	<property name="Tags" value="lowerbody,feet,armor,靴子,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
 	<property name="EquipSlot" value="Feet"/>
 	<effect_group name="military armor">

@@ -10,6 +10,18 @@
 			<window name="windowNonPagingHeader" />
 			<!-- <window name="windowCombine" /> -->
 		</window_group>
+
+		<window_group name="workstation_神☆营地领域" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<!--燃料-->
+			<window name="windowFuel" />
+			<!--计时-->
+			<window name="windowCraftingQueue"/>
+			<window name="windowNonPagingHeader" />
+			<!--<window name="windowOutput" />-->
+			<!--<window name="windowToolsCampfire" />-->
+		</window_group>
 		
 		<window_group name="workstation_源能 融合师" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 			<window name="windowCraftingList"/>

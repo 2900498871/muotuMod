@@ -12293,17 +12293,26 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		</buff>
 
 		<!--土地征用块buff-->
-		<buff name="领地护佑" name_key="领地护佑" description_key="领地护佑领域" tooltip_key="buffSnowSwarmTooltip" >
-			<stack_type value="replace"/>
-			<update_rate value="5"/>
+
+		<buff name="buffCampAOE" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value=".1"/>
+			<!-- without the 2nd buff the buff display will flicker -->
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="领地护佑-怪" target_tags="zombie"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="领地护佑—领地护佑领域" target_tags="player"/>
-
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_radiation_left" local_offset="0,1.3,0"/><!-- 0左右,0上下,0前后 -->
-				<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_radiation_left" local_offset="0,1.3,0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="领地护佑—领地护佑领域" target_tags="player"/>
 			</effect_group>
+		</buff>
 
+		<buff name="buffCampLdAOE" hidden="true" description_key="温暖的家！30米内玩家血量恢复增加30%！速度增加10%！" tooltip_key="辅助僵尸—回血领域" icon="ui_game_symbol_campfire" icon_color="118,238,0" icon_blink="true">
+			<stack_type value="ignore"/>
+			<duration value=".1"/>
+			<!-- without the 2nd buff the buff display will flicker -->
+			<effect_group>
+				<!--<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="领地护佑-怪" target_tags="zombie"/>-->
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="领地护佑领域" target_tags="player"/>
+				<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="领地护佑-怪" target_tags="zombie"/>-->
+				<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="领地护佑—领地护佑领域" target_tags="player"/>-->
+			</effect_group>
 		</buff>
 
 		<buff name="领地护佑-怪" description_key="领地护佑，怪物削弱！" tooltip_key="领地护佑，怪物削弱" icon="ui_game_symbol_campfire" icon_color="0,205,0" icon_blink="true">
@@ -12318,15 +12327,18 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 				<passive_effect name="WalkSpeed" operation="base_add" value="-.1"/>
 			</effect_group>
 		</buff>
-		<buff name="领地护佑—领地护佑领域" description_key="温暖的家！30米内玩家血量恢复增加30%！速度增加10%！怪物降低血量10%！速度降低血量10%" tooltip_key="辅助僵尸—回血领域" icon="ui_game_symbol_campfire" icon_color="118,238,0" icon_blink="true">
+		<buff name="领地护佑领域" description_key="温暖的家！30米内玩家血量每秒回复2点！速度增加10%！" tooltip_key="护佑领域" icon="ui_game_symbol_campfire" icon_color="238,173,14" icon_blink="true">
 			<stack_type value="replace"/>
 			<duration value="5"/>
 			<effect_group>
 				<!-- 血恢复 -->
-				<passive_effect name="HealthChangeOT" operation="base_add" value=".4"/>
+				<!--<passive_effect name="HealthChangeOT" operation="base_add" value=".4"/>-->
+				<passive_effect name="HealthChangeOT" operation="base_add" value="2"/>
 				<!--移速-->
 				<passive_effect name="RunSpeed" operation="base_add" value=".1"/>
 				<passive_effect name="WalkSpeed" operation="base_add" value=".1"/>
+				<!--温暖-->
+				<passive_effect name="HypothermalResist" operation="base_add" value="15"/>
 			</effect_group>
 		</buff>
 
