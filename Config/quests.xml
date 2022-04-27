@@ -62,6 +62,18 @@
 
 		<reward type="SkillPoints" value="100" />
 </quest>
+	<quest id="200dian">
+		<property name="name_key" value="200技能点" />
+		<property name="subtitle_key" value="200技能点" />
+		<property name="description_key" value="200技能点" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="200技能点" />
+		<property name="difficulty" value="easy" />
+
+		<reward type="SkillPoints" value="200" />
+	</quest>
 <quest id="1000dian">
 		<property name="name_key" value="1000技能点" />
 		<property name="subtitle_key" value="1000技能点" />
@@ -90,11 +102,11 @@
 <quest id="1122">
 		<property name="name_key" value="说明书" />
 		<property name="subtitle_key" value="说明书" />
-		<property name="description_key" value="[00FF00]注明 本Mod仅供娱乐 严禁任何形式盈利 否则后果自负！\n本MOD版本为免费版 在这版本中所产生有商业行为跟本作者无关！\n本mod由[63B8FF]丨影风[00FF00]制作修改 ![63B8FF]丨影风[00FF00]制作修改 !这个MOD增加了装备，可升级武器，和各种配件，增加被动的石头，光环配件等等~可升级武器须要从怪物掉落，和在开图时地图上随机刷新的武器箱来得到~~搜刮物品有机率得到各大物品~~本人写文案不行只好这样了~~" />
+		<property name="description_key" value="[00FF00]注明 本Mod仅供娱乐 严禁任何形式盈利 否则后果自负！\n本MOD版本为免费版 在这版本中所产生有商业行为跟本作者无关！\n本mod由[63B8FF]丨影风[00FF00]制作ren[00FF00]修改 ![63B8FF]丨影风[00FF00]制作ren[00FF00]修改 !这个MOD增加了装备，可升级武器，和各种配件，增加被动的石头，光环配件等等~可升级武器须要从怪物掉落，和在开图时地图上随机刷新的武器箱来得到~~搜刮物品有机率得到各大物品！" />
 		<property name="icon" value="ui_game_symbol_zombie" />
 		<property name="repeatable" value="true" />
 		<property name="category_key" value="challenge" />
-		<property name="offer_key" value="[00FF00]注明 本Mod仅供娱乐 严禁任何形式盈利 否则后果自负！\n本MOD版本为免费版 在这版本中所产生有商业行为跟本作者无关！\n本mod由[63B8FF]丨影风[00FF00]制作修改 ![63B8FF]丨影风[00FF00]制作修改 !这个MOD增加了装备，可升级武器，和各种配件，增加被动的石头，光环配件等等~可升级武器须要从怪物掉落，和在开图时地图上随机刷新的武器箱来得到~~搜刮物品有机率得到各大物品~~本人写文案不行只好这样了~~" />
+		<property name="offer_key" value="[00FF00]注明 本Mod仅供娱乐 严禁任何形式盈利 否则后果自负！\n本MOD版本为免费版 在这版本中所产生有商业行为跟本作者无关！\n本mod由[63B8FF]丨影风[00FF00]制作ren[00FF00]修改 ![63B8FF]丨影风[00FF00]制作ren[00FF00]修改 !这个MOD增加了装备，可升级武器，和各种配件，增加被动的石头，光环配件等等~可升级武器须要从怪物掉落，和在开图时地图上随机刷新的武器箱来得到~~搜刮物品有机率得到各大物品！" />
 		<property name="difficulty" value="easy" />
 
 		<reward type="Exp" value="1000" />
@@ -115,11 +127,11 @@
 <quest id="1120">
 		<property name="name_key" value="怪物介绍" />
 		<property name="subtitle_key" value="怪物介绍" />
-		<property name="description_key" value="[00FF00]怪物介绍\n本mod怪物等级分别为C B A S SS SSS GOD级！\n[63B8FF]丨影风[00FF00]制作修改 !" />
+		<property name="description_key" value="[00FF00]怪物介绍\n本mod怪物等级分别为C B A S SS SSS GOD级！\n[63B8FF]丨影风[00FF00]制作ren[00FF00]修改 !" />
 		<property name="icon" value="ui_game_symbol_zombie" />
 		<property name="repeatable" value="true" />
 		<property name="category_key" value="challenge" />
-		<property name="offer_key" value="[00FF00]注明 本Mod仅供娱乐 严禁任何形式盈利 否则后果自负！\n本MOD版本为免费版 在这版本中所产生有商业行为跟本作者无关！\n本mod由[63B8FF]丨影风[00FF00]制作修改 ![00FF00]怪物介绍\n请按 O 看说明！" />
+		<property name="offer_key" value="[00FF00]注明 本Mod仅供娱乐 严禁任何形式盈利 否则后果自负！\n本MOD版本为免费版 在这版本中所产生有商业行为跟本作者无关！\n本mod由[63B8FF]丨影风[00FF00]制作ren[00FF00]修改 ![00FF00]怪物介绍\n请按 O 看说明！" />
 		<property name="difficulty" value="easy" />
 
 		<reward type="Exp" value="1000" />
@@ -139,11 +151,11 @@
 <quest id="1123">
 		<property name="name_key" value="武器获得方法" />
 		<property name="subtitle_key" value="武器获得方法" />
-		<property name="description_key" value="[00FF00]武器获得方法\n请大家积极的去打怪吧，所有怪物都有几率掉落可升级的武器，技能书和材料" />
+		<property name="description_key" value="[00FF00]武器获得方法\n请大家积极的去做任务击杀怪物，所有任务和怪物都有几率掉落可升级的武器，技能书和材料" />
 		<property name="icon" value="ui_game_symbol_zombie" />
 		<property name="repeatable" value="true" />
 		<property name="category_key" value="challenge" />
-		<property name="offer_key" value="[00FF00]武器获得方法\n请大家积极的去打怪吧，所有怪物都有几率掉落可升级的武器，技能书和材料\n请按 O 看说明！" />
+		<property name="offer_key" value="[00FF00]武器获得方法\n请大家积极的去做任务击杀怪物，所有怪物都有几率掉落可升级的武器，技能书和材料\n请按 O 看说明！" />
 		<property name="difficulty" value="easy" />
 
 		<reward type="Exp" value="1000" />
@@ -151,11 +163,11 @@
 <quest id="1124">
 		<property name="name_key" value="新手说明书" />
 		<property name="subtitle_key" value="新手说明书" />
-		<property name="description_key" value="[00FF00]大家好，我来说明一下末途MOD前期须要做的事。进入之后要去打原版的怪物，从尸体上得到  星源水晶,强化结晶和星源武器，\n有了星源水晶就能合成各种合成台，各种合成台须要技能解锁，\n星源水晶能在 星源 制造装置 里合成各种元素星源！之后用各种元素星源就能升级星源武器了!\n所有工具的合成都须要 星源☆金属 来合成！" />
+		<property name="description_key" value="[00FF00]末途MOD前期须要做的事。进入之后要去打原版的怪物，从尸体上得到  星源水晶,强化结晶和星源武器，\n有了星源水晶就能合成各种合成台，各种合成台须要技能解锁，\n星源水晶能在 星源 制造装置 里合成各种元素星源！之后用各种元素星源就能升级星源武器了!\n所有工具的合成都须要 星源☆金属 来合成！" />
 		<property name="icon" value="ui_game_symbol_zombie" />
 		<property name="repeatable" value="true" />
 		<property name="category_key" value="challenge" />
-		<property name="offer_key" value="[00FF00]大家好，我来说明一下末途MOD前期须要做的事。进入之后要去打原版的怪物，在尸体上得到  星源水晶和星源武器，\n有了星源水晶就能合成各种合成台，各种合成台须要技能解锁，\n星源水晶能在 星源 制造装置 里合成各种元素星源！之后用各种元素星源就能升级星源武器了!\n所有工具的合成都须要 星源☆金属 来合成！" />
+		<property name="offer_key" value="[00FF00]末途MOD前期须要做的事。进入之后要去打原版的怪物，在尸体上得到  星源水晶和星源武器，\n有了星源水晶就能合成各种合成台，各种合成台须要技能解锁，\n星源水晶能在 星源 制造装置 里合成各种元素星源！之后用各种元素星源就能升级星源武器了!\n所有工具的合成都须要 星源☆金属 来合成！" />
 		<property name="difficulty" value="easy" />
 
 		<reward type="Exp" value="1000" />

@@ -70,6 +70,8 @@
 		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
 		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="100" prob=".001"/>
 	</lootgroup>
 
 	<!--一级获取掉落，星源护甲，光环-->
@@ -105,6 +107,8 @@
 		<item name="[FF0033]光环☆[53FF53]射速领域☆" count="1" prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]收获领域☆" count="1" prob="0.1"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="100" prob=".001"/>
 	</lootgroup>
 
 	<!--一级挖宝掉落，矿石，药物，粉尘之类-->
@@ -151,6 +155,8 @@
 		<item name="地球星源" count="1,200" prob="0.1"/>
 		<item name="太阳星源" count="1,200" prob="0.1"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="100" prob=".001"/>
 	</lootgroup>
 
 
@@ -204,6 +210,8 @@
 		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
 		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="200" prob=".001"/>
 	</lootgroup>
 
 	<!--二级获取掉落，星源护甲，光环-->
@@ -237,6 +245,8 @@
 		<item name="[FF0033]光环☆[53FF53]射速领域☆☆" count="1" prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]收获领域☆☆" count="1" prob="0.1"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="200" prob=".001"/>
 	</lootgroup>
 
 	<!--二级获取清理掉落，星源护甲，光环-->
@@ -269,6 +279,8 @@
 		<item name="[FF0033]光环☆[53FF53]射速领域☆☆" count="1" prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]收获领域☆☆" count="1" prob="0.1"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="200" prob=".001"/>
 	</lootgroup>
 
 	<!--二级挖宝掉落，矿石，药物，粉尘之类-->
@@ -314,6 +326,9 @@
 		<item name="海王星源" count="1,300" prob="0.1"/>
 		<item name="地球星源" count="1,300" prob="0.1"/>
 		<item name="太阳星源" count="1,300" prob="0.1"/>
+
+		<!--千变碎片-->
+		<item name="千变碎片" count="200" prob=".001"/>
 	</lootgroup>
 
 
@@ -368,6 +383,8 @@
 		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
 		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="200" prob=".001"/>
 	</lootgroup>
 
 	<!--三级获取掉落，星源护甲，光环-->
@@ -398,6 +415,8 @@
 		<item name="[FF0033]光环☆[53FF53]射速领域☆☆☆" count="1" prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]收获领域☆☆☆" count="1" prob="0.1"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="200" prob=".001"/>
 	</lootgroup>
 
 	<!--三级获取清理掉落，星源护甲，光环-->
@@ -473,6 +492,9 @@
 		<item name="海王星源" count="1,500" prob="0.1"/>
 		<item name="地球星源" count="1,500" prob="0.1"/>
 		<item name="太阳星源" count="1,500" prob="0.1"/>
+
+		<!--千变碎片-->
+		<item name="千变碎片" count="200" prob=".001"/>
 	</lootgroup>
 
 
@@ -564,6 +586,8 @@
 		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
 		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="400" prob=".001"/>
 	</lootgroup>
 
 	<!--四级获取清理掉落，星源护甲，光环-->
@@ -640,6 +664,8 @@
 		<item name="[FF0033]光环☆[53FF53]射速领域☆☆☆☆" count="1" prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]收获领域☆☆☆☆" count="1" prob="0.1"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="400" prob=".001"/>
 	</lootgroup>
 
 
@@ -693,8 +719,6 @@
 		<item name="[FFD306]神·千变[FF0000]星源☆锤塔" count="1" prob=".002"/>
 		<item name="[FFD306]神·千变[FF0000]星源☆炮塔" count="1" prob=".002"/>
 
-
-
 		<!--配件-->
 		<item name="近战☆[CA8EFF]器纹 LV3" count="1" prob=".05"/>
 		<item name="近战☆[CA8EFF]尖纹 LV3" count="1" prob=".05"/>
@@ -731,6 +755,8 @@
 		<item name="近战☆[4D0000]尖纹 魔化" count="1" prob=".01"/>
 		<item name="近战☆[4D0000]刃纹 魔化" count="1" prob=".01"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="500" prob=".001"/>
 	</lootgroup>
 
 	<!--五级获取清理掉落，星源护甲，光环-->
@@ -819,6 +845,8 @@
 		<item name="[FF0033]光环☆[53FF53]射速领域☆☆☆☆☆" count="1" prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]收获领域☆☆☆☆☆" count="1" prob="0.1"/>
 
+		<!--千变碎片-->
+		<item name="千变碎片" count="500" prob=".001"/>
 	</lootgroup>
 
 
@@ -2085,27 +2113,27 @@
 		<item name="属性变换结晶" count="1" prob=".1" />
 
 		<!--星尘包掉率-->
-		<item name="金星尘" count="20,60" prob=".1"/>
-		<item name="水星尘" count="20,60" prob=".1"/>
-		<item name="木星尘" count="20,60" prob=".1"/>
-		<item name="火星尘" count="20,60" prob=".1"/>
-		<item name="土星尘" count="20,60" prob=".1"/>
-		<item name="天王星尘" count="20,60" prob=".1"/>
-		<item name="海王星尘" count="20,60" prob=".1"/>
-		<item name="地球星尘" count="20,60" prob=".1"/>
-		<item name="太阳星尘" count="20,60" prob=".1"/>
+		<item name="金星尘" count="20,200" prob=".1"/>
+		<item name="水星尘" count="20,200" prob=".1"/>
+		<item name="木星尘" count="20,200" prob=".1"/>
+		<item name="火星尘" count="20,200" prob=".1"/>
+		<item name="土星尘" count="20,200" prob=".1"/>
+		<item name="天王星尘" count="20,200" prob=".1"/>
+		<item name="海王星尘" count="20,200" prob=".1"/>
+		<item name="地球星尘" count="20,200" prob=".1"/>
+		<item name="太阳星尘" count="20,200" prob=".1"/>
 
 
 		<!--星源掉包率-->
-		<item name="金星源" count="40,100" prob=".1"/>
-		<item name="水星源" count="40,100" prob=".1"/>
-		<item name="木星源" count="40,100" prob=".1"/>
-		<item name="火星源" count="40,100" prob=".1"/>
-		<item name="土星源" count="40,100" prob=".1"/>
-		<item name="天王星源" count="40,100" prob=".1"/>
-		<item name="海王星源" count="40,100" prob=".1"/>
-		<item name="地球星源" count="40,100" prob=".1"/>
-		<item name="太阳星源" count="40,100" prob=".1"/>
+		<item name="金星源" count="20,60" prob=".1"/>
+		<item name="水星源" count="20,60" prob=".1"/>
+		<item name="木星源" count="20,60" prob=".1"/>
+		<item name="火星源" count="20,60" prob=".1"/>
+		<item name="土星源" count="20,60" prob=".1"/>
+		<item name="天王星源" count="20,60" prob=".1"/>
+		<item name="海王星源" count="20,60" prob=".1"/>
+		<item name="地球星源" count="20,60" prob=".1"/>
+		<item name="太阳星源" count="20,60" prob=".1"/>
 
 		<!--光环掉落率-->
 		<item group="光环lv2" count="1" prob=".05"/>
@@ -2121,26 +2149,26 @@
 		<item name="属性变换结晶" count="1" prob=".1" />
 
 		<!--星尘包掉率-->
-		<item name="金星尘" count="20,100" prob=".1"/>
-		<item name="水星尘" count="20,100" prob=".1"/>
-		<item name="木星尘" count="20,100" prob=".1"/>
-		<item name="火星尘" count="20,100" prob=".1"/>
-		<item name="土星尘" count="20,100" prob=".1"/>
-		<item name="天王星尘" count="20,100" prob=".1"/>
-		<item name="海王星尘" count="20,100" prob=".1"/>
-		<item name="地球星尘" count="20,100" prob=".1"/>
-		<item name="太阳星尘" count="20,100" prob=".1"/>
+		<item name="金星尘" count="20,300" prob=".1"/>
+		<item name="水星尘" count="20,300" prob=".1"/>
+		<item name="木星尘" count="20,300" prob=".1"/>
+		<item name="火星尘" count="20,300" prob=".1"/>
+		<item name="土星尘" count="20,300" prob=".1"/>
+		<item name="天王星尘" count="20,300" prob=".1"/>
+		<item name="海王星尘" count="20,300" prob=".1"/>
+		<item name="地球星尘" count="20,300" prob=".1"/>
+		<item name="太阳星尘" count="20,300" prob=".1"/>
 
 		<!--星源掉包率-->
-		<item name="金星源" count="60,150" prob=".1"/>
-		<item name="水星源" count="60,150" prob=".1"/>
-		<item name="木星源" count="60,150" prob=".1"/>
-		<item name="火星源" count="60,150" prob=".1"/>
-		<item name="土星源" count="60,150" prob=".1"/>
-		<item name="天王星源" count="60,150" prob=".1"/>
-		<item name="海王星源" count="60,150" prob=".1"/>
-		<item name="地球星源" count="60,150" prob=".1"/>
-		<item name="太阳星源" count="60,150" prob=".1"/>
+		<item name="金星源" count="30,80" prob=".1"/>
+		<item name="水星源" count="30,80" prob=".1"/>
+		<item name="木星源" count="30,80" prob=".1"/>
+		<item name="火星源" count="30,80" prob=".1"/>
+		<item name="土星源" count="30,80" prob=".1"/>
+		<item name="天王星源" count="30,80" prob=".1"/>
+		<item name="海王星源" count="30,80" prob=".1"/>
+		<item name="地球星源" count="30,80" prob=".1"/>
+		<item name="太阳星源" count="30,80" prob=".1"/>
 
 		<!--光环掉落率-->
 		<item group="光环lv3" count="1" prob=".05"/>
@@ -2160,26 +2188,26 @@
 		<item name="属性变换结晶" count="1" prob=".1" />
 
 		<!--星尘包掉率-->
-		<item name="金星尘" count="10,150" prob=".1"/>
-		<item name="水星尘" count="10,150" prob=".1"/>
-		<item name="木星尘" count="10,150" prob=".1"/>
-		<item name="火星尘" count="10,150" prob=".1"/>
-		<item name="土星尘" count="10,150" prob=".1"/>
-		<item name="天王星尘" count="10,150" prob=".1"/>
-		<item name="海王星尘" count="10,150" prob=".1"/>
-		<item name="地球星尘" count="10,150" prob=".1"/>
-		<item name="太阳星尘" count="10,150" prob=".1"/>
+		<item name="金星尘" count="10,400" prob=".1"/>
+		<item name="水星尘" count="10,400" prob=".1"/>
+		<item name="木星尘" count="10,400" prob=".1"/>
+		<item name="火星尘" count="10,400" prob=".1"/>
+		<item name="土星尘" count="10,400" prob=".1"/>
+		<item name="天王星尘" count="10,400" prob=".1"/>
+		<item name="海王星尘" count="10,400" prob=".1"/>
+		<item name="地球星尘" count="10,400" prob=".1"/>
+		<item name="太阳星尘" count="10,400" prob=".1"/>
 
 		<!--星源掉包率-->
-		<item name="金星源" count="100,200" prob=".1"/>
-		<item name="水星源" count="100,200" prob=".1"/>
-		<item name="木星源" count="100,200" prob=".1"/>
-		<item name="火星源" count="100,200" prob=".1"/>
-		<item name="土星源" count="100,200" prob=".1"/>
-		<item name="天王星源" count="100,200" prob=".1"/>
-		<item name="海王星源" count="100,200" prob=".1"/>
-		<item name="地球星源" count="100,200" prob=".1"/>
-		<item name="太阳星源" count="100,200" prob=".1"/>
+		<item name="金星源" count="40,120" prob=".1"/>
+		<item name="水星源" count="40,120" prob=".1"/>
+		<item name="木星源" count="40,120" prob=".1"/>
+		<item name="火星源" count="40,120" prob=".1"/>
+		<item name="土星源" count="40,120" prob=".1"/>
+		<item name="天王星源" count="40,120" prob=".1"/>
+		<item name="海王星源" count="40,120" prob=".1"/>
+		<item name="地球星源" count="40,120" prob=".1"/>
+		<item name="太阳星源" count="40,120" prob=".1"/>
 
 		<!--光环掉落率-->
 		<item group="光环lv4" count="1" prob=".05"/>
@@ -2196,7 +2224,7 @@
 		<item name="末石" count="1,15" />
 		<item name="途石" count="1,15" />
 		<item name="超神强化结晶" count="1,2" prob=".2" />
-		<item name="千变碎片" count="1" prob=".05" />
+		<item name="千变碎片" count="1,5" prob=".05" />
 		<item name="属性变换结晶" count="1" prob=".05" />
 
 		<!--星尘包掉率-->
@@ -2209,18 +2237,17 @@
 		<item name="海王星尘" count="10,100" prob=".1"/>
 		<item name="地球星尘" count="10,100" prob=".1"/>
 		<item name="太阳星尘" count="10,100" prob=".1"/>
-		<item name="千变碎片" count="1,5" prob=".01"/>
 
 		<!--星源掉包率-->
-		<item name="金星源" count="10,50" prob=".1"/>
-		<item name="水星源" count="10,50" prob=".1"/>
-		<item name="木星源" count="10,50" prob=".1"/>
-		<item name="火星源" count="10,50" prob=".1"/>
-		<item name="土星源" count="10,50" prob=".1"/>
-		<item name="天王星源" count="10,50" prob=".1"/>
-		<item name="海王星源" count="10,50" prob=".1"/>
-		<item name="地球星源" count="10,50" prob=".1"/>
-		<item name="太阳星源" count="10,50" prob=".1"/>
+		<item name="金星源" count="10,20" prob=".1"/>
+		<item name="水星源" count="10,20" prob=".1"/>
+		<item name="木星源" count="10,20" prob=".1"/>
+		<item name="火星源" count="10,20" prob=".1"/>
+		<item name="土星源" count="10,20" prob=".1"/>
+		<item name="天王星源" count="10,20" prob=".1"/>
+		<item name="海王星源" count="10,20" prob=".1"/>
+		<item name="地球星源" count="10,20" prob=".1"/>
+		<item name="太阳星源" count="10,20" prob=".1"/>
 
 	</lootcontainer>
 
@@ -2250,23 +2277,23 @@
 		<!--银块-->
 		<item name="resourceSilverNugget" count="1,10" prob="0.1"/>
 		<!--金星尘-->
-		<item name="金星尘" count="1,20" prob="0.1"/>
+		<item name="金星尘" count="1,200" prob="0.1"/>
 		<!--木星尘-->
-		<item name="木星尘" count="1,20" prob="0.1"/>
+		<item name="木星尘" count="1,200" prob="0.1"/>
 		<!--水星尘-->
-		<item name="水星尘" count="1,20" prob="0.1"/>
+		<item name="水星尘" count="1,200" prob="0.1"/>
 		<!--火星尘-->
-		<item name="火星尘" count="1,20" prob="0.1"/>
+		<item name="火星尘" count="1,200" prob="0.1"/>
 		<!--土星尘-->
-		<item name="土星尘" count="1,20" prob="0.1"/>
+		<item name="土星尘" count="1,200" prob="0.1"/>
 		<!--天王星尘-->
-		<item name="天王星尘" count="1,20" prob="0.1"/>
+		<item name="天王星尘" count="1,200" prob="0.1"/>
 		<!--海王星尘-->
-		<item name="海王星尘" count="1,20" prob="0.1"/>
+		<item name="海王星尘" count="1,200" prob="0.1"/>
 		<!--地球星尘-->
-		<item name="地球星尘" count="1,20" prob="0.1"/>
+		<item name="地球星尘" count="1,200" prob="0.1"/>
 		<!--太阳星尘-->
-		<item name="太阳星尘" count="1,20" prob="0.1"/>
+		<item name="太阳星尘" count="1,200" prob="0.1"/>
 
 		<item name="金星源" count="1,20" prob=".1"/>
 		<item name="水星源" count="1,20" prob=".1"/>

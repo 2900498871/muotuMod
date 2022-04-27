@@ -12294,16 +12294,16 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 
 		<!--土地征用块buff-->
 
-		<buff name="buffCampAOE" hidden="true">
+	<!--	<buff name="buffCampAOE" hidden="true">
 			<stack_type value="ignore"/>
 			<duration value=".1"/>
-			<!-- without the 2nd buff the buff display will flicker -->
+			&lt;!&ndash; without the 2nd buff the buff display will flicker &ndash;&gt;
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="领地护佑—领地护佑领域" target_tags="player"/>
 			</effect_group>
-		</buff>
+		</buff>-->
 
-		<buff name="buffCampLdAOE" hidden="true" description_key="温暖的家！30米内玩家血量恢复增加30%！速度增加10%！" tooltip_key="辅助僵尸—回血领域" icon="ui_game_symbol_campfire" icon_color="118,238,0" icon_blink="true">
+		<buff name="buffCampLdAOE" hidden="true" description_key="温暖的家！30米内驱除寒冷且玩家血量每秒恢复1点！速度增加10%！" tooltip_key="辅助领域" icon="ui_game_symbol_campfire" icon_color="118,238,0" icon_blink="true">
 			<stack_type value="ignore"/>
 			<duration value=".1"/>
 			<!-- without the 2nd buff the buff display will flicker -->
@@ -12316,7 +12316,6 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		</buff>
 
 		<buff name="领地护佑-怪" description_key="领地护佑，怪物削弱！" tooltip_key="领地护佑，怪物削弱" icon="ui_game_symbol_campfire" icon_color="0,205,0" icon_blink="true">
-
 			<stack_type value="replace"/>
 			<duration value="5"/>
 			<effect_group>
@@ -12327,13 +12326,14 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 				<passive_effect name="WalkSpeed" operation="base_add" value="-.1"/>
 			</effect_group>
 		</buff>
-		<buff name="领地护佑领域" description_key="温暖的家！30米内玩家血量每秒回复2点！速度增加10%！" tooltip_key="护佑领域" icon="ui_game_symbol_campfire" icon_color="238,173,14" icon_blink="true">
+
+		<buff name="领地护佑领域" description_key="温暖的家！30米内玩家血量每秒回复1点！速度增加10%！" tooltip_key="护佑领域" icon="ui_game_symbol_campfire" icon_color="238,173,14" icon_blink="true">
 			<stack_type value="replace"/>
 			<duration value="5"/>
 			<effect_group>
 				<!-- 血恢复 -->
 				<!--<passive_effect name="HealthChangeOT" operation="base_add" value=".4"/>-->
-				<passive_effect name="HealthChangeOT" operation="base_add" value="2"/>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="1"/>
 				<!--移速-->
 				<passive_effect name="RunSpeed" operation="base_add" value=".1"/>
 				<passive_effect name="WalkSpeed" operation="base_add" value=".1"/>

@@ -2653,6 +2653,13 @@
 		<property name="QuestGiven" value="100dian"/>
 	</property>
 </item>
+<item name="200技能点">
+	<property name="CustomIcon" value="resourcePaper" /><property name="CustomIconTint" value="FFD306" />
+	<property name="Extends" value="questMaster"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="200dian"/>
+	</property>
+</item>
 <item name="1000技能点">
 	<property name="CustomIcon" value="resourcePaper" />
 	<property name="CustomIconTint" value="FFD306" />
