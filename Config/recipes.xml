@@ -2,6 +2,7 @@
 <append xpath="/recipes">
 
 	<recipe name="神☆营地领域" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="medicalFirstAidKit" count="2"/>
 		<ingredient name="超神强化结晶" count="30"/>
 		<ingredient name="星源☆金属" count="10"/>
 	</recipe>

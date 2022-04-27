@@ -12,7 +12,7 @@
 		<property name="Class" value="Campfire"/>
 		<property name="Material" value="MstoneNoGlue"/>
 		<property name="DescriptionKey" value="营地领域des"/>
-		<property name="MaxDamage" value="100"/>
+		<property name="MaxDamage" value="1000"/>
 		<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/OutdoorDecor/birdBathPlanterPrefab"/>
