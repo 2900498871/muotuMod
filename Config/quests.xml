@@ -2294,6 +2294,7 @@
 		<reward type="Item" id="星源水晶" value="100"/>
 		<reward type="Item" id="末石" value="100"/>
 		<reward type="Item" id="途石" value="100"/>
+		<reward type="Item" id="神级强化结晶" value="1"/>
 		<reward type="Item" id="超神强化结晶" value="1"/>
 		<reward type="Item" id="千变碎片" value="1"/>
 		<reward type="LootItem" id="motu_tier1_clear" ischosen="true" value="1"/>
@@ -2307,6 +2308,7 @@
 		<reward type="Item" id="星源水晶" value="100"/>
 		<reward type="Item" id="末石" value="100"/>
 		<reward type="Item" id="途石" value="100"/>
+		<reward type="Item" id="神级强化结晶" value="1"/>
 		<reward type="Item" id="超神强化结晶" value="1"/>
 		<reward type="Item" id="千变碎片" value="1"/>
 		<reward type="LootItem" id="motu_tier1_fetch" ischosen="true" value="1"/>
@@ -2321,6 +2323,7 @@
 		<reward type="Item" id="星源水晶" value="100"/>
 		<reward type="Item" id="末石" value="100"/>
 		<reward type="Item" id="途石" value="100"/>
+		<reward type="Item" id="神级强化结晶" value="1"/>
 		<reward type="Item" id="超神强化结晶" value="1"/>
 		<reward type="Item" id="千变碎片" value="1"/>
 		<reward type="LootItem" id="motu_tier1_buried_supplies" ischosen="true" value="1"/>
@@ -2336,7 +2339,8 @@
 		<reward type="Item" id="星源水晶" value="200"/>
 		<reward type="Item" id="末石" value="200"/>
 		<reward type="Item" id="途石" value="200"/>
-		<reward type="Item" id="超神强化结晶" value="3"/>
+		<reward type="Item" id="神级强化结晶" value="2"/>
+		<reward type="Item" id="超神强化结晶" value="2"/>
 		<reward type="Item" id="千变碎片" value="5"/>
 		<reward type="LootItem" id="motu_tier2_clear" ischosen="true" value="1"/>
 		<reward type="LootItem" id="motu_tier2_fetch" ischosen="true" value="1"/>
@@ -2349,7 +2353,8 @@
 		<reward type="Item" id="星源水晶" value="200"/>
 		<reward type="Item" id="末石" value="200"/>
 		<reward type="Item" id="途石" value="200"/>
-		<reward type="Item" id="超神强化结晶" value="3"/>
+		<reward type="Item" id="神级强化结晶" value="2"/>
+		<reward type="Item" id="超神强化结晶" value="2"/>
 		<reward type="Item" id="千变碎片" value="5"/>
 		<reward type="LootItem" id="motu_tier2_fetch" ischosen="true" value="1"/>
 		<reward type="LootItem" id="motu_tier2_clear" ischosen="true" value="1"/>
@@ -2362,7 +2367,8 @@
 		<reward type="Item" id="星源水晶" value="200"/>
 		<reward type="Item" id="末石" value="200"/>
 		<reward type="Item" id="途石" value="200"/>
-		<reward type="Item" id="超神强化结晶" value="3"/>
+		<reward type="Item" id="神级强化结晶" value="2"/>
+		<reward type="Item" id="超神强化结晶" value="2"/>
 		<reward type="Item" id="千变碎片" value="5"/>
 		<reward type="LootItem" id="motu_tier2_fetch_clear" ischosen="true" value="1"/>
 		<reward type="LootItem" id="motu_tier2_fetch" ischosen="true" value="1"/>
@@ -2376,7 +2382,8 @@
 		<reward type="Item" id="星源水晶" value="200"/>
 		<reward type="Item" id="末石" value="200"/>
 		<reward type="Item" id="途石" value="200"/>
-		<reward type="Item" id="超神强化结晶" value="3"/>
+		<reward type="Item" id="神级强化结晶" value="2"/>
+		<reward type="Item" id="超神强化结晶" value="2"/>
 		<reward type="Item" id="千变碎片" value="5"/>
 		<reward type="LootItem" id="motu_tier2_buried_supplies" ischosen="true" value="1"/>
 		<reward type="LootItem" id="motu_tier2_fetch" ischosen="true" value="1"/>
@@ -2392,7 +2399,8 @@
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
-		<reward type="Item" id="超神强化结晶" value="5"/>
+		<reward type="Item" id="神级强化结晶" value="4"/>
+		<reward type="Item" id="超神强化结晶" value="3"/>
 		<reward type="Item" id="千变碎片" value="10"/>
 		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
 		<reward type="LootItem" id="motu_tier3_fetch" ischosen="true" value="2"/>
@@ -2405,7 +2413,8 @@
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
-		<reward type="Item" id="超神强化结晶" value="5"/>
+		<reward type="Item" id="神级强化结晶" value="4"/>
+		<reward type="Item" id="超神强化结晶" value="3"/>
 		<reward type="Item" id="千变碎片" value="10"/>
 		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
 		<reward type="LootItem" id="motu_tier3_fetch" ischosen="true" value="2"/>
@@ -2418,7 +2427,8 @@
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
-		<reward type="Item" id="超神强化结晶" value="5"/>
+		<reward type="Item" id="神级强化结晶" value="4"/>
+		<reward type="Item" id="超神强化结晶" value="3"/>
 		<reward type="Item" id="千变碎片" value="10"/>
 		<reward type="LootItem" id="motu_tier3_fetch_clear" ischosen="true" value="2"/>
 		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
@@ -2432,7 +2442,8 @@
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
-		<reward type="Item" id="超神强化结晶" value="5"/>
+		<reward type="Item" id="神级强化结晶" value="4"/>
+		<reward type="Item" id="超神强化结晶" value="3"/>
 		<reward type="Item" id="千变碎片" value="10"/>
 		<reward type="LootItem" id="motu_tier3_buried_supplies" ischosen="true" value="2"/>
 		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
@@ -2447,7 +2458,8 @@
 		<reward type="Item" id="星源水晶" value="600"/>
 		<reward type="Item" id="末石" value="600"/>
 		<reward type="Item" id="途石" value="600"/>
-		<reward type="Item" id="超神强化结晶" value="7"/>
+		<reward type="Item" id="神级强化结晶" value="10"/>
+		<reward type="Item" id="超神强化结晶" value="6"/>
 		<reward type="Item" id="千变碎片" value="15"/>
 		<reward type="LootItem" id="motu_tier4_fetch_clear" ischosen="true" value="2"/>
 		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="2"/>
@@ -2460,6 +2472,7 @@
 		<reward type="Item" id="星源水晶" value="600"/>
 		<reward type="Item" id="末石" value="600"/>
 		<reward type="Item" id="途石" value="600"/>
+		<reward type="Item" id="神级强化结晶" value="10"/>
 		<reward type="Item" id="超神强化结晶" value="7"/>
 		<reward type="Item" id="千变碎片" value="15"/>
 		<reward type="LootItem" id="motu_tier4_fetch_clear" ischosen="true" value="2"/>
@@ -2476,6 +2489,7 @@
 		<reward type="Item" id="星源水晶" value="1000"/>
 		<reward type="Item" id="末石" value="1000"/>
 		<reward type="Item" id="途石" value="1000"/>
+		<reward type="Item" id="神级强化结晶" value="15"/>
 		<reward type="Item" id="超神强化结晶" value="10"/>
 		<reward type="Item" id="千变碎片" value="20"/>
 		<reward type="LootItem" id="motu_tier5_clear" ischosen="true" value="2"/>
@@ -2490,6 +2504,7 @@
 		<reward type="Item" id="星源水晶" value="1000"/>
 		<reward type="Item" id="末石" value="1000"/>
 		<reward type="Item" id="途石" value="1000"/>
+		<reward type="Item" id="神级强化结晶" value="15"/>
 		<reward type="Item" id="超神强化结晶" value="10"/>
 		<reward type="Item" id="千变碎片" value="20"/>
 		<reward type="LootItem" id="motu_tier5_clear" ischosen="true" value="2"/>
