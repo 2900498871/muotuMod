@@ -1359,8 +1359,16 @@
 	<ingredient name="casinoCoin" count="500000"/>
 </recipe>-->
 
+	<recipe name="5技能点" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="10000"/>
+	</recipe>
+
+	<recipe name="10技能点" count="1" craft_time=".1">
+		<ingredient name="casinoCoin" count="20000"/>
+	</recipe>
+
 	<recipe name="100技能点" count="1" craft_time=".1">
-		<ingredient name="casinoCoin" count="250000"/>
+		<ingredient name="casinoCoin" count="200000"/>
 	</recipe>
 
 	<recipe name="200技能点" count="1" craft_time=".1">

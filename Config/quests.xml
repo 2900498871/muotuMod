@@ -119,8 +119,8 @@
 		<reward type="Item" id="[FFD306]新手·☆斧" value="3-6" />
 		<reward type="Item" id="传送核心" value="1" />												
 		<reward type="Item" id="连环任务击杀僵尸" value="1" />
-		<reward type="Item" id="可选职业" value="1" />
-		<reward type="Item" id="[2894FF]星源☆魂眼" value="1" />
+		<!--<reward type="Item" id="可选职业" value="1" />-->
+		<!--<reward type="Item" id="[2894FF]星源☆魂眼" value="1" />-->
 
 		<reward type="Item" id="[00FFFF]神☆[FF0000]之枪" value="3-6" />
 </quest>	
