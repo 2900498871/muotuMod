@@ -4,8 +4,7 @@
 	<!--等级上限  默认设定为1000级上线 可自定义修改-->
 	<set xpath="/progression/level/@max_level">1000</set>
 <append xpath="/progression/attributes">
-<attribute name="MoTu"  name_key="[00EBFF]末途" desc_key="[00EBFF]实体伤害提升 " icon="ui_game_symbol_twitch_confused_controls"  min_level="0" max_level="20" base_skill_point_cost="10" cost_multiplier_per_level="1.1">
-
+<attribute name="MoTu"  name_key="[00EBFF]末途" desc_key="[00EBFF]实体伤害提升 " icon="ui_game_symbol_influence"  min_level="0" max_level="20" base_skill_point_cost="10" cost_multiplier_per_level="1.1">
 	<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,20" value=".1,2"/>
 
@@ -13,24 +12,21 @@
 
 		</effect_group>
 </attribute>
-<attribute name="MoTu1"  name_key="[00EBFF]末途" desc_key="[00EBFF]方块伤害提升 " icon="ui_game_symbol_twitch_confused_controls"  min_level="0" max_level="10" base_skill_point_cost="10" cost_multiplier_per_level="1.1">
 
-	<effect_group>
-				<passive_effect name="BlockDamage" operation="perc_add" level="1,10" value=".1,1"/>
-
-			<effect_description level="1,10" desc_base="每级增加所有武器和工具10%方块伤害" long_desc_key=""/>
-
-		</effect_group>
-</attribute>
 
 </append>	
 <append xpath="/progression/skills">
-<skill name="skillAutoWeapons1" parent="attBooks" name_key="perkAutoWeapons0Name" desc_key="perkAutoWeapons0Desc" long_desc_key="perkBookGroupLongDesc" ><effect_group/></skill>
-</append>	
+	<skill name="职业技能" parent="MoTu" name_key="职业技能" desc_key="解锁职业技能" icon="ui_game_symbol_character"><effect_group/></skill>
+	<skill name="特殊工作台" parent="MoTu" name_key="模组专用工作台" desc_key="解锁工作台的制作" icon="ui_game_symbol_workbench"><effect_group/></skill>
+	<skill name="基础提升" parent="MoTu" name_key="基础提升" desc_key="解锁玩家体质素质，伤害等等增益" icon="ui_game_symbol_boxer"><effect_group/></skill>
+	<skill name="星源之力" parent="MoTu" name_key="星源之力" desc_key="解锁增加星源等级带来的增益效果" icon="ui_game_symbol_bull"><effect_group/></skill>
+	<skill name="专属技能书" parent="MoTu" name_key="模组技能提升" desc_key="解锁阅读各种技能书，解锁各种高阶物品" icon="ui_game_symbol_book"><effect_group/></skill>
+</append>
 	
 	
-<append xpath="/progression/perks">	
-<perk name="WUQI"  parent="MoTu" name_key="武器伤害提升" desc_key="每级提高武器伤害 10%" max_level="50"   base_skill_point_cost="0">
+<append xpath="/progression/perks">
+
+<perk name="WUQI"  parent="基础提升" name_key="武器伤害提升" desc_key="每级提高武器伤害 10%" max_level="50"   base_skill_point_cost="0">
 
 			<effect_group>
 			<requirement name="HoldingItemHasTags" tags="ranged,melee"/>
@@ -42,7 +38,7 @@
 		</effect_group>
 		</perk>
 
-<perk name="PINZ" parent="MoTu" name_key="品质提升" desc_key="品质提升" base_skill_point_cost="5" max_level="5">
+<perk name="PINZ" parent="基础提升" name_key="品质提升" desc_key="品质提升" base_skill_point_cost="5" max_level="5">
 
 	
 	<effect_group>
@@ -58,7 +54,7 @@
 
 </perk>
 
-<perk name="GZT" parent="MoTu" name_key="解锁各种师" desc_key="解锁各种师" base_skill_point_cost="1" max_level="5" >
+<perk name="GZT" parent="特殊工作台" name_key="解锁各种师" desc_key="解锁各种师" base_skill_point_cost="1" max_level="5" >
 
 	<effect_group>
 		
@@ -77,7 +73,7 @@
 	</effect_group>
 
 </perk>
-<perk name="souhuo" parent="MoTu" name_key="资源收获率" desc_key="每级增加所有资源收集率 20%" base_skill_point_cost="5"  max_level="5" cost_multiplier_per_level="1.5" >
+<perk name="souhuo" parent="基础提升" name_key="资源收获率" desc_key="每级增加所有资源收集率 20%" base_skill_point_cost="5"  max_level="5" cost_multiplier_per_level="1.5" >
 			<effect_group>
 				<passive_effect name="HarvestCount" operation="perc_add" level="1,5" value="0.2,1"/>
 				
@@ -88,7 +84,7 @@
 				<effect_description level="5" desc_base="增加所有资源收获率 100%" desc_key=""/>
 			</effect_group>
 		</perk>
-<perk name="SD" parent="MoTu" name_key="移动加速" desc_key="移动速度上升" base_skill_point_cost="0" max_level="5" >
+<perk name="SD" parent="基础提升" name_key="移动加速" desc_key="移动速度上升" base_skill_point_cost="0" max_level="5" >
 		<effect_group>
 				<passive_effect name="RunSpeed" operation="perc_add" level="1,5" value=".02,.1"/>
 				<passive_effect name="WalkSpeed" operation="perc_add" level="1,5" value=".02,.1"/>
@@ -108,7 +104,7 @@
 		</effect_group>
 	</perk>
 
-<perk name="HUI1" parent="MoTu" name_key="回复血量" desc_key="回复血量" base_skill_point_cost="10" max_level="10" >
+<perk name="HUI1" parent="基础提升" name_key="回复血量" desc_key="回复血量" base_skill_point_cost="10" max_level="10" >
 
 	
 	<effect_group>
@@ -128,7 +124,7 @@
 	</effect_group>
 
 </perk>
-<perk name="HUI2" parent="MoTu" name_key="回复耐力" desc_key="回复耐力" base_skill_point_cost="10" max_level="10" >
+<perk name="HUI2" parent="基础提升" name_key="回复耐力" desc_key="回复耐力" base_skill_point_cost="10" max_level="10" >
 
 	
 	<effect_group>
@@ -148,7 +144,7 @@
 	</effect_group>
 
 </perk>
-<perk name="HUI3" parent="MoTu" name_key="经验增加" desc_key="经验增加" base_skill_point_cost="1" max_level="10" >
+<perk name="HUI3" parent="基础提升" name_key="经验增加" desc_key="经验增加" base_skill_point_cost="1" max_level="10" >
 
 	
 	<effect_group>
@@ -169,7 +165,7 @@
 	</effect_group>
 
 </perk>
-<perk name="HUI4" parent="MoTu" name_key="制作时间" desc_key="制作时间" base_skill_point_cost="5" max_level="10" >
+<perk name="HUI4" parent="基础提升" name_key="制作时间" desc_key="制作时间" base_skill_point_cost="5" max_level="10" >
 
 	
 	<effect_group>
@@ -188,15 +184,12 @@
 		<effect_description level="10" desc_base="- 80% 制作时间" long_desc_key=""/>
 	</effect_group>
 </perk>
-<perk name="HUI5" parent="MoTu" name_key="任务宝物奖励" desc_key="任务宝物奖励" base_skill_point_cost="5" max_level="10" >
+<perk name="HUI5" parent="基础提升" name_key="任务宝物奖励" desc_key="任务宝物奖励" base_skill_point_cost="5" max_level="10" >
 
 	
 	<effect_group>
 		<passive_effect name="QuestBonusItemReward" operation="perc_add" level="1,10" value=".2,2"/>
-
 		<passive_effect name="QuestRewardChoiceCount" operation="base_add" level="10" value="1"/>
-
-
 		<effect_description level="1" desc_base="+ 20% 任务宝物奖励" long_desc_key=""/>
 		<effect_description level="2" desc_base="+ 40% 任务宝物奖励" long_desc_key=""/>
 		<effect_description level="3" desc_base="+ 60% 任务宝物奖励" long_desc_key=""/>
@@ -210,7 +203,7 @@
 	</effect_group>
 </perk>
 
-<perk name="jinzan"  parent="MoTu" name_key="近战攻速" desc_key="每级提高近战攻速 10%"   base_skill_point_cost="5"  max_level="5" cost_multiplier_per_level="1.5">
+<perk name="jinzan"  parent="基础提升" name_key="近战攻速" desc_key="每级提高近战攻速 10%"   base_skill_point_cost="5"  max_level="5" cost_multiplier_per_level="1.5">
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="melee"/>
@@ -222,7 +215,7 @@
 				<effect_description level="5" desc_base="提高近战攻速 25%" desc_key=""/>
 			</effect_group>
 		</perk>	
-<perk name="HUI11" parent="MoTu" name_key="远程射速" desc_key="每分钟发数" base_skill_point_cost="5" max_level="5">
+<perk name="HUI11" parent="基础提升" name_key="远程射速" desc_key="每分钟发数" base_skill_point_cost="5" max_level="5">
 
 	
 	<effect_group>
@@ -237,7 +230,7 @@
 		<effect_description level="5" desc_base="+ 25% 每分钟发数" long_desc_key=""/>
 	</effect_group>
 </perk>
-<perk name="HUI12" parent="MoTu" name_key="远程最大射程 箭矢速度" desc_key="最大射程 箭矢速度" base_skill_point_cost="5" max_level="5">
+<perk name="HUI12" parent="基础提升" name_key="远程最大射程 箭矢速度" desc_key="最大射程 箭矢速度" base_skill_point_cost="5" max_level="5">
 
 	
 	<effect_group>
@@ -269,7 +262,7 @@
 				<effect_description level="5" desc_base="+ 25% 最大射程，损伤衰减范围 ，箭矢和标枪的速度" long_desc_key=""/>
 			</effect_group>
 </perk>
-<perk name="HUI13" parent="MoTu" name_key="手持炮塔 部署和通用炮塔" desc_key="最大射程 箭矢速度" base_skill_point_cost="5" max_level="5" >
+<perk name="HUI13" parent="基础提升" name_key="手持炮塔 部署和通用炮塔" desc_key="最大射程 箭矢速度" base_skill_point_cost="5" max_level="5" >
 
 
 <effect_group name="Holding a turret">
@@ -301,7 +294,7 @@
 			</perk>
 
 
-<perk name="ammo9mm" parent="MoTu" name_key="9mm子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5" >
+<perk name="ammo9mm" parent="专属技能书" name_key="9mm子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5" >
 
 	<effect_group>
 		
@@ -320,7 +313,7 @@
 	</effect_group>
 
 </perk>
-<perk name="ammo44Ma" parent="MoTu" name_key="44子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5" >
+<perk name="ammo44Ma" parent="专属技能书" name_key="44子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5" >
 
 	<effect_group>
 		
@@ -339,7 +332,7 @@
 	</effect_group>
 
 </perk>
-<perk name="ammo762mm" parent="MoTu" name_key="762子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5" >
+<perk name="ammo762mm" parent="专属技能书" name_key="762子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5" >
 
 	<effect_group>
 		
@@ -358,7 +351,7 @@
 	</effect_group>
 
 </perk>
-<perk name="ammopaota" parent="MoTu" name_key="炮塔弹药伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5">
+<perk name="ammopaota" parent="专属技能书" name_key="炮塔弹药伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5">
 
 	<effect_group>
 		
@@ -377,7 +370,7 @@
 	</effect_group>
 
 </perk>
-<perk name="ammoSANDAN" parent="MoTu" name_key="散弹子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5" >
+<perk name="ammoSANDAN" parent="专属技能书" name_key="散弹子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="5" >
 
 	<effect_group>
 		
@@ -397,7 +390,7 @@
 
 </perk>
 
-<perk name="ammopaota1" parent="MoTu" name_key="炮塔散弹伤害增加" desc_key="可以用普通炮塔散弹合成" base_skill_point_cost="0" max_level="5">
+<perk name="ammopaota1" parent="专属技能书" name_key="炮塔散弹伤害增加" desc_key="可以用普通炮塔散弹合成" base_skill_point_cost="0" max_level="5">
 
 	<effect_group>
 		
@@ -417,7 +410,7 @@
 
 </perk>
 
-<perk name="ZY1" parent="MoTu1" name_key="近战武器大师" base_skill_point_cost="0"  max_level="1" >
+<perk name="ZY1" parent="职业技能" name_key="近战武器大师" base_skill_point_cost="0"  max_level="1" >
 		
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="melee"/>
@@ -432,7 +425,7 @@
 		</effect_group>
 		
 	</perk>
-<perk name="ZY2" parent="MoTu1" name_key="枪手技能" base_skill_point_cost="0"  max_level="1" >
+<perk name="ZY2" parent="职业技能" name_key="枪手技能" base_skill_point_cost="0"  max_level="1" >
 		
 		<effect_group>
 			<passive_effect name="EntityDamage" operation="perc_add" level="1" value="1"/>
@@ -445,7 +438,7 @@
 		</effect_group>
 		
 	</perk>
-<perk name="ZY3" parent="MoTu1" name_key="工程师技能" base_skill_point_cost="0"  max_level="1" >
+<perk name="ZY3" parent="职业技能" name_key="工程师技能" base_skill_point_cost="0"  max_level="1" >
 		
 
 		<effect_group>
@@ -459,7 +452,7 @@
 	
 		</effect_group>
 	</perk>
-<perk name="ZY4" parent="MoTu1" name_key="猎人技能" base_skill_point_cost="0"  max_level="1" >
+<perk name="ZY4" parent="职业技能" name_key="猎人技能" base_skill_point_cost="0"  max_level="1" >
 		
 	
 		<effect_group>
@@ -472,7 +465,7 @@
 			<effect_description level="1" desc_base="增加实体伤害+100% 移动速度+5% 收获率+25% 加载速度+30%" desc_key=""/>
 		</effect_group>
 	</perk>
-<perk name="ZY5" parent="MoTu1" name_key="军人技能" base_skill_point_cost="0"  max_level="1" >
+<perk name="ZY5" parent="职业技能" name_key="军人技能" base_skill_point_cost="0"  max_level="1" >
 		
 
 		<effect_group>
@@ -486,7 +479,7 @@
 	
 		</effect_group>
 	</perk>  
-<perk name="ZY6" parent="MoTu1" name_key="刺客大师" base_skill_point_cost="0"  max_level="1" >
+<perk name="ZY6" parent="职业技能" name_key="刺客大师" base_skill_point_cost="0"  max_level="1" >
 		
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1" value=".5" />
@@ -508,7 +501,7 @@
 	</perk>
 
 
-<perk name="SSS 9mm" parent="MoTu1" name_key="SSS 9mm子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
+<perk name="SSS 9mm" parent="专属技能书" name_key="SSS 9mm子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
 
 	<effect_group>
 		
@@ -519,18 +512,16 @@
 	</effect_group>
 
 </perk>
-<perk name="SSS 44" parent="MoTu1" name_key="SSS 44子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
+<perk name="SSS 44" parent="专属技能书" name_key="SSS 44子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
 
 	<effect_group>
 		
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1"	tags="44子弹-SSS"/>
-	
-			
 		<effect_description level="1" desc_base="解锁 44子弹-SSS  SSS级以上怪物掉落 " long_desc_key=""/>
 	</effect_group>
 
 </perk>
-<perk name="SSS 762" parent="MoTu1" name_key="SSS 762子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
+<perk name="SSS 762" parent="专属技能书" name_key="SSS 762子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
 
 	<effect_group>
 		
@@ -541,7 +532,7 @@
 	</effect_group>
 
 </perk>
-<perk name="SSS paota" parent="MoTu1" name_key="SSS 炮塔弹药伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
+<perk name="SSS paota" parent="专属技能书" name_key="SSS 炮塔弹药伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
 
 	<effect_group>
 		
@@ -552,7 +543,7 @@
 	</effect_group>
 
 </perk>
-<perk name="SSS SANDAN" parent="MoTu1" name_key="SSS 散弹子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
+<perk name="SSS SANDAN" parent="专属技能书" name_key="SSS 散弹子弹伤害增加" desc_key="可以用普通子弹合成" base_skill_point_cost="0" max_level="1" >
 
 	<effect_group>
 		
@@ -564,7 +555,7 @@
 
 </perk>
 
-<perk name="JINX" parent="MoTu1" name_key="金星 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1"  >
+<perk name="JINX" parent="星源之力" name_key="金星 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5"  >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -582,7 +573,7 @@
 
 		</effect_group>
 	</perk>
-<perk name="MUX" parent="MoTu1" name_key="木星 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1"  >
+<perk name="MUX" parent="星源之力" name_key="木星 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5"  >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -600,7 +591,7 @@
 
 		</effect_group>
 	</perk>
-<perk name="SUIX" parent="MoTu1" name_key="水星 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1"  >
+<perk name="SUIX" parent="星源之力" name_key="水星 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5"  >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -618,7 +609,7 @@
 
 		</effect_group>
 	</perk>
-<perk name="HUOX" parent="MoTu1" name_key="火星 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1"  >
+<perk name="HUOX" parent="星源之力" name_key="火星 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5"  >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -636,7 +627,7 @@
 
 		</effect_group>
 	</perk>
-<perk name="TUX" parent="MoTu1" name_key="土星 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1"  >
+<perk name="TUX" parent="星源之力" name_key="土星 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5"  >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -654,7 +645,7 @@
 
 		</effect_group>
 	</perk>
-<perk name="TIANX" parent="MoTu1" name_key="天王星 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1"  >
+<perk name="TIANX" parent="星源之力" name_key="天王星 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5"  >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -672,7 +663,7 @@
 
 		</effect_group>
 	</perk>
-<perk name="HAIX" parent="MoTu1" name_key="海王星 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1"  >
+<perk name="HAIX" parent="星源之力" name_key="海王星 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5"  >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -690,7 +681,7 @@
 
 		</effect_group>
 	</perk>
-<perk name="DIX" parent="MoTu1" name_key="地球 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1"  >
+<perk name="DIX" parent="星源之力" name_key="地球 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5"  >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -708,7 +699,7 @@
 
 		</effect_group>
 	</perk>
-<perk name="TAIX" parent="MoTu1" name_key="太阳 源能吸收" desc_key="伤害上升" base_skill_point_cost="100" max_level="5" cost_multiplier_per_level="1.1" >
+<perk name="TAIX" parent="星源之力" name_key="太阳 源能吸收" desc_key="伤害上升" base_skill_point_cost="200" max_level="5" cost_multiplier_per_level="1.5" >
 		<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5"/>
 				
@@ -727,7 +718,7 @@
 		</effect_group>
 	</perk>
 
-<perk name="XINY1"  parent="MoTu1" name_key="星源修炼" desc_key="每级提高武器伤害 10%" base_skill_point_cost="100" cost_multiplier_per_level="1.05" max_level="100" >
+<perk name="XINY1"  parent="星源之力" name_key="星源修炼" desc_key="每级提高武器伤害 10%" base_skill_point_cost="100" cost_multiplier_per_level="1.05" max_level="100" >
 
 			<effect_group>
 			<requirement name="HoldingItemHasTags" tags="ranged,melee"/>
@@ -737,7 +728,7 @@
 			<effect_description level="1,100" desc_base="每级增加所有武器10%实体伤害" long_desc_key=""/>
 			<effect_description level="51,100" desc_base="每级增加所有武器20%实体伤害" long_desc_key=""/>
 		</effect_group>
-		</perk>
+</perk>
 
 
 </append>	
