@@ -1,4 +1,9 @@
-<configs>	
+<configs>
+<!-- 修改洗点水的价格，防止玩家购买后洗点坏档 -->
+<append xpath="/items/item[@name='drinkJarGrandpasLearningElixir']">
+		<property name="EconomicValue" value="10000"/>
+</append>
+
 <append xpath="/items"><!--任务-->
 
 <item name="星源水晶">

@@ -275,9 +275,12 @@ feralHordeStageGS631
  		</effect_group>-->
  
  
- 	burntZombieSmoke.prefab
+        //无效果
+ 	    burntZombieSmoke.prefab
  		light_bullet_impact.prefab
+ 		//无效果
  		MinibikeParticles.prefab
+ 		//大烟，4s
  		p_big_smoke.prefab
  		p_blockdestroy_boulder.prefab
  		p_blockdestroy_cloth.prefab
@@ -299,6 +302,7 @@ feralHordeStageGS631
  		p_blood_impact.prefab
  		p_breath.prefab
  		p_breath_thirdperson.prefab
+ 		//火焰，清脆
  		p_burning_barrel.prefab
  		p_campfire.prefab
  		p_candleWall_flame.prefab
@@ -306,14 +310,21 @@ feralHordeStageGS631
  		p_chemistryStation.prefab
  		p_critical.prefab
  		p_distanceTest.prefab
+ 		//绿色闪电，2秒
  		p_electric_fence_sparks.prefab
  		p_electric_shock.prefab
+ 		//军肥自爆效果
  		p_fat_cop_explosion.prefab
  		p_fire_small.prefab
  		p_forge.prefab
+ 		//黑烟
  		p_generator.prefab
+ 		//白色的光点
  		p_hotembers.prefab
+ 		
+ 		//红色的光点
  		p_hotembersZombie.prefab
+ 		
  		p_impact_bullet_on_cloth.prefab
  		p_impact_bullet_on_earth.prefab
  		p_impact_bullet_on_glass.prefab
@@ -322,6 +333,7 @@ feralHordeStageGS631
  		p_impact_bullet_on_plant.prefab
  		p_impact_bullet_on_snow.prefab
  		p_impact_bullet_on_stone.prefab
+ 		//打水的效果
  		p_impact_bullet_on_water.prefab
  		p_impact_bullet_on_wood.prefab
  		p_impact_bullet_on_xt_tallgrass.prefab
@@ -373,6 +385,7 @@ feralHordeStageGS631
  		p_impact_wood_on_xt_tallgrass.prefab
  		p_nailgunfire.prefab
  		p_nozzleflash.prefab
+ 		//亮一下
  		p_nozzleflashuzi.prefab
  		p_nozzleflash_ak.prefab
  		p_nozzleflash_m136.prefab
@@ -388,8 +401,10 @@ feralHordeStageGS631
  		p_rocketLauncherFire.prefab
  		p_sandstorm.prefab
  		p_signal_flarePrefab.prefab
+ 		//好看的火
  		p_smoke.prefab
  		p_smokestorm.prefab
+ 		//雾气效果
  		p_snowstorm1.prefab
  		p_supply_crate_gib_Prefab.prefab
  		p_supply_crate_impact.prefab
@@ -415,8 +430,10 @@ feralHordeStageGS631
  		p_treeGib_winter02.prefab
  		p_treeGib_winter03.prefab
  		p_treeGib_winter_small.prefab
+ 		//无效果
  		p_vomitMouth.prefab
  		p_wire_tool_dust.prefab
  		p_wire_tool_sparks.prefab
  		RadiatedParticlesOnMesh.prefab
+ 		//无效果
  		Smoke_Unlit.prefab
