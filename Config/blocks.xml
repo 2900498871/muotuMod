@@ -484,34 +484,41 @@
 </block>
 
 <block name="源能 磨粉师">
-	<property name="CustomIcon" value="decoClassicDogHouse" />
+	<property name="CustomIcon" value="commercialDualMeter" />
 	<property name="CustomIconTint" value="8600FF" />
+	<property name="TintColor" value="B15BFF"/>
 	<property name="DisplayType" value="光环姬" />
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 磨粉师"/>
 	</property>
 	<property name="Extends" value="workbench1"/>
-	<property name="Model" value="Entities/OutdoorDecor/classicDogHousePrefab"/>
+	<!--<property name="Model" value="Entities/OutdoorDecor/classicDogHousePrefab"/>-->
+	<property name="Model" value="Entities/Industrial/electricalFuseBoxBuilding_05Prefab"/>
 	<drop event="Fall" name="源能 磨粉师" count="1" prob="1" stick_chance="0"/>
 </block>
 
 <block name="源能 制造师">
-	<property name="CustomIcon" value="cntStoreElectronicsBookShelfSpeaker" />
+	<property name="CustomIcon" value="commercialTripleMeter" />
 	<property name="CustomIconTint" value="F00078" />
+	<property name="TintColor" value="B15BFF"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 制造师"/>
 	</property>
 	<property name="Extends" value="workbench1"/>
-	<property name="Model" value="Entities/Commercial/bookShelfSpeakerPrefab"/>
+	<property name="Model" value="Entities/Industrial/electricalFuseBoxBuilding_03Prefab"/>
+	<!--<property name="Model" value="Entities/Commercial/bookShelfSpeakerPrefab"/>-->
 	<drop event="Fall" name="源能 制造师" count="1" prob="1" stick_chance="0"/>
 </block>
 
 <block name="源能 融合师">
-	<property name="CustomIcon" value="batterybank" />
+	<property name="CustomIcon" value="commercialQuadMeter" />
 	<property name="CustomIconTint" value="EA0000" />
-	<property name="Model" value="Entities/Electrical/battery_bankPrefab" />
+	<property name="TintColor" value="B15BFF"/>
+	<property name="Model" value="Entities/Industrial/controlPanelTop_05Prefab"/>
+	<property name="Model" value="Entities/Industrial/electricalFuseBoxBuilding_06Prefab"/>
+	<!--<property name="Model" value="Entities/Electrical/battery_bankPrefab" />-->
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 融合师"/>
@@ -524,6 +531,7 @@
 <block name="源能 共震合成师">
 	<property name="CustomIcon" value="decoReptileTerrarium" />
 	<property name="CustomIconTint" value="00DB00" />
+	<property name="TintColor" value="B15BFF"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 共震合成师"/>
@@ -536,6 +544,7 @@
 <block name="源能 合成师">
 	<property name="CustomIcon" value="tableSaw" />
 	<property name="CustomIconTint" value="F75000" />
+	<property name="TintColor" value="B15BFF"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 合成师"/>
