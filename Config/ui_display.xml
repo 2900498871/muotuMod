@@ -2,37 +2,37 @@
 
 <append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='']" >
 
-		<crafting_category name="MOTU" icon="ui_game_symbol_MoTu" display_name="末途物品" />
+		<crafting_category name="MOTU" icon="ui_game_symbol_map_house" display_name="末途物品" />
 
 </append>
 	
 <append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='workbench']" >
 
-		<crafting_category name="MOTU" icon="ui_game_symbol_MoTu" display_name="末途物品" />
+		<crafting_category name="MOTU" icon="ui_game_symbol_map_house" display_name="末途物品" />
 
 </append>
 	
 <append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='']" >
 
-		<crafting_category name="MOTU1" icon="ui_game_symbol_MoTu1" display_name="武器" />
+		<crafting_category name="MOTU1" icon="ui_game_symbol_tool" display_name="武器" />
 
 </append>
 	
 <append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='workbench']" >
 
-		<crafting_category name="MOTU1" icon="ui_game_symbol_MoTu1" display_name="武器" />
+		<crafting_category name="MOTU1" icon="ui_game_symbol_tool" display_name="武器" />
 
 </append>
 	
 <append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='']" >
 
-		<crafting_category name="MOTU2" icon="paota" display_name="技能书" />
+		<crafting_category name="MOTU2" icon="ui_game_symbol_science" display_name="技能书" />
 
 </append>
 	
 <append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='workbench']" >
 
-		<crafting_category name="MOTU2" icon="paota" display_name="技能书" />
+		<crafting_category name="MOTU2" icon="ui_game_symbol_science" display_name="技能书" />
 
 </append>
 
