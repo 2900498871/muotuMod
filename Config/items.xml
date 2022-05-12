@@ -44376,6 +44376,62 @@ needed?
 				<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" range="15" buff="buffBansheeScream"/>
 			</effect_group>
 		</item>
+
+		<!--女鬼的伤害-->
+		<item name="meleeHandBansheeNGBY">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="2"/>
+				<property name="DamageEntity" value="60"/>
+				<property name="DamageBlock" value="200"/></property>
+			<effect_group name="meleeHandBanshee" tiered="false">
+				<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" range="15" buff="buffBansheeScream"/>
+			</effect_group>
+		</item>
+
+		<item name="meleeHandBansheeNGWX1">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="3"/>
+				<property name="DamageEntity" value="120"/>
+				<property name="DamageBlock" value="300"/></property>
+			<effect_group name="meleeHandBanshee" tiered="false">
+				<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" range="15" buff="buffBansheeScream"/>
+			</effect_group>
+		</item>
+
+		<item name="meleeHandBansheeNGWX2">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="4"/>
+				<property name="DamageEntity" value="180"/>
+				<property name="DamageBlock" value="400"/></property>
+			<effect_group name="meleeHandBanshee" tiered="false">
+				<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" range="15" buff="buffBansheeScream"/>
+			</effect_group>
+		</item>
+
+		<item name="meleeHandBansheeNGWX3">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="5"/>
+				<property name="DamageEntity" value="240"/>
+				<property name="DamageBlock" value="500"/></property>
+			<effect_group name="meleeHandBanshee" tiered="false">
+				<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" range="15" buff="buffBansheeScream"/>
+			</effect_group>
+		</item>
+
+
+
 		<item name="meleeHandUndertaker">
 			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>

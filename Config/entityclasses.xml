@@ -4880,7 +4880,7 @@
 			<property name="LootDropProb" value="1"/>
 			<!-- XP strong -->
 			<property name="WalkType" value="8"/>
-			<property name="HandItem" value="meleeHandBanshee"/>
+			<property name="HandItem" value="meleeHandBansheeNGBY"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
@@ -4891,7 +4891,7 @@
 		</entity_class>
 
 		<entity_class name="[4A4AFF]外星-透明女鬼☆" extends="zombieBoeFeral">
-			<property name="SizeScale" value="1"/>
+			<property name="SizeScale" value="2"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,banshee" />
@@ -4908,7 +4908,7 @@
 			<property name="LootDropProb" value="1"/>
 			<!-- XP strong -->
 			<property name="WalkType" value="8"/>
-			<property name="HandItem" value="meleeHandBanshee"/>
+			<property name="HandItem" value="meleeHandBansheeNGWX1"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
@@ -4920,7 +4920,7 @@
 
 
 		<entity_class name="[EAC100]外星-透明女鬼☆☆" extends="zombieBoeFeral">
-			<property name="SizeScale" value="1"/>
+			<property name="SizeScale" value="3"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,banshee" />
@@ -4937,7 +4937,7 @@
 			<property name="LootDropProb" value="1"/>
 			<!-- XP strong -->
 			<property name="WalkType" value="8"/>
-			<property name="HandItem" value="meleeHandBanshee"/>
+			<property name="HandItem" value="meleeHandBansheeNGWX2"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="500000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
@@ -4949,7 +4949,7 @@
 
 
 		<entity_class name="[B766AD]外星-透明女鬼☆☆☆" extends="zombieBoeFeral">
-			<property name="SizeScale" value="1"/>
+			<property name="SizeScale" value="4"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,banshee" />
@@ -4966,7 +4966,7 @@
 			<property name="LootDropProb" value="1"/>
 			<!-- XP strong -->
 			<property name="WalkType" value="8"/>
-			<property name="HandItem" value="meleeHandBanshee"/>
+			<property name="HandItem" value="meleeHandBansheeNGWX3"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="1000000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
