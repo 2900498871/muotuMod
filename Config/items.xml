@@ -47387,13 +47387,91 @@ needed?
 				<property name="Range" value="1.98"/>
 				<property name="Sphere" value="0.4"/>
 				<property name="Block_range" value="2.4"/>
-				<property name="DamageEntity" value="33"/>
+				<property name="DamageEntity" value="60"/>
 				<property name="DamageBlock" value="80"/>
 				<property name="Buff" value="buffArmBroken,buffInjuryOpenWound"/>
 				<property name="Sound_start" value="swoosh"/>
 			</property>
 			<effect_group name="meleeHandZombieIronMan" tiered="false">
 				<passive_effect name="DamageFalloffRange" operation="base_set" value="1.65"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".12" tags="buffArmBroken"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryOpenWound"/>
+			</effect_group>
+		</item>
+
+		<item name="meleeHandZombieIronManWx1">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="Tags" value="blunt,melee,light"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="HoldType" value="9"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Canhold" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Candrop" value="false"/>
+			<property class="Action0"><!-- AttackAction -->
+				<property name="Class" value="Melee"/>
+				<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Range" value="2"/>
+				<property name="Sphere" value="0.4"/>
+				<property name="Block_range" value="2.4"/>
+				<property name="DamageEntity" value="120"/>
+				<property name="DamageBlock" value="100"/>
+				<property name="Buff" value="buffArmBroken,buffInjuryOpenWound"/>
+				<property name="Sound_start" value="swoosh"/>
+			</property>
+			<effect_group name="meleeHandZombieIronMan" tiered="false">
+				<passive_effect name="BuffProcChance" operation="base_set" value=".12" tags="buffArmBroken"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryOpenWound"/>
+			</effect_group>
+		</item>
+
+		<item name="meleeHandZombieIronManWx2">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="Tags" value="blunt,melee,light"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="HoldType" value="9"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Canhold" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Candrop" value="false"/>
+			<property class="Action0"><!-- AttackAction -->
+				<property name="Class" value="Melee"/>
+				<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Range" value="3"/>
+				<property name="Sphere" value="0.4"/>
+				<property name="Block_range" value="2.4"/>
+				<property name="DamageEntity" value="180"/>
+				<property name="DamageBlock" value="200"/>
+				<property name="Buff" value="buffArmBroken,buffInjuryOpenWound"/>
+				<property name="Sound_start" value="swoosh"/>
+			</property>
+			<effect_group name="meleeHandZombieIronMan" tiered="false">
+				<passive_effect name="BuffProcChance" operation="base_set" value=".12" tags="buffArmBroken"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryOpenWound"/>
+			</effect_group>
+		</item>
+
+		<item name="meleeHandZombieIronManWx3">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="Tags" value="blunt,melee,light"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="HoldType" value="9"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Canhold" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Candrop" value="false"/>
+			<property class="Action0"><!-- AttackAction -->
+				<property name="Class" value="Melee"/>
+				<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Range" value="4"/>
+				<property name="Sphere" value="0.4"/>
+				<property name="Block_range" value="2.4"/>
+				<property name="DamageEntity" value="240"/>
+				<property name="DamageBlock" value="300"/>
+				<property name="Buff" value="buffArmBroken,buffInjuryOpenWound"/>
+				<property name="Sound_start" value="swoosh"/>
+			</property>
+			<effect_group name="meleeHandZombieIronMan" tiered="false">
 				<passive_effect name="BuffProcChance" operation="base_set" value=".12" tags="buffArmBroken"/>
 				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryOpenWound"/>
 			</effect_group>

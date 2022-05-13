@@ -8116,14 +8116,14 @@
 			<property name="ReplaceMaterial0" value="shapes/materials/wrought_iron_metal"/>
 			<property name="WalkType" value="7"/>
 			<property name="Mass" value="300"/>
-			<property name="SizeScale" value="1.1"/>
+			<property name="SizeScale" value="1.8"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="StompsSpikes" value="true"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 			<property name="JumpMaxDistance" value="10, 20"/>
 			<property name="MoveSpeedAggro" value=".6, 1.2"/>
-			<property name="HandItem" value="meleeHandZombieIronMan"/>
+			<property name="HandItem" value="meleeHandZombieIronManWx1"/>
 			<property name="ExperienceGain" value="3300"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -8144,14 +8144,14 @@
 			<property name="ReplaceMaterial0" value="shapes/materials/wrought_iron_metal"/>
 			<property name="WalkType" value="7"/>
 			<property name="Mass" value="300"/>
-			<property name="SizeScale" value="1.1"/>
+			<property name="SizeScale" value="2.4"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="StompsSpikes" value="true"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 			<property name="JumpMaxDistance" value="10, 20"/>
 			<property name="MoveSpeedAggro" value=".6, 1.2"/>
-			<property name="HandItem" value="meleeHandZombieIronMan"/>
+			<property name="HandItem" value="meleeHandZombieIronManWx2"/>
 			<property name="ExperienceGain" value="3300"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -8172,14 +8172,14 @@
 			<property name="ReplaceMaterial0" value="shapes/materials/wrought_iron_metal"/>
 			<property name="WalkType" value="7"/>
 			<property name="Mass" value="300"/>
-			<property name="SizeScale" value="1.1"/>
+			<property name="SizeScale" value="3"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="StompsSpikes" value="true"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 			<property name="JumpMaxDistance" value="10, 20"/>
 			<property name="MoveSpeedAggro" value=".6, 1.2"/>
-			<property name="HandItem" value="meleeHandZombieIronMan"/>
+			<property name="HandItem" value="meleeHandZombieIronManWx3"/>
 			<property name="ExperienceGain" value="3300"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
