@@ -777,7 +777,7 @@
 
 <block name="星尘矿石-无"><!-- 铁 -->
 	<property name="Extends" value="矿石-无"/>
-
+	<property name="TintColor" value="921AFF"/>
 	<property name="Model" value="Entities/Resources/oreIronBoulderPrefab"/>
 	
 	<property name="Material" value="Mbedrock"/>
@@ -807,6 +807,7 @@
 </block>
 <block name="星尘矿石">
 	<property name="CustomIcon" value="orePotassiumNitrateBoulder" />
+	<property name="TintColor" value="921AFF"/>
 	<property name="Extends" value="星尘矿石-无"/>
 	<property name="Material" value="Mmetal_hard"/>
 	<property name="EconomicValue" value="200"/>
@@ -815,6 +816,7 @@
 
 <block name="[2894FF]铱矿矿石-无"><!-- 矿石 -->
 	<property name="CustomIconTint" value="2894FF" />
+	<property name="TintColor" value="2894FF"/>
 	<property name="Extends" value="矿石-无"/>
 	<property name="Model" value="Entities/Resources/oreLeadBoulderPrefab"/>
 	<property name="Material" value="Mbedrock"/>
@@ -834,7 +836,7 @@
 	
 </block>
 <block name="[2894FF]铱矿矿石">
-
+	<property name="TintColor" value="2894FF"/>
 	<property name="Extends" value="[2894FF]铱矿矿石-无"/>
 	<property name="Material" value="Mmetal_hard"/>
 	<property name="EconomicValue" value="200"/>
@@ -844,6 +846,7 @@
 
 <block name="[FFD306]钨矿矿石-无"><!-- 矿石 -->
     <property name="CustomIconTint" value="FFD306" />
+	<property name="TintColor" value="CE0000"/>
 	<property name="Extends" value="矿石-无"/>
 	<property name="Tags" value="ore,surfaceOre,coalBurnedDmg"/>
 	<property name="Model" value="Entities/Resources/oreCoalBoulderPrefab"/>
@@ -866,7 +869,7 @@
 	
 </block>
 <block name="[FFD306]钨矿矿石">
-
+	<property name="TintColor" value="CE0000"/>
 	<property name="Extends" value="[FFD306]钨矿矿石-无"/>
 	<property name="Material" value="Mmetal_hard"/>
 	<property name="EconomicValue" value="200"/>
@@ -876,6 +879,7 @@
 
 <block name="[40E0D0]钛矿矿石-无"><!-- 矿石 -->
 	<property name="CustomIconTint" value="40E0D0" />
+	<property name="TintColor" value="40E0D0"/>
 	<property name="Extends" value="矿石-无"/>
 	<property name="Model" value="Entities/Resources/oreNitrateBoulderPrefab"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="50" tag="oreWoodHarvest"/>
@@ -896,7 +900,7 @@
 	
 </block>
 <block name="[40E0D0]钛矿矿石">
-
+	<property name="TintColor" value="40E0D0"/>
 	<property name="Extends" value="[40E0D0]钛矿矿石-无"/>
 	<property name="Material" value="Mmetal_hard"/>
 	<property name="EconomicValue" value="200"/>
@@ -906,6 +910,7 @@
 
 <block name="[B15BFF]镭矿矿石-无"><!-- 矿石 -->
 	<property name="CustomIconTint" value="B15BFF" />
+	<property name="TintColor" value="B15BFF"/>
 	<property name="Extends" value="矿石-无"/>
 	<property name="Model" value="Entities/Resources/oreShaleBoulderPrefab"/>
 	<drop event="Harvest" name="resourceOilShale" count="50" tag="oreWoodHarvest"/>
@@ -926,7 +931,7 @@
 	
 </block>
 <block name="[B15BFF]镭矿矿石">
-
+	<property name="TintColor" value="B15BFF"/>
 	<property name="Extends" value="[B15BFF]镭矿矿石-无"/>
 	<property name="Material" value="Mmetal_hard"/>
 	<property name="EconomicValue" value="200"/>
