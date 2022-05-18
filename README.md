@@ -437,3 +437,9 @@ feralHordeStageGS631
  		RadiatedParticlesOnMesh.prefab
  		//无效果
  		Smoke_Unlit.prefab
+ 		
+ 		zombieSantaBoss
+ 		zombieFireScreamer
+ 		
+ 		
+ 		//女鬼，钢铁侠调整了，重枪手,重炮手

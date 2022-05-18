@@ -44203,6 +44203,8 @@ needed?
 
 
 <append xpath="/items">
+
+        <!--重炮手调整-->
 		<item name="meleeHandSpiritJuggernaut">
 			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
@@ -44243,6 +44245,176 @@ needed?
 				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/>
 			</effect_group>
 		</item>
+
+		 <!--重炮手调整-->
+		<item name="meleeHandSpiritJuggernautBY">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="1.75"/>
+				<property name="DamageEntity" value="80"/>
+				<property name="DamageBlock" value="100"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+				<property name="Sound_start" value="Auger_Fire_Start"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalsolidhitorganic"/></property>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Vomit"/>
+				<property name="Delay" value=".3"/>
+				<property name="Range" value="500"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="SpiritJuggernautProjectile"/>
+				<property name="Sound_warning" value="demolitionzexplodewarning"/>
+				<property name="Sound_start" value="m136_fire"/>
+				<property name="Sound_repeat" value=""/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value=""/>
+				<property name="Sound_reload" value=""/></property>
+			<effect_group name="meleeHandSpiritJuggernaut" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="100"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInjuryBleedingZombie"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/>
+			</effect_group>
+		</item>
+
+		 <!--重炮手调整-->
+		<item name="meleeHandSpiritJuggernautWx1">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="1.75"/>
+				<property name="DamageEntity" value="150"/>
+				<property name="DamageBlock" value="150"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+				<property name="Sound_start" value="Auger_Fire_Start"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalsolidhitorganic"/></property>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Vomit"/>
+				<property name="Delay" value=".3"/>
+				<property name="Range" value="500"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="SpiritJuggernautProjectile"/>
+				<property name="Sound_warning" value="demolitionzexplodewarning"/>
+				<property name="Sound_start" value="m136_fire"/>
+				<property name="Sound_repeat" value=""/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value=""/>
+				<property name="Sound_reload" value=""/></property>
+			<effect_group name="meleeHandSpiritJuggernaut" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="100"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInjuryBleedingZombie"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/>
+			</effect_group>
+		</item>
+
+		 <!--重炮手调整-->
+		<item name="meleeHandSpiritJuggernautWx2">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="1.75"/>
+				<property name="DamageEntity" value="200"/>
+				<property name="DamageBlock" value="200"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+				<property name="Sound_start" value="Auger_Fire_Start"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalsolidhitorganic"/></property>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Vomit"/>
+				<property name="Delay" value=".3"/>
+				<property name="Range" value="500"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="SpiritJuggernautProjectile"/>
+				<property name="Sound_warning" value="demolitionzexplodewarning"/>
+				<property name="Sound_start" value="m136_fire"/>
+				<property name="Sound_repeat" value=""/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value=""/>
+				<property name="Sound_reload" value=""/></property>
+			<effect_group name="meleeHandSpiritJuggernaut" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="100"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInjuryBleedingZombie"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/>
+			</effect_group>
+		</item>
+
+		 <!--重炮手调整-->
+		<item name="meleeHandSpiritJuggernautWx3">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="1.75"/>
+				<property name="DamageEntity" value="300"/>
+				<property name="DamageBlock" value="300"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+				<property name="Sound_start" value="Auger_Fire_Start"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalsolidhitorganic"/></property>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Vomit"/>
+				<property name="Delay" value=".3"/>
+				<property name="Range" value="500"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="SpiritJuggernautProjectile"/>
+				<property name="Sound_warning" value="demolitionzexplodewarning"/>
+				<property name="Sound_start" value="m136_fire"/>
+				<property name="Sound_repeat" value=""/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value=""/>
+				<property name="Sound_reload" value=""/></property>
+			<effect_group name="meleeHandSpiritJuggernaut" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="100"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInjuryBleedingZombie"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/>
+			</effect_group>
+		</item>
+
+
 		<item name="SpiritJuggernautProjectile">
 			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketPrefab.prefab"/>
 			<property name="Material" value="Mmetal"/>
@@ -46710,6 +46882,149 @@ needed?
 				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunnedX"/>
 			</effect_group>
 		</item>
+
+		<!--重枪手的攻击伤害-->
+		<item name="meleeHandZombieGunnerBY">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="3"/>
+				<property name="DamageEntity" value="60"/>
+				<property name="DamageBlock" value="150"/>
+				<property name="Buff" value="buffArmBroken,buffInjuryStunned01"/>
+			</property>
+			<property class="Action1"> <!-- UseAction -->
+				<property name="Class" value="Vomit"/>
+				<property name="Delay" value="0.2"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Range" value="200"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="GunVomitProjectile"/>
+				<property name="Sound_warning" value="hulkvomitwarning"/>
+				<property name="Sound_start" value="ak47_fire"/>
+				<property name="Sound_end" value="ak47_fire_end"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInjuryStunnedX"/>
+			</property>
+			<effect_group name="meleeHandZombieGunner" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="100"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="25"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="4"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffArmBroken"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunnedX"/>
+			</effect_group>
+		</item>
+<!--重枪手的攻击伤害-->
+		<item name="meleeHandZombieGunnerWx1">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="3"/>
+				<property name="DamageEntity" value="100"/>
+				<property name="DamageBlock" value="200"/>
+				<property name="Buff" value="buffArmBroken,buffInjuryStunned01"/>
+			</property>
+			<property class="Action1"> <!-- UseAction -->
+				<property name="Class" value="Vomit"/>
+				<property name="Delay" value="0.2"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Range" value="200"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="GunVomitProjectile"/>
+				<property name="Sound_warning" value="hulkvomitwarning"/>
+				<property name="Sound_start" value="ak47_fire"/>
+				<property name="Sound_end" value="ak47_fire_end"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInjuryStunnedX"/>
+			</property>
+			<effect_group name="meleeHandZombieGunner" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="100"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="25"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="4"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffArmBroken"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunnedX"/>
+			</effect_group>
+		</item>
+<!--重枪手的攻击伤害-->
+		<item name="meleeHandZombieGunnerWx2">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="3"/>
+				<property name="DamageEntity" value="150"/>
+				<property name="DamageBlock" value="200"/>
+				<property name="Buff" value="buffArmBroken,buffInjuryStunned01"/>
+			</property>
+			<property class="Action1"> <!-- UseAction -->
+				<property name="Class" value="Vomit"/>
+				<property name="Delay" value="0.2"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Range" value="200"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="GunVomitProjectile"/>
+				<property name="Sound_warning" value="hulkvomitwarning"/>
+				<property name="Sound_start" value="ak47_fire"/>
+				<property name="Sound_end" value="ak47_fire_end"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInjuryStunnedX"/>
+			</property>
+			<effect_group name="meleeHandZombieGunner" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="100"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="25"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="4"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffArmBroken"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunnedX"/>
+			</effect_group>
+		</item>
+<!--重枪手的攻击伤害-->
+		<item name="meleeHandZombieGunnerWx3">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Degradation" value="99999" param1="true"/>
+			<property class="Action0">
+				<property name="Range" value="3"/>
+				<property name="DamageEntity" value="200"/>
+				<property name="DamageBlock" value="300"/>
+				<property name="Buff" value="buffArmBroken,buffInjuryStunned01"/>
+			</property>
+			<property class="Action1"> <!-- UseAction -->
+				<property name="Class" value="Vomit"/>
+				<property name="Delay" value="0.2"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Range" value="200"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="GunVomitProjectile"/>
+				<property name="Sound_warning" value="hulkvomitwarning"/>
+				<property name="Sound_start" value="ak47_fire"/>
+				<property name="Sound_end" value="ak47_fire_end"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInjuryStunnedX"/>
+			</property>
+			<effect_group name="meleeHandZombieGunner" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="100"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="25"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="4"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffArmBroken"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunnedX"/>
+			</effect_group>
+		</item>
+
+
 
 		<item name="GunVomitProjectile">
 			<property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>

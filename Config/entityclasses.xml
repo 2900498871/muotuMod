@@ -4407,7 +4407,7 @@
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
-			<property name="HandItem" value="meleeHandSpiritJuggernaut"/>
+			<property name="HandItem" value="meleeHandSpiritJuggernautBY"/>
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="RootMotion" value="true"/>
@@ -4474,7 +4474,7 @@
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
-			<property name="HandItem" value="meleeHandSpiritJuggernaut"/>
+			<property name="HandItem" value="meleeHandSpiritJuggernautWx1"/>
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="RootMotion" value="true"/>
@@ -4538,7 +4538,7 @@
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
-			<property name="HandItem" value="meleeHandSpiritJuggernaut"/>
+			<property name="HandItem" value="meleeHandSpiritJuggernautWx2"/>
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="RootMotion" value="true"/>
@@ -4602,7 +4602,7 @@
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
-			<property name="HandItem" value="meleeHandSpiritJuggernaut"/>
+			<property name="HandItem" value="meleeHandSpiritJuggernautWx3"/>
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="RootMotion" value="true"/>
@@ -7949,7 +7949,7 @@
 			<property name="SoundSense" value="demolitionzsense"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 			<property name="PainResistPerHit" value="1"/>
-			<property name="HandItem" value="meleeHandZombieGunner"/>
+			<property name="HandItem" value="meleeHandZombieGunnerBY"/>
 			<property name="ExperienceGain" value="5000"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7988,7 +7988,7 @@
 			<property name="SoundSense" value="demolitionzsense"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 			<property name="PainResistPerHit" value="1"/>
-			<property name="HandItem" value="meleeHandZombieGunner"/>
+			<property name="HandItem" value="meleeHandZombieGunnerWx1"/>
 			<property name="ExperienceGain" value="5000"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -8027,7 +8027,7 @@
 			<property name="SoundSense" value="demolitionzsense"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 			<property name="PainResistPerHit" value="1"/>
-			<property name="HandItem" value="meleeHandZombieGunner"/>
+			<property name="HandItem" value="meleeHandZombieGunnerWx2"/>
 			<property name="ExperienceGain" value="5000"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -8066,7 +8066,7 @@
 			<property name="SoundSense" value="demolitionzsense"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 			<property name="PainResistPerHit" value="1"/>
-			<property name="HandItem" value="meleeHandZombieGunner"/>
+			<property name="HandItem" value="meleeHandZombieGunnerWx3"/>
 			<property name="ExperienceGain" value="5000"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
