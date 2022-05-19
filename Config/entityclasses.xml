@@ -5710,7 +5710,7 @@
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
-			<property name="HandItem" value="meleeHandUndertaker"/>
+			<property name="HandItem" value="meleeHandUndertakerBY"/>
 			<property name="ExperienceGain" value="4500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="WalkType" value="2"/>
@@ -5733,7 +5733,7 @@
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
-			<property name="HandItem" value="meleeHandUndertaker"/>
+			<property name="HandItem" value="meleeHandUndertakerWx1"/>
 			<property name="ExperienceGain" value="4500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="WalkType" value="2"/>
@@ -5755,7 +5755,7 @@
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
-			<property name="HandItem" value="meleeHandUndertaker"/>
+			<property name="HandItem" value="meleeHandUndertakerWx2"/>
 			<property name="ExperienceGain" value="4500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="WalkType" value="2"/>
@@ -5777,7 +5777,7 @@
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
-			<property name="HandItem" value="meleeHandUndertaker"/>
+			<property name="HandItem" value="meleeHandUndertakerWx3"/>
 			<property name="ExperienceGain" value="4500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="WalkType" value="2"/>
@@ -5802,7 +5802,7 @@
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="entity,zombie,walker,boss,bomber,umazombie,bomber" />
-			<property name="HandItem" value="meleeHandBomber"/>
+			<property name="HandItem" value="meleeHandBomberBY"/>
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="WalkType" value="1"/>
@@ -5866,7 +5866,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,parasite" />
 			<property name="LootDropProb" value="1"/>
 			<property name="ExperienceGain" value="5000"/>
-			<property name="HandItem" value="meleeHandParasite"/>
+			<property name="HandItem" value="meleeHandParasiteJSBY"/>
 			<property name="SurfaceCategory" value="organic"/>
 			<property name="WalkType" value="6"/>
 			<property name="MoveSpeed" value="0.5"/>
@@ -5887,7 +5887,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,parasite" />
 			<property name="LootDropProb" value="1"/>
 			<property name="ExperienceGain" value="5000"/>
-			<property name="HandItem" value="meleeHandParasite"/>
+			<property name="HandItem" value="meleeHandParasiteJSWx1"/>
 			<property name="SurfaceCategory" value="organic"/>
 			<property name="WalkType" value="6"/>
 			<property name="MoveSpeed" value="0.5"/>
@@ -5909,7 +5909,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,parasite" />
 			<property name="LootDropProb" value="1"/>
 			<property name="ExperienceGain" value="5000"/>
-			<property name="HandItem" value="meleeHandParasite"/>
+			<property name="HandItem" value="meleeHandParasiteJSWx2"/>
 			<property name="SurfaceCategory" value="organic"/>
 			<property name="WalkType" value="6"/>
 			<property name="MoveSpeed" value="0.5"/>
@@ -5930,7 +5930,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,parasite" />
 			<property name="LootDropProb" value="1"/>
 			<property name="ExperienceGain" value="5000"/>
-			<property name="HandItem" value="meleeHandParasite"/>
+			<property name="HandItem" value="meleeHandParasiteJSWx3"/>
 			<property name="SurfaceCategory" value="organic"/>
 			<property name="WalkType" value="6"/>
 			<property name="MoveSpeed" value="0.5"/>
@@ -5953,7 +5953,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
 			<property name="ExperienceGain" value="6000"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandWendigo"/>
+			<property name="HandItem" value="meleeHandWendigoWnBY"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="WalkType" value="2"/>
 			<property name="MoveSpeedAggro" value="1, 1.5"/>
@@ -5981,7 +5981,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
 			<property name="ExperienceGain" value="6000"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandWendigo"/>
+			<property name="HandItem" value="meleeHandWendigoWnWx1"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="WalkType" value="2"/>
 			<property name="MoveSpeedAggro" value="1, 1.5"/>
@@ -6009,7 +6009,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
 			<property name="ExperienceGain" value="6000"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandWendigo"/>
+			<property name="HandItem" value="meleeHandWendigoWnWx2"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="WalkType" value="2"/>
 			<property name="MoveSpeedAggro" value="1, 1.5"/>
@@ -6037,7 +6037,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
 			<property name="ExperienceGain" value="6000"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandWendigo"/>
+			<property name="HandItem" value="meleeHandWendigoWnWx3"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="WalkType" value="2"/>
 			<property name="MoveSpeedAggro" value="1, 1.5"/>
@@ -6075,7 +6075,7 @@
 			<property name="MoveSpeed" value=".7"/>
 			<property name="MoveSpeedAggro" value="2, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
-			<property name="HandItem" value="meleeHandArchon"/>
+			<property name="HandItem" value="meleeHandArchonFTBY"/>
 			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200"/>
 			<property name="AITask-2" value="BreakBlock"/>
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
@@ -6127,7 +6127,7 @@
 			<property name="MoveSpeed" value=".7"/>
 			<property name="MoveSpeedAggro" value="2, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
-			<property name="HandItem" value="meleeHandArchon"/>
+			<property name="HandItem" value="meleeHandArchonFTWx1"/>
 			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200"/>
 			<property name="AITask-2" value="BreakBlock"/>
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
@@ -6177,7 +6177,7 @@
 			<property name="MoveSpeed" value=".7"/>
 			<property name="MoveSpeedAggro" value="2, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
-			<property name="HandItem" value="meleeHandArchon"/>
+			<property name="HandItem" value="meleeHandArchonFTWx2"/>
 			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200"/>
 			<property name="AITask-2" value="BreakBlock"/>
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
@@ -6227,7 +6227,7 @@
 			<property name="MoveSpeed" value=".7"/>
 			<property name="MoveSpeedAggro" value="2, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
-			<property name="HandItem" value="meleeHandArchon"/>
+			<property name="HandItem" value="meleeHandArchonFTWx3"/>
 			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200"/>
 			<property name="AITask-2" value="BreakBlock"/>
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
