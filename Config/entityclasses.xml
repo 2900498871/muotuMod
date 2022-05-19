@@ -4694,7 +4694,7 @@
 			<property name="SoundSense" value="demolitionzsense"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 
-			<property name="HandItem" value="meleeHandScorcher"/>
+			<property name="HandItem" value="meleeHandScorcherBY"/>
 			<property name="JumpMaxDistance" value="1, 2"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="StompsSpikes" value="true"/>
@@ -4745,7 +4745,7 @@
 			<property name="SoundSense" value="demolitionzsense"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 
-			<property name="HandItem" value="meleeHandScorcher"/>
+			<property name="HandItem" value="meleeHandScorcherWx1"/>
 			<property name="JumpMaxDistance" value="1, 2"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="StompsSpikes" value="true"/>
@@ -4796,7 +4796,7 @@
 			<property name="SoundSense" value="demolitionzsense"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 
-			<property name="HandItem" value="meleeHandScorcher"/>
+			<property name="HandItem" value="meleeHandScorcherWx2"/>
 			<property name="JumpMaxDistance" value="1, 2"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="StompsSpikes" value="true"/>
@@ -4846,7 +4846,7 @@
 			<property name="SoundSense" value="demolitionzsense"/>
 			<property name="SoundFootstepModifier" value="bear_footstep"/>
 
-			<property name="HandItem" value="meleeHandScorcher"/>
+			<property name="HandItem" value="meleeHandScorcherWx3"/>
 			<property name="JumpMaxDistance" value="1, 2"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="StompsSpikes" value="true"/>
@@ -4986,7 +4986,7 @@
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="WalkType" value="8"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,mantis" />
-			<property name="HandItem" value="meleeHandMantis"/>
+			<property name="HandItem" value="meleeHandMantisBY"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="MoveSpeedAggro" value="0.6, 1.35"/>
 			<property name="MoveSpeedPanic" value="1.2"/>
@@ -5023,7 +5023,7 @@
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="WalkType" value="8"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,mantis" />
-			<property name="HandItem" value="meleeHandMantis"/>
+			<property name="HandItem" value="meleeHandMantisWx1"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="MoveSpeedAggro" value="0.6, 1.35"/>
 			<property name="MoveSpeedPanic" value="1.2"/>
@@ -5060,7 +5060,7 @@
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="WalkType" value="8"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,mantis" />
-			<property name="HandItem" value="meleeHandMantis"/>
+			<property name="HandItem" value="meleeHandMantisWx2"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="MoveSpeedAggro" value="0.6, 1.35"/>
 			<property name="MoveSpeedPanic" value="1.2"/>
@@ -5097,7 +5097,7 @@
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="WalkType" value="8"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,mantis" />
-			<property name="HandItem" value="meleeHandMantis"/>
+			<property name="HandItem" value="meleeHandMantisWx3"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="MoveSpeedAggro" value="0.6, 1.35"/>
 			<property name="MoveSpeedPanic" value="1.2"/>
@@ -5151,7 +5151,7 @@
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="ExperienceGain" value="2000"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandGeist"/>
+			<property name="HandItem" value="meleeHandGeistBY"/>
 			<property name="AITask-1" value=""/>
 			<property name="AITarget-1" value=""/>
 			<property name="SightRange" value="300"/>
@@ -5187,7 +5187,7 @@
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="ExperienceGain" value="2000"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandGeist"/>
+			<property name="HandItem" value="meleeHandGeistWx1"/>
 			<property name="AITask-1" value=""/>
 			<property name="AITarget-1" value=""/>
 			<property name="SightRange" value="300"/>
@@ -5223,7 +5223,7 @@
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="ExperienceGain" value="2000"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandGeist"/>
+			<property name="HandItem" value="meleeHandGeistWx2"/>
 			<property name="AITask-1" value=""/>
 			<property name="AITarget-1" value=""/>
 			<property name="SightRange" value="300"/>
@@ -5259,7 +5259,7 @@
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="ExperienceGain" value="2000"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandGeist"/>
+			<property name="HandItem" value="meleeHandGeistWx3"/>
 			<property name="AITask-1" value=""/>
 			<property name="AITarget-1" value=""/>
 			<property name="SightRange" value="300"/>
@@ -5290,7 +5290,7 @@
 			<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
 			<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
 			<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowBY"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5319,7 +5319,7 @@
 			<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
 			<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
 			<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowWx1"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5348,7 +5348,7 @@
 			<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
 			<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
 			<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowWx2"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5377,7 +5377,7 @@
 			<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
 			<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
 			<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowWx3"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5398,7 +5398,7 @@
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,psycho" />
 			<property name="WalkType" value="7"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowBY"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5419,7 +5419,7 @@
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,psycho" />
 			<property name="WalkType" value="7"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowWx1"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5439,7 +5439,7 @@
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,psycho" />
 			<property name="WalkType" value="7"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowWx2"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5459,7 +5459,7 @@
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,psycho" />
 			<property name="WalkType" value="7"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowWx3"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5491,7 +5491,7 @@
 			<property name="SoundHurt" value=""/>
 			<property name="SoundDeath" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="HandItem" value="meleeHandZombieFeral"/>
+			<property name="HandItem" value="meleeScarecrowJGBY"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5547,7 +5547,7 @@
 			<property name="SoundHurt" value=""/>
 			<property name="SoundDeath" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="HandItem" value="meleeHandZombieFeral"/>
+			<property name="HandItem" value="meleeScarecrowJGWx1"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5604,7 +5604,7 @@
 			<property name="SoundHurt" value=""/>
 			<property name="SoundDeath" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="HandItem" value="meleeHandZombieFeral"/>
+			<property name="HandItem" value="meleeScarecrowJGWx2"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
@@ -5661,7 +5661,7 @@
 			<property name="SoundHurt" value=""/>
 			<property name="SoundDeath" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="HandItem" value="meleeHandZombieFeral"/>
+			<property name="HandItem" value="meleeScarecrowJGWx3"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="SoundFootstepModifier" value=""/>
