@@ -6293,7 +6293,7 @@
 			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
 			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/> <!-- class, hear distance, see dist (checked left to right, 0 dist uses entity default) -->
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandZombieMotorhead"/>
+			<property name="HandItem" value="meleeHandZombieMotorheadKBBY"/>
 			<property name="ExperienceGain" value="18000"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -6335,7 +6335,7 @@
 			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
 			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/> <!-- class, hear distance, see dist (checked left to right, 0 dist uses entity default) -->
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandZombieMotorhead"/>
+			<property name="HandItem" value="meleeHandZombieMotorheadKBWx1"/>
 			<property name="ExperienceGain" value="18000"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -6377,7 +6377,7 @@
 			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
 			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/> <!-- class, hear distance, see dist (checked left to right, 0 dist uses entity default) -->
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandZombieMotorhead"/>
+			<property name="HandItem" value="meleeHandZombieMotorheadKBWx2"/>
 			<property name="ExperienceGain" value="18000"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -6419,7 +6419,7 @@
 			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
 			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/> <!-- class, hear distance, see dist (checked left to right, 0 dist uses entity default) -->
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandZombieMotorhead"/>
+			<property name="HandItem" value="meleeHandZombieMotorheadKBWx3"/>
 			<property name="ExperienceGain" value="18000"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -6466,7 +6466,7 @@
 			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,18,13"/>
 			<property name="AITarget-4" value=""/>
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandPaindeer"/>
+			<property name="HandItem" value="meleeHandPaindeerBY"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="60"/>
 			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="8"/>
@@ -6581,7 +6581,7 @@
 			<property name="MoveSpeed" value=".8"/>
 			<property name="MoveSpeedAggro" value="1.7, 1.9"/>
 			<property name="MaxTurnSpeed" value="150"/>
-			<property name="HandItem" value="meleeHandHellShocker"/>
+			<property name="HandItem" value="meleeHandHellShockerBY"/>
 			<property name="ExperienceGain" value="1000"/> <!-- XP grunt radiated -->
 			<property name="LootDropProb" value="1"/>
 			<property name="DeadBodyHitPoints" value="750"/>
@@ -6645,7 +6645,7 @@
 			<property name="MoveSpeed" value="0.2"/>
 			<property name="MoveSpeedAggro" value=".25, .35"/>
 			<property name="MoveSpeedPanic" value="0.25"/>
-			<property name="HandItem" value="meleeHandzombieHisser"/>
+			<property name="HandItem" value="meleeHandzombieHisserBY"/>
 			<property name="AttackTimeoutDay" value="1.5"/>
 			<property name="AttackTimeoutNight" value="1.1"/>
 			<property name="PainResistPerHit" value="-1"/> <!-- no pain -->
@@ -6720,7 +6720,7 @@
 			<property name="MoveSpeed" value="0.2"/>
 			<property name="MoveSpeedAggro" value=".25, .35"/>
 			<property name="MoveSpeedPanic" value="0.25"/>
-			<property name="HandItem" value="meleeHandzombieHisser"/>
+			<property name="HandItem" value="meleeHandzombieHisserWx1"/>
 			<property name="AttackTimeoutDay" value="1.5"/>
 			<property name="AttackTimeoutNight" value="1.1"/>
 			<property name="PainResistPerHit" value="-1"/> <!-- no pain -->
@@ -6795,7 +6795,7 @@
 			<property name="MoveSpeed" value="0.2"/>
 			<property name="MoveSpeedAggro" value=".25, .35"/>
 			<property name="MoveSpeedPanic" value="0.25"/>
-			<property name="HandItem" value="meleeHandzombieHisser"/>
+			<property name="HandItem" value="meleeHandzombieHisserWx2"/>
 			<property name="AttackTimeoutDay" value="1.5"/>
 			<property name="AttackTimeoutNight" value="1.1"/>
 			<property name="PainResistPerHit" value="-1"/> <!-- no pain -->
@@ -6870,7 +6870,7 @@
 			<property name="MoveSpeed" value="0.2"/>
 			<property name="MoveSpeedAggro" value=".25, .35"/>
 			<property name="MoveSpeedPanic" value="0.25"/>
-			<property name="HandItem" value="meleeHandzombieHisser"/>
+			<property name="HandItem" value="meleeHandzombieHisserWx3"/>
 			<property name="AttackTimeoutDay" value="1.5"/>
 			<property name="AttackTimeoutNight" value="1.1"/>
 			<property name="PainResistPerHit" value="-1"/> <!-- no pain -->
@@ -6905,7 +6905,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandTipsySquatch"/>
+			<property name="HandItem" value="meleeHandTipsySquatchBY"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="WalkType" value="2"/>
 			<property name="MoveSpeedAggro" value="1, 1.5"/>
@@ -6934,7 +6934,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandTipsySquatch"/>
+			<property name="HandItem" value="meleeHandTipsySquatchWx1"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="WalkType" value="2"/>
 			<property name="MoveSpeedAggro" value="1, 1.5"/>
@@ -6963,7 +6963,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeHandTipsySquatch"/>
+			<property name="HandItem" value="meleeHandTipsySquatchWx2"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="WalkType" value="2"/>
 			<property name="MoveSpeedAggro" value="1, 1.5"/>
@@ -6992,7 +6992,7 @@
             <property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
             <property name="ExperienceGain" value="2500"/>
             <property name="LootDropProb" value="1"/>
-            <property name="HandItem" value="meleeHandTipsySquatch"/>
+            <property name="HandItem" value="meleeHandTipsySquatchWx3"/>
             <property name="MoveSpeed" value="0.5"/>
             <property name="WalkType" value="2"/>
             <property name="MoveSpeedAggro" value="1, 1.5"/>
@@ -7083,7 +7083,7 @@
 			<property name="Tags" value="entity,zombie,walker,boss,umazombie,pogo" />
 			<property name="WalkType" value="2"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="HandItem" value="meleeScarecrow"/>
+			<property name="HandItem" value="meleeScarecrowBYKG"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="SoundFootstepModifier" value=""/>
 
@@ -7126,7 +7126,7 @@
 			<property name="ExperienceGain" value="2100"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="WalkType" value="2"/>
-			<property name="HandItem" value="meleeHandParasite"/>
+			<property name="HandItem" value="meleeHandParasiteBYLX"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="80000"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="NavezganeSlasherDeco"/>
@@ -7156,7 +7156,7 @@
 			<property name="SwimOffset" value="2"/>
 			<property name="HasRagdoll" value="false"/>
 			<property name="HasDeathAnim" value="false"/>
-			<property name="HandItem" value="meleeHandMotherClucker"/>
+			<property name="HandItem" value="meleeHandMotherCluckerBYMJ"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=3;duration=5"/>
 			<property name="AITask-3" value="Leap"/>
@@ -7219,6 +7219,7 @@
 			<property name="ChestExplosionDamageMultiplier" value=".85"/>
 			<!-- Gameplay -->
 			<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
+			<property name="HandItem" value="meleeHandParasiteJSBY"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7256,6 +7257,7 @@
 			<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
+			<property name="HandItem" value="meleeHandParasiteJSWx1"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -7291,6 +7293,7 @@
 			<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
+			<property name="HandItem" value="meleeHandParasiteJSWx2"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="500000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -7326,6 +7329,7 @@
 			<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value="1"/>
+			<property name="HandItem" value="meleeHandParasiteJSWx3"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="1000000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -7361,7 +7365,7 @@
 			<property name="PainResistPerHit" value="1"/>
 			<property name="MoveSpeedAggro" value="1.2, 1.9"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="JumpMaxDistance" value="10, 15"/>
-			<property name="HandItem" value="meleeHandZombieAnesthesia"/>
+			<property name="HandItem" value="meleeHandZombieAnesthesiaBY"/>
 			<property name="ExperienceGain" value="3400"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7391,7 +7395,7 @@
 			<property name="PainResistPerHit" value="1"/>
 			<property name="MoveSpeedAggro" value="1.2, 1.9"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="JumpMaxDistance" value="10, 15"/>
-			<property name="HandItem" value="meleeHandZombieAnesthesia"/>
+			<property name="HandItem" value="meleeHandZombieAnesthesiaWx1"/>
 			<property name="ExperienceGain" value="3400"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7421,7 +7425,7 @@
 			<property name="PainResistPerHit" value="1"/>
 			<property name="MoveSpeedAggro" value="1.2, 1.9"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="JumpMaxDistance" value="10, 15"/>
-			<property name="HandItem" value="meleeHandZombieAnesthesia"/>
+			<property name="HandItem" value="meleeHandZombieAnesthesiaWx2"/>
 			<property name="ExperienceGain" value="3400"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7451,7 +7455,7 @@
 			<property name="PainResistPerHit" value="1"/>
 			<property name="MoveSpeedAggro" value="1.2, 1.9"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="JumpMaxDistance" value="10, 15"/>
-			<property name="HandItem" value="meleeHandZombieAnesthesia"/>
+			<property name="HandItem" value="meleeHandZombieAnesthesiaWx3"/>
 			<property name="ExperienceGain" value="3400"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7632,7 +7636,7 @@
 			<property name="SoundHurt" value=""/>
 			<property name="SoundDeath" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="HandItem" value="meleeHandZombieChroma"/>
+			<property name="HandItem" value="meleeHandZombieChromaBY"/>
 			<property name="ExperienceGain" value="2900"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7664,7 +7668,7 @@
 			<property name="SoundHurt" value=""/>
 			<property name="SoundDeath" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="HandItem" value="meleeHandZombieChroma"/>
+			<property name="HandItem" value="meleeHandZombieChromaWx1"/>
 			<property name="ExperienceGain" value="2900"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7696,7 +7700,7 @@
 			<property name="SoundHurt" value=""/>
 			<property name="SoundDeath" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="HandItem" value="meleeHandZombieChroma"/>
+			<property name="HandItem" value="meleeHandZombieChromaWx2"/>
 			<property name="ExperienceGain" value="2900"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7728,7 +7732,7 @@
 			<property name="SoundHurt" value=""/>
 			<property name="SoundDeath" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="HandItem" value="meleeHandZombieChroma"/>
+			<property name="HandItem" value="meleeHandZombieChromaWx3"/>
 			<property name="ExperienceGain" value="2900"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7827,7 +7831,7 @@
 			<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
 			<property name="PainResistPerHit" value="1"/>
 			<property name="JumpMaxDistance" value="8, 12"/>
-			<property name="HandItem" value="meleeHandZombieFreezer"/>
+			<property name="HandItem" value="meleeHandZombieFreezerBY"/>
 			<property name="ExperienceGain" value="3100"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7855,7 +7859,7 @@
 			<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
 			<property name="PainResistPerHit" value="1"/>
 			<property name="JumpMaxDistance" value="8, 12"/>
-			<property name="HandItem" value="meleeHandZombieFreezer"/>
+			<property name="HandItem" value="meleeHandZombieFreezerWx1"/>
 			<property name="ExperienceGain" value="3100"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7882,7 +7886,7 @@
 			<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
 			<property name="PainResistPerHit" value="1"/>
 			<property name="JumpMaxDistance" value="8, 12"/>
-			<property name="HandItem" value="meleeHandZombieFreezer"/>
+			<property name="HandItem" value="meleeHandZombieFreezerWx2"/>
 			<property name="ExperienceGain" value="3100"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -7910,7 +7914,7 @@
 			<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
 			<property name="PainResistPerHit" value="1"/>
 			<property name="JumpMaxDistance" value="8, 12"/>
-			<property name="HandItem" value="meleeHandZombieFreezer"/>
+			<property name="HandItem" value="meleeHandZombieFreezerWx3"/>
 			<property name="ExperienceGain" value="3100"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -8224,7 +8228,7 @@
 			<!-- Gameplay -->
 			<property name="MoveSpeed" value="0.04"/>
 			<property name="MoveSpeedAggro" value="0.4, 0.8"/>
-			<property name="HandItem" value="meleeHandZombieMummy"/>
+			<property name="HandItem" value="meleeHandZombieMummyBY"/>
 			<property name="JumpMaxDistance" value="9, 16"/>
 			<property name="ExperienceGain" value="2400"/>
 			<property name="LootDropProb" value="1"/>
@@ -8264,7 +8268,7 @@
 			<!-- Gameplay -->
 			<property name="MoveSpeed" value="0.04"/>
 			<property name="MoveSpeedAggro" value="0.4, 0.8"/>
-			<property name="HandItem" value="meleeHandZombieMummy"/>
+			<property name="HandItem" value="meleeHandZombieMummyWx1"/>
 			<property name="JumpMaxDistance" value="9, 16"/>
 			<property name="ExperienceGain" value="2400"/>
 			<property name="LootDropProb" value="1"/>
@@ -8304,7 +8308,7 @@
 			<!-- Gameplay -->
 			<property name="MoveSpeed" value="0.04"/>
 			<property name="MoveSpeedAggro" value="0.4, 0.8"/>
-			<property name="HandItem" value="meleeHandZombieMummy"/>
+			<property name="HandItem" value="meleeHandZombieMummyWx2"/>
 			<property name="JumpMaxDistance" value="9, 16"/>
 			<property name="ExperienceGain" value="2400"/>
 			<property name="LootDropProb" value="1"/>
@@ -8344,7 +8348,7 @@
 			<!-- Gameplay -->
 			<property name="MoveSpeed" value="0.04"/>
 			<property name="MoveSpeedAggro" value="0.4, 0.8"/>
-			<property name="HandItem" value="meleeHandZombieMummy"/>
+			<property name="HandItem" value="meleeHandZombieMummyWx3"/>
 			<property name="JumpMaxDistance" value="9, 16"/>
 			<property name="ExperienceGain" value="2400"/>
 			<property name="LootDropProb" value="1"/>
@@ -8363,7 +8367,7 @@
 			<property name="WalkType" value="8"/>
 			<property name="RightHandJointName" value="RightHand"/>
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandZombiePredator"/>
+			<property name="HandItem" value="meleeHandZombiePredatorBY"/>
 			<property name="ReplaceMaterial0" value="entities/misc/materials/scope_glass"/>
 			<property name="AITask-1" value="Leap"/>
 			<property name="AITask-2" value="BreakBlock"/>
@@ -8410,7 +8414,7 @@
 			<property name="WalkType" value="8"/>
 			<property name="RightHandJointName" value="RightHand"/>
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandZombiePredator"/>
+			<property name="HandItem" value="meleeHandZombiePredatorWx1"/>
 			<property name="ReplaceMaterial0" value="entities/misc/materials/scope_glass"/>
 			<property name="AITask-1" value="Leap"/>
 			<property name="AITask-2" value="BreakBlock"/>
@@ -8457,7 +8461,7 @@
 			<property name="WalkType" value="8"/>
 			<property name="RightHandJointName" value="RightHand"/>
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandZombiePredator"/>
+			<property name="HandItem" value="meleeHandZombiePredatorWx2"/>
 			<property name="ReplaceMaterial0" value="entities/misc/materials/scope_glass"/>
 			<property name="AITask-1" value="Leap"/>
 			<property name="AITask-2" value="BreakBlock"/>
@@ -8504,7 +8508,7 @@
 			<property name="WalkType" value="8"/>
 			<property name="RightHandJointName" value="RightHand"/>
 			<!-- Gameplay -->
-			<property name="HandItem" value="meleeHandZombiePredator"/>
+			<property name="HandItem" value="meleeHandZombiePredatorWx3"/>
 			<property name="ReplaceMaterial0" value="entities/misc/materials/scope_glass"/>
 			<property name="AITask-1" value="Leap"/>
 			<property name="AITask-2" value="BreakBlock"/>
@@ -8613,7 +8617,7 @@
 			<property name="Mass" value="1500"/>
 			<property name="MoveSpeed" value="0.01"/>
 			<property name="MoveSpeedAggro" value="0.03, 0.09"/>
-			<property name="HandItem" value="meleeHandZombieRadRobot"/>
+			<property name="HandItem" value="meleeHandZombieRadRobotWx1"/>
 			<property name="JumpMaxDistance" value="9, 18"/>
 			<property name="ExperienceGain" value="2800"/>
 			<property name="LootDropProb" value="1"/>
@@ -8653,7 +8657,7 @@
 			<property name="Mass" value="1500"/>
 			<property name="MoveSpeed" value="0.01"/>
 			<property name="MoveSpeedAggro" value="0.03, 0.09"/>
-			<property name="HandItem" value="meleeHandZombieRadRobot"/>
+			<property name="HandItem" value="meleeHandZombieRadRobotWx2"/>
 			<property name="JumpMaxDistance" value="9, 18"/>
 			<property name="ExperienceGain" value="2800"/>
 			<property name="LootDropProb" value="1"/>
@@ -8693,7 +8697,7 @@
 			<property name="Mass" value="1500"/>
 			<property name="MoveSpeed" value="0.01"/>
 			<property name="MoveSpeedAggro" value="0.03, 0.09"/>
-			<property name="HandItem" value="meleeHandZombieRadRobot"/>
+			<property name="HandItem" value="meleeHandZombieRadRobotWx3"/>
 			<property name="JumpMaxDistance" value="9, 18"/>
 			<property name="ExperienceGain" value="2800"/>
 			<property name="LootDropProb" value="1"/>
@@ -8821,7 +8825,7 @@
 			<property name="MoveSpeedAggro" value="0.9, 1.9"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="CanClimbVertical" value="true"/>
 			<property name="JumpMaxDistance" value="12, 20"/>
-			<property name="HandItem" value="meleeHandZombieSanguis"/>
+			<property name="HandItem" value="meleeHandZombieSanguisWx1"/>
 			<property name="ExperienceGain" value="3500"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -8862,7 +8866,7 @@
 			<property name="MoveSpeedAggro" value="0.9, 1.9"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="CanClimbVertical" value="true"/>
 			<property name="JumpMaxDistance" value="12, 20"/>
-			<property name="HandItem" value="meleeHandZombieSanguis"/>
+			<property name="HandItem" value="meleeHandZombieSanguisWx2"/>
 			<property name="ExperienceGain" value="3500"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -8903,7 +8907,7 @@
 			<property name="MoveSpeedAggro" value="0.9, 1.9"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="CanClimbVertical" value="true"/>
 			<property name="JumpMaxDistance" value="12, 20"/>
-			<property name="HandItem" value="meleeHandZombieSanguis"/>
+			<property name="HandItem" value="meleeHandZombieSanguisWx3"/>
 			<property name="ExperienceGain" value="3500"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -9014,7 +9018,7 @@
 			<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="JumpMaxDistance" value="8, 12"/>
-			<property name="HandItem" value="meleeHandZombieShadow"/>
+			<property name="HandItem" value="meleeHandZombieShadowWx1"/>
 			<property name="ExperienceGain" value="3800"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -9047,7 +9051,7 @@
 			<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="JumpMaxDistance" value="8, 12"/>
-			<property name="HandItem" value="meleeHandZombieShadow"/>
+			<property name="HandItem" value="meleeHandZombieShadowWx2"/>
 			<property name="ExperienceGain" value="3800"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -9080,7 +9084,7 @@
 			<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 			<property name="PainResistPerHit" value="1"/>
 			<property name="JumpMaxDistance" value="8, 12"/>
-			<property name="HandItem" value="meleeHandZombieShadow"/>
+			<property name="HandItem" value="meleeHandZombieShadowWx3"/>
 			<property name="ExperienceGain" value="3800"/> <!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
@@ -9135,7 +9139,7 @@
 			<property name="MoveSpeedAggro" value="1, 1.5"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="JumpMaxDistance" value="10, 15"/>
 			<property name="ExperienceGain" value="5700"/>
-			<property name="HandItem" value="meleeHandZombieShockerFeral"/>
+			<property name="HandItem" value="meleeHandZombieShockerFeralWx1"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="209000"/>
@@ -9162,7 +9166,7 @@
 			<property name="MoveSpeedAggro" value="1, 1.5"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="JumpMaxDistance" value="10, 15"/>
 			<property name="ExperienceGain" value="5700"/>
-			<property name="HandItem" value="meleeHandZombieShockerFeral"/>
+			<property name="HandItem" value="meleeHandZombieShockerFeralWx2"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="509000"/>
@@ -9189,7 +9193,7 @@
 			<property name="MoveSpeedAggro" value="1, 1.5"/> <!-- chasing a target min/max (like day or night)-->
 			<property name="JumpMaxDistance" value="10, 15"/>
 			<property name="ExperienceGain" value="5700"/>
-			<property name="HandItem" value="meleeHandZombieShockerFeral"/>
+			<property name="HandItem" value="meleeHandZombieShockerFeralWx3"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="1009000"/>
