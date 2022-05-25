@@ -9570,7 +9570,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="1"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -9665,7 +9665,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="1"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -9760,7 +9760,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="1"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -9855,7 +9855,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="1"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -9950,7 +9950,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="1"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -10045,7 +10045,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="1"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -10140,7 +10140,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="1"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -10240,7 +10240,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -10337,7 +10337,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -10434,7 +10434,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -10531,7 +10531,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -10628,7 +10628,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -10725,7 +10725,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -10822,7 +10822,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -10920,7 +10920,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="44"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
@@ -11018,7 +11018,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="44"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
@@ -11116,7 +11116,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="44"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
@@ -11214,7 +11214,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="44"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
@@ -11312,7 +11312,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="44"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
@@ -11410,7 +11410,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="44"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
@@ -11508,7 +11508,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="44"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
@@ -11607,7 +11607,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -11701,7 +11701,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -11795,7 +11795,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -11889,7 +11889,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -11983,7 +11983,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -12077,7 +12077,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -12171,7 +12171,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -12266,7 +12266,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="56"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
@@ -12356,7 +12356,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="56"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
@@ -12446,7 +12446,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="56"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
@@ -12536,7 +12536,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="56"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
@@ -12626,7 +12626,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="56"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
@@ -12716,7 +12716,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="56"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
@@ -12806,7 +12806,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="56"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
@@ -12898,7 +12898,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="5"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -12990,7 +12990,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="5"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -13082,7 +13082,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="5"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -13174,7 +13174,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="5"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -13266,7 +13266,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="5"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -13358,7 +13358,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="5"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -13450,7 +13450,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="5"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -13544,7 +13544,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -13635,7 +13635,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -13726,7 +13726,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -13817,7 +13817,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -13908,7 +13908,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -13999,7 +13999,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -14090,7 +14090,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -14183,7 +14183,7 @@ needed?
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -14285,7 +14285,7 @@ needed?
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -14387,7 +14387,7 @@ needed?
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -14489,7 +14489,7 @@ needed?
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -14591,7 +14591,7 @@ needed?
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -14693,7 +14693,7 @@ needed?
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -14795,7 +14795,7 @@ needed?
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -14898,7 +14898,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -14989,7 +14989,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -15080,7 +15080,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -15171,7 +15171,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -15262,7 +15262,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -15353,7 +15353,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -15444,7 +15444,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -15536,7 +15536,7 @@ needed?
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <!-- attachmentsIncluded -->
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="71"/>
@@ -15626,7 +15626,7 @@ needed?
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <!-- attachmentsIncluded -->
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="71"/>
@@ -15716,7 +15716,7 @@ needed?
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <!-- attachmentsIncluded -->
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="71"/>
@@ -15806,7 +15806,7 @@ needed?
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <!-- attachmentsIncluded -->
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="71"/>
@@ -15896,7 +15896,7 @@ needed?
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <!-- attachmentsIncluded -->
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="71"/>
@@ -15986,7 +15986,7 @@ needed?
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <!-- attachmentsIncluded -->
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="71"/>
@@ -16076,7 +16076,7 @@ needed?
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <!-- attachmentsIncluded -->
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="71"/>
@@ -16167,7 +16167,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
@@ -16259,7 +16259,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
@@ -16443,7 +16443,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
@@ -16535,7 +16535,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
@@ -16627,7 +16627,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
@@ -16719,7 +16719,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
@@ -16812,7 +16812,7 @@ needed?
             <property name="CustomIcon" value="gunExplosivesT3RocketLauncher" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
             <property name="DisplayType" value="rangedLauncher"/>
             <property name="HoldType" value="10"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab"/>
@@ -16904,7 +16904,7 @@ needed?
             <property name="CustomIcon" value="gunExplosivesT3RocketLauncher" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
             <property name="DisplayType" value="rangedLauncher"/>
             <property name="HoldType" value="10"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab"/>
@@ -16996,7 +16996,7 @@ needed?
             <property name="CustomIcon" value="gunExplosivesT3RocketLauncher" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
             <property name="DisplayType" value="rangedLauncher"/>
             <property name="HoldType" value="10"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab"/>
@@ -17088,7 +17088,7 @@ needed?
             <property name="CustomIcon" value="gunExplosivesT3RocketLauncher" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
             <property name="DisplayType" value="rangedLauncher"/>
             <property name="HoldType" value="10"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab"/>
@@ -17180,7 +17180,7 @@ needed?
             <property name="CustomIcon" value="gunExplosivesT3RocketLauncher" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
             <property name="DisplayType" value="rangedLauncher"/>
             <property name="HoldType" value="10"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab"/>
@@ -17272,7 +17272,7 @@ needed?
             <property name="CustomIcon" value="gunExplosivesT3RocketLauncher" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
             <property name="DisplayType" value="rangedLauncher"/>
             <property name="HoldType" value="10"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab"/>
@@ -17364,7 +17364,7 @@ needed?
             <property name="CustomIcon" value="gunExplosivesT3RocketLauncher" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
             <property name="DisplayType" value="rangedLauncher"/>
             <property name="HoldType" value="10"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab"/>
@@ -17457,7 +17457,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="HoldType" value="53"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab.prefab"/>
@@ -17560,7 +17560,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="HoldType" value="53"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab.prefab"/>
@@ -17663,7 +17663,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="HoldType" value="53"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab.prefab"/>
@@ -17766,7 +17766,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="HoldType" value="53"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab.prefab"/>
@@ -17869,7 +17869,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="HoldType" value="53"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab.prefab"/>
@@ -17972,7 +17972,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="HoldType" value="53"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab.prefab"/>
@@ -18075,7 +18075,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="HoldType" value="53"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab.prefab"/>
@@ -18179,7 +18179,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4DFFFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
             <property name="HoldType" value="69"/>
@@ -18282,7 +18282,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="28FF28" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
             <property name="HoldType" value="69"/>
@@ -18385,7 +18385,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="EAC100" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
             <property name="HoldType" value="69"/>
@@ -18488,7 +18488,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="FF8040" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
             <property name="HoldType" value="69"/>
@@ -18591,7 +18591,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="3D7878" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
             <property name="HoldType" value="69"/>
@@ -18694,7 +18694,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="4A4AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
             <property name="HoldType" value="69"/>
@@ -18797,7 +18797,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
             <property name="HoldType" value="69"/>
@@ -19580,7 +19580,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="1"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -19675,7 +19675,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -19772,7 +19772,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="44"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
@@ -19870,7 +19870,7 @@ needed?
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Desert Eagle/DesertEaglePrefab.prefab"/>
@@ -19964,7 +19964,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="56"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
@@ -20055,7 +20055,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="5"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -20148,7 +20148,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -20240,7 +20240,7 @@ needed?
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -20342,7 +20342,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -20433,7 +20433,7 @@ needed?
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <!-- attachmentsIncluded -->
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="71"/>
@@ -20523,7 +20523,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
@@ -20707,7 +20707,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="HoldType" value="53"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab.prefab"/>
@@ -20810,7 +20810,7 @@ needed?
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,attAgility,perkArchery,crossbow,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="弩"/>
             <property name="DescriptionKey" value="gunBowT1IronCrossbowDesc"/>
             <property name="HoldType" value="69"/>
@@ -24639,7 +24639,7 @@ needed?
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋">
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -24757,7 +24757,7 @@ needed?
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+1">
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -24875,7 +24875,7 @@ needed?
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+2">
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -24993,7 +24993,7 @@ needed?
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+3">
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -25111,7 +25111,7 @@ needed?
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+4">
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -25229,7 +25229,7 @@ needed?
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋MAX">
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="6"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SMG/SMGPrefab.prefab"/>
@@ -25347,7 +25347,7 @@ needed?
         <!--左轮 -->
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔">
             <!--340 -->
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="CustomIconTint" value="411445" />
             <property name="HoldType" value="75"/>
@@ -25440,7 +25440,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔+1">
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
@@ -25533,7 +25533,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔+2">
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
@@ -25626,7 +25626,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔+3">
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
@@ -25719,7 +25719,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔+4">
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
@@ -25812,7 +25812,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔MAX">
-            <property name="Tags" value="weapon,武器,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
@@ -25911,7 +25911,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -26004,7 +26004,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -26097,7 +26097,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -26188,7 +26188,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -26279,7 +26279,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -26370,7 +26370,7 @@ needed?
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/ak47/ak47Prefab.prefab"/>
@@ -26463,7 +26463,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
@@ -26556,7 +26556,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
@@ -26649,7 +26649,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
@@ -26742,7 +26742,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
@@ -26835,7 +26835,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
@@ -26928,7 +26928,7 @@ needed?
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,M60,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
@@ -27019,7 +27019,7 @@ needed?
         <!--狙击 -->
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命">
             <!--335 -->
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="11"/>
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
@@ -27122,7 +27122,7 @@ needed?
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命+1">
             <!--365 -->
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="11"/>
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
@@ -27225,7 +27225,7 @@ needed?
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命+2">
             <!--400 -->
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="11"/>
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
@@ -27328,7 +27328,7 @@ needed?
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命+3">
             <!--430 -->
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="11"/>
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
@@ -27431,7 +27431,7 @@ needed?
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命+4">
             <!--460 -->
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="11"/>
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
@@ -27534,7 +27534,7 @@ needed?
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命MAX">
             <!--500 -->
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="11"/>
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
@@ -27636,7 +27636,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒">
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
@@ -27743,7 +27743,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒+1">
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
@@ -27850,7 +27850,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒+2">
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
@@ -27957,7 +27957,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒+3">
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
@@ -28064,7 +28064,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒+4">
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
@@ -28171,7 +28171,7 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒MAX">
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,狙击枪,attachmentsIncluded,canHaveCosmetic"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
@@ -28281,7 +28281,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -28373,7 +28373,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -28465,7 +28465,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -28557,7 +28557,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -28649,7 +28649,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
@@ -28741,7 +28741,7 @@ needed?
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
-            <property name="Tags" value="weapon,武器,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,noScopes"/>
+            <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="rangedShotgun"/>
             <property name="HoldType" value="76"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab"/>
