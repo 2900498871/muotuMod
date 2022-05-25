@@ -2225,42 +2225,6 @@
 	<ingredient name="星源☆金属" count="10"/>
 </recipe>
 
-<recipe name="[FFD306]星源☆火箭发射器+1" count="1" craft_area="源能 合成师" tags="源能 合成师" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器" count="1"/>
-	<ingredient name="高级强化结晶" count="100"/>
-	<ingredient name="星源☆金属" count="10"/>
-</recipe>
-<recipe name="[FFD306]星源☆火箭发射器+2" count="1" craft_area="源能 合成师" tags="源能 合成师" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+1" count="1"/>
-	<ingredient name="超级强化结晶" count="150"/>
-	<ingredient name="星源☆金属" count="20"/>
-</recipe>
-<recipe name="[FFD306]星源☆火箭发射器+3" count="1" craft_area="源能 合成师" tags="源能 合成师" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+2" count="1"/>
-	<ingredient name="神级强化结晶" count="200"/>
-	<ingredient name="星源☆金属" count="30"/>
-</recipe>
-<recipe name="[FFD306]星源☆火箭发射器+4" count="1" craft_area="源能 合成师" tags="源能 合成师" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+3" count="1"/>
-	<ingredient name="超神强化结晶" count="300"/>
-	<ingredient name="星源☆金属" count="100"/>
-</recipe>
-<recipe name="[FFD306]星源☆火箭发射器+5" count="1" craft_area="源能 合成师" tags="源能 合成师" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+4" count="1"/>
-	<ingredient name="[2894FF]铱锭" count="70"/>
-	<ingredient name="[CA8EFF]镭锭" count="70"/>
-	<ingredient name="[40E0D0]钛锭" count="70"/>
-	<ingredient name="[FFD306]钨锭" count="70"/>
-</recipe>
-
-<recipe name="[FFD306]神·[FF0000]星源☆火箭发射器" count="1" craft_area="源能 共震合成师" tags="源能 共震合成师" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+5" count="1"/>
-	<ingredient name="五行☆星源" count="50"/>
-	<ingredient name="双王☆星源" count="50"/>
-	<ingredient name="生命☆星源" count="50"/>
-	<ingredient name="星源☆金属" count="10"/>
-</recipe>
-
 <recipe name="[FFD306]星源☆复合弓+1" count="1" craft_area="源能 合成师" tags="源能 合成师" craft_time=".1">
 	<ingredient name="[FFD306]星源☆复合弓" count="1"/>
 	<ingredient name="高级强化结晶" count="100"/>
@@ -2949,39 +2913,6 @@
 	 
 </recipe>
 
-<recipe name="[FFD306]星源☆火箭发射器+1" count="1" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+1" count="1"/>
-	<ingredient name="属性变换结晶" count="1"/>
-	 
-</recipe>
-<recipe name="[FFD306]星源☆火箭发射器+2" count="1" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+2" count="1"/>
-	<ingredient name="属性变换结晶" count="1"/>
-	 
-</recipe>
-<recipe name="[FFD306]星源☆火箭发射器+3" count="1" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+3" count="1"/>
-	<ingredient name="属性变换结晶" count="1"/>
-	 
-</recipe>
-<recipe name="[FFD306]星源☆火箭发射器+4" count="1" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+4" count="1"/>
-	<ingredient name="属性变换结晶" count="1"/>
-	 
-</recipe>
-<recipe name="[FFD306]星源☆火箭发射器+5" count="1" craft_time=".1">
-	<ingredient name="[FFD306]星源☆火箭发射器+5" count="1"/>
-	<ingredient name="属性变换结晶" count="1"/>
-	 
-</recipe>
-
-<recipe name="[FFD306]神·[FF0000]星源☆火箭发射器" count="1" craft_time=".1">
-	<ingredient name="[FFD306]神·[FF0000]星源☆火箭发射器" count="1"/>
-	<ingredient name="属性变换结晶" count="1"/>
-	 
-	 
-	 
-</recipe>
 
 <recipe name="[FFD306]星源☆复合弓+1" count="1" craft_time=".1">
 	<ingredient name="[FFD306]星源☆复合弓+1" count="1"/>
@@ -3596,12 +3527,8 @@
 <recipe name="[FFD306]神·千变[FF0000]星源☆炮塔" count="1" craft_time=".1">
 	<ingredient name="千变石" count="1"/>
 </recipe>
-<recipe name="[FFD306]神·千变[FF0000]星源☆火箭发射器" count="1" craft_time=".1">
-	<ingredient name="千变石" count="1"/>
-</recipe>
-<recipe name="千变石" count="1" craft_time=".1">
-	<ingredient name="[FFD306]神·千变[FF0000]星源☆火箭发射器" count="1"/>
-</recipe>
+
+
 
 <recipe name="千变石" count="1" craft_time=".1">
 	<ingredient name="[FFD306]神·千变[FF0000]星源☆猎刀" count="1"/>
