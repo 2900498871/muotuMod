@@ -1,0 +1,57 @@
+<configs>
+<!-- maxcount="1" 这个是倍数 -->
+<!-- respawndelay="1" 这个应该是刷新延迟 -->
+<!-- time="Day"  Day是白天生成，Night是晚上生成 -->
+<!-- 森林僵尸，火烧地僵尸，沙漠僵尸，废墟僵尸，雪地僵尸，雪地僵尸，这些都有末途MOD的怪物生成-->
+
+	<!-- Addition 森林 难度等级I -->
+	<append xpath="/spawning/biome[@name='pine_forest']">
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="Zombies森林" />
+		<spawn maxcount="1" respawndelay="2.5" time="Day" entitygroup="森林僵尸" />
+        <spawn maxcount="2" respawndelay="1.5" time="Night" entitygroup="森林僵尸" />
+	</append>
+
+
+	<!-- Addition 等级II-->
+	<append xpath="/spawning/biome[@name='desert']">
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="沙漠僵尸" />
+
+	</append>
+
+
+
+	<!-- Addition 难度等级III-->
+	<append xpath="/spawning/biome[@name='snow']">
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="雪地僵尸" />
+	</append>
+
+
+
+	<!-- Addition  难度等级Max-->
+	<append xpath="/spawning/biome[@name='wasteland']">
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="废墟僵尸" />
+	</append>
+
+
+
+
+
+
+
+
+	<!-- Addition 火烧地 -->
+	<append xpath="/spawning/biome[@name='burnt_forest']">
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="火烧地僵尸" />
+	</append>
+
+
+
+
+	
+
+	
+</configs>
