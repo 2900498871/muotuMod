@@ -49,7 +49,7 @@
 		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".05"/>
 		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".05"/>
 		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
-		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".05"/>
 		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
 		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
 		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
@@ -193,7 +193,7 @@
 		<item name="近战☆[2894FF]柄纹 LV2" count="1" prob=".1"/>
 		<item name="近战☆[2894FF]刃纹 LV2" count="1" prob=".1"/>
 		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
-		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".05"/>
 		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
 		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
 		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
@@ -366,7 +366,7 @@
 		<item name="近战☆[CA8EFF]柄纹 LV3" count="1" prob=".1"/>
 		<item name="近战☆[CA8EFF]刃纹 LV3" count="1" prob=".1"/>
 		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
-		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".05"/>
 		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
 		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
 		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
@@ -566,7 +566,7 @@
 		<item name="近战☆[FF0033]刃纹 LV5" count="1" prob=".005"/>
 
 		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
-		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".05"/>
 		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
 		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
 		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
@@ -733,7 +733,7 @@
 		<item name="近战☆[FF0033]刃纹 LV5" count="1" prob=".01"/>
 
 		<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
-		<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+		<item name="[4D0000]攻击吸血" count="1" prob=".05"/>
 		<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
 		<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
 		<item name="枪☆[FFD306]神枪纹" count="1" prob=".01"/>
@@ -1230,7 +1230,7 @@
 
 	
 	<item name="近战☆[4D0000]魂纹" count="1" prob=".1"/>
-	<item name="[4D0000]攻击吸血" count="1" prob=".1"/>
+	<item name="[4D0000]攻击吸血" count="1" prob=".05"/>
 	<item name="[4D0000]杀怪吸血" count="1" prob=".1"/>
 	
 	<item name="狙击枪☆[FFD306]神枪纹" count="1" prob=".05"/>
@@ -3720,7 +3720,7 @@
 		<item name="高级强化结晶" count="1,5" />
 		<item name="超级强化结晶" count="1,3" prob=".1" />
 		<item name="神级强化结晶" count="1,2" prob=".1" />
-		<item name="超神强化结晶" count="1,3" prob=".01" />
+		<item name="超神强化结晶" count="1,2" prob=".01" />
 		<item name="千变碎片" count="1" prob=".005" />
 		<item name="属性变换结晶" count="1" prob=".1" />
 		<item name="[2894FF]铱矿" count="1,10" prob="0.1"/>
