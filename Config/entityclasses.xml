@@ -546,14 +546,18 @@
 			<property name="MoveSpeed" value="0.4"/>
 			<property name="MoveSpeedAggro" value="0.3, 1.4"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
-			<!--<property name="ReplaceMaterial0" value="Entities/Animals/Boar/Materials/GRACE"/>-->
+			<property name="ReplaceMaterial0" value="Entities/Animals/Boar/Materials/GRACE"/>
 			<!--<property name="ReplaceMaterial0" value="entities/resources/materials/oreleadboulder"/>-->
 			<!--<property name="ReplaceMaterial0" value="entities/electrical/materials/spotlight"/>-->
-			<property name="ReplaceMaterial0" value="entities/electrical/materials/flamethrowertrap"/>
+			<!--<property name="ReplaceMaterial0" value="entities/electrical/materials/flamethrowertrap"/>-->
+			<!--<property name="ReplaceMaterial0" value="materials/occludeeshadowcaster"/>-->
+			<!--<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>-->
+			<!--<property name="ReplaceMaterial0" value="Entities/Resources/oreLeadBoulderPrefab"/>-->
+			<!--<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>-->
 			<property name="SizeScale" value="1"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="BeibaoC"/>
-			<property name="TintMaterial0" value="0,255,0"/>
+			<property name="TintMaterial0" value="255,0,0"/>
 			<property name="TintMaterial1" value="255,255,255"/>
 			<property name="TintMaterial2" value="255,255,255"/>
 			<property name="HandItem" value="C级武器1"/>
