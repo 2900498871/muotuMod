@@ -8629,6 +8629,76 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			  <passive_effect name="HealthChangeOT" operation="base_add" value="-.2"/>
 		  </effect_group>
 		</buff>
+
+	<buff name="伤害领域" name_key="伤害领域" description_key="伤害领域" tooltip_key="buffSnowSwarmTooltip" >
+
+		<stack_type value="replace"/>
+		<update_rate value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="伤害领域-怪" target_tags="zombie"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="辅助僵尸—伤害领域" target_tags="player"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_burning_barrel" local_offset="0,-0.2,0"/><!-- 0左右,0上下,0前后 -->
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_burning_barrel" local_offset="0,-0.2,0"/>
+		</effect_group>
+
+	</buff>
+	<buff name="伤害领域-怪" description_key="辅助僵尸出现，怪物伤害增加60%！" tooltip_key="伤害领域-怪" icon="ui_game_symbol_cold" icon_color="255,106,106" icon_blink="true">
+
+		<stack_type value="replace"/>
+		<duration value="5"/>
+		<effect_group>
+			<!-- 伤害 -->
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.6"/>
+		</effect_group>
+	</buff>
+	<buff name="辅助僵尸—伤害领域" description_key="辅助僵尸出现，30米内玩家伤害降低50%！怪物伤害增加60%！" tooltip_key="辅助僵尸—伤害领域" icon="ui_game_symbol_cold" icon_color="255,106,106" icon_blink="true">
+		<stack_type value="replace"/>
+		<duration value="5"/>
+		<effect_group>
+			<!-- 伤害 -->
+			<passive_effect name="EntityDamage" operation="perc_add" value="-.5"/>
+		</effect_group>
+	</buff>
+
+	<buff name="攻速领域" name_key="攻速领域" description_key="攻速领域" tooltip_key="buffSnowSwarmTooltip" >
+
+		<stack_type value="replace"/>
+		<update_rate value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="攻速领域-怪" target_tags="zombie"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="辅助僵尸—攻速领域" target_tags="player"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="RadiatedParticlesOnMesh" local_offset="0,-0.7,0"/><!-- 0左右,0上下,0前后 -->
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="RadiatedParticlesOnMesh" local_offset="0,-0.7,0"/>
+		</effect_group>
+
+	</buff>
+	<buff name="攻速领域-怪" description_key="辅助僵尸出现，怪物攻速增加60%！" tooltip_key="攻速领域-怪" icon="ui_game_symbol_cold" icon_color="238,130,238" icon_blink="true">
+
+		<stack_type value="replace"/>
+		<duration value="5"/>
+		<effect_group>
+
+			<!-- 最大射程 -->
+			<passive_effect name="MaxRange" operation="base_add" value=".6"/>
+			<!--攻速-->
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".6"/>
+
+	</effect_group>
+	</buff>
+	<buff name="辅助僵尸—攻速领域" description_key="辅助僵尸出现，30米内玩家攻速降低50%！攻击距离-50%！怪物攻速增加60%！攻击距离+60%" tooltip_key="辅助僵尸—攻速领域" icon="ui_game_symbol_cold" icon_color="238,130,238" icon_blink="true">
+		<stack_type value="replace"/>
+		<duration value="5"/>
+		<effect_group>
+			<!-- 最大射程 -->
+			<passive_effect name="MaxRange" operation="base_add" value="-.5"/>
+			<!--攻速-->
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.5"/>
+
+		</effect_group>
+	</buff>
+
 </append>
 <!--  技能 -->
 <append xpath="/buffs">

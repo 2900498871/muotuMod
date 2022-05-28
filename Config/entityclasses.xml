@@ -2537,7 +2537,7 @@
 			<property name="SizeScale" value=".5"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
-				<passive_effect name="HealthMax" operation="base_set" value="20000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="30000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<!-- Zombie HP scale -->
 				<passive_effect name="StaminaMax" operation="base_set" value="150"/>
@@ -2551,12 +2551,44 @@
 			<property name="SizeScale" value=".5"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
-				<passive_effect name="HealthMax" operation="base_set" value="20000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="30000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<!-- Zombie HP scale -->
 				<passive_effect name="StaminaMax" operation="base_set" value="150"/>
 			</effect_group>
 		</entity_class>
+
+        <entity_class name="辅助僵尸 伤害领域" extends="SZombie B">
+            <property name="Tags" value="entity,辅助僵尸,walker,feral,radiated"/>
+            <property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
+            <property name="Buffs" value="伤害领域"/>
+            <property name="ReplaceMaterial0" value="materials/wirematerial"/>
+            <property name="SizeScale" value=".5"/>
+            <effect_group name="Base Effects">
+                <passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+                <passive_effect name="HealthMax" operation="base_set" value="30000"/>
+                <passive_effect name="HealthMax" operation="perc_set" value="1"/>
+                <!-- Zombie HP scale -->
+                <passive_effect name="StaminaMax" operation="base_set" value="150"/>
+            </effect_group>
+        </entity_class>
+
+        <entity_class name="辅助僵尸 攻速领域" extends="SZombie B">
+            <property name="Tags" value="entity,辅助僵尸,walker,feral,radiated"/>
+            <property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
+            <property name="Buffs" value="攻速领域"/>
+            <property name="ReplaceMaterial0" value="materials/wirematerial"/>
+            <property name="SizeScale" value=".5"/>
+            <effect_group name="Base Effects">
+                <passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+                <passive_effect name="HealthMax" operation="base_set" value="30000"/>
+                <passive_effect name="HealthMax" operation="perc_set" value="1"/>
+                <!-- Zombie HP scale -->
+                <passive_effect name="StaminaMax" operation="base_set" value="150"/>
+            </effect_group>
+        </entity_class>
+
+
 		<entity_class name="血夜僵尸 B僵尸1" extends="SZombie B1">
 			<property name="Tags" value="entity,血夜僵尸,00级僵尸,walker,feral,radiated"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZThug.prefab"/>
