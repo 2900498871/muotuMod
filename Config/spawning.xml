@@ -12,24 +12,24 @@
 	</append>
 
 
-	<!-- Addition 等级II-->
+	<!-- Addition 等级II 雪地-->
 	<append xpath="/spawning/biome[@name='desert']">
 		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
-		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="沙漠僵尸" />
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="雪地僵尸" />
 
 	</append>
 
 
 
-	<!-- Addition 难度等级III-->
+	<!-- Addition 难度等级III 沙漠-->
 	<append xpath="/spawning/biome[@name='snow']">
 		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
-		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="雪地僵尸" />
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="沙漠僵尸" />
 	</append>
 
 
 
-	<!-- Addition  难度等级Max-->
+	<!-- Addition  难度等级Max 废墟-->
 	<append xpath="/spawning/biome[@name='wasteland']">
 		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
 		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="废墟僵尸" />

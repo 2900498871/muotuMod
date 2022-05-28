@@ -449,7 +449,7 @@
 		<entity name="[2894FF]B级僵尸 半身僵尸" prob="0.05" />
 
 	</entitygroup>		 
-<entitygroup name="沙漠僵尸">
+<entitygroup name="雪地僵尸">
         <entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
 		<entity name="[53FF53]C级僵尸 狂徒僵尸" prob="0.2" />
@@ -462,11 +462,11 @@
 		<entity name="[2894FF]B级僵尸 火焰僵尸" prob="0.4" />
 		<entity name="[2894FF]B级僵尸 尖叫僵尸" prob="0.4" />
 		<entity name="[2894FF]B级僵尸 半身僵尸" prob="0.4" />
-		<entity name="[CA8EFF]A级僵尸 狂徒僵尸" prob="0.05" />
-		<entity name="[CA8EFF]A级僵尸 变异僵尸" prob="0.05" />
-		<entity name="[CA8EFF]A级僵尸 火焰僵尸" prob="0.05" />
-		<entity name="[CA8EFF]A级僵尸 尖叫僵尸" prob="0.05" />
-		<entity name="[CA8EFF]A级僵尸 半身僵尸" prob="0.05" />
+		<entity name="[CA8EFF]A级僵尸 狂徒僵尸" prob="0.01" />
+		<entity name="[CA8EFF]A级僵尸 变异僵尸" prob="0.01" />
+		<entity name="[CA8EFF]A级僵尸 火焰僵尸" prob="0.01" />
+		<entity name="[CA8EFF]A级僵尸 尖叫僵尸" prob="0.01" />
+		<entity name="[CA8EFF]A级僵尸 半身僵尸" prob="0.01" />
 
 		<entity name="[FFD306]矿魔 [2894FF]一形" prob="0.01" />
 		<entity name="[FFD306]矿魔 [2894FF]二形" prob="0.01" />
@@ -531,7 +531,7 @@
 
 	</entitygroup>
 
-<entitygroup name="雪地僵尸">
+<entitygroup name="沙漠僵尸">
         <entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
 		<entity name="[53FF53]C级僵尸 狂徒僵尸" prob="0.1" />
