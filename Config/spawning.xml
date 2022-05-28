@@ -13,7 +13,7 @@
 
 
 	<!-- Addition 等级II 雪地-->
-	<append xpath="/spawning/biome[@name='desert']">
+	<append xpath="/spawning/biome[@name='snow']">
 		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
 		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="雪地僵尸" />
 
@@ -22,7 +22,7 @@
 
 
 	<!-- Addition 难度等级III 沙漠-->
-	<append xpath="/spawning/biome[@name='snow']">
+	<append xpath="/spawning/biome[@name='desert']">
 		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
 		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="沙漠僵尸" />
 	</append>

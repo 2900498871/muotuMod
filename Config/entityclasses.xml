@@ -312,6 +312,7 @@
 		</entity_class>
 		<!-- 模块怪物-->
 		<entity_class name="SZombie 0">
+            <property name="TimeStayAfterDeath" value="20"/>
 			<property name="HideInSpawnMenu" value="true"/>
 			<property name="EntityType" value="Zombie"/>
 			<!-- This one decides for scoring -->
@@ -525,6 +526,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="SZombie C" extends="SZombie 0">
+            <property name="TimeStayAfterDeath" value="15"/>
 			<!-- 5000-->
 			<property name="Tags" value="entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZArlene.prefab"/>
@@ -580,6 +582,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="SZombie B" extends="SZombie C">
+            <property name="TimeStayAfterDeath" value="15"/>
 			<!-- 10000-->
 			<property name="Tags" value="entity,zombie,walker"/>
 			<property name="WalkType" value="5"/>
@@ -615,6 +618,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="SZombie A" extends="SZombie 0">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<!-- 50000-->
 			<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop"/>
 			<property name="WalkType" value="7"/>
@@ -663,6 +667,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="SZombie S" extends="SZombie 0">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<!-- 500000-->
 			<property name="WalkType" value="1"/>
 			<property name="SizeScale" value="2"/>
@@ -711,6 +716,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="SZombie SS" extends="SZombie 0">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<!-- 1000000-->
 			<property name="WalkType" value="1"/>
 			<property name="Buffs" value="SS领域"/>
@@ -761,6 +767,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="SZombie SSS" extends="zombieWightFeral">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<property name="Buffs" value="GOD领域"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=2;duration=5"/>
@@ -1273,6 +1280,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="SZombie GODD" extends="zombieWightFeral">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,arch0n"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="HasRagdoll" value="false"/>
@@ -1676,6 +1684,7 @@
 		</entity_class>
 		<!-- 动物-->
 		<entity_class name="animal00">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<property name="HideInSpawnMenu" value="true"/>
 			<property name="Tags" value="entity,animal,hostile"/>
 			<property name="ModelType" value="Standard"/>
@@ -1775,6 +1784,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="animal SSS" extends="animalBear">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<property name="Tags" value="entity,animal,hostile"/>
 			<property name="Buffs" value="SSS领域"/>
 			<property name="SizeScale" value="2"/>
@@ -1829,6 +1839,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FFD306]SSS级 变异狼" extends="animal SSS">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<property name="Tags" value="entity,animal,SSS级,hostile,wolf,perkAT02,perkAT03"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
@@ -1874,6 +1885,7 @@
 			<property name="NavObject" value="animaltracking_wolf,clear_sleeper" />
 		</entity_class>
 		<entity_class name="[FFD306]SSS级 变异猪" extends="animal SSS">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<property name="Tags" value="entity,animal,SSS级,hostile,boar,perkAT02,perkAT03"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
@@ -1924,6 +1936,7 @@
 			<property name="NavObject" value="animaltracking_boar,clear_sleeper" />
 		</entity_class>
 		<entity_class name="[FFD306]SSS级 大变异猪" extends="[FFD306]SSS级 变异猪">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<property name="Tags" value="entity,animal,SSS级,hostile,boar,perkAT03,boss"/>
 			<property name="IsEnemyEntity" value="true"/>
 			<property name="ReplaceMaterial0" value="Entities/Animals/Boar/Materials/GRACE"/>
@@ -1973,6 +1986,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FF0033]GOD级 变异狮" extends="[FFD306]SSS级 变异狼">
+            <property name="TimeStayAfterDeath" value="5"/>
 			<property name="Tags" value="entity,animal,SSS级,hostile,mountainlion,perkAT03"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_mountain_lion"/>
