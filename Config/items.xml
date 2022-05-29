@@ -40679,8 +40679,8 @@ needed?
                 <property name="Delay" value=".7"/>
                 <property name="Range" value="1.75"/>
                 <property name="Sphere" value=".2"/>
-                <property name="DamageEntity" value="200"/>
-                <property name="DamageBlock" value="7"/></property>
+                <property name="DamageEntity" value="350"/>
+                <property name="DamageBlock" value="1000"/></property>
             <property class="Action1">
                 <property name="Class" value="Vomit"/>
                 <property name="Hitmask_override" value="Arrow"/>
@@ -40986,8 +40986,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="30"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="50"/>
+                <property name="DamageBlock" value="100"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41006,8 +41006,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="30"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="50"/>
+                <property name="DamageBlock" value="100"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41026,8 +41026,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="30"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="50"/>
+                <property name="DamageBlock" value="100"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41046,8 +41046,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="30"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="50"/>
+                <property name="DamageBlock" value="100"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41066,8 +41066,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="30"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="50"/>
+                <property name="DamageBlock" value="100"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41086,8 +41086,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="40"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="80"/>
+                <property name="DamageBlock" value="200"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41106,8 +41106,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="40"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="80"/>
+                <property name="DamageBlock" value="200"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41126,8 +41126,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="40"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="80"/>
+                <property name="DamageBlock" value="200"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41146,8 +41146,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="40"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="80"/>
+                <property name="DamageBlock" value="200"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41166,8 +41166,8 @@ needed?
             <property name="Extends" value="meleeHandZombie01"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="DamageEntity" value="40"/>
-                <property name="DamageBlock" value="24"/></property>
+                <property name="DamageEntity" value="80"/>
+                <property name="DamageBlock" value="200"/></property>
             <effect_group name="meleeHandZombieFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
@@ -41189,8 +41189,8 @@ needed?
             <property class="Action0">
                 <property name="Range" value="2.3"/>
                 <property name="Sphere" value=".3"/>
-                <property name="DamageEntity" value="40"/>
-                <property name="DamageBlock" value="200"/>
+                <property name="DamageEntity" value="150"/>
+                <property name="DamageBlock" value="300"/>
                 <property name="Block_range" value="3"/></property>
             <property class="Action1">
                 <!-- UseAction -->
@@ -41451,8 +41451,8 @@ needed?
             <property class="Action0">
                 <property name="Range" value="2"/>
                 <property name="Sphere" value=".3"/>
-                <property name="DamageEntity" value="100"/>
-                <property name="DamageBlock" value="100"/>
+                <property name="DamageEntity" value="200"/>
+                <property name="DamageBlock" value="400"/>
                 <property name="Block_range" value="3"/></property>
             <property class="Action1">
                 <!-- UseAction -->
@@ -41530,10 +41530,10 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="2"/>
+                <property name="Range" value="3"/>
                 <property name="Sphere" value=".3"/>
-                <property name="DamageEntity" value="130"/>
-                <property name="DamageBlock" value="100"/>
+                <property name="DamageEntity" value="250"/>
+                <property name="DamageBlock" value="600"/>
                 <property name="Block_range" value="3"/></property>
             <property class="Action1">
                 <!-- UseAction -->
@@ -41610,10 +41610,10 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="2"/>
+                <property name="Range" value="3"/>
                 <property name="Sphere" value=".3"/>
-                <property name="DamageEntity" value="160"/>
-                <property name="DamageBlock" value="100"/>
+                <property name="DamageEntity" value="300"/>
+                <property name="DamageBlock" value="800"/>
                 <property name="Block_range" value="3"/></property>
             <property class="Action1">
                 <!-- UseAction -->
@@ -41696,8 +41696,8 @@ needed?
             <property class="Action0">
                 <property name="Range" value="2"/>
                 <property name="Sphere" value=".3"/>
-                <property name="DamageEntity" value="60"/>
-                <property name="DamageBlock" value="60"/>
+                <property name="DamageEntity" value="200"/>
+                <property name="DamageBlock" value="300"/>
                 <property name="Block_range" value="3"/></property>
             <property class="Action1">
                 <!-- UseAction -->
@@ -41864,8 +41864,8 @@ needed?
             <property class="Action0">
                 <property name="Range" value="2"/>
                 <property name="Sphere" value=".3"/>
-                <property name="DamageEntity" value="60"/>
-                <property name="DamageBlock" value="60"/>
+                <property name="DamageEntity" value="150"/>
+                <property name="DamageBlock" value="300"/>
                 <property name="Block_range" value="3"/></property>
             <property class="Action1">
                 <!-- UseAction -->

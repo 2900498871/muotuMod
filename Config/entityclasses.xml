@@ -545,8 +545,8 @@
 			<property name="NavObjectHeadOffset" value="0,-0.15,0" />
 			<property name="DanceType" value="2" />
 			<!-- Gameplay -->
-			<property name="MoveSpeed" value="0.4"/>
-			<property name="MoveSpeedAggro" value="0.3, 1.4"/>
+			<property name="MoveSpeed" value="0.35"/>
+			<property name="MoveSpeedAggro" value="0.35, 1.4"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="ReplaceMaterial0" value="Entities/Animals/Boar/Materials/GRACE"/>
 			<!--<property name="ReplaceMaterial0" value="entities/resources/materials/oreleadboulder"/>-->
@@ -604,7 +604,7 @@
 			<!-- Feral -->
 			<property name="PainResistPerHit" value=".7"/>
 			<!-- Feral -->
-			<property name="MoveSpeed" value="0.35"/>
+			<property name="MoveSpeed" value="0.4"/>
 			<property name="MoveSpeedAggro" value=".4, 1.4"/>
 			<property name="HandItem" value="B级武器1" />
 			<property name="ExperienceGain" value="2000"/>
@@ -696,8 +696,8 @@
 			<!-- Gameplay -->
 			<property name="PainResistPerHit" value=".9"/>
 			<!-- Radiated -->
-			<property name="MoveSpeed" value="0.35"/>
-			<property name="MoveSpeedAggro" value="0.35, 1.4"/>
+			<property name="MoveSpeed" value="0.5"/>
+			<property name="MoveSpeedAggro" value="0.5, 1.5"/>
 			<property name="ExperienceGain" value="1200"/>
 			<!-- XP strong radiated -->
 			<effect_group name="Base Effects">
@@ -747,8 +747,8 @@
 			<!-- Gameplay -->
 			<property name="PainResistPerHit" value=".9"/>
 			<!-- Radiated -->
-			<property name="MoveSpeed" value="0.35"/>
-			<property name="MoveSpeedAggro" value="0.35, 1.4"/>
+			<property name="MoveSpeed" value="0.55"/>
+			<property name="MoveSpeedAggro" value="0.55, 1.6"/>
 			<property name="ExperienceGain" value="1500"/>
 			<!-- XP strong radiated -->
 			<effect_group name="Base Effects">
@@ -785,8 +785,8 @@
 			<property name="LegCrippleThreshold" value="0"/>
 			<property name="KnockdownProneDamageThreshold" value="0"/>
 			<property name="KnockdownKneelDamageThreshold" value="0"/>
-			<property name="MoveSpeed" value="0.35"/>
-			<property name="MoveSpeedAggro" value="0.35, 1.4"/>
+			<property name="MoveSpeed" value="0.6"/>
+			<property name="MoveSpeedAggro" value="0.6, 1.4"/>
 			<property name="SizeScale" value="2"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="BeibaoSSS"/>
@@ -822,8 +822,8 @@
 			<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
 			<property name="Radiated" value=""/>
 			<property name="Mass" value="50"/>
-			<property name="MoveSpeed" value="0.8"/>
-			<property name="MoveSpeedAggro" value="1.5, 2"/>
+			<property name="MoveSpeed" value="0.65"/>
+			<property name="MoveSpeedAggro" value="0.65, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="MaxViewAngle" value="360"/>
 			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200"/>
