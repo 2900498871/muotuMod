@@ -8687,7 +8687,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 
 	</effect_group>
 	</buff>
-	<buff name="辅助僵尸—攻速领域" description_key="辅助僵尸出现，30米内玩家攻速降低50%！攻击距离-50%！怪物攻速增加60%！攻击距离+60%" tooltip_key="辅助僵尸—攻速领域" icon="ui_game_symbol_cold" icon_color="238,130,238" icon_blink="true">
+	<buff name="辅助僵尸—攻速领域" description_key="辅助僵尸出现，30米内玩家攻速降低50%！射速-50%！攻击距离-50%！怪物攻速增加60%！攻击距离+60%" tooltip_key="辅助僵尸—攻速领域" icon="ui_game_symbol_cold" icon_color="238,130,238" icon_blink="true">
 		<stack_type value="replace"/>
 		<duration value="5"/>
 		<effect_group>
@@ -8695,6 +8695,9 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<passive_effect name="MaxRange" operation="base_add" value="-.5"/>
 			<!--攻速-->
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.5"/>
+
+			<!--射速-->
+			<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.5"/>
 
 		</effect_group>
 	</buff>
