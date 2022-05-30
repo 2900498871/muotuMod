@@ -2582,12 +2582,46 @@
             <property class="Action0">
                 <property name="QuestGiven" value="10000dian"/></property>
         </item>
-        <item name="说明书+新手包">
-            <property name="CustomIcon" value="challengeQuestMaster" />
-            <property name="CustomIconTint" value="FFD306" />
-            <property name="Extends" value="questMaster"/>
+
+        <item name="WPB">
+            <property name="CreativeMode" value="None"/>
+            <property name="CustomIcon" value="ammo9mmBulletBall"/>
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="EconomicValue" value="900"/>
+            <property name="Group" value="MOTU2"/>
+            <property name="UnlockedBy" value="perkPistolPeteComplete"/>
             <property class="Action0">
-                <property name="QuestGiven" value="1122"/></property>
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="ammo9mmBulletBall"/>
+                <property name="Create_item_count" value="100"/>
+                <!--
+		This can spawn multiple item types and quantities. No randomness.
+		<property name="Create_item" value="ammo9mmBulletBall,drinkCanRiverWater"/><property name="Create_item_count" value="50,5"/>
+		--></property>
+        </item>
+
+        <item name="新手礼包">
+            <property name="CustomIcon" value="cntLootChestHeroInsecureT2" />
+            <property name="CustomIconTint" value="F75000" />
+            <property name="Extends" value="WPB"/>
+            <property name="CustomIconTint" value="FFD306" />
+            <property name="Stacknumber" value="10"/>
+            <!-- STK ammobundle high -->
+            <property name="EconomicValue" value="900"/>
+            <property class="Action0">
+                <property name="Create_item" value="[2894FF]星源☆魂眼,可选职业,新手子弹,[FFD306]新手·[FF0000]枪,[FFD306]新手·☆斧,传送核心,连环任务击杀僵尸,[00FFFF]神☆[FF0000]之枪"/>
+                <property name="Create_item_count" value="1,1,500,1,1,1,1,1"/></property>
         </item>
         <item name="怪物介绍">
             <property name="CustomIcon" value="challengeQuestMaster" />
@@ -36110,33 +36144,7 @@ needed?
                 <passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
             </effect_group>
         </item>
-        <item name="WPB">
-            <property name="CreativeMode" value="None"/>
-            <property name="CustomIcon" value="ammo9mmBulletBall"/>
-            <property name="ItemTypeIcon" value="bundle"/>
-            <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
-            <property name="HoldType" value="45"/>
-            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="5"/>
-            <!-- STK ammobundle -->
-            <property name="Weight" value="0"/>
-            <property name="EconomicValue" value="900"/>
-            <property name="Group" value="MOTU2"/>
-            <property name="UnlockedBy" value="perkPistolPeteComplete"/>
-            <property class="Action0">
-                <property name="Class" value="OpenBundle"/>
-                <property name="Delay" value="0"/>
-                <property name="Use_time" value="0"/>
-                <property name="Sound_start" value="close_garbage"/>
-                <property name="Create_item" value="ammo9mmBulletBall"/>
-                <property name="Create_item_count" value="100"/>
-                <!--
-		This can spawn multiple item types and quantities. No randomness.
-		<property name="Create_item" value="ammo9mmBulletBall,drinkCanRiverWater"/><property name="Create_item_count" value="50,5"/>
-		--></property>
-        </item>
+
         <item name="新手包">
             <property name="Extends" value="WPB"/>
             <property name="CustomIcon" value="challengeQuestMaster" />

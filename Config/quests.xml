@@ -100,28 +100,20 @@
 </quest>
 	
 <quest id="1122">
-		<property name="name_key" value="说明书" />
-		<property name="subtitle_key" value="说明书" />
-		<property name="description_key" value="[00FF00]注明 本Mod仅供娱乐 严禁任何形式盈利 否则后果自负！\n本MOD版本为免费版 在这版本中所产生有商业行为跟本作者无关！\n本mod由[63B8FF]丨影风[00FF00]制作ren[00FF00]修改 ![63B8FF]丨影风[00FF00]制作ren[00FF00]修改 !这个MOD增加了装备，可升级武器，和各种配件，增加被动的石头，光环配件等等~可升级武器须要从怪物掉落，和在开图时地图上随机刷新的武器箱来得到~~搜刮物品有机率得到各大物品！" />
-		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="name_key" value="[00DB00]新手礼包" />
+		<property name="subtitle_key" value="[00DB00]新手礼包" />
+		<property name="description_key" value="[9F35FF]新手礼包：包含新手枪、新手斧、击杀僵尸任务、基本玩法请按ESC查看！进群领取找服主领取VIP礼包！QQ群：822530537" />
+		<property name="icon" value="ui_game_symbol_hammer" />
 		<property name="repeatable" value="true" />
 		<property name="category_key" value="challenge" />
-		<property name="offer_key" value="[00FF00]注明 本Mod仅供娱乐 严禁任何形式盈利 否则后果自负！\n本MOD版本为免费版 在这版本中所产生有商业行为跟本作者无关！\n本mod由[63B8FF]丨影风[00FF00]制作ren[00FF00]修改 ![63B8FF]丨影风[00FF00]制作ren[00FF00]修改 !这个MOD增加了装备，可升级武器，和各种配件，增加被动的石头，光环配件等等~可升级武器须要从怪物掉落，和在开图时地图上随机刷新的武器箱来得到~~搜刮物品有机率得到各大物品！" />
+		<property name="offer_key" value="[9F35FF]新手礼包：包含新手枪、新手斧、击杀僵尸任务、基本玩法请按ESC查看！进群领取找服主领取VIP礼包！QQ群：822530537" />
 		<property name="difficulty" value="easy" />
-
 		<reward type="Exp" value="1000" />
-		<reward type="Item" id="怪物介绍" value="1" />
-		<reward type="Item" id="各种台合成介绍" value="1" />
-		<reward type="Item" id="武器获得方法" value="1" />
-		<reward type="Item" id="新手说明书" value="1" />
-		<reward type="Item" id="新手子弹" value="800-1000" />
+		<reward type="Item" id="新手子弹" value="300-800" />
 		<reward type="Item" id="[FFD306]新手·[FF0000]枪" value="3-6" />
 		<reward type="Item" id="[FFD306]新手·☆斧" value="3-6" />
 		<reward type="Item" id="传送核心" value="1" />												
 		<reward type="Item" id="连环任务击杀僵尸" value="1" />
-		<!--<reward type="Item" id="可选职业" value="1" />-->
-		<!--<reward type="Item" id="[2894FF]星源☆魂眼" value="1" />-->
-
 		<reward type="Item" id="[00FFFF]神☆[FF0000]之枪" value="3-6" />
 </quest>	
 <quest id="1120">

@@ -293,6 +293,8 @@
 		<entity name="zombieFatHawaiian" prob="0.3"/>
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
 		<entity name="[FFD306]矿魔 [2894FF]一形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]二形" prob="0.05" />
 		<entity name="[FFD306]矿魔 [2894FF]三形" prob="0.05" />
@@ -442,6 +444,8 @@
 		<entity name="[53FF53]C级僵尸 半身僵尸" prob="0.5" />
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
 		<entity name="[2894FF]B级僵尸 狂徒僵尸" prob="0.05" />
 		<entity name="[2894FF]B级僵尸 变异僵尸" prob="0.05" />
 		<entity name="[2894FF]B级僵尸 火焰僵尸" prob="0.05" />
@@ -452,6 +456,8 @@
 <entitygroup name="雪地僵尸">
         <entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
 		<entity name="[53FF53]C级僵尸 狂徒僵尸" prob="0.2" />
 		<entity name="[53FF53]C级僵尸 变异僵尸" prob="0.2" />
 		<entity name="[53FF53]C级僵尸 火焰僵尸" prob="0.2" />
@@ -534,6 +540,9 @@
 <entitygroup name="沙漠僵尸">
         <entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
+
 		<entity name="[53FF53]C级僵尸 狂徒僵尸" prob="0.05" />
 		<entity name="[53FF53]C级僵尸 变异僵尸" prob="0.05" />
 		<entity name="[53FF53]C级僵尸 火焰僵尸" prob="0.05" />
@@ -631,6 +640,8 @@
 <entitygroup name="废墟僵尸">
         <entity name="辅助僵尸 移速领域" prob="0.1" />
         <entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
 
         <entity name="[CA8EFF]A级僵尸 狂徒僵尸" prob="0.05" />
         <entity name="[CA8EFF]A级僵尸 变异僵尸" prob="0.05" />
@@ -730,6 +741,9 @@
     <entitygroup name="火烧地僵尸">
         <entity name="辅助僵尸 移速领域" prob="0.1" />
         <entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
+
         <entity name="[CA8EFF]A级僵尸 狂徒僵尸" prob="0.2" />
         <entity name="[CA8EFF]A级僵尸 变异僵尸" prob="0.2" />
         <entity name="[CA8EFF]A级僵尸 火焰僵尸" prob="0.2" />
@@ -901,6 +915,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS2">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -976,6 +992,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS4">
         <entity name="zombieJanitor"/><entity name="zombieBusinessMan"/><entity name="zombieMoe"/><entity name="zombieDarlene"/><entity name="zombieBoe"/><entity name="zombieNurse"/><entity name="zombieMarlene"/><entity name="zombieTomClark"/><entity name="zombieYo"/><entity name="zombieUtilityWorker"/><entity name="zombieJoe"/><entity name="zombieSteve"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -1051,6 +1069,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS7">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -1126,6 +1146,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS10">
         <entity name="zombieTomClark"/><entity name="zombieSteve"/><entity name="zombiePartyGirl"/><entity name="zombieBoe"/><entity name="zombieMoe"/><entity name="zombieBusinessMan"/><entity name="zombieMarlene"/><entity name="zombieYo"/><entity name="zombieJoe"/><entity name="zombieArlene"/><entity name="zombieUtilityWorker"/><entity name="zombieJanitor"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -1201,6 +1223,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS13">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -1276,6 +1300,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS16">
         <entity name="zombieJanitor"/><entity name="zombieArlene"/><entity name="zombieJoe"/><entity name="zombieBusinessMan"/><entity name="zombieDarlene"/><entity name="zombiePartyGirl"/><entity name="zombieBoe"/><entity name="zombieYo"/><entity name="zombieMarlene"/><entity name="zombieNurse"/><entity name="zombieUtilityWorker"/><entity name="zombieSteve"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -1351,6 +1377,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS19">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -1427,6 +1455,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS23">
         <entity name="zombieDarlene"/><entity name="zombieTomClark"/><entity name="zombieJanitor"/><entity name="zombieArlene"/><entity name="zombieJoe"/><entity name="zombieMarlene"/><entity name="zombieBusinessMan"/><entity name="zombiePartyGirl"/><entity name="zombieMoe"/><entity name="zombieSteve"/><entity name="zombieBoe"/><entity name="zombieUtilityWorker"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -1503,6 +1533,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS27">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -1579,6 +1611,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS31">
         <entity name="zombieJanitor"/><entity name="zombieMoe"/><entity name="zombieBoe"/><entity name="zombieNurse"/><entity name="zombieArlene"/><entity name="zombiePartyGirl"/><entity name="zombieJoe"/><entity name="zombieSteve"/><entity name="zombieUtilityWorker"/><entity name="zombieDarlene"/><entity name="zombieMarlene"/><entity name="zombieBusinessMan"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -1657,6 +1691,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS35">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -1733,6 +1769,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS40">
         <entity name="zombieMarlene"/><entity name="zombieBusinessMan"/><entity name="zombieArlene"/><entity name="zombieYo"/><entity name="zombieUtilityWorker"/><entity name="animalZombieDog"/><entity name="zombieLumberjack" prob="0.3"/><entity name="zombieSpider" prob="0.24"/><entity name="zombieMoe"/><entity name="zombieDarlene"/><entity name="zombiePartyGirl"/><entity name="zombieNurse"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -1809,6 +1847,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS44">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -1885,6 +1925,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS49">
         <entity name="zombieBiker" prob="0.35"/><entity name="zombieNurse"/><entity name="zombieDarlene"/><entity name="zombieYo"/><entity name="zombieMarlene"/><entity name="animalZombieVulture" prob="0.13"/><entity name="zombieMaleHazmat" prob="0.37"/><entity name="zombieJoe"/><entity name="zombieJanitor"/><entity name="animalZombieDog"/><entity name="zombieBusinessMan"/><entity name="zombieSteve"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -1989,6 +2031,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS54">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -2121,6 +2165,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
 
     </entitygroup>
 	<entitygroup name="feralHordeStageGS59">
@@ -2253,6 +2299,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
 
     </entitygroup>
 	<entitygroup name="feralHordeStageGS64">
@@ -2385,6 +2433,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS69">
         <entity name="zombieArleneFeral" prob="0.38"/><entity name="zombieSoldier" prob="0.43"/><entity name="zombieUtilityWorker"/><entity name="zombieLumberjack" prob="0.59"/><entity name="zombieMarlene"/><entity name="zombieFatHawaiian" prob="0.5"/><entity name="zombieSteve"/><entity name="zombieYo"/><entity name="zombieFatCop" prob="0.52"/><entity name="zombieSkateboarder" prob="0.45"/><entity name="zombieJanitor"/><entity name="zombieMoe"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -2516,6 +2566,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
 
     </entitygroup>
 	<entitygroup name="feralHordeStageGS74">
@@ -2648,6 +2700,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS80">
         <entity name="zombieArlene"/><entity name="zombieLumberjack" prob="0.7"/><entity name="zombieMoeFeral" prob="0.33"/><entity name="zombieJoe"/><entity name="zombieFatCop" prob="0.63"/><entity name="zombieSteve"/><entity name="zombieBoeFeral" prob="0.47"/><entity name="zombieBusinessMan"/><entity name="zombieArleneFeral" prob="0.49"/><entity name="zombieBoe"/><entity name="zombieDarlene"/><entity name="zombieTomClark"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -2780,6 +2834,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS85">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -2912,6 +2968,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS91">
         <entity name="zombieLumberjack" prob="0.81"/><entity name="zombieMoe"/><entity name="zombieBusinessMan"/><entity name="zombieBiker" prob="0.77"/><entity name="zombieMarleneFeral" prob="0.47"/><entity name="zombieJoeFeral" prob="0.49"/><entity name="zombieSteveFeral" prob="0.37"/><entity name="zombieSkateboarder" prob="0.67"/><entity name="zombieFemaleFat" prob="0.7"/><entity name="zombieSoldier" prob="0.65"/><entity name="zombieFatHawaiian" prob="0.72"/><entity name="zombieTomClark"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -3043,6 +3101,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS97">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -3175,6 +3235,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS103">
         <entity name="zombieDarleneFeral" prob="0.66"/><entity name="zombieSteve"/><entity name="zombieJanitor"/><entity name="zombieTomClarkFeral" prob="0.47"/><entity name="zombieSoldier" prob="0.77"/><entity name="animalZombieVulture" prob="0.29"/><entity name="zombieFatCopFeral" prob="0.31"/><entity name="zombieSkateboarder" prob="0.79"/><entity name="zombieJanitorFeral" prob="0.63"/><entity name="zombieBikerFeral" prob="0.33"/><entity name="zombieLumberjack" prob="0.93"/><entity name="zombieMarleneFeral" prob="0.59"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -3306,6 +3368,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS109">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -3437,6 +3501,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS115">
         <entity name="zombieNurse"/><entity name="zombieLumberjackFeral" prob="0.5"/><entity name="zombieFatHawaiian" prob="0.96"/><entity name="zombieBusinessManFeral" prob="0.8"/><entity name="zombieFatCop" prob="0.98"/><entity name="zombieJanitorFeral" prob="0.75"/><entity name="zombieBikerFeral" prob="0.45"/><entity name="zombieSkateboarder" prob="0.91"/><entity name="zombieTomClark"/><entity name="zombieTomClarkFeral" prob="0.59"/><entity name="zombieMarlene"/><entity name="zombieSoldier" prob="0.89"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -3568,6 +3634,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS121">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -3699,6 +3767,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS127">
         <entity name="zombieSoldier" prob="1"/><entity name="zombieFatCop" prob="1"/><entity name="zombieSpiderFeral" prob="0.4"/><entity name="zombieMaleHazmat" prob="1"/><entity name="zombieFatHawaiian" prob="1"/><entity name="animalZombieVulture" prob="0.3"/><entity name="zombieSteve"/><entity name="zombieJanitor"/><entity name="zombieDarleneFeral" prob="0.9"/><entity name="zombieSkateboarder" prob="1"/><entity name="zombieMoe"/><entity name="animalZombieDog"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -3830,6 +3900,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS133">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -3961,6 +4033,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS140">
         <entity name="zombieMarleneFeral" prob="0.96"/><entity name="zombieJanitor"/><entity name="animalZombieVulture" prob="0.3"/><entity name="zombieDarlene"/><entity name="zombieNurseFeral" prob="0.91"/><entity name="zombieArlene"/><entity name="zombieSoldierFeral" prob="0.61"/><entity name="zombieNurse"/><entity name="zombieMoeFeral" prob="0.93"/><entity name="zombieTomClarkFeral" prob="0.84"/><entity name="zombieMoeRadiated" prob="0.4"/><entity name="zombieLumberjack" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -4092,6 +4166,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS147">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -4223,6 +4299,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS153">
         <entity name="zombieMoe"/><entity name="zombieMarleneRadiated" prob="0.56"/><entity name="zombieMoeRadiated" prob="0.53"/><entity name="zombieJanitorFeral" prob="1"/><entity name="zombieBoeFeral" prob="1"/><entity name="zombieMaleHazmatRadiated" prob="0.43"/><entity name="zombieSkateboarder" prob="1"/><entity name="zombieArlene"/><entity name="zombieWightFeral" prob="0.72"/><entity name="zombieDemolition" prob="0.18"/><entity name="zombieLumberjack" prob="1"/><entity name="zombieNurseRadiated" prob="0.51"/><entity name="zombieBusinessMan"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -4303,6 +4381,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS160">
         <entity name="血夜僵尸 C僵尸1" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2"/><entity name="血夜僵尸 C僵尸3"/><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -4383,6 +4463,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS167">
         <entity name="zombieSkateboarderRadiated" prob="0.49"/><entity name="zombieArlene"/><entity name="zombieSteveRadiated" prob="0.63"/><entity name="zombieNurseFeral" prob="1"/><entity name="zombieFemaleFat" prob="1"/><entity name="zombieFemaleFatFeral" prob="0.9"/><entity name="zombieDemolition" prob="0.23"/><entity name="zombieUtilityWorker"/><entity name="zombieYoFeral" prob="1"/><entity name="zombieTomClarkFeral" prob="1"/><entity name="zombieMarleneFeral" prob="1"/><entity name="zombieYoRadiated" prob="0.58"/><entity name="zombieFatCop" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -4463,6 +4545,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS174">
         <entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -4543,6 +4627,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS181">
         <entity name="zombiePartyGirl"/><entity name="zombieSoldier" prob="1"/><entity name="zombieDemolition" prob="0.28"/><entity name="zombieMaleHazmatFeral" prob="1"/><entity name="zombieTomClarkRadiated" prob="0.75"/><entity name="zombieJanitorFeral" prob="1"/><entity name="animalZombieVulture" prob="0.3"/><entity name="zombieFatCopRadiated" prob="0.58"/><entity name="zombieFemaleFatFeral" prob="1"/><entity name="zombieMarleneFeral" prob="1"/><entity name="animalZombieVultureRadiated" prob="0.29"/><entity name="zombieDarleneRadiated" prob="0.91"/><entity name="zombieSteveFeral" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -4623,6 +4709,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS188">
         <entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -4703,6 +4791,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS195">
         <entity name="zombieDarleneFeral" prob="1"/><entity name="zombieUtilityWorkerFeral" prob="1"/><entity name="zombieBoeFeral" prob="1"/><entity name="animalZombieVulture" prob="0.3"/><entity name="zombieLumberjack" prob="1"/><entity name="zombieFatHawaiian" prob="1"/><entity name="zombieSkateboarderFeral" prob="1"/><entity name="zombieBiker" prob="1"/><entity name="zombieNurseFeral" prob="1"/><entity name="zombieWightRadiated" prob="0.63"/><entity name="zombieBoe"/><entity name="zombieDarlene"/><entity name="zombieJanitorFeral" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 舞女" prob="0.05" />
@@ -4783,6 +4873,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	
 	
@@ -4866,6 +4958,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS210">
         <entity name="zombieTomClark"/><entity name="zombieSoldier" prob="1"/><entity name="zombieDarleneRadiated" prob="1"/><entity name="zombieJoe"/><entity name="zombieMoeFeral" prob="1"/><entity name="zombieDarlene"/><entity name="zombieArleneFeral" prob="1"/><entity name="zombieArleneRadiated" prob="1"/><entity name="zombieWightFeral" prob="1"/><entity name="zombieDarleneFeral" prob="1"/><entity name="zombiePartyGirlFeral" prob="1"/><entity name="zombieFatCopRadiated" prob="0.87"/><entity name="zombieMarleneFeral" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -4945,6 +5039,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS217">
         <entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -5024,6 +5120,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS225">
         <entity name="zombieLumberjackRadiated" prob="1"/><entity name="zombieJoeFeral" prob="1"/><entity name="zombieSoldierFeral" prob="1"/><entity name="zombieBikerFeral" prob="1"/><entity name="zombieMoeRadiated" prob="1"/><entity name="zombiePartyGirlFeral" prob="1"/><entity name="zombieJoeRadiated" prob="1"/><entity name="zombieArlene"/><entity name="zombieSoldierRadiated" prob="0.96"/><entity name="zombieLumberjack" prob="1"/><entity name="zombieBoe"/><entity name="zombieSkateboarderFeral" prob="1"/><entity name="zombieDemolition" prob="0.4"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -5103,6 +5201,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS232">
         <entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -5182,6 +5282,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS240">
         <entity name="zombieFatHawaiian" prob="1"/><entity name="zombieNurseFeral" prob="1"/><entity name="zombieDemolition" prob="0.5"/><entity name="zombieSteveFeral" prob="1"/><entity name="zombieNurseRadiated" prob="1"/><entity name="zombieArleneFeral" prob="1"/><entity name="zombieLumberjackRadiated" prob="1"/><entity name="zombieSkateboarderRadiated" prob="1"/><entity name="zombieSpiderFeral" prob="0.6"/><entity name="zombieSoldierFeral" prob="1"/><entity name="zombieMarlene"/><entity name="zombieSoldier" prob="1"/><entity name="zombieLumberjackFeral" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -5261,6 +5363,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 
 
@@ -5342,6 +5446,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 
 	<entitygroup name="feralHordeStageGS255">
@@ -5422,6 +5528,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS263">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -5501,6 +5609,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 
 	<entitygroup name="feralHordeStageGS271">
@@ -5581,6 +5691,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS279">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -5707,6 +5819,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS287">
         <entity name="zombieSpiderRadiated" prob="0.6"/><entity name="zombieNurseRadiated" prob="1"/><entity name="zombieYoFeral" prob="1"/><entity name="zombieSoldier" prob="1"/><entity name="zombieSpiderFeral" prob="0.6"/><entity name="zombieJanitorRadiated" prob="1"/><entity name="zombieBoe"/><entity name="zombieSteveFeral" prob="1"/><entity name="zombieSteveRadiated" prob="1"/><entity name="zombieArleneRadiated" prob="1"/><entity name="zombieWightRadiated" prob="1"/><entity name="zombieNurse"/><entity name="zombieMarleneFeral" prob="1"/><entity name="zombieFatCop" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="辅助僵尸 回血领域" prob="0.1" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -5833,6 +5947,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS295">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -5959,6 +6075,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS304">
         <entity name="animalZombieVultureRadiated" prob="0.3"/><entity name="zombieMaleHazmatRadiated" prob="1"/><entity name="animalZombieDog"/><entity name="zombieLumberjack" prob="1"/><entity name="zombieMaleHazmatFeral" prob="1"/><entity name="zombieMaleHazmat" prob="1"/><entity name="zombieLumberjackRadiated" prob="1"/><entity name="zombieNurseRadiated" prob="1"/><entity name="zombieMoeFeral" prob="1"/><entity name="zombieMarlene"/><entity name="zombieMoeRadiated" prob="1"/><entity name="zombieUtilityWorker"/><entity name="zombieArleneRadiated" prob="1"/><entity name="zombieBikerRadiated" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -6085,6 +6203,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS312">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -6211,6 +6331,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS320">
         <entity name="zombieSpiderRadiated" prob="0.6"/><entity name="zombieYo"/><entity name="zombiePartyGirlFeral" prob="1"/><entity name="zombieLumberjackRadiated" prob="1"/><entity name="zombieMaleHazmatFeral" prob="1"/><entity name="animalZombieVulture" prob="0.3"/><entity name="zombieJanitorFeral" prob="1"/><entity name="animalZombieVultureRadiated" prob="0.3"/><entity name="zombieSteve"/><entity name="zombieJoeFeral" prob="1"/><entity name="zombiePartyGirl"/><entity name="zombieFatCopFeral" prob="1"/><entity name="zombieLumberjack" prob="1"/><entity name="zombieBikerRadiated" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -6337,6 +6459,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS329">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -6515,6 +6639,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 
 	<entitygroup name="feralHordeStageGS337">
@@ -6642,6 +6768,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS346">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -6768,6 +6896,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS354">
         <entity name="zombieDemolition" prob="0.4"/><entity name="zombieMoe"/><entity name="zombieDarlene"/><entity name="zombieFatCopFeral" prob="1"/><entity name="zombieJanitor"/><entity name="zombieBoeFeral" prob="1"/><entity name="zombieBikerRadiated" prob="1"/><entity name="zombieArleneRadiated" prob="1"/><entity name="zombieFatHawaiian" prob="1"/><entity name="zombieFatCop" prob="1"/><entity name="zombieSpiderFeral" prob="0.6"/><entity name="zombieTomClark"/><entity name="zombieMarleneRadiated" prob="1"/><entity name="zombieBikerFeral" prob="1"/><entity name="血夜僵尸 C僵尸1" prob="0.3" /><entity name="血夜僵尸 C僵尸2" prob="0.3" /><entity name="血夜僵尸 C僵尸3" prob="0.3" /><entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -6894,6 +7024,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS363">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -7015,6 +7147,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 
 	<entitygroup name="feralHordeStageGS372">
@@ -7137,6 +7271,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS381">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -7258,6 +7394,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 
 	<entitygroup name="feralHordeStageGS389">
@@ -7380,6 +7518,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS398">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
@@ -7501,6 +7641,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 
 	<entitygroup name="feralHordeStageGS407">
@@ -7623,6 +7765,8 @@
 
 		<entity name="辅助僵尸 移速领域" prob="0.1" />
 		<entity name="辅助僵尸 回血领域" prob="0.1" />
+        <entity name="辅助僵尸 伤害领域" prob="0.1" />
+        <entity name="辅助僵尸 攻速领域" prob="0.1" />
     </entitygroup>
 	<entitygroup name="feralHordeStageGS417">
         <entity name="血夜僵尸 B僵尸1" prob="0.3" /><entity name="血夜僵尸 B僵尸2" prob="0.3" /><entity name="血夜僵尸 B僵尸3" prob="0.3" /><entity name="00级僵尸 快速僵尸" prob="0.1" /><entity name="00级僵尸 尖叫僵尸" prob="0.1" /><entity name="00级僵尸 半身僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 快速僵尸" prob="0.1" /><entity name="01蜘蛛僵尸 舞女" prob="0.1" /><entity name="02飞天僵尸 快速僵尸" prob="0.1" /><entity name="02飞天僵尸 舞女" prob="0.1" />
