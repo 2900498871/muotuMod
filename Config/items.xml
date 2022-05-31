@@ -132,6 +132,13 @@
             <property name="DescriptionKey" value="强化石"/>
         </item>
         <item name="神级强化结晶">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceRawDiamond" />
             <property name="CustomIconTint" value="B15BFF" />
             <property name="Extends" value="星源水晶"/>
@@ -139,6 +146,13 @@
             <property name="DescriptionKey" value="强化石"/>
         </item>
         <item name="超神强化结晶">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceRawDiamond" />
             <property name="CustomIconTint" value="D9B300" />
             <property name="Extends" value="星源水晶"/>
@@ -160,6 +174,13 @@
             <property name="DescriptionKey" value="属性赋予"/>
         </item>
         <item name="传送核心">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceAcid" />
             <property name="Extends" value="星源水晶"/>
             <property name="EconomicValue" value="70000"/>
@@ -2612,6 +2633,14 @@
         </item>
 
         <item name="新手礼包">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+            <!--不可分解-->
+            <property name="DegradationBreaksAfter" value="false"/>
             <property name="CustomIcon" value="cntLootChestHeroInsecureT2" />
             <property name="CustomIconTint" value="F75000" />
             <property name="Extends" value="WPB"/>
@@ -3371,6 +3400,13 @@
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆斧">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeToolRepairT0StoneAxe" />
             <property name="DescriptionKey" value="119Desc"/>
             <property name="CustomIconTint" value="FF0000" />
@@ -3618,6 +3654,13 @@
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆锹">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeToolShovelT1IronShovel" />
             <property name="DescriptionKey" value="119Desc"/>
             <property name="CustomIconTint" value="FF0000" />
@@ -3930,6 +3973,13 @@
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆鹤嘴锄">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeToolPickT2SteelPickaxe" />
             <property name="DescriptionKey" value="119Desc"/>
             <property name="CustomIconTint" value="FF0000" />
@@ -4217,6 +4267,13 @@
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆战斧">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeToolAxeT2SteelAxe" />
             <property name="DescriptionKey" value="119Desc"/>
             <property name="CustomIconTint" value="FF0000" />
@@ -4291,6 +4348,13 @@
             <property name="DescriptionKey" value="126Desc"/>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆共震收纳枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeToolRepairT3Nailgun" />
             <property name="CustomIconTint" value="4B0091" />
             <property name="Tags" value="melee,heavy,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
@@ -4989,6 +5053,13 @@
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆猎刀">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -5696,6 +5767,13 @@
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆砍刀">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -6205,6 +6283,13 @@
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆钢虎指">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -7414,6 +7499,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆电棒">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
             <property name="CustomIconTint" value="921AFF" />
             <property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
@@ -8121,6 +8213,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆重棒">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -8539,6 +8638,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆钢矛">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="921AFF" />
@@ -9112,6 +9218,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆重锤">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -9542,6 +9655,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆战斗斧">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeToolAxeT2SteelAxe" />
             <property name="DescriptionKey" value="119Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -10171,6 +10291,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆手枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -10853,6 +10980,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆SMG5">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -11539,6 +11673,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆左轮手枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -12202,6 +12343,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆沙漠之鹰">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -12837,6 +12985,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆双筒喷枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -13481,6 +13636,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆喷枪泵霰弹枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -14121,6 +14283,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆自动喷枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -14826,6 +14995,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆狙击枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -15475,6 +15651,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆AK47">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -16107,6 +16290,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆战术突击步枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -16750,6 +16940,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆M60机枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -17461,6 +17658,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆复合弓">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -18183,6 +18387,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·[FF0000]星源☆复合弩">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="921AFF" />
@@ -18286,6 +18497,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆猎刀">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -18384,6 +18602,13 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆砍刀">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -18483,6 +18708,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆钢虎指">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -18550,6 +18782,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆电棒">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
             <property name="CustomIconTint" value="EA0000" />
             <property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attIntellect,perkElectrocutioner,canHaveCosmetic"/>
@@ -18740,6 +18979,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆重棒">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -18826,6 +19072,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆钢矛">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="EA0000" />
@@ -18880,6 +19133,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆重锤">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -18966,6 +19226,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆手枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19061,6 +19328,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆SMG5">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19158,6 +19432,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆左轮手枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT2Magnum44" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19256,6 +19537,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆沙漠之鹰">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3DesertVulture" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19350,6 +19638,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆双筒喷枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19441,6 +19736,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆喷枪泵霰弹枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19534,6 +19836,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆自动喷枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19626,6 +19935,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆狙击枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19728,6 +20044,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆AK47">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19819,6 +20142,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆战术突击步枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT2TacticalAR" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -19909,6 +20239,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆M60机枪">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -20001,6 +20338,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆复合弓">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunBowT3CompoundBow" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -20104,6 +20448,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆复合弩">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -20207,6 +20558,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆锤塔">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunBotT1JunkSledge" />
             <property name="DescriptionKey" value="113Desc"/>
             <property name="CustomIconTint" value="EA0000" />
@@ -20328,6 +20686,13 @@ needed?
             </effect_group>
         </item>
         <item name="[FFD306]神·千变[FF0000]星源☆炮塔">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunBotT2JunkTurret" />
             <property name="CustomIconTint" value="EA0000" />
             <property name="DescriptionKey" value="113Desc"/>
@@ -20419,6 +20784,13 @@ needed?
     <append xpath="/items">
         <!--神武器-->
         <item name="[00FFFF]神·刃☆[FF0000]黑刺">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -20519,6 +20891,13 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[00FFFF]神·刃☆[FF0000]黑刺+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -20619,6 +20998,13 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[00FFFF]神·刃☆[FF0000]黑刺+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -20719,6 +21105,13 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[00FFFF]神·刃☆[FF0000]黑刺+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -20819,6 +21212,13 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[00FFFF]神·刃☆[FF0000]黑刺+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -20919,6 +21319,13 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[00FFFF]神·刃☆[FF0000]黑刺MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21019,6 +21426,13 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]血牙">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21089,6 +21503,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]血牙+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21159,6 +21580,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]血牙+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21229,6 +21657,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]血牙+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21299,6 +21734,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]血牙+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21369,6 +21811,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]血牙MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21439,6 +21888,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]火拳">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21509,6 +21965,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]火拳+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21579,6 +22042,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]火拳+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21649,6 +22119,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]火拳+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21719,6 +22196,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]火拳+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21789,6 +22273,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·爪☆[FF0000]火拳MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -21859,6 +22350,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·矛☆[FF0000]红刺">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="411445" />
@@ -21934,6 +22432,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[00FFFF]神·矛☆[FF0000]红刺+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="411445" />
@@ -22009,6 +22514,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[00FFFF]神·矛☆[FF0000]红刺+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="411445" />
@@ -22084,6 +22596,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[00FFFF]神·矛☆[FF0000]红刺+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="411445" />
@@ -22159,6 +22678,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[00FFFF]神·矛☆[FF0000]红刺+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="411445" />
@@ -22234,6 +22760,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[00FFFF]神·矛☆[FF0000]红刺MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="411445" />
@@ -22309,6 +22842,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[00FFFF]神·剑☆[FF0000]黑魂">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -22402,6 +22942,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·剑☆[FF0000]黑魂+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -22494,6 +23041,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·剑☆[FF0000]黑魂+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -22587,6 +23141,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·剑☆[FF0000]黑魂+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -22680,6 +23241,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·剑☆[FF0000]黑魂+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -22773,6 +23341,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·剑☆[FF0000]黑魂MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -22866,6 +23441,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·锤☆[FF0000]破裂">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -22955,6 +23537,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·锤☆[FF0000]破裂+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23044,6 +23633,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·锤☆[FF0000]破裂+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23133,6 +23729,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·锤☆[FF0000]破裂+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23222,6 +23825,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·锤☆[FF0000]破裂+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23311,6 +23921,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·锤☆[FF0000]破裂MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23400,6 +24017,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·重锤☆[FF0000]陨星">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23489,6 +24113,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·重锤☆[FF0000]陨星+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23578,6 +24209,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·重锤☆[FF0000]陨星+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23667,6 +24305,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·重锤☆[FF0000]陨星+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23756,6 +24401,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·重锤☆[FF0000]陨星+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23845,6 +24497,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·重锤☆[FF0000]陨星MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -23934,6 +24593,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
@@ -24052,6 +24718,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
@@ -24170,6 +24843,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
@@ -24288,6 +24968,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
@@ -24406,6 +25093,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
@@ -24524,6 +25218,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·冲锋☆[FF0000]无畏先锋MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="411445" />
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
@@ -24643,6 +25344,13 @@ needed?
         </item>
         <!--左轮 -->
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--340 -->
             <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
@@ -24737,6 +25445,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
@@ -24830,6 +25545,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
@@ -24923,6 +25645,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
@@ -25016,6 +25745,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
@@ -25109,6 +25845,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·左轮☆[FF0000]戮神破魔MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
@@ -25203,6 +25946,12 @@ needed?
         </item>
         <!--机枪 -->
         <item name="[00FFFF]神·步枪☆[FF0000]星际战神">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
             <!--335 -->
             <!--+5 -->
             <property name="CustomIcon" value="gunMGT1AK47" />
@@ -25296,6 +26045,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·步枪☆[FF0000]星际战神+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--335 -->
             <!--+5 -->
             <property name="CustomIcon" value="gunMGT1AK47" />
@@ -25391,6 +26147,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·步枪☆[FF0000]星际战神+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -25482,6 +26245,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·步枪☆[FF0000]星际战神+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -25573,6 +26343,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·步枪☆[FF0000]星际战神+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -25664,6 +26441,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·步枪☆[FF0000]星际战神MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -25755,6 +26539,12 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
             <!--335 -->
             <!---9 -->
             <property name="CustomIcon" value="gunMGT3M60" />
@@ -25849,6 +26639,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--365 -->
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
@@ -25942,6 +26739,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--400 -->
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
@@ -26035,6 +26839,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--430 -->
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
@@ -26128,6 +26939,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--460 -->
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
@@ -26221,6 +27039,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·机枪☆[FF0000]雷霆怒焰MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--500 -->
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
@@ -26315,6 +27140,13 @@ needed?
         </item>
         <!--狙击 -->
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--335 -->
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
@@ -26418,6 +27250,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--365 -->
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
@@ -26521,6 +27360,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--400 -->
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
@@ -26624,6 +27470,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--430 -->
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
@@ -26727,6 +27580,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--460 -->
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
@@ -26830,6 +27690,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]猎魂追命MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--500 -->
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
@@ -26933,6 +27800,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
@@ -27040,6 +27914,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
@@ -27147,6 +28028,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
@@ -27254,6 +28142,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
@@ -27361,6 +28256,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
@@ -27468,6 +28370,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·狙击☆[FF0000]炎龙之怒MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/><!-- attachmentsIncluded -->
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
@@ -27575,6 +28484,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·霰弹☆[FF0000]众生平等">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -27667,6 +28583,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·霰弹☆[FF0000]众生平等+1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -27759,6 +28682,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·霰弹☆[FF0000]众生平等+2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -27851,6 +28781,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·霰弹☆[FF0000]众生平等+3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -27943,6 +28880,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·霰弹☆[FF0000]众生平等+4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -28035,6 +28979,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]神·霰弹☆[FF0000]众生平等MAX">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="411445" />
@@ -28228,6 +29179,13 @@ needed?
         </item>
         <!--千变神晶 -->
         <item name="[00FFFF]千变神晶·[FF0000]千变石">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="decoEntityClothMaster" />
             <property name="CustomIconTint" value="2894FF" />
             <property name="Extends" value="星源水晶"/>
@@ -28236,6 +29194,13 @@ needed?
             <property name="DescriptionKey" value="进化石"/>
         </item>
         <item name="[00FFFF]千变神晶·刃☆[FF0000]黑刺">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -28336,6 +29301,13 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
         </item>
         <item name="[00FFFF]千变神晶·爪☆[FF0000]血牙">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -28406,6 +29378,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·爪☆[FF0000]火拳">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -28476,6 +29455,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·矛☆[FF0000]红刺">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="130c0e" />
@@ -28551,6 +29537,13 @@ needed?
             <property name="Group" value="MOTU1"/>
         </item>
         <item name="[00FFFF]千变神晶·剑☆[FF0000]黑魂">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -28644,6 +29637,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·锤☆[FF0000]破裂">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -28733,6 +29733,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·重锤☆[FF0000]陨星">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -28822,6 +29829,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·冲锋☆[FF0000]无畏先锋">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="130c0e" />
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
@@ -28940,6 +29954,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·左轮☆[FF0000]戮神破魔">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
@@ -29033,6 +30054,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·步枪☆[FF0000]星际战神">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -29124,6 +30152,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·机枪☆[FF0000]雷霆怒焰">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--500 -->
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
@@ -29218,6 +30253,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·狙击☆[FF0000]猎魂追命">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <!--500 -->
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="CustomIconTint" value="130c0e" />
@@ -29301,6 +30343,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·狙击☆[FF0000]炎龙之怒">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
@@ -29390,6 +30439,13 @@ needed?
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·霰弹☆[FF0000]众生平等">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -29485,6 +30541,13 @@ needed?
     <append xpath="/items">
         <!--护甲-->
         <item name="[2894FF]星源☆魂眼">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="apparelNightvisionGoggles" />
             <property name="CustomIconTint" value="ef5b9c" />
             <property name="DescriptionKey" value="魂眼"/>
@@ -35764,6 +36827,13 @@ needed?
         </item>
         <!--*************************************************终极套装********************************-->
         <item name="[D94600]神圣·[CA8EFF]☆终极头盔☆">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="armorMilitaryMaster"/>
             <property name="CustomIconTint" value="BB3D00" />
             <property name="CustomIcon" value="armorSteelHelmet" />
@@ -35812,6 +36882,13 @@ needed?
                 <property name="Mask9" value="Eyes" param1="outer"/></property>
         </item>
         <item name="[D94600]神圣·[CA8EFF]☆终极胸甲☆">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="armorMilitaryMaster"/>
             <property name="CustomIconTint" value="BB3D00" />
             <property name="CustomIcon" value="armorSteelChest" />
@@ -35853,6 +36930,13 @@ needed?
                 <property name="UISlot" value="ChestArmor"/></property>
         </item>
         <item name="[D94600]神圣·[CA8EFF]☆终极手套☆">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="armorMilitaryMaster"/>
             <property name="CustomIconTint" value="BB3D00" />
             <property name="CustomIcon" value="armorSteelGloves" />
@@ -35894,6 +36978,13 @@ needed?
                 <property name="UISlot" value="Gloves"/></property>
         </item>
         <item name="[D94600]神圣·[CA8EFF]☆终极腿甲☆">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="armorMilitaryMaster"/>
             <property name="CustomIconTint" value="BB3D00" />
             <property name="CustomIcon" value="armorSteelLegs" />
@@ -35935,6 +37026,13 @@ needed?
                 <property name="UISlot" value="LegArmor"/></property>
         </item>
         <item name="[D94600]神圣·[CA8EFF]☆终极靴子☆">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="armorMilitaryMaster"/>
             <property name="CustomIconTint" value="BB3D00" />
             <property name="CustomIcon" value="armorSteelBoots" />
@@ -36368,12 +37466,26 @@ needed?
             </effect_group>
         </item>
         <item name="可选职业">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="challengeQuestMaster" />
             <property name="Extends" value="星源水晶"/>
             <property name="EconomicValue" value="50"/>
             <property name="DescriptionKey" value="0000Desc"/>
         </item>
         <item name="武器大师职业">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIconTint" value="F75000" />
             <property name="CustomIcon" value="bundleMeleeMods" />
             <property name="Extends" value="bookFiremansAlmanacHeat"/>
@@ -36386,6 +37498,13 @@ needed?
             </effect_group>
         </item>
         <item name="枪手职业">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIconTint" value="F75000" />
             <property name="CustomIcon" value="bundlePistol" />
             <property name="Extends" value="bookFiremansAlmanacHeat"/>
@@ -36398,6 +37517,13 @@ needed?
             </effect_group>
         </item>
         <item name="工程师职业">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIconTint" value="F75000" />
             <property name="CustomIcon" value="bundleMiningHelmet" />
             <property name="Extends" value="bookFiremansAlmanacHeat"/>
@@ -36410,6 +37536,13 @@ needed?
             </effect_group>
         </item>
         <item name="猎人职业">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIconTint" value="F75000" />
             <property name="CustomIcon" value="bundleRifle" />
             <property name="Extends" value="bookFiremansAlmanacHeat"/>
@@ -36422,6 +37555,13 @@ needed?
             </effect_group>
         </item>
         <item name="军人职业">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIconTint" value="F75000" />
             <property name="CustomIcon" value="bundleMachineGun" />
             <property name="Extends" value="bookFiremansAlmanacHeat"/>
@@ -36434,6 +37574,13 @@ needed?
             </effect_group>
         </item>
         <item name="刺客大师职业">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIconTint" value="F75000" />
             <property name="CustomIcon" value="bundleDartTrap" />
             <property name="Extends" value="bookFiremansAlmanacHeat"/>
@@ -41954,11 +43101,26 @@ needed?
     <append xpath="/items">
         <!--任务-->
         <item name="连环任务击杀僵尸">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
+
             <property name="Extends" value="questMaster"/>
             <property class="Action0">
                 <property name="QuestGiven" value="1"/></property>
         </item>
         <item name="武器伤害提升 1">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -41966,6 +43128,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 2">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -41973,6 +43142,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 3">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -41980,6 +43156,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 4">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -41987,6 +43170,12 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 5">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -41994,6 +43183,12 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 6">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42001,6 +43196,12 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 7">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42008,6 +43209,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 8">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42015,6 +43223,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 9">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42022,6 +43237,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 10">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42029,6 +43251,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 11">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42036,6 +43265,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 12">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42044,12 +43280,26 @@ needed?
         </item>
         <item name="武器伤害提升 13">
             <property name="Extends" value="schematicMaster"/>
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="WUQI" level="+13"/>
             </effect_group>
         </item>
         <item name="武器伤害提升 14">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42057,6 +43307,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 15">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42064,6 +43321,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 16">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42071,6 +43335,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 17">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42078,6 +43349,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 18">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42085,6 +43363,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 19">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42092,6 +43377,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 20">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42099,6 +43391,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 21">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42106,6 +43405,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 22">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42113,6 +43419,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 23">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42120,6 +43433,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 24">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42127,6 +43447,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 25">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42134,6 +43461,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 26">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42141,6 +43475,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 27">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42148,6 +43489,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 28">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42155,6 +43503,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 29">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42162,6 +43517,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 30">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42169,6 +43531,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 31">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42176,6 +43545,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 32">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42183,6 +43559,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 33">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42190,6 +43573,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 34">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42197,6 +43587,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 35">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42204,6 +43601,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 36">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42211,6 +43615,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 37">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42218,6 +43629,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 38">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42225,6 +43643,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 39">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42232,6 +43657,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 40">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42239,6 +43671,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 41">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42246,6 +43685,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 42">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42253,6 +43699,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 43">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42260,6 +43713,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 44">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42267,6 +43727,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 45">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42274,6 +43741,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 46">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42281,6 +43755,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 47">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42288,6 +43769,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 48">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42295,6 +43783,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 49">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
@@ -42302,6 +43797,13 @@ needed?
             </effect_group>
         </item>
         <item name="武器伤害提升 50">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="Extends" value="schematicMaster"/>
             <property name="DescriptionKey" value="129Desc"/>
             <effect_group tiered="false">
