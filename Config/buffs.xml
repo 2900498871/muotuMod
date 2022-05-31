@@ -5281,8 +5281,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 				
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/trap_spinning_bladePrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
-				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Resources/oreNitrateBoulderPrefab" local_offset="0,0,0" local_rotation="0,0,180" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Resources/oreNitrateBoulderPrefab" local_offset="0,0,0" local_rotation="0,0,0" parent_transform="LeftHand"/> 
 				
@@ -5298,10 +5297,9 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Resources/oreLeadBoulderPrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Spine1"/><!--1左右 2上下3前后 -->
 			
 
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/trap_spinning_bladePrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/trap_spinning_bladePrefab" local_offset="0,0,0" local_rotation="0,0,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/trap_spinning_bladePrefab" local_offset="0,0,0" local_rotation="0,180,180" parent_transform="LeftHand"/>
-
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0,0" local_rotation="0,0,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0,0" local_rotation="0,180,180" parent_transform="LeftHand"/>
 
 				</effect_group>
 		</buff>
@@ -5314,7 +5312,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 				
 
 
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/trap_spinning_bladePrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
 		
 
 
@@ -5329,7 +5327,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 				
 			
 
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/trap_spinning_bladePrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
 		
 
 

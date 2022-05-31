@@ -42808,7 +42808,7 @@ needed?
             </effect_group>
         </item>
         <item name="SSS级子弹">
-            <property name="Meshfile" value="Entities/Electrical/trap_spinning_bladePrefab"/>
+            <property name="Meshfile" value="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab"/>
             <property name="Material" value="Morganic"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action1">
