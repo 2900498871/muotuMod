@@ -556,6 +556,7 @@
 			<!--<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>-->
 			<!--<property name="ReplaceMaterial0" value="Entities/Resources/oreLeadBoulderPrefab"/>-->
 			<!--<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>-->
+			<!--<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>-->
 			<property name="SizeScale" value="1"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="BeibaoC"/>
@@ -643,7 +644,8 @@
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Look"/>
 			<property name="AITask-6" value="Wander"/>
-			<property name="AITask-7" value=""/>
+			<!--运行机会=0.5；健康Per=0.3；最大生命值=0.6-->
+			<property name="AITask-7"  value="RunawayWhenHurt" data="runChance=0.2;healthPer=0.2;healthPerMax=0.3"/>
 			<!-- Marks end, so we don't inheirit -->
 			<!-- Gameplay -->
 			<property name="PainResistPerHit" value=".9"/>
@@ -684,7 +686,9 @@
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Look"/>
 			<property name="AITask-6" value="Wander"/>
-			<property name="AITask-7" value=""/>
+			<!--运行机会=0.5；健康Per=0.3；最大生命值=0.6-->
+			<property name="AITask-7"  value="RunawayWhenHurt" data="runChance=0.4;healthPer=0.2;healthPerMax=0.3"/>
+
 			<!-- Marks end, so we don't inheirit -->
 			<property name="DismemberMultiplierHead" value=".0001"/>
 			<property name="DismemberMultiplierArms" value=".1"/>
@@ -726,7 +730,8 @@
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Look"/>
 			<property name="AITask-6" value="Wander"/>
-			<property name="AITask-7" value=""/>
+			<!--运行机会=0.5；健康Per=0.3；最大生命值=0.6-->
+			<property name="AITask-7"  value="RunawayWhenHurt" data="runChance=0.4;healthPer=0.2;healthPerMax=0.3"/>
 			<!-- Marks end, so we don't inheirit -->
 			<property name="SizeScale" value="2"/>
 			<property name="LootDropProb" value="1"/>
@@ -775,7 +780,8 @@
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Look"/>
 			<property name="AITask-6" value="Wander"/>
-			<property name="AITask-7" value=""/>
+			<!--运行机会=0.5；健康Per=0.3；最大生命值=0.6-->
+			<property name="AITask-7"  value="RunawayWhenHurt" data="runChance=0.4;healthPer=0.2;healthPerMax=0.3"/>
 			<!-- Marks end, so we don't inheirit -->
 			<property name="ExperienceGain" value="2000"/>
 			<property name="DismemberMultiplierHead" value=".0001"/>
@@ -904,6 +910,7 @@
 		<entity_class name="[53FF53]C级僵尸 尖叫僵尸" extends="SZombie C">
 			<property name="Tags" value="entity,zombie,C级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
@@ -975,6 +982,7 @@
 		<entity_class name="[2894FF]B级僵尸 尖叫僵尸" extends="SZombie B">
 			<property name="Tags" value="entity,zombie,B级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="WalkType" value="2"/>
@@ -1043,6 +1051,7 @@
 		<entity_class name="[CA8EFF]A级僵尸 尖叫僵尸" extends="SZombie A">
 			<property name="Tags" value="entity,zombie,A级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="WalkType" value="7"/>
@@ -1109,6 +1118,7 @@
 		<entity_class name="[FFD306]S级僵尸 尖叫僵尸" extends="SZombie S">
 			<property name="Tags" value="entity,zombie,S级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="WalkType" value="3"/>
@@ -1175,6 +1185,7 @@
 		<entity_class name="[FFD306]SS级僵尸 尖叫僵尸" extends="SZombie SS">
 			<property name="Tags" value="entity,zombie,SS级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="WalkType" value="3"/>
@@ -1212,6 +1223,7 @@
 		<entity_class name="[FFD306]SSS级僵尸 尖叫僵尸" extends="SZombie SSS">
 			<property name="Tags" value="entity,zombie,SSS级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="WalkType" value="3"/>
@@ -1270,6 +1282,7 @@
 		<entity_class name="[FF0033]GOD级僵尸 尖叫僵尸" extends="SZombie GOD">
 			<property name="Tags" value="entity,zombie,GOD级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="WalkType" value="3"/>
@@ -1858,7 +1871,8 @@
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Look"/>
 			<property name="AITask-6" value="Wander"/>
-			<property name="AITask-7" value=""/>
+			<!--运行机会=0.5；健康Per=0.3；最大生命值=0.6-->
+			<property name="AITask-7"  value="RunawayWhenHurt" data="runChance=0.4;healthPer=0.2;healthPerMax=0.3"/>
 			<!-- Marks end, so we don't inheirit -->
 			<property name="HandItem" value="SSS级动物武器"/>
 			<property name="SoundRandom" value="wolfroam"/>
@@ -1908,7 +1922,8 @@
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Look"/>
 			<property name="AITask-6" value="Wander"/>
-			<property name="AITask-7" value=""/>
+			<!--运行机会=0.5；健康Per=0.3；最大生命值=0.6-->
+			<property name="AITask-7"  value="RunawayWhenHurt" data="runChance=0.4;healthPer=0.2;healthPerMax=0.3"/>
 			<!-- Marks end, so we don't inheirit -->
 			<property name="HandItem" value="SSS级动物武器"/>
 			<property name="SoundRandom" value="Animals/Boar/boarroam"/>
@@ -1958,7 +1973,8 @@
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Look"/>
 			<property name="AITask-6" value="Wander"/>
-			<property name="AITask-7" value=""/>
+			<!--运行机会=0.5；健康Per=0.3；最大生命值=0.6-->
+			<property name="AITask-7"  value="RunawayWhenHurt" data="runChance=0.4;healthPer=0.2;healthPerMax=0.3"/>
 			<!-- Marks end, so we don't inheirit -->
 			<property name="HandItem" value="SSS级动物武器"/>
 			<!-- Gameplay  -->
@@ -2008,7 +2024,8 @@
 			<property name="AITask-6" value="ApproachSpot"/>
 			<property name="AITask-7" value="Look"/>
 			<property name="AITask-8" value="Wander"/>
-			<property name="AITask-9" value=""/>
+			<!--运行机会=0.5；健康Per=0.3；最大生命值=0.6-->
+			<property name="AITask-9"  value="RunawayWhenHurt" data="runChance=0.4;healthPer=0.2;healthPerMax=0.3"/>
 			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,9,EntityAnimalStag,0,0,EntityZombie,0,5"/>

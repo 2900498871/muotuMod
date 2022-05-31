@@ -455,3 +455,5 @@ feralHordeStageGS631
  		//SS 伤害：250  600 0.55
  		//SSS 伤害：300 800 0.6
  		//GOD 伤害：350 1000 0.65
+ 		
+ 		//感染 <property name="Buff" value="buffInfectionCatch"/>
