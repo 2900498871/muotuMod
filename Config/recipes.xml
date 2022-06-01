@@ -131,23 +131,23 @@
 
 
 <recipe name="超神强化结晶" count="5" craft_time=".1">
-	<ingredient name="伤害提升 40%" count="1"/>
+	<ingredient name="伤害提升 2点" count="1"/>
 </recipe>
 
 <recipe name="超神强化结晶" count="5" craft_time=".1">
-	<ingredient name="伤害提升 80%" count="1"/>
+	<ingredient name="伤害提升 4点" count="1"/>
 </recipe>
 
 <recipe name="超神强化结晶" count="5" craft_time=".1">
-	<ingredient name="伤害提升 120%" count="1"/>
+	<ingredient name="伤害提升 6点" count="1"/>
 </recipe>
 
 <recipe name="超神强化结晶" count="5" craft_time=".1">
-	<ingredient name="伤害提升 160%" count="1"/>
+	<ingredient name="伤害提升 8点" count="1"/>
 </recipe>
 
 <recipe name="超神强化结晶" count="5" craft_time=".1">
-	<ingredient name="伤害提升 200%" count="1"/>
+	<ingredient name="伤害提升 10点" count="1"/>
 </recipe>
 
 
@@ -433,23 +433,23 @@
 
 
 
-<recipe name="伤害提升 80%" count="1" craft_time=".1">
-	<ingredient name="伤害提升 40%" count="3"/>
+<recipe name="伤害提升 4点" count="1" craft_time=".1">
+	<ingredient name="伤害提升 2点" count="3"/>
 
 </recipe>
 
-<recipe name="伤害提升 120%" count="1" craft_time=".1">
-	<ingredient name="伤害提升 80%" count="3"/>
+<recipe name="伤害提升 6点" count="1" craft_time=".1">
+	<ingredient name="伤害提升 4点" count="3"/>
 
 </recipe>
 
-<recipe name="伤害提升 160%" count="1" craft_time=".1">
-	<ingredient name="伤害提升 120%" count="3"/>
+<recipe name="伤害提升 8点" count="1" craft_time=".1">
+	<ingredient name="伤害提升 6点" count="3"/>
 
 </recipe>
 
-<recipe name="伤害提升 200%" count="1" craft_time=".1">
-	<ingredient name="伤害提升 160%" count="3"/>
+<recipe name="伤害提升 10点" count="1" craft_time=".1">
+	<ingredient name="伤害提升 8点" count="3"/>
 
 </recipe>
 

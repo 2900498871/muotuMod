@@ -995,70 +995,10 @@
 	</item_modifier>
 	
 
-	<item_modifier name="伤害提升 40%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+	<item_modifier name="伤害提升 2点" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
 		<property name="CustomIcon" value="modGunMeleeTheHunter" />
 		<property name="CustomIconTint" value="FF2D2D" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升2"/>
-		<property name="DisplayType" value="伤害"/>
-
-		<effect_group tiered="false">
-			<passive_effect name="EntityDamage" operation="perc_add" value=".4"/>
-			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
-			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
-			<display_value name="器" value="1"/>
-			<display_value name="伤" value=".4"/>
-		</effect_group>
-	</item_modifier>
-
-	<item_modifier name="伤害提升 80%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
-		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		<property name="CustomIconTint" value="FF2D2D" />
-		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升4"/>
-		<property name="DisplayType" value="伤害"/>
-
-		<effect_group tiered="false">
-			<passive_effect name="EntityDamage" operation="perc_add" value=".8"/>
-			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
-			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
-			<display_value name="器" value="1"/>
-			<display_value name="伤" value=".8"/>
-		</effect_group>
-	</item_modifier>
-
-	<item_modifier name="伤害提升 120%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
-		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		<property name="CustomIconTint" value="FF2D2D" />
-		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升6"/>
-		<property name="DisplayType" value="伤害"/>
-
-		<effect_group tiered="false">
-			<passive_effect name="EntityDamage" operation="perc_add" value="1.2"/>
-			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
-			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
-			<display_value name="器" value="1"/>
-			<display_value name="伤" value="1.2"/>
-		</effect_group>
-	</item_modifier>
-
-	<item_modifier name="伤害提升 160%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
-		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		<property name="CustomIconTint" value="FF2D2D" />
-		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升8"/>
-		<property name="DisplayType" value="伤害"/>
-
-		<effect_group tiered="false">
-			<passive_effect name="EntityDamage" operation="perc_add" value="1.6"/>
-			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
-			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
-			<display_value name="器" value="1"/>
-			<display_value name="伤" value="1.6"/>
-		</effect_group>
-	</item_modifier>
-
-	<item_modifier name="伤害提升 200%" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
-		<property name="CustomIcon" value="modGunMeleeTheHunter" />
-		<property name="CustomIconTint" value="FF2D2D" />
-		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升10"/>
 		<property name="DisplayType" value="伤害"/>
 
 		<effect_group tiered="false">
@@ -1067,6 +1007,66 @@
 			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
 			<display_value name="器" value="1"/>
 			<display_value name="伤" value="2"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="伤害提升 4点" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		<property name="CustomIconTint" value="FF2D2D" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升4"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="4"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value="4"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="伤害提升 6点" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		<property name="CustomIconTint" value="FF2D2D" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升6"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="6"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value="6"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="伤害提升 8点" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		<property name="CustomIconTint" value="FF2D2D" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升8"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="8"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value="8"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="伤害提升 10点" installable_tags="weapon,tool" modifier_tags="伤" type="attachment">
+		<property name="CustomIcon" value="modGunMeleeTheHunter" />
+		<property name="CustomIconTint" value="FF2D2D" />
+		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/><property name="DescriptionKey" value="伤害提升10"/>
+		<property name="DisplayType" value="伤害"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="10"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+			<display_value name="器" value="1"/>
+			<display_value name="伤" value="10"/>
 		</effect_group>
 	</item_modifier>
 

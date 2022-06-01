@@ -8667,8 +8667,8 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="攻速领域-怪" target_tags="zombie"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="30" buff="辅助僵尸—攻速领域" target_tags="player"/>
 
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="RadiatedParticlesOnMesh" local_offset="0,-0.9,0"/><!-- 0左右,0上下,0前后 -->
-			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="RadiatedParticlesOnMesh" local_offset="0,-0.9,0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_hotembersZombie" local_offset="0,-0.9,0"/><!-- 0左右,0上下,0前后 -->
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_hotembersZombie" local_offset="0,-0.9,0"/>
 		</effect_group>
 
 	</buff>

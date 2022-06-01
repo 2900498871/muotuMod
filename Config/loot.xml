@@ -966,8 +966,8 @@
 </lootgroup>
 
 <lootgroup name="MO1" count="1">
-	<item name="伤害提升 40%" count="1" prob="1" />
-	<item name="伤害提升 80%" count="1" prob=".3" />
+	<item name="伤害提升 2点" count="1" prob="1" />
+	<item name="伤害提升 4点" count="1" prob=".3" />
 </lootgroup>
 <lootgroup name="MO2" count="1">
 	<item name="火焰配件 5%" count="1" prob="1" />
@@ -998,7 +998,7 @@
 </lootgroup>
 
 	<lootgroup name="MO8" count="1">
-		<item name="伤害提升 80%" count="1" prob=".2" />
+		<item name="伤害提升 4点" count="1" prob=".2" />
 		<item name="领域☆[FFD306]免疫" count="1" prob="0.4" />
 		<item name="领域☆[FFD306]终结" count="1" prob=".02" />
 		<item name="属性赋予结晶" count="1" prob=".2" />

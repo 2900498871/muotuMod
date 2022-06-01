@@ -946,6 +946,13 @@
             <property name="DescriptionKey" value="各种高级星源"/>
         </item>
         <item name="千变碎片">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceRawDiamond" />
             <property name="CustomIconTint" value="ffaad5" />
             <property name="Extends" value="星源水晶"/>
@@ -953,6 +960,13 @@
             <property name="DescriptionKey" value="112Desc"/>
         </item>
         <item name="千变石">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceRawDiamond" />
             <property name="CustomIconTint" value="F00078" />
             <property name="Extends" value="星源水晶"/>
@@ -961,6 +975,13 @@
             <property name="DescriptionKey" value="113Desc"/>
         </item>
         <item name="[00FFFF]神·[FF0000]进化石☆近战">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceRawDiamond" />
             <property name="CustomIconTint" value="CE0000" />
             <property name="Extends" value="星源水晶"/>
@@ -969,6 +990,13 @@
             <property name="DescriptionKey" value="进化石"/>
         </item>
         <item name="[00FFFF]神·[FF0000]进化石☆远程">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceRawDiamond" />
             <property name="CustomIconTint" value="CE0000" />
             <property name="Extends" value="星源水晶"/>
@@ -39267,6 +39295,13 @@ needed?
             </effect_group>
         </item>
         <item name="神☆结晶">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="glassBulletproofMaster" />
             <property name="CustomIconTint" value="f47920" />
             <property name="Extends" value="星源水晶"/>
