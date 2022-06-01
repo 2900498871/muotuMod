@@ -650,8 +650,8 @@
 			<!-- Gameplay -->
 			<property name="PainResistPerHit" value=".9"/>
 			<!-- Radiated -->
-			<property name="MoveSpeed" value="0.45"/>
-			<property name="MoveSpeedAggro" value="0.45, 1.45"/>
+			<property name="MoveSpeed" value="0.44"/>
+			<property name="MoveSpeedAggro" value="0.44, 1.45"/>
 			<property name="ExperienceGain" value="900"/>
 			<!-- XP strong radiated -->
 			<effect_group name="Base Effects">
@@ -700,8 +700,8 @@
 			<!-- Gameplay -->
 			<property name="PainResistPerHit" value=".9"/>
 			<!-- Radiated -->
-			<property name="MoveSpeed" value="0.5"/>
-			<property name="MoveSpeedAggro" value="0.5, 1.5"/>
+			<property name="MoveSpeed" value="0.48"/>
+			<property name="MoveSpeedAggro" value="0.48, 1.5"/>
 			<property name="ExperienceGain" value="1200"/>
 			<!-- XP strong radiated -->
 			<effect_group name="Base Effects">
@@ -752,8 +752,8 @@
 			<!-- Gameplay -->
 			<property name="PainResistPerHit" value=".9"/>
 			<!-- Radiated -->
-			<property name="MoveSpeed" value="0.55"/>
-			<property name="MoveSpeedAggro" value="0.55, 1.6"/>
+			<property name="MoveSpeed" value="0.52"/>
+			<property name="MoveSpeedAggro" value="0.52, 1.6"/>
 			<property name="ExperienceGain" value="1500"/>
 			<!-- XP strong radiated -->
 			<effect_group name="Base Effects">
@@ -791,8 +791,8 @@
 			<property name="LegCrippleThreshold" value="0"/>
 			<property name="KnockdownProneDamageThreshold" value="0"/>
 			<property name="KnockdownKneelDamageThreshold" value="0"/>
-			<property name="MoveSpeed" value="0.6"/>
-			<property name="MoveSpeedAggro" value="0.6, 1.4"/>
+			<property name="MoveSpeed" value="0.56"/>
+			<property name="MoveSpeedAggro" value="0.56, 1.4"/>
 			<property name="SizeScale" value="2"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="BeibaoSSS"/>
@@ -828,8 +828,8 @@
 			<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
 			<property name="Radiated" value=""/>
 			<property name="Mass" value="50"/>
-			<property name="MoveSpeed" value="0.65"/>
-			<property name="MoveSpeedAggro" value="0.65, 2"/>
+			<property name="MoveSpeed" value="0.6"/>
+			<property name="MoveSpeedAggro" value="0.6, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="MaxViewAngle" value="360"/>
 			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200"/>
