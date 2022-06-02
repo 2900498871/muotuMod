@@ -5242,72 +5242,72 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备C" hidden="true">
 			<effect_group>
 			
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset="0,0.1,0.36" local_rotation="90,0,180" parent_transform="Head"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset="0,0.08,0" local_rotation="90,0,180" parent_transform="Head"/>
 			</effect_group>
 		</buff>		
 <buff name="装备B" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
-			</effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<!--<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+			--></effect_group>
 		</buff>
 <buff name="装备A" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<!--<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				--><triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 				
 			</effect_group>
 </buff>
 <buff name="装备S" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
-				
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Traps/woodSpikesTrapPrefab" local_offset="0,0,0" local_rotation="0,0,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Traps/woodSpikesTrapPrefab" local_offset="0,0,0" local_rotation="0,0,180" parent_transform="LeftHand"/>
-				
 
 			</effect_group>
 </buff>
 <buff name="装备SS" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
-				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<!--<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				--><triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
+				<!--车轮没问题-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Resources/oreNitrateBoulderPrefab" local_offset="0,0,0" local_rotation="0,0,180" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Resources/oreNitrateBoulderPrefab" local_offset="0,0,0" local_rotation="0,0,0" parent_transform="LeftHand"/> 
-				
 			</effect_group>
 		</buff>
 <buff name="装备SSS" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<!--<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				--><triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Resources/oreLeadBoulderPrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Spine1"/><!--1左右 2上下3前后 -->
 			
-
+				<!--车轮没问题-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0.1,0" local_rotation="0,0,0" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0,0" local_rotation="0,0,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" local_offset="0,0,0" local_rotation="0,180,180" parent_transform="LeftHand"/>
-
 				</effect_group>
 		</buff>
 <buff name="装备00" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 				
 
@@ -5321,8 +5321,10 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备01" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 				
 			
@@ -5336,8 +5338,10 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备02" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 						
 
@@ -5365,8 +5369,10 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="AAAA2" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.1,0.1" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".1,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".1,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.1,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="-0.05,0.2,-0.25" local_rotation="0,0,180" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,0" local_rotation="90,0,0" parent_transform="Spine"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Entities/Zombies?Zombies/zombieStandardSpiderRagdoll.prefab" local_offset="0,0.15,-0.2" local_rotation="0,0,0" parent_transform="Spine2"/>
@@ -5377,8 +5383,10 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="AAAA3" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.5,0.1" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".2,0.1,-0.8" local_rotation="180,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".2,0.1,-0.8" local_rotation="180,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.2,0.1,-0.8" local_rotation="180,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0.3,-1.2" local_rotation="90,0,0" parent_transform="Spine"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0.2,-1.1" local_rotation="90,0,0" parent_transform="Spine1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Entities/Zombies?Zombies/zombieStandardSpiderRagdoll.prefab" local_offset="0,-0.2,0" local_rotation="220,0,0" parent_transform="Spine2"/>
@@ -5388,8 +5396,10 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="AAAA4" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Spine"/>
 			</effect_group>
 		</buff>		
@@ -9142,7 +9152,7 @@ description_key="" tooltip_key="职业"  icon="ui_game_symbol_bull"   >
 <buff name="石头怪" hidden="true">
 			<effect_group>
 			<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Resources/oreLeadBoulderPrefab" local_offset="0,-0,0.1" local_rotation="0,0,0" parent_transform="Spine1"/><!--1左右 2上下3前后 -->
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset="0,0.1,.6" local_rotation="90,0,180" parent_transform="Spine2"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset="0,0.1,.6" local_rotation="90,0,180" parent_transform="Spine2"/>
 			
 
 			</effect_group>
@@ -11671,8 +11681,10 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		<buff name="helllionDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.1,0.1" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".1,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".1,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.1,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="-0.05,0.2,-0.25" local_rotation="0,0,180" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,0" local_rotation="90,0,0" parent_transform="Spine"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Entities/Zombies?Zombies/zombieStandardSpiderRagdoll.prefab" local_offset="0,0.15,-0.2" local_rotation="0,0,0" parent_transform="Spine2"/>
@@ -11684,8 +11696,10 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		<buff name="hellbearDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.5,0.1" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".2,0.1,-0.8" local_rotation="180,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".2,0.1,-0.8" local_rotation="180,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.2,0.1,-0.8" local_rotation="180,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0.3,-1.2" local_rotation="90,0,0" parent_transform="Spine"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0.2,-1.1" local_rotation="90,0,0" parent_transform="Spine1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Entities/Zombies?Zombies/zombieStandardSpiderRagdoll.prefab" local_offset="0,-0.2,0" local_rotation="220,0,0" parent_transform="Spine2"/>
@@ -11696,8 +11710,10 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		<buff name="HellWolfDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Spine"/>
 			</effect_group>
 		</buff>
@@ -11705,8 +11721,10 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		<buff name="HellBoarDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+<!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+-->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Spine"/>
 			</effect_group>
 		</buff>
