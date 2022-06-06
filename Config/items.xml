@@ -1,13 +1,9 @@
 <configs>
     <!-- 修改洗点水的价格，防止玩家购买后洗点坏档 -->
-    <append xpath="/items/item[@name='drinkJarGrandpasLearningElixir']">
-        <property name="EconomicValue" value="1000000"/>
-        <!--不可丢弃-->
-        <property name="Candrop" value="false"/>
-        <!--上帝背包不展示-->
-        <property name="CreativeMode" value="None"/>
-        <!--不可以卖给商人-->
-        <property name="SellableToTrader" value="false"/>
+    <remove xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/effect_group"/>
+    <append xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']">
+        <property name="EconomicValue" value="10000"/>
+        <property name="DescriptionKey" value="洗点水Desc"/>
     </append>
     <append xpath="/items">
         <!--任务-->
