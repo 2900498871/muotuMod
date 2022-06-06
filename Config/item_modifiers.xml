@@ -2250,6 +2250,12 @@
 
 
 		<item_modifier name="狙击枪☆[FFD306]神枪纹" installable_tags="狙击枪" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
 
 		<property name="CustomIcon" value="modGunShotgunTubeExtenderMagazine"/>
 		<property name="CustomIconTint" value="FFD306" />
@@ -2267,6 +2273,13 @@
 
 	</item_modifier>
 		<item_modifier name="枪☆[FFD306]神枪纹" installable_tags="weapon" type="attachment">
+
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
 
 		<property name="CustomIcon" value="modGunShotgunTubeExtenderMagazine"/>
 		<property name="CustomIconTint" value="FFD306" />
@@ -2286,6 +2299,13 @@
 
 
 	<item_modifier name="武器☆[FFD306]穿甲纹-20%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
+
 		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
 		<property name="DisplayType" value="穿甲纹"/>
@@ -2313,6 +2333,13 @@
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 	<item_modifier name="武器☆[FFD306]穿甲纹-40%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
+
 		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
 		<property name="DisplayType" value="穿甲纹"/>
@@ -2334,6 +2361,13 @@
 
 	</item_modifier>
 	<item_modifier name="武器☆[FFD306]穿甲纹-60%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
+
 		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
 		<property name="DisplayType" value="穿甲纹"/>
@@ -2354,6 +2388,13 @@
 
 	</item_modifier>
 	<item_modifier name="武器☆[FFD306]穿甲纹-80%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
+
 		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
 		<property name="DisplayType" value="穿甲纹"/>
@@ -2374,6 +2415,13 @@
 
 	</item_modifier>
 	<item_modifier name="武器☆[FFD306]穿甲纹-100%" installable_tags="weapon" modifier_tags="穿甲纹" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
+
 		<property name="CustomIcon" value="modGunCrippleEm" /><property name="CustomIconTint" value="FFD306" />
 		<property name="Stacknumber" value="1"/><property name="Group" value="MOTU"/>
 		<property name="DisplayType" value="穿甲纹"/>
@@ -2394,6 +2442,12 @@
 	</item_modifier>	
 	
 		<item_modifier name="武器☆[FFD306]神枪纹 LV1" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
 
 		<property name="CustomIcon" value="modGunBarrelExtender"/>
 		<property name="CustomIconTint" value="FFD306" />
@@ -2413,6 +2467,12 @@
 	</item_modifier>
 	
 		<item_modifier name="武器☆[FFD306]神枪纹 LV2" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
 
 		<property name="CustomIcon" value="modGunBarrelExtender"/>
 		<property name="CustomIconTint" value="FFD306" />
@@ -2431,6 +2491,12 @@
 
 	</item_modifier>
 		<item_modifier name="武器☆[FFD306]神枪纹 LV3" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
 
 		<property name="CustomIcon" value="modGunBarrelExtender"/>
 		<property name="CustomIconTint" value="FFD306" />
@@ -2449,6 +2515,12 @@
 
 	</item_modifier>
 		<item_modifier name="武器☆[FFD306]神枪纹 LV4" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
 
 		<property name="CustomIcon" value="modGunBarrelExtender"/>
 		<property name="CustomIconTint" value="FFD306" />
@@ -2468,6 +2540,12 @@
 	</item_modifier>
 	
 		<item_modifier name="武器☆[FFD306]神枪纹 LV5" installable_tags="weapon" modifier_tags="爆头" blocked_tags="M60" type="attachment">
+		<!--不可丢弃-->
+		<property name="Candrop" value="false"/>
+		<!--上帝背包不展示-->
+		<property name="CreativeMode" value="None"/>
+		<!--不可以卖给商人-->
+		<property name="SellableToTrader" value="false"/>
 
 		<property name="CustomIcon" value="modGunBarrelExtender"/>
 		<property name="CustomIconTint" value="FFD306" />
@@ -2488,7 +2566,7 @@
 	
 
 
-<!--无用-->	
+		<!--无用-->
 		<item_modifier name="武器☆[FFD306]爆血纹 LV5" installable_tags="weapon" modifier_tags="爆头" type="attachment">
 
 		<property name="CustomIcon" value="modGunLaserSight"/>

@@ -1,7 +1,13 @@
 <configs>
     <!-- 修改洗点水的价格，防止玩家购买后洗点坏档 -->
     <append xpath="/items/item[@name='drinkJarGrandpasLearningElixir']">
-        <property name="EconomicValue" value="10000"/>
+        <property name="EconomicValue" value="1000000"/>
+        <!--不可丢弃-->
+        <property name="Candrop" value="false"/>
+        <!--上帝背包不展示-->
+        <property name="CreativeMode" value="None"/>
+        <!--不可以卖给商人-->
+        <property name="SellableToTrader" value="false"/>
     </append>
     <append xpath="/items">
         <!--任务-->
@@ -160,6 +166,13 @@
             <property name="DescriptionKey" value="强化石"/>
         </item>
         <item name="属性变换结晶">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceRawDiamond" />
             <property name="Extends" value="星源水晶"/>
             <property name="CustomIconTint" value="CE0000" />
@@ -167,6 +180,13 @@
             <property name="DescriptionKey" value="属性变换"/>
         </item>
         <item name="属性赋予结晶">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceRawDiamond" />
             <property name="Extends" value="星源水晶"/>
             <property name="CustomIconTint" value="006000" />
@@ -208,6 +228,13 @@
             <property name="DescriptionKey" value="末石1"/>
         </item>
         <item name="星源☆金属">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceForgedSteel" />
             <property name="CustomIconTint" value="C6A300" />
             <property name="Extends" value="星源水晶"/>
@@ -826,6 +853,13 @@
             <property name="DescriptionKey" value="矿"/>
         </item>
         <item name="[2894FF]铱锭">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceForgedIron" />
             <property name="CustomIconTint" value="2894FF" />
             <property name="Extends" value="星源水晶"/>
@@ -833,6 +867,13 @@
             <property name="DescriptionKey" value="锭块"/>
         </item>
         <item name="[CA8EFF]镭锭">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceForgedIron" />
             <property name="CustomIconTint" value="CA8EFF" />
             <property name="Extends" value="星源水晶"/>
@@ -840,6 +881,13 @@
             <property name="DescriptionKey" value="锭块"/>
         </item>
         <item name="[40E0D0]钛锭">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceForgedIron" />
             <property name="CustomIconTint" value="40E0D0" />
             <property name="Extends" value="星源水晶"/>
@@ -847,6 +895,13 @@
             <property name="DescriptionKey" value="锭块"/>
         </item>
         <item name="[FFD306]钨锭">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceForgedIron" />
             <property name="CustomIconTint" value="FFD306" />
             <property name="Extends" value="星源水晶"/>
@@ -854,6 +909,13 @@
             <property name="DescriptionKey" value="锭块"/>
         </item>
         <item name="[FFD306]神☆[2894FF]合金锭">
+            <!--不可丢弃-->
+            <property name="Candrop" value="false"/>
+            <!--上帝背包不展示-->
+            <property name="CreativeMode" value="None"/>
+            <!--不可以卖给商人-->
+            <property name="SellableToTrader" value="false"/>
+
             <property name="CustomIcon" value="resourceForgedIron" />
             <property name="CustomIconTint" value="FFD306" />
             <property name="Extends" value="星源水晶"/>

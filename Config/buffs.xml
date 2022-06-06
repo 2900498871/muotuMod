@@ -5248,14 +5248,14 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备B" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 			--></effect_group>
 		</buff>
 <buff name="装备A" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 				--><triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 				
@@ -5264,7 +5264,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备S" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 <!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 -->
@@ -5277,7 +5277,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备SS" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 				--><triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 				<!--车轮没问题-->
@@ -5289,7 +5289,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备SSS" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 				--><triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,-0.4" local_rotation="90,0,0" parent_transform="Head"/>
 				
@@ -5304,7 +5304,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备00" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 <!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 -->
@@ -5321,7 +5321,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备01" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 <!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 -->
@@ -5338,7 +5338,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <buff name="装备02" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset=".05,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 <!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.05,0.05,0.5" local_rotation="90,0,180" parent_transform="Head"/>
 -->
