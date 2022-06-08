@@ -44586,7 +44586,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="2"/>
                 <property name="DamageEntity" value="80"/>
                 <property name="DamageBlock" value="100"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
@@ -44627,7 +44627,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="3"/>
                 <property name="DamageEntity" value="150"/>
                 <property name="DamageBlock" value="150"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
@@ -44668,7 +44668,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="4"/>
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="200"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
@@ -44709,7 +44709,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="5"/>
                 <property name="DamageEntity" value="300"/>
                 <property name="DamageBlock" value="300"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
@@ -44966,7 +44966,7 @@ needed?
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Mmetal"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="4"/>
                 <property name="Sound_start" value="swoosh"/>
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="250"/></property>
@@ -44978,7 +44978,7 @@ needed?
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Mmetal"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="5"/>
                 <property name="Sound_start" value="swoosh"/>
                 <property name="DamageEntity" value="300"/>
                 <property name="DamageBlock" value="300"/></property>
@@ -45044,7 +45044,7 @@ needed?
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="4"/>
                 <property name="Sound_start" value="swoosh"/>
                 <property name="DamageEntity" value="180"/>
                 <property name="DamageBlock" value="200"/></property>
@@ -45062,7 +45062,7 @@ needed?
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="5"/>
                 <property name="Sound_start" value="swoosh"/>
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="200"/></property>
@@ -45153,6 +45153,7 @@ needed?
                 <property name="Buff" value="ParasiteAttack"/>
                 <!--property name="DamageEntity" value="0"/-->
                 <property name="DamageEntity" value="100"/>
+                <property name="Range" value="3"/>
                 <!--Changed from the above 0 to offset loss of buff HealthMaxModifierOT. A value of 10 provides 8 damage-->
                 <property name="DamageBlock" value="100"/></property>
             <effect_group name="meleeHandParasite" tiered="false">
@@ -45170,6 +45171,7 @@ needed?
                 <property name="Buff" value="ParasiteAttack"/>
                 <!--property name="DamageEntity" value="0"/-->
                 <property name="DamageEntity" value="150"/>
+                <property name="Range" value="4"/>
                 <!--Changed from the above 0 to offset loss of buff HealthMaxModifierOT. A value of 10 provides 8 damage-->
                 <property name="DamageBlock" value="150"/></property>
             <effect_group name="meleeHandParasite" tiered="false">
@@ -45187,6 +45189,7 @@ needed?
                 <property name="Buff" value="ParasiteAttack"/>
                 <!--property name="DamageEntity" value="0"/-->
                 <property name="DamageEntity" value="200"/>
+                <property name="Range" value="5"/>
                 <!--Changed from the above 0 to offset loss of buff HealthMaxModifierOT. A value of 10 provides 8 damage-->
                 <property name="DamageBlock" value="200"/></property>
             <effect_group name="meleeHandParasite" tiered="false">
@@ -45258,7 +45261,8 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
                 <property name="DamageEntity" value="100"/>
-                <property name="DamageBlock" value="100"/></property>
+                <property name="DamageBlock" value="100"/>
+                <property name="Range" value="2"/></property>
             <effect_group name="meleeHandZombieBurningFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffBurningZombie"/>
@@ -45272,7 +45276,8 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
                 <property name="DamageEntity" value="150"/>
-                <property name="DamageBlock" value="150"/></property>
+                <property name="DamageBlock" value="150"/>
+                <property name="Range" value="3"/></property>
             <effect_group name="meleeHandZombieBurningFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffBurningZombie"/>
@@ -45287,7 +45292,7 @@ needed?
             <property class="Action0">
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="200"/>
-                <property name="Range" value="2"/></property>
+                <property name="Range" value="4"/></property>
             <effect_group name="meleeHandZombieBurningFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffBurningZombie"/>
@@ -45333,7 +45338,7 @@ needed?
             <property class="Action0">
                 <property name="DamageEntity" value="180"/>
                 <property name="DamageBlock" value="180"/>
-                <property name="Range" value="3"/></property>
+                <property name="Range" value="4"/></property>
             <effect_group name="meleeHandZombieBurningFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffBurningZombie"/>
@@ -45348,7 +45353,7 @@ needed?
             <property class="Action0">
                 <property name="DamageEntity" value="240"/>
                 <property name="DamageBlock" value="240"/>
-                <property name="Range" value="3"/></property>
+                <property name="Range" value="5"/></property>
             <effect_group name="meleeHandZombieBurningFeral" tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
                 <passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffBurningZombie"/>
@@ -45519,6 +45524,7 @@ needed?
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="100"/>
+                <property name="Range" value="2"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch"/></property>
             <property class="Action1">
                 <property name="Class" value="Vomit"/>
@@ -45553,6 +45559,7 @@ needed?
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="150"/>
                 <property name="DamageBlock" value="150"/>
+                <property name="Range" value="3"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch"/></property>
             <property class="Action1">
                 <property name="Class" value="Vomit"/>
@@ -45587,6 +45594,7 @@ needed?
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="200"/>
+                <property name="Range" value="4"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch"/></property>
             <property class="Action1">
                 <property name="Class" value="Vomit"/>
@@ -45725,6 +45733,7 @@ needed?
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="150"/>
+                <property name="Range" value="3"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffBurningZombie"/></property>
             <property class="Action1">
                 <property name="Class" value="Vomit"/>
@@ -45763,6 +45772,7 @@ needed?
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="150"/>
                 <property name="DamageBlock" value="200"/>
+                <property name="Range" value="4"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffBurningZombie"/></property>
             <property class="Action1">
                 <property name="Class" value="Vomit"/>
@@ -45801,6 +45811,7 @@ needed?
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="250"/>
+                <property name="Range" value="5"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffBurningZombie"/></property>
             <property class="Action1">
                 <property name="Class" value="Vomit"/>
@@ -45949,7 +45960,7 @@ needed?
             <property name="Extends" value="meleeHandMaster"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="Range" value="2"/>
+                <property name="Range" value="3"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="120"/>
@@ -45991,7 +46002,7 @@ needed?
             <property name="Extends" value="meleeHandMaster"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="Range" value="2"/>
+                <property name="Range" value="4"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="180"/>
@@ -46033,7 +46044,7 @@ needed?
             <property name="Extends" value="meleeHandMaster"/>
             <property name="CreativeMode" value="None"/>
             <property class="Action0">
-                <property name="Range" value="2"/>
+                <property name="Range" value="5"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="240"/>
@@ -46251,7 +46262,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="3"/>
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="100"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/></property>
@@ -46294,7 +46305,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="4"/>
                 <property name="DamageEntity" value="150"/>
                 <property name="DamageBlock" value="150"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/></property>
@@ -46337,7 +46348,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="5"/>
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="200"/>
                 <property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/></property>
@@ -46461,7 +46472,7 @@ needed?
         </item>
         <item name="meleeHandZombieMotorheadKBWx2">
             <property name="Extends" value="meleeHandZombieStrong"/>
-            <property name="Range" value="3.5"/>
+            <property name="Range" value="4"/>
             <property name="Sphere" value=".8"/>
             <property class="Action0">
                 <property name="DamageEntity" value="180"/>
@@ -46481,7 +46492,7 @@ needed?
         </item>
         <item name="meleeHandZombieMotorheadKBWx3">
             <property name="Extends" value="meleeHandZombieStrong"/>
-            <property name="Range" value="3.5"/>
+            <property name="Range" value="5"/>
             <property name="Sphere" value=".8"/>
             <property class="Action0">
                 <property name="DamageEntity" value="240"/>
@@ -46912,7 +46923,7 @@ needed?
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
-                <property name="Range" value="3"/>
+                <property name="Range" value="4"/>
                 <property name="DamageEntity" value="120"/>
                 <property name="DamageBlock" value="150"/></property>
             <effect_group name="meleeHandzombieHisser" tiered="false">
@@ -46953,7 +46964,7 @@ needed?
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
-                <property name="Range" value="3"/>
+                <property name="Range" value="5"/>
                 <property name="DamageEntity" value="180"/>
                 <property name="DamageBlock" value="200"/></property>
             <effect_group name="meleeHandzombieHisser" tiered="false">
@@ -46994,7 +47005,7 @@ needed?
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
-                <property name="Range" value="4"/>
+                <property name="Range" value="6"/>
                 <property name="DamageEntity" value="240"/>
                 <property name="DamageBlock" value="250"/></property>
             <effect_group name="meleeHandzombieHisser" tiered="false">
@@ -47108,7 +47119,7 @@ needed?
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
-                <property name="Range" value="2.5"/>
+                <property name="Range" value="3"/>
                 <!--property name="Buff" value="buffBeer"/-->
                 <property name="Sound_start" value="swoosh"/>
                 <property name="DamageEntity" value="100"/>
@@ -47134,7 +47145,7 @@ needed?
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
-                <property name="Range" value="2.5"/>
+                <property name="Range" value="4"/>
                 <!--property name="Buff" value="buffBeer"/-->
                 <property name="Sound_start" value="swoosh"/>
                 <property name="DamageEntity" value="150"/>
@@ -47160,7 +47171,7 @@ needed?
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="5"/>
                 <!--property name="Buff" value="buffBeer"/-->
                 <property name="Sound_start" value="swoosh"/>
                 <property name="DamageEntity" value="200"/>
@@ -48065,7 +48076,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="2.5"/>
+                <property name="Range" value="3"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="120"/>
@@ -48105,7 +48116,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="2.5"/>
+                <property name="Range" value="4"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="180"/>
@@ -48145,7 +48156,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="5"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="240"/>
@@ -48545,7 +48556,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="3"/>
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="120"/>
                 <property name="Buff" value="buffInjuryStunned01"/></property>
@@ -48582,7 +48593,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="4"/>
                 <property name="DamageEntity" value="140"/>
                 <property name="DamageBlock" value="160"/>
                 <property name="Buff" value="buffInjuryStunned01"/></property>
@@ -48619,7 +48630,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="5"/>
                 <property name="DamageEntity" value="180"/>
                 <property name="DamageBlock" value="190"/>
                 <property name="Buff" value="buffInjuryStunned01"/></property>
@@ -48847,7 +48858,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="2"/>
+                <property name="Range" value="3"/>
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="120"/>
                 <property name="Buff" value="buffInfectionCatch"/></property>
@@ -48880,7 +48891,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="2"/>
+                <property name="Range" value="4"/>
                 <property name="DamageEntity" value="150"/>
                 <property name="DamageBlock" value="180"/>
                 <property name="Buff" value="buffInfectionCatch"/></property>
@@ -48913,7 +48924,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="2"/>
+                <property name="Range" value="5"/>
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="220"/>
                 <property name="Buff" value="buffInfectionCatch"/></property>
@@ -49067,7 +49078,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="4"/>
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="200"/>
                 <property name="Buff" value="buffArmBroken,buffInjuryStunned01"/></property>
@@ -49102,7 +49113,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="5"/>
                 <property name="DamageEntity" value="150"/>
                 <property name="DamageBlock" value="200"/>
                 <property name="Buff" value="buffArmBroken,buffInjuryStunned01"/></property>
@@ -49137,7 +49148,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="3"/>
+                <property name="Range" value="6"/>
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="300"/>
                 <property name="Buff" value="buffArmBroken,buffInjuryStunned01"/></property>
@@ -49410,7 +49421,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="2.1"/>
+                <property name="Range" value="3"/>
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="150"/>
                 <property name="Buff" value="buffInjuryStunnedX,buffInjuryOpenWound"/></property>
@@ -49445,7 +49456,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="2.1"/>
+                <property name="Range" value="4"/>
                 <property name="DamageEntity" value="150"/>
                 <property name="DamageBlock" value="200"/>
                 <property name="Buff" value="buffInjuryStunnedX,buffInjuryOpenWound"/></property>
@@ -49480,7 +49491,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="2.1"/>
+                <property name="Range" value="5"/>
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="200"/>
                 <property name="Buff" value="buffInjuryStunnedX,buffInjuryOpenWound"/></property>
@@ -49582,7 +49593,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="3"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="100"/>
@@ -49623,7 +49634,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="4"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="150"/>
@@ -49664,7 +49675,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="5"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="200"/>
@@ -49769,7 +49780,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="3"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="80"/>
@@ -49807,7 +49818,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="4"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="120"/>
@@ -49845,7 +49856,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="HoldType" value="35"/>
             <property class="Action0">
-                <property name="Range" value="1.75"/>
+                <property name="Range" value="5"/>
                 <property name="Delay" value="0.5"/>
                 <!-- obsolete if rounds per minute exists -->
                 <property name="DamageEntity" value="180"/>
@@ -49939,7 +49950,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.70"/>
+                <property name="Range" value="3.5"/>
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="100"/>
                 <property name="Buff" value="buffInjuryStunned01,buffShocked2"/></property>
@@ -49972,7 +49983,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.70"/>
+                <property name="Range" value="4.8"/>
                 <property name="DamageEntity" value="140"/>
                 <property name="DamageBlock" value="140"/>
                 <property name="Buff" value="buffInjuryStunned01,buffShocked2"/></property>
@@ -50005,7 +50016,7 @@ needed?
             <property name="CreativeMode" value="None"/>
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
-                <property name="Range" value="1.70"/>
+                <property name="Range" value="6"/>
                 <property name="DamageEntity" value="180"/>
                 <property name="DamageBlock" value="180"/>
                 <property name="Buff" value="buffInjuryStunned01,buffShocked2"/></property>
@@ -50253,7 +50264,7 @@ needed?
                 <property name="Class" value="Melee"/>
                 <property name="Delay" value="1"/>
                 <!-- obsolete if rounds per minute exists -->
-                <property name="Range" value="2.5"/>
+                <property name="Range" value="3"/>
                 <property name="Sphere" value="0.5"/>
                 <property name="Block_range" value="2.4"/>
                 <property name="DamageEntity" value="120"/>
@@ -50281,7 +50292,7 @@ needed?
                 <property name="Class" value="Melee"/>
                 <property name="Delay" value="1"/>
                 <!-- obsolete if rounds per minute exists -->
-                <property name="Range" value="2.5"/>
+                <property name="Range" value="4"/>
                 <property name="Sphere" value="0.5"/>
                 <property name="Block_range" value="2.4"/>
                 <property name="DamageEntity" value="180"/>
@@ -50309,7 +50320,7 @@ needed?
                 <property name="Class" value="Melee"/>
                 <property name="Delay" value="1"/>
                 <!-- obsolete if rounds per minute exists -->
-                <property name="Range" value="2.5"/>
+                <property name="Range" value="5"/>
                 <property name="Sphere" value="0.5"/>
                 <property name="Block_range" value="2.4"/>
                 <property name="DamageEntity" value="240"/>
@@ -50586,7 +50597,7 @@ needed?
                 <property name="Class" value="Melee"/>
                 <property name="Delay" value="1"/>
                 <!-- obsolete if rounds per minute exists -->
-                <property name="Range" value="2"/>
+                <property name="Range" value="4"/>
                 <property name="Sphere" value="0.5"/>
                 <property name="Block_range" value="5.5"/>
                 <property name="DamageEntity" value="120"/>
@@ -50613,7 +50624,7 @@ needed?
                 <property name="Class" value="Melee"/>
                 <property name="Delay" value="1"/>
                 <!-- obsolete if rounds per minute exists -->
-                <property name="Range" value="2"/>
+                <property name="Range" value="5"/>
                 <property name="Sphere" value="0.5"/>
                 <property name="Block_range" value="5.5"/>
                 <property name="DamageEntity" value="180"/>
@@ -50640,7 +50651,7 @@ needed?
                 <property name="Class" value="Melee"/>
                 <property name="Delay" value="1"/>
                 <!-- obsolete if rounds per minute exists -->
-                <property name="Range" value="2"/>
+                <property name="Range" value="6"/>
                 <property name="Sphere" value="0.5"/>
                 <property name="Block_range" value="5.5"/>
                 <property name="DamageEntity" value="230"/>
