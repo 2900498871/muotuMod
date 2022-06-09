@@ -7692,11 +7692,10 @@
 			<property name="Buffs" value="未知怪物领域-冻僵☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Tags" value="entity,zombie,walker,umazombie,freezer,boss"/>
-			<property name="Archetype" value="Freezer" />
+			<property name="Archetype" value="Freezer1" />
 			<property name="WalkType" value="2"/>
 			<property name="Mass" value="150"/>
 			<property name="RightHandJointName" value="RightHand"/>
-			<property name="SizeScale" value="2"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/>
 			<!-- type,cooldown,duration -->
@@ -7722,11 +7721,10 @@
 			<property name="Buffs" value="未知怪物领域-冻僵☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,umazombie,freezer,boss"/>
-			<property name="Archetype" value="Freezer" />
+			<property name="Archetype" value="Freezer2" />
 			<property name="WalkType" value="3"/>
 			<property name="Mass" value="150"/>
 			<property name="RightHandJointName" value="RightHand"/>
-			<property name="SizeScale" value="1"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/>
 			<!-- type,cooldown,duration -->
@@ -7752,11 +7750,10 @@
 			<property name="Buffs" value="未知怪物领域-冻僵☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Tags" value="entity,zombie,walker,umazombie,freezer,boss"/>
-			<property name="Archetype" value="Freezer" />
+			<property name="Archetype" value="Freezer3" />
 			<property name="WalkType" value="2"/>
 			<property name="Mass" value="150"/>
 			<property name="RightHandJointName" value="RightHand"/>
-			<property name="SizeScale" value="4"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/>
 			<!-- type,cooldown,duration -->
