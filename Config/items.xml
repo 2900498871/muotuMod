@@ -29397,11 +29397,13 @@ needed?
             <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
+            <property name="TintColor" value="255,0,0"/>
             <property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/>
             <property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
             <property name="Material" value="MmeleeWpnKnucklesParts"/>
-            <property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
-            <property name="HoldType" value="79"/>
+            <property name="Meshfile" value="#Other/Items?Weapons/Melee/KnuckleWraps/knuckleWrapsRight_Prefab.prefab"/>
+            <!--<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>-->
+            <property name="HoldType" value="70"/>
             <property name="DisplayType" value="近战武器栏"/>
             <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
             <property name="RepairTools" value="超神强化结晶"/>
@@ -29448,19 +29450,132 @@ needed?
                 <passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
                 <passive_effect name="DamageModifier" operation="perc_add" value="1.7" tags="organic"/>
                 <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
-                <triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedLeft_Prefab.prefab" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0">
+                <!--<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedLeft_Prefab.prefab" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0">
                     <requirement name="IsFPV"/>
                 </triggered_effect>
                 <triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedLeft_Prefab.prefab" parentTransform="LeftHand" localPos="-0.1171,0.004,-0.0187" localRot="-30.53241,-11.3179,135.1055">
                     <requirement name="!IsFPV"/>
                 </triggered_effect>
-                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftKnuckles"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftKnuckles"/>-->
             </effect_group>
             <effect_group name="Power Attack">
                 <passive_effect name="EntityDamage" operation="perc_add" value="2" tags="secondary"/>
                 <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
                 <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
                 <passive_effect name="StaminaLoss" operation="base_set" value="17.3" tags="secondary"/>
+            </effect_group>
+
+            <effect_group name="DecoBase">
+                <triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToHeldItem" prefab="#Other/Items?Weapons/Ranged/Bows/AdvancedBow/AdvancedCompoundCrossbow/AdvancedCompoundCrossbowPrefab.prefab" parent_transform="Handle" local_offset=".03,-.65,0" local_rotation="-90,90,90"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Handle" transform_path="compoundCrossbow_LOD0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Handle" transform_path="compoundCrossbow_LOD1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Handle" transform_path="compoundCrossbow_LOD2"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="Handle" transform_path="compoundCrossbow_LOD0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="Handle" transform_path="compoundCrossbow_LOD1"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="Handle" transform_path="compoundCrossbow_LOD2"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="LeftHand" transform_path="sackMesh"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="LeftHand" transform_path="sack_LOD1"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="LeftHand" transform_path="sack_LOD2"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="Propjoint" transform_path="sackMesh"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="Propjoint" transform_path="sack_LOD1"/>
+                <triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true"  parent_transform="Propjoint" transform_path="sack_LOD2"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftKnuckles"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftKnucklesB"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Syringe"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Blade1"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Blade2"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SyringeB"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Blade1B"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Blade2B"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Blade1XA"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Blade2XA"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SyringeXA"/>
+            </effect_group>
+            <effect_group name="DecoActive">
+                <requirement name="CVarCompare" cvar="$effectvampire" operation="Equals" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade2"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Syringe"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="SyringeXA" prefab="Entities/Electrical/steel_dart" parentTransform="ProjectileJoint" localPos="0,.08,.5" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade1XA" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="Left_bow1" localPos="-.05,0,.1" localRot="0,90,-90"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade2XA" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="Right_bow1" localPos=".05,0,-.1" localRot="0,-90,-90"/>
+            </effect_group>
+            <effect_group name="DecoInactive">
+                <requirement name="CVarCompare" cvar="$effectvampire" operation="Equals" value="0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade1XA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade2XA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="SyringeXA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Syringe" prefab="Entities/Electrical/steel_dart" parentTransform="ProjectileJoint" localPos="0,-.005,.05" localRot="0,0,0"/> <!-- A20 -->
+                <!--triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Syringe" prefab="Entities/Electrical/steel_dart" parentTransform="ProjectileJoint" localPos="0,.08,.405" localRot="0,0,0"/--> <!-- A19 -->
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade1" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="Left_bow1" localPos=".01,0,.1" localRot="0,90,-90"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade2" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="Right_bow1" localPos="-.01,0,-.1" localRot="0,-90,-90"/>
+            </effect_group>
+            <effect_group name="DecoBInactive">
+                <requirement name="!IsFPV"/>
+                <requirement name="CVarCompare" cvar="$effectvampire" operation="Equals" value="0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="SyringeXB"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade1XB"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade2XB"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/KnuckleWraps/knuckleWrapsLeft_Prefab.prefab" parentTransform="LeftHand" localPos="-0.0878,-0.0016,-0.0013" localRot="3.841982,9.94,94.3"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="LeftKnucklesB" prefab="#Other/Items?Items/Misc/sack.fbx" parentTransform="LeftHand" localPos=".25,.05,.05" localRot="0,-90,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="LeftHand" transform_path="sackMesh"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="LeftHand" transform_path="sack_LOD1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="LeftHand" transform_path="sack_LOD2"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade1B" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="main1" localPos="0,.03,0" localRot="90,0,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade2B" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="main2" localPos="0,-.03,0" localRot="-90,180,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="SyringeB" prefab="Entities/Electrical/steel_dart" parentTransform="main3" localPos="-.005,.06,.07" localRot="0,0,0"/>
+            </effect_group>
+            <effect_group name="DecoBActive">
+                <requirement name="!IsFPV"/>
+                <requirement name="CVarCompare" cvar="$effectvampire" operation="Equals" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="SyringeB"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade1B"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade2B"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/KnuckleWraps/knuckleWrapsLeft_Prefab.prefab" parentTransform="LeftHand" localPos="-0.0878,-0.0016,-0.0013" localRot="3.841982,9.94,94.3"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="LeftKnucklesB" prefab="#Other/Items?Items/Misc/sack.fbx" parentTransform="LeftHand" localPos=".25,.05,.05" localRot="0,-90,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="LeftHand" transform_path="sackMesh"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="LeftHand" transform_path="sack_LOD1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="LeftHand" transform_path="sack_LOD2"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade1XB" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="main1" localPos="0,.08,0" localRot="90,0,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade2XB" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="main2" localPos="0,-.08,0" localRot="-90,180,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="SyringeXB" prefab="Entities/Electrical/steel_dart" parentTransform="main3" localPos="-.005,.06,.17" localRot="0,0,0"/>
+            </effect_group>
+            <effect_group name="DecoCInactive">
+                <requirement name="IsFPV"/>
+                <requirement name="CVarCompare" cvar="$effectvampire" operation="Equals" value="0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="SyringeXB"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade1XB"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade2XB"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/KnuckleWraps/knuckleWrapsLeft_Prefab.prefab" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="LeftKnucklesB" prefab="#Other/Items?Items/Misc/sack.fbx" parentTransform="Propjoint" localPos=".05,-.25,.05" localRot="-90,180,90"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Propjoint" transform_path="sackMesh"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Propjoint" transform_path="sack_LOD1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Propjoint" transform_path="sack_LOD2"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade1B" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="main1" localPos="0,.03,0" localRot="90,0,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade2B" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="main2" localPos="0,-.03,0" localRot="-90,180,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="SyringeB" prefab="Entities/Electrical/steel_dart" parentTransform="main3" localPos="-.005,.06,.075" localRot="0,0,0"/>
+            </effect_group>
+            <effect_group name="DecoCActive">
+                <requirement name="IsFPV"/>
+                <requirement name="CVarCompare" cvar="$effectvampire" operation="Equals" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="SyringeB"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade1B"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="RemovePart" part="Blade2B"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/KnuckleWraps/knuckleWrapsLeft_Prefab.prefab" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="LeftKnucklesB" prefab="#Other/Items?Items/Misc/sack.fbx" parentTransform="Propjoint" localPos=".05,-.25,.05" localRot="-90,180,90"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Propjoint" transform_path="sackMesh"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Propjoint" transform_path="sack_LOD1"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false"  parent_transform="Propjoint" transform_path="sack_LOD2"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade1XB" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="main1" localPos="0,.08,0" localRot="90,0,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blade2XB" prefab="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab" parentTransform="main2" localPos="0,-.08,0" localRot="-90,180,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="SyringeXB" prefab="Entities/Electrical/steel_dart" parentTransform="main3" localPos="-.005,.06,.17" localRot="0,0,0"/>
+            </effect_group>
+
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="SparksA" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="Handle" localPos="0,-.45,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="LeftHand" localPos="0,-.45,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksB"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksA"/>
             </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·爪☆[FF0000]火拳">
@@ -29473,6 +29588,7 @@ needed?
 
             <property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
             <property name="DescriptionKey" value="122Desc"/>
+            <property name="TintColor" value="148,0,211"/>
             <property name="CustomIconTint" value="130c0e" />
             <property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/>
             <property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,attFortitude,perkBrawler,canHaveCosmetic"/>
@@ -29539,6 +29655,12 @@ needed?
                 <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
                 <passive_effect name="StaminaLoss" operation="base_set" value="17.3" tags="secondary"/>
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="火拳SparksA" prefab="ParticleEffects/p_burning_barrel" parentTransform="RightHand" localPos=".1,-1.5,0.1" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="火拳SparksB" prefab="ParticleEffects/p_burning_barrel" parentTransform="LeftHand" localPos=".1,1.5,0.1" localRot="0,0,180"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="火拳SparksB"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="火拳SparksA"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·矛☆[FF0000]红刺">
             <!--不可丢弃-->
@@ -29548,6 +29670,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="255,0,0"/>
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear" />
             <property name="CustomIconTint" value="130c0e" />
@@ -29621,6 +29744,12 @@ needed?
                 <passive_effect name="StaminaLoss" operation="base_set" value="44.8" tags="secondary"/>
             </effect_group>
             <property name="Group" value="MOTU1"/>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变长矛SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变长矛SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变长矛SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变长矛SparksB"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·剑☆[FF0000]黑魂">
             <!--不可丢弃-->
@@ -29630,6 +29759,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="28,28,28"/>
             <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -29721,6 +29851,12 @@ needed?
                 <passive_effect name="EntityDamage" operation="perc_add" value="4" tags="perkDeepCuts"/>
                 <display_value name="dEntityDamageSneak" value="4"/>
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="黑魂SparksA" prefab="ParticleEffects/MinibikeParticles" parentTransform="RightHand" localPos="0,-.1,0" localRot="0,0,0"/>
+                <!--<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="LeftHand" localPos="0,-.45,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksB"/>-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="黑魂SparksA"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·锤☆[FF0000]破裂">
             <!--不可丢弃-->
@@ -29730,6 +29866,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="30,144,255"/>
             <property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -29817,6 +29954,10 @@ needed?
                 <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
                 <passive_effect name="StaminaLoss" operation="base_set" value="40.3" tags="secondary"/>
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="破裂SparksA" prefab="ParticleEffects/p_smoke" parentTransform="RightHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="破裂SparksA"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·重锤☆[FF0000]陨星">
             <!--不可丢弃-->
@@ -29826,6 +29967,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="154,50,205"/>
             <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -29913,6 +30055,10 @@ needed?
                 <passive_effect name="StaminaLoss" operation="base_set" value="81" tags="secondary"/>
                 <passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="重锤SparksA" prefab="ParticleEffects/p_electric_shock" parentTransform="RightHand" localPos="0,0,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="重锤SparksA"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·冲锋☆[FF0000]无畏先锋">
             <!--不可丢弃-->
@@ -29922,6 +30068,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="154,50,205"/>
             <property name="CustomIcon" value="gunHandgunT3SMG5" />
             <property name="CustomIconTint" value="130c0e" />
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic"/>
@@ -29934,7 +30081,7 @@ needed?
             <property name="DegradationBreaksAfter" value="false"/>
             <property name="SoundJammed" value="weapon_jam"/>
             <property name="Attachments" value="meleeToolFlashlight02"/>
-            <property name="TintColor" value="255,255,255"/>
+            <!--<property name="TintColor" value="255,255,255"/>-->
             <property name="CrosshairOnAim" value="true"/>
             <!-- aimTest -->
             <property name="CrosshairUpAfterShot" value="true"/>
@@ -30038,6 +30185,12 @@ needed?
                     <requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/>
                 </triggered_effect>
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变无畏先锋SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变无畏先锋SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变无畏先锋SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,-.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变无畏先锋SparksB"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·左轮☆[FF0000]戮神破魔">
             <!--不可丢弃-->
@@ -30047,6 +30200,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="154,50,205"/>
             <property name="Tags" value="weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="75"/>
@@ -30138,6 +30292,12 @@ needed?
                 <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger"/>
                 <!-- <triggered_effect trigger="onSelfEquipStart" action="CVarLogValue" cvar="onSelfEquipStartMagnum"/> -->
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变左轮SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变左轮SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变左轮SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变左轮SparksB"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·步枪☆[FF0000]星际战神">
             <!--不可丢弃-->
@@ -30147,6 +30307,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="154,50,205"/>
             <property name="CustomIcon" value="gunMGT1AK47" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -30236,6 +30397,12 @@ needed?
                 <passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
                 <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变星际战神SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变星际战神SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变星际战神SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,-.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变星际战神SparksB"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·机枪☆[FF0000]雷霆怒焰">
             <!--不可丢弃-->
@@ -30246,6 +30413,7 @@ needed?
             <property name="SellableToTrader" value="false"/>
 
             <!--500 -->
+            <property name="TintColor" value="154,50,205"/>
             <property name="CustomIcon" value="gunMGT3M60" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -30337,6 +30505,12 @@ needed?
                 <passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
                 <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变雷霆怒焰SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变雷霆怒焰SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变雷霆怒焰SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,-.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变雷霆怒焰SparksB"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·狙击☆[FF0000]猎魂追命">
             <!--不可丢弃-->
@@ -30347,6 +30521,7 @@ needed?
             <property name="SellableToTrader" value="false"/>
 
             <!--500 -->
+            <property name="TintColor" value="154,50,205"/>
             <property name="CustomIcon" value="gunRifleT3SniperRifle" />
             <property name="CustomIconTint" value="130c0e" />
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab"/>
@@ -30427,6 +30602,12 @@ needed?
 		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
 		-->
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变狙击猎魂追命SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变狙击猎魂追命SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变狙击猎魂追命SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,-.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变狙击猎魂追命SparksB"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·狙击☆[FF0000]炎龙之怒">
             <!--不可丢弃-->
@@ -30436,6 +30617,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="154,50,205"/>
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="狙击"/>
             <property name="HoldType" value="77"/>
@@ -30523,6 +30705,12 @@ needed?
 		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
 		-->
             </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变狙击炎龙之怒SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变狙击炎龙之怒SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变狙击炎龙之怒SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,-.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变狙击炎龙之怒SparksB"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·霰弹☆[FF0000]众生平等">
             <!--不可丢弃-->
@@ -30532,6 +30720,7 @@ needed?
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
+            <property name="TintColor" value="154,50,205"/>
             <property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
@@ -30621,6 +30810,12 @@ needed?
                 <passive_effect name="DegradationMax" operation="base_set" value="160,500" tier="1,6" tags="perkBoomstick"/>
                 <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
                 <display_value name="dStatStunEffect" value="4"/>
+            </effect_group>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变散弹众生平等SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变散弹众生平等SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变散弹众生平等SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,-.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变散弹众生平等SparksB"/>
             </effect_group>
         </item>
     </append>
