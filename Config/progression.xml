@@ -718,7 +718,7 @@
 		</effect_group>
 	</perk>
 
-<perk name="XINY1"  parent="星源之力" name_key="星源修炼" desc_key="每级提高武器伤害 10%" base_skill_point_cost="100" cost_multiplier_per_level="1.05" max_level="100" >
+<perk name="XINY1"  parent="星源之力" name_key="星源修炼" desc_key="每级提高武器伤害 10%" base_skill_point_cost="20" cost_multiplier_per_level="1.05" max_level="100" >
 
 			<effect_group>
 			<requirement name="HoldingItemHasTags" tags="ranged,melee"/>
