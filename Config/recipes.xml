@@ -4803,7 +4803,7 @@
 	<ingredient name="超神强化结晶" count="300"/>
 </recipe>
 
-<recipe name="无人机升级核心" count="1" craft_time=".1">
+<!--<recipe name="无人机升级核心" count="1" craft_time=".1">
 	<ingredient name="超神强化结晶" count="300"/>
 	<ingredient name="星源☆金属" count="10"/>
 </recipe>
@@ -4831,7 +4831,7 @@
 	<ingredient name="gunBotT3JunkDrone" count="1"/>
 	<ingredient name="超神强化结晶" count="100"/>
 	<ingredient name="无人机升级核心" count="1"/>
-</recipe>
+</recipe>-->
 <recipe name="gunBotT3JunkDroneSchematic" count="1" craft_time=".1">
 	<ingredient name="末石" count="2000"/>
 	<ingredient name="途石" count="2000"/>

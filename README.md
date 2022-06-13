@@ -92,7 +92,19 @@ feralHordeStageGS631
  
  p_torch_wall
  p_electric_shock_small
- 
+ p_supply_crate_gib_Prefab //树木的动画
+ MinibikeParticles//冒烟
+ burntZombieSmoke//燃烧冒烟
+ p_wire_tool_sparks//工具的闪电
+ p_vomitMouth//无任何效果
+ p_signal_flarePrefab//空投的烟
+ p_wire_tool_dust//电器黑烟
+ light_bullet_impact//壁炉的光亮
+ p_breath_thirdperson//无效果
+ p_blood_impact//枪打出血的动画
+ p_blood_decapitation//出血的动画
+ p_hotembersZombie//光点，可随颜色变
+ p_onFire//很大的火
  
  //近战纹
  
@@ -457,3 +469,5 @@ feralHordeStageGS631
  		//GOD 伤害：350 1000 0.65
  		
  		//感染 <property name="Buff" value="buffInfectionCatch"/>
+ 		
+ 		//修改到寄生体了
