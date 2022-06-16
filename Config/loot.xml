@@ -968,6 +968,7 @@
 <lootgroup name="MO1" count="1">
 	<item name="伤害提升 2点" count="1" prob="1" />
 	<item name="伤害提升 4点" count="1" prob=".3" />
+	<item name="[4D0000]攻击吸血" count="1" prob="0.3"/>
 </lootgroup>
 <lootgroup name="MO2" count="1">
 	<item name="火焰配件 5%" count="1" prob="1" />
