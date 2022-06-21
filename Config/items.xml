@@ -29360,6 +29360,7 @@ needed?
             <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
             <property name="DescriptionKey" value="122Desc"/>
             <property name="CustomIconTint" value="130c0e" />
+            <property name="TintColor" value="255,0,0"/>
             <property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,武器,近战武器,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
             <property name="DisplayType" value="近战武器栏刀"/>
             <property name="HoldType" value="36"/>
