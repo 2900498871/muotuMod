@@ -147,7 +147,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1000"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -160,7 +160,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1001"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -173,7 +173,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1002"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -186,7 +186,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1003"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -199,7 +199,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1004"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -212,7 +212,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1005"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -225,7 +225,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1006"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -238,7 +238,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1007"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -251,7 +251,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1009"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -265,7 +265,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1026"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -278,7 +278,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1027"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -291,7 +291,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1028"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -305,7 +305,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1029"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -1371,7 +1371,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="10"/>
 			<property name="LootListOnDeath" value="1023"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2064,7 +2064,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="500"/>
 			<property name="LootListOnDeath" value="910"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2268,7 +2268,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1019"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2281,7 +2281,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1020"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2294,7 +2294,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1021"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2809,7 +2809,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1010"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2822,7 +2822,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1016"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2835,7 +2835,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1011"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2848,7 +2848,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1012"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2861,7 +2861,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1013"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2874,7 +2874,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1014"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2887,7 +2887,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="1015"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2901,7 +2901,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="924"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2914,7 +2914,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="925"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2927,7 +2927,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="926"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2941,7 +2941,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="927"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2954,7 +2954,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="928"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2967,7 +2967,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="929"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2980,7 +2980,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="930"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -2993,7 +2993,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="931"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -3006,7 +3006,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="932"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -3019,7 +3019,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="933"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -3032,7 +3032,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="934"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -3045,7 +3045,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="944"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
@@ -3058,7 +3058,7 @@
 			<property name="Class" value="EntityLootContainer"/>
 			<property name="Parent" value="Backpack"/>
 			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="10000"/>
+			<property name="TimeStayAfterDeath" value="150"/>
 			<property name="LootListOnDeath" value="945"/>
 			<!-- used to determine container X/Y size -->
 			<property name="Faction" value="none"/>
