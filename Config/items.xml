@@ -29455,6 +29455,12 @@ needed?
             </effect_group>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
+            <effect_group name="Deco">
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变黑刺SparksA" prefab="ParticleEffects/p_hotembersZombie" parentTransform="LeftHand" localPos="0,.1,0" localRot="0,0,0"/><!--1前后2上下3左右-->
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变黑刺SparksA"/>
+                <triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="千变长矛SparksB" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="RightHand" localPos="0,.1,0" localRot="0,0,0"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="千变黑刺SparksB"/>
+            </effect_group>
         </item>
         <item name="[00FFFF]千变神晶·爪☆[FF0000]血牙">
             <!--不可丢弃-->
