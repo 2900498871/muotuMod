@@ -875,12 +875,12 @@
 		</entity_class>
 		<!-- C级僵尸-->
 		<entity_class name="[53FF53]C级僵尸 狂徒僵尸" extends="SZombie C">
-			<property name="Tags" value="entity,zombie,C级僵尸,walker"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,C级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZThug.prefab"/>
 			<property name="HandItem" value="C级武器1"/>
 		</entity_class>
 		<entity_class name="[53FF53]C级僵尸 变异僵尸" extends="SZombie C">
-			<property name="Tags" value="entity,zombie,C级僵尸,walker"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,C级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZMutated.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
@@ -891,7 +891,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="[53FF53]C级僵尸 火焰僵尸" extends="SZombie C">
-			<property name="Tags" value="entity,zombie,C级僵尸,walker"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,C级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
@@ -908,7 +908,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="[53FF53]C级僵尸 尖叫僵尸" extends="SZombie C">
-			<property name="Tags" value="entity,zombie,C级僵尸,walker"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,C级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -918,7 +918,7 @@
 			<property name="HandItem" value="C级武器4"/>
 		</entity_class>
 		<entity_class name="[53FF53]C级僵尸 半身僵尸" extends="SZombie C">
-			<property name="Tags" value="entity,zombie,C级僵尸"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,C级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -947,12 +947,12 @@
 		</entity_class>
 		<!-- B级僵尸-->
 		<entity_class name="[2894FF]B级僵尸 狂徒僵尸" extends="SZombie B">
-			<property name="Tags" value="entity,zombie,B级僵尸,walker"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,B级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZThug.prefab"/>
 			<property name="HandItem" value="B级武器1"/>
 		</entity_class>
 		<entity_class name="[2894FF]B级僵尸 变异僵尸" extends="SZombie B">
-			<property name="Tags" value="entity,zombie,B级僵尸,walker"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,B级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZMutated.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
@@ -963,7 +963,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="[2894FF]B级僵尸 火焰僵尸" extends="SZombie B">
-			<property name="Tags" value="entity,zombie,B级僵尸,walker"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,B级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
@@ -980,7 +980,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="[2894FF]B级僵尸 尖叫僵尸" extends="SZombie B">
-			<property name="Tags" value="entity,zombie,B级僵尸,walker"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,B级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -993,7 +993,7 @@
 			<property name="HandItem" value="B级武器4"/>
 		</entity_class>
 		<entity_class name="[2894FF]B级僵尸 半身僵尸" extends="SZombie B">
-			<property name="Tags" value="entity,zombie,B级僵尸"/>
+			<property name="Tags" value="entity,血夜僵尸,zombie,B级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1020,11 +1020,11 @@
 		</entity_class>
 		<!-- A级僵尸-->
 		<entity_class name="[CA8EFF]A级僵尸 狂徒僵尸" extends="SZombie A">
-			<property name="Tags" value="entity,zombie,A级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZThug.prefab"/>
 		</entity_class>
 		<entity_class name="[CA8EFF]A级僵尸 变异僵尸" extends="SZombie A">
-			<property name="Tags" value="entity,zombie,A级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZMutated.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
@@ -1033,7 +1033,7 @@
 			<property name="TintMaterial2" value="79,40,26"/>
 		</entity_class>
 		<entity_class name="[CA8EFF]A级僵尸 火焰僵尸" extends="SZombie A">
-			<property name="Tags" value="entity,zombie,A级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
@@ -1049,7 +1049,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="[CA8EFF]A级僵尸 尖叫僵尸" extends="SZombie A">
-			<property name="Tags" value="entity,zombie,A级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -1061,7 +1061,7 @@
 			<property name="AIPathCostScale" value=".5, .6"/>
 		</entity_class>
 		<entity_class name="[CA8EFF]A级僵尸 半身僵尸" extends="SZombie A">
-			<property name="Tags" value="entity,zombie,A级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1087,11 +1087,11 @@
 		</entity_class>
 		<!-- S级僵尸-->
 		<entity_class name="[FFD306]S级僵尸 狂徒僵尸" extends="SZombie S">
-			<property name="Tags" value="entity,zombie,S级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,S级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZThug.prefab"/>
 		</entity_class>
 		<entity_class name="[FFD306]S级僵尸 变异僵尸" extends="SZombie S">
-			<property name="Tags" value="entity,zombie,S级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,S级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZMutated.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
@@ -1100,7 +1100,7 @@
 			<property name="TintMaterial2" value="79,40,26"/>
 		</entity_class>
 		<entity_class name="[FFD306]S级僵尸 火焰僵尸" extends="SZombie S">
-			<property name="Tags" value="entity,zombie,S级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,S级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
@@ -1116,7 +1116,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="[FFD306]S级僵尸 尖叫僵尸" extends="SZombie S">
-			<property name="Tags" value="entity,zombie,S级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,S级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -1128,7 +1128,7 @@
 			<property name="AIPathCostScale" value=".5, .6"/>
 		</entity_class>
 		<entity_class name="[FFD306]S级僵尸 半身僵尸" extends="SZombie S">
-			<property name="Tags" value="entity,zombie,S级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,S级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1154,11 +1154,11 @@
 		</entity_class>
 		<!-- SSS级僵尸-->
 		<entity_class name="[FFD306]SS级僵尸 狂徒僵尸" extends="SZombie SS">
-			<property name="Tags" value="entity,zombie,SS级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,SS级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZThug.prefab"/>
 		</entity_class>
 		<entity_class name="[FFD306]SS级僵尸 变异僵尸" extends="SZombie SS">
-			<property name="Tags" value="entity,zombie,SS级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,SS级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZMutated.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="ModelType" value="Standard"/>
@@ -1167,7 +1167,7 @@
 			<property name="TintMaterial2" value="79,40,26"/>
 		</entity_class>
 		<entity_class name="[FFD306]SS级僵尸 火焰僵尸" extends="SZombie SS">
-			<property name="Tags" value="entity,zombie,SS级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,SS级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
@@ -1183,7 +1183,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="[FFD306]SS级僵尸 尖叫僵尸" extends="SZombie SS">
-			<property name="Tags" value="entity,zombie,SS级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,SS级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -1195,7 +1195,7 @@
 			<property name="AIPathCostScale" value=".5, .6"/>
 		</entity_class>
 		<entity_class name="[FFD306]SS级僵尸 半身僵尸" extends="SZombie SS">
-			<property name="Tags" value="entity,zombie,SS级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,SS级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1221,7 +1221,7 @@
 		</entity_class>
 		<!-- SSS级僵尸-->
 		<entity_class name="[FFD306]SSS级僵尸 尖叫僵尸" extends="SZombie SSS">
-			<property name="Tags" value="entity,zombie,SSS级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,SSS级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -1238,7 +1238,7 @@
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZMechanic.prefab"/>
 			<property name="Buffs" value="SSS领域"/>
 			<!-- Gameplay -->
-			<property name="Tags" value="entity,zombie,SSS级僵尸,walker,feral,radiated"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,SSS级僵尸,walker,feral,radiated"/>
 			<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 			<!-- Gameplay -->
 			<property name="DismemberMultiplierHead" value=".4"/>
@@ -1256,7 +1256,7 @@
 		</entity_class>
 		<!-- GOD级僵尸-->
 		<entity_class name="[FF0033]GOD级僵尸 半身僵尸" extends="SZombie GOD">
-			<property name="Tags" value="entity,zombie,GOD级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,GOD级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1280,7 +1280,7 @@
 			<property name="CanClimbLadders" value="false"/>
 		</entity_class>
 		<entity_class name="[FF0033]GOD级僵尸 尖叫僵尸" extends="SZombie GOD">
-			<property name="Tags" value="entity,zombie,GOD级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,GOD级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -1348,7 +1348,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FF0033]GOD主神级僵尸级僵尸 尖叫僵尸" extends="SZombie GODD">
-			<property name="Tags" value="entity,zombie,GOD级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,GOD级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZScreamer.prefab"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="WalkType" value="3"/>
@@ -1359,7 +1359,7 @@
 			<!-- Gameplay -->
 		</entity_class>
 		<entity_class name="[FF0033]GOD主神级僵尸级僵尸 舞女" extends="SZombie GODD">
-			<property name="Tags" value="entity,zombie,GOD级僵尸,walker"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,GOD级僵尸,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCocktailWaitress.prefab"/>
 		</entity_class>
 		<!-- 矿魔-->
@@ -1378,7 +1378,7 @@
 		</entity_class>
 		<entity_class name="SZombie A1" extends="SZombie 0">
 			<!-- 50000-->
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,walker,feral,radiated,zombieCop"/>
 			<property name="WalkType" value="2"/>
 			<property name="SizeScale" value="2"/>
 			<property name="LootDropProb" value="1"/>
@@ -1422,7 +1422,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FFD306]矿魔 [2894FF]一形" extends="SZombie A1">
-			<property name="Tags" value="entity,zombie,A级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1462,7 +1462,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FFD306]矿魔 [2894FF]二形" extends="SZombie A1">
-			<property name="Tags" value="entity,zombie,A级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1502,7 +1502,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FFD306]矿魔 [2894FF]三形" extends="SZombie A1">
-			<property name="Tags" value="entity,zombie,A级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1542,7 +1542,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FFD306]矿魔 [2894FF]四形" extends="SZombie A1">
-			<property name="Tags" value="entity,zombie,A级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1582,7 +1582,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FF0033]A级僵尸 尖刺怪" extends="SZombie A1">
-			<property name="Tags" value="entity,zombie,A级僵尸"/>
+			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
 			<property name="Mass" value="140"/>
@@ -1662,7 +1662,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[FFD306]南瓜灯怪" extends="animalZombieVultureRadiated">
-			<property name="Tags" value="entity,cp,animal,hostile,animalSpider03"/>
+			<property name="Tags" value="entity,cp,血夜僵尸,animal,hostile,animalSpider03"/>
 			<property name="Radiated" value=""/>
 			<property name="SizeScale" value="2.5"/>
 			<property name="SightRange" value="180"/>
@@ -1853,7 +1853,7 @@
 		</entity_class>
 		<entity_class name="[FFD306]SSS级 变异狼" extends="animal SSS">
             <property name="TimeStayAfterDeath" value="5"/>
-			<property name="Tags" value="entity,animal,SSS级,hostile,wolf,perkAT02,perkAT03"/>
+			<property name="Tags" value="entity,animal,血夜僵尸,SSS级,hostile,wolf,perkAT02,perkAT03"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
 			<property name="AvatarController" value="AvatarAnimalController"/>
@@ -1900,7 +1900,7 @@
 		</entity_class>
 		<entity_class name="[FFD306]SSS级 变异猪" extends="animal SSS">
             <property name="TimeStayAfterDeath" value="5"/>
-			<property name="Tags" value="entity,animal,SSS级,hostile,boar,perkAT02,perkAT03"/>
+			<property name="Tags" value="entity,animal,血夜僵尸,SSS级,hostile,boar,perkAT02,perkAT03"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
 			<property name="IsEnemyEntity" value="false"/>
@@ -1952,7 +1952,7 @@
 		</entity_class>
 		<entity_class name="[FFD306]SSS级 大变异猪" extends="[FFD306]SSS级 变异猪">
             <property name="TimeStayAfterDeath" value="5"/>
-			<property name="Tags" value="entity,animal,SSS级,hostile,boar,perkAT03,boss"/>
+			<property name="Tags" value="entity,animal,血夜僵尸,SSS级,hostile,boar,perkAT03,boss"/>
 			<property name="IsEnemyEntity" value="true"/>
 			<property name="ReplaceMaterial0" value="Entities/Animals/Boar/Materials/GRACE"/>
 			<property name="ReplaceMaterial1" value="Entities/Animals/Boar/Materials/GRACE"/>
@@ -2003,7 +2003,7 @@
 		</entity_class>
 		<entity_class name="[FF0033]GOD级 变异狮" extends="[FFD306]SSS级 变异狼">
             <property name="TimeStayAfterDeath" value="5"/>
-			<property name="Tags" value="entity,animal,SSS级,hostile,mountainlion,perkAT03"/>
+			<property name="Tags" value="entity,animal,血夜僵尸,SSS级,hostile,mountainlion,perkAT03"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_mountain_lion"/>
 			<property name="PhysicsBody" value="MountainLion"/>
@@ -2070,7 +2070,7 @@
 			<property name="Faction" value="none"/>
 		</entity_class>
 		<entity_class name="宝藏兔" extends="animalTemplateTimid">
-			<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03"/>
+			<property name="Tags" value="entity,animal,血夜僵尸,rabbit,perkAT01,perkAT02,perkAT03"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 			<property name="Class" value="EntityAnimalRabbit"/>
@@ -2547,7 +2547,7 @@
 			<property name="CanClimbLadders" value="false"/>
 		</entity_class>
 		<entity_class name="辅助僵尸 移速领域" extends="SZombie B">
-			<property name="Tags" value="entity,辅助僵尸,walker,feral,radiated"/>
+			<property name="Tags" value="entity,辅助僵尸,血夜僵尸,walker,feral,radiated"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="Buffs" value="移速领域"/>
 			<property name="ReplaceMaterial0" value="materials/wirematerial"/>
@@ -2561,7 +2561,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="辅助僵尸 回血领域" extends="SZombie B">
-			<property name="Tags" value="entity,辅助僵尸,walker,feral,radiated"/>
+			<property name="Tags" value="entity,辅助僵尸,血夜僵尸,walker,feral,radiated"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
 			<property name="Buffs" value="血量领域"/>
 			<property name="ReplaceMaterial0" value="materials/wirematerial"/>
@@ -2576,7 +2576,7 @@
 		</entity_class>
 
         <entity_class name="辅助僵尸 伤害领域" extends="SZombie B">
-            <property name="Tags" value="entity,辅助僵尸,walker,feral,radiated"/>
+            <property name="Tags" value="entity,辅助僵尸,血夜僵尸,walker,feral,radiated"/>
             <property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
             <property name="Buffs" value="伤害领域"/>
             <property name="ReplaceMaterial0" value="materials/wirematerial"/>
@@ -2591,7 +2591,7 @@
         </entity_class>
 
         <entity_class name="辅助僵尸 攻速领域" extends="SZombie B">
-            <property name="Tags" value="entity,辅助僵尸,walker,feral,radiated"/>
+            <property name="Tags" value="entity,辅助僵尸,血夜僵尸,walker,feral,radiated"/>
             <property name="Mesh" value="#Entities/Zombies?Prefabs/ZCrawler.prefab"/>
             <property name="Buffs" value="攻速领域"/>
             <property name="ReplaceMaterial0" value="materials/wirematerial"/>
@@ -3108,7 +3108,7 @@
 		</entity_class>
 		<!-- 飞虫-->
 		<entity_class name="地狱狮子" extends="animalDireWolf">
-			<property name="Tags" value="entity,animal,hostile,mountainlion,perkAT03"/>
+			<property name="Tags" value="entity,animal,血夜僵尸,hostile,mountainlion,perkAT03"/>
 			<property name="SizeScale" value="2"/>
 			<property name="IsEntityAnimal" value="true"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
@@ -3172,7 +3172,7 @@
 			<property name="NavObject" value="animaltracking_mountainlion,clear_sleeper" />
 		</entity_class>
 		<entity_class name="地狱熊" extends="animalBear">
-			<property name="Tags" value="entity,animal,hostile,bear,perkAT03"/>
+			<property name="Tags" value="entity,animal,血夜僵尸,hostile,bear,perkAT03"/>
 			<property name="SizeScale" value="0.7"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/soldier_Zombie_radiated.mat"/>
 			<!-- Gameplay -->
@@ -3205,7 +3205,7 @@
 			<property name="NavObject" value="animaltracking_bear,clear_sleeper" />
 		</entity_class>
 		<entity_class name="地狱狼" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,animal,hostile,wolf,perkAT02,perkAT03"/>
+			<property name="Tags" value="entity,animal,血夜僵尸,hostile,wolf,perkAT02,perkAT03"/>
 			<!--property name="Prefab" value="Wolf"-->
 			<property name="AvatarController" value="AvatarAnimalController"/>
 			<property name="ModelType" value="Standard"/>
@@ -3275,7 +3275,7 @@
 			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		</entity_class>
 		<entity_class name="无人机" extends="animalZombieVultureRadiated">
-			<property name="Tags" value="entity,cp,animal,hostile,animalSpider03"/>
+			<property name="Tags" value="entity,cp,血夜僵尸,animal,hostile,animalSpider03"/>
 			<property name="Radiated" value=""/>
 			<property name="SizeScale" value="2.5"/>
 			<property name="SightRange" value="180"/>
@@ -3347,7 +3347,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="飞天鲨鱼" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,cp,animal,hostile,animalSpider03"/>
+			<property name="Tags" value="entity,cp,血夜僵尸,animal,hostile,animalSpider03"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="EntityType" value="Zombie"/>
 			<property name="AvatarController" value="AvatarAnimalController"/>
@@ -4279,7 +4279,7 @@
 			<property name="Archetype" value="SpiritJuggernaut" />
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
+			<property name="Tags" value="entity,血夜僵尸,zombie,walker,boss,umazombie,SpiritJuggernaut" />
 			<property name="HandItem" value="meleeHandSpiritJuggernautBY"/>
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -4341,7 +4341,7 @@
 			<property name="Archetype" value="SpiritJuggernaut1" />
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
+			<property name="Tags" value="entity,血夜僵尸,zombie,walker,boss,umazombie,SpiritJuggernaut" />
 			<property name="HandItem" value="meleeHandSpiritJuggernautWx1"/>
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -4403,7 +4403,7 @@
 			<property name="Archetype" value="SpiritJuggernaut2" />
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
 			<property name="HandItem" value="meleeHandSpiritJuggernautWx2"/>
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -4465,7 +4465,7 @@
 			<property name="Archetype" value="SpiritJuggernaut3" />
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,SpiritJuggernaut" />
 			<property name="HandItem" value="meleeHandSpiritJuggernautWx3"/>
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -4525,7 +4525,7 @@
 		</entity_class>
 		<entity_class name="[00CACA]变异-火焰战士" extends="zombieSoldier">
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,zombie,walker,boss,scorcher"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,scorcher"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
@@ -4574,7 +4574,7 @@
 		</entity_class>
 		<entity_class name="[4A4AFF]外星-火焰战士☆" extends="zombieSoldier">
 			<property name="SizeScale" value="2"/>
-			<property name="Tags" value="entity,zombie,walker,boss,scorcher"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,scorcher"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
@@ -4623,7 +4623,7 @@
 		</entity_class>
 		<entity_class name="[EAC100]外星-火焰战士☆☆" extends="zombieSoldier">
 			<property name="SizeScale" value="3"/>
-			<property name="Tags" value="entity,zombie,walker,boss,scorcher"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,scorcher"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
@@ -4672,7 +4672,7 @@
 		</entity_class>
 		<entity_class name="[B766AD]外星-火焰战士☆☆☆" extends="zombieSoldier">
 			<property name="SizeScale" value="4"/>
-			<property name="Tags" value="entity,zombie,walker,boss,scorcher"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,scorcher"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
@@ -4722,7 +4722,7 @@
 		<entity_class name="[00CACA]变异-透明女鬼" extends="zombieBoeFeral">
 			<property name="SizeScale" value="1"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,banshee" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,banshee" />
 			<!--property name="Mesh" value="Zombies/zombieStandardScreamerRagdoll"/-->
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardScreamerRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>
@@ -4749,7 +4749,7 @@
 			<property name="SizeScale" value="2"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,banshee" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,banshee" />
 			<!--property name="Mesh" value="Zombies/zombieStandardScreamerRagdoll"/-->
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardScreamerRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>
@@ -4776,7 +4776,7 @@
 			<property name="SizeScale" value="3"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,banshee" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,banshee" />
 			<!--property name="Mesh" value="Zombies/zombieStandardScreamerRagdoll"/-->
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardScreamerRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>
@@ -4803,7 +4803,7 @@
 			<property name="SizeScale" value="4"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,banshee" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,banshee" />
 			<!--property name="Mesh" value="Zombies/zombieStandardScreamerRagdoll"/-->
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardScreamerRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>
@@ -4830,7 +4830,7 @@
 			<property name="Archetype" value="Mantis" />
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="WalkType" value="8"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,mantis" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,mantis" />
 			<property name="HandItem" value="meleeHandMantisBY"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="MoveSpeedAggro" value="0.6, 1.35"/>
@@ -4866,7 +4866,7 @@
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="WalkType" value="8"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,mantis" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,mantis" />
 			<property name="HandItem" value="meleeHandMantisWx1"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="MoveSpeedAggro" value="0.6, 1.35"/>
@@ -4902,7 +4902,7 @@
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="WalkType" value="8"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,mantis" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,mantis" />
 			<property name="HandItem" value="meleeHandMantisWx2"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="MoveSpeedAggro" value="0.6, 1.35"/>
@@ -4938,7 +4938,7 @@
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="WalkType" value="8"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,mantis" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,mantis" />
 			<property name="HandItem" value="meleeHandMantisWx3"/>
 			<property name="MoveSpeed" value="0.5"/>
 			<property name="MoveSpeedAggro" value="0.6, 1.35"/>
@@ -4975,7 +4975,7 @@
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="HasRagdoll" value="false"/>
-			<property name="Tags" value="entity,animal,zombie,boss,hostile,radiated,vulture,umazombie,geist"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,boss,hostile,radiated,vulture,umazombie,geist"/>
 			<property name="Radiated" value=""/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
 			<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
@@ -5010,7 +5010,7 @@
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="HasRagdoll" value="false"/>
-			<property name="Tags" value="entity,animal,zombie,boss,hostile,radiated,vulture,umazombie,geist"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,boss,hostile,radiated,vulture,umazombie,geist"/>
 			<property name="Radiated" value=""/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
 			<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
@@ -5045,7 +5045,7 @@
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="HasRagdoll" value="false"/>
-			<property name="Tags" value="entity,animal,zombie,boss,hostile,radiated,vulture,umazombie,geist"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,boss,hostile,radiated,vulture,umazombie,geist"/>
 			<property name="Radiated" value=""/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
 			<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
@@ -5080,7 +5080,7 @@
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="HasRagdoll" value="false"/>
-			<property name="Tags" value="entity,animal,zombie,boss,hostile,radiated,vulture,umazombie,geist"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,boss,hostile,radiated,vulture,umazombie,geist"/>
 			<property name="Radiated" value=""/>
 			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
 			<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
@@ -5113,7 +5113,7 @@
 			<property name="Archetype" value="Scarecrow" />
 			<property name="Buffs" value="变异怪物领域-燃烧"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,scarecrow" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,scarecrow" />
 			<property name="WalkType" value="7"/>
 			<property name="PhysicsBody" value="nolegsUMA" />
 			<property name="SurfaceCategory" value="wood"/>
@@ -5141,7 +5141,7 @@
 			<property name="Archetype" value="Scarecrow1" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,scarecrow" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,scarecrow" />
 			<property name="WalkType" value="7"/>
 			<property name="PhysicsBody" value="nolegsUMA" />
 			<property name="SurfaceCategory" value="wood"/>
@@ -5169,7 +5169,7 @@
 			<property name="Archetype" value="Scarecrow2" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,scarecrow" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,scarecrow" />
 			<property name="WalkType" value="7"/>
 			<property name="PhysicsBody" value="nolegsUMA" />
 			<property name="SurfaceCategory" value="wood"/>
@@ -5197,7 +5197,7 @@
 			<property name="Archetype" value="Scarecrow3" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,scarecrow" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,scarecrow" />
 			<property name="WalkType" value="7"/>
 			<property name="PhysicsBody" value="nolegsUMA" />
 			<property name="SurfaceCategory" value="wood"/>
@@ -5225,7 +5225,7 @@
 			<property name="Archetype" value="Psycho" />
 			<property name="Buffs" value="变异怪物领域-燃烧"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,psycho" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,psycho" />
 			<property name="WalkType" value="7"/>
 			<property name="HandItem" value="meleeScarecrowBY"/>
 			<property name="ExperienceGain" value="1500"/>
@@ -5244,7 +5244,7 @@
 			<property name="Archetype" value="Psycho1" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,psycho" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,psycho" />
 			<property name="WalkType" value="7"/>
 			<property name="HandItem" value="meleeScarecrowWx1"/>
 			<property name="ExperienceGain" value="1500"/>
@@ -5263,7 +5263,7 @@
 			<property name="Archetype" value="Psycho2" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,psycho" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,psycho" />
 			<property name="WalkType" value="7"/>
 			<property name="HandItem" value="meleeScarecrowWx2"/>
 			<property name="ExperienceGain" value="1500"/>
@@ -5282,7 +5282,7 @@
 			<property name="Archetype" value="Psycho3" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,psycho" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,psycho" />
 			<property name="WalkType" value="7"/>
 			<property name="HandItem" value="meleeScarecrowWx3"/>
 			<property name="ExperienceGain" value="1500"/>
@@ -5301,7 +5301,7 @@
 			<property name="Archetype" value="Siren" />
 			<property name="Buffs" value="变异怪物领域-燃烧"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,siren" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,siren" />
 			<property name="WalkType" value="7"/>
 			<property name="SoundRandomTime" value="7"/>
 			<property name="SurfaceCategory" value="organic"/>
@@ -5358,7 +5358,7 @@
 			<property name="Archetype" value="Siren1" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,siren" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,siren" />
 			<property name="WalkType" value="7"/>
 			<property name="SoundRandomTime" value="7"/>
 			<property name="SurfaceCategory" value="organic"/>
@@ -5415,7 +5415,7 @@
 			<property name="Archetype" value="Siren2" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,siren" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,siren" />
 			<property name="WalkType" value="7"/>
 			<property name="SoundRandomTime" value="7"/>
 			<property name="SurfaceCategory" value="organic"/>
@@ -5472,7 +5472,7 @@
 			<property name="Archetype" value="Siren3" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,siren" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,siren" />
 			<property name="WalkType" value="7"/>
 			<property name="SoundRandomTime" value="7"/>
 			<property name="SurfaceCategory" value="organic"/>
@@ -5529,7 +5529,7 @@
 			<property name="Archetype" value="Undertaker" />
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
 			<property name="HandItem" value="meleeHandUndertakerBY"/>
 			<property name="ExperienceGain" value="4500"/>
 			<property name="LootDropProb" value="1"/>
@@ -5550,7 +5550,7 @@
 			<property name="Archetype" value="Undertaker1" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
 			<property name="HandItem" value="meleeHandUndertakerWx1"/>
 			<property name="ExperienceGain" value="4500"/>
 			<property name="LootDropProb" value="1"/>
@@ -5571,7 +5571,7 @@
 			<property name="Archetype" value="Undertaker2" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
 			<property name="HandItem" value="meleeHandUndertakerWx2"/>
 			<property name="ExperienceGain" value="4500"/>
 			<property name="LootDropProb" value="1"/>
@@ -5592,7 +5592,7 @@
 			<property name="Archetype" value="Undertaker3" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,undertaker,umazombie,undertaker" />
 			<property name="HandItem" value="meleeHandUndertakerWx3"/>
 			<property name="ExperienceGain" value="4500"/>
 			<property name="LootDropProb" value="1"/>
@@ -5613,7 +5613,7 @@
 			<property name="Archetype" value="Bomber" />
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,bomber,umazombie,bomber" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,bomber,umazombie,bomber" />
 			<property name="HandItem" value="meleeHandBomberBY"/>
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
@@ -5670,7 +5670,7 @@
 			<property name="Archetype" value="Parasite" />
 			<property name="Buffs" value="怪物领域-虚弱"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,parasite" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,parasite" />
 			<property name="LootDropProb" value="1"/>
 			<property name="ExperienceGain" value="5000"/>
 			<property name="HandItem" value="meleeHandParasiteJSBY"/>
@@ -5690,7 +5690,7 @@
 			<property name="Archetype" value="Parasite1" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域-虚弱☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,parasite" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,parasite" />
 			<property name="LootDropProb" value="1"/>
 			<property name="ExperienceGain" value="5000"/>
 			<property name="HandItem" value="meleeHandParasiteJSWx1"/>
@@ -5710,7 +5710,7 @@
 			<property name="Archetype" value="Parasite2" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域-虚弱☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,parasite" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,parasite" />
 			<property name="LootDropProb" value="1"/>
 			<property name="ExperienceGain" value="5000"/>
 			<property name="HandItem" value="meleeHandParasiteJSWx2"/>
@@ -5730,7 +5730,7 @@
 			<property name="Archetype" value="Parasite3" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域-虚弱☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,parasite" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,parasite" />
 			<property name="LootDropProb" value="1"/>
 			<property name="ExperienceGain" value="5000"/>
 			<property name="HandItem" value="meleeHandParasiteJSWx3"/>
@@ -5750,7 +5750,7 @@
 			<property name="Archetype" value="Wendigo" />
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
 			<property name="ExperienceGain" value="6000"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeHandWendigoWnBY"/>
@@ -5777,7 +5777,7 @@
 			<property name="Archetype" value="Wendigo1" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
 			<property name="ExperienceGain" value="6000"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeHandWendigoWnWx1"/>
@@ -5804,7 +5804,7 @@
 			<property name="Archetype" value="Wendigo2" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
 			<property name="ExperienceGain" value="6000"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeHandWendigoWnWx2"/>
@@ -5831,7 +5831,7 @@
 			<property name="Archetype" value="Wendigo3" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,wendigo,umazombie,wendigo" />
 			<property name="ExperienceGain" value="6000"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeHandWendigoWnWx3"/>
@@ -5856,7 +5856,7 @@
 		</entity_class>
 		<entity_class name="[00CACA]变异-飞天者" extends="zombieWightFeral">
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,archon"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral,radiated,hostile,vulture,archon"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="Buffs" value="变异怪物领域-燃烧"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
@@ -5906,7 +5906,7 @@
 		</entity_class>
 		<entity_class name="[4A4AFF]外星-飞天者☆" extends="zombieWightFeral">
 			<property name="SizeScale" value="2"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,archon"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral,radiated,hostile,vulture,archon"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
@@ -5956,7 +5956,7 @@
 		</entity_class>
 		<entity_class name="[EAC100]外星-飞天者☆☆" extends="zombieWightFeral">
 			<property name="SizeScale" value="3"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,archon"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral,radiated,hostile,vulture,archon"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
@@ -6006,7 +6006,7 @@
 		</entity_class>
 		<entity_class name="[B766AD]外星-飞天者☆☆☆" extends="zombieWightFeral">
 			<property name="SizeScale" value="4"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,archon"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral,radiated,hostile,vulture,archon"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
@@ -6059,7 +6059,7 @@
 			<property name="SizeScale" value="1.7"/>
 			<property name="Buffs" value="变异怪物领域-虚弱"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBiker.prefab"/>
 			<property name="Mass" value="230"/>
 			<property name="WalkType" value="2"/>
@@ -6103,7 +6103,7 @@
 			<property name="SizeScale" value="2"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域-虚弱☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBiker.prefab"/>
 			<property name="Mass" value="230"/>
 			<property name="WalkType" value="2"/>
@@ -6147,7 +6147,7 @@
 			<property name="SizeScale" value="3"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域-虚弱☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBiker.prefab"/>
 			<property name="Mass" value="230"/>
 			<property name="WalkType" value="2"/>
@@ -6191,7 +6191,7 @@
 			<property name="SizeScale" value="4"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域-虚弱☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBiker.prefab"/>
 			<property name="Mass" value="230"/>
 			<property name="WalkType" value="2"/>
@@ -6232,7 +6232,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异-亡灵骑士☆" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,animal,deer,perkAT02,perkAT03"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,deer,perkAT02,perkAT03"/>
 			<property name="AvatarController" value="AvatarAnimalController"/>
 			<property name="Buffs" value="变异怪物领域-燃烧"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
@@ -6286,7 +6286,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异-绿光猪☆" extends="animalBoar">
-			<property name="Tags" value="entity,animal,hostile,boar,perkAT03,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,hostile,boar,perkAT03,boss"/>
 			<property name="Buffs" value="变异怪物领域-虚弱"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="IsEnemyEntity" value="true"/>
@@ -6357,7 +6357,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆叛变-机器人无人机☆" extends="animalZombieVultureRadiated">
-			<property name="Tags" value="entity,animal,zombie,hostile,radiated"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,hostile,radiated"/>
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Radiated" value=""/>
@@ -6392,7 +6392,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]变异-变异水蛇" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
@@ -6469,7 +6469,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[4A4AFF]外星-变异水蛇☆" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
@@ -6546,7 +6546,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[EAC100]外星-变异水蛇☆☆" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
@@ -6623,7 +6623,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[B766AD]外星-变异水蛇☆☆☆" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
@@ -6703,7 +6703,7 @@
 			<property name="Archetype" value="TipsySquatch" />
 			<property name="Buffs" value="变异怪物领域-虚弱"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeHandTipsySquatchBY"/>
@@ -6731,7 +6731,7 @@
 			<property name="Archetype" value="TipsySquatch1" />
 			<property name="Buffs" value="未知怪物领域-虚弱☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeHandTipsySquatchWx1"/>
@@ -6759,7 +6759,7 @@
 			<property name="Archetype" value="TipsySquatch2" />
 			<property name="Buffs" value="未知怪物领域-虚弱☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeHandTipsySquatchWx2"/>
@@ -6787,7 +6787,7 @@
 			<property name="Archetype" value="TipsySquatch3" />
 			<property name="Buffs" value="未知怪物领域-虚弱☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,tipsysquatch,umazombie,tipsysquatch" />
 			<property name="ExperienceGain" value="2500"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeHandTipsySquatchWx3"/>
@@ -6812,7 +6812,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异熊☆" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,animal,boss,hostile,bear,zombiesnowbear,perkAT03"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,boss,hostile,bear,zombiesnowbear,perkAT03"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_bear"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_bear"/>
@@ -6877,7 +6877,7 @@
 		<entity_class name="[00CACA]☆变异矿工☆" extends="Zombie_Template">
 			<property name="Archetype" value="Pogo" />
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,pogo" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,pogo" />
 			<property name="WalkType" value="2"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="HandItem" value="meleeScarecrowBYKG"/>
@@ -6915,7 +6915,7 @@
 		<entity_class name="[00CACA]☆变异旅行者☆" extends="Zombie_Template">
 			<property name="Archetype" value="NavezganeSlasher" />
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,navezganeslasher" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,navezganeslasher" />
 			<property name="ExperienceGain" value="2100"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="WalkType" value="2"/>
@@ -6929,7 +6929,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异老母鸡☆" extends="animalTemplateHostile">
-			<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value="1"/>
@@ -6990,7 +6990,7 @@
 		<entity_class name="[00CACA]变异-辐射僵尸" extends="zombieWightRadiated">
 			<property name="Buffs" value="变异怪物领域-辐射"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral,radiated"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
@@ -7032,7 +7032,7 @@
 			<property name="SizeScale" value="2"/>
 			<property name="Buffs" value="未知怪物领域-辐射☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral,radiated"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
@@ -7074,7 +7074,7 @@
 			<property name="SizeScale" value="3"/>
 			<property name="Buffs" value="未知怪物领域-辐射☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral,radiated"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
@@ -7116,7 +7116,7 @@
 			<property name="SizeScale" value="4"/>
 			<property name="Buffs" value="未知怪物领域-辐射☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral,radiated"/>
 			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/rad_eye.mat"/>
 			<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
@@ -7159,7 +7159,7 @@
 		<entity_class name="[00CACA]变异-溃烂女人" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-眩晕"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,feral"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/animals/vulture/materials/vulture_v2"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
@@ -7195,7 +7195,7 @@
 			<property name="SizeScale" value="2"/>
 			<property name="Buffs" value="未知怪物领域-眩晕☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker,feral"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/animals/vulture/materials/vulture_v2"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
@@ -7231,7 +7231,7 @@
 			<property name="SizeScale" value="3"/>
 			<property name="Buffs" value="未知怪物领域-眩晕☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,feral"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/animals/vulture/materials/vulture_v2"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
@@ -7267,7 +7267,7 @@
 			<property name="SizeScale" value="4"/>
 			<property name="Buffs" value="未知怪物领域-眩晕☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,feral"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,feral"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/animals/vulture/materials/vulture_v2"/>
 			<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
@@ -7301,7 +7301,7 @@
 		</entity_class>
 		<!-- This zombieArchon is from Snufkins server side zombies, all credit go to Snufkin -->
 		<entity_class name="[00CACA]☆变异溺死者☆" extends="zombieTemplateMale">
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Buffs" value="变异怪物领域-眩晕"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
@@ -7347,7 +7347,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异火男☆" extends="zombieTemplateMale">
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/resources/materials/orecoalboulder"/>
@@ -7384,7 +7384,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆☆变异火男☆☆" extends="zombieTemplateMale">
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="itemmodeffects/materials/melee_fire"/>
@@ -7424,7 +7424,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异糖果女孩☆" extends="zombieTemplateMale">
-			<property name="Tags" value="entity,zombie,feral"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,feral"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="materials/wirematerial"/>
@@ -7457,7 +7457,7 @@
 		<entity_class name="[00CACA]变异-迷彩人" extends="zombieSpider">
 			<property name="Buffs" value="变异怪物领域-色弱"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/resources/materials/oreshaleboulder"/>
 			<property name="ReplaceMaterial1" value="materials/nightvisionmaterial"/>
@@ -7490,7 +7490,7 @@
 		<entity_class name="[4A4AFF]外星-迷彩人☆" extends="zombieSpider">
 			<property name="Buffs" value="未知怪物领域-色弱☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/resources/materials/oreshaleboulder"/>
 			<property name="ReplaceMaterial1" value="materials/nightvisionmaterial"/>
@@ -7523,7 +7523,7 @@
 		<entity_class name="[EAC100]外星-迷彩人☆☆" extends="zombieSpider">
 			<property name="Buffs" value="未知怪物领域-色弱☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/resources/materials/oreshaleboulder"/>
 			<property name="ReplaceMaterial1" value="materials/nightvisionmaterial"/>
@@ -7556,7 +7556,7 @@
 		<entity_class name="[B766AD]外星-迷彩人☆☆☆" extends="zombieSpider">
 			<property name="Buffs" value="未知怪物领域-色弱☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/resources/materials/oreshaleboulder"/>
 			<property name="ReplaceMaterial1" value="materials/nightvisionmaterial"/>
@@ -7632,7 +7632,7 @@
 		</entity_class>
 		<entity_class name="[00CACA]☆变异射箭者☆" extends="zombieTemplateMale">
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_gib"/>
 			<property name="WalkType" value="7"/>
@@ -7661,7 +7661,7 @@
 		<entity_class name="[00CACA]变异-冰冻者" extends="Zombie_Template">
 			<property name="Buffs" value="变异怪物领域-冻僵"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,umazombie,freezer,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,umazombie,freezer,boss"/>
 			<property name="Archetype" value="Freezer" />
 			<property name="WalkType" value="2"/>
 			<property name="Mass" value="150"/>
@@ -7691,7 +7691,7 @@
 		<entity_class name="[4A4AFF]外星-冰冻者☆" extends="Zombie_Template">
 			<property name="Buffs" value="未知怪物领域-冻僵☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker,umazombie,freezer,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,umazombie,freezer,boss"/>
 			<property name="Archetype" value="Freezer1" />
 			<property name="WalkType" value="2"/>
 			<property name="Mass" value="150"/>
@@ -7720,7 +7720,7 @@
 		<entity_class name="[EAC100]外星-冰冻者☆☆" extends="Zombie_Template">
 			<property name="Buffs" value="未知怪物领域-冻僵☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,umazombie,freezer,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,umazombie,freezer,boss"/>
 			<property name="Archetype" value="Freezer2" />
 			<property name="WalkType" value="3"/>
 			<property name="Mass" value="150"/>
@@ -7749,7 +7749,7 @@
 		<entity_class name="[B766AD]外星-冰冻者☆☆☆" extends="Zombie_Template">
 			<property name="Buffs" value="未知怪物领域-冻僵☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker,umazombie,freezer,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,umazombie,freezer,boss"/>
 			<property name="Archetype" value="Freezer3" />
 			<property name="WalkType" value="2"/>
 			<property name="Mass" value="150"/>
@@ -7777,7 +7777,7 @@
 		</entity_class>
 		<entity_class name="[00CACA]变异-重枪手" extends="zombieTemplateMale">
 
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZDemolition.prefab"/>
@@ -7821,7 +7821,7 @@
 		</entity_class>
 		<entity_class name="[4A4AFF]外星-重枪手☆" extends="zombieTemplateMale">
 			<property name="SizeScale" value="2"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZDemolition.prefab"/>
@@ -7865,7 +7865,7 @@
 		</entity_class>
 		<entity_class name="[EAC100]外星-重枪手☆☆" extends="zombieTemplateMale">
 			<property name="SizeScale" value="3"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZDemolition.prefab"/>
@@ -7909,7 +7909,7 @@
 		</entity_class>
 		<entity_class name="[B766AD]外星-重枪手☆☆☆" extends="zombieTemplateMale">
 			<property name="SizeScale" value="4"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZDemolition.prefab"/>
@@ -7954,7 +7954,7 @@
 		<entity_class name="[00CACA]变异-钢铁侠" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="shapes/materials/wrought_iron_metal"/>
 			<property name="WalkType" value="7"/>
@@ -7984,7 +7984,7 @@
 		<entity_class name="[4A4AFF]外星-钢铁侠☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="shapes/materials/wrought_iron_metal"/>
 			<property name="WalkType" value="7"/>
@@ -8014,7 +8014,7 @@
 		<entity_class name="[EAC100]外星-钢铁侠☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="shapes/materials/wrought_iron_metal"/>
 			<property name="WalkType" value="7"/>
@@ -8044,7 +8044,7 @@
 		<entity_class name="[B766AD]外星-钢铁侠☆☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="shapes/materials/wrought_iron_metal"/>
 			<property name="WalkType" value="7"/>
@@ -8074,7 +8074,7 @@
 		<entity_class name="[00CACA]变异-木乃伊" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-虚弱"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_wood"/>
 			<property name="SizeScale" value="1.1"/>
@@ -8113,7 +8113,7 @@
 		<entity_class name="[4A4AFF]外星-木乃伊☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-虚弱☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_wood"/>
 			<property name="SizeScale" value="2"/>
@@ -8152,7 +8152,7 @@
 		<entity_class name="[EAC100]外星-木乃伊☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-虚弱☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_wood"/>
 			<property name="SizeScale" value="3"/>
@@ -8191,7 +8191,7 @@
 		<entity_class name="[B766AD]外星-木乃伊☆☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-虚弱☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_wood"/>
 			<property name="SizeScale" value="4"/>
@@ -8430,7 +8430,7 @@
 		<entity_class name="[00CACA]变异-机器人" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/electrical/materials/spotlight"/>
 			<property name="SizeScale" value="1.15"/>
@@ -8471,7 +8471,7 @@
 		<entity_class name="[4A4AFF]外星-机器人☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/electrical/materials/spotlight"/>
 			<property name="SizeScale" value="2"/>
@@ -8512,7 +8512,7 @@
 		<entity_class name="[EAC100]外星-机器人☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/electrical/materials/spotlight"/>
 			<property name="SizeScale" value="3"/>
@@ -8553,7 +8553,7 @@
 		<entity_class name="[B766AD]外星-机器人☆☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/electrical/materials/spotlight"/>
 			<property name="SizeScale" value="4"/>
@@ -8594,7 +8594,7 @@
 		<entity_class name="[00CACA]☆变异军人☆" extends="Zombie_Template">
 			<property name="Archetype" value="zombie_RPG" />
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker,boss,umazombie,zombie_RPG" />
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,zombie_RPG" />
 			<!--<property name="Tags" value="entity,zombie,walker"/><property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardDemolitionRagdoll.prefab"/><property name="ReplaceMaterial0" value="entities/lighting/materials/streetlamp"/>  -->
 			<property name="PhysicsBody" value="zombieUMA" />
 			<property name="WalkType" value="7"/>
@@ -8638,7 +8638,7 @@
 		<entity_class name="[00CACA]变异-呕吐者" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-坏眼"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="entities/animals/vulture/materials/vulture_v2"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
@@ -8682,7 +8682,7 @@
 		<entity_class name="[4A4AFF]外星-呕吐者☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-坏眼☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="entities/animals/vulture/materials/vulture_v2"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
@@ -8726,7 +8726,7 @@
 		<entity_class name="[EAC100]外星-呕吐者☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-坏眼☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="entities/animals/vulture/materials/vulture_v2"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
@@ -8770,7 +8770,7 @@
 		<entity_class name="[B766AD]外星-呕吐者☆☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-坏眼☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="entities/animals/vulture/materials/vulture_v2"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardLabRagdoll.prefab"/>
@@ -8816,7 +8816,7 @@
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="SizeScale" value="1.3"/>
-			<property name="Tags" value="entity,zombie,walker,boss"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss"/>
 			<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardScreamerRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>
 			<property name="AITask-1" value="BreakBlock"/>
@@ -8860,7 +8860,7 @@
 		<entity_class name="[00CACA]变异-影子怪物" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-瞎眼"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="materials/occludeeshadowcaster"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="WalkType" value="7"/>
@@ -8896,7 +8896,7 @@
 		<entity_class name="[4A4AFF]外星-影子怪物☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-瞎眼☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="materials/occludeeshadowcaster"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="WalkType" value="7"/>
@@ -8932,7 +8932,7 @@
 		<entity_class name="[EAC100]外星-影子怪物☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-瞎眼☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="materials/occludeeshadowcaster"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="WalkType" value="7"/>
@@ -8968,7 +8968,7 @@
 		<entity_class name="[B766AD]外星-影子怪物☆☆☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="未知怪物领域-瞎眼☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="materials/occludeeshadowcaster"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="WalkType" value="7"/>
@@ -9004,7 +9004,7 @@
 		<entity_class name="[00CACA]变异-闪电人" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
@@ -9035,7 +9035,7 @@
 			<property name="SizeScale" value="2"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
@@ -9066,7 +9066,7 @@
 			<property name="SizeScale" value="3"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
@@ -9097,7 +9097,7 @@
 			<property name="SizeScale" value="4"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
@@ -9127,7 +9127,7 @@
 		<entity_class name="[00CACA]☆变异漆黑闪电人☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/electrical_arc"/>
 			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
@@ -9154,7 +9154,7 @@
 		<entity_class name="[00CACA]☆变异水鬼☆" extends="zombieTemplateMale">
 			<property name="Buffs" value="变异怪物领域-眩晕"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBurnt.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>
 			<property name="WalkType" value="2"/>
@@ -9187,7 +9187,7 @@
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="Tags" value="entity,animal,hostile"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,hostile"/>
 			<property name="EntityType" value="Animal"/>
 			<property name="ReplaceMaterial0" value="entities/animals/boar/materials/grace"/>
 			<property name="Class" value="EntityAnimalSnake"/>
@@ -9235,7 +9235,7 @@
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="Tags" value="entity,animal,zombie,hostile,radiated"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,hostile,radiated"/>
 			<property name="Radiated" value=""/>
 			<property name="SizeScale" value="2.1"/>
 			<property name="SightRange" value="180"/>
@@ -9264,7 +9264,7 @@
 			<property name="Buffs" value="变异怪物领域-燃烧"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="Tags" value="entity,animal,zombie,hostile"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,hostile"/>
 			<property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_gib"/>
 			<property name="Class" value="EntityEnemyAnimal"/>
@@ -9322,7 +9322,7 @@
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="Tags" value="entity,animal,zombie,hostile,radiated"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,hostile,radiated"/>
 			<property name="Radiated" value=""/>
 			<property name="SizeScale" value="1.2"/>
 			<property name="SightRange" value="180"/>
@@ -9361,7 +9361,7 @@
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="Tags" value="entity,animal,zombie,hostile,radiated"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,hostile,radiated"/>
 			<property name="Radiated" value=""/>
 			<property name="SizeScale" value="2.1"/>
 			<property name="SightRange" value="180"/>
@@ -9389,7 +9389,7 @@
 			<property name="Buffs" value="变异怪物领域-燃烧"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="Tags" value="entity,animal,hostile"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,hostile"/>
 			<property name="EntityType" value="Animal"/>
 			<property name="ReplaceMaterial0" value="itemmodeffects/materials/melee_fire"/>
 			<property name="Class" value="EntityAnimalSnake"/>
@@ -9437,7 +9437,7 @@
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,zombie,hostile,vulture"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="EntityType" value="Zombie"/>
 			<property name="AvatarController" value="AvatarAnimalController"/>
@@ -9446,7 +9446,7 @@
 			<property name="PhysicsBody" value="vulture"/>
 			<property name="Mass" value="35"/>
 			<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
-			<property name="SizeScale" value="1.5"/>
+			<property name="SizeScale" value="0.8"/>
 			<property name="SightRange" value="180"/>
 			<property name="ReplaceMaterial0" value="particleeffects/blood"/>
 			<property name="SoundRandom" value=""/>
@@ -9479,7 +9479,7 @@
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="LootDropProb" value="1"/>
-			<property name="Tags" value="entity,animal,hostile"/>
+			<property name="Tags" value="血夜僵尸,entity,animal,hostile"/>
 			<property name="SizeScale" value="1.25"/>
 			<property name="Mass" value="180"/>
 			<property name="Prefab" value="/Entities/Animals/Mountain_Lion/animalStandardMountainLionRagdoll"/>
