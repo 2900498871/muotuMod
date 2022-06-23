@@ -1040,7 +1040,7 @@
 	<ingredient name="星源水晶" count="5000"/>
 </recipe>
 
-<recipe name="星源水晶" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="5">
+<recipe name="星源水晶" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="100">
 	<ingredient name="resourceBrokenGlass" count="10"/>
 </recipe>
 
