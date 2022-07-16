@@ -26710,7 +26710,7 @@ needed?
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
-            <property name="HoldType" value="76"/>
+            <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
             <property name="CrosshairOnAim" value="true"/>
             <!-- aimTest -->
@@ -26810,7 +26810,7 @@ needed?
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
-            <property name="HoldType" value="76"/>
+            <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
             <property name="CrosshairOnAim" value="true"/>
             <!-- aimTest -->
@@ -26910,7 +26910,7 @@ needed?
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
-            <property name="HoldType" value="76"/>
+            <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
             <property name="CrosshairOnAim" value="true"/>
             <!-- aimTest -->
@@ -27010,7 +27010,7 @@ needed?
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
-            <property name="HoldType" value="76"/>
+            <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
             <property name="CrosshairOnAim" value="true"/>
             <!-- aimTest -->
@@ -27110,7 +27110,7 @@ needed?
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
-            <property name="HoldType" value="76"/>
+            <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
             <property name="CrosshairOnAim" value="true"/>
             <!-- aimTest -->
@@ -27210,7 +27210,7 @@ needed?
             <property name="DisplayType" value="手枪"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="6"/>
-            <property name="HoldType" value="76"/>
+            <property name="HoldType" value="60"/>
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab"/>
             <property name="CrosshairOnAim" value="true"/>
             <!-- aimTest -->
