@@ -5440,16 +5440,16 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <append xpath="/buffs">
 <buff name="血夜阶段buff" name_key="[FFD306]怪物[-]"
 description_key="[FF0000]游戏等级：[-]本MOD难度将随等级增强！
-[FFD306]阶段 1:1-40级，原版怪物和模组怪物血量不变！
-[FFD306]阶段 2:41-80级，原版怪物和模组怪物血量变成2倍！
-[FFD306]阶段 3:81-120级，原版怪物和模组怪物血量变成3倍！攻击增加 20%
-[FFD306]阶段 4:121-160级，原版怪物和模组怪物血量变成4倍！攻击增加 40%！ 移动速度增加 4%！
-[FFD306]阶段 5:161-200级，原版怪物和模组怪物血量变成5倍！攻击增加 60%！ 移动速度增加 6%！
-[FFD306]阶段 6:201-240级，原版怪物和模组怪物血量变成6倍！攻击增加 80%！ 移动速度增加 8%！
-[FFD306]阶段 7:241-300级，原版怪物和模组怪物血量变成7倍！攻击增加 100%！ 移动速度增加 10%！
-[FFD306]阶段 8:301-500级，原版怪物和模组怪物血量变成8倍！攻击增加 100%！ 移动速度增加 12%！
-[FFD306]阶段 9:501-800级，原版怪物和模组怪物血量变成9倍！攻击增加 150%%！ 移动速度增加 15%！
-[FFD306]阶段 10:801-2000级，原版怪物和模组怪物血量变成10倍！攻击增加 200%！ 移动速度增加 20%！"
+[FFD306]阶段 1:1-20级，原版怪物和模组怪物无属性加成！
+[FFD306]阶段 2:21-60级，原版怪物和模组怪物攻击增加 10%！移动速度增加 5%
+[FFD306]阶段 3:61-100级，原版怪物和模组怪物攻击增加 20%！移动速度增加 10%
+[FFD306]阶段 4:101-150级，原版怪物和模组怪物攻击增加 30%！ 移动速度增加 15%！
+[FFD306]阶段 5:151-200级，原版怪物和模组怪物攻击增加 40%！ 移动速度增加 25%！
+[FFD306]阶段 6:201-250级，原版怪物和模组怪物攻击增加 50%！ 移动速度增加 30%！
+[FFD306]阶段 7:251-300级，原版怪物和模组怪物血量变成2倍！攻击增加 60%！ 移动速度增加 35%！
+[FFD306]阶段 8:301-500级，原版怪物和模组怪物血量变成3倍！攻击增加 70%！ 移动速度增加 40%！
+[FFD306]阶段 9:501-800级，原版怪物和模组怪物血量变成4倍！攻击增加 80%！ 移动速度增加 45%！
+[FFD306]阶段 10:801-2000级，原版怪物和模组怪物血量变成5倍！攻击增加 100%！ 移动速度增加 50%！"
 tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级增强！
 " hidden="false" remove_on_death="false" icon="ui_game_symbol_deep_cuts" icon_color="0,255,255">
 		<stack_type value="ignore"/>
@@ -5461,30 +5461,30 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 		<!--用于显示阶段-->
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="LS" operation="set" value="1">
 			<requirement name="PlayerLevel" target="self" operation="GTE" value="1"/><!-- 大于等于 -->
-			<requirement name="PlayerLevel" target="self" operation="LT" value="40"/><!-- 小于 -->
+			<requirement name="PlayerLevel" target="self" operation="LT" value="20"/><!-- 小于 -->
 			</triggered_effect>			
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="LS" operation="set" value="2">
-			<requirement name="PlayerLevel" target="self" operation="GTE" value="41"/><!-- 大于等于 -->
-			<requirement name="PlayerLevel" target="self" operation="LT" value="80"/><!-- 小于 -->
+			<requirement name="PlayerLevel" target="self" operation="GTE" value="21"/><!-- 大于等于 -->
+			<requirement name="PlayerLevel" target="self" operation="LT" value="60"/><!-- 小于 -->
 			</triggered_effect>		
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="LS" operation="set" value="3">
-			<requirement name="PlayerLevel" target="self" operation="GTE" value="81"/><!-- 大于等于 -->
-			<requirement name="PlayerLevel" target="self" operation="LT" value="120"/><!-- 小于 -->
+			<requirement name="PlayerLevel" target="self" operation="GTE" value="61"/><!-- 大于等于 -->
+			<requirement name="PlayerLevel" target="self" operation="LT" value="100"/><!-- 小于 -->
 			</triggered_effect>	
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="LS" operation="set" value="4">
-			<requirement name="PlayerLevel" target="self" operation="GTE" value="121"/><!-- 大于等于 -->
-			<requirement name="PlayerLevel" target="self" operation="LT" value="160"/><!-- 小于 -->
+			<requirement name="PlayerLevel" target="self" operation="GTE" value="101"/><!-- 大于等于 -->
+			<requirement name="PlayerLevel" target="self" operation="LT" value="150"/><!-- 小于 -->
 			</triggered_effect>	
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="LS" operation="set" value="5">
-			<requirement name="PlayerLevel" target="self" operation="GTE" value="161"/><!-- 大于等于 -->
+			<requirement name="PlayerLevel" target="self" operation="GTE" value="151"/><!-- 大于等于 -->
 			<requirement name="PlayerLevel" target="self" operation="LT" value="200"/><!-- 小于 -->
 			</triggered_effect>	
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="LS" operation="set" value="6">
 			<requirement name="PlayerLevel" target="self" operation="GTE" value="201"/><!-- 大于等于 -->
-			<requirement name="PlayerLevel" target="self" operation="LT" value="240"/><!-- 小于 -->
+			<requirement name="PlayerLevel" target="self" operation="LT" value="250"/><!-- 小于 -->
 			</triggered_effect>	
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="LS" operation="set" value="7">
-			<requirement name="PlayerLevel" target="self" operation="GTE" value="241"/><!-- 大于等于 -->
+			<requirement name="PlayerLevel" target="self" operation="GTE" value="251"/><!-- 大于等于 -->
 			<requirement name="PlayerLevel" target="self" operation="LT" value="300"/><!-- 小于 -->
 			</triggered_effect>	
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="LS" operation="set" value="8">
@@ -5618,8 +5618,11 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="2"/>
-	
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.1"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.1"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.05"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.05"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.05"/>
 	</effect_group>
 </buff>
 <buff name="血夜增强3" hidden="true" remove_on_death="false">
@@ -5633,9 +5636,11 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="3"/>
 			<passive_effect name="EntityDamage" operation="perc_add" value="0.2"/>
 			<passive_effect name="BlockDamage" operation="perc_add" value="0.2"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.1"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.1"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.1"/>
 		</effect_group>
 </buff>
 <buff name="血夜增强4" hidden="true" remove_on_death="false">
@@ -5649,12 +5654,11 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="3"/>
-			<passive_effect name="EntityDamage" operation="perc_add" value="0.4"/>
-			<passive_effect name="BlockDamage" operation="perc_add" value="0.4"/>
-			<passive_effect name="WalkSpeed" operation="perc_add" value="0.04"/>
-			<passive_effect name="RunSpeed" operation="perc_add" value="0.04"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="0.04"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.3"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.3"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.15"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.15"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.15"/>
 		</effect_group>
 </buff>
 <buff name="血夜增强5" hidden="true" remove_on_death="false">
@@ -5668,12 +5672,11 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="4"/>
-			<passive_effect name="EntityDamage" operation="perc_add" value="0.6"/>
-			<passive_effect name="BlockDamage" operation="perc_add" value="0.6"/>
-			<passive_effect name="WalkSpeed" operation="perc_add" value="0.06"/>
-			<passive_effect name="RunSpeed" operation="perc_add" value="0.06"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="0.06"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.4"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.4"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.25"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.25"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.25"/>
 		</effect_group>
 </buff>
 <buff name="血夜增强6" hidden="true" remove_on_death="false">
@@ -5687,12 +5690,11 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="5"/>
-			<passive_effect name="EntityDamage" operation="perc_add" value="0.8"/>
-			<passive_effect name="BlockDamage" operation="perc_add" value="0.8"/>
-			<passive_effect name="WalkSpeed" operation="perc_add" value="0.08"/>
-			<passive_effect name="RunSpeed" operation="perc_add" value="0.08"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="0.08"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.5"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.5"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.3"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.3"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.3"/>
 		</effect_group>
 </buff>
 <buff name="血夜增强7" hidden="true" remove_on_death="false">
@@ -5706,12 +5708,12 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="6"/>
-			<passive_effect name="EntityDamage" operation="perc_add" value="1"/>
-			<passive_effect name="BlockDamage" operation="perc_add" value="1"/>
-			<passive_effect name="WalkSpeed" operation="perc_add" value="0.1"/>
-			<passive_effect name="RunSpeed" operation="perc_add" value="0.1"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="0.1"/>
+			<passive_effect name="HealthMax" operation="perc_set" value="2"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.6"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.6"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.35"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.35"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.35"/>
 		</effect_group>
 </buff>
 <buff name="血夜增强8" hidden="true" remove_on_death="false">
@@ -5725,12 +5727,12 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="7"/>
-			<passive_effect name="EntityDamage" operation="perc_add" value="1"/>
-			<passive_effect name="BlockDamage" operation="perc_add" value="1"/>
-			<passive_effect name="WalkSpeed" operation="perc_add" value="0.12"/>
-			<passive_effect name="RunSpeed" operation="perc_add" value="0.12"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="0.12"/>
+			<passive_effect name="HealthMax" operation="perc_set" value="3"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.7"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.7"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.4"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.4"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.4"/>
 		</effect_group>
 </buff>
 <buff name="血夜增强9" hidden="true" remove_on_death="false">
@@ -5744,12 +5746,12 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="8"/>
-			<passive_effect name="EntityDamage" operation="perc_add" value="1.5"/>
-			<passive_effect name="BlockDamage" operation="perc_add" value="1.5"/>
-			<passive_effect name="WalkSpeed" operation="perc_add" value="0.15"/>
-			<passive_effect name="RunSpeed" operation="perc_add" value="0.15"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="0.15"/>
+			<passive_effect name="HealthMax" operation="perc_set" value="4"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.8"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.8"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.45"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.45"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.45"/>
 		</effect_group>
 </buff>
 <buff name="血夜增强10" hidden="true" remove_on_death="false">
@@ -5763,12 +5765,12 @@ tooltip_key="[FF0000]游戏等级：[-]难度增强！本MOD难度将随等级�
 			<passive_effect name="HealthChangeOT" operation="base_add" value="99999999" duration="1"/>
 		</effect_group>	
 		<effect_group name="属性增加">
-			<passive_effect name="HealthMax" operation="perc_set" value="10"/>
-			<passive_effect name="EntityDamage" operation="perc_add" value="2"/>
-			<passive_effect name="BlockDamage" operation="perc_add" value="2"/>
-			<passive_effect name="WalkSpeed" operation="perc_add" value="0.2"/>
-			<passive_effect name="RunSpeed" operation="perc_add" value="0.2"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="0.2"/>
+			<passive_effect name="HealthMax" operation="perc_set" value="5"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.9"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.9"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.5"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.5"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.5"/>
 		</effect_group>
 </buff>
 
@@ -11294,7 +11296,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.2,.13,0" local_rotation="180,0,0" parent_transform="LeftShoulder"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#Other/Items?Tools/augerPrefab.prefab" local_offset="-.1,0,0" local_rotation="0,-90,0" parent_transform="RightHand"/>
-				<triggered_effect trigger="onSelfRangedBurstShot" action="AddBuff" target="self" buff="SpiritJuggernautMuzzle"/>
+				<!--<triggered_effect trigger="onSelfRangedBurstShot" action="AddBuff" target="self" buff="SpiritJuggernautMuzzle"/>-->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />
 			</effect_group>
@@ -11494,7 +11496,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.2,.13,0" local_rotation="180,0,0" parent_transform="LeftShoulder"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#Other/Items?Tools/augerPrefab.prefab" local_offset="-.1,0,0" local_rotation="0,-90,0" parent_transform="RightHand"/>
-				<triggered_effect trigger="onSelfRangedBurstShot" action="AddBuff" target="self" buff="JuggernautMuzzle"/>
+				<!--<triggered_effect trigger="onSelfRangedBurstShot" action="AddBuff" target="self" buff="JuggernautMuzzle"/>-->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />
 			</effect_group>
@@ -11518,7 +11520,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		<buff name="BomberDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/barrelRadiatedPrefab" local_offset="0,.1,-.2" local_rotation="0,0,0" parent_transform="Spine"/>
-				<triggered_effect trigger="onSelfRangedBurstShot"  target="self" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+				<!--<triggered_effect trigger="onSelfRangedBurstShot"  target="self" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>-->
 				<triggered_effect trigger="onSelfDamagedBlock"  target="self" action="ModifyStats" stat="Health" operation="set" value="60"/>
 			</effect_group>
 		</buff>
