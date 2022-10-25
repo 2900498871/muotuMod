@@ -1,6 +1,16 @@
 <configs>
 <append xpath="/recipes">
 
+	<recipe name="领域☆[FFD306]免疫" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="超神强化结晶" count="100"/>
+		<ingredient name="免疫碎片" count="1000"/>
+	</recipe>
+
+	<recipe name="领域☆[FFD306]终结" count="1" craft_time="10"  craft_area="workbench" >
+		<ingredient name="超神强化结晶" count="500"/>
+		<ingredient name="领域☆[FFD306]免疫" count="5"/>
+	</recipe>
+
 	<recipe name="神☆营地领域" count="1" craft_time="10"  craft_area="workbench" >
 		<ingredient name="medicalFirstAidKit" count="2"/>
 		<ingredient name="超神强化结晶" count="30"/>

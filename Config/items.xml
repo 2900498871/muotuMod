@@ -35,6 +35,23 @@
             <property name="EconomicValue" value="50"/>
             <property name="RepairTime" value="1"/>
         </item>
+
+        <item name="免疫碎片">
+            <property name="CustomIcon" value="rubblePileConcreteSmall" />
+            <property name="DescriptionKey" value="领域免疫0"/>
+            <property name="CustomIconTint" value="00FFFF" />
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="HoldType" value="45"/>
+            <property name="Tags" value="gems"/>
+            <property name="RepairAmount" value="30000"/>
+            <property name="Group" value="星源"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="EconomicValue" value="5"/>
+            <property name="RepairTime" value="1"/>
+        </item>
+
         <item name="金星尘">
             <property name="CustomIcon" value="resourceCrushedSand" />
             <property name="CustomIconTint" value="FFFF00" />
@@ -169,7 +186,7 @@
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
-            <property name="CustomIcon" value="resourceRawDiamond" />
+            <property name="CustomIcon" value="palletCans" />
             <property name="Extends" value="星源水晶"/>
             <property name="CustomIconTint" value="CE0000" />
             <property name="EconomicValue" value="300"/>
@@ -183,7 +200,7 @@
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
-            <property name="CustomIcon" value="resourceRawDiamond" />
+            <property name="CustomIcon" value="palletCans" />
             <property name="Extends" value="星源水晶"/>
             <property name="CustomIconTint" value="006000" />
             <property name="EconomicValue" value="300"/>
@@ -37467,7 +37484,8 @@ needed?
         </item>
         <item name="[FFD306]新手·[FF0000]枪">
             <property name="CustomIcon" value="gunHandgunT1Pistol" />
-            <property name="CustomIconTint" value="EA0000" />
+            <property name="CustomIconTint" value="8600FF" />
+            <property name="TintColor" value="153,50,204"/>
             <property name="Tags" value="melee,heavy,武器,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
             <property name="DisplayType" value="武器栏收纳枪"/>
             <property name="HoldType" value="1"/>
