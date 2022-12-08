@@ -3,7 +3,113 @@
 	<!-- 图标添加到技能菜单-->
 	<set xpath="/windows/window[@name='windowCraftingList']/panel[@name='content']/rect[@name='categorySelector']/grid[@name='categories']/@cols">20</set>
 	<set xpath="/windows/window[@name='windowCraftingList']/panel[@name='content']/rect[@name='categorySelector']/grid[@name='categories']/@cell_width">30</set>
-	<append xpath="/windows">
-		
+
+	<!--添加常显-->
+	<!-- 显血 -->
+	<set xpath="/windows/window[@name='windowTargetBar']/@visibility">always</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/@pos">-300,-65</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/@height">30</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/sprite[@name='border']/@width">600</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/filledsprite[@name='BarContent']/@color">255,52,55,200</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/filledsprite[@name='BarContent']/@width">600</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/label[@name='TextContent']/@pos">0,-5</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/label[@name='TextContent']/@font_size">22</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/label[@name='TextContent']/@justify">center</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/label[@name='TextContent']/@height">24</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='400']/@width">600</set>
+	<set xpath="/windows/window[@name='windowTargetBar']/rect[@width='725']/@pos">-267,-65</set>
+
+	<!-- 日期时间 -->
+	<set xpath="/windows/window[@name='windowCompass']/sprite[@pos='240,-60']/@pos">-85,-19</set>
+	<set xpath="/windows/window[@name='windowCompass']/sprite/label/@text">[00FF00]{daytitle}: [-][{daycolor}]{day} [00FF00]{timetitle}: [-]{time}</set>
+
+	<!--聊天窗口及文本信息上调-->
+	<set xpath="/windows/window[@name='chat']/@pos">20,-170</set>
+	<set xpath="/windows/window[@name='chatoutput']/@pos">20,-170</set>
+	<set xpath="/windows/window[@name='chat']/@height">200</set>
+	<set xpath="/windows/window[@name='chatoutput']/@height">200</set>
+
+	<!-- 温度海拔 -->
+	<append xpath="/windows/window[@name='windowCompass']/sprite[@globalopacitymod='1.8']">
+		<rect width="150" height="43" pos="540,13" controller="MapStats" pivot="center" justify="center">
+			<sprite depth="6" name="tempIcon" size="30,30" pos="0,0" sprite="ui_game_symbol_temperature" color="[green]" foregroundlayer="true"/>
+			<label depth="5" name="tempLabel" size="150,30" pos="31,0" text="{playercoretemp}[-]" color="[white]" font_size="28" effect="outline"/>
+			<sprite depth="6" name="elevIcon" size="27,27" pos="120,0" sprite="ui_game_symbol_climb" color="[green]" foregroundlayer="true"/>
+			<label depth="5" name="elevLabel" size="150,30" pos="154,0" text="{mapelevation} M[-]" color="[white]" font_size="28" effect="outline"/>
+		</rect>
 	</append>
+
+	<!-- 潜行 -->
+	<append xpath="/windows/window[@name='windowCompass']/sprite[@globalopacitymod='1.8']">
+		<rect width="171" height="30" pos="238,-80" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}" pivot="center">
+			<filledsprite depth="3" name="background" color="110,110,110,128" type="button" fill="1"/>
+			<filledsprite depth="4" name="BarContent" color="139,252,252,200" type="button" fill="0"/>
+			<sprite depth="5" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="22,22" pos="4,-5" foregroundlayer="true"/>
+			<label depth="6" name="TextContent" pos="0,-5" font_size="22" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="26"/>
+		</rect>
+		<rect name="hud" pos="9999,5465" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
+			<panel width="168" height="46" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0" style="press" sound="[recipe_click]" on_hover="true" >
+				<sprite depth="3" pos="0,0"  name="Background" sprite="ui_game_popup" height="46" width="162" pivot="center" flip="Horizontally" color="[transparent]"/>
+				<sprite depth="4" name="Icon" size="40,40" pos="-54,0" pivot="center" color="[transparent]"/>
+				<label depth="6" name="TextContent" pos="0,0" font_size="28" color="[white]" justify="center" height="40" pivot="center"/>
+			</panel>
+		</rect>
+	</append>
+
+	<append xpath="/windows">
+		<window name="zuoxiajiao" anchor="LeftBottom">
+
+			<sprite depth="0" sprite="ui_game_header_fill" pos="4,148" width="294" height="143" type="sliced" color="150,150,150,150" />
+
+			<grid pos="10,140" rows="4" cols="1" cell_width="200" cell_height="33">
+				<rect width="280" height="30" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
+					<filledsprite depth="2" name="background" color="110,110,110,128" type="filled" globalopacity="false" fill="{statmodifiedmax}" />
+					<filledsprite depth="2" name="BarContent" color="255,48,48,128" type="filled" globalopacity="false" fill="0"  />
+					<sprite depth="2" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="28,28" pos="1,-1" pivot="topleft" foregroundlayer="true"/>
+					<label depth="2" name="TextContent" pos="30,-1" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrentwithmax}" />
+				</rect>
+				<rect width="280" height="30" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+					<filledsprite depth="4" name="background" color="110,110,110,128"  type="filled" globalopacity="false" fill="{statmodifiedmax}" />
+					<filledsprite depth="5" name="BarContent" color="30,144,255,128"  type="filled" globalopacity="false" fill="0" />
+					<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="28,28" pos="1,-1" pivot="topleft" foregroundlayer="true"/>
+					<label depth="7" name="TextContent" pos="30,-1" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrentwithmax}" />
+				</rect>
+				<rect width="280" height="30" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
+					<filledsprite depth="4" name="background" color="110,110,110,128"  type="sliced" globalopacity="false" fill="{statmodifiedmax}" />
+					<filledsprite depth="5" name="BarContent" color="255,165,0,128"  type="sliced" globalopacity="false" fill="0"  />
+					<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="28,28" pos="1,-1" pivot="topleft" foregroundlayer="true"/>
+					<label depth="7" name="TextContent" pos="30,-1" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrentwithmax}" />
+				</rect>
+				<rect width="280" height="30" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
+					<filledsprite depth="4" name="background" color="110,110,110,128"  type="sliced" globalopacity="false" fill="{statmodifiedmax}" />
+					<filledsprite depth="5" name="BarContent" color="0,206,209,128"  type="sliced" globalopacity="false" fill="0"  />
+					<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="28,28" pos="1,-1" pivot="topleft" foregroundlayer="true"/>
+					<label depth="7" name="TextContent" pos="30,-1" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrentwithmax}" />
+				</rect>
+			</grid>
+
+			<rect Controller="ActiveBuffWindow" >
+
+				<panel pos="10,180" height="26" disableautobackground="true">
+					<rect height="24">
+						<panel pos="0,0" height="24" disableautobackground="true">
+							<pager name="pager" pos="10,-6" height="22" width="60"/>
+						</panel>
+					</rect>
+
+					<grid name="buffs" rows="26" cols="1" pos="4,33" cell_height="-26" repeat_content="true" controller="ActiveBuffList">
+						<panel controller="ActiveBuffEntry" width="300" disableautobackground="true" >
+							<sprite depth="1" name="background" color="110,110,110,128" type="filled" fill="{statmodifiedmax}"/>
+							<sprite name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="25,25" pos="1,-1"/>
+							<label pos="30,-1" height="20" font_size="20" color="[white]" effect="outline"  justify="left" pivot="topleft" text="{buffname|once} {buffdisplayinfo}[-]" />
+						</panel>
+					</grid>
+					<sprite depth="0" sprite="ui_game_header_fill" pos="-4,695" width="294" height="695" type="sliced" color="150,150,150,150" />
+				</panel>
+			</rect>
+
+		</window>
+	</append>
+
+
 </Scomar82_MunitionZerlegen>

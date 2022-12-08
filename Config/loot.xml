@@ -2136,7 +2136,7 @@
 		<!--光环掉落率-->
 		<item group="光环lv2" count="1" prob=".05"/>
 
-		<item name="免疫碎片" count="1,2" prob=".1"/>
+		<item name="免疫碎片" count="1,10" prob=".1"/>
 	</lootcontainer>
 	<!--BeibaoWx☆☆-->
 	<lootcontainer id="1027" name="1027" count="6,10" size="5,5" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate">
@@ -2176,7 +2176,7 @@
 		<!--领域抵抗插件-->
 		<item group="MO8" count="1" prob=".008"/>
 
-		<item name="免疫碎片" count="1,5" prob=".1"/>
+		<item name="免疫碎片" count="1,15" prob=".1"/>
 
 	</lootcontainer>
 	<!--BeibaoWx☆☆☆-->
@@ -2218,7 +2218,7 @@
 		<!--领域抵抗插件-->
 		<item group="MO8" count="1" prob=".05"/>
 
-		<item name="免疫碎片" count="1,10" prob=".1"/>
+		<item name="免疫碎片" count="1,20" prob=".1"/>
 	</lootcontainer>
 
 	<!--sinkFin普通怪物掉包-->
@@ -2253,7 +2253,7 @@
 		<item name="地球星源" count="10,20" prob=".1"/>
 		<item name="太阳星源" count="10,20" prob=".1"/>
 
-		<item name="免疫碎片" count="1" prob=".1"/>
+		<item name="免疫碎片" count="1,5" prob=".1"/>
 
 	</lootcontainer>
 

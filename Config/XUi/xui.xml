@@ -71,7 +71,22 @@
 		
 		
 </append>
-<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+<!--<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
 		<window name="MOTULogo" anchor="RightTop" />
+	</append>-->
+
+	<!--添加腰带-->
+	<set xpath="//ruleset[1]/@scale|//ruleset[1]/@stackpanel_scale">1</set>
+	<remove xpath="//window_group[@name='toolbelt']" />
+	<append xpath="//ruleset[@name='default']">
+		<window_group name="toolbelt" actionSet="false">
+			<window name="windowToolbelt" anchor="CenterBottom" />
+			<!-- <window name="HUDLeftStatBars" anchor="LeftBottom" /> -->
+			<window name="HUDRightStatBars" anchor="RightBottom" />
+			<window name="windowQuestTracker" anchor="RightTop" />
+			<window name="windowTwitch" anchor="RightCenter" />
+			<window name="windowGroupBars" anchor="LeftTop" />
+			<window name="zuoxiajiao" />
+		</window_group>
 	</append>
 </configs>
