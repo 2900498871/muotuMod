@@ -1617,8 +1617,8 @@
 
 </lootgroup>
 <lootgroup name="dan" count="1">
-	<item name="星源破镜药水" count="1" />
-	<item name="重生药水" count="1" prob="0.001"/>
+	<!--<item name="星源破镜药水" count="1" />
+	<item name="重生药水" count="1" prob="0.001"/>-->
 
 </lootgroup>
 

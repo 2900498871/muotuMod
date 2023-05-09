@@ -1043,12 +1043,12 @@
 	<ingredient name="星源水晶" count="5"/>
 </recipe>
 
-<recipe name="修炼药水+5/30s" count="1" craft_time=".1">
+<!--<recipe name="修炼药水+5/30s" count="1" craft_time=".1">
 	<ingredient name="星源水晶" count="1000"/>
 </recipe>
 <recipe name="星源破镜药水" count="1" craft_time=".1">
 	<ingredient name="星源水晶" count="5000"/>
-</recipe>
+</recipe>-->
 
 <recipe name="星源水晶" count="1" craft_area="源能 制造师" tags="源能 制造师" craft_time="100">
 	<ingredient name="resourceBrokenGlass" count="10"/>
@@ -5615,9 +5615,9 @@
 
 </recipe>
 
-<recipe name="修炼药水+5/30s" count="1" craft_time=".1">
+<!--<recipe name="修炼药水+5/30s" count="1" craft_time=".1">
 	<ingredient name="casinoCoin" count="30000"/>
-</recipe>
+</recipe>-->
 
 <!--***************************************************终极护甲*********************************-->
 	<recipe name="[D94600]神圣·[CA8EFF]☆终极头盔☆" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">

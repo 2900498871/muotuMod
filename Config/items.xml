@@ -44304,22 +44304,22 @@ needed?
                 <property name="QuestGiven" value="T DY4"/></property>
         </item>
     </append>
-    <append xpath="/items">
+    <!--<append xpath="/items">
         <item name="修炼药水+5/30s">
             <property name="Tags" value="medical"/>
             <property name="CustomIconTint" value="46A3FF" />
             <property name="HoldType" value="16"/>
             <property name="DisplayType" value=""/>
             <property name="CustomIcon" value="drinkJarBlackStrapCoffee"/>
-            <!-- 自定义图标 -->
+            &lt;!&ndash; 自定义图标 &ndash;&gt;
             <property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="DescriptionKey" value="modzzdDesc"/>
-            <!-- 自定义解释标签 -->
+            &lt;!&ndash; 自定义解释标签 &ndash;&gt;
             <property name="Material" value="Morganic"/>
             <property name="SellableToTrader" value="false"/>
             <property name="Stacknumber" value="65000"/>
-            <!-- STK loot -->
+            &lt;!&ndash; STK loot &ndash;&gt;
             <property name="EconomicValue" value="2000"/>
             <property class="Action0">
                 <property name="Class" value="Eat"/>
@@ -44337,15 +44337,15 @@ needed?
             <property name="HoldType" value="16"/>
             <property name="DisplayType" value=""/>
             <property name="CustomIcon" value="drinkJarGrandpasLearningElixir"/>
-            <!-- 自定义图标 -->
+            &lt;!&ndash; 自定义图标 &ndash;&gt;
             <property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="DescriptionKey" value="modpjdDesc"/>
-            <!-- 自定义解释标签 -->
+            &lt;!&ndash; 自定义解释标签 &ndash;&gt;
             <property name="Material" value="Morganic"/>
             <property name="SellableToTrader" value="false"/>
             <property name="Stacknumber" value="65000"/>
-            <!-- STK loot -->
+            &lt;!&ndash; STK loot &ndash;&gt;
             <property name="EconomicValue" value="2000"/>
             <property class="Action0">
                 <property name="Class" value="Eat"/>
@@ -44363,15 +44363,15 @@ needed?
             <property name="HoldType" value="16"/>
             <property name="DisplayType" value=""/>
             <property name="CustomIcon" value="drinkJarGrandpasForgettingElixir"/>
-            <!-- 自定义图标 -->
+            &lt;!&ndash; 自定义图标 &ndash;&gt;
             <property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="DescriptionKey" value="modszdDesc"/>
-            <!-- 自定义解释标签 -->
+            &lt;!&ndash; 自定义解释标签 &ndash;&gt;
             <property name="Material" value="Morganic"/>
             <property name="SellableToTrader" value="false"/>
             <property name="Stacknumber" value="65000"/>
-            <!-- STK loot -->
+            &lt;!&ndash; STK loot &ndash;&gt;
             <property name="EconomicValue" value="2000"/>
             <property class="Action0">
                 <property name="Class" value="Eat"/>
@@ -44383,7 +44383,7 @@ needed?
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="CS" operation="add" value="1"/>
             </effect_group>
         </item>
-    </append>
+    </append>-->
     <append xpath="/items">
         <item name="近战[53FF53]器纹 LV1">
             <property name="CustomIcon" value="modMeleeClubMetalSpikes" />

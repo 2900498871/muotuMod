@@ -68,8 +68,11 @@
 			<window name="windowNonPagingHeader" />
 			<!-- <window name="windowCombine" /> -->
 		</window_group>
-		
-		
+
+		<window_group name="serverinfowindow">
+			<window name="serverinfowindow" />
+		</window_group>
+
 </append>
 <!--<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
 		<window name="MOTULogo" anchor="RightTop" />
@@ -89,4 +92,6 @@
 			<window name="zuoxiajiao" />
 		</window_group>
 	</append>
+
+
 </configs>

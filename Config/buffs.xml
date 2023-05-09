@@ -9561,7 +9561,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 
 
 <!--境界-->
-<append xpath="/buffs">
+<!--<append xpath="/buffs">
 <buff name="大道重生" name_key="[00FFAC]星源轮回" description_key="[FFFF00]您已进入轮回
 [00FFFF]轮回次数为1时:增加生命+20，攻击速度+20。实体伤害+50% 收获+20%。
 轮回次数为2时:增加生命+40，攻击速度+40。实体伤害+100% 收获+40%。
@@ -9576,113 +9576,113 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <display_value value="CS"/>
 <display_value_key value="[00FFFF]★轮回★[FFFFFF]：[FFFF00]{0}[FFFFFF]"/>
 <effect_group>
-<!--轮回1-->
+&lt;!&ndash;轮回1&ndash;&gt;
 <passive_effect name="HealthMax" operation="base_add" target="self" value="20">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="1"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="1"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="AttacksPerMinute" operation="perc_add" value=".2">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="1"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="1"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
   <passive_effect name="HarvestCount" operation="perc_add" value=".2" tags="oreWoodHarvest, allHarvest, cropHarvest, wildCropsHarvest, butcherHarvest">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="1"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="1"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="EntityDamage" operation="perc_add" value=".5">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="1"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="1"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>  
 
-<!--轮回2-->
+&lt;!&ndash;轮回2&ndash;&gt;
 <passive_effect name="HealthMax" operation="base_add" target="self" value="40">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="2"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="2"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="AttacksPerMinute" operation="perc_add" value=".4">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="2"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="2"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
   <passive_effect name="HarvestCount" operation="perc_add" value=".4" tags="oreWoodHarvest, allHarvest, cropHarvest, wildCropsHarvest, butcherHarvest">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="2"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="2"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="EntityDamage" operation="perc_add" value="1">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="2"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="2"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>  
-<!--轮回3-->
+&lt;!&ndash;轮回3&ndash;&gt;
 <passive_effect name="HealthMax" operation="base_add" target="self" value="60">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="3"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="3"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="AttacksPerMinute" operation="perc_add" value=".6">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="3"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="3"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
   <passive_effect name="HarvestCount" operation="perc_add" value=".6" tags="oreWoodHarvest, allHarvest, cropHarvest, wildCropsHarvest, butcherHarvest">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="3"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="3"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="EntityDamage" operation="perc_add" value="1.5">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="3"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="3"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>  
-<!--轮回4-->
+&lt;!&ndash;轮回4&ndash;&gt;
 <passive_effect name="HealthMax" operation="base_add" target="self" value="80">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="4"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="4"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="AttacksPerMinute" operation="perc_add" value=".8">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="4"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="4"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
   <passive_effect name="HarvestCount" operation="perc_add" value=".8" tags="oreWoodHarvest, allHarvest, cropHarvest, wildCropsHarvest, butcherHarvest">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="4"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="4"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="EntityDamage" operation="perc_add" value="2">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="4"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="4"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>  
-<!--轮回5-->
+&lt;!&ndash;轮回5&ndash;&gt;
 <passive_effect name="HealthMax" operation="base_add" target="self" value="100">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="5"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="5"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="1">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="5"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="5"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
   <passive_effect name="HarvestCount" operation="perc_add" value="1" tags="oreWoodHarvest, allHarvest, cropHarvest, wildCropsHarvest, butcherHarvest">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="5"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="5"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="EntityDamage" operation="perc_add" value="2.5">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="5"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="5"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>  
-<!--轮回6-->
+&lt;!&ndash;轮回6&ndash;&gt;
 <passive_effect name="HealthMax" operation="base_add" target="self" value="120">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="6"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="6"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="1.2">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="6"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="6"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
   <passive_effect name="HarvestCount" operation="perc_add" value="1.2" tags="oreWoodHarvest, allHarvest, cropHarvest, wildCropsHarvest, butcherHarvest">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="6"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="6"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="EntityDamage" operation="perc_add" value="3">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="6"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="6"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>  
-<!--轮回7-->
+&lt;!&ndash;轮回7&ndash;&gt;
 <passive_effect name="HealthMax" operation="base_add" target="self" value="150">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="7"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="7"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="1.5">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="7"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="7"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
   <passive_effect name="HarvestCount" operation="perc_add" value="1.5" tags="oreWoodHarvest, allHarvest, cropHarvest, wildCropsHarvest, butcherHarvest">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="7"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="7"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="EntityDamage" operation="perc_add" value="4">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="7"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="7"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>  
-<!--轮回8-->
+&lt;!&ndash;轮回8&ndash;&gt;
 <passive_effect name="HealthMax" operation="base_add" target="self" value="200">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="8"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="8"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="2">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="8"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="8"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
   <passive_effect name="HarvestCount" operation="perc_add" value="2" tags="oreWoodHarvest, allHarvest, cropHarvest, wildCropsHarvest, butcherHarvest">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="8"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="8"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>
 <passive_effect name="EntityDamage" operation="perc_add" value="5">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="8"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="8"/>&lt;!&ndash;等于&ndash;&gt;
 </passive_effect>  
 
-<!--后续需要自己写，前提是先把最后境界的值改动-->
+&lt;!&ndash;后续需要自己写，前提是先把最后境界的值改动&ndash;&gt;
 </effect_group>
 </buff>
 <buff name="修为" name_key="[00FFAC]修炼" description_key="[FF0000]修炼：[00FFFF]用于晋升自身境界，当达到100%时会自动触发天劫，渡过天劫将晋升下一境界，
@@ -9708,29 +9708,29 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <buff name="经验获取" name_key="[00FFFF]经验获取" description_key="[00FFFF]经验获取." icon="ui_game_symbol_intellect" icon_color="0,255,255" hidden="true" remove_on_death="false">
 <stack_type value="ignore"/>
 <duration value="30"/>
-<effect_group><!--每10s增加一次修为-->
+<effect_group>&lt;!&ndash;每10s增加一次修为&ndash;&gt;
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="NL" operation="add" value="@XW"/>
-<!--轮回后格外增加修为数值-->
+&lt;!&ndash;轮回后格外增加修为数值&ndash;&gt;
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="NL" operation="add" value="0.01">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="1"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="1"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="NL" operation="add" value="0.02">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="2"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="2"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="NL" operation="add" value="0.03">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="3"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="3"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="NL" operation="add" value="0.05">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="4"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="4"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="NL" operation="add" value="0.06">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="5"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="5"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="NL" operation="add" value="0.07">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="6"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="6"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="NL" operation="add" value="0.1">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="7"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="7"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 </effect_group>
 </buff>
@@ -9758,46 +9758,46 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <requirement name="HasBuff" buff="感知星源力"/>
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="multiply" value="0.995">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="1"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="1"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="multiply" value="0.99">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="2"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="2"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="multiply" value="0.985">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="3"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="3"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="multiply" value="0.98">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="4"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="4"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="multiply" value="0.97">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="5"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="5"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="multiply" value="0.96">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="6"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="6"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="multiply" value="0.95">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="7"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="7"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="2">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="1"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="1"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="4">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="2"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="2"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="6">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="3"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="3"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="8">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="4"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="4"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="10">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="5"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="5"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="12">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="6"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="6"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="15">
-<requirement name="CVarCompare" cvar="CS" operation="Equals" value="7"/><!--等于-->
+<requirement name="CVarCompare" cvar="CS" operation="Equals" value="7"/>&lt;!&ndash;等于&ndash;&gt;
 </triggered_effect>
 </effect_group>
 <effect_group>
@@ -9998,16 +9998,16 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="感知星源力">
 <requirement name="HasBuff" buff="创世☆宇宙境"/>
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="0"/><!--大于等于0-->
-<requirement name="CVarCompare" cvar="CS" operation="LTE" value="7"/><!--小于等于7-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="0"/>&lt;!&ndash;大于等于0&ndash;&gt;
+<requirement name="CVarCompare" cvar="CS" operation="LTE" value="7"/>&lt;!&ndash;小于等于7&ndash;&gt;
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="CS" operation="add" value="1">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="0"/><!--大于等于0-->
-<requirement name="CVarCompare" cvar="CS" operation="LTE" value="7"/><!--小于等于7-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="0"/>&lt;!&ndash;大于等于0&ndash;&gt;
+<requirement name="CVarCompare" cvar="CS" operation="LTE" value="7"/>&lt;!&ndash;小于等于7&ndash;&gt;
 <requirement name="HasBuff" buff="创世☆宇宙境"/>
 </triggered_effect>
 <triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="鸿蒙掌控者">
-<requirement name="CVarCompare" cvar="CS" operation="GTE" value="8"/><!--大于等于0-->
+<requirement name="CVarCompare" cvar="CS" operation="GTE" value="8"/>&lt;!&ndash;大于等于0&ndash;&gt;
 <requirement name="HasBuff" buff="创世☆宇宙境"/>
 </triggered_effect>
 </effect_group>
@@ -10032,13 +10032,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,星尘境二重,星尘境一重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,星尘境二重,星尘境一重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="1"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="1"/>   
-<passive_effect name="HealthMax" operation="base_add" value="2"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="2"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="2"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="2"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="2"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="2"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="2"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="2"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="1"/>
@@ -10057,13 +10057,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.9"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="1.2"/>
-<passive_effect name="HealthMax" operation="base_add" value="4"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="5"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="5"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="5"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="4"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="5"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="5"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="5"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="2"/>
@@ -10082,13 +10082,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.85"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="1.5"/>
-<passive_effect name="HealthMax" operation="base_add" value="6"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="8"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="8"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="8"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="6"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="8"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="8"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="8"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.04"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.04"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="3"/>
@@ -10107,13 +10107,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.8"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="1.7"/> 
-<passive_effect name="HealthMax" operation="base_add" value="8"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="10"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="10"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="10"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="8"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="10"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="10"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="10"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.06"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.06"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="4"/>
@@ -10132,13 +10132,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.75"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="2"/>  
-<passive_effect name="HealthMax" operation="base_add" value="10"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="12"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="12"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="12"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="10"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="12"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="12"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="12"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.08"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.08"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="5"/>
@@ -10157,13 +10157,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.7"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="2.5"/> 
-<passive_effect name="HealthMax" operation="base_add" value="12"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="15"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="15"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="15"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="12"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="15"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="15"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="15"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.1"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.1"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="6"/>
@@ -10182,13 +10182,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.65"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="3"/> 
-<passive_effect name="HealthMax" operation="base_add" value="14"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="18"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="18"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="18"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="14"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="18"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="18"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="18"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="7"/>
@@ -10207,13 +10207,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.6"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="4"/>  
-<passive_effect name="HealthMax" operation="base_add" value="16"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="20"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="20"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="20"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="16"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="20"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="20"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="20"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="8"/>
@@ -10232,13 +10232,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.55"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="5"/>
-<passive_effect name="HealthMax" operation="base_add" value="18"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="25"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="25"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="25"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="18"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="25"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="25"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="25"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="9"/>
@@ -10257,13 +10257,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.5"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="6"/>  
-<passive_effect name="HealthMax" operation="base_add" value="20"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="30"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="30"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="30"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="20"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="30"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="30"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="30"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="10"/>
@@ -10282,13 +10282,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.45"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="8"/>  
-<passive_effect name="HealthMax" operation="base_add" value="22"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="35"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="35"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="35"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="22"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="35"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="35"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="35"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="12"/>
@@ -10307,13 +10307,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.4"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="10"/>   
-<passive_effect name="HealthMax" operation="base_add" value="24"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="40"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="40"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="40"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="24"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="40"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="40"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="40"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="14"/>
@@ -10332,13 +10332,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.35"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="12"/>
-<passive_effect name="HealthMax" operation="base_add" value="26"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="50"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="50"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="50"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="26"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="50"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="50"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="50"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="16"/>
@@ -10357,13 +10357,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.34"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="14"/> 
-<passive_effect name="HealthMax" operation="base_add" value="28"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="60"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="60"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="60"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="28"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="60"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="60"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="60"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="18"/>
@@ -10382,13 +10382,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.32"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="16"/>
-<passive_effect name="HealthMax" operation="base_add" value="30"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="70"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="70"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="70"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="30"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="70"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="70"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="70"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="20"/>
@@ -10407,13 +10407,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.3"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="18"/>   
-<passive_effect name="HealthMax" operation="base_add" value="32"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="80"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="80"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="80"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="32"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="80"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="80"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="80"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="22"/>
@@ -10432,13 +10432,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.28"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="20"/>
-<passive_effect name="HealthMax" operation="base_add" value="34"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="90"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="90"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="90"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="34"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="90"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="90"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="90"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="24"/>
@@ -10457,13 +10457,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.25"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="22"/>
-<passive_effect name="HealthMax" operation="base_add" value="36"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="100"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="100"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="100"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="36"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="100"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="100"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="100"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="26"/>
@@ -10482,13 +10482,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.23"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="24"/>   
-<passive_effect name="HealthMax" operation="base_add" value="40"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="120"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="120"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="120"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="40"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="120"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="120"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="120"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="30"/>
@@ -10507,13 +10507,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.2"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="26"/>
-<passive_effect name="HealthMax" operation="base_add" value="45"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="135"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="135"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="135"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="45"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="135"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="135"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="135"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="35"/>
@@ -10532,13 +10532,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.15"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="28"/> 
-<passive_effect name="HealthMax" operation="base_add" value="50"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="150"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="150"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="150"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="50"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="150"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="150"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="150"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="40"/>
@@ -10557,13 +10557,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.12"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="30"/>
-<passive_effect name="HealthMax" operation="base_add" value="55"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="165"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="165"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="165"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="55"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="165"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="165"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="165"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="50"/>
@@ -10582,13 +10582,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.1"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="32"/>
-<passive_effect name="HealthMax" operation="base_add" value="60"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="180"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="180"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="180"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="60"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="180"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="180"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="180"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="60"/>
@@ -10607,13 +10607,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.08"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="34"/>
-<passive_effect name="HealthMax" operation="base_add" value="70"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="200"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="200"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="200"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="70"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="200"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="200"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="200"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="70"/>
@@ -10632,13 +10632,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.05"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="36"/>
-<passive_effect name="HealthMax" operation="base_add" value="80"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="230"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="230"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="230"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="80"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="230"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="230"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="230"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="80"/>
@@ -10657,13 +10657,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.04"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="38"/> 
-<passive_effect name="HealthMax" operation="base_add" value="90"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="260"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="260"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="260"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="90"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="260"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="260"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="260"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="100"/>
@@ -10683,13 +10683,13 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境"/><!--在自身开始删除所有buff-->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="XW" operation="set" value="0.03"/>
 <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="SH" operation="set" value="40"/>
-<passive_effect name="HealthMax" operation="base_add" value="100"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="275"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="275"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="275"/><!-- 最大食物份值 -->
+<passive_effect name="HealthMax" operation="base_add" value="100"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="275"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="275"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="275"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="150"/>
@@ -10708,16 +10708,16 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <stack_type value="ignore"/>
 <duration value="0"/>
 <effect_group>
-<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="修为,天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/><!--在自身开始删除所有buff-->
-<passive_effect name="HealthMax" operation="base_add" value="150"/><!-- 最大生命值 -->
-<passive_effect name="WaterMax" operation="base_add" value="500"/><!-- 最大水份值 -->
-<passive_effect name="StaminaMax" operation="base_add" value="500"/><!-- 最大耐力值 -->
-<passive_effect name="FoodMax" operation="base_add" value="500"/><!-- 最大食物份值 -->
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff"  target="self" buff="修为,天劫,感知星源力,星尘境一重,星尘境二重,星尘境三重,星尘境四重,星尘境五重,星尘境六重,星尘境七重,星尘境八重,星尘境九重,星源境☆金星源力,星源境☆木星源力,星源境☆水星源力,星源境☆火星源力,星源境☆土星源力,星源境☆海王星源境,星源境☆天王星源境,星源境☆地球境,星源境☆太阳境,星源融合☆五行境,星源融合☆双王境,星源融合☆生命境,星源融合☆合一境,星源合一☆神境,星源合一☆主神境,星源合一☆神尊境,创世☆宇宙境"/>&lt;!&ndash;在自身开始删除所有buff&ndash;&gt;
+<passive_effect name="HealthMax" operation="base_add" value="150"/>&lt;!&ndash; 最大生命值 &ndash;&gt;
+<passive_effect name="WaterMax" operation="base_add" value="500"/>&lt;!&ndash; 最大水份值 &ndash;&gt;
+<passive_effect name="StaminaMax" operation="base_add" value="500"/>&lt;!&ndash; 最大耐力值 &ndash;&gt;
+<passive_effect name="FoodMax" operation="base_add" value="500"/>&lt;!&ndash; 最大食物份值 &ndash;&gt;
 <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.02"/>
 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.02"/> 
 <passive_effect name="EntityDamage" operation="base_add" value="200"/>
-<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/> <!-- 物理护甲 -->
-<passive_effect name="ElementalDamageResist" operation="base_add" value="20"/><!-- 爆炸抗性 -->
+<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/> &lt;!&ndash; 物理护甲 &ndash;&gt;
+<passive_effect name="ElementalDamageResist" operation="base_add" value="20"/>&lt;!&ndash; 爆炸抗性 &ndash;&gt;
 </effect_group>
 </buff>
 </append>
@@ -10763,8 +10763,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <requirement name="NotHasBuff" buff="血夜阶段buff"/>
 </triggered_effect>
 </effect_group>
-
-</append>
+</append>-->
 
 	<!--*********************************************************sinkFin怪物的添加****************************************************************-->
 
