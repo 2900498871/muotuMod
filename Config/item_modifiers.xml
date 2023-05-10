@@ -2638,11 +2638,13 @@
 
 
 	<!--**************************外观插件********************************-->
-	<item_modifier name="西装礼服模组黄色" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+	<!--西装套-黄-->
+	<item_modifier name="西装礼服模组【黄色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="apparelSuitJacket"/>
 		<property name="CustomIconTint" value="FFFF00"/>
 		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="西装礼服模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
@@ -2657,11 +2659,12 @@
 			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
 		</effect_group>
 	</item_modifier>
-	<item_modifier name="西装裤模组黄色" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+	<item_modifier name="西装裤模组【黄色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="apparelSuitPants"/>
 		<property name="CustomIconTint" value="FFFF00"/>
 		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="西装裤模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
@@ -2676,11 +2679,12 @@
 			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
 		</effect_group>
 	</item_modifier>
-	<item_modifier name="礼服鞋模组黄色" installable_tags="Feet" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+	<item_modifier name="礼服鞋模组【黄色】" installable_tags="Feet" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="apparelSuitDressShoes"/>
 		<property name="CustomIconTint" value="FFFF00"/>
 		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="礼服鞋模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
@@ -2693,6 +2697,26 @@
 		<effect_group tiered="false">
 			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
 			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="牛仔帽模组【黄色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelCowboyHat"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DescriptionKey" value="牛仔帽模组【黄色】Desc"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_cowboyhat"/>
+			<property name="UMA.Overlay0" value="gear_cowboyhat"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
 		</effect_group>
 	</item_modifier>
 	<item_modifier name="StaticArmor" installable_tags="armorChest" modifier_tags="active" type="attachment">
@@ -2718,6 +2742,175 @@
 			<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="null" active="true"/>
 		</effect_group>
 	</item_modifier>
+
+
+	<!--西装套-黑-->
+	<item_modifier name="西装礼服模组【黑色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitJacket"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="西装礼服模组【黑色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_suit_jacket"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_suit_jacket"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="西装裤模组【黑色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitPants"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="西装裤模组【黑色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_suit_pants"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_suit_pants"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="礼服鞋模组【黑色】" installable_tags="Feet" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitDressShoes"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="礼服鞋模组【黑色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_dress_shoes"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_dress_shoes"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="牛仔帽模组【黑色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelCowboyHat"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DescriptionKey" value="牛仔帽模组【黑色】Desc"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_cowboyhat"/>
+			<property name="UMA.Overlay0" value="gear_cowboyhat"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
+		</effect_group>
+	</item_modifier>
+
+	<!--西装粉色-->
+	<item_modifier name="西装礼服模组【粉色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitJacket"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="西装礼服模组【粉色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_suit_jacket"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_suit_jacket"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="西装裤模组【粉色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitPants"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="西装裤模组【粉色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_suit_pants"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_suit_pants"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="礼服鞋模组【粉色】" installable_tags="Feet" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitDressShoes"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="礼服鞋模组【粉色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_dress_shoes"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_dress_shoes"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="牛仔帽模组【粉色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelCowboyHat"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DescriptionKey" value="牛仔帽模组【粉色】Desc"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_cowboyhat"/>
+			<property name="UMA.Overlay0" value="gear_cowboyhat"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
+		</effect_group>
+	</item_modifier>
+
+	<!--防化服模组-->
+
+
 
 
 	<item_modifier name="装饰牛头" installable_tags="head" modifier_tags="dye" blocked_tags="noMods,armor" type="attachment">
