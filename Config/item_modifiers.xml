@@ -2637,8 +2637,369 @@
 	</item_modifier>
 
 
+	<!--**************************外观插件********************************-->
+	<item_modifier name="西装礼服模组黄色" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitJacket"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="Stacknumber" value="1"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_suit_jacket"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_suit_jacket"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="西装裤模组黄色" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitPants"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="Stacknumber" value="1"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_suit_pants"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_suit_pants"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="礼服鞋模组黄色" installable_tags="Feet" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSuitDressShoes"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="Stacknumber" value="1"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_dress_shoes"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_dress_shoes"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="StaticArmor" installable_tags="armorChest" modifier_tags="active" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="carBattery"/>
+		<property name="CustomIconTint" value="125,249,255"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$powerarmorcharge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$powerarmorcharge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="powerarmor"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="powerarmor"/>
+			<triggered_effect trigger="onSelfItemActivate" action="AddBuff" buff="PowerArmorShock">
+				<requirement name="CVarCompare" cvar="$powerarmorcharge" operation="Equals" value="10"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfItemDeactivate" action="AddBuff" buff="PowerArmorShock">
+				<requirement name="CVarCompare" cvar="$powerarmorcharge" operation="Equals" value="10"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="null" active="true"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰牛头" installable_tags="head" modifier_tags="dye" blocked_tags="noMods,armor" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="decoCowSkull"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="CowHelmetDesc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" parent_transform="Head" local_offset="-0.44,0,0.04" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1"/>
+			<passive_effect name="HypothermalResist" operation="base_add" value="10.5,13.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
+			<passive_effect name="ElementalDamageResist" operation="base_add" value="1" tags="heat,electrical"/>
+			<passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="1"/>
+			<passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰南瓜" installable_tags="head" modifier_tags="dye" blocked_tags="noMods,armor" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="decoPumpkinJackOLantern"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="PumpkinHatDesc"/>
+		<!--	<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Plants/pumpkinJackoLanternPrefab" parent_transform="Head" local_offset="-0.45,0,0" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Plants/pumpkinJackoLanternPrefab">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Plants/pumpkinJackoLanternPrefab"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.08"/>
+			<display_value name="dNoiseMultiplier" value="-.08"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1"/>
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
+			<passive_effect name="HypothermalResist" operation="base_add" value="10.5,13.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
+			<passive_effect name="ElementalDamageResist" operation="base_add" value="1" tags="heat,electrical"/>
+			<passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="1"/>
+			<passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰轮盘" installable_tags="head" modifier_tags="dye" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="decoHoistMagnet"/>
+		<property name="DescriptionKey" value="MagnetHatDesc"/>
+		<property name="Stacknumber" value="1"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/hoistMagnetPrefab" parent_transform="Head" local_offset="0.13,0,0" local_rotation="0,0,-90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Industrial/hoistMagnetPrefab">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Industrial/hoistMagnetPrefab"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffImpactBracing"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffImpactBracing"/>
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰车轮"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="decoWildWestWagonWheelBack"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="WagonWheelDesc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" parent_transform="Head" local_offset="0,0,0.1" local_rotation="0,0,-90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<passive_effect name="BarteringBuying" operation="base_add" value=".1"/>
+			<passive_effect name="BarteringSelling" operation="base_add" value=".1"/>
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".2" tags="running"/>
+			<display_value name="dStaminaRegen" value=".2"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰兔子"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="resourceLeather"/>
+		<property name="DescriptionKey" value="RabbitFriendDesc"/>
+		<property name="Stacknumber" value="1"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Rabbit/RABBIT" parent_transform="Head" local_offset="0.2,0.17,0.03" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Animals/Rabbit/RABBIT">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Animals/Rabbit/RABBIT"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="2"/>
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
+			<passive_effect name="HypothermalResist" operation="base_add" value="10.5,13.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰蛇"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="sleeperSnakeAnimal"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="SnakeFriendDesc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Snake/sleeperPose/idleSleeperSnake" parent_transform="Head" local_offset="-0.4,0,0" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Animals/Snake/sleeperPose/idleSleeperSnake">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Animals/Snake/sleeperPose/idleSleeperSnake"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffImpactBracing"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffImpactBracing"/>
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰秃鹫"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,armor" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="sleeperVultureAnimal"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="VultureFriendDesc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" parent_transform="Head" local_offset="0.2,0,0" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Animals/Vulture/animalVultureStandard">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Animals/Vulture/animalVultureStandard"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value=".35"/>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value=".35"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="3.2"/>
+			<passive_effect name="StaminaLoss" operation="perc_subtract" value=".75" tags="jumping"/>
+			<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true">
+				<requirement name="IsItemActive"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfJump" action="AddBuff" buff="buffJumpJetsAirborne"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰大背包"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="cntWeaponsBagLarge"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="BigBackpackDesc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="#Entities/LootContainers?weapon_bags_largePrefab" parent_transform="Head" local_offset="0.7,0,-0.4" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="#Entities/LootContainers/weapon_bags_largePrefab">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="#Entities/LootContainers/weapon_bags_largePrefab"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
+			<passive_effect name="CarryCapacity" operation="base_add" value="5"/>
+			<display_value name="dCarryCapacity" value="5"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰南瓜人"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,armor" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="decoPumpkinJackOLantern"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="PumpkinManDesc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Plants/pumpkinHarvestPrefab" parent_transform="Head" local_offset="-0.65,0,0" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Plants/pumpkinHarvestPrefab">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Plants/pumpkinHarvestPrefab"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
+			<passive_effect name="HarvestCount" operation="base_add" value="2"/>
+			<display_value name="dHarvestCount" value="2"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="装饰大喇叭"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,armor" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="speaker"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="SpeakerHatDesc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/loudspeakerPrefab" parent_transform="Head" local_offset="-0.2,0,0.5" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Electrical/loudspeakerPrefab">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Electrical/loudspeakerPrefab"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffBanshee,buffNarcoticsMantis,ParasiteAttack,buffArchon"/>
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1"/>
+			<passive_effect name="ElementalDamageResist" operation="base_add" value="1" tags="heat,electrical"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="天使翅膀"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="Stacknumber" value="1"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DescriptionKey" value="天使翅膀Desc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIconTint" value="30,10,70"/>
+		<property name="CustomIcon" value="drugSteroids"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachParticleEffectToEntity" particle="p_drone_heal_beam" parent_transform="Head" local_offset="0.1,0,-0.25" local_rotation="100,90,0">
+				<requirement name="!IsFPV" />
+			</triggered_effect>
 
+			<triggered_effect trigger="onSelfEquipStart" action="AttachParticleEffectToEntity" particle="p_drone_heal_beam" parent_transform="Spine1" local_offset="-0.1,0,-0.25" local_rotation="-80,-90,0">
+				<requirement name="!IsFPV" />
+			</triggered_effect>
 
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveParticleEffectFromEntity" particle="p_drone_heal_beam" />
+		</effect_group>
+        <!--添加血量为原来的100%-->
+		<effect_group tiered="false">
+			<passive_effect name="HealthMax" operation="perc_add" value="1"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+	<!--**************************外观插件********************************-->
 
 </append>	
 

@@ -52,6 +52,23 @@
             <property name="RepairTime" value="1"/>
         </item>
 
+
+        <item name="翅膀碎片">
+            <property name="CustomIcon" value="resourceFeather" />
+            <property name="DescriptionKey" value="翅膀碎片Dsc"/>
+            <property name="CustomIconTint" value="00FFFF" />
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="HoldType" value="45"/>
+            <!--<property name="Tags" value="gems"/>-->
+            <property name="RepairAmount" value="30000"/>
+            <property name="Group" value="星源"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="EconomicValue" value="5"/>
+            <property name="RepairTime" value="1"/>
+        </item>
+
         <item name="金星尘">
             <property name="CustomIcon" value="resourceCrushedSand" />
             <property name="CustomIconTint" value="FFFF00" />
@@ -227,14 +244,14 @@
             <property name="DescriptionKey" value="升级核心1"/>
         </item>
         <item name="末石">
-            <property name="CustomIcon" value="cntQuestTestLoot" />
+            <property name="CustomIcon" value="poiPartHelper" />
             <property name="CustomIconTint" value="F9F900" />
             <property name="Extends" value="星源水晶"/>
             <property name="EconomicValue" value="10"/>
             <property name="DescriptionKey" value="末石1"/>
         </item>
         <item name="途石">
-            <property name="CustomIcon" value="cntWastelandRandomLootHelper" />
+            <property name="CustomIcon" value="poiPartHelper" />
             <property name="CustomIconTint" value="79FF79" />
             <property name="Extends" value="星源水晶"/>
             <property name="EconomicValue" value="10"/>

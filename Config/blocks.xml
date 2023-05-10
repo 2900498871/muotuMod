@@ -488,6 +488,7 @@
 	<property name="CustomIconTint" value="8600FF" />
 	<property name="TintColor" value="B15BFF"/>
 	<property name="DisplayType" value="光环姬" />
+	<property name="DescriptionKey" value="磨粉师Desc"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 磨粉师"/>
@@ -502,6 +503,7 @@
 	<property name="CustomIcon" value="commercialTripleMeter" />
 	<property name="CustomIconTint" value="F00078" />
 	<property name="TintColor" value="B15BFF"/>
+	<property name="DescriptionKey" value="制造师Desc"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 制造师"/>
@@ -516,6 +518,7 @@
 	<property name="CustomIcon" value="commercialQuadMeter" />
 	<property name="CustomIconTint" value="EA0000" />
 	<property name="TintColor" value="B15BFF"/>
+	<property name="DescriptionKey" value="融合师Desc"/>
 	<property name="Model" value="Entities/Industrial/controlPanelTop_05Prefab"/>
 	<property name="Model" value="Entities/Industrial/electricalFuseBoxBuilding_06Prefab"/>
 	<!--<property name="Model" value="Entities/Electrical/battery_bankPrefab" />-->
@@ -532,6 +535,7 @@
 	<property name="CustomIcon" value="decoReptileTerrarium" />
 	<property name="CustomIconTint" value="00DB00" />
 	<property name="TintColor" value="B15BFF"/>
+	<property name="DescriptionKey" value="共震合成师Desc"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 共震合成师"/>
@@ -545,6 +549,7 @@
 	<property name="CustomIcon" value="tableSaw" />
 	<property name="CustomIconTint" value="F75000" />
 	<property name="TintColor" value="B15BFF"/>
+	<property name="DescriptionKey" value="合成师Desc"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="源能 合成师"/>
