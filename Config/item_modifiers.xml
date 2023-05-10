@@ -2718,6 +2718,8 @@
 			<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="null" active="true"/>
 		</effect_group>
 	</item_modifier>
+
+
 	<item_modifier name="装饰牛头" installable_tags="head" modifier_tags="dye" blocked_tags="noMods,armor" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="decoCowSkull"/>
@@ -2797,7 +2799,7 @@
 			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
 		</effect_group>
 	</item_modifier>
-	<item_modifier name="装饰车轮"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+	<item_modifier name="装饰车轮"  installable_tags="head" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="decoWildWestWagonWheelBack"/>
 		<property name="Stacknumber" value="1"/>
@@ -2822,7 +2824,7 @@
 			<display_value name="dStaminaRegen" value=".2"/>
 		</effect_group>
 	</item_modifier>
-	<item_modifier name="装饰兔子"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+	<item_modifier name="装饰兔子"  installable_tags="head" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="resourceLeather"/>
 		<property name="DescriptionKey" value="RabbitFriendDesc"/>
@@ -2847,7 +2849,7 @@
 			<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
 		</effect_group>
 	</item_modifier>
-	<item_modifier name="装饰蛇"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+	<item_modifier name="装饰蛇"  installable_tags="head" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="sleeperSnakeAnimal"/>
 		<property name="Stacknumber" value="1"/>
@@ -2870,35 +2872,8 @@
 			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
 		</effect_group>
 	</item_modifier>
-	<item_modifier name="装饰秃鹫"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,armor" type="attachment">
-		<property name="Extends" value="modGeneralMaster"/>
-		<property name="CustomIcon" value="sleeperVultureAnimal"/>
-		<property name="Stacknumber" value="1"/>
-		<property name="DescriptionKey" value="VultureFriendDesc"/>
-		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="EconomicValue" value="2000"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" parent_transform="Head" local_offset="0.2,0,0" local_rotation="0,0,90">
-				<requirement name="!IsFPV"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Animals/Vulture/animalVultureStandard">
-				<requirement name="IsFPV"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Animals/Vulture/animalVultureStandard"/>
-		</effect_group>
-		<effect_group tiered="false">
-			<passive_effect name="WalkSpeed" operation="perc_subtract" value=".35"/>
-			<passive_effect name="RunSpeed" operation="perc_subtract" value=".35"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="3.2"/>
-			<passive_effect name="StaminaLoss" operation="perc_subtract" value=".75" tags="jumping"/>
-			<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true">
-				<requirement name="IsItemActive"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfJump" action="AddBuff" buff="buffJumpJetsAirborne"/>
-		</effect_group>
-	</item_modifier>
-	<item_modifier name="装饰大背包"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+
+	<item_modifier name="装饰大背包"  installable_tags="head" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="cntWeaponsBagLarge"/>
 		<property name="Stacknumber" value="1"/>
@@ -2922,7 +2897,7 @@
 			<display_value name="dCarryCapacity" value="5"/>
 		</effect_group>
 	</item_modifier>
-	<item_modifier name="装饰南瓜人"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,armor" type="attachment">
+	<item_modifier name="装饰南瓜人"  installable_tags="head" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="decoPumpkinJackOLantern"/>
 		<property name="Stacknumber" value="1"/>
@@ -2946,7 +2921,7 @@
 			<display_value name="dHarvestCount" value="2"/>
 		</effect_group>
 	</item_modifier>
-	<item_modifier name="装饰大喇叭"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,armor" type="attachment">
+	<item_modifier name="装饰大喇叭"  installable_tags="head" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="speaker"/>
 		<property name="Stacknumber" value="1"/>
@@ -2970,6 +2945,38 @@
 			<passive_effect name="ElementalDamageResist" operation="base_add" value="1" tags="heat,electrical"/>
 		</effect_group>
 	</item_modifier>
+
+
+	<item_modifier name="装饰秃鹫"  installable_tags="head" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="sleeperVultureAnimal"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="VultureFriendDesc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DescriptionKey" value="装饰秃鹫Desc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="2000"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" parent_transform="Head" local_offset="0.2,0,0" local_rotation="0,0,90">
+				<requirement name="!IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="Entities/Animals/Vulture/animalVultureStandard">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="Entities/Animals/Vulture/animalVultureStandard"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<!--添加跳跃高度为原来的20%-->
+			<passive_effect name="JumpStrength" operation="perc_add" value=".2"/>
+			<passive_effect name="StaminaLoss" operation="perc_subtract" value=".2" tags="jumping"/>
+			<!--<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true">
+				<requirement name="IsItemActive"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfJump" action="AddBuff" buff="buffJumpJetsAirborne"/>-->
+		</effect_group>
+	</item_modifier>
+
+
 	<item_modifier name="天使翅膀"  installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="Stacknumber" value="1"/>

@@ -69,6 +69,23 @@
             <property name="RepairTime" value="1"/>
         </item>
 
+
+        <item name="秃鹫碎片">
+            <property name="CustomIcon" value="sleeperVultureAnimal" />
+            <property name="DescriptionKey" value="秃鹫碎片Dsc"/>
+            <property name="CustomIconTint" value="00FFFF" />
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="HoldType" value="45"/>
+            <!--<property name="Tags" value="gems"/>-->
+            <property name="RepairAmount" value="30000"/>
+            <property name="Group" value="星源"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="EconomicValue" value="5"/>
+            <property name="RepairTime" value="1"/>
+        </item>
+
         <item name="金星尘">
             <property name="CustomIcon" value="resourceCrushedSand" />
             <property name="CustomIconTint" value="FFFF00" />
