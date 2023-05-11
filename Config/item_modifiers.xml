@@ -2638,6 +2638,33 @@
 
 
 	<!--**************************外观插件********************************-->
+
+
+	<item_modifier name="StaticArmor" installable_tags="armorChest" modifier_tags="active" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="carBattery"/>
+		<property name="CustomIconTint" value="125,249,255"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$powerarmorcharge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$powerarmorcharge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="powerarmor"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="powerarmor"/>
+			<triggered_effect trigger="onSelfItemActivate" action="AddBuff" buff="PowerArmorShock">
+				<requirement name="CVarCompare" cvar="$powerarmorcharge" operation="Equals" value="10"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfItemDeactivate" action="AddBuff" buff="PowerArmorShock">
+				<requirement name="CVarCompare" cvar="$powerarmorcharge" operation="Equals" value="10"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="null" active="true"/>
+		</effect_group>
+	</item_modifier>
+
+
 	<!--西装套-黄-->
 	<item_modifier name="西装礼服模组【黄色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
@@ -2743,29 +2770,26 @@
 		</effect_group>
 	</item_modifier>
 
-	<item_modifier name="StaticArmor" installable_tags="armorChest" modifier_tags="active" type="attachment">
+
+	<item_modifier name="棒球帽模组【黄色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
-		<property name="CustomIcon" value="carBattery"/>
-		<property name="CustomIconTint" value="125,249,255"/>
-		<property name="DisplayType" value="modArmor"/>
-		<property name="Stacknumber" value="1"/>
-		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<property name="CustomIcon" value="apparelBallCap"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="DisplayType" value="clothing"/>
+		<property name="DescriptionKey" value="棒球帽模组【黄色】Desc"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_ballcap"/>
+			<property name="UMA.Overlay0" value="gear_ballcap"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+		</item_property_overrides>
 		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$powerarmorcharge" operation="set" value="0"/>
-			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$powerarmorcharge" operation="set" value="0"/>
-			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="powerarmor"/>
-			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="powerarmor"/>
-			<triggered_effect trigger="onSelfItemActivate" action="AddBuff" buff="PowerArmorShock">
-				<requirement name="CVarCompare" cvar="$powerarmorcharge" operation="Equals" value="10"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfItemDeactivate" action="AddBuff" buff="PowerArmorShock">
-				<requirement name="CVarCompare" cvar="$powerarmorcharge" operation="Equals" value="10"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="null" active="true"/>
+			<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
 		</effect_group>
 	</item_modifier>
+
 
 
 	<!--西装套-黑-->
@@ -2873,6 +2897,27 @@
 		</effect_group>
 	</item_modifier>
 
+	<item_modifier name="棒球帽模组【黑色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelBallCap"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="DisplayType" value="clothing"/>
+		<property name="DescriptionKey" value="棒球帽模组【黑色】Desc"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_ballcap"/>
+			<property name="UMA.Overlay0" value="gear_ballcap"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
+		</effect_group>
+	</item_modifier>
+
+
+
 	<!--西装粉色-->
 	<item_modifier name="西装礼服模组【粉色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
@@ -2978,6 +3023,24 @@
 		</effect_group>
 	</item_modifier>
 
+	<item_modifier name="棒球帽模组【粉色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelBallCap"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="DisplayType" value="clothing"/>
+		<property name="DescriptionKey" value="棒球帽模组【粉色】Desc"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_ballcap"/>
+			<property name="UMA.Overlay0" value="gear_ballcap"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
+		</effect_group>
+	</item_modifier>
 	<!--防化服模组-->
 
 
