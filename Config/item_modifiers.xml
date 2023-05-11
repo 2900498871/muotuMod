@@ -2663,6 +2663,31 @@
 			<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="null" active="true"/>
 		</effect_group>
 	</item_modifier>
+	<!--原来的颜色的模组-->
+
+
+	<item_modifier name="牛仔裤模组【原色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelDenimPants"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="牛仔裤模组【原色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_denim_pants"/>
+			<property name="UMA.Overlay0" value="pants_01"/>
+			<property name="UMA.Overlay0Tint" value="90,115,125"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+
 
 
 	<!--西装套-黄-->
@@ -2790,6 +2815,29 @@
 		</effect_group>
 	</item_modifier>
 
+	<item_modifier name="牛仔裤模组【黄色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelDenimPants"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="牛仔裤模组【黄色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_denim_pants"/>
+			<property name="UMA.Overlay0" value="pants_01"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+
+
 
 
 	<!--西装套-黑-->
@@ -2913,6 +2961,27 @@
 		<effect_group tiered="false">
 			<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
 			<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="牛仔裤模组【黑色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelDenimPants"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="牛仔裤模组【黑色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_denim_pants"/>
+			<property name="UMA.Overlay0" value="pants_01"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
 		</effect_group>
 	</item_modifier>
 
@@ -3041,6 +3110,30 @@
 			<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
 		</effect_group>
 	</item_modifier>
+
+
+	<item_modifier name="牛仔裤模组【粉色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelDenimPants"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="牛仔裤模组【粉色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_denim_pants"/>
+			<property name="UMA.Overlay0" value="pants_01"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+
 	<!--防化服模组-->
 
 
