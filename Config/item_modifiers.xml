@@ -2878,6 +2878,48 @@
 		</effect_group>
 	</item_modifier>
 
+	<item_modifier name="背带裤模组【黄色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelOveralls"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="背带裤模组【黄色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_overalls"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_overalls"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="运动衫模组【黄色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSweatshirt"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="运动衫模组【黄色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="sweatshirt"/>
+			<property name="UMA.Overlay0" value="sweatshirt"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
 
 
 
@@ -3069,6 +3111,48 @@
 		</effect_group>
 	</item_modifier>
 
+	<item_modifier name="背带裤模组【黑色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelOveralls"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="背带裤模组【黑色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_overalls"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_overalls"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="运动衫模组【黑色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSweatshirt"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="运动衫模组【黑色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="sweatshirt"/>
+			<property name="UMA.Overlay0" value="sweatshirt"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
 
 
 	<!--西装粉色-->
@@ -3252,6 +3336,48 @@
 		<item_property_overrides name="*">
 			<property name="UMA.Mesh" value="skirt"/>
 			<property name="UMA.Overlay0" value="skirt"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="背带裤模组【粉色】" installable_tags="Legs" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelOveralls"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="背带裤模组【粉色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_overalls"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_overalls"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="运动衫模组【粉色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="apparelSweatshirt"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DescriptionKey" value="运动衫模组【粉色】Desc"/>
+		<!--<property name="Group" value="Mods"/>-->
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="sweatshirt"/>
+			<property name="UMA.Overlay0" value="sweatshirt"/>
 			<property name="UMA.Overlay0Tint" value="255,110,180"/>
 		</item_property_overrides>
 		<effect_group tiered="false">
