@@ -94,6 +94,13 @@
 		<ingredient name="casinoCoin" count="1000"/>
 	</recipe>
 
+	<recipe name="T恤模组【黄色】" count="1" craft_area="workbench" craft_time="10">
+		<ingredient name="末石" count="500"/>
+		<ingredient name="途石" count="500"/>
+		<ingredient name="超神强化结晶" count="50"/>
+		<ingredient name="casinoCoin" count="1000"/>
+	</recipe>
+
 
 	<!--黑色套装-->
 	<recipe name="西装礼服模组【黑色】" count="1" craft_area="workbench" craft_time="10">
@@ -172,6 +179,13 @@
 		<ingredient name="casinoCoin" count="1000"/>
 	</recipe>
 
+	<recipe name="T恤模组【黑色】" count="1" craft_area="workbench" craft_time="10">
+		<ingredient name="末石" count="500"/>
+		<ingredient name="途石" count="500"/>
+		<ingredient name="超神强化结晶" count="50"/>
+		<ingredient name="casinoCoin" count="1000"/>
+	</recipe>
+
 	<!--粉色套装-->
 	<recipe name="西装礼服模组【粉色】" count="1" craft_area="workbench" craft_time="10">
 		<ingredient name="末石" count="500"/>
@@ -243,6 +257,13 @@
 	</recipe>
 
 	<recipe name="运动衫模组【粉色】" count="1" craft_area="workbench" craft_time="10">
+		<ingredient name="末石" count="500"/>
+		<ingredient name="途石" count="500"/>
+		<ingredient name="超神强化结晶" count="50"/>
+		<ingredient name="casinoCoin" count="1000"/>
+	</recipe>
+
+	<recipe name="T恤模组【粉色】" count="1" craft_area="workbench" craft_time="10">
 		<ingredient name="末石" count="500"/>
 		<ingredient name="途石" count="500"/>
 		<ingredient name="超神强化结晶" count="50"/>
