@@ -2719,6 +2719,30 @@
 			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
 		</effect_group>
 	</item_modifier>
+
+	<item_modifier name="圣诞帽模组【黄色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="armorSantaHat"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DescriptionKey" value="圣诞帽模组【黄色】Desc"/>
+		<property name="CustomIconTint" value="FFFF00"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_santa_hat"/>
+			<property name="UMA.Overlay0" value="gear_santa_hat"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="255,255,0"/>
+			<!--<property name="Layer" value="2"/>
+			<property name="UISlot" value="Headgear"/>
+			<property name="Mask0" value="Head" param1="inner"/>
+			<property name="Mask1" value="Head" param1="outer"/>-->
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
+		</effect_group>
+	</item_modifier>
+
 	<item_modifier name="StaticArmor" installable_tags="armorChest" modifier_tags="active" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="CustomIcon" value="carBattery"/>
@@ -2826,6 +2850,29 @@
 		</effect_group>
 	</item_modifier>
 
+	<item_modifier name="圣诞帽模组【黑色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="armorSantaHat"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DescriptionKey" value="圣诞帽模组【黑色】Desc"/>
+		<property name="CustomIconTint" value="4F4F4F"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_santa_hat"/>
+			<property name="UMA.Overlay0" value="gear_santa_hat"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="79,79,79"/>
+			<!--<property name="Layer" value="2"/>
+			<property name="UISlot" value="Headgear"/>
+			<property name="Mask0" value="Head" param1="inner"/>
+			<property name="Mask1" value="Head" param1="outer"/>-->
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
+		</effect_group>
+	</item_modifier>
+
 	<!--西装粉色-->
 	<item_modifier name="西装礼服模组【粉色】" installable_tags="Chest" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
@@ -2902,6 +2949,29 @@
 			<property name="UMA.Overlay0Tint" value="255,110,180"/>
 		</item_property_overrides>
 
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="圣诞帽模组【粉色】" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="armorSantaHat"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DescriptionKey" value="圣诞帽模组【粉色】Desc"/>
+		<property name="CustomIconTint" value="FF6EB4"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_santa_hat"/>
+			<property name="UMA.Overlay0" value="gear_santa_hat"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+			<property name="UMA.Overlay0Tint" value="255,110,180"/>
+			<!--<property name="Layer" value="2"/>
+			<property name="UISlot" value="Headgear"/>
+			<property name="Mask0" value="Head" param1="inner"/>
+			<property name="Mask1" value="Head" param1="outer"/>-->
+		</item_property_overrides>
 		<effect_group tiered="false">
 			<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
 			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
