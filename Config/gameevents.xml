@@ -1,0 +1,347 @@
+<xiaojie>
+
+
+
+
+
+
+
+<append xpath="/gameevents">
+
+		<!--	target_position - The position/offset to teleport the target to.
+			offset_type - None: teleports to a world position.
+ Relative: teleports relative to your position.
+ World: teleports relative to the world based on your position.
+传送-将目标传送到指定的位置或偏移。
+
+target_position-传送目标到的位置/偏移量。
+
+offset_type-无：传送到世界位置。
+
+相对：相对于你的位置传送。
+
+世界：根据你的位置相对于世界进行远程传送。
+
+		ReplaceItems - Replaces the specified items with another item.
+			items_location - The location that is affected by this. (Toolbelt, Backpack, Both, Equipment, All).
+			replaced_by_item - The item that you replace the tagged items with.
+			replace_item_tag - The item tag for the items that should be replaced.
+eplaceItems-用另一个项目替换指定的项目。
+
+items_location-受此影响的位置。（工具带、背包、两个、设备、所有）。
+
+replaced_by_item-替换标记项的项。
+
+replace_item_tag—应替换的项的项标记。-->
+
+	<action_sequence name="生成地雷区域"> <!--召唤生物-->
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="TwitchVote" />
+		<property name="refund_inactivity" value="false" />
+		<property name="category" value="twitch_votes" />
+
+
+		<action class="SpawnEntity">
+		<property name="entity_names" value="僵尸随机地雷" param1="zombiename" />
+			<property name="spawn_count" value="8" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>	
+			
+	<action class="SpawnEntity">
+		<property name="entity_names" value="animalZombieVulture" param1="zombiename" />
+			<property name="spawn_count" value="0-1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	</action_sequence>	
+
+	<action_sequence name="game_垃圾"><!--钱RemoveItems-->
+
+		<action class="AddItems">
+			<property name="added_items" value="terrStone" /><!--添加的项目-->
+			<property name="added_item_counts" value="15" /><!--添加的项目计数3-5,-->
+		</action>
+
+	</action_sequence>
+
+
+	<action_sequence name="侦察兵BOSS降临"> <!--召唤生物-->
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="TwitchVote" />
+		<property name="refund_inactivity" value="false" />
+		<property name="category" value="twitch_votes" />
+
+
+		<action class="SpawnEntity">
+		<property name="entity_names" value="疯狂混乱怪（主动）" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>	
+			
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVulture" param1="zombiename" />
+			<property name="spawn_count" value="4" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	</action_sequence>	
+
+
+	<action_sequence name="侦察兵BOSS降临2"> <!--召唤生物-->
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="TwitchVote" />
+		<property name="refund_inactivity" value="false" />
+		<property name="category" value="twitch_votes" />
+	
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieDog" param1="zombiename" /><!--狗-->
+			<property name="spawn_count" value="2" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	
+	
+		<action class="SpawnEntity">
+			<property name="entity_names" value="疯狂混乱怪（主动）" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>	
+			
+		<action class="SpawnEntity">
+		 	<property name="entity_names" value="animalZombieVulture" param1="zombiename" />
+			<property name="spawn_count" value="4" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	</action_sequence>	
+
+
+	<action_sequence name="侦察兵BOSS降临3"> <!--召唤生物-->
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="TwitchVote" />
+		<property name="refund_inactivity" value="false" />
+		<property name="category" value="twitch_votes" />
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieDog" param1="zombiename" /><!--狗-->
+			<property name="spawn_count" value="2" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	
+		<action class="SpawnEntity">
+			<property name="entity_names" value="反伤" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>		
+	
+		<action class="SpawnEntity">
+			<property name="entity_names" value="疯狂混乱怪（主动）" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>	
+			
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVulture" param1="zombiename" />
+			<property name="spawn_count" value="4" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	</action_sequence>	
+
+
+	<action_sequence name="侦察兵BOSS降临4"> <!--召唤生物-->
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="TwitchVote" />
+		<property name="refund_inactivity" value="false" />
+		<property name="category" value="twitch_votes" />
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieDog" param1="zombiename" /><!--狗-->
+			<property name="spawn_count" value="2" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	
+		<action class="SpawnEntity">
+			<property name="entity_names" value="反伤" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="女妖王后,冰雪女王,风暴女王" param1="zombiename" />女妖王后
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	
+	
+		<action class="SpawnEntity">
+			<property name="entity_names" value="疯狂混乱怪（主动）" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>	
+			
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVulture" param1="zombiename" />
+			<property name="spawn_count" value="4" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+		</action>
+	</action_sequence>	
+
+
+
+
+	<action_sequence name="game_替换弹药"><!--物品组-->
+
+		<action class="ReplaceItems"><!--RemoveItems-->
+			<property name="phase" value="1" />
+			<property name="items_location" value="Backpack" /><!--项目_位置  工具带、背包、两个、设备、所有(Toolbelt, Backpack, Both, Equipment, All)-->
+			<property name="replaced_by_item" value="resourceScrapIron" /><!--目标记ammo-->
+			<property name="replace_item_tag" value="ammo" />
+		</action>
+	</action_sequence>
+
+	<action_sequence name="game_移除药品"><!--物品组-->
+		<action class="RemoveItems"><!--RemoveItems-->
+			<property name="phase" value="1" />
+			<property name="items_location" value="Backpack" /><!--项目_位置  工具带、背包、两个、设备、所有(Toolbelt, Backpack, Both, Equipment, All)-->
+			<property name="remove_item_tag" value="medical" /><!--目标记ammo-->
+		</action>
+	</action_sequence>
+
+
+
+	<action_sequence name="game_流放"><!--传送-将目标传送到指定的位置或偏移。-->
+		<requirement class="InVehicle"><!--车内-->
+			<property name="invert" value="true" /><!--倒转-->
+		</requirement>
+		<action class="Teleport"><!--传送-->
+			<property name="target_position" value="0, 0, 20" /><!--目标_位置-->
+			<property name="offset_type" value="Relative" /><!--偏移类型  相对的-->
+		</action>
+	</action_sequence>
+	
+	
+	
+	
+	
+	
+	
+	<action_sequence name="BOSS降临"> <!--召唤生物-->
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="TwitchVote" />
+		<property name="refund_inactivity" value="false" />
+		<property name="category" value="twitch_votes" />
+		<action class="SpawnEntity">
+			<property name="entity_names" value="愤怒的领主：炎王" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+			<property name="phase" value="0" />
+			<property name="add_to_group" value="zombies,boss" />
+			<property name="safe_spawn" value="true" />
+			<property name="add_buffs" value="twitch_tough3,twitch_boss" param1="bossbuff" />
+			<property name="spawn_from_position" value="true" />
+		</action>
+	</action_sequence>
+</append>
+
+
+
+<append xpath="/gameevents">
+
+
+	<action_sequence name="game_召唤次级猎杀者"> <!--召唤生物-->
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="TwitchVote" />
+		<property name="refund_inactivity" value="false" />
+		<property name="category" value="twitch_votes" />
+		<action class="SpawnEntity">
+			<property name="entity_names" value="次级猎杀者" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="20" />
+			<property name="phase" value="0" />
+			<property name="add_to_group" value="zombies,boss" />
+			<property name="safe_spawn" value="true" />
+			<property name="add_buffs" value="twitch_tough3,twitch_boss" param1="bossbuff" />
+			<property name="spawn_from_position" value="true" />
+		</action>
+	</action_sequence>	
+
+</append>
+
+
+
+
+
+<append xpath="/gameevents">
+<!--传送卷-->
+	<action_sequence name="YCYSJCS">
+		<action class="RandomTeleport"><!--随机传送-->
+			<property name="min_distance" value="8" />
+			<property name="max_distance" value="10" />
+		</action>
+	</action_sequence>
+
+	<action_sequence name="CSDD1" template="action_teleport_bedroll">
+		<variable name="special_type" value="Landclaim" /> <!--传送到领地石-->
+	</action_sequence>
+
+	<action_sequence name="CSDD2" template="action_teleport_bedroll">
+		<variable name="special_type" value="Bedroll" />  <!--传送到睡袋-->
+	</action_sequence>
+
+		<action_sequence name="CSDD3" template="action_teleport_bedroll">
+		<variable name="special_type" value="Backpack" /><!--传送到死亡包裹-->
+	</action_sequence>
+
+
+
+<!-- 
+	<action_sequence name="HJJZ">
+		<property name="action_type" value="Game" />
+		<property name="target_type" value="POI" />
+		<property name="category" value="poi" />
+
+		<action class="POISetLightState">
+			<property name="enable_lights" value="false" />启用灯光
+			<property name="index_block_name" value="POILight,TraderOnOff" />索引块名称
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="quest_restore_power_start" />
+			<property name="phase" value="1" />
+		</action>
+
+	</action_sequence> -->
+
+<!-- 		<entitygroup name="SupplyCrates_General">
+		<entity name="sc_General"/>
+	</entitygroup> -->
+	
+	
+	
+<!--  <action_sequence name="ZHKT" template="vote_minor">  游戏事件 召唤尸群
+		<variable name="zombiename" value="zombieScreamer" />
+		<variable name="spawncount" value="1" />
+		<variable name="alertsound" value="zombiemalealert" />
+	</action_sequence> - -->
+
+
+
+
+
+</append>
+</xiaojie>
