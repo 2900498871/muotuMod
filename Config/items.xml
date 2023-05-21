@@ -4645,7 +4645,7 @@
                 <passive_effect name="DamageFalloffRange" operation="base_set" value="100" tags="perkMiner69r"/>
                 <passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
                 <!-- random effective rng -->
-                <passive_effect name="PlayerExpGain" operation="perc_add" value="-.95" tags="Harvesting"/>
+                <passive_effect name="PlayerExpGain" operation="perc_add" value=".1" tags="Harvesting"/>
                 <passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
                 <!-- random MagazineSize -->
                 <passive_effect name="MagazineSize" operation="base_set" value="300" tags="perkMiner69r"/>
