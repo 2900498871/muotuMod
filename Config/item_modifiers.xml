@@ -3908,13 +3908,13 @@
 		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="#Entities/LootContainers?weapon_bags_largePrefab" parent_transform="Head" local_offset="0.7,0,-0.4" local_rotation="0,0,90">
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="@:Entities/LootContainers?weapon_bags_largePrefab" parent_transform="Head" local_offset="0.7,0,-0.4" local_rotation="0,0,90">
 				<requirement name="!IsFPV"/>
 			</triggered_effect>
-			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="#Entities/LootContainers/weapon_bags_largePrefab">
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePrefabFromEntity" prefab="@:Entities/LootContainers/weapon_bags_largePrefab">
 				<requirement name="IsFPV"/>
 			</triggered_effect>
-			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="#Entities/LootContainers/weapon_bags_largePrefab"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" prefab="@:Entities/LootContainers/weapon_bags_largePrefab"/>
 		</effect_group>
 		<effect_group tiered="false">
 			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>

@@ -331,7 +331,7 @@
 		<property name="CustomIcon" value="cntHardenedChestSecure" />
 		<property name="MaxDamage" value="10000"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+		<property name="Model" value="@:Entities/LootContainers?tier4LootChestPrefab.prefab"/>
 		<property name="Place" value="TowardsPlacer"/> &lt;!&ndash; sign model, not needed for cube &ndash;&gt;
 		<property name="DescriptionKey" value="神☆坚硬的箱子Desc"/>
 		<property name="Tags" value="door"/>
@@ -945,7 +945,7 @@
 <block name="末途垃圾袋">
 	<property name="Extends" value="cntTrashPile01"/>
 	<property name="LootList" value="1018"/>
-	<property name="Model" value="#Entities/LootContainers?trashPileDPrefab.prefab"/>
+	<property name="Model" value="@:Entities/LootContainers?trashPileDPrefab.prefab"/>
 </block>
 
 <block name="近战模组随机箱">
