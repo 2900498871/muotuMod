@@ -3409,7 +3409,7 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="-,0.615,-0.15" local_rotation="-45,0,180" prefab="#Other/Items?Mods/Sides/side_attachment_laserPrefab.prefab" parent_transform="Spine1" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="-,0.615,-0.15" local_rotation="-45,0,180" prefab="@:Other/Items/Mods/Sides/side_attachment_laserPrefab.prefab" parent_transform="Spine1" />
 				<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Spine1" transform_path="lightSource"/>
 			</effect_group>
 		</entity_class>
@@ -3662,7 +3662,7 @@
 			<property name="Tags" value="drone,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityDrone"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Mesh" value="#Other/Items?Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
+			<property name="Mesh" value="@:Other/Items/Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="SurfaceCategory" value="metal"/>
@@ -3701,7 +3701,7 @@
 			<property name="Tags" value="drone,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityDrone"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Mesh" value="#Other/Items?Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
+			<property name="Mesh" value="@:Other/Items/Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="SurfaceCategory" value="metal"/>
@@ -3740,7 +3740,7 @@
 			<property name="Tags" value="drone,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityDrone"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Mesh" value="#Other/Items?Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
+			<property name="Mesh" value="@:Other/Items/Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="SurfaceCategory" value="metal"/>
@@ -3779,7 +3779,7 @@
 			<property name="Tags" value="drone,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityDrone"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Mesh" value="#Other/Items?Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
+			<property name="Mesh" value="@:Other/Items/Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="SurfaceCategory" value="metal"/>
@@ -3818,7 +3818,7 @@
 			<property name="Tags" value="drone,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityDrone"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Mesh" value="#Other/Items?Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
+			<property name="Mesh" value="@:Other/Items/Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="SurfaceCategory" value="metal"/>
@@ -3858,7 +3858,7 @@
 			<property name="Tags" value="turret,turretRanged,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityTurret"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Prefab" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+			<property name="Prefab" value="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
 			<property name="ModelType" value="Standard"/>
 			<!--  -->
 			<property name="SurfaceCategory" value="metal"/>
@@ -3927,7 +3927,7 @@
 			<property name="Tags" value="turret,turretRanged,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityTurret"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Prefab" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+			<property name="Prefab" value="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
 			<property name="ModelType" value="Standard"/>
 			<!--  -->
 			<property name="SurfaceCategory" value="metal"/>
@@ -3996,7 +3996,7 @@
 			<property name="Tags" value="turret,turretRanged,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityTurret"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Prefab" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+			<property name="Prefab" value="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
 			<property name="ModelType" value="Standard"/>
 			<!--  -->
 			<property name="SurfaceCategory" value="metal"/>
@@ -4065,7 +4065,7 @@
 			<property name="Tags" value="turret,turretRanged,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityTurret"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Prefab" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+			<property name="Prefab" value="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
 			<property name="ModelType" value="Standard"/>
 			<!--  -->
 			<property name="SurfaceCategory" value="metal"/>
@@ -4134,7 +4134,7 @@
 			<property name="Tags" value="turret,turretRanged,deployed,noMedBuffs"/>
 			<property name="Class" value="EntityTurret"/>
 			<property name="Parent" value="NPC"/>
-			<property name="Prefab" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+			<property name="Prefab" value="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
 			<property name="ModelType" value="Standard"/>
 			<!--  -->
 			<property name="SurfaceCategory" value="metal"/>
@@ -6095,7 +6095,7 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.03,0.075,0.07" local_rotation="0,0,180" prefab="#Other/Items?Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Head" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.03,0.075,0.07" local_rotation="0,0,180" prefab="@:Other/Items/Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Head" />
 				<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>
 			</effect_group>
 		</entity_class>
@@ -6139,7 +6139,7 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.03,0.075,0.07" local_rotation="0,0,180" prefab="#Other/Items?Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Head" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.03,0.075,0.07" local_rotation="0,0,180" prefab="@:Other/Items/Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Head" />
 				<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>
 			</effect_group>
 		</entity_class>
@@ -6183,7 +6183,7 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.03,0.075,0.07" local_rotation="0,0,180" prefab="#Other/Items?Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Head" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.03,0.075,0.07" local_rotation="0,0,180" prefab="@:Other/Items/Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Head" />
 				<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>
 			</effect_group>
 		</entity_class>
@@ -6227,7 +6227,7 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.03,0.075,0.07" local_rotation="0,0,180" prefab="#Other/Items?Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Head" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.03,0.075,0.07" local_rotation="0,0,180" prefab="@:Other/Items/Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Head" />
 				<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>
 			</effect_group>
 		</entity_class>
@@ -6281,7 +6281,7 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0,-0.21,0.24" local_rotation="45,0,180" prefab="#Other/Items?Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Head" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0,-0.21,0.24" local_rotation="45,0,180" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Head" />
 				<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>
 			</effect_group>
 		</entity_class>
@@ -6825,7 +6825,7 @@
 			<property name="PhysicsBody" value="bear"/>
 			<property name="Mass" value="400"/>
 			<property name="Prefab" value="/Entities/Animals/Bear/animalBearStandardRagdoll"/>
-			<property name="ReplaceMaterial0" value="#Other/Items?Misc/snowballPrefab/materials/snowball"/>
+			<property name="ReplaceMaterial0" value="@:Other/Items/Misc/snowballPrefab/materials/snowball"/>
 			<property name="HandItem" value="meleeHandSnowBear"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="DestroyArea"/>

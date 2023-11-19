@@ -2647,7 +2647,7 @@
 		<property name="DisplayType" value="modArmor"/>
 		<property name="Stacknumber" value="1"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$powerarmorcharge" operation="set" value="0"/>
@@ -2675,7 +2675,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="西装礼服模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2693,7 +2693,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="西装裤模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2711,7 +2711,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="礼服鞋模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2787,7 +2787,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="牛仔裤模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2807,7 +2807,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="短裤模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2826,7 +2826,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="短裙模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2845,7 +2845,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="背带裤模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2864,7 +2864,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="运动衫模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2883,7 +2883,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="T恤模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2902,7 +2902,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="法兰绒衬衫模组【原色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2926,7 +2926,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="西装礼服模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2946,7 +2946,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="西装裤模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -2966,7 +2966,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="礼服鞋模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3050,7 +3050,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="牛仔裤模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3071,7 +3071,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="短裤模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3092,7 +3092,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="短裙模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3113,7 +3113,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="背带裤模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3134,7 +3134,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="运动衫模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3155,7 +3155,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="T恤模组【黄色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3176,7 +3176,7 @@
         <property name="Stacknumber" value="1"/>
         <property name="DescriptionKey" value="法兰绒衬衫模组【黄色】Desc"/>
         <!--<property name="Group" value="Mods"/>-->
-        <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+        <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
         <property name="EconomicValue" value="440"/>
         <property name="DisplayType" value="clothing"/>
         <item_property_overrides name="*">
@@ -3201,7 +3201,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="西装礼服模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3221,7 +3221,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="西装裤模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3241,7 +3241,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="礼服鞋模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3324,7 +3324,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="牛仔裤模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3345,7 +3345,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="短裤模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3366,7 +3366,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="短裙模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3387,7 +3387,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="背带裤模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3408,7 +3408,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="运动衫模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3429,7 +3429,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="T恤模组【黑色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3451,7 +3451,7 @@
         <property name="Stacknumber" value="1"/>
         <property name="DescriptionKey" value="法兰绒衬衫模组【黑色】Desc"/>
         <!--<property name="Group" value="Mods"/>-->
-        <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+        <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
         <property name="EconomicValue" value="440"/>
         <property name="DisplayType" value="clothing"/>
         <item_property_overrides name="*">
@@ -3475,7 +3475,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="西装礼服模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3495,7 +3495,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="西装裤模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3515,7 +3515,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="礼服鞋模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3599,7 +3599,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="牛仔裤模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3620,7 +3620,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="短裤模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3642,7 +3642,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="短裙模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3663,7 +3663,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="背带裤模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3684,7 +3684,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="运动衫模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3705,7 +3705,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="T恤模组【粉色】Desc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="440"/>
 		<property name="DisplayType" value="clothing"/>
 		<item_property_overrides name="*">
@@ -3727,7 +3727,7 @@
         <property name="Stacknumber" value="1"/>
         <property name="DescriptionKey" value="法兰绒衬衫模组【粉色】Desc"/>
         <!--<property name="Group" value="Mods"/>-->
-        <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+        <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
         <property name="EconomicValue" value="440"/>
         <property name="DisplayType" value="clothing"/>
         <item_property_overrides name="*">
@@ -3752,7 +3752,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="CowHelmetDesc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" parent_transform="Head" local_offset="-0.44,0,0.04" local_rotation="0,0,90">
@@ -3779,7 +3779,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="PumpkinHatDesc"/>
 		<!--	<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Plants/pumpkinJackoLanternPrefab" parent_transform="Head" local_offset="-0.45,0,0" local_rotation="0,0,90">
@@ -3808,7 +3808,7 @@
 		<property name="DescriptionKey" value="MagnetHatDesc"/>
 		<property name="Stacknumber" value="1"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/hoistMagnetPrefab" parent_transform="Head" local_offset="0.13,0,0" local_rotation="0,0,-90">
@@ -3831,7 +3831,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="WagonWheelDesc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab" parent_transform="Head" local_offset="0,0,0.1" local_rotation="0,0,-90">
@@ -3856,7 +3856,7 @@
 		<property name="DescriptionKey" value="RabbitFriendDesc"/>
 		<property name="Stacknumber" value="1"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Rabbit/RABBIT" parent_transform="Head" local_offset="0.2,0.17,0.03" local_rotation="0,0,90">
@@ -3881,7 +3881,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="SnakeFriendDesc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Snake/sleeperPose/idleSleeperSnake" parent_transform="Head" local_offset="-0.4,0,0" local_rotation="0,0,90">
@@ -3905,7 +3905,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="BigBackpackDesc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="#Entities/LootContainers?weapon_bags_largePrefab" parent_transform="Head" local_offset="0.7,0,-0.4" local_rotation="0,0,90">
@@ -3929,7 +3929,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="PumpkinManDesc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Plants/pumpkinHarvestPrefab" parent_transform="Head" local_offset="-0.65,0,0" local_rotation="0,0,90">
@@ -3953,7 +3953,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="DescriptionKey" value="SpeakerHatDesc"/>
 		<!--<property name="Group" value="Mods"/>-->
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/loudspeakerPrefab" parent_transform="Head" local_offset="-0.2,0,0.5" local_rotation="0,0,90">
@@ -3980,7 +3980,7 @@
 		<property name="DescriptionKey" value="VultureFriendDesc"/>
 		<!--<property name="Group" value="Mods"/>-->
 		<property name="DescriptionKey" value="装饰秃鹫Desc"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="EconomicValue" value="2000"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" parent_transform="Head" local_offset="0.2,0,0" local_rotation="0,0,90">
@@ -4008,7 +4008,7 @@
 		<property name="Stacknumber" value="1"/>
 		<!--<property name="Group" value="Mods"/>-->
 		<property name="DescriptionKey" value="天使翅膀Desc"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="CustomIconTint" value="30,10,70"/>
 		<property name="CustomIcon" value="drugSteroids"/>
 		<property name="EconomicValue" value="2000"/>
