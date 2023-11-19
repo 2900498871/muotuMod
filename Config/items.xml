@@ -188,7 +188,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -202,7 +202,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -216,7 +216,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -230,7 +230,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -244,7 +244,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -278,7 +278,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -903,7 +903,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -917,7 +917,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -931,7 +931,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -945,7 +945,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -959,7 +959,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -1058,7 +1058,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -1072,7 +1072,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -1087,7 +1087,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -1102,7 +1102,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -2767,7 +2767,7 @@
         </item>
 
         <item name="WPB">
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="CustomIcon" value="ammo9mmBulletBall"/>
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoBundleGroupDesc"/>
@@ -2798,7 +2798,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
             <!--不可分解-->
@@ -3610,7 +3610,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -3864,7 +3864,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -4183,7 +4183,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -4477,7 +4477,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -4558,7 +4558,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -5263,7 +5263,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -5977,7 +5977,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -6493,7 +6493,7 @@
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -7709,7 +7709,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -8423,7 +8423,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -8848,7 +8848,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -9428,7 +9428,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -9865,7 +9865,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -10501,7 +10501,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -11190,7 +11190,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -11883,7 +11883,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -12553,7 +12553,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -13195,7 +13195,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -13846,7 +13846,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -14493,7 +14493,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -15205,7 +15205,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -15861,7 +15861,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -16500,7 +16500,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -17150,7 +17150,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -17868,7 +17868,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -18597,7 +18597,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -18707,7 +18707,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -18812,7 +18812,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -18918,7 +18918,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -18992,7 +18992,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19189,7 +19189,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19282,7 +19282,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19343,7 +19343,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19436,7 +19436,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19538,7 +19538,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19642,7 +19642,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19747,7 +19747,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19848,7 +19848,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -19946,7 +19946,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20046,7 +20046,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20145,7 +20145,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20254,7 +20254,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20352,7 +20352,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20449,7 +20449,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20548,7 +20548,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20658,7 +20658,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20768,7 +20768,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20896,7 +20896,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -20994,7 +20994,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21101,7 +21101,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21208,7 +21208,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21315,7 +21315,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21422,7 +21422,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21529,7 +21529,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21636,7 +21636,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21713,7 +21713,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21790,7 +21790,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21867,7 +21867,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -21944,7 +21944,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22021,7 +22021,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22098,7 +22098,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22175,7 +22175,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22252,7 +22252,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22329,7 +22329,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22406,7 +22406,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22483,7 +22483,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22560,7 +22560,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22642,7 +22642,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22724,7 +22724,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22806,7 +22806,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22888,7 +22888,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -22970,7 +22970,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23052,7 +23052,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23152,7 +23152,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23251,7 +23251,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23351,7 +23351,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23451,7 +23451,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23551,7 +23551,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23651,7 +23651,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23747,7 +23747,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23843,7 +23843,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -23939,7 +23939,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24035,7 +24035,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24131,7 +24131,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24227,7 +24227,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24323,7 +24323,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24419,7 +24419,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24515,7 +24515,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24611,7 +24611,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24707,7 +24707,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24803,7 +24803,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -24928,7 +24928,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25053,7 +25053,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25178,7 +25178,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25303,7 +25303,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25428,7 +25428,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25554,7 +25554,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25655,7 +25655,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25755,7 +25755,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25855,7 +25855,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -25955,7 +25955,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -26055,7 +26055,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -26156,7 +26156,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
             <!--335 -->
@@ -26255,7 +26255,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -26357,7 +26357,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -26455,7 +26455,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -26553,7 +26553,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -26651,7 +26651,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -26749,7 +26749,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
             <!--335 -->
@@ -26849,7 +26849,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -26949,7 +26949,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27049,7 +27049,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27149,7 +27149,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27249,7 +27249,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27350,7 +27350,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27460,7 +27460,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27570,7 +27570,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27680,7 +27680,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27790,7 +27790,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -27900,7 +27900,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28010,7 +28010,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28124,7 +28124,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28238,7 +28238,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28352,7 +28352,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28466,7 +28466,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28580,7 +28580,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28694,7 +28694,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28793,7 +28793,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28892,7 +28892,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -28991,7 +28991,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29090,7 +29090,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29189,7 +29189,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29389,7 +29389,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29404,7 +29404,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29518,7 +29518,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29710,7 +29710,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29794,7 +29794,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29883,7 +29883,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -29990,7 +29990,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30091,7 +30091,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30192,7 +30192,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30324,7 +30324,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30431,7 +30431,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30536,7 +30536,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30644,7 +30644,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30741,7 +30741,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30844,7 +30844,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -30953,7 +30953,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37239,7 +37239,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37294,7 +37294,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37342,7 +37342,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37390,7 +37390,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37438,7 +37438,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37879,7 +37879,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37892,7 +37892,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37911,7 +37911,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37930,7 +37930,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37949,7 +37949,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37968,7 +37968,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -37987,7 +37987,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -39690,7 +39690,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -42199,7 +42199,7 @@ needed?
         <!--怪物武器-->
         <item name="meleeHandAnimal S">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="46"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -42218,7 +42218,7 @@ needed?
         </item>
         <item name="meleeHandAnimal SSS">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="46"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -42237,7 +42237,7 @@ needed?
         </item>
         <item name="meleeHandAnimal GOD">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="46"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -42256,7 +42256,7 @@ needed?
         </item>
         <item name="GODD级武器">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <property name="Range" value="1.75"/>
@@ -42292,7 +42292,7 @@ needed?
         <item name="GODD">
             <property name="Meshfile" value="particleeffects/p_fire_small"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="150"/>
@@ -42322,7 +42322,7 @@ needed?
         <item name="FEI">
             <property name="Meshfile" value="particleeffects/p_fire_small"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="40"/>
@@ -42373,7 +42373,7 @@ needed?
         </item>
         <item name="meleeHandPaindeer1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="46"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -42396,7 +42396,7 @@ needed?
         </item>
         <item name="无人机武器">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.5"/>
@@ -42430,7 +42430,7 @@ needed?
         <item name="无人机子弹">
             <property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="20"/>
@@ -42453,7 +42453,7 @@ needed?
         </item>
         <item name="无人机2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.5"/>
@@ -42486,7 +42486,7 @@ needed?
         <item name="无人机子弹2">
             <property name="Meshfile" value="prefabs/electricshock"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="20"/>
@@ -42515,7 +42515,7 @@ needed?
         </item>
         <item name="飞天鲨鱼武器">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Range" value="3.5"/>
                 <property name="Delay" value=".7"/>
@@ -42549,7 +42549,7 @@ needed?
         <item name="飞天鲨鱼子弹">
             <property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="25"/>
@@ -42566,7 +42566,7 @@ needed?
         </item>
         <item name="C级武器1">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="50"/>
                 <property name="DamageBlock" value="100"/></property>
@@ -42586,7 +42586,7 @@ needed?
         </item>
         <item name="C级武器2">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="50"/>
                 <property name="DamageBlock" value="100"/></property>
@@ -42606,7 +42606,7 @@ needed?
         </item>
         <item name="C级武器3">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="50"/>
                 <property name="DamageBlock" value="100"/></property>
@@ -42626,7 +42626,7 @@ needed?
         </item>
         <item name="C级武器4">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="50"/>
                 <property name="DamageBlock" value="100"/></property>
@@ -42646,7 +42646,7 @@ needed?
         </item>
         <item name="C级武器5">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="50"/>
                 <property name="DamageBlock" value="100"/></property>
@@ -42666,7 +42666,7 @@ needed?
         </item>
         <item name="B级武器1">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="80"/>
                 <property name="DamageBlock" value="200"/></property>
@@ -42686,7 +42686,7 @@ needed?
         </item>
         <item name="B级武器2">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="80"/>
                 <property name="DamageBlock" value="200"/></property>
@@ -42706,7 +42706,7 @@ needed?
         </item>
         <item name="B级武器3">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="80"/>
                 <property name="DamageBlock" value="200"/></property>
@@ -42726,7 +42726,7 @@ needed?
         </item>
         <item name="B级武器4">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="80"/>
                 <property name="DamageBlock" value="200"/></property>
@@ -42746,7 +42746,7 @@ needed?
         </item>
         <item name="B级武器5">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="80"/>
                 <property name="DamageBlock" value="200"/></property>
@@ -42766,7 +42766,7 @@ needed?
         </item>
         <item name="A级武器1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.3"/>
@@ -42812,7 +42812,7 @@ needed?
         </item>
         <item name="A级武器2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.3"/>
@@ -42858,7 +42858,7 @@ needed?
         </item>
         <item name="A级武器3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.3"/>
@@ -42904,7 +42904,7 @@ needed?
         </item>
         <item name="A级武器4">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.3"/>
@@ -42950,7 +42950,7 @@ needed?
         </item>
         <item name="A级武器5">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.3"/>
@@ -42997,7 +42997,7 @@ needed?
         <item name="A级子弹">
             <property name="Meshfile" value="particleeffects/p_blockdestroy_water"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="50"/>
@@ -43028,7 +43028,7 @@ needed?
         </item>
         <item name="S级武器">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -43076,7 +43076,7 @@ needed?
         <item name="S级子弹">
             <property name="Meshfile" value="Entities/Traps/woodSpikesTrapPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="60"/>
@@ -43109,7 +43109,7 @@ needed?
         <item name="SS级武器">
             <property name="Meshfile" value="particleeffects/p_fire_small"/>
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -43157,7 +43157,7 @@ needed?
         <item name="SS级子弹">
             <property name="Meshfile" value="Entities/Resources/oreLeadBoulderPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="90"/>
@@ -43189,7 +43189,7 @@ needed?
         </item>
         <item name="SSS级武器">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -43237,7 +43237,7 @@ needed?
         <item name="SSS级子弹">
             <property name="Meshfile" value="Entities/OutdoorDecor/wildWestWagonWheelBackPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="130"/>
@@ -43273,7 +43273,7 @@ needed?
         </item>
         <item name="SSS级动物武器">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -43321,7 +43321,7 @@ needed?
         <item name="SSS级动物子弹">
             <property name="Meshfile" value="particleeffects/p_blockdestroy_water"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="100"/>
@@ -43356,7 +43356,7 @@ needed?
         </item>
         <item name="00级武器">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -43403,7 +43403,7 @@ needed?
         <item name="00级子弹">
             <property name="Meshfile" value="particleeffects/p_blockdestroy_water"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="80"/>
@@ -43441,7 +43441,7 @@ needed?
         </item>
         <item name="矿魔武器">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -43488,7 +43488,7 @@ needed?
         <item name="矿魔子弹">
             <property name="Meshfile" value="Entities/Resources/oreNitrateBoulderPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="20"/>
@@ -43531,7 +43531,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43544,7 +43544,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43558,7 +43558,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43572,7 +43572,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43586,7 +43586,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43600,7 +43600,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
             <property name="Extends" value="schematicMaster"/>
@@ -43613,7 +43613,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
             <property name="Extends" value="schematicMaster"/>
@@ -43626,7 +43626,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
             <property name="Extends" value="schematicMaster"/>
@@ -43639,7 +43639,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43653,7 +43653,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43667,7 +43667,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43681,7 +43681,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43695,7 +43695,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43710,7 +43710,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43723,7 +43723,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43737,7 +43737,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43751,7 +43751,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43765,7 +43765,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43779,7 +43779,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43793,7 +43793,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43807,7 +43807,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43821,7 +43821,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43835,7 +43835,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43849,7 +43849,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43863,7 +43863,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43877,7 +43877,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43891,7 +43891,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43905,7 +43905,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43919,7 +43919,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43933,7 +43933,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43947,7 +43947,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43961,7 +43961,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43975,7 +43975,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -43989,7 +43989,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44003,7 +44003,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44017,7 +44017,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44031,7 +44031,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44045,7 +44045,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44059,7 +44059,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44073,7 +44073,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44087,7 +44087,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44101,7 +44101,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44115,7 +44115,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44129,7 +44129,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44143,7 +44143,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44157,7 +44157,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44171,7 +44171,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44185,7 +44185,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44199,7 +44199,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44213,7 +44213,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44227,7 +44227,7 @@ needed?
             <!--不可丢弃-->
             <property name="Candrop" value="false"/>
             <!--上帝背包不展示-->
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <!--不可以卖给商人-->
             <property name="SellableToTrader" value="false"/>
 
@@ -44876,7 +44876,7 @@ needed?
         <!--重炮手调整-->
         <item name="meleeHandSpiritJuggernaut">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -44917,7 +44917,7 @@ needed?
         <!--重炮手调整-->
         <item name="meleeHandSpiritJuggernautBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -44958,7 +44958,7 @@ needed?
         <!--重炮手调整-->
         <item name="meleeHandSpiritJuggernautWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -44999,7 +44999,7 @@ needed?
         <!--重炮手调整-->
         <item name="meleeHandSpiritJuggernautWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -45040,7 +45040,7 @@ needed?
         <!--重炮手调整-->
         <item name="meleeHandSpiritJuggernautWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -45081,7 +45081,7 @@ needed?
         <item name="SpiritJuggernautProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="75"/>
@@ -45199,7 +45199,7 @@ needed?
         </item>
         <item name="meleeHandBanshee">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -45212,7 +45212,7 @@ needed?
         <!--女鬼的伤害-->
         <item name="meleeHandBansheeNGBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -45224,7 +45224,7 @@ needed?
         </item>
         <item name="meleeHandBansheeNGWX1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -45236,7 +45236,7 @@ needed?
         </item>
         <item name="meleeHandBansheeNGWX2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -45248,7 +45248,7 @@ needed?
         </item>
         <item name="meleeHandBansheeNGWX3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -45260,7 +45260,7 @@ needed?
         </item>
         <item name="meleeHandUndertaker">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Mmetal"/>
             <property class="Action0">
@@ -45272,7 +45272,7 @@ needed?
         <!--掘墓者-->
         <item name="meleeHandUndertakerBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Mmetal"/>
             <property class="Action0">
@@ -45284,7 +45284,7 @@ needed?
         <!--掘墓者-->
         <item name="meleeHandUndertakerWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Mmetal"/>
             <property class="Action0">
@@ -45296,7 +45296,7 @@ needed?
         <!--掘墓者-->
         <item name="meleeHandUndertakerWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Mmetal"/>
             <property class="Action0">
@@ -45308,7 +45308,7 @@ needed?
         <!--掘墓者-->
         <item name="meleeHandUndertakerWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Mmetal"/>
             <property class="Action0">
@@ -45319,7 +45319,7 @@ needed?
         </item>
         <item name="meleeHandWendigo">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -45338,7 +45338,7 @@ needed?
         <!---巫女-->
         <item name="meleeHandWendigoWnBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -45356,7 +45356,7 @@ needed?
         </item>
         <item name="meleeHandWendigoWnWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -45374,7 +45374,7 @@ needed?
         </item>
         <item name="meleeHandWendigoWnWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -45392,7 +45392,7 @@ needed?
         </item>
         <item name="meleeHandWendigoWnWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -45410,7 +45410,7 @@ needed?
         </item>
         <item name="meleeHandCowhead">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="25"/>
                 <property name="DamageBlock" value="30"/>
@@ -45428,7 +45428,7 @@ needed?
         </item>
         <item name="meleeHandParasite">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property class="Action0">
                 <property name="Buff" value="ParasiteAttack"/>
@@ -45446,7 +45446,7 @@ needed?
         <!--变异旅行者-->
         <item name="meleeHandParasiteBYLX">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property class="Action0">
                 <property name="Buff" value="ParasiteAttack"/>
@@ -45464,7 +45464,7 @@ needed?
         <!--寄生体-->
         <item name="meleeHandParasiteJSBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property class="Action0">
                 <property name="Buff" value="ParasiteAttack"/>
@@ -45481,7 +45481,7 @@ needed?
         </item>
         <item name="meleeHandParasiteJSWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property class="Action0">
                 <property name="Buff" value="ParasiteAttack"/>
@@ -45499,7 +45499,7 @@ needed?
         </item>
         <item name="meleeHandParasiteJSWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property class="Action0">
                 <property name="Buff" value="ParasiteAttack"/>
@@ -45517,7 +45517,7 @@ needed?
         </item>
         <item name="meleeHandParasiteJSWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property class="Action0">
                 <property name="Buff" value="ParasiteAttack"/>
@@ -45535,7 +45535,7 @@ needed?
         </item>
         <item name="meleeHandBrawler">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="16"/>
                 <property name="DamageBlock" value="32"/></property>
@@ -45549,7 +45549,7 @@ needed?
         <!--南瓜人-->
         <item name="meleeScarecrow">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="30"/>
                 <property name="DamageBlock" value="30"/></property>
@@ -45564,7 +45564,7 @@ needed?
         <!--变异矿工-->
         <item name="meleeScarecrowBYKG">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="70"/>
                 <property name="DamageBlock" value="100"/></property>
@@ -45578,7 +45578,7 @@ needed?
         </item>
         <item name="meleeScarecrowBY">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="50"/>
                 <property name="DamageBlock" value="50"/></property>
@@ -45592,7 +45592,7 @@ needed?
         </item>
         <item name="meleeScarecrowWx1">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="100"/>
                 <property name="DamageBlock" value="100"/>
@@ -45607,7 +45607,7 @@ needed?
         </item>
         <item name="meleeScarecrowWx2">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="150"/>
                 <property name="DamageBlock" value="150"/>
@@ -45622,7 +45622,7 @@ needed?
         </item>
         <item name="meleeScarecrowWx3">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="200"/>
                 <property name="DamageBlock" value="200"/>
@@ -45638,7 +45638,7 @@ needed?
         <!--警告者-->
         <item name="meleeScarecrowJGBY">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="60"/>
                 <property name="DamageBlock" value="60"/>
@@ -45653,7 +45653,7 @@ needed?
         </item>
         <item name="meleeScarecrowJGWx1">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="120"/>
                 <property name="DamageBlock" value="120"/>
@@ -45668,7 +45668,7 @@ needed?
         </item>
         <item name="meleeScarecrowJGWx2">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="180"/>
                 <property name="DamageBlock" value="180"/>
@@ -45683,7 +45683,7 @@ needed?
         </item>
         <item name="meleeScarecrowJGWx3">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="240"/>
                 <property name="DamageBlock" value="240"/>
@@ -45698,7 +45698,7 @@ needed?
         </item>
         <item name="meleeHandBomber">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="10"/>
                 <property name="DamageBlock" value="30"/></property>
@@ -45726,7 +45726,7 @@ needed?
         <!--自爆者-->
         <item name="meleeHandBomberBY">
             <property name="Extends" value="meleeHandZombie01"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="60"/>
                 <property name="DamageBlock" value="200"/>
@@ -45755,7 +45755,7 @@ needed?
         <item name="BomberProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <!--property name="Explosion.ParticleIndex" value="4"/-->
@@ -45784,7 +45784,7 @@ needed?
         <!--变异法师-->
         <item name="meleeHandGeist">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -45818,7 +45818,7 @@ needed?
         </item>
         <item name="meleeHandGeistBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -45852,7 +45852,7 @@ needed?
         </item>
         <item name="meleeHandGeistWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -45887,7 +45887,7 @@ needed?
         </item>
         <item name="meleeHandGeistWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -45922,7 +45922,7 @@ needed?
         </item>
         <item name="meleeHandGeistWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -45959,7 +45959,7 @@ needed?
             <!--property name="Meshfile" value="particleeffects/p_electric_shock"/-->
             <property name="Meshfile" value="particleeffects/p_electric_shock_small"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="15"/>
@@ -45984,7 +45984,7 @@ needed?
         </item>
         <item name="meleeHandArchon">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -46023,7 +46023,7 @@ needed?
         <!--飞天者-->
         <item name="meleeHandArchonFTBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -46061,7 +46061,7 @@ needed?
         </item>
         <item name="meleeHandArchonFTWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -46100,7 +46100,7 @@ needed?
         </item>
         <item name="meleeHandArchonFTWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -46139,7 +46139,7 @@ needed?
         </item>
         <item name="meleeHandArchonFTWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -46180,7 +46180,7 @@ needed?
             <!--property name="Meshfile" value="particleeffects/p_onFire"/-->
             <property name="Meshfile" value="particleeffects/p_fire_small"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="20"/>
@@ -46208,7 +46208,7 @@ needed?
         <!--螳螂变异者的-->
         <item name="meleeHandMantis">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Range" value="2"/>
                 <property name="Delay" value="0.5"/>
@@ -46250,7 +46250,7 @@ needed?
         <!--螳螂变异者的-->
         <item name="meleeHandMantisBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Range" value="2"/>
                 <property name="Delay" value="0.5"/>
@@ -46292,7 +46292,7 @@ needed?
         <!--螳螂变异者的-->
         <item name="meleeHandMantisWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Range" value="3"/>
                 <property name="Delay" value="0.5"/>
@@ -46334,7 +46334,7 @@ needed?
         <!--螳螂变异者的-->
         <item name="meleeHandMantisWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Range" value="4"/>
                 <property name="Delay" value="0.5"/>
@@ -46376,7 +46376,7 @@ needed?
         <!--螳螂变异者的-->
         <item name="meleeHandMantisWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Range" value="5"/>
                 <property name="Delay" value="0.5"/>
@@ -46418,7 +46418,7 @@ needed?
         <item name="MantisVomitProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Vomit/vomitBulbPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="5"/>
@@ -46438,7 +46438,7 @@ needed?
         </item>
         <item name="meleeHandJuggernaut">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -46479,7 +46479,7 @@ needed?
         <item name="JuggernautProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="125"/>
@@ -46507,7 +46507,7 @@ needed?
         <!--火焰战士的武器-->
         <item name="meleeHandScorcher">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -46550,7 +46550,7 @@ needed?
         <!--火焰战士的武器-->
         <item name="meleeHandScorcherBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -46593,7 +46593,7 @@ needed?
         <!--火焰战士的武器-->
         <item name="meleeHandScorcherWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -46636,7 +46636,7 @@ needed?
         <!--火焰战士的武器-->
         <item name="meleeHandScorcherWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -46679,7 +46679,7 @@ needed?
         <!--火焰战士的武器-->
         <item name="meleeHandScorcherWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -46723,7 +46723,7 @@ needed?
             <!--property name="Meshfile" value="particleeffects/p_onFire"/-->
             <property name="Meshfile" value="particleeffects/p_fire_small"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="5"/>
@@ -46846,7 +46846,7 @@ needed?
         </item>
         <item name="meleeHandPaindeer">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="46"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -46870,7 +46870,7 @@ needed?
         <!--亡灵骑士-->
         <item name="meleeHandPaindeerBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="46"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -46893,7 +46893,7 @@ needed?
         </item>
         <item name="meleeHandHellFlyer">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.5"/>
@@ -46927,7 +46927,7 @@ needed?
         <item name="HellFlyerProjectile">
             <property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="6"/>
@@ -46950,7 +46950,7 @@ needed?
         </item>
         <item name="meleeHandHellShocker">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.5"/>
@@ -46983,7 +46983,7 @@ needed?
         <!--机器人-->
         <item name="meleeHandHellShockerBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -47016,7 +47016,7 @@ needed?
         <item name="HellShockerProjectile">
             <property name="Meshfile" value="prefabs/electricshock"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="6"/>
@@ -47045,7 +47045,7 @@ needed?
         </item>
         <item name="meleeHandSharkWFLB">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Range" value="3.5"/>
                 <property name="Delay" value=".7"/>
@@ -47079,7 +47079,7 @@ needed?
         <item name="SharkWFLBProjectile">
             <property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="5"/>
@@ -47096,7 +47096,7 @@ needed?
         </item>
         <item name="meleeHandJuggernautGolden">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -47110,7 +47110,7 @@ needed?
         </item>
         <item name="meleeHandGeistArcher">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <!-- obsolete if rounds per minute exists -->
@@ -47146,7 +47146,7 @@ needed?
             <!--property name="Meshfile" value="particleeffects/p_electric_shock"/-->
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/flamingArrowPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="15"/>
@@ -47171,7 +47171,7 @@ needed?
         </item>
         <item name="meleeHandzombieHisser">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -47212,7 +47212,7 @@ needed?
         <!--变异水蛇-->
         <item name="meleeHandzombieHisserBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -47253,7 +47253,7 @@ needed?
         <!--变异水蛇-->
         <item name="meleeHandzombieHisserWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -47294,7 +47294,7 @@ needed?
         <!--变异水蛇-->
         <item name="meleeHandzombieHisserWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -47335,7 +47335,7 @@ needed?
         <!--变异水蛇-->
         <item name="meleeHandzombieHisserWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -47376,7 +47376,7 @@ needed?
         <item name="zombieHisserProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Vomit/vomitBulbPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="10"/>
@@ -47396,7 +47396,7 @@ needed?
         </item>
         <item name="meleeHandTipsySquatch">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -47423,7 +47423,7 @@ needed?
         <!--酗酒者-->
         <item name="meleeHandTipsySquatchBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -47449,7 +47449,7 @@ needed?
         </item>
         <item name="meleeHandTipsySquatchWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -47475,7 +47475,7 @@ needed?
         </item>
         <item name="meleeHandTipsySquatchWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -47501,7 +47501,7 @@ needed?
         </item>
         <item name="meleeHandTipsySquatchWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property name="Material" value="Morganic"/>
             <property class="Action0">
@@ -47527,7 +47527,7 @@ needed?
         </item>
         <item name="meleeHandSnowBear">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="46"/>
             <property class="Action0">
                 <property name="Delay" value="1.5"/>
@@ -47547,7 +47547,7 @@ needed?
         </item>
         <item name="meleeHandMotherClucker">
             <property name="Extends" value="meleeHandAnimalZombieVulture"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <property name="DamageEntity" value="12"/>
@@ -47587,7 +47587,7 @@ needed?
         <!--变异老母鸡-->
         <item name="meleeHandMotherCluckerBYMJ">
             <property name="Extends" value="meleeHandAnimalZombieVulture"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <property name="DamageEntity" value="60"/>
@@ -47627,7 +47627,7 @@ needed?
         <item name="ammoProjectileChickenEgg">
             <property name="Meshfile" value="#Other/Items?Misc/snowballPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="15"/>
@@ -47713,7 +47713,7 @@ needed?
             </effect_group>
         </item>
         <item name="armorSuperSteelMaster">
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="CustomIcon" value="armorSteelChest"/>
             <property name="DisplayType" value="armorHeavy"/>
             <property name="Material" value="MarmorSteelSet"/>
@@ -47958,7 +47958,7 @@ needed?
         <!-- MELEE HANDS ANIMALS -->
         <item name="meleeHandAnimalAnaconda">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.0"/>
@@ -47978,7 +47978,7 @@ needed?
         </item>
         <item name="meleeHandAnimalBurningPhoenix">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Delay" value="0.7"/>
@@ -48012,7 +48012,7 @@ needed?
         <item name="ammoProjectileBurningPhoenixVomit">
             <property name="Meshfile" value="particleeffects/p_fire_small"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="20"/>
@@ -48042,7 +48042,7 @@ needed?
         </item>
         <item name="meleeHandAnimalCopter">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.5"/>
@@ -48077,7 +48077,7 @@ needed?
         <item name="CopterVomitProjectile">
             <property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="6"/>
@@ -48101,7 +48101,7 @@ needed?
         </item>
         <item name="meleeHandAnimalChickenDemon">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="2.5"/>
@@ -48122,7 +48122,7 @@ needed?
         </item>
         <item name="meleeHandAnimalDiamondPhoenix">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.1"/>
@@ -48157,7 +48157,7 @@ needed?
         <item name="ammoProjectilePhoenixVomit">
             <property name="Meshfile" value="particleeffects/p_electric_shock"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="Gravity" value="-3"/>
@@ -48181,7 +48181,7 @@ needed?
         </item>
         <item name="meleeHandAnimalFireSnake">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="55"/>
             <property class="Action0">
                 <property name="Delay" value="1.0"/>
@@ -48202,7 +48202,7 @@ needed?
         </item>
         <item name="meleeHandAnimalFly">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Delay" value=".7"/>
@@ -48241,7 +48241,7 @@ needed?
         <item name="ammoProjectileFlyVomit">
             <property name="Meshfile" value="particleeffects/p_gunfire_smoke"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="0"/>
@@ -48264,7 +48264,7 @@ needed?
         <!-- Snufkins Archon zombie, all credits go to Snufkin -->
         <item name="meleeHandZombieArch0n">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <property name="Range" value="1.75"/>
@@ -48300,7 +48300,7 @@ needed?
         <item name="ZombieArchonVomitProjectile">
             <property name="Meshfile" value="particleeffects/p_fire_small"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="20"/>
@@ -48326,7 +48326,7 @@ needed?
         </item>
         <item name="meleeHandZombieAnesthesia">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -48367,7 +48367,7 @@ needed?
         <!--溃烂女人-->
         <item name="meleeHandZombieAnesthesiaBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -48407,7 +48407,7 @@ needed?
         </item>
         <item name="meleeHandZombieAnesthesiaWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -48447,7 +48447,7 @@ needed?
         </item>
         <item name="meleeHandZombieAnesthesiaWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -48487,7 +48487,7 @@ needed?
         </item>
         <item name="meleeHandZombieAnesthesiaWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -48528,7 +48528,7 @@ needed?
         <item name="ZombieAnesthesiaVomitProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Vomit/vomitBulbPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="3"/>
@@ -48550,7 +48550,7 @@ needed?
         <!-- AquaZed -->
         <item name="meleeHandZombieAqua">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -48588,7 +48588,7 @@ needed?
         <item name="ZombieVomitAquaProjectile">
             <property name="Meshfile" value="particleeffects/p_blockdestroy_water"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="3"/>
@@ -48613,7 +48613,7 @@ needed?
         <!-- Burning man -->
         <item name="meleeHandZombieBurningMan">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -48652,7 +48652,7 @@ needed?
         <item name="firevomitSmallProjectile">
             <property name="Meshfile" value="particleeffects/p_torch_wall"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="8"/>
@@ -48672,7 +48672,7 @@ needed?
         </item>
         <item name="meleeHandZombieBlazingMan">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -48710,7 +48710,7 @@ needed?
         <item name="firevomitMediumProjectile">
             <property name="Meshfile" value="ParticleEffects/p_fire_small"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="8"/>
@@ -48742,7 +48742,7 @@ needed?
         <!-- Fireboss -->
         <item name="meleeHandZombieBurningBoss">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Delay" value="0.9"/>
@@ -48780,7 +48780,7 @@ needed?
         <item name="firevomitBigProjectile">
             <property name="Meshfile" value="ParticleEffects/p_fire_small"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="15"/>
@@ -48813,7 +48813,7 @@ needed?
         </item>
         <item name="meleeHandZombieRadRobot">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -48850,7 +48850,7 @@ needed?
         </item>
         <item name="meleeHandZombieRadRobotWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -48887,7 +48887,7 @@ needed?
         </item>
         <item name="meleeHandZombieRadRobotWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -48924,7 +48924,7 @@ needed?
         </item>
         <item name="meleeHandZombieRadRobotWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -48961,7 +48961,7 @@ needed?
         </item>
         <item name="meleeHandZombieRadRobotWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -48999,7 +48999,7 @@ needed?
         <item name="ZombieRadRobotVomitProjectile">
             <property name="Meshfile" value="particleeffects/p_drone_heal_beam"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="9"/>
@@ -49037,7 +49037,7 @@ needed?
         </item>
         <item name="meleeHandZombieElf">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.80"/>
@@ -49072,7 +49072,7 @@ needed?
         <item name="ArrowVomitProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrowPrefab.prefab"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="Gravity" value="-5"/>
@@ -49097,7 +49097,7 @@ needed?
         <item name="meleeHandZombieExploder">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -49122,7 +49122,7 @@ needed?
         </item>
         <item name="meleeHandZombieFreezer">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.70"/>
@@ -49156,7 +49156,7 @@ needed?
         <!--冰冻者-->
         <item name="meleeHandZombieFreezerBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2"/>
@@ -49189,7 +49189,7 @@ needed?
         </item>
         <item name="meleeHandZombieFreezerWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -49222,7 +49222,7 @@ needed?
         </item>
         <item name="meleeHandZombieFreezerWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -49255,7 +49255,7 @@ needed?
         </item>
         <item name="meleeHandZombieFreezerWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -49289,7 +49289,7 @@ needed?
         <item name="ZombieFreezeVomitProjectile">
             <property name="Meshfile" value="prefabs/electricshock"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="1"/>
@@ -49319,7 +49319,7 @@ needed?
         </item>
         <item name="meleeHandZombieAtro">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Material" value="Morganic"/>
             <property class="Action0">
                 <!-- AttackAction -->
@@ -49339,7 +49339,7 @@ needed?
         </item>
         <item name="meleeHandZombieGunner">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.1"/>
@@ -49374,7 +49374,7 @@ needed?
         <!--重枪手的攻击伤害-->
         <item name="meleeHandZombieGunnerBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -49409,7 +49409,7 @@ needed?
         <!--重枪手的攻击伤害-->
         <item name="meleeHandZombieGunnerWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -49444,7 +49444,7 @@ needed?
         <!--重枪手的攻击伤害-->
         <item name="meleeHandZombieGunnerWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -49479,7 +49479,7 @@ needed?
         <!--重枪手的攻击伤害-->
         <item name="meleeHandZombieGunnerWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="6"/>
@@ -49514,7 +49514,7 @@ needed?
         <item name="GunVomitProjectile">
             <property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="Gravity" value="-3"/>
@@ -49539,7 +49539,7 @@ needed?
         <!-- MOE PUKER -->
         <item name="meleeHandZombieMoePuker">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -49579,7 +49579,7 @@ needed?
         <item name="ZombieMoePukerSmallProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Vomit/vomitBulbPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="9"/>
@@ -49609,7 +49609,7 @@ needed?
         <!-- Feral Moe Puker -->
         <item name="meleeHandZombieFeralMoePuker">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -49649,7 +49649,7 @@ needed?
         <item name="ZombieFeralMoePukerProjectile">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Vomit/vomitBulbPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="15"/>
@@ -49681,7 +49681,7 @@ needed?
         </item>
         <item name="meleeHandZombiePredator">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.1"/>
@@ -49717,7 +49717,7 @@ needed?
         <!--漆黑者-->
         <item name="meleeHandZombiePredatorBY">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="2.1"/>
@@ -49752,7 +49752,7 @@ needed?
         </item>
         <item name="meleeHandZombiePredatorWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -49787,7 +49787,7 @@ needed?
         </item>
         <item name="meleeHandZombiePredatorWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -49822,7 +49822,7 @@ needed?
         </item>
         <item name="meleeHandZombiePredatorWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -49858,7 +49858,7 @@ needed?
         <item name="ammoProjectilePredatorVomit">
             <property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="Gravity" value="-3"/>
@@ -49883,7 +49883,7 @@ needed?
         <!--呕吐者-->
         <item name="meleeHandZombieSanguis">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -49924,7 +49924,7 @@ needed?
         </item>
         <item name="meleeHandZombieSanguisWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -49965,7 +49965,7 @@ needed?
         </item>
         <item name="meleeHandZombieSanguisWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -50006,7 +50006,7 @@ needed?
         </item>
         <item name="meleeHandZombieSanguisWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -50048,7 +50048,7 @@ needed?
         <item name="ZombieSanguisVomitProjectile">
             <property name="Meshfile" value="prefabs/screeneffectbloodsplatter"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="3"/>
@@ -50072,7 +50072,7 @@ needed?
         </item>
         <item name="meleeHandZombieShadow">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -50111,7 +50111,7 @@ needed?
         <!--影子怪物-->
         <item name="meleeHandZombieShadowWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="3"/>
@@ -50149,7 +50149,7 @@ needed?
         </item>
         <item name="meleeHandZombieShadowWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="4"/>
@@ -50187,7 +50187,7 @@ needed?
         </item>
         <item name="meleeHandZombieShadowWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="35"/>
             <property class="Action0">
                 <property name="Range" value="5"/>
@@ -50226,7 +50226,7 @@ needed?
         <item name="ZombieShadowVomitProjectile">
             <property name="Meshfile" value="particleeffects/sparklight"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="5"/>
@@ -50247,7 +50247,7 @@ needed?
         </item>
         <item name="meleeHandZombieShockerFeral">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.70"/>
@@ -50281,7 +50281,7 @@ needed?
         <!--闪电人-->
         <item name="meleeHandZombieShockerFeralWx1">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="3.5"/>
@@ -50314,7 +50314,7 @@ needed?
         </item>
         <item name="meleeHandZombieShockerFeralWx2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="4.8"/>
@@ -50347,7 +50347,7 @@ needed?
         </item>
         <item name="meleeHandZombieShockerFeralWx3">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="6"/>
@@ -50380,7 +50380,7 @@ needed?
         </item>
         <item name="meleeHandZombieShocker">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.70"/>
@@ -50414,7 +50414,7 @@ needed?
         <item name="ammoProjectileZombieElectricBolt">
             <property name="Meshfile" value="particleeffects/p_electric_shock"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="8"/>
@@ -50445,7 +50445,7 @@ needed?
         </item>
         <item name="meleeHandZombieRPG">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Range" value="1.75"/>
                 <property name="DamageEntity" value="80"/>
@@ -50478,7 +50478,7 @@ needed?
         <item name="ammoProjectileRPG">
             <property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketPrefab"/>
             <property name="Material" value="Morganic" />
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="30"/>
@@ -50504,7 +50504,7 @@ needed?
         <item name="meleeHandZombieCandy">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50531,7 +50531,7 @@ needed?
         <item name="meleeHandZombieChroma">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50559,7 +50559,7 @@ needed?
         <item name="meleeHandZombieChromaBY">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50587,7 +50587,7 @@ needed?
         <item name="meleeHandZombieChromaWx1">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50615,7 +50615,7 @@ needed?
         <item name="meleeHandZombieChromaWx2">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50643,7 +50643,7 @@ needed?
         <item name="meleeHandZombieChromaWx3">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50670,7 +50670,7 @@ needed?
         <!-- Snufkins Geist zombie, all credits go to Snufkin -->
         <item name="meleeHandZombieGeist">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="Delay" value=".7"/>
                 <property name="Range" value="1.75"/>
@@ -50706,7 +50706,7 @@ needed?
         <item name="GeistVomitProjectile">
             <property name="Meshfile" value="particleeffects/p_electric_shock_small"/>
             <property name="Material" value="Morganic"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Class" value="Projectile"/>
                 <property name="DamageEntity" value="15"/>
@@ -50732,7 +50732,7 @@ needed?
         <item name="meleeHandZombieGiant">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50760,7 +50760,7 @@ needed?
         <item name="meleeHandZombieIronMan">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50787,7 +50787,7 @@ needed?
         <item name="meleeHandZombieIronManWx1">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50813,7 +50813,7 @@ needed?
         <item name="meleeHandZombieIronManWx2">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50839,7 +50839,7 @@ needed?
         <item name="meleeHandZombieIronManWx3">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50865,7 +50865,7 @@ needed?
         <item name="meleeHandZombieMummy">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50893,7 +50893,7 @@ needed?
         <item name="meleeHandZombieMummyBY">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50920,7 +50920,7 @@ needed?
         <item name="meleeHandZombieMummyWx1">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50947,7 +50947,7 @@ needed?
         <item name="meleeHandZombieMummyWx2">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -50974,7 +50974,7 @@ needed?
         <item name="meleeHandZombieMummyWx3">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -51001,7 +51001,7 @@ needed?
         <!-- Snufkins scarecrow zombie, all credits go to Snufkin -->
         <item name="meleeHandZombieScarecrow">
             <property name="Extends" value="meleeHandZombieBurning"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="30"/>
                 <property name="DamageBlock" value="30"/></property>
@@ -51016,7 +51016,7 @@ needed?
         <item name="meleeHandZombieTranslucent">
             <property name="Extends" value="meleeHandMaster"/>
             <property name="Tags" value="blunt,melee,light"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="HoldType" value="9"/>
             <property name="Material" value="Morganic"/>
             <property name="Canhold" value="false"/>
@@ -51043,7 +51043,7 @@ needed?
         <!-- Fat zombie melees -->
         <item name="meleeHandZombieStrong2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="20"/>
                 <property name="DamageBlock" value="20"/>
@@ -51058,7 +51058,7 @@ needed?
         <!-- Fat zombie cop -->
         <item name="meleeHandZombieCop2">
             <property name="Extends" value="meleeHandMaster"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property name="Degradation" value="99999" param1="true"/>
             <property class="Action0">
                 <property name="Range" value="1.75"/>
@@ -51099,7 +51099,7 @@ needed?
         <!-- Fat zombie cop feral -->
         <item name="meleeHandZombieCopFeral2">
             <property name="Extends" value="meleeHandZombieCop2"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action0">
                 <property name="DamageEntity" value="40"/>
                 <property name="DamageBlock" value="80"/></property>
@@ -51119,7 +51119,7 @@ needed?
         <!-- Fat zombie cop radiated -->
         <item name="meleeHandZombieCopRadiated2">
             <property name="Extends" value="meleeHandZombieCopFeral2"/>
-            <property name="CreativeMode" value="None"/>
+           <!--<property name="CreativeMode" value="None"/>-->
             <property class="Action1">
                 <property name="Magazine_items" value="ammoProjectileZombieVomitRadiated"/></property>
             <effect_group name="meleeHandZombieCopRadiated" tiered="false">

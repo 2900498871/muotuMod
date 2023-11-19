@@ -6,14 +6,14 @@
 
 <append xpath="/blocks">
 
-	<block name="神☆营地领域">
+	<!--<block name="神☆营地领域">
 		<property name="CustomIcon" value="birdBathPlanter" />
 		<property name="CustomIconTint" value="FFD306" />
 		<property name="Class" value="Campfire"/>
 		<property name="Material" value="MstoneNoGlue"/>
 		<property name="DescriptionKey" value="营地领域des"/>
 		<property name="MaxDamage" value="1000"/>
-		<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+		<property name="StabilitySupport" value="false"/> &lt;!&ndash; build restriction &ndash;&gt;
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/OutdoorDecor/birdBathPlanterPrefab"/>
 		<property name="ImposterDontBlock" value="true"/>
@@ -62,7 +62,6 @@
 		<property name="Material" value="Mmetal_weak"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Mesh" value="models"/>
 		<property name="MaxDamage" value="5000"/>
 		<property name="DamageReceived" value="3"/>
 		<property name="Model" value="Entities/Electrical/electric_fencePrefab"/>
@@ -148,7 +147,6 @@
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Mesh" value="models"/>
 		<property name="Path" value="solid"/>
 		<property name="Model" value="Entities/Electrical/generatorPrefab"/>
 		<property name="HandleFace" value="Bottom"/>
@@ -191,17 +189,16 @@
 		<property name="DisplayType" value="blockElectricalHardened"/>
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Mesh" value="models"/>
 		<property name="Path" value="solid"/>
 		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretPrefab"/>
-		<property name="OnlySimpleRotations" value="true"/> <!-- the targeting math will NOT work if it's not upright -->
+		<property name="OnlySimpleRotations" value="true"/> &lt;!&ndash; the targeting math will NOT work if it's not upright &ndash;&gt;
 		<property name="AmmoItem" value="ammo9mmBulletBall"/>
 		<property name="MaxDamage" value="5000"/>
 		<property name="TurnSpeed" value="22.5"/>
 		<property name="MaxDistance" value="30"/>
-		<property name="EntityDamage" value="100"/> <!-- 188 dps, 213 dps burst -->
+		<property name="EntityDamage" value="100"/> &lt;!&ndash; 188 dps, 213 dps burst &ndash;&gt;
 		<property name="BlockDamage" value="1"/>
-		<property name="RaySpread" value="2.6"/> <!-- Spread 2.6deg: 1m cone (55% hit) @ 22m -->
+		<property name="RaySpread" value="2.6"/> &lt;!&ndash; Spread 2.6deg: 1m cone (55% hit) @ 22m &ndash;&gt;
 		<property name="BurstRoundCount" value="15"/>
 		<property name="BurstFireRate" value="0.15"/>
 		<property name="CooldownTime" value="2"/>
@@ -231,13 +228,13 @@
 			<property name="resourceElectricParts" value="2"/>
 			<property name="超神强化结晶" value="2"/>
 		</property>
-		<!--
+		&lt;!&ndash;
         <property class="UpgradeBlock">
             <property name="ToBlock" value="autoTurretSteelCased"/>
             <property name="Item" value="resourceForgedSteel"/>
             <property name="ItemCount" value="10"/>
             <property name="UpgradeHitCount" value="4"/>
-        </property>-->
+        </property>&ndash;&gt;
 		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 		<drop event="Harvest" name="resourceMechanicalParts" count="1,4" tag="salvageHarvest"/>
 		<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
@@ -261,11 +258,11 @@
 		<property name="Extends" value="autoTurret"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
-		<property name="AmmoItem" value="ammoShotgunShell"/> <!-- does not use the damage value -->
+		<property name="AmmoItem" value="ammoShotgunShell"/> &lt;!&ndash; does not use the damage value &ndash;&gt;
 		<property name="MaxDistance" value="15"/>
-		<property name="EntityDamage" value="30"/> <!-- does not use range falloff for damage -->
+		<property name="EntityDamage" value="30"/> &lt;!&ndash; does not use range falloff for damage &ndash;&gt;
 		<property name="BlockDamage" value="1"/>
-		<property name="RaySpread" value="5.2"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+		<property name="RaySpread" value="5.2"/> &lt;!&ndash; Spread 5.2deg: 1m cone(55% hit) @ 11m &ndash;&gt;
 		<property name="RayCount" value="8"/>
 		<property name="BurstRoundCount" value="4"/>
 		<property name="BurstFireRate" value="0.61"/>
@@ -273,8 +270,8 @@
 		<property name="OvershootTime" value="0.8"/>
 		<property name="ParticlesMuzzleFire" value="nozzleflash_shotgun"/>
 		<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
-		<!--<property name="Buff" value="buffShotgunWound01"/>
-        <property name="BuffChance" value="0.8"/>-->
+		&lt;!&ndash;<property name="Buff" value="buffShotgunWound01"/>
+        <property name="BuffChance" value="0.8"/>&ndash;&gt;
 		<property name="FireSound" value="pump_shotgun_fire"/>
 		<property name="EconomicValue" value="2500"/>
 		<property name="PickupJournalEntry" value="cameraTip"/>
@@ -295,12 +292,12 @@
 		<property name="UnlockedBy" value="perkAdvancedEngineering,dartTrapSchematic"/>
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Mesh" value="models"/>
+
 		<property name="Path" value="solid"/>
 		<property name="Model" value="Entities/Electrical/arrowTrapPrefab"/>
 		<property name="HandleFace" value="Bottom"/>
 		<property name="PlaySound" value="darttrap_fire"/>
-		<!-- <property name="StartSound" value="darttrap_start"/> -->
+		&lt;!&ndash; <property name="StartSound" value="darttrap_start"/> &ndash;&gt;
 		<property name="EndSound" value="darttrap_end"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="109"/>
 		<property name="BurstFireRate" value="0.5"/>
@@ -335,7 +332,7 @@
 		<property name="MaxDamage" value="10000"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
-		<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		<property name="Place" value="TowardsPlacer"/> &lt;!&ndash; sign model, not needed for cube &ndash;&gt;
 		<property name="DescriptionKey" value="神☆坚硬的箱子Desc"/>
 		<property name="Tags" value="door"/>
 		<property name="Class" value="SecureLootSigned"/>
@@ -354,7 +351,7 @@
 		<property name="Group" value="Building,advBuilding"/>
 		<property name="EconomicValue" value="6"/>
 		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
-	</block>
+	</block>-->
 
 
 <!--采矿机空-->
