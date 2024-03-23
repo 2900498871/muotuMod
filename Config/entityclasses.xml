@@ -141,7 +141,7 @@
 		<!-- 掉落包-->
 		<entity_class name="Beibao">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -154,7 +154,7 @@
 		</entity_class>
 		<entity_class name="BeibaoC">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -167,7 +167,7 @@
 		</entity_class>
 		<entity_class name="BeibaoB">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -180,7 +180,7 @@
 		</entity_class>
 		<entity_class name="BeibaoA">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -193,7 +193,7 @@
 		</entity_class>
 		<entity_class name="BeibaoS">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -206,7 +206,7 @@
 		</entity_class>
 		<entity_class name="BeibaoSS">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -219,7 +219,7 @@
 		</entity_class>
 		<entity_class name="BeibaoSSS">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -232,7 +232,7 @@
 		</entity_class>
 		<entity_class name="BeibaoGOD">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -245,7 +245,7 @@
 		</entity_class>
 		<entity_class name="BeibaoGODZ">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -259,7 +259,7 @@
 		<!--sinkFin怪物掉包-->
 		<entity_class name="BeibaoWx☆">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -272,7 +272,7 @@
 		</entity_class>
 		<entity_class name="BeibaoWx☆☆">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -285,7 +285,7 @@
 		</entity_class>
 		<entity_class name="BeibaoWx☆☆☆">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -299,7 +299,7 @@
 		<!--怪物掉包-->
 		<entity_class name="BeibaoSF">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -1365,7 +1365,7 @@
 		<!-- 矿魔-->
 		<entity_class name="矿魔">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2058,7 +2058,7 @@
 		</entity_class>
 		<entity_class name="宝藏">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2262,7 +2262,7 @@
 		</entity_class>
 		<entity_class name="血夜C">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2275,7 +2275,7 @@
 		</entity_class>
 		<entity_class name="血夜B">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2288,7 +2288,7 @@
 		</entity_class>
 		<entity_class name="血夜A">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2803,7 +2803,7 @@
 		<!-- 地狱-->
 		<entity_class name="BeibaoT">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2816,7 +2816,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT0">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2829,7 +2829,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT1">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2842,7 +2842,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT2">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2855,7 +2855,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT3">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2868,7 +2868,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT4">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2881,7 +2881,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT5">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2895,7 +2895,7 @@
 		<!--  挑战 大形苍蝇  -->
 		<entity_class name="BeibaoT9">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2908,7 +2908,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT10">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2921,7 +2921,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT11">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2935,7 +2935,7 @@
 		<!--  挑战 飞虫  -->
 		<entity_class name="BeibaoT12">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2948,7 +2948,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT13">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2961,7 +2961,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT14">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2974,7 +2974,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT15">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -2987,7 +2987,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT16">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -3000,7 +3000,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT17">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -3013,7 +3013,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT18">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -3026,7 +3026,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT19">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -3039,7 +3039,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT20">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
@@ -3052,7 +3052,7 @@
 		</entity_class>
 		<entity_class name="BeibaoT21">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="@:Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="Mesh" value="@:Entities/LootContainers/zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
 			<property name="Prefab" value="Backpack"/>
 			<property name="Class" value="EntityLootContainer"/>
