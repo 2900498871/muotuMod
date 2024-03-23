@@ -395,7 +395,7 @@
 		<ingredient name="领域☆[FFD306]免疫" count="5"/>
 	</recipe>
 
-	<recipe name="神☆营地领域" count="1" craft_time="10"  craft_area="workbench" >
+<!--	<recipe name="神☆营地领域" count="1" craft_time="10"  craft_area="workbench" >
 		<ingredient name="medicalFirstAidKit" count="2"/>
 		<ingredient name="超神强化结晶" count="30"/>
 		<ingredient name="星源☆金属" count="10"/>
@@ -440,7 +440,7 @@
 	<recipe name="[FFD306]神☆坚硬的箱子" count="1" craft_time="10"  craft_area="workbench" >
 		<ingredient name="超神强化结晶" count="20"/>
 		<ingredient name="星源☆金属" count="5"/>
-	</recipe>
+	</recipe>-->
 
 	<!--挖矿机制作配方-->
 	<recipe name="采矿机" count="1"  craft_time="120" craft_area="workbench" >
@@ -5226,10 +5226,12 @@
 	<ingredient name="超神强化结晶" count="100"/>
 	<ingredient name="无人机升级核心" count="1"/>
 </recipe>-->
+<!--
 <recipe name="gunBotT3JunkDroneSchematic" count="1" craft_time=".1">
 	<ingredient name="末石" count="2000"/>
 	<ingredient name="途石" count="2000"/>
 </recipe>
+-->
 
 
 
