@@ -2253,7 +2253,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2277,7 +2277,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2302,7 +2302,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2336,7 +2336,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2364,7 +2364,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2391,7 +2391,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2418,7 +2418,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2445,7 +2445,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2470,7 +2470,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2494,7 +2494,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2518,7 +2518,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
@@ -2543,7 +2543,7 @@
 		<!--不可丢弃-->
 		<property name="Candrop" value="false"/>
 		<!--上帝背包不展示-->
-		<property name="CreativeMode" value="None"/>
+		<!--<property name="CreativeMode" value="None"/>-->
 		<!--不可以卖给商人-->
 		<property name="SellableToTrader" value="false"/>
 
