@@ -5526,13 +5526,8 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]变异-掘墓者" extends="Zombie_Template">
-			<property name="Mesh" value="Player/Male/player_maleRagdoll"/>
-			<property name="AvatarController" value="AvatarZombieController"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="HasRagdoll" value="false"/>
-			<property name="Prefab" value="NPC"/>
-			<property name="Parent" value="Players"/>
-			<property name="PhysicsBody" value="zombieFat"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThug.prefab"/>
+			<property name="SizeScale" value="0.9"/>
 
 			<property name="Archetype" value="Hank" />
 			<property name="Buffs" value="变异怪物领域-电击"/>
@@ -5556,6 +5551,8 @@
 		</entity_class>
 		<entity_class name="[4A4AFF]外星-掘墓者☆" extends="Zombie_Template">
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThug.prefab"/>
+			<property name="SizeScale" value="2"/>
+
 			<property name="Archetype" value="Hank" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
@@ -5578,6 +5575,8 @@
 		</entity_class>
 		<entity_class name="[EAC100]外星-掘墓者☆☆" extends="Zombie_Template">
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThug.prefab"/>
+			<property name="SizeScale" value="3"/>
+
 			<property name="Archetype" value="TraderJoel" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
@@ -5600,6 +5599,8 @@
 		</entity_class>
 		<entity_class name="[B766AD]外星-掘墓者☆☆☆" extends="Zombie_Template">
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThug.prefab"/>
+			<property name="SizeScale" value="4"/>
+
 			<property name="Archetype" value="TraderJoel" />
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
@@ -7212,7 +7213,7 @@
 			<property name="ReplaceMaterial1" value="@:Entities/Zombies/Zombies/Materials/feral_eye.mat"/>
 			<property name="WalkType" value="7"/>
 			<property name="Mass" value="90"/>
-			<property name="SizeScale" value="1"/>
+			<property name="SizeScale" value="2"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/>
 			<!-- type,cooldown,duration -->
@@ -7248,7 +7249,7 @@
 			<property name="ReplaceMaterial1" value="@:Entities/Zombies/Zombies/Materials/feral_eye.mat"/>
 			<property name="WalkType" value="7"/>
 			<property name="Mass" value="90"/>
-			<property name="SizeScale" value="1"/>
+			<property name="SizeScale" value="3"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/>
 			<!-- type,cooldown,duration -->
@@ -7284,7 +7285,7 @@
 			<property name="ReplaceMaterial1" value="@:Entities/Zombies/Zombies/Materials/feral_eye.mat"/>
 			<property name="WalkType" value="7"/>
 			<property name="Mass" value="90"/>
-			<property name="SizeScale" value="1"/>
+			<property name="SizeScale" value="4"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/>
 			<!-- type,cooldown,duration -->
@@ -7315,14 +7316,15 @@
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="Buffs" value="变异怪物领域-眩晕"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZLab.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZLumberjackRadiated.prefab"/>
 			<!--<property name="Mesh" value="@:Entities/Zombies/Zombies/zombieStandardStripperRagdoll.prefab"/> -->
 			<property name="AvatarController" value="AvatarZombieController"/>
 			<property name="ModelType" value="Standard"/>
-			<property name="ReplaceMaterial0" value="materials/waterinbucket"/>
-			<property name="ReplaceMaterial2" value="particleeffects/materials/waterfallslope"/>
 			<property name="SizeScale" value="0.9"/>
-			<property name="WalkType" value="7"/>
+			<property name="WalkType" value="21"/>
+			<property name="MoveSpeed" value="1.2"/>
+			<property name="MoveSpeedAggro" value="1.9, 3.2"/>
+
 			<property name="Mass" value="40"/>
 			<property name="Weight" value="20"/>
 			<property name="PushFactor" value="20"/>
