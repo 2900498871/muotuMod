@@ -894,7 +894,7 @@
 		</entity_class>
 		<entity_class name="[53FF53]C级僵尸 火焰僵尸" extends="SZombie C">
 			<property name="Tags" value="entity,血夜僵尸,zombie,C级僵尸,walker"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntFeral.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
 			<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
@@ -966,7 +966,7 @@
 		</entity_class>
 		<entity_class name="[2894FF]B级僵尸 火焰僵尸" extends="SZombie B">
 			<property name="Tags" value="entity,血夜僵尸,zombie,B级僵尸,walker"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntFeral.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
 			<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
@@ -1036,7 +1036,7 @@
 		</entity_class>
 		<entity_class name="[CA8EFF]A级僵尸 火焰僵尸" extends="SZombie A">
 			<property name="Tags" value="entity,zombie,血夜僵尸,A级僵尸,walker"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntFeral.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
 			<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
@@ -1103,7 +1103,7 @@
 		</entity_class>
 		<entity_class name="[FFD306]S级僵尸 火焰僵尸" extends="SZombie S">
 			<property name="Tags" value="entity,zombie,血夜僵尸,S级僵尸,walker"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntFeral.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
 			<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
@@ -1170,7 +1170,7 @@
 		</entity_class>
 		<entity_class name="[FFD306]SS级僵尸 火焰僵尸" extends="SZombie SS">
 			<property name="Tags" value="entity,zombie,血夜僵尸,SS级僵尸,walker"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntFeral.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
 			<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
@@ -2496,7 +2496,7 @@
 		</entity_class>
 		<entity_class name="[CA8EFF]A级血夜僵尸 火焰僵尸" extends="SZombie A2">
 			<property name="Tags" value="entity,zombie,血夜僵尸,walker"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntFeral.prefab"/>
 			<property name="Mass" value="160"/>
 			<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
 			<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
@@ -7362,7 +7362,7 @@
 		<entity_class name="[00CACA]☆变异火男☆" extends="zombieWightRadiated">
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntRadiated.prefab"/>
 			<property name="ReplaceMaterial0" value="entities/resources/materials/orecoalboulder"/>
 			<property name="WalkType" value="7"/>
 			<property name="Mass" value="160"/>
@@ -7399,7 +7399,7 @@
 		<entity_class name="[00CACA]☆☆变异火男☆☆" extends="zombieWightRadiated">
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
-			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntRadiated.prefab"/>
 			<property name="ReplaceMaterial0" value="itemmodeffects/materials/melee_fire"/>
 			<property name="WalkType" value="7"/>
 			<property name="RightHandJointName" value="RightHand"/>
@@ -9022,8 +9022,10 @@
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
-			<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
-			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
+			<!--<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
+			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>-->
+			<property name="ReplaceMaterial0" value="materials/wirematerial"/>
+
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
 			<property name="WalkType" value="5"/>
 			<property name="AITask-1" value="BreakBlock"/>
@@ -9053,8 +9055,11 @@
 			<property name="Buffs" value="未知怪物领域☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
-			<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
-			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
+			<!--<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
+			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>-->
+
+			<property name="ReplaceMaterial0" value="materials/wirematerial"/>
+
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
 			<property name="WalkType" value="5"/>
 			<property name="AITask-1" value="BreakBlock"/>
@@ -9084,8 +9089,11 @@
 			<property name="Buffs" value="未知怪物领域☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
-			<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
-			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
+			<!--<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
+			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>-->
+
+			<property name="ReplaceMaterial0" value="materials/wirematerial"/>
+
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
 			<property name="WalkType" value="5"/>
 			<property name="AITask-1" value="BreakBlock"/>
@@ -9115,8 +9123,11 @@
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker"/>
-			<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
-			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
+			<!--<property name="ReplaceMaterial0" value="itemmodeffects/materials/baton_arc"/>
+			<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>-->
+
+			<property name="ReplaceMaterial0" value="materials/wirematerial"/>
+
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
 			<property name="WalkType" value="5"/>
 			<property name="AITask-1" value="BreakBlock"/>
