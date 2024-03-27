@@ -5622,7 +5622,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异-自爆者☆" extends="Zombie_Template">
-			<property name="Archetype" value="Bomber" />
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBigMamaRadiated.prefab"/>
 			<property name="Buffs" value="变异怪物领域-电击"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,bomber,umazombie,bomber" />
@@ -6887,7 +6887,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异矿工☆" extends="Zombie_Template">
-			<property name="Archetype" value="Pogo" />
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZWorkerFeral.prefab"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,pogo" />
 			<property name="WalkType" value="2"/>
@@ -6925,7 +6925,7 @@
 			</effect_group>
 		</entity_class>
 		<entity_class name="[00CACA]☆变异旅行者☆" extends="Zombie_Template">
-			<property name="Archetype" value="NavezganeSlasher" />
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSuitFeral.prefab"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss,umazombie,navezganeslasher" />
 			<property name="ExperienceGain" value="2100"/>
@@ -8830,11 +8830,11 @@
 		</entity_class>
 		<!-- Snufkins scarecrow zombie, all credits go to Snufkin -->
 		<entity_class name="[00CACA]☆变异女鬼☆" extends="zombieWightRadiated">
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamerRadiated.prefab"/>
 			<property name="Buffs" value="变异怪物领域"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="SizeScale" value="1.3"/>
 			<property name="Tags" value="血夜僵尸,entity,zombie,walker,boss"/>
-			<property name="Mesh" value="@:Entities/Zombies/Zombies/zombieStandardScreamerRagdoll.prefab"/>
 			<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/>
