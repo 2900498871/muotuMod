@@ -4828,6 +4828,7 @@
 		</entity_class>
 		<entity_class name="[00CACA]变异-螳螂变异者" extends="Zombie_Template">
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThugFeral.prefab"/>
+			<property name="AvatarController" value="AvatarZombieController"/>
 			<property name="SizeScale" value="1"/>
 			<property name="LootDropEntityClass" value="BeibaoSF"/>
 			<property name="WalkType" value="8"/>
@@ -4864,6 +4865,7 @@
 		</entity_class>
 		<entity_class name="[4A4AFF]外星-螳螂变异者☆" extends="Zombie_Template">
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThugFeral.prefab"/>
+			<property name="AvatarController" value="AvatarZombieController"/>
 			<property name="SizeScale" value="2"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆"/>
 			<property name="Buffs" value="未知怪物领域☆"/>
@@ -4901,6 +4903,7 @@
 		</entity_class>
 		<entity_class name="[EAC100]外星-螳螂变异者☆☆" extends="Zombie_Template">
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThugFeral.prefab"/>
+			<property name="AvatarController" value="AvatarZombieController"/>
 			<property name="SizeScale" value="3"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆"/>
@@ -4938,6 +4941,7 @@
 		</entity_class>
 		<entity_class name="[B766AD]外星-螳螂变异者☆☆☆" extends="Zombie_Template">
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThugFeral.prefab"/>
+			<property name="AvatarController" value="AvatarZombieController"/>
 			<property name="SizeScale" value="4"/>
 			<property name="LootDropEntityClass" value="BeibaoWx☆☆☆"/>
 			<property name="Buffs" value="未知怪物领域☆☆☆"/>

@@ -26,7 +26,7 @@
 	
 <append xpath="/progression/perks">
 
-<perk name="WUQI"  parent="基础提升" name_key="武器伤害提升" desc_key="每级提高武器伤害 10%" max_level="50"   base_skill_point_cost="0">
+<!--<perk name="WUQI"  parent="基础提升" name_key="武器伤害提升" desc_key="每级提高武器伤害 10%" max_level="50"   base_skill_point_cost="0">
 
 			<effect_group>
 			<requirement name="HoldingItemHasTags" tags="ranged,melee"/>
@@ -36,7 +36,7 @@
 			<effect_description level="1,30" desc_base="每级增加所有武器10%实体伤害" long_desc_key=""/>
 			<effect_description level="31,50" desc_base="每级增加所有武器20%实体伤害" long_desc_key=""/>
 		</effect_group>
-		</perk>
+		</perk>-->
 
 <perk name="PINZ" parent="基础提升" name_key="品质提升" desc_key="品质提升" base_skill_point_cost="5" max_level="5">
 
