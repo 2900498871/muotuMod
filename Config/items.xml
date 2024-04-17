@@ -2811,7 +2811,7 @@
             <!-- STK ammobundle high -->
             <property name="EconomicValue" value="900"/>
             <property class="Action0">
-                <property name="Create_item" value="[2894FF]星源☆魂眼,可选职业,新手子弹,[FFD306]新手·[FF0000]枪,[FFD306]新手·☆斧,传送核心,连环任务击杀僵尸,[00FFFF]神☆[FF0000]之枪"/>
+                <property name="Create_item" value="[2894FF]星源☆魂眼,可选职业,新手子弹,[FFD306]新手·[FF0000]枪,[FFD306]新手·☆斧,传送核心,[00FFFF]神☆[FF0000]之枪"/>
                 <property name="Create_item_count" value="1,1,500,1,1,1,1,1"/></property>
         </item>
         <item name="怪物介绍">
@@ -3668,7 +3668,7 @@
             <property name="EconomicValue" value="1000"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <effect_group name="meleeToolShovelT2SteelShovel">
                 <passive_effect name="EntityDamage" operation="base_set" value="17.4" tags="perkMiner69r"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="75" tags="perkMiner69r"/>
@@ -3719,7 +3719,7 @@
             <property name="EconomicValue" value="1000"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <effect_group name="meleeToolShovelT2SteelShovel">
                 <passive_effect name="EntityDamage" operation="base_set" value="17.4" tags="perkMiner69r"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="85" tags="perkMiner69r"/>
@@ -3770,7 +3770,7 @@
             <property name="EconomicValue" value="1000"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <effect_group name="meleeToolShovelT2SteelShovel">
                 <passive_effect name="EntityDamage" operation="base_set" value="17.4" tags="perkMiner69r"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="95" tags="perkMiner69r"/>
@@ -3821,7 +3821,7 @@
             <property name="EconomicValue" value="1000"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <effect_group name="meleeToolShovelT2SteelShovel">
                 <passive_effect name="EntityDamage" operation="base_set" value="17.4" tags="perkMiner69r"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="110" tags="perkMiner69r"/>
@@ -3879,7 +3879,7 @@
             <property name="EconomicValue" value="1000"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <effect_group name="meleeToolShovelT2SteelShovel">
                 <passive_effect name="EntityDamage" operation="base_set" value="17.4" tags="perkMiner69r"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="140" tags="perkMiner69r"/>
@@ -3930,7 +3930,7 @@
             <property name="EconomicValue" value="700"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property class="Action0">
                 <property name="GrazeStart" value=".5"/>
                 <property name="GrazeEnd" value=".6"/>
@@ -3995,7 +3995,7 @@
             <property name="EconomicValue" value="700"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property class="Action0">
                 <property name="GrazeStart" value=".5"/>
                 <property name="GrazeEnd" value=".6"/>
@@ -4060,7 +4060,7 @@
             <property name="EconomicValue" value="700"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property class="Action0">
                 <property name="GrazeStart" value=".5"/>
                 <property name="GrazeEnd" value=".6"/>
@@ -4125,7 +4125,7 @@
             <property name="EconomicValue" value="700"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property class="Action0">
                 <property name="GrazeStart" value=".5"/>
                 <property name="GrazeEnd" value=".6"/>
@@ -4198,7 +4198,7 @@
             <property name="EconomicValue" value="700"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property class="Action0">
                 <property name="GrazeStart" value=".5"/>
                 <property name="GrazeEnd" value=".6"/>
@@ -4260,7 +4260,7 @@
             <property name="DisplayType" value="近战武器栏"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>d
 
@@ -4316,7 +4316,7 @@
             <property name="DisplayType" value="近战武器栏"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="超级强化结晶"/>
@@ -4371,7 +4371,7 @@
             <property name="DisplayType" value="近战武器栏"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="神级强化结晶"/>
@@ -4426,7 +4426,7 @@
             <property name="DisplayType" value="近战武器栏"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="超神强化结晶"/>
@@ -4488,7 +4488,7 @@
             <property name="DisplayType" value="近战武器栏"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="超神强化结晶"/>
@@ -4550,7 +4550,7 @@
             <!-- oil barrel 500 -->
             <property name="EconomicBundleSize" value="100"/>
             <property name="Group" value="Resources,Chemicals,CFChemicals"/>
-            <property name="UnlockedBy" value="perkGreaseMonkey,ammoGasCanSchematic"/>
+            <property name="UnlockedBy" value="perkSniperAPAmmo"/>
             <property name="CraftingIngredientTime" value=".05"/>
             <property name="DescriptionKey" value="126Desc"/>
         </item>
@@ -4683,7 +4683,7 @@
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -4874,7 +4874,7 @@
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -4974,7 +4974,7 @@
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5074,7 +5074,7 @@
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5174,7 +5174,7 @@
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5281,7 +5281,7 @@
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5384,7 +5384,7 @@
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5485,7 +5485,7 @@
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5586,7 +5586,7 @@
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5687,7 +5687,7 @@
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5788,7 +5788,7 @@
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5889,7 +5889,7 @@
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -5997,7 +5997,7 @@
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -6091,7 +6091,7 @@
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="高级强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -6159,7 +6159,7 @@
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超级强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -6227,7 +6227,7 @@
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -6295,7 +6295,7 @@
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -6363,7 +6363,7 @@
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -6431,7 +6431,7 @@
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -6506,7 +6506,7 @@
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -6581,7 +6581,7 @@
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -6771,7 +6771,7 @@ needed?
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -6961,7 +6961,7 @@ needed?
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -7151,7 +7151,7 @@ needed?
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -7341,7 +7341,7 @@ needed?
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -7531,7 +7531,7 @@ needed?
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -7728,7 +7728,7 @@ needed?
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -7920,7 +7920,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -8006,7 +8006,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -8092,7 +8092,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -8178,7 +8178,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -8264,7 +8264,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -8350,7 +8350,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -8443,7 +8443,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -8526,7 +8526,7 @@ needed?
             <property name="Weight" value="6"/>
             <property name="StickyMaterial" value="@:Other/Items/Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="高级强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -8581,7 +8581,7 @@ needed?
             <property name="Weight" value="6"/>
             <property name="StickyMaterial" value="@:Other/Items/Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超级强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -8636,7 +8636,7 @@ needed?
             <property name="Weight" value="6"/>
             <property name="StickyMaterial" value="@:Other/Items/Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -8691,7 +8691,7 @@ needed?
             <property name="Weight" value="6"/>
             <property name="StickyMaterial" value="@:Other/Items/Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -8746,7 +8746,7 @@ needed?
             <property name="Weight" value="6"/>
             <property name="StickyMaterial" value="@:Other/Items/Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -8801,7 +8801,7 @@ needed?
             <property name="Weight" value="6"/>
             <property name="StickyMaterial" value="@:Other/Items/Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -8863,7 +8863,7 @@ needed?
             <property name="Weight" value="6"/>
             <property name="StickyMaterial" value="@:Other/Items/Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -8925,7 +8925,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -9011,7 +9011,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -9097,7 +9097,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -9183,7 +9183,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -9269,7 +9269,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -9355,7 +9355,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -9448,7 +9448,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -9528,7 +9528,7 @@ needed?
             <property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="高级强化结晶"/>
@@ -9585,7 +9585,7 @@ needed?
             <property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="高级强化结晶"/>
@@ -9642,7 +9642,7 @@ needed?
             <property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="高级强化结晶"/>
@@ -9699,7 +9699,7 @@ needed?
             <property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="高级强化结晶"/>
@@ -9756,7 +9756,7 @@ needed?
             <property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="高级强化结晶"/>
@@ -9813,7 +9813,7 @@ needed?
             <property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="高级强化结晶"/>
@@ -9877,7 +9877,7 @@ needed?
             <property name="Tags" value="melee,grunting,medium,weapon,武器,近战武器,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Weight" value="6"/>
             <property name="RepairTools" value="高级强化结晶"/>
@@ -9956,7 +9956,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkGunslinger,gunHandgunT1PistolSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10051,7 +10051,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkGunslinger,gunHandgunT1PistolSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10146,7 +10146,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkGunslinger,gunHandgunT1PistolSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10241,7 +10241,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkGunslinger,gunHandgunT1PistolSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10336,7 +10336,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkGunslinger,gunHandgunT1PistolSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10431,7 +10431,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkGunslinger,gunHandgunT1PistolSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10533,7 +10533,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkGunslinger,gunHandgunT1PistolSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10629,7 +10629,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10726,7 +10726,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10823,7 +10823,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -10920,7 +10920,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11017,7 +11017,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11114,7 +11114,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11218,7 +11218,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11320,7 +11320,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11418,7 +11418,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11516,7 +11516,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11614,7 +11614,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11712,7 +11712,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11810,7 +11810,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -11915,7 +11915,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12014,7 +12014,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12108,7 +12108,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12202,7 +12202,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12296,7 +12296,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12390,7 +12390,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12484,7 +12484,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12585,7 +12585,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12681,7 +12681,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkBoomstick,gunShotgunT1DoubleBarrelSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12771,7 +12771,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkBoomstick,gunShotgunT1DoubleBarrelSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12861,7 +12861,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkBoomstick,gunShotgunT1DoubleBarrelSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -12951,7 +12951,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkBoomstick,gunShotgunT1DoubleBarrelSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13041,7 +13041,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkBoomstick,gunShotgunT1DoubleBarrelSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13131,7 +13131,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkBoomstick,gunShotgunT1DoubleBarrelSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13228,7 +13228,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkBoomstick,gunShotgunT1DoubleBarrelSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13320,7 +13320,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13412,7 +13412,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13504,7 +13504,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13596,7 +13596,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13688,7 +13688,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13780,7 +13780,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13879,7 +13879,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -13973,7 +13973,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -14064,7 +14064,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -14155,7 +14155,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -14246,7 +14246,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -14337,7 +14337,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -14428,7 +14428,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -14526,7 +14526,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -15332,7 +15332,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -15423,7 +15423,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -15514,7 +15514,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -15605,7 +15605,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -15696,7 +15696,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -15787,7 +15787,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -15885,7 +15885,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -15978,7 +15978,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -16068,7 +16068,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -16158,7 +16158,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -16248,7 +16248,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -16338,7 +16338,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -16428,7 +16428,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -16525,7 +16525,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -17268,7 +17268,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Catapult"/>
@@ -17371,7 +17371,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Catapult"/>
@@ -17474,7 +17474,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Catapult"/>
@@ -17577,7 +17577,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Catapult"/>
@@ -17680,7 +17680,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Catapult"/>
@@ -17783,7 +17783,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Catapult"/>
@@ -17893,7 +17893,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Catapult"/>
@@ -18003,7 +18003,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Launcher"/>
@@ -18106,7 +18106,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Launcher"/>
@@ -18209,7 +18209,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Launcher"/>
@@ -18312,7 +18312,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Launcher"/>
@@ -18415,7 +18415,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Launcher"/>
@@ -18518,7 +18518,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Launcher"/>
@@ -18628,7 +18628,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Launcher"/>
@@ -18725,7 +18725,7 @@ needed?
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -18832,7 +18832,7 @@ needed?
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -18931,7 +18931,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
                 <property name="Sound_start" value="machete_swinglight"/>
@@ -19011,7 +19011,7 @@ needed?
             <property name="SoundDestroy" value="wooddestroy1"/>
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
-            <property name="UnlockedBy" value="perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -19209,7 +19209,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -19297,7 +19297,7 @@ needed?
             <property name="Weight" value="6"/>
             <property name="StickyMaterial" value="@:Other/Items/Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
             </property>
@@ -19363,7 +19363,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -19468,7 +19468,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkGunslinger,gunHandgunT1PistolSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -19566,7 +19566,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -19674,7 +19674,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -19779,7 +19779,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -19881,7 +19881,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkBoomstick,gunShotgunT1DoubleBarrelSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -19979,7 +19979,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -20079,7 +20079,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -20278,7 +20278,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -20377,7 +20377,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="1000"/>
-            <property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -20573,7 +20573,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Catapult"/>
@@ -20689,7 +20689,7 @@ needed?
             <property name="Group" value="MOTU1"/>
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
-            <property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+            <property name="UnlockedBy" value="craftingBows"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Launcher"/>
@@ -20789,7 +20789,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkTurrets,gunBotT1JunkSledgeSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -20919,7 +20919,7 @@ needed?
             <property name="EconomicValue" value="500"/>
             <property name="SellableToTrader" value="true"/>
             <property name="RequiredPower" value="15"/>
-            <property name="UnlockedBy" value="gunBotT2JunkTurretSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -21012,7 +21012,7 @@ needed?
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -21119,7 +21119,7 @@ needed?
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -21226,7 +21226,7 @@ needed?
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -21333,7 +21333,7 @@ needed?
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -21440,7 +21440,7 @@ needed?
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -21547,7 +21547,7 @@ needed?
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -21649,7 +21649,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -21726,7 +21726,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -21803,7 +21803,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -21880,7 +21880,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -21957,7 +21957,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -22034,7 +22034,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -22111,7 +22111,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -22188,7 +22188,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -22265,7 +22265,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -22342,7 +22342,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -22419,7 +22419,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -22496,7 +22496,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -22577,7 +22577,7 @@ needed?
             <property name="Material" value="MmeleeWpnSpearParts"/>
             <property name="Weight" value="6"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -22659,7 +22659,7 @@ needed?
             <property name="Material" value="MmeleeWpnSpearParts"/>
             <property name="Weight" value="6"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -22741,7 +22741,7 @@ needed?
             <property name="Material" value="MmeleeWpnSpearParts"/>
             <property name="Weight" value="6"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -22823,7 +22823,7 @@ needed?
             <property name="Material" value="MmeleeWpnSpearParts"/>
             <property name="Weight" value="6"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -22905,7 +22905,7 @@ needed?
             <property name="Material" value="MmeleeWpnSpearParts"/>
             <property name="Weight" value="6"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -22987,7 +22987,7 @@ needed?
             <property name="Material" value="MmeleeWpnSpearParts"/>
             <property name="Weight" value="6"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -23065,7 +23065,7 @@ needed?
             <property name="Material" value="MmeleeWpnKnucklesParts"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab"/>
             <property name="HoldType" value="47"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
                 <property name="Damage_type" value="Slashing"/>
@@ -23165,7 +23165,7 @@ needed?
             <property name="Material" value="MmeleeWpnKnucklesParts"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab"/>
             <property name="HoldType" value="47"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
                 <property name="Damage_type" value="Slashing"/>
@@ -23264,7 +23264,7 @@ needed?
             <property name="Material" value="MmeleeWpnKnucklesParts"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab"/>
             <property name="HoldType" value="47"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
                 <property name="Damage_type" value="Slashing"/>
@@ -23364,7 +23364,7 @@ needed?
             <property name="Material" value="MmeleeWpnKnucklesParts"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab"/>
             <property name="HoldType" value="47"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
                 <property name="Damage_type" value="Slashing"/>
@@ -23464,7 +23464,7 @@ needed?
             <property name="Material" value="MmeleeWpnKnucklesParts"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab"/>
             <property name="HoldType" value="47"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
                 <property name="Damage_type" value="Slashing"/>
@@ -23564,7 +23564,7 @@ needed?
             <property name="Material" value="MmeleeWpnKnucklesParts"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab"/>
             <property name="HoldType" value="47"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
                 <property name="Damage_type" value="Slashing"/>
@@ -23671,7 +23671,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -23767,7 +23767,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -23863,7 +23863,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -23959,7 +23959,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24055,7 +24055,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24151,7 +24151,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24247,7 +24247,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24343,7 +24343,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24439,7 +24439,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24535,7 +24535,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24631,7 +24631,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24727,7 +24727,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -24830,7 +24830,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -24955,7 +24955,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25080,7 +25080,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25205,7 +25205,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25330,7 +25330,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25455,7 +25455,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25586,7 +25586,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25686,7 +25686,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25786,7 +25786,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25886,7 +25886,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -25986,7 +25986,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -26086,7 +26086,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -26181,7 +26181,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -26283,7 +26283,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -26381,7 +26381,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -26479,7 +26479,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -26577,7 +26577,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -26675,7 +26675,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -28727,7 +28727,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -28826,7 +28826,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -28925,7 +28925,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -29024,7 +29024,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -29123,7 +29123,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -29222,7 +29222,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -29423,7 +29423,7 @@ needed?
             <property name="EconomicValue" value="350"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="UnlockedBy" value="perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <property name="UnlockedBy" value="craftingBlades"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -29533,7 +29533,7 @@ needed?
             <!--<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>-->
             <property name="HoldType" value="70"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -29724,7 +29724,7 @@ needed?
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/knucklesRight_Prefab.prefab"/>
             <property name="HoldType" value="79"/>
             <property name="DisplayType" value="近战武器栏"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action0">
                 <property name="ToolCategory.Butcher" value="5" param1="1.5"/>
@@ -29812,7 +29812,7 @@ needed?
             <property name="Material" value="MmeleeWpnSpearParts"/>
             <property name="Weight" value="6"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="超神强化结晶"/>
             <property class="Action1">
                 <requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="22.8"/>
@@ -29897,7 +29897,7 @@ needed?
             <property name="Material" value="MmeleeWpnKnucklesParts"/>
             <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab"/>
             <property name="HoldType" value="47"/>
-            <property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <property name="UnlockedBy" value="craftingKnuckles"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
                 <property name="Damage_type" value="Slashing"/>
@@ -30011,7 +30011,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkBatterUpBaseballBats"/>
+            <property name="UnlockedBy" value="craftingClubs"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -30112,7 +30112,7 @@ needed?
             <property name="FuelValue" value="250"/>
             <property name="EconomicValue" value="700"/>
             <property name="Group" value="MOTU1"/>
-            <property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <property name="UnlockedBy" value="craftingSledgehammers"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="DynamicMelee"/>
@@ -30220,7 +30220,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -30356,7 +30356,7 @@ needed?
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+            <property name="UnlockedBy" value="craftingHandguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -30456,7 +30456,7 @@ needed?
             <property name="Sound_Sight_Out" value="rifle_sight_out"/>
             <property name="RepairExpMultiplier" value="10.8"/>
             <property name="EconomicValue" value="500"/>
-            <property name="UnlockedBy" value="perkMachineGunner,gunMGT1AK47Schematic"/>
+            <property name="UnlockedBy" value="craftingMachineGuns"/>
             <property name="ShowQuality" value="true"/>
             <property name="Group" value="MOTU1"/>
             <property class="Action0">
@@ -30878,7 +30878,7 @@ needed?
             <property name="PickupJournalEntry" value="alternateAmmoTip"/>
             <property name="LightValue" value=".45"/>
             <property name="EconomicValue" value="1500"/>
-            <property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+            <property name="UnlockedBy" value="craftingShotguns"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -37513,7 +37513,7 @@ needed?
             <!-- oil barrel 500 -->
             <property name="EconomicBundleSize" value="100"/>
             <property name="Group" value="Resources,Chemicals,CFChemicals"/>
-            <property name="UnlockedBy" value="perkGreaseMonkey,ammoGasCanSchematic"/>
+            <property name="UnlockedBy" value="perkSniperAPAmmo"/>
             <property name="CraftingIngredientTime" value=".05"/>
         </item>
         <item name="[FFD306]新手·[FF0000]枪">
@@ -38021,7 +38021,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkTurrets,gunBotT1JunkSledgeSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -38142,7 +38142,7 @@ needed?
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
             <property name="FuelValue" value="250"/>
-            <property name="UnlockedBy" value="perkTurrets,gunBotT1JunkSledgeSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -38265,7 +38265,7 @@ needed?
             <property name="EconomicValue" value="500"/>
             <property name="SellableToTrader" value="true"/>
             <property name="RequiredPower" value="15"/>
-            <property name="UnlockedBy" value="gunBotT2JunkTurretSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -38353,7 +38353,7 @@ needed?
             <property name="EconomicValue" value="500"/>
             <property name="SellableToTrader" value="true"/>
             <property name="RequiredPower" value="15"/>
-            <property name="UnlockedBy" value="gunBotT2JunkTurretSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -38441,7 +38441,7 @@ needed?
             <property name="EconomicValue" value="500"/>
             <property name="SellableToTrader" value="true"/>
             <property name="RequiredPower" value="15"/>
-            <property name="UnlockedBy" value="gunBotT2JunkTurretSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -38529,7 +38529,7 @@ needed?
             <property name="EconomicValue" value="500"/>
             <property name="SellableToTrader" value="true"/>
             <property name="RequiredPower" value="15"/>
-            <property name="UnlockedBy" value="gunBotT2JunkTurretSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -38617,7 +38617,7 @@ needed?
             <property name="EconomicValue" value="500"/>
             <property name="SellableToTrader" value="true"/>
             <property name="RequiredPower" value="15"/>
-            <property name="UnlockedBy" value="gunBotT2JunkTurretSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property class="Action0">
                 <property name="Class" value="Ranged"/>
@@ -39194,7 +39194,7 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="gunBotT3JunkDroneSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property name="RepairTools" value="resourceRepairKit"/>
             <!--
@@ -39264,7 +39264,7 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="gunBotT3JunkDroneSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property name="RepairTools" value="resourceRepairKit"/>
             <!--
@@ -39334,7 +39334,7 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="gunBotT3JunkDroneSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property name="RepairTools" value="resourceRepairKit"/>
             <!--
@@ -39404,7 +39404,7 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="gunBotT3JunkDroneSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property name="RepairTools" value="resourceRepairKit"/>
             <!--
@@ -39474,7 +39474,7 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="gunBotT3JunkDroneSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property name="RepairTools" value="resourceRepairKit"/>
             <!--
@@ -39543,7 +39543,7 @@ needed?
             <property name="RepairExpMultiplier" value="5.5"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="gunBotT3JunkDroneSchematic"/>
+            <property name="UnlockedBy" value="craftingRobotics"/>
             <property name="ShowQuality" value="true"/>
             <property name="RepairTools" value="resourceRepairKit"/>
             <property class="Action0">
@@ -39728,7 +39728,7 @@ needed?
             <property name="Material" value="MmeleeWpnSpearParts"/>
             <property name="Weight" value="6"/>
             <property name="EconomicValue" value="700"/>
-            <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+            <property name="UnlockedBy" value="craftingSpears"/>
             <property name="RepairTools" value="神☆结晶"/>
             <!--
 	<property class="Action0"><property name="Class" value="Ranged"/><property name="Delay" value=".8"/><property name="Magazine_items" value="ammoJunkTurretRegular,ammoJunkTurretShell,ammoJunkTurretAP"/><property name="Reload_time" value="3.9"/><property name="Sound_start" value="junkturret_fire"/><property name="Sound_loop" value="junkturret_fire"/><property name="Infinite_ammo" value="true"/><property name="Sound_repeat" value=""/><property name="Sound_end" value=""/><property name="Sound_empty" value="dryfire"/><property name="Sound_reload" value="m60_reload"/><property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/><property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/><property name="CrosshairUpAfterShot" value="true"/><property name="CrosshairOnAim" value="true"/><property name="ScopeOffset" value="0,0,0"/><property name="SideOffset" value="0,0,0"/><property name="BarrelOffset" value="0,0,0"/><requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/></property>
