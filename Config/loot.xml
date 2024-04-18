@@ -2351,16 +2351,7 @@
 		<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
 		<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
 		<item name="加速技能书 LV1" count="1" prob="0.3"/>
-		<item name="挑战 地狱狮子" count="1"  prob=".2" />
-		<item name="挑战 地狱熊" count="1"  prob=".2" />
-		<item name="挑战 地狱狼" count="1"  prob=".2" />
-		<item name="击杀C级僵尸" count="1"  prob=".08" />
-		<item name="击杀B级僵尸" count="1"  prob=".08" />
-		<item name="击杀A级僵尸" count="1"  prob=".08" />
-		<item name="击杀S级僵尸" count="1"  prob=".08" />
-		<item name="击杀SS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级动物" count="1"  prob=".08" />
+
 	</append>
 	<append xpath="lootcontainers/lootcontainer[@name='bookPile']">
 		<item name="1技能点" count="1" prob="0.05"/>
@@ -2373,16 +2364,7 @@
 		<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
 		<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
 		<item name="加速技能书 LV1" count="1" prob="0.3"/>
-		<item name="挑战 地狱狮子" count="1"  prob=".2" />
-		<item name="挑战 地狱熊" count="1"  prob=".2" />
-		<item name="挑战 地狱狼" count="1"  prob=".2" />
-		<item name="击杀C级僵尸" count="1"  prob=".08" />
-		<item name="击杀B级僵尸" count="1"  prob=".08" />
-		<item name="击杀A级僵尸" count="1"  prob=".08" />
-		<item name="击杀S级僵尸" count="1"  prob=".08" />
-		<item name="击杀SS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级动物" count="1"  prob=".08" />
+
 	</append>
 	<append xpath="lootcontainers/lootcontainer[@name='crackabookCrate']">
 		<item name="1技能点" count="1" prob="0.05"/>
@@ -2395,16 +2377,7 @@
 		<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
 		<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
 		<item name="加速技能书 LV1" count="1" prob="0.3"/>
-		<item name="挑战 地狱狮子" count="1"  prob=".2" />
-		<item name="挑战 地狱熊" count="1"  prob=".2" />
-		<item name="挑战 地狱狼" count="1"  prob=".2" />
-		<item name="击杀C级僵尸" count="1"  prob=".08" />
-		<item name="击杀B级僵尸" count="1"  prob=".08" />
-		<item name="击杀A级僵尸" count="1"  prob=".08" />
-		<item name="击杀S级僵尸" count="1"  prob=".08" />
-		<item name="击杀SS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级动物" count="1"  prob=".08" />
+
 	</append>
 	<append xpath="lootcontainers/lootcontainer[@name='crackabookShelves']">
 		<item name="1技能点" count="1" prob="0.05"/>
@@ -2417,16 +2390,7 @@
 		<item name="9mm子弹技能书 LV1" count="1" prob="0.3"/>
 		<item name="散弹子弹技能书 LV1" count="1" prob="0.3"/>
 		<item name="加速技能书 LV1" count="1" prob="0.3"/>
-		<item name="挑战 地狱狮子" count="1"  prob=".2" />
-		<item name="挑战 地狱熊" count="1"  prob=".2" />
-		<item name="挑战 地狱狼" count="1"  prob=".2" />
-		<item name="击杀C级僵尸" count="1"  prob=".08" />
-		<item name="击杀B级僵尸" count="1"  prob=".08" />
-		<item name="击杀A级僵尸" count="1"  prob=".08" />
-		<item name="击杀S级僵尸" count="1"  prob=".08" />
-		<item name="击杀SS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级动物" count="1"  prob=".08" />
+
 	</append>
 	<!--邮箱掉落-->
 	<append xpath="lootcontainers/lootcontainer[@name='mailbox']">
@@ -2440,16 +2404,7 @@
 		<item name="9mm子弹技能书 LV1" count="1" prob="0.2"/>
 		<item name="散弹子弹技能书 LV1" count="1" prob="0.2"/>
 		<item name="加速技能书 LV1" count="1" prob="0.2"/>
-		<item name="挑战 地狱狮子" count="1"  prob=".2" />
-		<item name="挑战 地狱熊" count="1"  prob=".2" />
-		<item name="挑战 地狱狼" count="1"  prob=".2" />
-		<item name="击杀C级僵尸" count="1"  prob=".08" />
-		<item name="击杀B级僵尸" count="1"  prob=".08" />
-		<item name="击杀A级僵尸" count="1"  prob=".08" />
-		<item name="击杀S级僵尸" count="1"  prob=".08" />
-		<item name="击杀SS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级动物" count="1"  prob=".08" />
+
 	</append>
 
 	<!--床头柜-->
@@ -2464,16 +2419,8 @@
 		<item name="9mm子弹技能书 LV1" count="1" prob="0.2"/>
 		<item name="散弹子弹技能书 LV1" count="1" prob="0.2"/>
 		<item name="加速技能书 LV1" count="1" prob="0.2"/>
-		<item name="挑战 地狱狮子" count="1"  prob=".2" />
-		<item name="挑战 地狱熊" count="1"  prob=".2" />
-		<item name="挑战 地狱狼" count="1"  prob=".2" />
-		<item name="击杀C级僵尸" count="1"  prob=".08" />
-		<item name="击杀B级僵尸" count="1"  prob=".08" />
-		<item name="击杀A级僵尸" count="1"  prob=".08" />
-		<item name="击杀S级僵尸" count="1"  prob=".08" />
-		<item name="击杀SS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级动物" count="1"  prob=".08" />
+
+
 	</append>
 
 	<!--金属办公桌-->
@@ -2488,16 +2435,6 @@
 		<item name="9mm子弹技能书 LV1" count="1" prob="0.2"/>
 		<item name="散弹子弹技能书 LV1" count="1" prob="0.2"/>
 		<item name="加速技能书 LV1" count="1" prob="0.2"/>
-		<item name="挑战 地狱狮子" count="1"  prob=".2" />
-		<item name="挑战 地狱熊" count="1"  prob=".2" />
-		<item name="挑战 地狱狼" count="1"  prob=".2" />
-		<item name="击杀C级僵尸" count="1"  prob=".08" />
-		<item name="击杀B级僵尸" count="1"  prob=".08" />
-		<item name="击杀A级僵尸" count="1"  prob=".08" />
-		<item name="击杀S级僵尸" count="1"  prob=".08" />
-		<item name="击杀SS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级僵尸" count="1"  prob=".08" />
-		<item name="击杀SSS级动物" count="1"  prob=".08" />
 
 		<item name="[FF0033]光环☆[53FF53]雷电领域☆" count="1"  prob="0.1"/>
 		<item name="[FF0033]光环☆[53FF53]火神领域☆" count="1" prob="0.1" />
