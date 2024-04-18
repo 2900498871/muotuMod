@@ -11504,7 +11504,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Misc/body_bag_fliesPrefab" local_offset=".2,-.35,.15" local_rotation="45,90,90" parent_transform="Spine"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/shovel_ironPrefab.prefab" local_offset="-.11,.2,-.02" local_rotation="0,0,0" parent_transform="RightHand"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/lanternPlayerPrefab" local_offset="-.1,0,-.05" local_rotation="90,90,0" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Plants/pumpkinJackoLanternPrefab" local_offset="-.1,0,-.05" local_rotation="90,90,0" parent_transform="LeftHand"/>
 			</effect_group>
 		</buff>
 		<buff name="BomberDeco" hidden="true">
