@@ -11422,15 +11422,6 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="positionAOE" range="25" buff="SirenPassiveC"> <!-- Temporarily 15 to 25 -->
 					<requirement name="EntityTagCompare" target="other" tags="player"/>
 				</triggered_effect> <!-- buffSiren is not stopping sound and this is a temporary workaround -->
-				<!--triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="positionAOE" range="25" buff="SirenPassiveB">
-					<requirement name="EntityTagCompare" target="other" tags="player"/>
-					<requirement name="NotHasBuff" target="other" buff="SirenPassiveC"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="positionAOE" range="35" buff="SirenPassiveA">
-					<requirement name="EntityTagCompare" target="other" tags="player"/>
-					<requirement name="NotHasBuff" target="other" buff="SirenPassiveB"/>
-					<requirement name="NotHasBuff" target="other" buff="SirenPassiveC"/>
-				</triggered_effect-->
 			</effect_group>
 		</buff>
 		<buff name="SirenPassiveA" hidden="true">
@@ -11463,7 +11454,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 		<buff name="SirenDeco" hidden="true">
 			<effect_group>
 				<!--triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/loudspeaker" local_offset="-.06,.27,0" local_rotation="0,-90,180" parent_transform="Spine1"/--> <!-- Removed to reflect A20 removal -->
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/loudspeakerPrefab" local_offset="-.27,0,0.25" local_rotation="0,0,90" parent_transform="Spine1"/> <!-- Up/Down - Side/Side - Front/Back -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/speakerLoudWallPrefab" local_offset="-.27,0,0.25" local_rotation="0,0,90" parent_transform="Spine1"/> <!-- Up/Down - Side/Side - Front/Back -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Club/Club_Wood_Branch.FBX" local_offset="-.3,0,0" local_rotation="-45,0,-90" parent_transform="Spine1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Club/Club_Wood_BranchPrefab.prefab" local_offset="-.55,0,0" local_rotation="0,0,-90" parent_transform="Spine1"/>
 			</effect_group>
