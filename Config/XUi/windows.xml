@@ -123,32 +123,32 @@
 				<grid pos="20,-42" rows="0" cell_width="1700" cell_height="26" repeat_content="false" arrangement="vertical" >
 					<label depth="2" font_size="25" text="服务器禁止浮空！禁止外挂！" color="[red]"/>
 					<label depth="2" font_size="25" text="----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------" />
-					<label depth="2" font_size="25" text="职业介绍:" color="0,0,255"/>
-					<label depth="2" font_size="25" text="MOD中有武器大师、枪手、工程师、猎人、军人、刺客六种职业，每种职业有不同的Buff加成！" />
-					<label depth="2" font_size="25" text="武器升级介绍: " color="0,0,255"/>
+					<label depth="2" font_size="25" text="技能书升级介绍:" color="255,105,180"/>
+					<label depth="2" font_size="25" text="进入游戏后，选择自己的职业！到书店搜刮或者怪物掉落技能书！阅读技能书解锁技能点！" />
+					<label depth="2" font_size="25" text="职业介绍:" color="255,105,180"/>
+					<label depth="2" font_size="25" text="MOD中有武器大师、枪手、工程师、猎人、军人、刺客六种职业，每种职业有不同的Buff加成！阅读新手礼包技能书解锁" />
+					<label depth="2" font_size="25" text="武器升级介绍: " color="255,105,180"/>
 					<label depth="2" font_size="25" text="从初始的星源装备（近战远程）打所有怪概率掉落，做任务概率掉落！挖铁矿合成星源金属，打怪掉结晶！用结晶、星源金属、" />
 					<label depth="2" font_size="25" text="金木水火土天王海王七种星源磨成星尘后合成五行、双王、生命三种星源，升级星源装备！升级到神级后，可以转换武器形态！" />
 					<label depth="2" font_size="25" text="神级之后用五行、双王、生命三种星源、铱锭、钛锭、钨锭，升级神级装备！升级到MAX后，用MAX武器、千变石合成最终武器！" />
-					<label depth="2" font_size="25" text="技能书升级介绍:" color="0,0,255"/>
-					<label depth="2" font_size="25" text="进入游戏后，选择自己的职业！到书店搜刮或者怪物掉落技能书！阅读技能书解锁技能点！" />
-					<label depth="2" font_size="25" text="防具升级介绍:" color="0,0,255"/>
+					<label depth="2" font_size="25" text="防具升级介绍:" color="255,105,180"/>
 					<label depth="2" font_size="25" text="防具有：普通星源护甲、带有属性的护甲两大类！普通的星源护甲可以升级到五星然后用属性赋予结晶合成带有属性的护甲" />
 					<label depth="2" font_size="25" text="带有属性的护甲可以三个合成一个高级的护甲。属性护甲升级到五星后用五个不同属性的同一护甲升级最终装备：--神圣护甲！" />
 					<label depth="2" font_size="25" text="带有属性的护甲类型：神速甲、狂战甲、神盾甲、隐刺甲、御器甲五种！属性甲可在衣服店搜刮或者击败地狱boss获得" />
 					<label depth="2" font_size="25" text="普通甲可以做任务掉落或者搜刮房间几率爆！" />
-					<label depth="2" font_size="25" text="矿物介绍: " color="0,0,255"/>
+					<label depth="2" font_size="25" text="矿物介绍: " color="255,105,180"/>
 					<label depth="2" font_size="25" text="城镇中会刷新铱矿石、钛矿石、钨矿石、星尘矿石四种矿石！用采集工具采集后，在源能 制造师中合成锭，用于合成高级装备！" />
-					<label depth="2" font_size="25" text="怪物介绍:" color="0,0,255"/>
+					<label depth="2" font_size="25" text="怪物介绍:" color="255,105,180"/>
 					<label depth="2" font_size="25" text="MOD的怪物有普通僵尸、C级僵尸、B级僵尸、A级僵尸、S级僵尸、SS级僵尸、SSS级僵尸、god级僵尸、变异怪物、外星怪物等" />
 					<label depth="2" font_size="25" text="房间会刷所有以上所有的怪物、不同怪物掉落物品不同！变异怪物和外星怪物主要掉落金木水火土天王海王星源之类！" />
 					<label depth="2" font_size="25" text="其他怪物掉落怪物星核，50个星核可以合成被动！被动可以提升玩家基础属性！" />
-					<label depth="2" font_size="25" text="配件介绍: " color="0,0,255" />
+					<label depth="2" font_size="25" text="配件介绍: " color="255,105,180" />
 					<label depth="2" font_size="25" text="配件有近战、远程两大类！近战：器纹、尖纹、柄纹、刃纹、器纹、攻击吸血、杀怪吸血、穿甲纹八大类！远程：神枪纹等" />
 					<label depth="2" font_size="25" text="配件获得方法：击杀怪物几率掉落、商人任务几率掉落、房间藏匿点几率掉落！" />
-					<label depth="2" font_size="25" text="光环介绍：" color="0,0,255"/>
+					<label depth="2" font_size="25" text="光环介绍：" color="255,105,180"/>
 					<label depth="2" font_size="25" text="光环包括雷电、火神、减血、减速、削弱、增伤、血量、射程、攻速、收获十种光环！装戴在星源☆魂眼上" />
 					<label depth="2" font_size="25" text="提供增益buff!做任务会给相对等级的光环（有几率）！击杀高级的怪物掉落高级光环！房间藏匿点几率掉落！" />
-					<label depth="2" font_size="25" text="领域介绍: " color="0,0,255"/>
+					<label depth="2" font_size="25" text="领域介绍: " color="255,105,180"/>
 					<label depth="2" font_size="25" text="地图中的怪物有变异、外星、S级、SS级、SSS级、god级等怪物都有对应的范围debuff！可以使用领域抵抗药水解除debuff" />
 					<label depth="2" font_size="25" text="也可以装备领域抵抗插件、领域终结插件解除debuff!领域插件击杀所有的Mod怪几率掉落！" />
 					<label depth="2" text="----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>

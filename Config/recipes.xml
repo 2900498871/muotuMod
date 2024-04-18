@@ -5384,31 +5384,6 @@
 
 
 
-
-<recipe name="挑战任务 地狱狮子" count="1" craft_time=".1">
-	<ingredient name="挑战 地狱狮子" count="1"/>
-</recipe>
-<recipe name="挑战任务 地狱熊" count="1" craft_time=".1">
-	<ingredient name="挑战 地狱熊" count="1"/>
-</recipe>
-<recipe name="挑战任务 地狱狼" count="1" craft_time=".1">
-	<ingredient name="挑战 地狱狼" count="1"/>
-</recipe>
-
-	<recipe name="挑战任务 地狱狮子" count="1" craft_time=".1">
-		<ingredient name="casinoCoin" count="10000"/>
-	</recipe>
-
-	<recipe name="挑战任务 地狱熊" count="1" craft_time=".1">
-		<ingredient name="casinoCoin" count="10000"/>
-	</recipe>
-
-	<recipe name="挑战任务 地狱狼" count="1" craft_time=".1">
-		<ingredient name="casinoCoin" count="10000"/>
-	</recipe>
-
-
-
 </append>
 
 <append xpath="/recipes">
