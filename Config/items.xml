@@ -15318,7 +15318,7 @@ needed?
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
-            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/ak47/ak47Prefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="4"/>
             <property name="CrosshairOnAim" value="true"/>
@@ -15409,7 +15409,7 @@ needed?
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
-            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/ak47/ak47Prefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="4"/>
             <property name="CrosshairOnAim" value="true"/>
@@ -15500,7 +15500,7 @@ needed?
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
-            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/ak47/ak47Prefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="4"/>
             <property name="CrosshairOnAim" value="true"/>
@@ -15591,7 +15591,7 @@ needed?
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
-            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/ak47/ak47Prefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="4"/>
             <property name="CrosshairOnAim" value="true"/>
@@ -15682,7 +15682,7 @@ needed?
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
-            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/ak47/ak47Prefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="4"/>
             <property name="CrosshairOnAim" value="true"/>
@@ -15773,7 +15773,7 @@ needed?
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
-            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/ak47/ak47Prefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="4"/>
             <property name="CrosshairOnAim" value="true"/>
@@ -15871,7 +15871,7 @@ needed?
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
-            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/ak47/ak47Prefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="4"/>
             <property name="CrosshairOnAim" value="true"/>
@@ -20264,7 +20264,7 @@ needed?
             <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
             <property name="DisplayType" value="手枪"/>
             <property name="HoldType" value="48"/>
-            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/ak47/ak47Prefab.prefab"/>
+            <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
             <property name="Material" value="MMachineGunParts"/>
             <property name="Weight" value="4"/>
             <property name="CrosshairOnAim" value="true"/>
@@ -39644,8 +39644,8 @@ needed?
         <item name="药贴-领域抵抗☆">
             <property name="CustomIcon" value="medicalFirstAidBandage" />
             <property name="CustomIconTint" value="00BB00" />
-            <property name="Extends" value="medicalFirstAidKit"/>
-            <property name="DisplayType" value="waterMegaCrush"/>
+            <property name="Extends" value="medicalBandage"/>
+            <property name="DisplayType" value="medical"/>
             <property name="DescriptionKey" value="抵抗药水2"/>
             <property name="EconomicValue" value="20"/>
             <property class="Action0"></property>
@@ -39659,8 +39659,8 @@ needed?
         <item name="药贴-领域抵抗☆☆">
             <property name="CustomIcon" value="medicalFirstAidBandage" />
             <property name="CustomIconTint" value="0066CC" />
-            <property name="Extends" value="medicalFirstAidKit"/>
-            <property name="DisplayType" value="waterMegaCrush"/>
+            <property name="Extends" value="medicalBandage"/>
+            <property name="DisplayType" value="medical"/>
             <property name="DescriptionKey" value="抵抗药水3"/>
             <property name="EconomicValue" value="60"/>
             <property class="Action0"></property>
@@ -39674,8 +39674,8 @@ needed?
         <item name="药贴-领域抵抗☆☆☆">
             <property name="CustomIcon" value="medicalFirstAidBandage" />
             <property name="CustomIconTint" value="FF0033" />
-            <property name="Extends" value="medicalFirstAidKit"/>
-            <property name="DisplayType" value="waterMegaCrush"/>
+            <property name="Extends" value="medicalBandage"/>
+            <property name="DisplayType" value="medical"/>
             <property name="DescriptionKey" value="抵抗药水4"/>
             <property name="EconomicValue" value="120"/>
             <property class="Action0"></property>

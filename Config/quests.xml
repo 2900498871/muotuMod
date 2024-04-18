@@ -230,6 +230,22 @@
 		<reward type="LootItem" id="motu_tier2_fetch_clear" ischosen="true" value="1"/>
 	</append>
 
+	<!--二级任务清理奖励添加-->
+	<remove xpath="/quests/quest[@id='tier2_clear_infested']/reward"/>
+	<append xpath="/quests/quest[@id='tier2_clear_infested']">
+		<reward type="Item" id="星源水晶" value="200"/>
+		<reward type="Item" id="末石" value="200"/>
+		<reward type="Item" id="途石" value="200"/>
+		<reward type="Item" id="神级强化结晶" value="2"/>
+		<reward type="Item" id="超神强化结晶" value="2"/>
+		<reward type="Item" id="千变碎片" value="5"/>
+		<reward type="LootItem" id="motu_tier2_clear" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier2_fetch" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier2_fetch_clear" ischosen="true" value="1"/>
+	</append>
+
+
+
 	<!--二级任务获取添加-->
 	<remove xpath="/quests/quest[@id='tier2_fetch']/reward"/>
 	<append xpath="/quests/quest[@id='tier2_fetch']">
@@ -257,6 +273,22 @@
 		<reward type="LootItem" id="motu_tier2_fetch" ischosen="true" value="1"/>
 		<reward type="LootItem" id="motu_tier2_clear" ischosen="true" value="1"/>
 	</append>
+
+	<!--二级任务发动机任务-->
+	<remove xpath="/quests/quest[@id='tier2_restore_power']/reward"/>
+	<append xpath="/quests/quest[@id='tier2_restore_power']">
+		<!--奖励-->
+		<reward type="Item" id="星源水晶" value="200"/>
+		<reward type="Item" id="末石" value="200"/>
+		<reward type="Item" id="途石" value="200"/>
+		<reward type="Item" id="神级强化结晶" value="2"/>
+		<reward type="Item" id="超神强化结晶" value="2"/>
+		<reward type="Item" id="千变碎片" value="5"/>
+		<reward type="LootItem" id="motu_tier2_buried_supplies" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier2_fetch" ischosen="true" value="1"/>
+		<reward type="LootItem" id="motu_tier2_clear" ischosen="true" value="1"/>
+	</append>
+
 
 	<!--二级任务挖宝添加-->
 	<remove xpath="/quests/quest[@id='tier2_buried_supplies']/reward"/>
@@ -290,6 +322,20 @@
 		<reward type="LootItem" id="motu_tier3_fetch_clear" ischosen="true" value="2"/>
 	</append>
 
+	<!--三级任务清理奖励添加-->
+	<remove xpath="/quests/quest[@id='tier3_clear_infested']/reward"/>
+	<append xpath="/quests/quest[@id='tier3_clear_infested']">
+		<reward type="Item" id="星源水晶" value="400"/>
+		<reward type="Item" id="末石" value="400"/>
+		<reward type="Item" id="途石" value="400"/>
+		<reward type="Item" id="神级强化结晶" value="4"/>
+		<reward type="Item" id="超神强化结晶" value="3"/>
+		<reward type="Item" id="千变碎片" value="10"/>
+		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier3_fetch" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier3_fetch_clear" ischosen="true" value="2"/>
+	</append>
+
 	<!--三级任务获取添加-->
 	<remove xpath="/quests/quest[@id='tier3_fetch']/reward"/>
 	<append xpath="/quests/quest[@id='tier3_fetch']">
@@ -307,6 +353,20 @@
 	<!--三级任务获取清理添加-->
 	<remove xpath="/quests/quest[@id='tier3_fetch_clear']/reward"/>
 	<append xpath="/quests/quest[@id='tier3_fetch_clear']">
+		<reward type="Item" id="星源水晶" value="400"/>
+		<reward type="Item" id="末石" value="400"/>
+		<reward type="Item" id="途石" value="400"/>
+		<reward type="Item" id="神级强化结晶" value="4"/>
+		<reward type="Item" id="超神强化结晶" value="3"/>
+		<reward type="Item" id="千变碎片" value="10"/>
+		<reward type="LootItem" id="motu_tier3_fetch_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier3_fetch" ischosen="true" value="2"/>
+	</append>
+
+	<!--三级任务发电机任务-->
+	<remove xpath="/quests/quest[@id='tier3_restore_power']/reward"/>
+	<append xpath="/quests/quest[@id='tier3_restore_power']">
 		<reward type="Item" id="星源水晶" value="400"/>
 		<reward type="Item" id="末石" value="400"/>
 		<reward type="Item" id="途石" value="400"/>
@@ -349,9 +409,37 @@
 		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
 	</append>
 
+	<!--四级任务清理奖励添加-->
+	<remove xpath="/quests/quest[@id='tier4_clear_infested']/reward"/>
+	<append xpath="/quests/quest[@id='tier4_clear_infested']">
+		<reward type="Item" id="星源水晶" value="600"/>
+		<reward type="Item" id="末石" value="600"/>
+		<reward type="Item" id="途石" value="600"/>
+		<reward type="Item" id="神级强化结晶" value="10"/>
+		<reward type="Item" id="超神强化结晶" value="6"/>
+		<reward type="Item" id="千变碎片" value="15"/>
+		<reward type="LootItem" id="motu_tier4_fetch_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
+	</append>
+
 	<!--四级任务获取清理添加-->
 	<remove xpath="/quests/quest[@id='tier4_fetch_clear']/reward"/>
 	<append xpath="/quests/quest[@id='tier4_fetch_clear']">
+		<reward type="Item" id="星源水晶" value="600"/>
+		<reward type="Item" id="末石" value="600"/>
+		<reward type="Item" id="途石" value="600"/>
+		<reward type="Item" id="神级强化结晶" value="10"/>
+		<reward type="Item" id="超神强化结晶" value="7"/>
+		<reward type="Item" id="千变碎片" value="15"/>
+		<reward type="LootItem" id="motu_tier4_fetch_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier3_clear" ischosen="true" value="2"/>
+	</append>
+
+	<!--四级任务获取清理发电机任务-->
+	<remove xpath="/quests/quest[@id='tier4_restore_power']/reward"/>
+	<append xpath="/quests/quest[@id='tier4_restore_power']">
 		<reward type="Item" id="星源水晶" value="600"/>
 		<reward type="Item" id="末石" value="600"/>
 		<reward type="Item" id="途石" value="600"/>
@@ -381,6 +469,20 @@
 
 	</append>
 
+	<!--五级任务清理奖励添加-->
+	<remove xpath="/quests/quest[@id='tier5_clear_infested']/reward"/>
+	<append xpath="/quests/quest[@id='tier5_clear_infested']">
+		<reward type="Item" id="星源水晶" value="1000"/>
+		<reward type="Item" id="末石" value="1000"/>
+		<reward type="Item" id="途石" value="1000"/>
+		<reward type="Item" id="神级强化结晶" value="15"/>
+		<reward type="Item" id="超神强化结晶" value="10"/>
+		<reward type="Item" id="千变碎片" value="20"/>
+		<reward type="LootItem" id="motu_tier5_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier5_fetch_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="2"/>
+	</append>
+
 	<!--五级任务获取清理添加-->
 	<remove xpath="/quests/quest[@id='tier5_fetch_clear']/reward"/>
 	<append xpath="/quests/quest[@id='tier5_fetch_clear']">
@@ -395,6 +497,19 @@
 		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="2"/>
 	</append>
 
+	<!--六级任务获取清理添加-->
+	<remove xpath="/quests/quest[@id='tier6_clear_infested']/reward"/>
+	<append xpath="/quests/quest[@id='tier6_clear_infested']">
+		<reward type="Item" id="星源水晶" value="1000"/>
+		<reward type="Item" id="末石" value="1000"/>
+		<reward type="Item" id="途石" value="1000"/>
+		<reward type="Item" id="神级强化结晶" value="20"/>
+		<reward type="Item" id="超神强化结晶" value="20"/>
+		<reward type="Item" id="千变碎片" value="100"/>
+		<reward type="LootItem" id="motu_tier5_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier5_fetch_clear" ischosen="true" value="2"/>
+		<reward type="LootItem" id="motu_tier4_clear" ischosen="true" value="2"/>
+	</append>
 
 
 	
