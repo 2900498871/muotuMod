@@ -4564,6 +4564,7 @@
 			<property name="ExperienceGain" value="1750"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+
 				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
@@ -7411,6 +7412,7 @@
 			<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
 			<!-- override the default replacement of meleeHandZombie02 with a specific hand item -->
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="火人Deco"/>
 				<!-- <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FireParticle"/> -->
 				<!-- Particle is trying to spawn on a mesh with zero surface area-->
 				<passive_effect name="HealthMax" operation="base_set" value="63000"/>
@@ -7451,6 +7453,7 @@
 			<property name="ExperienceGain" value="3700"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="火人Deco"/>
 				<!-- <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FireParticle"/> -->
 				<!-- Particle is trying to spawn on a mesh with zero surface area-->
 				<passive_effect name="HealthMax" operation="base_set" value="90550"/>
@@ -7654,6 +7657,7 @@
 			<!-- XP strong -->
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="火人Deco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="60240"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<!-- Zombie HP scale -->
@@ -9078,6 +9082,7 @@
 			<property name="HandItem" value="meleeHandZombieShockerFeral"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="闪电人Deco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="69000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<!-- Zombie HP scale -->
@@ -9112,6 +9117,7 @@
 			<property name="HandItem" value="meleeHandZombieShockerFeralWx1"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="闪电人Deco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="209000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<!-- Zombie HP scale -->
@@ -9146,6 +9152,7 @@
 			<property name="HandItem" value="meleeHandZombieShockerFeralWx2"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="闪电人Deco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="509000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<!-- Zombie HP scale -->
@@ -9180,6 +9187,7 @@
 			<property name="HandItem" value="meleeHandZombieShockerFeralWx3"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="闪电人Deco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="1009000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<!-- Zombie HP scale -->
@@ -9207,6 +9215,7 @@
 			<property name="HandItem" value="meleeHandZombieShocker"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="闪电人Deco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<!-- Zombie HP scale -->

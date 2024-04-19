@@ -11291,6 +11291,28 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 
 
 	<append xpath="/buffs">
+
+        <!--闪电人的特效及buff-->
+        <buff name="闪电人Deco" hidden="true">
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="-.1,.02,0" local_rotation="0,0,-90" parent_transform="LeftHand"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="-.1,.03,-.05" local_rotation="0,0,-90" parent_transform="RightHand"/>
+                <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+                <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+            </effect_group>
+        </buff>
+
+        <!--火人的特效及buff-->
+        <buff name="火人Deco" hidden="true">
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_burning_barrel" local_offset="-.1,.02,0" local_rotation="0,0,-90" parent_transform="LeftHand"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_burning_barrel" local_offset="-.1,.03,-.05" local_rotation="0,0,-90" parent_transform="RightHand"/>
+                <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_burning_barrel" />
+                <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_burning_barrel" />
+            </effect_group>
+        </buff>
+
+
 		<buff name="SpiritJuggernautDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.2,.13,0" local_rotation="180,0,0" parent_transform="LeftShoulder"/>
