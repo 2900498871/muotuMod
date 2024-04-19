@@ -5357,7 +5357,7 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/pickaxe_steelPrefab.prefab" local_offset="0,0.2,0" local_rotation="0,90,0" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/hoistChainPrefab" local_offset="0,0.2,0" local_rotation="0,0,0" parent_transform="Head"/>				
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0.1,0.02,-0.09" local_rotation="255,10,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="-0.13,-0.07,0" local_rotation="60,10,0" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.13,-0.07,0" local_rotation="60,10,0" parent_transform="LeftHand"/>
 			</effect_group>
 		</buff>
 <buff name="AAAA1" hidden="true">
@@ -5373,10 +5373,10 @@ description_key="[FFD306]附加效果:\n\n 攻击怪物有 20%几率触发[00EE0
 <!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.1,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 -->
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="-0.05,0.2,-0.25" local_rotation="0,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.05,0.2,-0.25" local_rotation="0,0,180" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,0" local_rotation="90,0,0" parent_transform="Spine"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Zombies/Zombies/zombieStandardSpiderRagdoll.prefab" local_offset="0,0.15,-0.2" local_rotation="0,0,0" parent_transform="Spine2"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="0.13,0,0.4" local_rotation="0,90,-180" parent_transform="Spine3"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="0.13,0,0.4" local_rotation="0,90,-180" parent_transform="Spine3"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Plants/pumpkinJackoLanternPrefab" local_offset="0,0.54,0.33" local_rotation="30,0,0" parent_transform="Spine"/>
 			</effect_group>
 		</buff>		
@@ -11651,7 +11651,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/pickaxe_steelPrefab.prefab" local_offset="0,0.2,0" local_rotation="0,90,0" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/hoistChainPrefab" local_offset="0,0.2,0" local_rotation="0,0,0" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0.1,0.02,-0.09" local_rotation="255,10,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="-0.13,-0.07,0" local_rotation="60,10,0" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.13,-0.07,0" local_rotation="60,10,0" parent_transform="LeftHand"/>
 			</effect_group>
 		</buff>
 
@@ -11677,10 +11677,10 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 <!--
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="particleeffects/p_candle_firstperson" local_offset="-.1,0.05,0.2" local_rotation="90,0,180" parent_transform="Head"/>
 -->
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="-0.05,0.2,-0.25" local_rotation="0,0,180" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.05,0.2,-0.25" local_rotation="0,0,180" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,0,0" local_rotation="90,0,0" parent_transform="Spine"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Zombies/Zombies/zombieStandardSpiderRagdoll.prefab" local_offset="0,0.15,-0.2" local_rotation="0,0,0" parent_transform="Spine2"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="0.13,0,0.4" local_rotation="0,90,-180" parent_transform="Spine3"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="0.13,0,0.4" local_rotation="0,90,-180" parent_transform="Spine3"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Plants/pumpkinJackoLanternPrefab" local_offset="0,0.54,0.33" local_rotation="30,0,0" parent_transform="Spine"/>
 			</effect_group>
 		</buff>
@@ -11816,7 +11816,7 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
 
 		<buff name="OniDeco" hidden="true">
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/ClubIronPrefab.prefab" local_offset="-0.09,0,-0.018" local_rotation="0,0,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.09,0,-0.018" local_rotation="0,0,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
 			</effect_group>
 		</buff>
 
