@@ -11312,6 +11312,12 @@ description_key="[FFD306]附加效果:\n\n [00EE00]+250%实体伤害\n  [00EE00]
             </effect_group>
         </buff>
 
+		<!--木乃伊的特效及buff-->
+		<buff name="木乃伊Deco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
+			</effect_group>
+		</buff>
 
 		<buff name="SpiritJuggernautDeco" hidden="true">
 			<effect_group>

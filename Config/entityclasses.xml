@@ -5005,6 +5005,7 @@
 			<property name="AITarget-1" value=""/>
 			<property name="SightRange" value="300"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="装备B"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="GeistDeco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
@@ -5040,6 +5041,7 @@
 			<property name="AITarget-1" value=""/>
 			<property name="SightRange" value="300"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="装备B"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="GeistDeco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="200000"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
@@ -5075,6 +5077,7 @@
 			<property name="AITarget-1" value=""/>
 			<property name="SightRange" value="300"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="装备B"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="GeistDeco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="500000"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
@@ -5110,6 +5113,7 @@
 			<property name="AITarget-1" value=""/>
 			<property name="SightRange" value="300"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="装备B"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="GeistDeco"/>
 				<passive_effect name="HealthMax" operation="base_set" value="1000000"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
@@ -8153,6 +8157,7 @@
 			<property name="ExperienceGain" value="2400"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="木乃伊Deco"/>
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
 				<passive_effect name="HealthMax" operation="base_set" value="55000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
@@ -8192,6 +8197,7 @@
 			<property name="ExperienceGain" value="2400"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="木乃伊Deco"/>
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
 				<passive_effect name="HealthMax" operation="base_set" value="205000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
@@ -8231,6 +8237,7 @@
 			<property name="ExperienceGain" value="2400"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="木乃伊Deco"/>
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
 				<passive_effect name="HealthMax" operation="base_set" value="505000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
@@ -8270,6 +8277,7 @@
 			<property name="ExperienceGain" value="2400"/>
 			<property name="LootDropProb" value="1"/>
 			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="木乃伊Deco"/>
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
 				<passive_effect name="HealthMax" operation="base_set" value="1005000"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
