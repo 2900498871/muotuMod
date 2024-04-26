@@ -6153,6 +6153,31 @@
 		<ingredient name="属性赋予结晶" count="1"/>
 	</recipe>
 
+	<!--*************************枪支插件****************************-->
+	<recipe name="[00FFFF]视界专注·倍镜☆[FF0000]2倍" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="末石" count="2000"/>
+		<ingredient name="途石" count="2000"/>
+		<ingredient name="超神强化结晶" count="200"/>
+		<ingredient name="casinoCoin" count="20000"/>
+		<ingredient name="modGunScopeSmall" count="2"/>
+	</recipe>
+
+	<recipe name="[00FFFF]视界专注·倍镜☆[FF0000]4倍" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="末石" count="3000"/>
+		<ingredient name="途石" count="3000"/>
+		<ingredient name="超神强化结晶" count="400"/>
+		<ingredient name="casinoCoin" count="20000"/>
+		<ingredient name="modGunScopeMedium" count="2"/>
+	</recipe>
+
+	<recipe name="[00FFFF]视界专注·倍镜☆[FF0000]8倍" count="1" craft_time=".1"  craft_area="源能 共震合成师" tags="源能 共震合成师">
+		<ingredient name="末石" count="5000"/>
+		<ingredient name="途石" count="5000"/>
+		<ingredient name="超神强化结晶" count="500"/>
+		<ingredient name="casinoCoin" count="40000"/>
+		<ingredient name="modGunScopeLarge" count="2"/>
+	</recipe>
+
 
 </append>
 </configs>

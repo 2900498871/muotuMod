@@ -2179,7 +2179,7 @@
 		<!--领域抵抗插件-->
 		<item group="MO8" count="1" prob=".008"/>
 
-		<item name="免疫碎片" count="1,30" prob=".1"/>
+		<item name="免疫碎片" count="1,30" prob=".2"/>
 
 	</lootcontainer>
 	<!--BeibaoWx☆☆☆-->
@@ -2221,7 +2221,7 @@
 		<!--领域抵抗插件-->
 		<item group="MO8" count="1" prob=".05"/>
 
-		<item name="免疫碎片" count="1,50" prob=".1"/>
+		<item name="免疫碎片" count="1,50" prob=".2"/>
 	</lootcontainer>
 
 	<!--sinkFin普通怪物掉包-->
